@@ -71,12 +71,16 @@ document.body.appendChild(summaryDiv);
 fetch('3d_embedding.json')
   .then((res) => res.json())
   .then((data) => {
-    const { points, labels, summaries } = data;
+    const { points, labels, titles, summaries } = data;
 
     points.forEach((p, i) => {
       const [x, y, z = 0] = p;
       const label = labels[i];
       const summary = summaries[i];
+      const filename = titles[i];
+      const date = filename.match(/^\d{4}-\d{2}-\d{2}/);
+      const caseText = filename.replace(/\.pdf$/i, "").replace(/^\d{4}-\d{2}-\d{2}_[^_]+_\d{2}-cv-\d+_/, "");
+      const title = `${date} :: ${caseText.replace(/_ et al$/i, "").trim()}`;
 
       const color = labelColor.get(label);
       const geometry = new THREE.SphereGeometry(0.03, 8, 8);
@@ -87,7 +91,7 @@ fetch('3d_embedding.json')
       sphere.position.set(x * scale, y * scale, z * scale);
 
       // Store summary inside the sphere
-      sphere.userData.label = label;
+      sphere.userData.title = title;
       sphere.userData.summary = summary;
 
       scene.add(sphere);
@@ -105,7 +109,7 @@ function onClick(event) {
   if (intersects.length > 0) {
     const obj = intersects[0].object;
     if (obj.userData.summary) {
-      summaryDiv.innerText = obj.userData.summary;
+      summaryDiv.innerText = obj.userData.title + "\n------\n" + obj.userData.summary;
       summaryDiv.style.display = 'block';
     }
   }
