@@ -3,7 +3,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 // Scene + Camera + Renderer
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x111111);
+scene.background = new THREE.Color(0xc9b5c8);
 
 const camera = new THREE.PerspectiveCamera(
   75,
@@ -29,6 +29,25 @@ const controls = new OrbitControls(camera, renderer.domElement);
 const axesHelper = new THREE.AxesHelper(5);
 scene.add(axesHelper);
 
+// Map color to label
+// Labels range from -1 to 7 :nod:
+const labelColor = new Map();
+labelColor.set(-1, 0x808080); // gray for -1
+
+const useableColors = [
+  'CornflowerBlue',
+  'Crimson',
+  'DarkCyan',
+  'DarkGreen',
+  'LawnGreen',
+  'DeepPink',
+  'MidnightBlue',
+  'OrangeRed'
+];
+for (let i = 0; i < 8; i++) {
+  labelColor.set(i, new THREE.Color(useableColors[i]));
+}
+
 // Load JSON embedding data
 fetch('3d_embedding.json')
   .then((res) => res.json())
@@ -39,13 +58,10 @@ fetch('3d_embedding.json')
       const [x, y, z = 0] = p;
       const label = labels[i];
 
-      const color =
-        label === -1
-          ? 0x888888
-          : new THREE.Color(`hsl(${(label * 40) % 360}, 70%, 50%)`);
+      const color = labelColor.get(label);
 
-      const geometry = new THREE.SphereGeometry(0.2, 8, 8);
-      const material = new THREE.MeshStandardMaterial({ color });
+      const geometry = new THREE.SphereGeometry(0.05, 8, 8);
+      const material = new THREE.MeshBasicMaterial({ color });
       const sphere = new THREE.Mesh(geometry, material);
 
       sphere.position.set(x, y, z);
