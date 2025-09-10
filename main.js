@@ -67,6 +67,128 @@ summaryDiv.style.fontFamily = 'sans-serif';
 summaryDiv.style.display = 'none'; // hidden until click
 document.body.appendChild(summaryDiv);
 
+window.addEventListener('click', onClick);
+
+const legendDiv = document.createElement('div');
+legendDiv.style.position = 'absolute';
+legendDiv.style.top = '10px';
+legendDiv.style.left = '10px';
+legendDiv.style.width = '240px';
+legendDiv.style.maxHeight = '60vh';
+legendDiv.style.overflowY = 'auto';
+legendDiv.style.background = 'rgba(255,255,255,0.9)';
+legendDiv.style.padding = '10px';
+legendDiv.style.border = '1px solid #ccc';
+legendDiv.style.borderRadius = '8px';
+legendDiv.style.fontFamily = 'sans-serif';
+legendDiv.style.display = 'none'; // hidden until data loads
+document.body.appendChild(legendDiv);
+
+const groupsByLabel = new Map(); // label -> [{ title, summary, sphere }]
+const allSpheres = []; // quick access to every sphere
+
+
+function renderLegend() {
+  legendDiv.innerHTML = '<b>Clusters</b><br/><small>Click any to show all summaries</small><hr/>';
+  const labels = [...groupsByLabel.keys()].sort((a, b) => a - b);
+
+  labels.forEach((lbl) => {
+    const color = labelColor.get(lbl);
+    const hex = (color instanceof THREE.Color) ? `#${color.getHexString()}` : '#808080';
+    const items = groupsByLabel.get(lbl) || [];
+
+    const row = document.createElement('div');
+    row.style.display = 'flex';
+    row.style.alignItems = 'center';
+    row.style.cursor = 'pointer';
+    row.style.padding = '6px 4px';
+    row.style.borderRadius = '6px';
+
+    row.onmouseenter = () => { row.style.background = 'rgba(0,0,0,0.04)'; };
+    row.onmouseleave = () => { row.style.background = 'transparent'; };
+
+    const swatch = document.createElement('span');
+    swatch.style.display = 'inline-block';
+    swatch.style.width = '14px';
+    swatch.style.height = '14px';
+    swatch.style.border = '1px solid #aaa';
+    swatch.style.borderRadius = '3px';
+    swatch.style.marginRight = '8px';
+    swatch.style.background = hex;
+
+    const labelText = document.createElement('span');
+    labelText.textContent = (lbl === -1 ? 'Noise/Unlabeled' : `Cluster ${lbl}`) + `  (${items.length})`;
+
+    row.appendChild(swatch);
+    row.appendChild(labelText);
+
+    row.addEventListener('click', () => {
+      showSummariesForLabel(lbl);
+      emphasizeLabel(lbl);
+    });
+
+    legendDiv.appendChild(row);
+  });
+
+  // Reset button
+  const resetBtn = document.createElement('button');
+  resetBtn.textContent = 'Reset highlight';
+  resetBtn.style.marginTop = '10px';
+  resetBtn.style.width = '100%';
+  resetBtn.style.padding = '8px';
+  resetBtn.style.border = '1px solid #bbb';
+  resetBtn.style.borderRadius = '6px';
+  resetBtn.style.background = '#f7f7f7';
+  resetBtn.addEventListener('click', () => {
+    clearEmphasis();
+    summaryDiv.style.display = 'none';
+  });
+  legendDiv.appendChild(document.createElement('hr'));
+  legendDiv.appendChild(resetBtn);
+
+  legendDiv.style.display = 'block';
+}
+
+// Show all summaries for a label in the right-hand panel
+function showSummariesForLabel(label) {
+  const items = groupsByLabel.get(label) || [];
+  if (!items.length) return;
+
+  // Build a simple list (sorted by title/date if you like)
+  const html = items
+    .slice()
+    .sort((a, b) => a.title.localeCompare(b.title))
+    .map((it, idx) => {
+      return `<div style="margin-bottom:12px;">
+        <div style="font-weight:bold">${idx + 1}. ${it.title}</div>
+        <div style="white-space:pre-wrap">${(it.summary || '').trim()}</div>
+      </div>`;
+    })
+    .join('<hr style="border:none;border-top:1px solid #eee;margin:8px 0" />');
+
+  summaryDiv.innerHTML = html;
+  summaryDiv.style.display = 'block';
+}
+
+// Dim non-matching spheres and emphasize matching ones
+function emphasizeLabel(label) {
+  allSpheres.forEach((s) => {
+    const match = s.userData.label === label;
+    s.material.transparent = true;
+    s.material.opacity = match ? 1.0 : 0.15;
+    s.scale.setScalar(match ? 1.8 : 1.0);
+  });
+}
+
+// Reset visual emphasis
+function clearEmphasis() {
+  allSpheres.forEach((s) => {
+    s.material.transparent = true;
+    s.material.opacity = 1.0;
+    s.scale.setScalar(1.0);
+  });
+}
+
 // Load JSON embedding data
 fetch('3d_embedding.json')
   .then((res) => res.json())
@@ -78,44 +200,56 @@ fetch('3d_embedding.json')
       const label = labels[i];
       const summary = summaries[i];
       const filename = titles[i];
+
       const date = filename.match(/^\d{4}-\d{2}-\d{2}/);
-      const caseText = filename.replace(/\.pdf$/i, "").replace(/^\d{4}-\d{2}-\d{2}_[^_]+_\d{2}-cv-\d+_/, "");
-      const title = `${date} :: ${caseText.replace(/_ et al$/i, "").trim()}`;
+      const caseText = filename
+        .replace(/\.pdf$/i, '')
+        .replace(/^\d{4}-\d{2}-\d{2}_[^_]+_\d{2}-cv-\d+_/, '');
+      const title = `${date} :: ${caseText.replace(/_ et al$/i, '').trim()}`;
 
       const color = labelColor.get(label);
       const geometry = new THREE.SphereGeometry(0.03, 8, 8);
-      const material = new THREE.MeshBasicMaterial({ color });
+      // NOTE: enable transparency so we can dim
+      const material = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 1.0 });
       const sphere = new THREE.Mesh(geometry, material);
 
       const scale = 0.6;
       sphere.position.set(x * scale, y * scale, z * scale);
 
-      // Store summary inside the sphere
+      // Store metadata
       sphere.userData.title = title;
       sphere.userData.summary = summary;
+      sphere.userData.label = label;
 
       scene.add(sphere);
+      allSpheres.push(sphere);
+
+      if (!groupsByLabel.has(label)) groupsByLabel.set(label, []);
+      groupsByLabel.get(label).push({ title, summary, sphere });
     });
-  });
+
+    // Build the legend once data is ready
+    renderLegend();
+});
 
 function onClick(event) {
-  // Get mouse coords
   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
 
   raycaster.setFromCamera(mouse, camera);
-  const intersects = raycaster.intersectObjects(scene.children);
+  // Only intersect actual spheres for reliability
+  const intersects = raycaster.intersectObjects(allSpheres, true);
 
   if (intersects.length > 0) {
     const obj = intersects[0].object;
     if (obj.userData.summary) {
       summaryDiv.innerText = obj.userData.title + "\n------\n" + obj.userData.summary;
       summaryDiv.style.display = 'block';
+      // Also emphasize its label for context
+      emphasizeLabel(obj.userData.label);
     }
   }
 }
-
-window.addEventListener('click', onClick);
 
 // Render loop
 function animate() {
