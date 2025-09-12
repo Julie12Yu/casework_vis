@@ -172,7 +172,7 @@ function renderLegend() {
   });
 
   // Reset button
-  const resetHighlightBtn = createButton('Reset highlights position');
+  const resetHighlightBtn = createButton('Reset highlights');
   resetHighlightBtn.addEventListener('click', () => {
     clearEmphasis();
     removeOutline();
