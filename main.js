@@ -286,8 +286,6 @@ function onClick(event) {
       createOutline(obj);
     }
   } else {
-    removeOutline();
-    clearEmphasis();
     summaryDiv.style.display = 'none';
   }
 }
