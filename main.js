@@ -1,6 +1,5 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { remove } from 'three/examples/jsm/libs/tween.module.js';
 
 // Scene + Camera + Renderer
 const scene = new THREE.Scene();
@@ -89,15 +88,15 @@ document.body.appendChild(legendDiv);
 const groupsByLabel = new Map(); // label -> [{ title, summary, sphere }]
 const allSpheres = []; // quick access to every sphere
 
-function createButton() {
+function createButton(buttonText) {
   const button = document.createElement('button');
-  resetCameraBtn.textContent = 'Reset camera position';
-  resetCameraBtn.style.marginTop = '10px';
-  resetCameraBtn.style.width = '100%';
-  resetCameraBtn.style.padding = '8px';
-  resetCameraBtn.style.border = '1px solid #bbb';
-  resetCameraBtn.style.borderRadius = '6px';
-  resetCameraBtn.style.background = '#f7f7f7';
+  button.textContent = buttonText;
+  button.style.marginTop = '10px';
+  button.style.width = '100%';
+  button.style.padding = '8px';
+  button.style.border = '1px solid #bbb';
+  button.style.borderRadius = '6px';
+  button.style.background = '#f7f7f7';
   return button;
 }
 
@@ -144,7 +143,7 @@ function renderLegend() {
   });
 
   // Reset button
-  const resetHighlightBtn = createButton();
+  const resetHighlightBtn = createButton('Reset highlights position');
   resetHighlightBtn.addEventListener('click', () => {
     clearEmphasis();
     removeOutline();
@@ -153,7 +152,7 @@ function renderLegend() {
   legendDiv.appendChild(document.createElement('hr'));
   legendDiv.appendChild(resetHighlightBtn);
 
-  const resetCameraBtn = createButton();
+  const resetCameraBtn = createButton('Reset camera position');
   resetCameraBtn.addEventListener('click', () => {
     controls.reset();
   });
@@ -221,6 +220,14 @@ function clearEmphasis() {
   });
 }
 
+function scrapeCaseName(rawCaseName) {
+  const date = rawCaseName.match(/^\d{4}-\d{2}-\d{2}/);
+  const caseText = rawCaseName
+    .replace(/\.pdf$/i, '')
+    .replace(/^\d{4}-\d{2}-\d{2}_[^_]+_\d{2}-cv-\d+_/, '');
+  return `${date} :: ${caseText.replace(/_ et al$/i, '').trim()}`;
+}
+
 // Load JSON embedding data
 fetch('3d_embedding.json')
   .then((res) => res.json())
@@ -233,11 +240,7 @@ fetch('3d_embedding.json')
       const summary = summaries[i];
       const filename = titles[i];
 
-      const date = filename.match(/^\d{4}-\d{2}-\d{2}/);
-      const caseText = filename
-        .replace(/\.pdf$/i, '')
-        .replace(/^\d{4}-\d{2}-\d{2}_[^_]+_\d{2}-cv-\d+_/, '');
-      const title = `${date} :: ${caseText.replace(/_ et al$/i, '').trim()}`;
+      const title = scrapeCaseName(filename);
 
       const color = labelColor.get(label);
       const geometry = new THREE.SphereGeometry(0.03, 8, 8);
