@@ -89,6 +89,17 @@ document.body.appendChild(legendDiv);
 const groupsByLabel = new Map(); // label -> [{ title, summary, sphere }]
 const allSpheres = []; // quick access to every sphere
 
+function createButton() {
+  const button = document.createElement('button');
+  resetCameraBtn.textContent = 'Reset camera position';
+  resetCameraBtn.style.marginTop = '10px';
+  resetCameraBtn.style.width = '100%';
+  resetCameraBtn.style.padding = '8px';
+  resetCameraBtn.style.border = '1px solid #bbb';
+  resetCameraBtn.style.borderRadius = '6px';
+  resetCameraBtn.style.background = '#f7f7f7';
+  return button;
+}
 
 function renderLegend() {
   legendDiv.innerHTML = '<b>Clusters</b><br/><small>Click any to show all summaries</small><hr/>';
@@ -133,14 +144,7 @@ function renderLegend() {
   });
 
   // Reset button
-  const resetHighlightBtn = document.createElement('button');
-  resetHighlightBtn.textContent = 'Reset highlight';
-  resetHighlightBtn.style.marginTop = '10px';
-  resetHighlightBtn.style.width = '100%';
-  resetHighlightBtn.style.padding = '8px';
-  resetHighlightBtn.style.border = '1px solid #bbb';
-  resetHighlightBtn.style.borderRadius = '6px';
-  resetHighlightBtn.style.background = '#f7f7f7';
+  const resetHighlightBtn = createButton();
   resetHighlightBtn.addEventListener('click', () => {
     clearEmphasis();
     removeOutline();
@@ -149,14 +153,7 @@ function renderLegend() {
   legendDiv.appendChild(document.createElement('hr'));
   legendDiv.appendChild(resetHighlightBtn);
 
-  const resetCameraBtn = document.createElement('button');
-  resetCameraBtn.textContent = 'Reset camera position';
-  resetCameraBtn.style.marginTop = '10px';
-  resetCameraBtn.style.width = '100%';
-  resetCameraBtn.style.padding = '8px';
-  resetCameraBtn.style.border = '1px solid #bbb';
-  resetCameraBtn.style.borderRadius = '6px';
-  resetCameraBtn.style.background = '#f7f7f7';
+  const resetCameraBtn = createButton();
   resetCameraBtn.addEventListener('click', () => {
     controls.reset();
   });
