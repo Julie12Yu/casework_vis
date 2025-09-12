@@ -17,6 +17,8 @@ camera.position.set(7, 6, 13);
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
+window.addEventListener('click', onClick);
+window.addEventListener('mousemove', onMouseMove);
 
 // Lighting
 const light = new THREE.PointLight(0xffffff, 1);
@@ -68,7 +70,6 @@ summaryDiv.style.fontFamily = 'sans-serif';
 summaryDiv.style.display = 'none'; // hidden until click
 document.body.appendChild(summaryDiv);
 
-window.addEventListener('click', onClick);
 
 const legendDiv = document.createElement('div');
 legendDiv.style.position = 'absolute';
@@ -85,8 +86,25 @@ legendDiv.style.fontFamily = 'sans-serif';
 legendDiv.style.display = 'none'; // hidden until data loads
 document.body.appendChild(legendDiv);
 
+const tooltip = document.createElement('div');
+tooltip.style.position = 'absolute';
+tooltip.style.padding = '4px 8px';
+tooltip.style.background = 'rgba(0,0,0,0.75)';
+tooltip.style.color = '#fff';
+tooltip.style.fontSize = '12px';
+tooltip.style.borderRadius = '4px';
+tooltip.style.pointerEvents = 'none';
+tooltip.style.fontFamily = 'sans-serif';
+tooltip.style.display = 'none';
+document.body.appendChild(tooltip);
+
 const groupsByLabel = new Map(); // label -> [{ title, summary, sphere }]
 const allSpheres = []; // quick access to every sphere
+
+function getMouse(event) {
+  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+}
 
 function createButton(buttonText) {
   const button = document.createElement('button');
@@ -277,10 +295,24 @@ fetch('3d_embedding.json')
     renderLegend();
 });
 
-function onClick(event) {
-  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+function onMouseMove(event) {
+  getMouse(event);
+  raycaster.setFromCamera(mouse, camera);
+  const intersects = raycaster.intersectObjects(allSpheres, false);
 
+  if (intersects.length > 0) {
+    const obj = intersects[0].object;
+    tooltip.style.display = 'block';
+    tooltip.textContent = obj.userData.title || '';
+    tooltip.style.left = event.clientX + 10 + 'px';
+    tooltip.style.top = event.clientY + 10 + 'px';
+  } else {
+    tooltip.style.display = 'none';
+  }
+}
+
+function onClick(event) {
+  getMouse(event);
   raycaster.setFromCamera(mouse, camera);
   // Only intersect actual spheres for reliability
   const intersects = raycaster.intersectObjects(allSpheres, false);
