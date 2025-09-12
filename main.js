@@ -225,7 +225,7 @@ function createOutline(sphere) {
     new THREE.MeshBasicMaterial({ color: 0x000000, side: THREE.BackSide, depthTest: false })
   );
   outline.renderOrder = 999;
-  outline.scale.setScalar(1.5);
+  outline.scale.setScalar(1.2);
   sphere.add(outline);
   sphere.userData.outline = outline;
   highlighted = sphere;
