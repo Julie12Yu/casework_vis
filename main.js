@@ -13,6 +13,8 @@ const camera = new THREE.PerspectiveCamera(
   1000
 );
 camera.position.set(8, 9, 5);
+window.addEventListener('click', onClick);
+window.addEventListener('mousemove', onMouseMove);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -244,11 +246,11 @@ function createOutline(sphere) {
 }
 
 function removeOutline() {
-    if (highlighted?.userData.outline) {
-        highlighted.remove(highlighted.userData.outline);
-        delete highlighted.userData.outline;
-    }
-    highlighted = null;
+  if (highlighted?.userData.outline) {
+      highlighted.remove(highlighted.userData.outline);
+      delete highlighted.userData.outline;
+  }
+  highlighted = null;
 }
 
 // Reset visual emphasis
