@@ -163,6 +163,7 @@ function renderLegend() {
     row.appendChild(labelText);
 
     row.addEventListener('click', () => {
+      removeOutline();
       showSummariesForLabel(lbl);
       emphasizeLabel(lbl);
     });
@@ -215,7 +216,6 @@ function emphasizeLabel(label) {
     const match = s.userData.label === label;
     s.material.transparent = true;
     s.material.opacity = match ? 1.0 : 0.15;
-    s.scale.setScalar(match ? 1.8 : 1.0);
   });
 }
 
