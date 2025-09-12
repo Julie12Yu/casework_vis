@@ -133,21 +133,34 @@ function renderLegend() {
   });
 
   // Reset button
-  const resetBtn = document.createElement('button');
-  resetBtn.textContent = 'Reset highlight';
-  resetBtn.style.marginTop = '10px';
-  resetBtn.style.width = '100%';
-  resetBtn.style.padding = '8px';
-  resetBtn.style.border = '1px solid #bbb';
-  resetBtn.style.borderRadius = '6px';
-  resetBtn.style.background = '#f7f7f7';
-  resetBtn.addEventListener('click', () => {
+  const resetHighlightBtn = document.createElement('button');
+  resetHighlightBtn.textContent = 'Reset highlight';
+  resetHighlightBtn.style.marginTop = '10px';
+  resetHighlightBtn.style.width = '100%';
+  resetHighlightBtn.style.padding = '8px';
+  resetHighlightBtn.style.border = '1px solid #bbb';
+  resetHighlightBtn.style.borderRadius = '6px';
+  resetHighlightBtn.style.background = '#f7f7f7';
+  resetHighlightBtn.addEventListener('click', () => {
     clearEmphasis();
     removeOutline();
     summaryDiv.style.display = 'none';
   });
   legendDiv.appendChild(document.createElement('hr'));
-  legendDiv.appendChild(resetBtn);
+  legendDiv.appendChild(resetHighlightBtn);
+
+  const resetCameraBtn = document.createElement('button');
+  resetCameraBtn.textContent = 'Reset camera position';
+  resetCameraBtn.style.marginTop = '10px';
+  resetCameraBtn.style.width = '100%';
+  resetCameraBtn.style.padding = '8px';
+  resetCameraBtn.style.border = '1px solid #bbb';
+  resetCameraBtn.style.borderRadius = '6px';
+  resetCameraBtn.style.background = '#f7f7f7';
+  resetCameraBtn.addEventListener('click', () => {
+    controls.reset();
+  });
+  legendDiv.appendChild(resetCameraBtn);
 
   legendDiv.style.display = 'block';
 }
@@ -157,7 +170,6 @@ function showSummariesForLabel(label) {
   const items = groupsByLabel.get(label) || [];
   if (!items.length) return;
 
-  // Build a simple list (sorted by title/date if you like)
   const html = items
     .slice()
     .sort((a, b) => a.title.localeCompare(b.title))
