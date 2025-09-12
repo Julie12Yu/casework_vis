@@ -97,6 +97,12 @@ function createButton(buttonText) {
   button.style.border = '1px solid #bbb';
   button.style.borderRadius = '6px';
   button.style.background = '#f7f7f7';
+  button.onmouseenter = () => {
+    button.style.background = '#e0e0e0';
+  };
+  button.onmouseleave = () => {
+    button.style.background = '#f7f7f7';
+  };
   return button;
 }
 
@@ -116,8 +122,12 @@ function renderLegend() {
     row.style.padding = '6px 4px';
     row.style.borderRadius = '6px';
 
-    row.onmouseenter = () => { row.style.background = 'rgba(0,0,0,0.04)'; };
-    row.onmouseleave = () => { row.style.background = 'transparent'; };
+    row.onmouseenter = () => { 
+      row.style.background = '#e0e0e0'; 
+    };
+    row.onmouseleave = () => { 
+      row.style.background = 'transparent'; 
+    };
 
     const swatch = document.createElement('span');
     swatch.style.display = 'inline-block';
