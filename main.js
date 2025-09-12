@@ -15,11 +15,17 @@ const camera = new THREE.PerspectiveCamera(
 camera.position.set(8, 9, 5);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.0;
 document.body.appendChild(renderer.domElement);
-window.addEventListener('click', onClick);
-window.addEventListener('mousemove', onMouseMove);
-
+const ambient = new THREE.AmbientLight(0xffffff, 0.6);
+scene.add(ambient);
+const dirLight = new THREE.DirectionalLight(0xffffff, 1.2);
+dirLight.position.set(5, 10, 7);
+scene.add(dirLight);
 // Lighting
 const light = new THREE.PointLight(0xffffff, 1);
 light.position.set(10, 10, 10);
@@ -222,7 +228,13 @@ function emphasizeLabel(label) {
 function createOutline(sphere) {
   const outline = new THREE.Mesh(
     sphere.geometry.clone(),
-    new THREE.MeshBasicMaterial({ color: 0x000000, side: THREE.BackSide, depthTest: false })
+    new THREE.MeshBasicMaterial({
+      color: 0x222222,
+      side: THREE.BackSide,
+      depthTest: false,
+      transparent: true,
+      opacity: 0.6
+    })
   );
   outline.renderOrder = 999;
   outline.scale.setScalar(1.2);
@@ -272,14 +284,21 @@ fetch('3d_embedding.json')
 
       const color = labelColor.get(label);
       const geometry = new THREE.SphereGeometry(0.03, 32, 32);
-      // NOTE: enable transparency so we can dim
-      const material = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 1.0 });
+
+      const material = new THREE.MeshStandardMaterial({
+        color,
+        metalness: 0.0,
+        roughness: 0.5,
+        transparent: true,
+        opacity: 1.0
+      });
+
       const sphere = new THREE.Mesh(geometry, material);
 
       const scale = 0.6;
       sphere.position.set(x * scale, y * scale, z * scale);
 
-      // Store metadata
+      // Metadata
       sphere.userData.title = title;
       sphere.userData.summary = summary;
       sphere.userData.label = label;
@@ -290,8 +309,6 @@ fetch('3d_embedding.json')
       if (!groupsByLabel.has(label)) groupsByLabel.set(label, []);
       groupsByLabel.get(label).push({ title, summary, sphere });
     });
-
-    // Build the legend once data is ready
     renderLegend();
 });
 
@@ -314,7 +331,6 @@ function onMouseMove(event) {
 function onClick(event) {
   getMouse(event);
   raycaster.setFromCamera(mouse, camera);
-  // Only intersect actual spheres for reliability
   const intersects = raycaster.intersectObjects(allSpheres, false);
 
   if (intersects.length > 0) {
@@ -323,7 +339,6 @@ function onClick(event) {
     if (obj.userData.summary) {
       summaryDiv.innerText = obj.userData.title + "\n------\n" + obj.userData.summary;
       summaryDiv.style.display = 'block';
-      // Also emphasize its label for context
       emphasizeLabel(obj.userData.label);
       createOutline(obj);
     }
