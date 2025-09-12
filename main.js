@@ -285,8 +285,6 @@ function onClick(event) {
       emphasizeLabel(obj.userData.label);
       createOutline(obj);
     }
-  } else {
-    summaryDiv.style.display = 'none';
   }
 }
 
