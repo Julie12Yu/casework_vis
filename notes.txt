@@ -1,0 +1,7 @@
+1. have the cluster things be checkboxes (keep highlighted)
+2. when you hover over reset highlight button, should stay highlighted
+3. highlight the bubble you click on
+4. add tooltip when you hover over dot (you see the case title)
+5. add on-shape esque perspective view
+
+(not in any particular priority order)

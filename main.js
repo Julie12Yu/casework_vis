@@ -1,17 +1,19 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { remove } from 'three/examples/jsm/libs/tween.module.js';
 
 // Scene + Camera + Renderer
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xeeeeee);
+let highlighted = null;
 
 const camera = new THREE.PerspectiveCamera(
-  75,
+  30,
   window.innerWidth / window.innerHeight,
   0.1,
   1000
 );
-camera.position.set(0, 0, 20);
+camera.position.set(7, 6, 13);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
@@ -141,6 +143,7 @@ function renderLegend() {
   resetBtn.style.background = '#f7f7f7';
   resetBtn.addEventListener('click', () => {
     clearEmphasis();
+    removeOutline();
     summaryDiv.style.display = 'none';
   });
   legendDiv.appendChild(document.createElement('hr'));
@@ -178,6 +181,26 @@ function emphasizeLabel(label) {
     s.material.opacity = match ? 1.0 : 0.15;
     s.scale.setScalar(match ? 1.8 : 1.0);
   });
+}
+
+function createOutline(sphere) {
+  const outline = new THREE.Mesh(
+    sphere.geometry.clone(),
+    new THREE.MeshBasicMaterial({ color: 0x000000, side: THREE.BackSide, depthTest: false })
+  );
+  outline.renderOrder = 999;
+  outline.scale.setScalar(1.5);
+  sphere.add(outline);
+  sphere.userData.outline = outline;
+  highlighted = sphere;
+}
+
+function removeOutline() {
+    if (highlighted?.userData.outline) {
+        highlighted.remove(highlighted.userData.outline);
+        delete highlighted.userData.outline;
+    }
+    highlighted = null;
 }
 
 // Reset visual emphasis
@@ -238,16 +261,22 @@ function onClick(event) {
 
   raycaster.setFromCamera(mouse, camera);
   // Only intersect actual spheres for reliability
-  const intersects = raycaster.intersectObjects(allSpheres, true);
+  const intersects = raycaster.intersectObjects(allSpheres, false);
 
   if (intersects.length > 0) {
     const obj = intersects[0].object;
+    removeOutline();
     if (obj.userData.summary) {
       summaryDiv.innerText = obj.userData.title + "\n------\n" + obj.userData.summary;
       summaryDiv.style.display = 'block';
       // Also emphasize its label for context
       emphasizeLabel(obj.userData.label);
+      createOutline(obj);
     }
+  } else {
+    removeOutline();
+    clearEmphasis();
+    summaryDiv.style.display = 'none';
   }
 }
 
