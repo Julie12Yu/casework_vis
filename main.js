@@ -271,7 +271,7 @@ fetch('3d_embedding.json')
       const title = scrapeCaseName(filename);
 
       const color = labelColor.get(label);
-      const geometry = new THREE.SphereGeometry(0.03, 8, 8);
+      const geometry = new THREE.SphereGeometry(0.03, 32, 32);
       // NOTE: enable transparency so we can dim
       const material = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 1.0 });
       const sphere = new THREE.Mesh(geometry, material);
