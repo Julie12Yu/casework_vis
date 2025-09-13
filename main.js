@@ -12,7 +12,7 @@ const camera = new THREE.PerspectiveCamera(
   0.1,
   1000
 );
-camera.position.set(8, 9, 5);
+camera.position.set(6.5, 8.5, 2.75);
 window.addEventListener('click', onClick);
 window.addEventListener('mousemove', onMouseMove);
 
@@ -35,6 +35,7 @@ scene.add(light);
 
 // Controls
 const controls = new OrbitControls(camera, renderer.domElement);
+controls.maxDistance = 11;
 
 // Debug helper
 const axesHelper = new THREE.AxesHelper(5);
@@ -334,7 +335,7 @@ function onClick(event) {
   getMouse(event);
   raycaster.setFromCamera(mouse, camera);
   const intersects = raycaster.intersectObjects(allSpheres, false);
-
+  console.log("positions: ", camera.position.x, camera.position.y, camera.position.z);
   if (intersects.length > 0) {
     const obj = intersects[0].object;
     removeOutline();
