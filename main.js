@@ -290,7 +290,7 @@ fetch('3d_embedding.json')
       const material = new THREE.MeshStandardMaterial({
         color,
         metalness: 0.0,
-        roughness: 0.3,
+        roughness: 0.5,
         transparent: true,
         opacity: 1.0
       });
