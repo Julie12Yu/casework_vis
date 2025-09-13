@@ -23,7 +23,7 @@ renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 1.0;
 document.body.appendChild(renderer.domElement);
-const ambient = new THREE.AmbientLight(0xffffff, 0.6);
+const ambient = new THREE.AmbientLight(0xffffff, 1.6);
 scene.add(ambient);
 const dirLight = new THREE.DirectionalLight(0xffffff, 1.2);
 dirLight.position.set(5, 10, 7);
@@ -290,7 +290,7 @@ fetch('3d_embedding.json')
       const material = new THREE.MeshStandardMaterial({
         color,
         metalness: 0.0,
-        roughness: 0.5,
+        roughness: 0.3,
         transparent: true,
         opacity: 1.0
       });
