@@ -159,7 +159,21 @@ fetch('3d_embedding.json')
       if (!groupsByLabel.has(label)) groupsByLabel.set(label, []);
       groupsByLabel.get(label).push({ title, summary, sphere });
     });
-    renderLegend(legendDiv, groupsByLabel, labelColor, controls, summaryDiv, allSpheres, clearEmphasis, emphasizeLabel, removeOutline);
+    fetch('categories.json') // make sure this is served by your dev server (e.g., public/categories.json)
+    .then((r) => (r.ok ? r.json() : {}))
+    .catch(() => ({}))
+    .then((raw) => {
+      // Normalize keys to strings ("3", "4", …)
+      const categories = Object.fromEntries(
+        Object.entries(raw).map(([k, v]) => [String(k), v])
+      );
+
+      renderLegend(
+        legendDiv, groupsByLabel, labelColor, controls,
+        summaryDiv, allSpheres, clearEmphasis, emphasizeLabel, removeOutline,
+        categories
+      );
+    });
 });
 
 function onMouseMove(event) {

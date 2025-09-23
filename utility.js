@@ -93,7 +93,7 @@ export function createUtilityUI() {
   return { summaryDiv, legendDiv, tooltip };
 }
 
-export function renderLegend(legendDiv, groupsByLabel, labelColor, controls, summaryDiv, allSpheres, clearEmphasis, emphasizeLabel, removeOutline) {
+export function renderLegend(legendDiv, groupsByLabel, labelColor, controls, summaryDiv, allSpheres, clearEmphasis, emphasizeLabel, removeOutline, categories) {
   legendDiv.innerHTML = '<b>Clusters</b><br/><small>Click any to show all summaries</small><hr/>';
   const labels = [...groupsByLabel.keys()].sort((a, b) => a - b);
 
@@ -101,6 +101,8 @@ export function renderLegend(legendDiv, groupsByLabel, labelColor, controls, sum
     const color = labelColor.get(lbl);
     const hex = (color instanceof THREE.Color) ? `#${color.getHexString()}` : '#808080';
     const items = groupsByLabel.get(lbl) || [];
+    const meta = categories ? categories[String(lbl)] : undefined;
+    const clusterType = meta?.category || `Cluster ${lbl}`;
 
     const row = document.createElement('div');
     row.style.display = 'flex';
@@ -126,7 +128,7 @@ export function renderLegend(legendDiv, groupsByLabel, labelColor, controls, sum
     swatch.style.background = hex;
 
     const labelText = document.createElement('span');
-    labelText.textContent = (lbl === -1 ? 'Noise/Unlabeled' : `Cluster ${lbl}`) + `  (${items.length})`;
+    labelText.textContent = (lbl === -1 ? 'Noise/Unlabeled' : `${clusterType}`) + `  (${items.length})`;
 
     row.appendChild(swatch);
     row.appendChild(labelText);
