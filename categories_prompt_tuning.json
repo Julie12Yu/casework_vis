@@ -1,0 +1,107 @@
+{
+  "3": {
+    "categories": [
+      "AI in Legal Proceedings",
+      "Unrelated"
+    ],
+    "primary": "AI in Legal Proceedings",
+    "secondary": "Unrelated",
+    "confidence": 0.85,
+    "rationale": "The cluster contains multiple cases where AI is referenced in the context of legal proceedings, particularly regarding the use of AI tools in drafting legal documents and the implications of such usage on case outcomes. However, many cases also involve unrelated claims or frivolous allegations, indicating a mix of themes.",
+    "total_summaries": 132,
+    "used_summaries": 132
+  },
+  "5": {
+    "categories": [
+      "Privacy and Data Protection",
+      "AI in Legal Proceedings"
+    ],
+    "primary": "Privacy and Data Protection",
+    "secondary": "AI in Legal Proceedings",
+    "confidence": 0.9,
+    "rationale": "The cluster predominantly addresses issues related to privacy violations, particularly concerning biometric data and unauthorized data collection, while also involving AI technologies in the context of these disputes.",
+    "total_summaries": 47,
+    "used_summaries": 47
+  },
+  "-1": {
+    "categories": [
+      "Unrelated"
+    ],
+    "primary": "Unrelated",
+    "secondary": null,
+    "confidence": 1.0,
+    "rationale": "The cluster primarily involves bankruptcy, fraud, and contract disputes without meaningful connections to AI or automated systems.",
+    "total_summaries": 65,
+    "used_summaries": 65
+  },
+  "6": {
+    "categories": [
+      "IP Law"
+    ],
+    "primary": "IP Law",
+    "secondary": null,
+    "confidence": 0.95,
+    "rationale": "The cluster predominantly involves cases related to copyright infringement concerning the use of copyrighted works to train AI models, highlighting issues of intellectual property rights in the context of AI technology.",
+    "total_summaries": 19,
+    "used_summaries": 19
+  },
+  "2": {
+    "categories": [
+      "Consumer Protection",
+      "IP Law"
+    ],
+    "primary": "Consumer Protection",
+    "secondary": "IP Law",
+    "confidence": 0.85,
+    "rationale": "The cluster primarily involves cases of securities fraud and misleading statements related to AI-driven products and services, which fall under consumer protection due to the impact on investors. Additionally, some cases touch on intellectual property aspects related to AI technologies.",
+    "total_summaries": 20,
+    "used_summaries": 20
+  },
+  "4": {
+    "categories": [
+      "AI in Legal Proceedings",
+      "IP Law"
+    ],
+    "primary": "AI in Legal Proceedings",
+    "secondary": "IP Law",
+    "confidence": 0.85,
+    "rationale": "The cluster contains multiple cases involving AI technologies, particularly in the context of legal proceedings, confidentiality, and intellectual property disputes related to AI models and data.",
+    "total_summaries": 33,
+    "used_summaries": 33
+  },
+  "7": {
+    "categories": [
+      "IP Law",
+      "Antitrust"
+    ],
+    "primary": "IP Law",
+    "secondary": "Antitrust",
+    "confidence": 0.9,
+    "rationale": "The cluster primarily revolves around intellectual property disputes, particularly copyright infringement and trade secret misappropriation related to AI technologies, while also addressing antitrust claims in the context of competition in the legal tech market.",
+    "total_summaries": 67,
+    "used_summaries": 67
+  },
+  "0": {
+    "categories": [
+      "IP Law"
+    ],
+    "primary": "IP Law",
+    "secondary": null,
+    "confidence": 0.95,
+    "rationale": "The cluster primarily involves patent infringement cases related to various technologies, including those utilizing AI and automated systems, indicating a strong focus on intellectual property law.",
+    "total_summaries": 14,
+    "used_summaries": 14
+  },
+  "1": {
+    "categories": [
+      "Consumer Protection",
+      "Justice and Equity"
+    ],
+    "primary": "Consumer Protection",
+    "secondary": "Justice and Equity",
+    "confidence": 0.85,
+    "rationale": "The cluster primarily involves securities fraud cases related to misleading financial statements and deceptive practices, which fall under Consumer Protection. Additionally, the last case introduces elements of Justice and Equity through discrimination allegations and the use of AI for diversity initiatives.",
+    "total_summaries": 27,
+    "used_summaries": 27
+  }
+}

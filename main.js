@@ -159,13 +159,27 @@ fetch('3d_embedding.json')
       if (!groupsByLabel.has(label)) groupsByLabel.set(label, []);
       groupsByLabel.get(label).push({ title, summary, sphere });
     });
-    fetch('categories.json') // make sure this is served by your dev server (e.g., public/categories.json)
+    fetch('categories_prompt_tuning.json')
     .then((r) => (r.ok ? r.json() : {}))
     .catch(() => ({}))
     .then((raw) => {
-      // Normalize keys to strings ("3", "4", …)
       const categories = Object.fromEntries(
-        Object.entries(raw).map(([k, v]) => [String(k), v])
+        Object.entries(raw).map(([k, v]) => {
+          const key = String(k);
+
+          const primary =
+            v?.primary ??
+            (Array.isArray(v?.categories) ? v.categories[0] : undefined);
+          const secondary =
+            v?.secondary ??
+            (Array.isArray(v?.categories) ? v.categories[1] : undefined);
+
+          const category =
+            [primary, secondary].filter(Boolean).join(' — ') ||
+            v?.category ||
+            `Cluster ${key}`;
+          return [key, { category }];
+        })
       );
 
       renderLegend(

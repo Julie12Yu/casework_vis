@@ -4,7 +4,7 @@ import time
 from typing import Dict, Any, Optional, List
 
 INPUT_FILE_PATH = "categories_from_summaries.json"
-OUTPUT_FILE_PATH = "categories_sept_29.json"
+OUTPUT_FILE_PATH = "categories_prompt_tuning.json"
 
 try:
     from dotenv import load_dotenv
@@ -31,9 +31,9 @@ except Exception:
 # System prompt
 SYSTEM_PROMPT = (
     "You are a precise legal-tech classifier. Assign each CLUSTER (a group of case summaries) "
-    "to exactly one category from this taxonomy, or 'Unrelated' if none apply. "
-    "Be conservative: do NOT assign an AI-related category unless AI is CENTRAL to the dispute or decision. "
-    "Briefly justify based on the dominant/common themes across the cluster. Return strict JSON.\n\n"
+    "to one or more categories from the taxonomy, or 'Unrelated' if none apply. "
+    "Be conservative: do NOT assign AI-related categories unless AI is CENTRAL to the dispute or decision. "
+    "Return strict JSON only.\n\n"
     "Allowed categories (keys):\n"
     "- Antitrust\n"
     "- IP Law\n"
@@ -53,19 +53,21 @@ SYSTEM_PROMPT = (
     "AI in Legal Proceedings: refers to cases where AI systems are merely used in the court processes, legal case management, or litigation tools. The core contention is not about AI, but AI tools have been used in the litigation process.\n"
     "Unrelated: refers to cases that have no meaningful connection to artificial intelligence (AI), machine learning (ML), or automated systems. If the case involves discrimination, privacy, or other issues **without automation/AI/algorithmic involvement**, classify as Unrelated.\n\n"
     "Output (strict JSON only): "
-    "{\"category\": <one of the keys>, \"confidence\": number between 0 and 1, \"rationale\": short string}"
+    "{\"categories\": [<=2 categories], \"primary\": <one category>, \"secondary\": <category or null>, "
+    "\"confidence\": number between 0 and 1, \"rationale\": short string}. "
+    "The 'primary' must be one of 'categories'. If only one category applies, set 'secondary' to null."
 )
 
 # User instruction template (cluster-level)
 USER_INSTRUCTION_TEMPLATE = (
     "You will classify a CLUSTER of U.S. case SUMMARIES using the taxonomy above.\n"
-    "- Choose exactly ONE category, or 'Unrelated'.\n"
-    "- Base your decision on the dominant/common themes across the summaries (ignore outliers).\n"
-    "- Keep the rationale concise and cluster-wide.\n\n"
+    "- Select one or two categories that best capture the dominant/common themes across the summaries (AT MOST 2).\n"
+    "- Include 'Unrelated' if AI/automation is not meaningfully present.\n"
+    "- Choose one 'primary' category as the dominant theme and, if needed, a 'secondary' (or null if none).\n"
+    "- Keep the rationale concise and cluster-wide; do not list individual cases.\n\n"
     "CLUSTER NAME: {cluster_name}\n"
     "SUMMARIES (each item is one case in the cluster):\n{summaries_block}"
 )
-
 
 def _openai_client():
     if _OPENAI_SDK_V1:
@@ -83,6 +85,29 @@ def _format_summaries_block(summaries: List[str]) -> str:
         lines.append(f"{i}. {s}")
     return "\n".join(lines)
 
+def _enforce_two_categories(categories: List[str], primary: str) -> List[str]:
+    seen = set()
+    normed = []
+    for c in categories or []:
+        c = str(c).strip()
+        if not c:
+            continue
+        if c not in seen:
+            seen.add(c)
+            normed.append(c)
+
+    if not normed:
+        normed = ["Unrelated"]
+
+    primary = (primary or "").strip()
+    if not primary:
+        primary = normed[0]
+
+    if primary in normed:
+        normed.remove(primary)
+    normed = [primary] + normed
+
+    return normed[:2]
 
 def classify_cluster_with_gpt(cluster_name: str, summaries: List[str]) -> Dict[str, Any]:
     if MAX_SUMMARIES_PER_CLUSTER and len(summaries) > MAX_SUMMARIES_PER_CLUSTER:
@@ -106,6 +131,7 @@ def classify_cluster_with_gpt(cluster_name: str, summaries: List[str]) -> Dict[s
 
     for attempt in range(1, MAX_RETRIES + 1):
         try:
+            content = None
             if _OPENAI_SDK_V1:
                 client = _openai_client()
                 resp = client.chat.completions.create(
@@ -126,12 +152,40 @@ def classify_cluster_with_gpt(cluster_name: str, summaries: List[str]) -> Dict[s
                 )
                 content = resp["choices"][0]["message"]["content"]
 
-            parsed = json.loads(content)
-            category = parsed.get("category", "Unrelated")
-            confidence = float(parsed.get("confidence", 0.0))
-            rationale = str(parsed.get("rationale", ""))
+            parsed = json.loads(content or "{}")
+
+            categories = parsed.get("categories")
+            if isinstance(categories, str):
+                categories = [categories]
+            if not categories or not isinstance(categories, list):
+                one = parsed.get("category")
+                if isinstance(one, str) and one:
+                    categories = [one]
+                else:
+                    categories = ["Unrelated"]
+
+            primary = parsed.get("primary")
+            if not isinstance(primary, str) or not primary.strip():
+                primary = (categories[0] if categories else "Unrelated")
+            categories = _enforce_two_categories(categories, primary)
+
+            primary = categories[0] if categories else "Unrelated"
+
+            secondary = None
+            if len(categories) > 1 and categories[1] != primary:
+                secondary = categories[1]
+
+            try:
+                confidence = float(parsed.get("confidence", 0.0))
+            except Exception:
+                confidence = 0.0
+
+            rationale = str(parsed.get("rationale", "")).strip()
+
             return {
-                "category": category,
+                "categories": categories,
+                "primary": primary,
+                "secondary": secondary, # None if only one category
                 "confidence": confidence,
                 "rationale": rationale,
                 "total_summaries": len(summaries),
@@ -145,11 +199,13 @@ def classify_cluster_with_gpt(cluster_name: str, summaries: List[str]) -> Dict[s
             backoff = min(backoff * 2, 8)
 
     return {
-        "category": "Unrelated",
+        "categories": ["Unrelated"],
+        "primary": "Unrelated",
+        "secondary": None,
         "confidence": 0.0,
         "rationale": f"Classification failed after retries: {type(last_error).__name__ if last_error else 'Unknown error'}",
         "total_summaries": len(summaries),
-        "used_summaries": len(use_summaries),
+        "used_summaries": len(summaries),
     }
 
 
@@ -157,12 +213,12 @@ def classify_clusters(file_path: str) -> Dict[str, Any]:
     with open(file_path, "r") as f:
         data = json.load(f)
 
-    # Load existing results to support resume-ability
+    # Load existing results
     existing: Dict[str, Any] = {}
     if os.path.exists(OUTPUT_FILE_PATH):
         try:
             with open(OUTPUT_FILE_PATH, "r") as ef:
-                existing = json.load(ef)
+                existing = json.load(ef) or {}
         except Exception:
             existing = {}
 
@@ -180,14 +236,34 @@ def classify_clusters(file_path: str) -> Dict[str, Any]:
 
         print(f"[{cluster_name}] Classifying cluster with {len(summaries)} summaries...", flush=True)
         cls = classify_cluster_with_gpt(cluster_name, summaries)
-        print(f" -> {cls['category']} ({cls['confidence']:.2f})", flush=True)
+
+        cats = cls.get("categories") or ["Unrelated"]
+        if isinstance(cats, str):
+            cats = [cats]
+        # Ensure cats are at most 2 and primary first for display
+        primary = (cls.get("primary") or (cats[0] if cats else "Unrelated")).strip() or "Unrelated"
+        cats = _enforce_two_categories(cats, primary)
+        primary = cats[0]
+        secondary = cls.get("secondary")
+        if len(cats) > 1 and cats[1] != primary:
+            secondary = cats[1]
+        elif len(cats) == 1:
+            secondary = None
+
+        cats_str = ", ".join(cats) if cats else "Unrelated"
+        conf = float(cls.get("confidence", 0.0))
+
+        sec_str = f", secondary: {secondary}" if secondary else ""
+        print(f" -> {cats_str} [primary: {primary}{sec_str}] ({conf:.2f})", flush=True)
 
         results[cluster_name] = {
-            "category": cls["category"],
-            "confidence": cls["confidence"],
-            "rationale": cls["rationale"],
-            "total_summaries": cls["total_summaries"],
-            "used_summaries": cls["used_summaries"],
+            "categories": cats,
+            "primary": primary,
+            "secondary": secondary,
+            "confidence": conf,
+            "rationale": cls.get("rationale", ""),
+            "total_summaries": int(cls.get("total_summaries", len(summaries))),
+            "used_summaries": int(cls.get("used_summaries", len(summaries))),
         }
 
         _atomic_write_json(OUTPUT_FILE_PATH, results)
