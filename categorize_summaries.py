@@ -3,32 +3,23 @@ import os
 import time
 from typing import Dict, Any, Optional, List
 
-# === File paths (edit as needed) ===
-INPUT_FILE_PATH = "categories_from_summaries.json"  # {"cluster_name": ["summary1", "summary2", ...], ...}
-OUTPUT_FILE_PATH = "categories.json"                # Output written here
+INPUT_FILE_PATH = "categories_from_summaries.json"
+OUTPUT_FILE_PATH = "categories_sept_29.json"
 
-# === .env support ===
 try:
-    from dotenv import load_dotenv  # pip install python-dotenv
+    from dotenv import load_dotenv
     load_dotenv()
 except Exception:
     pass
 
-# === Config via env ===
+# Config via env
 API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 TEMPERATURE = float(os.getenv("OPENAI_TEMPERATURE", "0.0"))
 MAX_RETRIES = int(os.getenv("OPENAI_MAX_RETRIES", "5"))
 REQUEST_TIMEOUT = int(os.getenv("OPENAI_REQUEST_TIMEOUT", "60"))
-# If > 0, sample up to this many summaries per cluster (helps with token limits)
-MAX_SUMMARIES_PER_CLUSTER = int(os.getenv("MAX_SUMMARIES_PER_CLUSTER", "0"))
-# If set to 1, do not call the API (use placeholder)
-DRY_RUN = os.getenv("DRY_RUN", "0") == "1"
+MAX_SUMMARIES_PER_CLUSTER = int(os.getenv("MAX_SUMMARIES_PER_CLUSTER", "0")) # if non-zero, creates limit
 
-if not API_KEY and not DRY_RUN:
-    raise SystemExit("OPENAI_API_KEY is missing. Put it in your environment or .env")
-
-# === OpenAI client ===
 try:
     from openai import OpenAI
     _OPENAI_SDK_V1 = True
@@ -37,34 +28,35 @@ except Exception:
     _OPENAI_SDK_V1 = False
 
 
-# === System prompt (cluster-level) ===
+# System prompt
 SYSTEM_PROMPT = (
     "You are a precise legal-tech classifier. Assign each CLUSTER (a group of case summaries) "
     "to exactly one category from this taxonomy, or 'Unrelated' if none apply. "
     "Be conservative: do NOT assign an AI-related category unless AI is CENTRAL to the dispute or decision. "
     "Briefly justify based on the dominant/common themes across the cluster. Return strict JSON.\n\n"
     "Allowed categories (keys):\n"
-    "- AI in Legal Proceedings\n"
     "- Antitrust\n"
-    "- Consumer Protection\n"
     "- IP Law\n"
     "- Privacy and Data Protection\n"
     "- Tort\n"
     "- Justice and Equity\n"
+    "- Consumer Protection\n"
+    "- AI in Legal Proceedings\n"
     "- Unrelated\n\n"
     "Definitions / cues:\n"
-    "AI in Legal Proceedings: AI used IN court processes, case mgmt, litigation tools; AI affecting judicial outcomes; legal tech platforms, e-discovery, legal AI assistants.\n"
-    "Antitrust: Market competition/monopolization with tech/AI firms; anti-competitive practices.\n"
-    "Consumer Protection: Deceptive/unfair practices with tech or automated systems; misleading marketing of tech/AI capabilities.\n"
-    "IP Law: Patents/copyrights/trademarks for AI/models/tech; training data disputes; ownership of AI-generated content.\n"
-    "Privacy and Data Protection: Data breaches; unauthorized data collection; privacy violations involving algorithms/data processing.\n"
-    "Tort: Physical harm, emotional distress, negligence involving automated systems; defamation; personal injury from tech/algorithms.\n"
-    "Justice and Equity: Discrimination or bias by automated systems (hiring, lending, search); civil rights violations; unfair treatment based on algorithmic decisions.\n\n"
+    "Antitrust: refers to cases where the defendant is accused of market competition, monopolization involving ANY tech companies, or anti-competitive practices by major platforms or AI companies.\n"
+    "IP Law: refers to cases where the defendant is accused of patents, copyrights, trademarks for AI models or tech, or training data disputes, AI-generated content ownership.\n"
+    "Privacy and Data Protection: refers to cases where the defendant is accused of data breaches, unauthorized data collection by automated systems, or privacy violations involving algorithms or data processing.\n"
+    "Tort: refers to cases where the defendant is accused of physical harm, emotional distress, negligence involving ANY automated systems, or defamation, personal injury from tech systems or algorithms.\n"
+    "Justice and Equity: refers to cases where the defendant is accused of discrimination or bias **caused by AI, automated systems, or algorithms** (e.g., hiring, lending, search). Do not use this category for discrimination cases without automation.\n"
+    "Consumer Protection: refers to cases where the defendant is accused of deceptive practices, unfair business practices with tech/automated systems, or misleading marketing of tech products or AI capabilities.\n"
+    "AI in Legal Proceedings: refers to cases where AI systems are merely used in the court processes, legal case management, or litigation tools. The core contention is not about AI, but AI tools have been used in the litigation process.\n"
+    "Unrelated: refers to cases that have no meaningful connection to artificial intelligence (AI), machine learning (ML), or automated systems. If the case involves discrimination, privacy, or other issues **without automation/AI/algorithmic involvement**, classify as Unrelated.\n\n"
     "Output (strict JSON only): "
     "{\"category\": <one of the keys>, \"confidence\": number between 0 and 1, \"rationale\": short string}"
 )
 
-# === User instruction template (cluster-level) ===
+# User instruction template (cluster-level)
 USER_INSTRUCTION_TEMPLATE = (
     "You will classify a CLUSTER of U.S. case SUMMARIES using the taxonomy above.\n"
     "- Choose exactly ONE category, or 'Unrelated'.\n"
@@ -93,12 +85,6 @@ def _format_summaries_block(summaries: List[str]) -> str:
 
 
 def classify_cluster_with_gpt(cluster_name: str, summaries: List[str]) -> Dict[str, Any]:
-    """
-    Classify the entire cluster (group of summaries) into a single category.
-    """
-    if DRY_RUN:
-        return {"category": "Unrelated", "confidence": 0.0, "rationale": "dry-run"}
-
     if MAX_SUMMARIES_PER_CLUSTER and len(summaries) > MAX_SUMMARIES_PER_CLUSTER:
         use_summaries = summaries[:MAX_SUMMARIES_PER_CLUSTER]
     else:
@@ -168,17 +154,6 @@ def classify_cluster_with_gpt(cluster_name: str, summaries: List[str]) -> Dict[s
 
 
 def classify_clusters(file_path: str) -> Dict[str, Any]:
-    """
-    Reads clusters from INPUT_FILE_PATH and classifies each cluster ONCE.
-    Output format per cluster:
-      {
-        "category": str,
-        "confidence": float,
-        "rationale": str,
-        "total_summaries": int,
-        "used_summaries": int
-      }
-    """
     with open(file_path, "r") as f:
         data = json.load(f)
 
@@ -198,8 +173,8 @@ def classify_clusters(file_path: str) -> Dict[str, Any]:
         if not isinstance(summaries, list):
             continue
 
-        # Skip if already classified (unless DRY_RUN)
-        if not DRY_RUN and cluster_name in results and isinstance(results[cluster_name], dict):
+        # Skip if already classified
+        if cluster_name in results and isinstance(results[cluster_name], dict):
             print(f"[{cluster_name}] Already classified; skipping.", flush=True)
             continue
 

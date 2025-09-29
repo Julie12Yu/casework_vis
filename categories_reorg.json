@@ -1,0 +1,65 @@
+{
+  "3": {
+    "category": "AI in Legal Proceedings",
+    "confidence": 0.9,
+    "rationale": "The cluster predominantly involves cases where artificial intelligence is central to the legal disputes, including issues related to the use of AI in legal filings, allegations of AI-related discrimination, and claims involving AI-generated content. The cases reflect significant themes around the implications of AI in legal processes and the responsibilities of legal practitioners in verifying AI-generated information.",
+    "total_summaries": 132,
+    "used_summaries": 132
+  },
+  "5": {
+    "category": "Privacy and Data Protection",
+    "confidence": 0.95,
+    "rationale": "The cluster predominantly involves cases related to unauthorized data collection, privacy violations, and biometric data usage, often facilitated by AI and automated systems, highlighting significant concerns over privacy rights.",
+    "total_summaries": 47,
+    "used_summaries": 47
+  },
+  "-1": {
+    "category": "Unrelated",
+    "confidence": 0.9,
+    "rationale": "The cluster primarily consists of bankruptcy, fraud, and contract disputes, with only peripheral mentions of AI that do not centralize the legal issues. Most cases do not involve AI as a core element of the dispute.",
+    "total_summaries": 65,
+    "used_summaries": 65
+  },
+  "6": {
+    "category": "IP Law",
+    "confidence": 0.95,
+    "rationale": "The cluster predominantly involves cases centered around copyright infringement claims related to the use of copyrighted works for training AI models, addressing issues of authorship, fair use, and the legality of using such works in AI development.",
+    "total_summaries": 19,
+    "used_summaries": 19
+  },
+  "2": {
+    "category": "Consumer Protection",
+    "confidence": 0.9,
+    "rationale": "The cluster primarily involves cases of securities fraud and misleading statements related to AI-driven products and services, indicating deceptive business practices that impact investors and consumers.",
+    "total_summaries": 20,
+    "used_summaries": 20
+  },
+  "4": {
+    "category": "AI in Legal Proceedings",
+    "confidence": 0.85,
+    "rationale": "The cluster contains multiple cases where AI technologies are central to the disputes, particularly in procurement, confidentiality, and the handling of sensitive information. While some cases involve protective orders and confidentiality issues, the overarching theme is the legal implications of AI technologies in various contexts, including government contracts and litigation processes.",
+    "total_summaries": 33,
+    "used_summaries": 33
+  },
+  "7": {
+    "category": "IP Law",
+    "confidence": 0.9,
+    "rationale": "The cluster predominantly involves cases related to copyright infringement, trade secret misappropriation, and patent disputes concerning AI technologies and their applications, indicating a strong focus on intellectual property law.",
+    "total_summaries": 67,
+    "used_summaries": 67
+  },
+  "0": {
+    "category": "IP Law",
+    "confidence": 0.95,
+    "rationale": "The cluster primarily revolves around patent infringement cases involving various technologies, many of which incorporate AI elements. The dominant theme is the legal disputes over the validity and infringement of patents related to AI and automated systems, making IP Law the most relevant category.",
+    "total_summaries": 14,
+    "used_summaries": 14
+  },
+  "1": {
+    "category": "Unrelated",
+    "confidence": 0.9,
+    "rationale": "The cluster primarily involves securities fraud cases related to financial misrepresentation and does not center on AI or automated systems in the legal context. While some cases mention AI in passing, the core issues are about securities law and corporate governance.",
+    "total_summaries": 27,
+    "used_summaries": 27
+  }
+}
