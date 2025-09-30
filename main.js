@@ -159,7 +159,7 @@ fetch('3d_embedding.json')
       if (!groupsByLabel.has(label)) groupsByLabel.set(label, []);
       groupsByLabel.get(label).push({ title, summary, sphere });
     });
-    fetch('public/categories_prompt_tuning.json')
+    fetch('categories_prompt_tuning.json')
     .then((r) => (r.ok ? r.json() : {}))
     .catch(() => ({}))
     .then((raw) => {
