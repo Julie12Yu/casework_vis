@@ -1,11 +1,13 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { scrapeCaseName, createUtilityUI, renderLegend} from './utility.js';
+import { CartographicLayer } from './cartographic.js';
 
 // Scene + Camera + Renderer
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xeeeeee);
 let highlighted = null;
+let cartographicLayer = null;
 
 const camera = new THREE.PerspectiveCamera(
   30,
@@ -152,7 +154,6 @@ fetch('./merged_embedding.json')
       const scale = 1.1;
       sphere.position.set(x * scale, y * scale, z * scale);
 
-      // Metadata
       sphere.userData.title = title;
       sphere.userData.summary = summary;
       sphere.userData.label = label;
@@ -163,36 +164,35 @@ fetch('./merged_embedding.json')
       if (!groupsByLabel.has(label)) groupsByLabel.set(label, []);
       groupsByLabel.get(label).push({ title, summary, sphere });
     });
+
+    // *** ADD THIS: Create cartographic layer after all spheres are loaded ***
+    cartographicLayer = new CartographicLayer(scene, groupsByLabel, labelColor);
+    cartographicLayer.create();
+
     fetch('categories_prompt_tuning.json')
-    .then((r) => (r.ok ? r.json() : {}))
-    .catch(() => ({}))
-    .then((raw) => {
-      const categories = Object.fromEntries(
-        Object.entries(raw).map(([k, v]) => {
-          const key = String(k);
+      .then((r) => (r.ok ? r.json() : {}))
+      .catch(() => ({}))
+      .then((raw) => {
+        const categories = Object.fromEntries(
+          Object.entries(raw).map(([k, v]) => {
+            const key = String(k);
+            const primary = v?.primary ?? 
+              (Array.isArray(v?.categories) ? v.categories[0] : undefined);
+            const secondary = v?.secondary ?? 
+              (Array.isArray(v?.categories) ? v.categories[1] : undefined);
+            const category = [primary, secondary].filter(Boolean).join(' — ') ||
+              v?.category || `Cluster ${key}`;
+            return [key, { category }];
+          })
+        );
 
-          const primary =
-            v?.primary ??
-            (Array.isArray(v?.categories) ? v.categories[0] : undefined);
-          const secondary =
-            v?.secondary ??
-            (Array.isArray(v?.categories) ? v.categories[1] : undefined);
-
-          const category =
-            [primary, secondary].filter(Boolean).join(' — ') ||
-            v?.category ||
-            `Cluster ${key}`;
-          return [key, { category }];
-        })
-      );
-
-      renderLegend(
-        legendDiv, groupsByLabel, labelColor, controls,
-        summaryDiv, allSpheres, clearEmphasis, emphasizeLabel, removeOutline,
-        categories
-      );
-    });
-});
+        renderLegend(
+          legendDiv, groupsByLabel, labelColor, controls,
+          summaryDiv, allSpheres, clearEmphasis, emphasizeLabel, removeOutline,
+          categories, cartographicLayer  // *** PASS cartographicLayer ***
+        );
+      });
+  });
 
 function onMouseMove(event) {
   getMouse(event);

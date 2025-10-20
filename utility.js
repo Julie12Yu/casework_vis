@@ -93,7 +93,7 @@ export function createUtilityUI() {
   return { summaryDiv, legendDiv, tooltip };
 }
 
-export function renderLegend(legendDiv, groupsByLabel, labelColor, controls, summaryDiv, allSpheres, clearEmphasis, emphasizeLabel, removeOutline, categories) {
+export function renderLegend(legendDiv, groupsByLabel, labelColor, controls, summaryDiv, allSpheres, clearEmphasis, emphasizeLabel, removeOutline, categories, cartographicLayer) {
   legendDiv.innerHTML = '<b>Clusters</b><br/><small>Click any to show all summaries</small><hr/>';
   const labels = [...groupsByLabel.keys()].sort((a, b) => a - b);
 
@@ -141,6 +141,21 @@ export function renderLegend(legendDiv, groupsByLabel, labelColor, controls, sum
 
     legendDiv.appendChild(row);
   });
+
+  // *** ADD THIS: Toggle cartographic layer button ***
+  if (cartographicLayer) {
+    legendDiv.appendChild(document.createElement('hr'));
+    const toggleCartographicBtn = createButton('Toggle Map Borders');
+    let cartographicVisible = true;
+    toggleCartographicBtn.addEventListener('click', () => {
+      cartographicVisible = !cartographicVisible;
+      cartographicLayer.setVisible(cartographicVisible);
+      toggleCartographicBtn.textContent = cartographicVisible 
+        ? 'Hide Map Borders' 
+        : 'Show Map Borders';
+    });
+    legendDiv.appendChild(toggleCartographicBtn);
+  }
 
   // Reset button
   const resetHighlightBtn = createButton('Reset highlights');
