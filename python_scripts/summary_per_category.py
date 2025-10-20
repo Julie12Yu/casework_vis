@@ -2,7 +2,7 @@ import json
 from collections import defaultdict
 from typing import Dict, List, Any
 
-INPUT_FILE_PATH = "3d_embedding.json"
+INPUT_FILE_PATH = "hdbscan_results_3d.json"
 OUTPUT_FILE_PATH = "categories_from_clusters.json"
 
 def extract_summaries(file_path: str) -> Dict[int, List[str]]:
