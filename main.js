@@ -123,7 +123,7 @@ function clearEmphasis() {
 
 const { summaryDiv, legendDiv, tooltip } = createUtilityUI();
 // Load JSON embedding data
-fetch('merged_embedding.json')
+fetch('./public/merged_embedding.json')
   .then((res) => res.json())
   .then((data) => {
     const { points, labels, titles, summaries } = data;
