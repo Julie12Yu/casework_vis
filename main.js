@@ -56,9 +56,13 @@ const useableColors = [
   'LawnGreen',
   'DeepPink',
   'MidnightBlue',
-  'OrangeRed'
+  'OrangeRed',
+  "BlueViolet",
+  "Brown",
+  'DarkSlateGray',
+  'DarkTurquoise'
 ];
-for (let i = 0; i < 8; i++) {
+for (let i = 0; i < 12; i++) {
   labelColor.set(i, new THREE.Color(useableColors[i]));
 }
 
@@ -119,7 +123,7 @@ function clearEmphasis() {
 
 const { summaryDiv, legendDiv, tooltip } = createUtilityUI();
 // Load JSON embedding data
-fetch('3d_embedding.json')
+fetch('merged_embedding.json')
   .then((res) => res.json())
   .then((data) => {
     const { points, labels, titles, summaries } = data;

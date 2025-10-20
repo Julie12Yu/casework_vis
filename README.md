@@ -1,7 +1,7 @@
 **How run?**
+
 - npm install
 - npx vite
-
 
 **Purpose**
 
@@ -21,3 +21,11 @@
 
 - Add view for focusing on inside of the clusters
 - Add view for focusing on outside of the clusters
+
+**Embedding Structure**
+{
+"points": [[x1, y1, z1], [x2, y2, z2], ...],
+"labels":[point1num, point2num, ...],
+"titles":["title", "title2", ...],
+"summaries":["summary", "summary2", ...]
+}
