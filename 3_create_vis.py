@@ -30,19 +30,18 @@ def create_visualization(docs, output_file):
     label_names_low = [d["low_cluster_name"] for d in docs]
     label_names_high = [d["high_cluster_name"] for d in docs]
 
-    # Create hover text as a list of formatted strings
+    # Create hover text as a list of formatted strings (plain text, not HTML)
     hover_text = []
     for d in docs:
-        summary = d["summary"][:300] + "..." if len(d["summary"]) > 300 else d["summary"]
-        text_preview = d["full_text"][:200] + "..." if len(d["full_text"]) > 200 else d["full_text"]
+        summary = d["summary"]
         
-        hover = f"""<b>{d["name"]}</b><br>
-Low-level: {d["low_cluster_name"]}<br>
-High-level: {d["high_cluster_name"]}<br>
-<br>
-<b>Summary:</b> {summary}<br>
-<br>
-<b>Text preview:</b> {text_preview}"""
+        # Use plain text with newlines - datamapplot handles the rendering
+        hover = f"""{d["name"]}
+
+Low-level: {d["low_cluster_name"]}
+High-level: {d["high_cluster_name"]}
+
+Summary: {summary}"""
         hover_text.append(hover)
 
     # Use create_interactive_plot for hover text support
