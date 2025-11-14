@@ -37,11 +37,11 @@ def create_visualization(docs, output_file):
         
         # Use plain text with newlines - datamapplot handles the rendering
         hover = f"""{d["name"]}
+            Low-level: {d["low_cluster_name"]}
+            High-level: {d["high_cluster_name"]}
 
-Low-level: {d["low_cluster_name"]}
-High-level: {d["high_cluster_name"]}
-
-Summary: {summary}"""
+            Summary: {summary}
+        """
         hover_text.append(hover)
 
     # Use create_interactive_plot for hover text support
