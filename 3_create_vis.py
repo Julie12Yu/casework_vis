@@ -54,6 +54,17 @@ def extract_summary_sections(summary_text):
     
     return result.strip() if result else summary_text
 
+def extract_case_name(filename):
+    pattern = r'^(\d{4}-\d{2}-\d{2})_[^_]+_[^_]+_(.+?)\.pdf$'
+    match = re.match(pattern, filename)
+    
+    if match:
+        date = match.group(1)
+        case_name = match.group(2).rstrip('.')
+        return f"{case_name} ({date})"
+    
+    return filename
+
 def create_visualization(docs, output_file):
     print("\nCreating visualization...")
 
@@ -67,14 +78,15 @@ def create_visualization(docs, output_file):
     # Create hover text (brief version for hover)
     hover_text = []
     for d in docs:
+        name = extract_case_name(d['name'])
         summary_text = extract_summary_sections(d['summary'])
-        hover = f"{d['name']}\nLow: {d['low_cluster_name']}\nHigh: {d['high_cluster_name']}\n\n{summary_text}"
+        hover = f"{name}\nLow: {d['low_cluster_name']}\nHigh: {d['high_cluster_name']}\n\n{summary_text}"
         hover_text.append(hover)
 
     # Prepare extra_point_data with case names and summaries for on_click
 
     extra_point_data = pd.DataFrame({
-        'case_name': [d['name'] for d in docs],
+        'case_name': [extract_case_name(d['name']) for d in docs],
         'summary': [d['summary'] for d in docs],
         'low_cluster': [d['low_cluster_name'] for d in docs],
         'high_cluster': [d['high_cluster_name'] for d in docs]
