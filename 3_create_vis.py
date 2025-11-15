@@ -2,6 +2,7 @@
 import json
 import numpy as np
 import pandas as pd
+import re
 
 import datamapplot
 
@@ -20,6 +21,39 @@ def load_processed_data(input_json):
     return docs, meta
 
 
+def extract_summary_sections(summary_text):
+    """Extract only Summary and Key Legal Issue sections from the summary."""
+    summary_section = ""
+    legal_issue_section = ""
+    
+    # Use regex to find the Summary section
+    # This pattern handles: **Summary:**, **Summary:**\n, Summary:, and Summary:\n
+    summary_match = re.search(
+        r'\d+\.\s*\*{0,2}Summary\*{0,2}\s*:\s*(.+?)(?=\n\s*\d+\.\s*\*{0,2}(?:Key Legal Issue|Court|ELI5)|\Z)', 
+        summary_text, 
+        re.DOTALL | re.IGNORECASE
+    )
+    if summary_match:
+        summary_section = summary_match.group(1).strip()
+    
+    # Use regex to find the Key Legal Issue section
+    legal_issue_match = re.search(
+        r'\d+\.\s*\*{0,2}Key Legal Issue\*{0,2}\s*:\s*(.+?)(?=\n\s*\d+\.\s*\*{0,2}(?:Summary|Court|ELI5)|\Z)', 
+        summary_text, 
+        re.DOTALL | re.IGNORECASE
+    )
+    if legal_issue_match:
+        legal_issue_section = legal_issue_match.group(1).strip()
+    
+    # Combine the sections with clear formatting
+    result = ""
+    if summary_section:
+        result += f"Summary: {summary_section}\n\n"
+    if legal_issue_section:
+        result += f"Key Legal Issue: {legal_issue_section}"
+    
+    return result.strip() if result else summary_text
+
 def create_visualization(docs, output_file):
     print("\nCreating visualization...")
 
@@ -33,7 +67,8 @@ def create_visualization(docs, output_file):
     # Create hover text (brief version for hover)
     hover_text = []
     for d in docs:
-        hover = f"{d['name']}\nLow: {d['low_cluster_name']}\nHigh: {d['high_cluster_name']}"
+        summary_text = extract_summary_sections(d['summary'])
+        hover = f"{d['name']}\nLow: {d['low_cluster_name']}\nHigh: {d['high_cluster_name']}\n\n{summary_text}"
         hover_text.append(hover)
 
     # Prepare extra_point_data with case names and summaries for on_click
