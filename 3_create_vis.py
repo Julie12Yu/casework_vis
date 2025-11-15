@@ -30,19 +30,13 @@ def create_visualization(docs, output_file):
     label_names_low = [d["low_cluster_name"] for d in docs]
     label_names_high = [d["high_cluster_name"] for d in docs]
 
+    # Create hover text (brief version for hover)
     hover_text = []
     for d in docs:
-        summary = d["summary"]
-        
-        # Use plain text with newlines - datamapplot handles the rendering
-        hover = f"""{d["name"]}
-            Low-level: {d["low_cluster_name"]}
-            High-level: {d["high_cluster_name"]}
-
-            Summary: {summary}
-        """
+        hover = f"{d['name']}\nLow: {d['low_cluster_name']}\nHigh: {d['high_cluster_name']}"
         hover_text.append(hover)
 
+    # Prepare extra_point_data with case names and summaries for on_click
     extra_point_data = pd.DataFrame({
         'case_name': [d['name'] for d in docs],
         'summary': [d['summary'] for d in docs],
@@ -108,30 +102,27 @@ def create_visualization(docs, output_file):
     }
     """
 
-    # JavaScript to handle clicks and display case details
-    # Note: Double braces {{ }} are used to escape them from Python's format_map
     on_click_js = """
-    (function() {{
-        var detailsDiv = document.getElementById('case-details');
-        var caseName = document.getElementById('case-name');
-        var lowCluster = document.getElementById('low-cluster');
-        var highCluster = document.getElementById('high-cluster');
-        var caseSummary = document.getElementById('case-summary');
-        
-        // Escape HTML to prevent XSS
-        function escapeHtml(text) {{
-            var div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
-        }}
-        
-        caseName.innerHTML = escapeHtml('{case_name}');
-        lowCluster.innerHTML = escapeHtml('{low_cluster}');
-        highCluster.innerHTML = escapeHtml('{high_cluster}');
-        caseSummary.innerHTML = escapeHtml('{summary}');
-        
-        detailsDiv.style.display = 'block';
-    }})();
+        (function() {{
+            var detailsDiv = document.getElementById('case-details');
+            var caseName = document.getElementById('case-name');
+            var lowCluster = document.getElementById('low-cluster');
+            var highCluster = document.getElementById('high-cluster');
+            var caseSummary = document.getElementById('case-summary');
+            
+            function escapeHtml(text) {{
+                var div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }}
+            
+            caseName.textContent = `{case_name}`;
+            lowCluster.textContent = `{low_cluster}`;
+            highCluster.textContent = `{high_cluster}`;
+            caseSummary.textContent = `{summary}`;
+            
+            detailsDiv.style.display = 'block';
+        }})();
     """
 
     # Use create_interactive_plot for hover text support
@@ -140,6 +131,7 @@ def create_visualization(docs, output_file):
         label_names_low,
         label_names_high,
         hover_text=hover_text,
+        extra_point_data=extra_point_data,
         title="Court Cases Opinion Landscape",
         on_click=on_click_js,
         custom_html=custom_html,
