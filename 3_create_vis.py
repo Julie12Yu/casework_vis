@@ -37,6 +37,7 @@ def create_visualization(docs, output_file):
         hover_text.append(hover)
 
     # Prepare extra_point_data with case names and summaries for on_click
+
     extra_point_data = pd.DataFrame({
         'case_name': [d['name'] for d in docs],
         'summary': [d['summary'] for d in docs],
@@ -50,7 +51,7 @@ def create_visualization(docs, output_file):
         position: fixed;
         top: 80px;
         right: 20px;
-        width: 350px;
+        width: 400px;
         max-height: 70vh;
         background: white;
         border: 2px solid #333;
@@ -69,8 +70,7 @@ def create_visualization(docs, output_file):
             <div><strong>Low-level cluster:</strong> <span id="low-cluster"></span></div>
             <div><strong>High-level cluster:</strong> <span id="high-cluster"></span></div>
         </div>
-        <h4 style="color: #555;">Summary</h4>
-        <p id="case-summary" style="line-height: 1.6; color: #666;"></p>
+        <div id="case-summary" style="line-height: 1.6; color: #666; white-space: pre-wrap;"></div>
     </div>
     """
 
