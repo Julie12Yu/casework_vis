@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { scrapeCaseName, createUtilityUI, renderLegend} from './utility.js';
-import { CartographicLayer } from './cartographic.js';
+import { CartographicLayer } from '../cartographic.js';
 
 // Scene + Camera + Renderer
 const scene = new THREE.Scene();
