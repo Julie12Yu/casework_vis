@@ -19,6 +19,10 @@ def load_processed_data(input_json):
     meta = obj.get("meta", {})
 
     print(f"  Loaded {len(docs)} documents")
+    print(f"  Methodology: {meta.get('methodology', 'Unknown')}")
+    print(f"  K-Means topics: {meta.get('n_kmeans_topics', '?')}")
+    print(f"  HDBSCAN subclusters: {meta.get('n_hdbscan_subclusters', '?')}")
+    print(f"  HDBSCAN noise points: {meta.get('n_hdbscan_noise', '?')}")
     return docs, meta
 
 
@@ -72,16 +76,25 @@ def extract_case_name(filename):
     return filename
 
 
-def create_visualization(docs, output_file):
+def create_visualization(docs, meta, output_file):
     print("\nCreating visualization...")
 
     # 2D coordinates from processed JSON
     embeddings_2d = np.array([[d["x"], d["y"]] for d in docs])
 
-    # Primary labels used by datamapplot (colors / legend)
-    # Fine-grained clusters = "low"; mid-level topics = "high"
-    label_names_low = [d["fine_cluster_name"] for d in docs]
-    label_names_high = [d["mid_cluster_name"] for d in docs]
+    # NEW: Use K-Means (coarse) and HDBSCAN (fine) labels
+    # K-Means = high-level topics (coarse layer, always assigned)
+    # HDBSCAN = specific subclusters (fine layer, may be noise)
+    label_names_high = [d["kmeans_cluster_name"] for d in docs]
+    
+    # For HDBSCAN, show subcluster name or "Unclustered" for noise
+    label_names_low = []
+    for d in docs:
+        if d["is_hdbscan_noise"]:
+            # Noise points - show their K-Means topic + "Unclustered"
+            label_names_low.append(f"{d['kmeans_cluster_name']} (Unclustered)")
+        else:
+            label_names_low.append(d["hdbscan_cluster_name"])
 
     # Hover text
     hover_text = []
@@ -89,13 +102,24 @@ def create_visualization(docs, output_file):
         name = extract_case_name(d["name"])
         summary_text = extract_summary_sections(d["summary"])
         cat = d.get("legal_category_name", "Unknown")
-        quality = d.get("cluster_quality", "unknown")
+        
+        # HDBSCAN status
+        if d["is_hdbscan_noise"]:
+            hdbscan_info = "Unclustered (noise)"
+            purity_info = ""
+        else:
+            hdbscan_info = d["hdbscan_cluster_name"]
+            purity = d.get("hdbscan_nesting_purity")
+            if purity is not None:
+                purity_info = f" [purity: {purity:.2f}]"
+            else:
+                purity_info = ""
 
         hover = (
             f"{name}\n"
-            f"Fine cluster: {d['fine_cluster_name']} [{quality}]\n"
-            f"Mid topic: {d['mid_cluster_name']}\n"
-            f"Legal category: {cat}\n\n"
+            f"K-Means Topic: {d['kmeans_cluster_name']}\n"
+            f"HDBSCAN Subcluster: {hdbscan_info}{purity_info}\n"
+            f"Legal Category: {cat}\n\n"
             f"{summary_text}"
         )
         hover_text.append(hover)
@@ -104,10 +128,23 @@ def create_visualization(docs, output_file):
     extra_point_data = pd.DataFrame({
         "case_name": [extract_case_name(d["name"]) for d in docs],
         "summary": [d["summary"] for d in docs],
-        "fine_cluster": [d["fine_cluster_name"] for d in docs],
-        "mid_cluster": [d["mid_cluster_name"] for d in docs],
+        "kmeans_cluster": [d["kmeans_cluster_name"] for d in docs],
+        "hdbscan_cluster": [
+            "Unclustered (noise)" if d["is_hdbscan_noise"] 
+            else d["hdbscan_cluster_name"] 
+            for d in docs
+        ],
         "legal_category": [d.get("legal_category_name", "Unknown") for d in docs],
-        "cluster_quality": [d.get("cluster_quality", "unknown") for d in docs],
+        "hdbscan_status": [
+            "🔍 High-precision subcluster" if not d["is_hdbscan_noise"] 
+            else "📊 Unclustered (in K-Means topic)" 
+            for d in docs
+        ],
+        "nesting_purity": [
+            f"{d.get('hdbscan_nesting_purity', 0):.1%}" if not d["is_hdbscan_noise"]
+            else "N/A"
+            for d in docs
+        ]
     })
 
     # Right-hand details panel (HTML injected into the page)
@@ -116,7 +153,7 @@ def create_visualization(docs, output_file):
         position: fixed;
         top: 80px;
         right: 20px;
-        width: 400px;
+        width: 450px;
         max-height: 70vh;
         background: white;
         border: 2px solid #333;
@@ -131,12 +168,14 @@ def create_visualization(docs, output_file):
                 style="float: right; background: #ff4444; color: white; border: none; 
                        padding: 5px 10px; cursor: pointer; border-radius: 4px;">×</button>
         <h3 id="case-name" style="margin-top: 0; color: #333;"></h3>
-        <div style="margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 4px;">
-            <div><strong>Fine cluster:</strong> <span id="fine-cluster"></span></div>
-            <div><strong>Mid topic:</strong> <span id="mid-cluster"></span></div>
-            <div><strong>Legal category:</strong> <span id="legal-category"></span></div>
-            <div><strong>Cluster quality:</strong> <span id="cluster-quality"></span></div>
+        <div style="margin: 10px 0; padding: 15px; background: #f5f5f5; border-radius: 4px;">
+            <div style="margin-bottom: 8px;"><strong>📂 K-Means Topic:</strong> <span id="kmeans-cluster"></span></div>
+            <div style="margin-bottom: 8px;"><strong>🔬 HDBSCAN Subcluster:</strong> <span id="hdbscan-cluster"></span></div>
+            <div style="margin-bottom: 8px;"><strong>⚖️ Legal Category:</strong> <span id="legal-category"></span></div>
+            <div style="margin-bottom: 8px;"><strong>📊 Status:</strong> <span id="hdbscan-status"></span></div>
+            <div><strong>🎯 Nesting Purity:</strong> <span id="nesting-purity"></span></div>
         </div>
+        <h4 style="margin-top: 15px; color: #555;">Case Summary</h4>
         <div id="case-summary" style="line-height: 1.6; color: #666; white-space: pre-wrap;"></div>
     </div>
     """
@@ -144,7 +183,19 @@ def create_visualization(docs, output_file):
     # CSS (light + dark mode)
     custom_css = """
     #case-details {
-        font-family: Arial, sans-serif;
+        font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    
+    #case-details h3 {
+        font-size: 18px;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 8px;
+    }
+    
+    #case-details h4 {
+        font-size: 14px;
+        color: #555;
+        margin-top: 15px;
     }
     
     @media (prefers-color-scheme: dark) {
@@ -155,6 +206,7 @@ def create_visualization(docs, output_file):
         }
         #case-name {
             color: #e0e0e0 !important;
+            border-bottom-color: #4a9eff !important;
         }
         #case-details h4 {
             color: #c0c0c0 !important;
@@ -169,52 +221,63 @@ def create_visualization(docs, output_file):
     """
 
     # JS template that datamapplot fills with data from extra_point_data
-    # Placeholders {case_name}, {fine_cluster}, etc. must match the DataFrame columns
     on_click_js = """
         (function() {{
             var detailsDiv = document.getElementById('case-details');
             var caseName = document.getElementById('case-name');
-            var fineCluster = document.getElementById('fine-cluster');
-            var midCluster = document.getElementById('mid-cluster');
+            var kmeansCluster = document.getElementById('kmeans-cluster');
+            var hdbscanCluster = document.getElementById('hdbscan-cluster');
             var legalCategory = document.getElementById('legal-category');
-            var clusterQuality = document.getElementById('cluster-quality');
+            var hdbscanStatus = document.getElementById('hdbscan-status');
+            var nestingPurity = document.getElementById('nesting-purity');
             var caseSummary = document.getElementById('case-summary');
             
             caseName.textContent = "{case_name}";
-            fineCluster.textContent = "{fine_cluster}";
-            midCluster.textContent = "{mid_cluster}";
+            kmeansCluster.textContent = "{kmeans_cluster}";
+            hdbscanCluster.textContent = "{hdbscan_cluster}";
             legalCategory.textContent = "{legal_category}";
-            clusterQuality.textContent = "{cluster_quality}";
+            hdbscanStatus.textContent = "{hdbscan_status}";
+            nestingPurity.textContent = "{nesting_purity}";
             caseSummary.textContent = "{summary}";
             
             detailsDiv.style.display = 'block';
         }})();
     """
 
-
+    # Create plot
     plot = datamapplot.create_interactive_plot(
         embeddings_2d,
-        label_names_low,
-        label_names_high,
+        label_names_low,      # HDBSCAN subclusters (fine detail)
+        label_names_high,     # K-Means topics (broad categories)
         hover_text=hover_text,
         extra_point_data=extra_point_data,
-        title="Court Cases Opinion Landscape",
+        title="Court Cases Landscape",
         on_click=on_click_js,
         custom_html=custom_html,
         custom_css=custom_css,
     )
 
     plot.save(output_file)
-    print(f"Saved visualization to {output_file}")
+    print(f"✓ Saved visualization to {output_file}")
+    print(f"\nVisualization notes:")
+    print(f"  - Colors/regions: K-Means topics (high-level)")
+    print(f"  - Labels when zoomed: HDBSCAN subclusters (specific)")
+    print(f"  - Noise points: Shown as 'Unclustered' within their K-Means topic")
+    print(f"  - Click any point to see full details in right panel")
 
 
 def main():
     print("=" * 60)
-    print("STEP 3: Visualize Court Cases (Fine + Mid + Legal Categories)")
+    print("STEP 3: Visualize Court Cases")
+    print("Independent K-Means + HDBSCAN Clustering (NeurIPS Style)")
     print("=" * 60)
 
-    docs, _ = load_processed_data(INPUT_JSON)
-    create_visualization(docs, OUTPUT_HTML)
+    docs, meta = load_processed_data(INPUT_JSON)
+    create_visualization(docs, meta, OUTPUT_HTML)
+    
+    print("\n" + "=" * 60)
+    print("VISUALIZATION COMPLETE")
+    print("=" * 60)
 
 
 if __name__ == "__main__":

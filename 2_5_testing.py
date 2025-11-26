@@ -1,7 +1,6 @@
 import json
 import numpy as np
 import time
-
 from umap import UMAP
 from sklearn.cluster import KMeans
 from hdbscan import HDBSCAN
@@ -18,7 +17,7 @@ LEGAL_CATEGORIES = """
 2. IP Law: patents, copyrights, trademarks for AI models or tech, or training data disputes, AI-generated content ownership.
 3. Privacy and Data Protection: data breaches, unauthorized data collection by automated systems, or privacy violations involving algorithms or data processing.
 4. Tort: physical harm, emotional distress, negligence, defamation, or personal injury involving ANY automated systems, tech systems, major tech corporations using AI, or algorithms.
-5. Justice and Equity: discrimination, bias, civil rights violations, equal protection issues, or fairness concerns, employment discrimination, housing discrimination, lending discrimination, educational equity, voting rights, and systemic bias, alleged or substantiated discrimination or bias caused by AI, automated systems, or algorithms, or related to AI, automated systems, or algorithims. (e.g., hiring, lending, search).
+5. Justice and Equity: discrimination, bias, civil rights violations, equal protection issues, equity issues, fairness concerns, or systemic bias, alleged or substantiated discrimination or bias caused by AI, automated systems, or algorithms, or related to AI, automated systems, or algorithims. (e.g., hiring, lending, search).
 6. Consumer Protection: deceptive practices, unfair business practices with tech/automated systems, or misleading marketing of tech products or AI capabilities.
 7. AI in Legal Proceedings: AI systems are merely used in the court processes, legal case management, or litigation tools. The core contention is not about AI, but AI tools have been used in the litigation process.
 8. Unrelated: cases that have no meaningful connection to AI, ML, or automated systems. If the case involves discrimination, privacy, or other issues **without automation/AI/algorithmic involvement**, classify as Unrelated.
@@ -35,30 +34,24 @@ CATEGORY_NAMES = {
     8: "Unrelated"
 }
 
-
 def load_data(input_file):
     """Load documents and summaries from JSON file"""
     print(f"Loading data from {input_file}...")
-
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
-
     return data
-
 
 def load_embeddings(embeddings_file):
     """Load pre-computed embeddings from NPZ file"""
     print(f"\nLoading embeddings from {embeddings_file}...")
-    
     with np.load(embeddings_file) as data:
         embeddings = data['embeddings']
-    
     print(f"  Loaded {len(embeddings)} embeddings with dimension {embeddings.shape[1]}")
     return embeddings
 
-
 def reduce_dimensions(embeddings, n_components=2):
     """Reduce embeddings to 2D using UMAP"""
+    print("\nReducing dimensions with UMAP...")
     reducer = UMAP(
         n_components=n_components,
         random_state=42,
@@ -68,158 +61,118 @@ def reduce_dimensions(embeddings, n_components=2):
     reduced = reducer.fit_transform(embeddings)
     return reduced
 
-
-def hybrid_clustering_with_quality(embeddings_2d, n_docs, n_fine=None, n_mid=None):
+def independent_clustering(embeddings_2d, n_docs, n_kmeans=None):
     """
-    Hybrid approach with predefined top-level categories:
-    
-    1. K-Means creates fine and mid-level clusters
-    2. Mid-level clusters will be classified into 8 predefined legal categories
-    3. HDBSCAN provides quality/confidence scores for fine clusters
-    4. Every point gets a K-Means label (no missing names when hovering)
+    Run K-Means and HDBSCAN independently, then map HDBSCAN into K-Means.
+    Following NeurIPS paper methodology:
+    - K-Means: high-level topics (high recall, forces all points into clusters)
+    - HDBSCAN: specific subclusters (high precision, tight coherent groups)
     """
-    # Auto-calculate cluster counts
-    if n_fine is None:
-        n_fine = min(max(n_docs // 8, 40), 100)
-    if n_mid is None:
-        n_mid = min(max(n_docs // 25, 15), 30)
+    # Auto-calculate K-Means cluster count if not specified
+    if n_kmeans is None:
+        n_kmeans = min(max(n_docs // 25, 15), 30)
     
-    print(f"\n  Hybrid clustering with quality assessment:")
-    print(f"    K-Means Level 1 (Fine): {n_fine} clusters")
-    print(f"    K-Means Level 2 (Mid): {n_mid} topics")
-    print(f"    Level 3 (High): 8 predefined legal categories (to be classified)")
-    print(f"    HDBSCAN: Quality assessment")
+    print(f"\n Independent clustering (NeurIPS paper style):")
+    print(f"  K-Means: {n_kmeans} high-level topics (coarse layer)")
+    print(f"  HDBSCAN: Finding tight subclusters (fine layer)")
     
-    # K-MEANS: Two-level hierarchy
-    print(f"\n  Running K-Means Level 1: {n_fine} fine-grained clusters...")
-    kmeans_fine = KMeans(n_clusters=n_fine, random_state=42, n_init=10)
-    labels_fine = kmeans_fine.fit_predict(embeddings_2d)
-    centroids_fine = kmeans_fine.cluster_centers_
+    # 1. K-MEANS: High-level topics (coarse layer)
+    print(f"\n Running K-Means clustering...")
+    kmeans = KMeans(n_clusters=n_kmeans, random_state=42, n_init=10)
+    labels_kmeans = kmeans.fit_predict(embeddings_2d)
+    print(f"  Created {n_kmeans} high-level topics")
     
-    print(f"  Running K-Means Level 2: {n_mid} mid-level topics...")
-    kmeans_mid = KMeans(n_clusters=n_mid, random_state=42, n_init=10)
-    labels_mid_centroids = kmeans_mid.fit_predict(centroids_fine)
-    centroids_mid = kmeans_mid.cluster_centers_
-    labels_mid = np.array([labels_mid_centroids[label] for label in labels_fine])
-    
-    # HDBSCAN: Quality assessment (finds high-confidence subclusters)
-    print(f"\n  Running HDBSCAN for quality assessment...")
+    # 2. HDBSCAN: Specific subclusters (fine layer)
+    print(f"\n Running HDBSCAN clustering...")
     hdbscan = HDBSCAN(
-        min_cluster_size=8,
-        min_samples=5,
+        min_cluster_size=5,
+        min_samples=3,
         cluster_selection_epsilon=0.0,
         metric='euclidean'
     )
-    hdbscan_labels = hdbscan.fit_predict(embeddings_2d)
+    labels_hdbscan = hdbscan.fit_predict(embeddings_2d)
     
-    n_hdbscan_clusters = len(set(hdbscan_labels)) - (1 if -1 in hdbscan_labels else 0)
-    n_hdbscan_noise = np.sum(hdbscan_labels == -1)
+    n_hdbscan_clusters = len(set(labels_hdbscan)) - (1 if -1 in labels_hdbscan else 0)
+    n_noise = np.sum(labels_hdbscan == -1)
+    noise_pct = 100 * n_noise / len(labels_hdbscan)
     
-    print(f"    HDBSCAN found {n_hdbscan_clusters} high-confidence subclusters")
-    print(f"    HDBSCAN noise: {n_hdbscan_noise} points ({100*n_hdbscan_noise/len(hdbscan_labels):.1f}%)")
+    print(f"  HDBSCAN found {n_hdbscan_clusters} tight subclusters")
+    print(f"  Noise points: {n_noise} ({noise_pct:.1f}%)")
     
-    # Analyze cluster quality using HDBSCAN
-    cluster_quality = assess_cluster_quality(labels_fine, hdbscan_labels, kmeans_fine)
+    # 3. Verify HDBSCAN clusters nest within K-Means clusters
+    print(f"\n Analyzing nesting structure...")
+    hdbscan_to_kmeans = {}
+    pure_nesting_count = 0
     
-    return (labels_fine, labels_mid, 
-            hdbscan_labels, cluster_quality)
-
-
-def assess_cluster_quality(kmeans_labels, hdbscan_labels, kmeans_model):
-    """
-    Assess quality of K-Means clusters using HDBSCAN results:
-    - High quality: K-Means cluster contains one or more HDBSCAN clusters
-    - Medium quality: K-Means cluster is mix of HDBSCAN clusters and noise
-    - Low quality: K-Means cluster is mostly HDBSCAN noise
-    """
-    cluster_quality = {}
-    
-    for k_label in np.unique(kmeans_labels):
-        mask = kmeans_labels == k_label
-        points_in_cluster = np.sum(mask)
+    for hdbscan_id in set(labels_hdbscan):
+        if hdbscan_id == -1:
+            continue
         
-        # Get HDBSCAN labels for points in this K-Means cluster
-        hdbscan_in_kmeans = hdbscan_labels[mask]
+        mask = labels_hdbscan == hdbscan_id
+        kmeans_in_hdbscan = labels_kmeans[mask]
         
-        # Count HDBSCAN noise vs clustered points
-        n_noise = np.sum(hdbscan_in_kmeans == -1)
-        n_clustered = np.sum(hdbscan_in_kmeans != -1)
+        # Check if this HDBSCAN cluster falls into a single K-Means cluster
+        dominant_kmeans = Counter(kmeans_in_hdbscan).most_common(1)[0][0]
+        purity = np.sum(kmeans_in_hdbscan == dominant_kmeans) / len(kmeans_in_hdbscan)
         
-        noise_ratio = n_noise / points_in_cluster
-        
-        # Get unique HDBSCAN clusters in this K-Means cluster
-        hdbscan_clusters_present = set(hdbscan_in_kmeans[hdbscan_in_kmeans != -1])
-        n_hdbscan_subclusters = len(hdbscan_clusters_present)
-        
-        # Calculate inertia (compactness) for this cluster
-        cluster_points = np.where(mask)[0]
-        centroid = kmeans_model.cluster_centers_[k_label]
-        
-        # Assess quality
-        if noise_ratio < 0.3 and n_hdbscan_subclusters >= 1:
-            quality = "high"
-            quality_score = 1.0
-        elif noise_ratio < 0.6:
-            quality = "medium"
-            quality_score = 0.5
-        else:
-            quality = "low"
-            quality_score = 0.2
-        
-        cluster_quality[int(k_label)] = {
-            'quality': quality,
-            'quality_score': quality_score,
-            'noise_ratio': noise_ratio,
-            'n_hdbscan_subclusters': n_hdbscan_subclusters,
-            'size': points_in_cluster
+        hdbscan_to_kmeans[hdbscan_id] = {
+            'dominant_kmeans': int(dominant_kmeans),
+            'purity': float(purity),
+            'size': int(np.sum(mask))
         }
+        
+        if purity >= 0.95:  # 95%+ in single K-Means cluster
+            pure_nesting_count += 1
     
-    # Print quality distribution
-    quality_counts = Counter(q['quality'] for q in cluster_quality.values())
-    print(f"\n  Cluster quality distribution:")
-    print(f"    High quality: {quality_counts['high']} clusters (tight, coherent)")
-    print(f"    Medium quality: {quality_counts['medium']} clusters (moderate coherence)")
-    print(f"    Low quality: {quality_counts['low']} clusters (loose groupings)")
+    if len(hdbscan_to_kmeans) > 0:
+        nesting_pct = 100 * pure_nesting_count / len(hdbscan_to_kmeans)
+        print(f"  {pure_nesting_count}/{len(hdbscan_to_kmeans)} ({nesting_pct:.1f}%) HDBSCAN clusters nest cleanly in K-Means")
+    else:
+        print(f"  No HDBSCAN clusters found (all noise)")
     
-    return cluster_quality
+    # 4. Build hierarchy: K-Means (coarse) contains HDBSCAN (fine)
+    kmeans_to_hdbscan = defaultdict(list)
+    for hdbscan_id, info in hdbscan_to_kmeans.items():
+        kmeans_id = info['dominant_kmeans']
+        kmeans_to_hdbscan[kmeans_id].append({
+            'hdbscan_id': int(hdbscan_id),
+            'size': info['size'],
+            'purity': info['purity']
+        })
+    
+    # 5. Analyze noise distribution across K-Means clusters
+    noise_mask = labels_hdbscan == -1
+    if np.sum(noise_mask) > 0:
+        noise_kmeans = labels_kmeans[noise_mask]
+        noise_distribution = Counter(noise_kmeans)
+        print(f"\n Noise points distributed across K-Means clusters:")
+        for kmeans_id in sorted(noise_distribution.keys())[:5]:
+            count = noise_distribution[kmeans_id]
+            print(f"   K-Means {kmeans_id}: {count} noise points")
+        if len(noise_distribution) > 5:
+            print(f"   ... and {len(noise_distribution) - 5} more")
+    
+    return labels_kmeans, labels_hdbscan, hdbscan_to_kmeans, kmeans_to_hdbscan
 
-
-def analyze_hierarchy(labels_fine, labels_mid):
-    """Analyze how fine clusters map to mid topics"""
-    print("\n  Analyzing hierarchy mapping...")
-    
-    fine_to_mid = defaultdict(set)
-    for fine, mid in zip(labels_fine, labels_mid):
-        fine_to_mid[fine].add(mid)
-    
-    fine_pure = sum(1 for mids in fine_to_mid.values() if len(mids) == 1)
-    
-    print(f"    Fine→Mid purity: {fine_pure}/{len(fine_to_mid)} ({100*fine_pure/len(fine_to_mid):.1f}%)")
-    
-    return fine_to_mid
-
-
-def classify_mid_topics_into_categories(summaries, labels_mid, client, delay=0.5):
+def classify_kmeans_topics_into_categories(summaries, labels_kmeans, client, delay=0.5):
     """
-    Classify each mid-level topic into one of the 8 predefined legal categories.
-    This is used to inform the naming, not create a separate hierarchy level.
-    Returns mapping of mid_label -> (category_num, category_name)
+    Classify each K-Means topic into one of the 8 predefined legal categories.
+    Returns mapping of kmeans_label -> (category_num, category_name)
     """
-    print("\n  Classifying mid-level topics into 8 legal categories...")
+    print("\n Classifying K-Means topics into 8 legal categories...")
+    unique_kmeans = np.unique(labels_kmeans)
+    kmeans_to_category = {}
     
-    unique_mid = np.unique(labels_mid)
-    mid_to_category = {}
-    
-    for i, mid_label in enumerate(unique_mid):
-        # Get documents in this mid topic
-        cluster_docs = [summaries[j] for j, l in enumerate(labels_mid) if l == mid_label]
+    for i, kmeans_label in enumerate(unique_kmeans):
+        # Get documents in this K-Means topic
+        cluster_docs = [summaries[j] for j, l in enumerate(labels_kmeans) if l == kmeans_label]
         
         if len(cluster_docs) == 0:
-            mid_to_category[int(mid_label)] = (8, "Unrelated")
+            kmeans_to_category[int(kmeans_label)] = (8, "Unrelated")
             continue
         
         # Sample up to 20 documents
-        sample = "\n\n".join(cluster_docs[:20])
+        sample = "\n\n".join(cluster_docs[:30])
         
         try:
             response = client.chat.completions.create(
@@ -231,7 +184,7 @@ def classify_mid_topics_into_categories(summaries, labels_mid, client, delay=0.5
 Think about how AI, ML, automated systems, or algorithims may have impacted the case. 
 Use these definitions carefully and be conservative about assigning AI-related labels. 
 If it is not clear that AI, ML, or automated systems are central to the dispute, choose 8 (Unrelated).
-Only choose Unrelated (8) if the case truly doesn't fit categories 1-7.
+Only choose Unrelated (8) if the case doesn't fit categories 1-7.
 
 {LEGAL_CATEGORIES}
 
@@ -248,192 +201,196 @@ Category number (1–8):"""
             
             category_num = int(response.choices[0].message.content.strip())
             category_name = CATEGORY_NAMES.get(category_num, "Unknown")
+            kmeans_to_category[int(kmeans_label)] = (category_num, category_name)
             
-            mid_to_category[int(mid_label)] = (category_num, category_name)
-            
-            if (i + 1) % 5 == 0 or (i + 1) == len(unique_mid):
-                print(f"    [{i+1}/{len(unique_mid)}] Mid Topic {mid_label} → {category_name}")
+            if (i + 1) % 5 == 0 or (i + 1) == len(unique_kmeans):
+                print(f"  [{i+1}/{len(unique_kmeans)}] K-Means Topic {kmeans_label} → {category_name}")
             
             time.sleep(delay)
             
         except Exception as e:
-            print(f"    Error classifying mid topic {mid_label}: {e}")
-            mid_to_category[int(mid_label)] = (8, "Unrelated")
+            print(f"  Error classifying K-Means topic {kmeans_label}: {e}")
+            kmeans_to_category[int(kmeans_label)] = (8, "Unrelated")
             time.sleep(delay * 2)
     
     # Print distribution
-    category_counts = Counter(cat_name for _, cat_name in mid_to_category.values())
-    print(f"\n  Legal category distribution:")
+    category_counts = Counter(cat_name for _, cat_name in kmeans_to_category.values())
+    print(f"\n Legal category distribution:")
     for cat_name, count in sorted(category_counts.items()):
-        print(f"    {cat_name}: {count} mid topics")
+        print(f"   {cat_name}: {count} topics")
     
-    return mid_to_category
+    return kmeans_to_category
 
-
-def generate_category_aware_mid_names(summaries, labels_mid, mid_to_category, client, delay=0.8):
+def generate_hdbscan_subcluster_names(summaries, labels_hdbscan, client, delay=0.5):
     """
-    Generate names for mid-level topics that incorporate the legal category.
-    Format: "Descriptive Topic Name: Legal Category"
+    Generate names for HDBSCAN subclusters (tight, specific groups).
+    These are the fine-grained, high-precision clusters.
     """
-    unique_mid = np.unique(labels_mid)
+    unique_hdbscan = [l for l in np.unique(labels_hdbscan) if l != -1]
     cluster_names = {}
-
-    print(f"  Generating category-aware names for {len(unique_mid)} mid topics...")
-
-    for i, mid_label in enumerate(unique_mid):
-        cluster_docs = [summaries[j] for j, l in enumerate(labels_mid) if l == mid_label]
+    
+    print(f"  Generating names for {len(unique_hdbscan)} HDBSCAN subclusters...")
+    
+    for i, hdbscan_label in enumerate(unique_hdbscan):
+        cluster_docs = [summaries[j] for j, l in enumerate(labels_hdbscan) if l == hdbscan_label]
         
         if len(cluster_docs) == 0:
-            category_num, category_name = mid_to_category.get(int(mid_label), (8, "Unrelated"))
-            cluster_names[int(mid_label)] = f"Topic {mid_label}: {category_name}"
+            cluster_names[int(hdbscan_label)] = f"Subcluster {hdbscan_label}"
             continue
-
-        sample = "\n\n".join(cluster_docs[:20])
-        category_num, category_name = mid_to_category.get(int(mid_label), (8, "Unrelated"))
-
+        
+        # Use fewer samples since HDBSCAN clusters are tight and coherent
+        sample = "\n\n".join(cluster_docs[:25])
+        
         try:
             response = client.chat.completions.create(
                 model="gpt-4o",
                 messages=[{
                     "role": "user",
-                    "content": f"""You are a legal expert naming a cluster of court cases.
+                    "content": f"""You are a legal expert naming a tight, coherent subcluster of court cases.
 
-This cluster has been classified as: {category_name}
+This is a cluster of similar court cases.
 
 Task:
-- Provide ONE concise name (3-7 words) that captures the specific theme within this category.
-- Format: "Specific Topic: {category_name}"
-- Example: "Facial Recognition Biometric Claims: Privacy and Data Protection"
-- The first part should be specific, the category name stays as-is after the colon.
+- Provide ONE concise name (3-7 words) that captures the specific shared theme.
+- Be SPECIFIC - this is a tight cluster, not a broad category.
+- Focus on the commonality these cases share.
 
 Court case summaries from this cluster:
 {sample}
 
-Respond with ONLY the cluster name in the format "Topic: Category". No explanations.
-Cluster name:"""
+Respond with ONLY the subcluster name. No explanations, quotes, or extra text.
 
+Subcluster name:"""
                 }],
                 max_tokens=100,
                 temperature=0.3
             )
-
-            name = response.choices[0].message.content.strip().strip('"\'')
-            # Ensure format is correct
-            if ": " not in name:
-                name = f"{name}: {category_name}"
-            cluster_names[int(mid_label)] = name
             
-            if (i + 1) % 5 == 0 or (i + 1) == len(unique_mid):
-                print(f"    [{i+1}/{len(unique_mid)}] Topic {mid_label}: {name}")
-
+            name = response.choices[0].message.content.strip().strip('"\'')
+            cluster_names[int(hdbscan_label)] = name
+            
+            if (i + 1) % 10 == 0 or (i + 1) == len(unique_hdbscan):
+                print(f"    [{i+1}/{len(unique_hdbscan)}] Subcluster {hdbscan_label}: {name}")
+            
             time.sleep(delay)
-
+            
         except Exception as e:
-            print(f"    Error naming topic {mid_label}: {e}")
-            cluster_names[int(mid_label)] = f"Topic {mid_label}: {category_name}"
+            print(f"    Error naming subcluster {hdbscan_label}: {e}")
+            cluster_names[int(hdbscan_label)] = f"Subcluster {hdbscan_label}"
             time.sleep(delay * 2)
-
+    
     return cluster_names
 
-
-def generate_cluster_names(summaries, labels, client, cluster_quality=None, 
-                          level_name="Cluster", delay=0.8, max_samples=20):
+def generate_kmeans_topic_names(summaries, labels_kmeans, labels_hdbscan, 
+                                 kmeans_to_category, hdbscan_names, 
+                                 kmeans_to_hdbscan, client, delay=0.8):
     """
-    Generate names for clusters using OpenAI.
-    If cluster_quality provided, can adjust naming strategy based on quality.
+    Generate names for K-Means topics using HDBSCAN subcluster names as context.
+    Format: "Descriptive Topic Name: Legal Category"
     """
-    unique_labels = np.unique(labels)
+    unique_kmeans = np.unique(labels_kmeans)
     cluster_names = {}
-
-    print(f"  Generating names for {len(unique_labels)} {level_name} clusters...")
-
-    for i, label in enumerate(unique_labels):
-        cluster_docs = [summaries[j] for j, l in enumerate(labels) if l == label]
+    
+    print(f"  Generating category-aware names for {len(unique_kmeans)} K-Means topics...")
+    
+    for i, kmeans_label in enumerate(unique_kmeans):
+        cluster_docs = [summaries[j] for j, l in enumerate(labels_kmeans) if l == kmeans_label]
+        
+        category_num, category_name = kmeans_to_category.get(int(kmeans_label), (8, "Unrelated"))
         
         if len(cluster_docs) == 0:
-            cluster_names[int(label)] = f"{level_name} {label}"
+            cluster_names[int(kmeans_label)] = f"Topic {kmeans_label}: {category_name}"
             continue
-
-        sample_size = min(len(cluster_docs), max_samples)
-        sample = "\n\n".join(cluster_docs[:sample_size])
         
-        # Adjust prompt based on cluster quality
-        quality_note = ""
-        if cluster_quality and int(label) in cluster_quality:
-            qual = cluster_quality[int(label)]['quality']
-            if qual == "high":
-                quality_note = " This is a tight, coherent cluster - be specific."
-            elif qual == "low":
-                quality_note = " This is a loose grouping - focus on the common thread."
-
+        # Get HDBSCAN subclusters in this K-Means topic
+        subclusters = kmeans_to_hdbscan.get(int(kmeans_label), [])
+        subcluster_names = [
+            hdbscan_names.get(sc['hdbscan_id'], f"Subcluster {sc['hdbscan_id']}")
+            for sc in subclusters[:10]  # Limit to top 10
+        ]
+        
+        sample_docs = "\n\n".join(cluster_docs[:15])
+        
+        subcluster_context = ""
+        if subcluster_names:
+            subcluster_context = f"\n\nThis topic contains these specific subclusters:\n" + "\n".join(f"- {name}" for name in subcluster_names)
+        
         try:
             response = client.chat.completions.create(
                 model="gpt-4o",
                 messages=[{
                     "role": "user",
-                    "content": f"""You are a legal expert naming a cluster of court cases.
+                    "content": f"""You are a legal expert naming a high-level topic cluster of court cases.
+
+This cluster has been classified as: {category_name}
+{subcluster_context}
 
 Task:
-- Provide ONE concise cluster name (2-6 words) that captures the common theme.
-- The name should be specific and descriptive.{quality_note}
+- Provide ONE concise name (3-7 words) that captures the overarching theme within this category.
+- Format: "Specific Topic: {category_name}"
+- Example: "Facial Recognition Biometric Claims: Privacy and Data Protection"
+- The first part should be broad enough to encompass the subclusters, the category name stays as-is after the colon.
 
-Court case summaries from this cluster ({len(cluster_docs)} cases):
-{sample}
+Court case summaries from this topic:
+{sample_docs}
 
-Respond with ONLY the cluster name. Do not include any explanations, quotes, or extra text.
+Respond with ONLY the cluster name in the format "Topic: Category". No explanations.
+
 Cluster name:"""
-
                 }],
                 max_tokens=100,
                 temperature=0.3
             )
-
-            name = response.choices[0].message.content.strip().strip('"\'')
-            cluster_names[int(label)] = name
             
-            if (i + 1) % 10 == 0 or (i + 1) == len(unique_labels):
-                quality_marker = ""
-                if cluster_quality and int(label) in cluster_quality:
-                    q = cluster_quality[int(label)]['quality']
-                    quality_marker = f" [{q[0].upper()}]"
-                print(f"    [{i+1}/{len(unique_labels)}]{quality_marker} {level_name} {label}: {name}")
-
-            if i < len(unique_labels) - 1:
-                time.sleep(delay)
-
+            name = response.choices[0].message.content.strip().strip('"\'')
+            
+            # Ensure format is correct
+            if ": " not in name:
+                name = f"{name}: {category_name}"
+            
+            cluster_names[int(kmeans_label)] = name
+            
+            if (i + 1) % 5 == 0 or (i + 1) == len(unique_kmeans):
+                print(f"    [{i+1}/{len(unique_kmeans)}] Topic {kmeans_label}: {name}")
+            
+            time.sleep(delay)
+            
         except Exception as e:
-            print(f"    Error naming cluster {label}: {e}")
-            cluster_names[int(label)] = f"{level_name} {label}"
+            print(f"    Error naming topic {kmeans_label}: {e}")
+            cluster_names[int(kmeans_label)] = f"Topic {kmeans_label}: {category_name}"
             time.sleep(delay * 2)
-
+    
     return cluster_names
-
 
 def save_processed_data(
     embeddings_2d,
-    labels_fine,
-    labels_mid,
-    mid_to_category,
-    hdbscan_labels,
-    cluster_quality,
-    cluster_names_fine,
-    cluster_names_mid,
-    fine_to_mid,
+    labels_kmeans,
+    labels_hdbscan,
+    kmeans_to_category,
+    hdbscan_to_kmeans,
+    kmeans_to_hdbscan,
+    cluster_names_kmeans,
+    cluster_names_hdbscan,
     data,
     output_json
 ):
-    """Save all clustering results with two-level hierarchy and category metadata"""
+    """Save all clustering results with proper hierarchy"""
     processed = []
     
     for i, d in enumerate(data):
         x, y = float(embeddings_2d[i, 0]), float(embeddings_2d[i, 1])
-        fine_label = int(labels_fine[i])
-        mid_label = int(labels_mid[i])
-        category_num, category_name = mid_to_category[int(mid_label)]
-        hdbscan_label = int(hdbscan_labels[i])
+        kmeans_label = int(labels_kmeans[i])
+        hdbscan_label = int(labels_hdbscan[i])
         
-        # Get quality info for this point's fine cluster
-        quality_info = cluster_quality.get(int(fine_label), {})
+        category_num, category_name = kmeans_to_category[int(kmeans_label)]
+        
+        # Get HDBSCAN info if not noise
+        hdbscan_name = None
+        hdbscan_purity = None
+        if hdbscan_label != -1:
+            hdbscan_name = cluster_names_hdbscan.get(hdbscan_label, f"Subcluster {hdbscan_label}")
+            hdbscan_info = hdbscan_to_kmeans.get(hdbscan_label, {})
+            hdbscan_purity = hdbscan_info.get('purity', None)
         
         processed.append({
             "name": d["name"],
@@ -442,155 +399,149 @@ def save_processed_data(
             "text_length": d["text_length"],
             "x": x,
             "y": y,
-            # Two-level hierarchy (fine clusters within mid topics)
-            "fine_cluster": fine_label,
-            "fine_cluster_name": cluster_names_fine.get(fine_label, f"Cluster {fine_label}"),
-            "mid_cluster": mid_label,
-            "mid_cluster_name": cluster_names_mid.get(mid_label, f"Topic {mid_label}"),
-            # Legal category metadata (not a separate hierarchy level)
+            
+            # Coarse layer: K-Means topics
+            "kmeans_cluster": kmeans_label,
+            "kmeans_cluster_name": cluster_names_kmeans.get(kmeans_label, f"Topic {kmeans_label}"),
+            
+            # Fine layer: HDBSCAN subclusters
+            "hdbscan_cluster": hdbscan_label,
+            "hdbscan_cluster_name": hdbscan_name,
+            "is_hdbscan_noise": hdbscan_label == -1,
+            "hdbscan_nesting_purity": hdbscan_purity,
+            
+            # Legal category metadata
             "legal_category": category_num,
             "legal_category_name": category_name,
-            # Quality assessment from HDBSCAN
-            "cluster_quality": quality_info.get('quality', 'unknown'),
-            "cluster_quality_score": quality_info.get('quality_score', 0.5),
-            "hdbscan_cluster": hdbscan_label,
-            "is_hdbscan_core": hdbscan_label != -1,
         })
-
+    
     # Calculate distributions
-    fine_sizes = Counter(labels_fine)
-    mid_sizes = Counter(labels_mid)
+    kmeans_sizes = Counter(labels_kmeans)
+    hdbscan_sizes = Counter(l for l in labels_hdbscan if l != -1)
     
-    # Create two-level hierarchy (mid topics contain fine clusters)
+    # Build hierarchy: K-Means topics contain HDBSCAN subclusters
     hierarchy = {}
-    
-    for mid_label in sorted([int(m) for m in np.unique(labels_mid)]):
-        category_num, category_name = mid_to_category[int(mid_label)]
+    for kmeans_label in sorted([int(k) for k in np.unique(labels_kmeans)]):
+        category_num, category_name = kmeans_to_category[int(kmeans_label)]
         
-        # Get fine clusters in this mid topic
-        fine_in_mid = [int(fine) for fine, mids in fine_to_mid.items() if int(mid_label) in mids]
+        # Get HDBSCAN subclusters in this K-Means topic
+        subclusters_info = kmeans_to_hdbscan.get(int(kmeans_label), [])
         
-        hierarchy[int(mid_label)] = {
-            "name": cluster_names_mid.get(int(mid_label), f"Topic {mid_label}"),
-            "size": int(mid_sizes[int(mid_label)]),
+        # Count noise points in this K-Means cluster
+        noise_in_kmeans = np.sum((labels_kmeans == kmeans_label) & (labels_hdbscan == -1))
+        
+        hierarchy[int(kmeans_label)] = {
+            "name": cluster_names_kmeans.get(int(kmeans_label), f"Topic {kmeans_label}"),
+            "size": int(kmeans_sizes[int(kmeans_label)]),
             "legal_category": int(category_num),
             "legal_category_name": str(category_name),
-            "fine_clusters": [
+            "n_noise_points": int(noise_in_kmeans),
+            "hdbscan_subclusters": [
                 {
-                    "id": int(fine_label),
-                    "name": cluster_names_fine.get(int(fine_label), f"Cluster {fine_label}"),
-                    "size": int(fine_sizes[int(fine_label)]),
-                    "quality": str(cluster_quality.get(int(fine_label), {}).get('quality', 'unknown')),
-                    "quality_score": float(cluster_quality.get(int(fine_label), {}).get('quality_score', 0.5))
+                    "id": int(sc['hdbscan_id']),
+                    "name": cluster_names_hdbscan.get(int(sc['hdbscan_id']), f"Subcluster {sc['hdbscan_id']}"),
+                    "size": int(sc['size']),
+                    "nesting_purity": float(sc['purity'])
                 }
-                for fine_label in sorted(fine_in_mid)
+                for sc in sorted(subclusters_info, key=lambda x: x['size'], reverse=True)
             ]
         }
-
-    # Category distribution for reference
+    
+    # Category distribution
     category_distribution = {str(k): int(v) for k, v in Counter(
-        mid_to_category[int(mid)][1] for mid in np.unique(labels_mid)
+        kmeans_to_category[int(km)][1] for km in np.unique(labels_kmeans)
     ).items()}
-
+    
     output_obj = {
         "documents": processed,
         "meta": {
             "n_documents": int(len(processed)),
-            "n_fine_clusters": int(len(cluster_names_fine)),
-            "n_mid_topics": int(len(cluster_names_mid)),
-            "cluster_names_fine": {int(k): str(v) for k, v in cluster_names_fine.items()},
-            "cluster_names_mid": {int(k): str(v) for k, v in cluster_names_mid.items()},
+            "n_kmeans_topics": int(len(cluster_names_kmeans)),
+            "n_hdbscan_subclusters": int(len(cluster_names_hdbscan)),
+            "n_hdbscan_noise": int(np.sum(labels_hdbscan == -1)),
+            "methodology": "Independent K-Means and HDBSCAN clustering (NeurIPS paper style)",
+            
+            "cluster_names_kmeans": {int(k): str(v) for k, v in cluster_names_kmeans.items()},
+            "cluster_names_hdbscan": {int(k): str(v) for k, v in cluster_names_hdbscan.items()},
+            
             "legal_categories": {int(k): str(v) for k, v in CATEGORY_NAMES.items()},
             "category_distribution": category_distribution,
-            "mid_to_category": {int(k): {"number": int(v[0]), "name": str(v[1])} for k, v in mid_to_category.items()},
-            "cluster_quality": {int(k): {
-                "quality": str(v.get('quality', 'unknown')),
-                "quality_score": float(v.get('quality_score', 0.5)),
-                "noise_ratio": float(v.get('noise_ratio', 0.0)),
-                "n_hdbscan_subclusters": int(v.get('n_hdbscan_subclusters', 0)),
-                "size": int(v.get('size', 0))
-            } for k, v in cluster_quality.items()},
+            "kmeans_to_category": {int(k): {"number": int(v[0]), "name": str(v[1])} 
+                                   for k, v in kmeans_to_category.items()},
+            
             "hierarchy": hierarchy,
         }
     }
-
+    
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(output_obj, f, indent=2, ensure_ascii=False)
     
     print(f"\nSaved processed data to {output_json}")
 
-
 def main():
     print("\n" + "="*60)
-    print("TWO-LEVEL CLUSTERING WITH LEGAL CATEGORY NAMING")
-    print("(K-Means hierarchy + HDBSCAN quality + Category-aware names)")
+    print("INDEPENDENT K-MEANS + HDBSCAN CLUSTERING")
+    print("(Following NeurIPS paper methodology)")
     print("="*60)
     
     print("\n[1/7] Loading data...")
     data = load_data(INPUT_FILE)
-
     if not data:
         print("No data found. Please run step1_generate_summaries.py first.")
         return
-
+    
     summaries = [d['summary'] for d in data]
-
+    
     print("\n[2/7] Loading pre-computed embeddings...")
     embeddings = load_embeddings(EMBEDDINGS_FILE)
-    
     if len(embeddings) != len(data):
         print(f"ERROR: Mismatch between embeddings ({len(embeddings)}) and data ({len(data)})")
         return
-
+    
     print("\n[3/7] Reducing dimensions...")
     embeddings_2d = reduce_dimensions(embeddings)
-
-    print(f"\n[4/7] Hybrid clustering with quality assessment...")
+    
+    print(f"\n[4/7] Running independent clustering...")
     print(f"  Dataset size: {len(data)} documents")
     
-    (labels_fine, labels_mid, 
-     hdbscan_labels, cluster_quality) = hybrid_clustering_with_quality(
+    (labels_kmeans, labels_hdbscan, 
+     hdbscan_to_kmeans, kmeans_to_hdbscan) = independent_clustering(
         embeddings_2d, len(data)
     )
     
-    print("\n[5/7] Analyzing hierarchy...")
-    fine_to_mid = analyze_hierarchy(labels_fine, labels_mid)
-
-    print("\n[6/7] Generating cluster names with OpenAI...")
+    print("\n[5/7] Classifying K-Means topics into legal categories...")
     with open("otherkey.txt") as f:
         key = f.read().strip()
     client = OpenAI(api_key=key)
-
-    # First classify mid topics into legal categories
-    print("\n  Step 1: Classifying mid topics into legal categories...")
-    mid_to_category = classify_mid_topics_into_categories(
-        summaries, labels_mid, client, delay=0.5
-    )
-
-    # Then generate category-aware names for mid topics
-    print("\n  Step 2: Generating category-aware names for mid topics...")
-    cluster_names_mid = generate_category_aware_mid_names(
-        summaries, labels_mid, mid_to_category, client, delay=0.8
+    
+    kmeans_to_category = classify_kmeans_topics_into_categories(
+        summaries, labels_kmeans, client, delay=0.5
     )
     
-    print("\n  Step 3: Naming fine-grained clusters...")
-    cluster_names_fine = generate_cluster_names(
-        summaries, labels_fine, client,
-        cluster_quality=cluster_quality,
-        level_name="Cluster", delay=0.5, max_samples=10
+    print("\n[6/7] Generating cluster names with OpenAI...")
+    
+    print("\n Step 1: Naming HDBSCAN subclusters (fine, specific groups)...")
+    cluster_names_hdbscan = generate_hdbscan_subcluster_names(
+        summaries, labels_hdbscan, client, delay=0.5
     )
-
+    
+    print("\n Step 2: Naming K-Means topics (broad, high-level)...")
+    cluster_names_kmeans = generate_kmeans_topic_names(
+        summaries, labels_kmeans, labels_hdbscan,
+        kmeans_to_category, cluster_names_hdbscan,
+        kmeans_to_hdbscan, client, delay=0.8
+    )
+    
     print("\n[7/7] Saving processed data...")
     save_processed_data(
         embeddings_2d,
-        labels_fine,
-        labels_mid,
-        mid_to_category,
-        hdbscan_labels,
-        cluster_quality,
-        cluster_names_fine,
-        cluster_names_mid,
-        fine_to_mid,
+        labels_kmeans,
+        labels_hdbscan,
+        kmeans_to_category,
+        hdbscan_to_kmeans,
+        kmeans_to_hdbscan,
+        cluster_names_kmeans,
+        cluster_names_hdbscan,
         data,
         OUTPUT_JSON
     )
@@ -599,18 +550,17 @@ def main():
     print("CLUSTERING COMPLETE")
     print("="*60)
     print(f"\nResults saved to: {OUTPUT_JSON}")
-    print(f"  - Level 2 (Mid): {len(cluster_names_mid)} topics with legal categories in names")
-    print(f"  - Level 1 (Fine): {len(cluster_names_fine)} specific clusters (zoom detail)")
-    print(f"\nHDBSCAN quality assessment included:")
-    print(f"  - 'high' quality = tight, coherent clusters")
-    print(f"  - 'medium' quality = moderate coherence")
-    print(f"  - 'low' quality = loose groupings")
-    print(f"\nMid-level topic names include legal categories:")
-    print(f"  Example: 'Facial Recognition Claims: Privacy and Data Protection'")
-    print(f"\nVisualization zoom behavior:")
-    print(f"  - Zoomed out: See {len(cluster_names_mid)} mid topic names (with categories)")
-    print(f"  - Zoomed in: See {len(cluster_names_fine)} fine cluster names (specific details)")
-
+    print(f"\nMethodology (NeurIPS paper style):")
+    print(f"  - K-Means: {len(cluster_names_kmeans)} high-level topics (coarse layer)")
+    print(f"  - HDBSCAN: {len(cluster_names_hdbscan)} specific subclusters (fine layer)")
+    print(f"  - Noise: {np.sum(labels_hdbscan == -1)} points ({100*np.sum(labels_hdbscan == -1)/len(labels_hdbscan):.1f}%)")
+    print(f"\nHierarchy:")
+    print(f"  - Coarse: K-Means topics with legal categories")
+    print(f"  - Fine: HDBSCAN subclusters nested within K-Means topics")
+    print(f"\nKey insight:")
+    print(f"  - HDBSCAN subclusters have high precision (tight, specific)")
+    print(f"  - K-Means topics have high recall (broad, catch everything)")
+    print(f"  - HDBSCAN names inform K-Means topic names")
 
 if __name__ == "__main__":
     main()
