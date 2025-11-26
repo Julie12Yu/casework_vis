@@ -1,0 +1,5161 @@
+{
+  "statistics": {
+    "total_cases": 106,
+    "ai_relevance_distribution": {
+      "NOT RELATED": 16,
+      "The plaintiff, John R. Fouts, notified the court of using artificial intelligence in the drafting of his documents, though this did not impact the court\u2019s decision.": 1,
+      "AI technology was used to intercept and record phone conversations without consent, which is central to the privacy violation claims.": 1,
+      "AI-generated content was used to fabricate litigation documents and attribute false statements to Jared Isaacman.": 1,
+      "The AI technology of TikTok, using machine learning to suggest content, is central to these privacy concerns.": 1,
+      "The case involves GovernmentGPT, an AI-focused startup, which indicates that AI technologies are central to the dispute, particularly in the context of alleged antitrust violations and exclusive agreements impacting competition.": 1,
+      "AI and automated systems are central in how the Flo app reportedly used SDKs to share menstrual and pregnancy data with Meta and Google for commercial gain.": 1,
+      "AI and automated systems are involved in the contested software and in WEX Inc.'s services, as both use AI for data insights and analytics, though in different business domains.": 1,
+      "The case revolves around Clearview AI's collection and use of biometric data via facial-recognition technology, which was central to the BIPA violations.": 1,
+      "The case involves AI as the product 'Intrusion Shield' reportedly used AI tools to block cyber threats, which was central to the claims of false advertising and securities fraud.": 1,
+      "The case involves the use of AI to predict healthcare needs using anonymized patient data, which is central to the dispute.": 1,
+      "The defendant uses AI to connect buyers with homes, which is relevant to the claims under Section 43(a) for unregistered trademarks.": 1,
+      "The case involves the cybersecurity product 'Intrusion Shield,' which was claimed to use artificial intelligence to enhance its capabilities, leading to alleged securities violations.": 1,
+      "GeoSnap utilized its AI-driven photo platform to extract facial biometrics from photos, which is central to the dispute.": 1,
+      "GeoSnapShot uses AI to match event participants' photos for sale, which is central to the dispute over biometric data collection and consent.": 1,
+      "The case involved the use of AI technology by MDalgorithms to customize skincare products, but the court noted that this did not contribute to confusion between the products.": 1,
+      "The defense argued that the use of templates in legal work, possibly facilitated by AI, should reduce the costs of filing such motions, contesting the fee amount claimed by the defendant.": 1,
+      "GeoSnapShot's platform used AI to allow users to search for photographs taken at events by uploading a 'selfie,' thereby extracting and comparing facial geometry data from the images.": 1,
+      "AI is referenced concerning Monolithic's use of AI in its hiring process, but it is not central to the court's decision.": 1,
+      "The use of AI-powered conversation intelligence software by Invoca is central to the case, as it records, analyzes, and stores call data without consent, potentially violating privacy laws.": 1,
+      "The dispute involves the use of AI-powered virtual pet games, as Impulse Communications initially used AI technology for their game, which is central to the trademark infringement claim.": 1,
+      "The case involves the use of facial recognition technology, which is a form of artificial intelligence, to collect biometric data without user consent.": 1,
+      "The case involves AI as Overjet, a dental AI company, uses AI to detect dental diseases by analyzing dental X-rays. The dispute centers around the alleged copying of AI-generated annotations and false advertising of AI capabilities.": 1,
+      "AI technology was used to identify individuals from surveillance footage by accessing the Clearview AI database, which contains biometric data harvested from images scraped from the internet.": 1,
+      "The dispute involves AI-based facial recognition technology created by Clearview AI, which led to alleged violations of the Illinois Biometric Information Privacy Act (BIPA).": 1,
+      "The case involves the use of machine vision and artificial intelligence (MV+AI) technology by Lytx, Inc. to predict distracted driving behaviors, which is central to the privacy violation claims under the Illinois Biometric Information Privacy Act (BIPA).": 1,
+      "AI was mentioned as part of Flynn\u2019s claims, specifically regarding 5G being used for 'secretive data collection' through AI.": 1,
+      "Paro, an AI-powered finance and accounting solutions marketplace, claimed that its AI-driven confidential information was at risk of being misappropriated by a former employee.": 1,
+      "The case involves AI as it pertains to Arlo's use of facial recognition and other AI-powered features to capture biometric data.": 1,
+      "Clearview AI used artificial intelligence algorithms to collect, analyze, and sell biometric information scraped from internet images, which is central to the privacy violations alleged in the case.": 1,
+      "The case involves AI technologies as the embedded software from Drift allegedly intercepted and recorded communications to enhance its AI capabilities.": 1,
+      "Quintus's use of 'e-Customer Relationship Management' (eCRM) solutions powered by artificial intelligence was central to their business operations and the misleading financial statements.": 1,
+      "Quintus Corporation provided eCRM solutions through AI software, which was central to their business operations during 1999-2000.": 1,
+      "The case indirectly involves artificial intelligence through Quintus\u2019s primary business in AI software.": 1,
+      "Quintus Corporation was engaged in providing 'e-Customer Relationship Management' solutions through their AI-based 'eContact' software, which is central to the case as it relates to the company's business operations and alleged misleading statements.": 1,
+      "AI technology was involved in the business operations of Quintus through their 'eCRM' solutions at the time of the alleged financial misrepresentations.": 1,
+      "Quintus was engaged in developing AI software for e-Customer Relationship Management, which was central to the company's business operations and possibly relevant to the claims of misrepresentation of company value.": 1,
+      "Quintus was originally an artificial intelligence software business, but the case does not directly involve AI technologies in the legal dispute.": 1,
+      "The case involves intellectual property related to artificial intelligence, including 'Fractal mathematics' and other technologies, which the plaintiff alleges were wrongfully used by Google.": 1,
+      "The case involves allegations that Innodata Inc. issued false or misleading statements regarding its AI technology.": 1,
+      "AI was involved in the context of a disputed transcribed phone call used as evidence by Gray, but the court found it inadmissible.": 1,
+      "Quintus was initially an artificial intelligence software company providing eCRM solutions, which was part of its business before financial issues arose.": 1,
+      "Quintus Corporation was originally focused on artificial intelligence software, which is relevant to the case as it was part of the company's business operations that were allegedly misrepresented.": 1,
+      "The case involves SILVIA, an AI program developed by Cognitive Code, which was claimed to be competing with Apple's Siri.": 1,
+      "Quintus Corporation was focused on artificial intelligence, particularly its 'eCRM' solutions, which were central to its business operations and the alleged overstated revenue.": 1,
+      "AI technologies are tangentially related, as Quintus was initially involved in AI software before transitioning to 'eCRM' solutions.": 1,
+      "Quintus Corporation was involved in artificial intelligence software focusing on 'e-Customer Relationship Management' solutions during the relevant class period.": 1,
+      "Quintus Corporation used artificial intelligence and eCRM software as part of its business operations, which were involved in the misrepresentation claims.": 1,
+      "Quintus Corporation was involved in the development of artificial intelligence (AI) and e-Customer Relationship Management (eCRM) software, which was part of the company's business operations during the period in question.": 1,
+      "The case involves Quintus Corporation, which provided AI-powered eCRM solutions, indicating that AI technologies were part of the company's business operations.": 1,
+      "The case involves AI bots used by Avid Dating Life, Inc. to mimic users on the Ashley Madison website, which is part of the claims against the company.": 1,
+      "Quintus Corporation was engaged in artificial intelligence software and eCRM solutions, which is part of the background context of the case.": 1,
+      "Quintus was an AI software company involved in e-Customer Relationship Management solutions, and the case involved financial misreporting related to its AI-driven business dealings.": 1,
+      "The filings by Tsupko contained non-existent legal citations and likely relied on artificial intelligence, which raised further issues under procedural rules.": 1,
+      "The case involved allegations of unauthorized disclosure of innovative ideas related to artificial intelligence (AI) solutions.": 1,
+      "The case involves Clearview AI's facial recognition database, which uses AI to identify individuals from online images, leading to privacy and free speech rights violations.": 1,
+      "AI is indirectly involved through Google's misrepresented status as an artificial intelligence research company in the plaintiff's claims.": 1,
+      "AI and associated technologies are central to the case, as Amazon's alleged use of facial recognition systems for biometric data collection is a primary issue.": 1,
+      "The case involves AI algorithms used by Clearview AI, Inc. to scan and extract biometric identifiers from facial images without consent.": 1,
+      "The case involves the app 'Voila AI Artist,' which uses AI technology to transform photos into cartoons, leading to the collection and storage of biometric data.": 1,
+      "AI was used as a purported feature of the RoFx.net platform, claiming to power its foreign exchange operations, which was allegedly part of the fraudulent representation to investors.": 1,
+      "Lytx used machine vision and artificial intelligence in its DriveCam devices to predict distracted driving behaviors, which led to the dispute over biometric data collection without consent.": 1,
+      "The AI-operated chatbot named Mya was used to send unsolicited text messages, which led to the dispute.": 1,
+      "Clearview AI used AI algorithms to create a biometric database from facial images collected from the internet, which Macy's allegedly used without consent.": 1,
+      "The case involves the Voila AI Artist app, which uses AI technology to transform photos into cartoon images. The dispute centers around the alleged mishandling of biometric data collected by this AI-powered app.": 1,
+      "The case involves the use of Turing Shield, an AI-integrated kiosk, which scans users' facial geometry and performs temperature screenings.": 1,
+      "The case involved claims of AI and automation, particularly involving AI-driven technology allegedly used for torture and spoofing operations.": 1,
+      "Generative artificial intelligence was used by HonorSociety.org to create misleading content online, which was part of the dispute.": 1,
+      "The case involved AI as John Doe questioned the effectiveness of Spider Labs\u2019 claim of using AI to detect ad fraud.": 1,
+      "The case involves the MiDAS automated system, which is an algorithmic technology used by Michigan's Unemployment Insurance Agency to detect fraud in unemployment claims. The system allegedly made false fraud determinations without adequate human oversight.": 1,
+      "The petitioner claimed that artificial intelligence intervention impacted his cases, but the court found these assertions meritless.": 1,
+      "The case involves AI-driven video coaching software using Microsoft's Azure cloud services and Azure Cognitive Services to analyze facial expressions, allegedly involving biometric data.": 1,
+      "The case involves artificial intelligence as the plaintiffs claimed to have a virtual assistant service mark 'E.R.I.C.A.', while BofA's ERICA is also a virtual financial assistant.": 1,
+      "The case discusses the implications of using generative AI in legal proceedings, as Ms. Gjovik's reliance on AI-generated documents drew scrutiny for potentially inaccurate information.": 1,
+      "The plaintiff claimed that AI and radio frequencies were used to cause psychological and physical harm through an implanted chip.": 1,
+      "AI technologies were used by Clarifai to extract and utilize biometric information from photos for facial recognition purposes, which is central to the case.": 1,
+      "AI was indirectly involved as the defendant suspected Goins used generative AI to produce inaccurate citations in his brief.": 1,
+      "The case involves Augustus Intelligence, Inc., a company focused on developing AI solutions, which faced financial difficulties leading to bankruptcy.": 1,
+      "Clearview AI used an AI-driven facial recognition application to scrape social media images for biometric data, which is central to the dispute.": 1,
+      "The involvement of artificial intelligence was specifically in Hodge's claim of being sexually assaulted by AI, although the claim was found to be unsupported and did not fit within the FTCA's scope.": 1,
+      "The court explicitly prohibits the use of AI in preparing any filings and requires McComb to confirm non-use of AI in his case filings by affidavit.": 1,
+      "AI was used for ensuring diverse content representation as part of the settlement's diversity initiatives.": 1,
+      "AI or automated systems were mentioned in the context of Facebook potentially using scraping and neural network software to detect infringing material, but this did not establish actual knowledge of infringement.": 1,
+      "The case involves concerns about advanced AI systems, specifically the development of AI by tech corporations like OpenAI and Google, which the plaintiff fears.": 1,
+      "HireVue's AI-powered software was used to capture biometric data during job interviews, which is central to the dispute under the Illinois Biometric Information Privacy Act (BIPA).": 1,
+      "The case involved concerns about the plaintiff\u2019s counsel using generative AI to draft legal documents without adequate review, leading to unwarranted legal contentions.": 1,
+      "The AI program nH Predict was allegedly used to deny medical coverage, replacing human medical directors, which is claimed to breach insurance agreements.": 1,
+      "Prisma Labs' app uses artificial intelligence to transform photos into artwork, which is central to the trademark dispute.": 1,
+      "AI was improperly used by the plaintiff to generate content for court filings, including fake legal citations, leading to procedural violations.": 1,
+      "X Corp used an AI system to target and suspend accounts, which was part of the unfair business practices claim.": 1,
+      "The case involves a trademark dispute in the artificial intelligence sector, specifically over the use of the 'Playground AI' mark, which is directly related to AI technologies.": 1
+    },
+    "party_types": {
+      "plaintiff": {
+        "individual": 30,
+        "class-action group": 54,
+        "corporation: shift4 payments, llc": 1,
+        "corporation": 10,
+        "corporation (wex inc.)": 1,
+        "government agency": 2,
+        "corporation: rex real estate i, l.p": 1,
+        "corporation (overjet, inc.)": 1,
+        "corporation (admiin inc. d/b/a paro inc.)": 1,
+        "individual and corporation": 2,
+        "corporation (phi theta kappa honor society)": 1,
+        "corporation (my24hournews.com, inc.) and individual (erik m. underwood)": 1,
+        "litigation trustee for augustus intelligence, inc": 1
+      },
+      "defendant": {
+        "corporation": 60,
+        "government agency": 6,
+        "corporation: cloudflare and unnamed individuals and corporations": 1,
+        "corporation (tiktok and bytedance)": 1,
+        "corporation (hp inc.)": 1,
+        "corporation: salesforce.com, inc": 1,
+        "corporation (intrusion inc.)": 2,
+        "corporation: rex real estate exchange, inc": 1,
+        "corporation (geosnapshot pty ltd)": 1,
+        "corporation: geosnapshot pty ltd": 1,
+        "corporation, allina health system": 1,
+        "corporation (videa health, inc.)": 1,
+        "corporation (macy\u2019s retail holdings, llc)": 1,
+        "individual (luke kohan) and corporation (firmkey solutions llc)": 1,
+        "corporation (clearview ai, inc.)": 1,
+        "corporation: peloton interactive, inc": 1,
+        "corporation (quintus corporation)": 6,
+        "corporation: experian information solutions, inc": 1,
+        "investors and advisors": 1,
+        "corporation (avid dating life, inc.)": 1,
+        "corporation: kinetic advantage, llc": 1,
+        "corporation (amazon.com, inc.)": 1,
+        "corporation (macy's)": 1,
+        "government agency and corporation": 1,
+        "corporation (honorsociety.org)": 1,
+        "individual": 4,
+        "corporation (bank of america corporation)": 1,
+        "corporation: apple inc": 1,
+        "corporation (best buy inc.)": 1,
+        "corporation (pinterest, inc.)": 1,
+        "government agency and corporations": 1,
+        "corporation: hirevue inc": 1,
+        "corporation: united airlines": 1
+      },
+      "combinations": {
+        "individual v. corporation": 14,
+        "individual v. government agency": 6,
+        "class-action group v. corporation": 35,
+        "corporation: shift4 payments, llc v. corporation: cloudflare and unnamed individuals and corporations": 1,
+        "class-action group v. corporation (tiktok and bytedance)": 1,
+        "corporation v. corporation": 8,
+        "corporation (wex inc.) v. corporation (hp inc.)": 1,
+        "individual v. corporation: salesforce.com, inc": 1,
+        "government agency v. corporation": 2,
+        "class-action group v. corporation (intrusion inc.)": 2,
+        "corporation: rex real estate i, l.p v. corporation: rex real estate exchange, inc": 1,
+        "class-action group v. corporation (geosnapshot pty ltd)": 1,
+        "class-action group v. corporation: geosnapshot pty ltd": 1,
+        "individual v. corporation, allina health system": 1,
+        "corporation (overjet, inc.) v. corporation (videa health, inc.)": 1,
+        "class-action group v. corporation (macy\u2019s retail holdings, llc)": 1,
+        "corporation (admiin inc. d/b/a paro inc.) v. individual (luke kohan) and corporation (firmkey solutions llc)": 1,
+        "class-action group v. corporation (clearview ai, inc.)": 1,
+        "class-action group v. corporation: peloton interactive, inc": 1,
+        "class-action group v. corporation (quintus corporation)": 6,
+        "individual v. corporation: experian information solutions, inc": 1,
+        "individual and corporation v. investors and advisors": 1,
+        "class-action group v. corporation (avid dating life, inc.)": 1,
+        "individual v. corporation: kinetic advantage, llc": 1,
+        "class-action group v. corporation (amazon.com, inc.)": 1,
+        "class-action group v. corporation (macy's)": 1,
+        "individual v. government agency and corporation": 1,
+        "corporation (phi theta kappa honor society) v. corporation (honorsociety.org)": 1,
+        "corporation v. individual": 2,
+        "corporation (my24hournews.com, inc.) and individual (erik m. underwood) v. corporation (bank of america corporation)": 1,
+        "individual v. corporation: apple inc": 1,
+        "individual v. individual": 1,
+        "litigation trustee for augustus intelligence, inc v. individual": 1,
+        "individual v. corporation (best buy inc.)": 1,
+        "class-action group v. corporation (pinterest, inc.)": 1,
+        "individual and corporation v. corporation": 1,
+        "individual v. government agency and corporations": 1,
+        "class-action group v. corporation: hirevue inc": 1,
+        "individual v. corporation: united airlines": 1
+      }
+    },
+    "claims": {
+      "by_type": {
+        "invasion of privacy": {
+          "count": 3,
+          "cases": [
+            "2025-09-30_USCOURTS-njd-2_20-cv-12364_KERTESZ v. COLONY TIRE CORPORATION et al.pdf",
+            "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf",
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "outcomes": {
+            "pending_trial": 1,
+            "other": 1,
+            "defendant_win": 1
+          }
+        },
+        "violation of the new jersey law against discrimination (njlad)": {
+          "count": 1,
+          "cases": [
+            "2025-09-30_USCOURTS-njd-2_20-cv-12364_KERTESZ v. COLONY TIRE CORPORATION et al.pdf"
+          ],
+          "outcomes": {
+            "pending_trial": 1
+          }
+        },
+        "aiding and abetting discrimination": {
+          "count": 1,
+          "cases": [
+            "2025-09-30_USCOURTS-njd-2_20-cv-12364_KERTESZ v. COLONY TIRE CORPORATION et al.pdf"
+          ],
+          "outcomes": {
+            "pending_trial": 1
+          }
+        },
+        "missed social security checks": {
+          "count": 1,
+          "cases": [
+            "2025-01-15_USCOURTS-kywd-3_25-cv-00033_Fouts v. Commonwealth of Kentucky_ et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "hazardous living conditions": {
+          "count": 1,
+          "cases": [
+            "2025-01-15_USCOURTS-kywd-3_25-cv-00033_Fouts v. Commonwealth of Kentucky_ et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "child protective services investigations": {
+          "count": 1,
+          "cases": [
+            "2025-01-15_USCOURTS-kywd-3_25-cv-00033_Fouts v. Commonwealth of Kentucky_ et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "the california invasion of privacy act (cipa)": {
+          "count": 3,
+          "cases": [
+            "2025-08-11_USCOURTS-cand-3_25-cv-00990_Taylor v. ConverseNow Technologies_ Inc..pdf",
+            "2025-01-08_USCOURTS-caed-2_24-cv-01327_Tate v. Chemed Corp._ et al.pdf",
+            "2024-07-05_USCOURTS-casd-3_23-cv-01082_Jones v. Peloton Interactive_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 3
+          }
+        },
+        "cybersquatting": {
+          "count": 2,
+          "cases": [
+            "2025-09-09_USCOURTS-cand-4_25-cv-06724_Shift4 Payments_ LLC et al v. JaredIsaacmanCourtCase.com et al.pdf",
+            "2024-03-14_USCOURTS-cand-5_23-cv-05181_Playground AI LLC v. Mighty Computing_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1,
+            "other": 1
+          }
+        },
+        "tiktok and bytedance collected and": {
+          "count": 1,
+          "cases": [
+            "2022-07-28_USCOURTS-ilnd-1_20-cv-04699_In Re_ TikTok_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "antitrust violations": {
+          "count": 1,
+          "cases": [
+            "2025-03-07_USCOURTS-azd-2_24-cv-01869_GovernmentGPT Incorporated et al v. Axon Enterprise Incorporated et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "false advertising": {
+          "count": 2,
+          "cases": [
+            "2025-03-07_USCOURTS-azd-2_24-cv-01869_GovernmentGPT Incorporated et al v. Axon Enterprise Incorporated et al.pdf",
+            "2024-08-02_USCOURTS-cand-3_22-cv-07197_La Canada Ventures_ Inc. v. MDalgorithms_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1,
+            "mixed": 1
+          }
+        },
+        "privacy violations": {
+          "count": 3,
+          "cases": [
+            "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf",
+            "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf",
+            "2025-01-17_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1,
+            "defendant_win": 1,
+            "settled": 1
+          }
+        },
+        "breach of contract": {
+          "count": 2,
+          "cases": [
+            "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf",
+            "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1,
+            "defendant_win": 1
+          }
+        },
+        "trademark infringement due to the": {
+          "count": 1,
+          "cases": [
+            "2025-07-14_USCOURTS-cand-3_25-cv-03995_Fizz Social Corp. v. Maplebear Inc. d_b_a Instacart et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "trademark infringement by hp inc. using the 'wex' trademark": {
+          "count": 1,
+          "cases": [
+            "2024-07-09_USCOURTS-med-2_24-cv-00121_WEX INC v. HP INC et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "salesforce knowingly benefited from backpage's": {
+          "count": 1,
+          "cases": [
+            "2022-05-16_USCOURTS-ilnd-1_20-cv-02335_G _a minor_ et al v. Salesforce.com_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "apple engaged in anticompetitive practices": {
+          "count": 1,
+          "cases": [
+            "2025-06-30_USCOURTS-njd-2_24-cv-04055_UNITED STATES OF AMERICA et al v. APPLE INC..pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "apple's restrictive policies on app": {
+          "count": 1,
+          "cases": [
+            "2025-06-30_USCOURTS-njd-2_24-cv-04055_UNITED STATES OF AMERICA et al v. APPLE INC..pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "alleged violations of illinois' biometric information privacy act": {
+          "count": 1,
+          "cases": [
+            "2023-06-15_USCOURTS-ca7-22-02313_Citizens Insurance Company of America v. Wynndalco Enterprises_ LLC_ et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "intrusion inc. made false claims": {
+          "count": 1,
+          "cases": [
+            "2022-12-16_USCOURTS-txed-4_21-cv-00307_Celeste v. Intrusion Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "google unlawfully collected and utilized users\u2019 data when the users had web & app activity": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-cand-3_20-cv-04688_Rodriguez et al v. Google LLC et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "google's conduct was knowingly highly": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-cand-3_20-cv-04688_Rodriguez et al v. Google LLC et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "consumer fraud": {
+          "count": 1,
+          "cases": [
+            "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "trademark infringement under section 32(1) of the lanham act": {
+          "count": 1,
+          "cases": [
+            "2023-09-06_USCOURTS-ca5-22-50405_Rex Real Est I v. Rex Real Est.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "trademark infringement under section 43(a) of the lanham act": {
+          "count": 1,
+          "cases": [
+            "2023-09-06_USCOURTS-ca5-22-50405_Rex Real Est I v. Rex Real Est.pdf"
+          ],
+          "outcomes": {
+            "pending_trial": 1
+          }
+        },
+        "intrusion inc. made false representations": {
+          "count": 1,
+          "cases": [
+            "2022-12-16_USCOURTS-txed-4_21-cv-00374_Neely et al v. Intrusion Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "trademark infringement": {
+          "count": 4,
+          "cases": [
+            "2025-07-21_USCOURTS-cand-4_23-cv-03918_OpenAI_ Inc. v. Open Artificial Intelligence_ Inc. et al.pdf",
+            "2024-08-02_USCOURTS-cand-3_22-cv-07197_La Canada Ventures_ Inc. v. MDalgorithms_ Inc..pdf",
+            "2024-12-23_USCOURTS-rid-1_24-cv-00166_Impulse Communications_ Inc. v. Uplift Games_ LLC et al.pdf",
+            "2024-03-14_USCOURTS-cand-5_23-cv-05181_Playground AI LLC v. Mighty Computing_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "other": 2,
+            "mixed": 1,
+            "plaintiff_win": 1
+          }
+        },
+        "geosnap violated the illinois biometric information privacy act": {
+          "count": 1,
+          "cases": [
+            "2025-03-06_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "the illinois biometric information privacy act (bipa) due to the collection and use of biometric data without proper consent": {
+          "count": 1,
+          "cases": [
+            "2025-03-20_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "negligence": {
+          "count": 1,
+          "cases": [
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "unfair competition law": {
+          "count": 2,
+          "cases": [
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "outcomes": {
+            "other": 1,
+            "defendant_win": 1
+          }
+        },
+        "racial discrimination in employment": {
+          "count": 1,
+          "cases": [
+            "2025-01-30_USCOURTS-mnd-0_23-cv-02789_Pettit v. Allina Health System.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "the illinois biometric information privacy act (bipa)": {
+          "count": 3,
+          "cases": [
+            "2024-03-07_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+            "2022-01-27_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+            "2022-09-26_USCOURTS-ilnd-1_21-cv-04409_Trio v. Turing Video_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 2,
+            "other": 1
+          }
+        },
+        "discrimination in employment": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-azd-2_23-cv-02083_Lenk v. Monolithic Power Systems Incorporated.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "retaliation in employment": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-azd-2_23-cv-02083_Lenk v. Monolithic Power Systems Incorporated.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "antitrust violations by google llc": {
+          "count": 1,
+          "cases": [
+            "2025-01-27_USCOURTS-dcd-1_20-cv-03010_UNITED STATES OF AMERICA et al v. GOOGLE LLC.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "unfair competition": {
+          "count": 1,
+          "cases": [
+            "2024-12-23_USCOURTS-rid-1_24-cv-00166_Impulse Communications_ Inc. v. Uplift Games_ LLC et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "bumble's dating app used facial": {
+          "count": 1,
+          "cases": [
+            "2023-07-07_USCOURTS-ilnd-1_21-cv-06925_Dzananovic v. Bumble_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "infringement of intellectual property related": {
+          "count": 1,
+          "cases": [
+            "2024-07-19_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "false advertising regarding ai capabilities": {
+          "count": 1,
+          "cases": [
+            "2024-07-19_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "racial discrimination": {
+          "count": 2,
+          "cases": [
+            "2021-06-14_USCOURTS-txsd-4_20-cv-03315_Omoyosi v. Texas Health and Human Services Commission.pdf",
+            "2024-01-17_USCOURTS-ohsd-3_23-cv-00028_McComb v. Best Buy Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 2
+          }
+        },
+        "challenge to the handling of": {
+          "count": 1,
+          "cases": [
+            "2021-06-14_USCOURTS-txsd-4_20-cv-03315_Omoyosi v. Texas Health and Human Services Commission.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "california laws": {
+          "count": 1,
+          "cases": [
+            "2022-01-27_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "new york laws": {
+          "count": 1,
+          "cases": [
+            "2022-01-27_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "citizens insurance company of america": {
+          "count": 1,
+          "cases": [
+            "2022-03-30_USCOURTS-ilnd-1_20-cv-03873_Citizens Insurance Company Of America v. Wynndalco Enterprises_ LLC et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "conspiracy involving the installation of": {
+          "count": 1,
+          "cases": [
+            "2023-08-10_USCOURTS-ctd-3_22-cv-01065_Flynn et al v. Verizon Wireless et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "breach of a non-compete agreement": {
+          "count": 1,
+          "cases": [
+            "2023-07-19_USCOURTS-ilnd-1_23-cv-04430_Admiin Inc. v. Kohan et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "potential misappropriation of trade secrets": {
+          "count": 1,
+          "cases": [
+            "2023-07-19_USCOURTS-ilnd-1_23-cv-04430_Admiin Inc. v. Kohan et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "arlo technologies, inc. violated the illinois biometric information privacy act": {
+          "count": 1,
+          "cases": [
+            "2024-06-27_USCOURTS-cand-5_23-cv-05096_Tibbs et al v. Arlo Technologies_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "unlawful collection, analysis, and sale": {
+          "count": 1,
+          "cases": [
+            "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "various state privacy laws": {
+          "count": 1,
+          "cases": [
+            "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "unjust enrichment": {
+          "count": 2,
+          "cases": [
+            "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 2
+          }
+        },
+        "securities fraud": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04263_Werner_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud due to misleading": {
+          "count": 2,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04294_Tuopshug v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04264_Weiss v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 2
+          }
+        },
+        "misleading financial statements during ipo": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04346_Khalil v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud due to overstated": {
+          "count": 4,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04528_Yu v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00096_Rubel v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04504_Tan v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04274_Lemieux_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 4
+          }
+        },
+        "quintus corporation made false and": {
+          "count": 3,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04650_Magnan v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00262_Anderson v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00932_Berdakina v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 3
+          }
+        },
+        "securities fraud through false and": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_01-cv-00270_Micnaud v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud by overstating revenues": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04308_Alves v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud due to false": {
+          "count": 2,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04313_Kaplowitz v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04392_Miller_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 2
+          }
+        },
+        "the uspto failed to provide necessary forms to apply": {
+          "count": 1,
+          "cases": [
+            "2021-05-18_USCOURTS-ksd-5_21-cv-04021_Jones v. Patents and Trademarks Commissioner.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "innodata inc. issued false or": {
+          "count": 1,
+          "cases": [
+            "2024-10-30_USCOURTS-njd-2_24-cv-00971_D_AGOSTINO v. INNODATA INC. et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "experian inaccurately reported thomas gray's": {
+          "count": 1,
+          "cases": [
+            "2024-09-16_USCOURTS-txwd-1_23-cv-00545_Gray v. Experian Information Solutions_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "experian's failure to correct inaccuracies": {
+          "count": 1,
+          "cases": [
+            "2024-09-16_USCOURTS-txwd-1_23-cv-00545_Gray v. Experian Information Solutions_ Inc..pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "securities fraud involving false financial": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04276_Civic v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "ownership interest in cognitive code": {
+          "count": 1,
+          "cases": [
+            "2015-03-11_USCOURTS-mied-2_13-cv-14026_Odish v. Morgenthaler Ventures et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "securities fraud due to financial": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04390_Zanowiak_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "defendants engaged in securities fraud": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04343_O_Neil v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud by inflating revenues": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04678_Dutt v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "quintus corporation overstated its financial": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_01-cv-00093_Rost v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "misrepresentation in financial statements leading": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04300_Fershteyn_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud by overstating revenue": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04381_Tick v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "false and misleading statements in": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04771_Klapper_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "avid dating life, inc. inadequately": {
+          "count": 1,
+          "cases": [
+            "2016-04-06_USCOURTS-moed-4_15-md-02669_IN RE_ ASHLEY MADISON CUSTOMER DATA SECURITY BREACH LITIGATION.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "avid dating life, inc. used": {
+          "count": 1,
+          "cases": [
+            "2016-04-06_USCOURTS-moed-4_15-md-02669_IN RE_ ASHLEY MADISON CUSTOMER DATA SECURITY BREACH LITIGATION.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "the federal court should exercise jurisdiction over the dispute concerning a line of credit": {
+          "count": 1,
+          "cases": [
+            "2025-09-17_USCOURTS-insd-1_24-cv-01210_TSUPKO v. KINETIC ADVANTAGE LLC.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "misappropriation of trade secrets concerning": {
+          "count": 1,
+          "cases": [
+            "2019-03-26_USCOURTS-cand-5_18-cv-04327_Lamont v. Conner et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of privacy rights": {
+          "count": 1,
+          "cases": [
+            "2022-03-23_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of free speech rights": {
+          "count": 1,
+          "cases": [
+            "2022-03-23_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "google violated the kansas consumer protection act": {
+          "count": 1,
+          "cases": [
+            "2020-04-14_USCOURTS-ksd-5_20-cv-03072_Jones v. Google LLC_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "amazon collected biometric data, including": {
+          "count": 1,
+          "cases": [
+            "2022-01-03_USCOURTS-ilnd-1_20-cv-06485_Naughton v. Amazon.com_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "clearview ai, inc. covertly scraped": {
+          "count": 1,
+          "cases": [
+            "2022-07-25_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "the illinois biometric information privacy act": {
+          "count": 1,
+          "cases": [
+            "2022-01-26_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "fraudulent misrepresentation by rofx.net and": {
+          "count": 1,
+          "cases": [
+            "2022-05-26_USCOURTS-flsd-1_21-cv-23472_Birmingham et al v. Rofx.net et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "lytx used ai-enabled drivecam devices": {
+          "count": 1,
+          "cases": [
+            "2025-07-25_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "the telephone consumer protection act (tcpa)": {
+          "count": 1,
+          "cases": [
+            "2022-11-18_USCOURTS-cand-3_19-cv-05602_Risher v. Adecco Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "clearview ai violated the illinois biometric information privacy act": {
+          "count": 1,
+          "cases": [
+            "2022-03-18_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "macy's used clearview ai's biometric": {
+          "count": 1,
+          "cases": [
+            "2022-03-18_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "infringement of the illinois biometric information privacy act": {
+          "count": 1,
+          "cases": [
+            "2022-10-07_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "conspiracy to provide fake drugs": {
+          "count": 1,
+          "cases": [
+            "2021-05-17_USCOURTS-moed-4_21-cv-00275_Silva v. U.S. Army et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "wireless torture using advanced technology": {
+          "count": 1,
+          "cases": [
+            "2021-05-17_USCOURTS-moed-4_21-cv-00275_Silva v. U.S. Army et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "honorsociety.org disseminated misleading information about": {
+          "count": 1,
+          "cases": [
+            "2025-04-07_USCOURTS-ca5-24-60452_Phi Theta Kappa v. Honor Society.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "defamation": {
+          "count": 1,
+          "cases": [
+            "2020-12-07_USCOURTS-cand-5_20-mc-80141_In re Rule 45 Subpoenas Issued to Google LLC and LinkedIn Corporation Dated July 23_ 2020.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "the midas system falsely detected": {
+          "count": 1,
+          "cases": [
+            "2020-12-21_USCOURTS-mied-2_17-cv-10657_Cahoo et al v. SAS Analytics Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "rights were violated due to": {
+          "count": 1,
+          "cases": [
+            "2021-03-15_USCOURTS-ksd-5_20-cv-03056_Jones v. Douglas County Jail.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "artificial intelligence intervention impacted his": {
+          "count": 1,
+          "cases": [
+            "2021-03-15_USCOURTS-ksd-5_20-cv-03056_Jones v. Douglas County Jail.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of bipa section 15(a)": {
+          "count": 1,
+          "cases": [
+            "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "violation of bipa section 15(b)": {
+          "count": 1,
+          "cases": [
+            "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of bipa section 15(d)": {
+          "count": 1,
+          "cases": [
+            "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of bipa section 15(c)": {
+          "count": 1,
+          "cases": [
+            "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "trademark infringement of the unregistered": {
+          "count": 1,
+          "cases": [
+            "2024-04-18_USCOURTS-ca10-22-01402_Underwood_ et al v. Bank of America Corporation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "apple's affirmative defenses are insufficient": {
+          "count": 1,
+          "cases": [
+            "2025-05-19_USCOURTS-cand-3_23-cv-04597_Gjovik v. Apple Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "psychological and physical harm caused": {
+          "count": 1,
+          "cases": [
+            "2024-01-04_USCOURTS-mnd-0_23-cv-03804_Dopp v. Wray et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "unauthorized use of photographs": {
+          "count": 1,
+          "cases": [
+            "2021-03-16_USCOURTS-ilnd-1_20-cv-01937_Stein v. Clarifai_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "unjust enrichment from the use": {
+          "count": 1,
+          "cases": [
+            "2021-03-16_USCOURTS-ilnd-1_20-cv-01937_Stein v. Clarifai_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "employment discrimination based on sex": {
+          "count": 1,
+          "cases": [
+            "2025-06-05_USCOURTS-ned-8_23-cv-00477_Goins v. Father Flanagan_s Boys_ Home.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "retaliation": {
+          "count": 1,
+          "cases": [
+            "2025-06-05_USCOURTS-ned-8_23-cv-00477_Goins v. Father Flanagan_s Boys_ Home.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "breach of contract involving a": {
+          "count": 1,
+          "cases": [
+            "2025-03-26_USCOURTS-deb-1_23-ap-50370_Ryniker et al v. Washington et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "clearview ai profited from plaintiffs'": {
+          "count": 1,
+          "cases": [
+            "2020-10-23_USCOURTS-ilnd-1_20-cv-03843_Thornley et al v. Clearview AI_ Inc..pdf"
+          ],
+          "outcomes": {
+            "pending_trial": 1
+          }
+        },
+        "sexual assault by artificial intelligence": {
+          "count": 1,
+          "cases": [
+            "2024-04-24_USCOURTS-ca10-23-08088_Hodge v. United States.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "disability discrimination": {
+          "count": 1,
+          "cases": [
+            "2024-01-17_USCOURTS-ohsd-3_23-cv-00028_McComb v. Best Buy Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "race and sex discrimination within": {
+          "count": 1,
+          "cases": [
+            "2024-11-14_USCOURTS-cand-3_20-cv-08331_In re Pinterest Derivative Litigation.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "breach of non-compete agreement": {
+          "count": 1,
+          "cases": [
+            "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "breach of non-solicitation agreement": {
+          "count": 1,
+          "cases": [
+            "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "misappropriation of confidential information and": {
+          "count": 1,
+          "cases": [
+            "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "copyright infringement": {
+          "count": 1,
+          "cases": [
+            "2021-09-17_USCOURTS-cand-4_17-cv-02758_Long_ M.D._ et al v. Dorset.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "concerns about the development of": {
+          "count": 1,
+          "cases": [
+            "2025-08-26_USCOURTS-dcd-1_25-cv-01567_CATALDO v. UNITED STATES OF AMERICA et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of the illinois biometric information privacy act (bipa)": {
+          "count": 1,
+          "cases": [
+            "2024-02-26_USCOURTS-ilnd-1_22-cv-01284_Deyerler v. HireVue Inc..pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "profiting from biometric data without": {
+          "count": 1,
+          "cases": [
+            "2024-02-26_USCOURTS-ilnd-1_22-cv-01284_Deyerler v. HireVue Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "opposition to the extension of time": {
+          "count": 1,
+          "cases": [
+            "2025-10-08_USCOURTS-nmd-1_23-cv-00899_Lipe v. Albuquerque Public Schools et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "misuse of ai program nh": {
+          "count": 1,
+          "cases": [
+            "2025-09-08_USCOURTS-mnd-0_23-cv-03514_Estate of Gene B. Lokken_ The et al v. UnitedHealth Group_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "trademark infringement through reverse confusion": {
+          "count": 1,
+          "cases": [
+            "2017-03-06_USCOURTS-ded-1_16-cv-01307_Zaletel v. Prisma Labs_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "the plaintiff's filings should not": {
+          "count": 1,
+          "cases": [
+            "2025-09-08_USCOURTS-cod-1_23-cv-01766_Berg v. United Airlines et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "the plaintiff should be allowed": {
+          "count": 1,
+          "cases": [
+            "2025-09-08_USCOURTS-cod-1_23-cv-01766_Berg v. United Airlines et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "promissory fraud": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "promissory estoppel": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "unfair business practices": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        }
+      },
+      "by_legal_basis": {
+        "state law": {
+          "count": 9,
+          "cases": [
+            "2025-09-30_USCOURTS-njd-2_20-cv-12364_KERTESZ v. COLONY TIRE CORPORATION et al.pdf",
+            "2025-08-11_USCOURTS-cand-3_25-cv-00990_Taylor v. ConverseNow Technologies_ Inc..pdf",
+            "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf",
+            "2025-08-06_USCOURTS-cand-3_20-cv-04688_Rodriguez et al v. Google LLC et al.pdf",
+            "2024-08-02_USCOURTS-cand-3_22-cv-07197_La Canada Ventures_ Inc. v. MDalgorithms_ Inc..pdf",
+            "2025-01-08_USCOURTS-caed-2_24-cv-01327_Tate v. Chemed Corp._ et al.pdf",
+            "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "pending_trial": 1,
+            "plaintiff_win": 2,
+            "other": 3,
+            "mixed": 2,
+            "defendant_win": 1
+          }
+        },
+        "njlad": {
+          "count": 2,
+          "cases": [
+            "2025-09-30_USCOURTS-njd-2_20-cv-12364_KERTESZ v. COLONY TIRE CORPORATION et al.pdf"
+          ],
+          "outcomes": {
+            "pending_trial": 2
+          }
+        },
+        "constitutional": {
+          "count": 6,
+          "cases": [
+            "2025-01-15_USCOURTS-kywd-3_25-cv-00033_Fouts v. Commonwealth of Kentucky_ et al.pdf",
+            "2022-03-23_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+            "2020-12-21_USCOURTS-mied-2_17-cv-10657_Cahoo et al v. SAS Analytics Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "other": 3,
+            "defendant_win": 2,
+            "plaintiff_win": 1
+          }
+        },
+        "isaacman's personal name being used in d": {
+          "count": 1,
+          "cases": [
+            "2025-09-09_USCOURTS-cand-4_25-cv-06724_Shift4 Payments_ LLC et al v. JaredIsaacmanCourtCase.com et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "violation of u.s. federal and state priv": {
+          "count": 1,
+          "cases": [
+            "2022-07-28_USCOURTS-ilnd-1_20-cv-04699_In Re_ TikTok_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "sherman act and clayton act": {
+          "count": 1,
+          "cases": [
+            "2025-03-07_USCOURTS-azd-2_24-cv-01869_GovernmentGPT Incorporated et al v. Axon Enterprise Incorporated et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "federal trade commission act": {
+          "count": 1,
+          "cases": [
+            "2025-03-07_USCOURTS-azd-2_24-cv-01869_GovernmentGPT Incorporated et al v. Axon Enterprise Incorporated et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "contractual limitations and waiver uncon": {
+          "count": 1,
+          "cases": [
+            "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "privacy commitments and implied consent": {
+          "count": 1,
+          "cases": [
+            "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "trademark law, likelihood of consumer co": {
+          "count": 1,
+          "cases": [
+            "2025-07-14_USCOURTS-cand-3_25-cv-03995_Fizz Social Corp. v. Maplebear Inc. d_b_a Instacart et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "trademark law, focusing on consumer conf": {
+          "count": 1,
+          "cases": [
+            "2024-07-09_USCOURTS-med-2_24-cv-00121_WEX INC v. HP INC et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "18 u.s.c. \u00a7 1595": {
+          "count": 1,
+          "cases": [
+            "2022-05-16_USCOURTS-ilnd-1_20-cv-02335_G _a minor_ et al v. Salesforce.com_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of federal and state antitrust": {
+          "count": 2,
+          "cases": [
+            "2025-06-30_USCOURTS-njd-2_24-cv-04055_UNITED STATES OF AMERICA et al v. APPLE INC..pdf"
+          ],
+          "outcomes": {
+            "other": 2
+          }
+        },
+        "biometric information privacy act (bipa)": {
+          "count": 1,
+          "cases": [
+            "2023-06-15_USCOURTS-ca7-22-02313_Citizens Insurance Company of America v. Wynndalco Enterprises_ LLC_ et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "violation of securities laws by making f": {
+          "count": 2,
+          "cases": [
+            "2022-12-16_USCOURTS-txed-4_21-cv-00307_Celeste v. Intrusion Inc. et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00270_Micnaud v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 2
+          }
+        },
+        "alleged improper handling of medical rec": {
+          "count": 1,
+          "cases": [
+            "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "alleged breach concerning the handling o": {
+          "count": 1,
+          "cases": [
+            "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "alleged deceptive practices in handling": {
+          "count": 1,
+          "cases": [
+            "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "section 32(1) of the lanham act": {
+          "count": 1,
+          "cases": [
+            "2023-09-06_USCOURTS-ca5-22-50405_Rex Real Est I v. Rex Real Est.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "section 43(a) of the lanham act": {
+          "count": 1,
+          "cases": [
+            "2023-09-06_USCOURTS-ca5-22-50405_Rex Real Est I v. Rex Real Est.pdf"
+          ],
+          "outcomes": {
+            "pending_trial": 1
+          }
+        },
+        "securities exchange act of 1934, section": {
+          "count": 1,
+          "cases": [
+            "2022-12-16_USCOURTS-txed-4_21-cv-00374_Neely et al v. Intrusion Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "openai, inc. claimed that guy ravine's u": {
+          "count": 1,
+          "cases": [
+            "2025-07-21_USCOURTS-cand-4_23-cv-03918_OpenAI_ Inc. v. Open Artificial Intelligence_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "illinois biometric information privacy a": {
+          "count": 17,
+          "cases": [
+            "2025-03-06_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+            "2025-03-20_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+            "2025-01-17_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf",
+            "2024-06-27_USCOURTS-cand-5_23-cv-05096_Tibbs et al v. Arlo Technologies_ Inc..pdf",
+            "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+            "2022-01-03_USCOURTS-ilnd-1_20-cv-06485_Naughton v. Amazon.com_ Inc. et al.pdf",
+            "2022-01-26_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf",
+            "2022-03-18_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+            "2022-09-26_USCOURTS-ilnd-1_21-cv-04409_Trio v. Turing Video_ Inc..pdf",
+            "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf",
+            "2021-03-16_USCOURTS-ilnd-1_20-cv-01937_Stein v. Clarifai_ Inc..pdf",
+            "2020-10-23_USCOURTS-ilnd-1_20-cv-03843_Thornley et al v. Clearview AI_ Inc..pdf",
+            "2024-02-26_USCOURTS-ilnd-1_22-cv-01284_Deyerler v. HireVue Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 6,
+            "settled": 1,
+            "other": 4,
+            "defendant_win": 5,
+            "pending_trial": 1
+          }
+        },
+        "failure to adequately protect personal a": {
+          "count": 1,
+          "cases": [
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "failure to protect customer data and del": {
+          "count": 1,
+          "cases": [
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "alleged failure to protect personal data": {
+          "count": 1,
+          "cases": [
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "alleged violation of unspecified ftc gui": {
+          "count": 1,
+          "cases": [
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "alleged explicit racist actions experien": {
+          "count": 1,
+          "cases": [
+            "2025-01-30_USCOURTS-mnd-0_23-cv-02789_Pettit v. Allina Health System.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "collection of facial biometrics via geos": {
+          "count": 1,
+          "cases": [
+            "2024-03-07_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "alleged violation of anti-discrimination": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-azd-2_23-cv-02083_Lenk v. Monolithic Power Systems Incorporated.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "alleged violation of anti-retaliation la": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-azd-2_23-cv-02083_Lenk v. Monolithic Power Systems Incorporated.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "federal antitrust laws": {
+          "count": 1,
+          "cases": [
+            "2025-01-27_USCOURTS-dcd-1_20-cv-03010_UNITED STATES OF AMERICA et al v. GOOGLE LLC.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "anticybersquatting consumer protection a": {
+          "count": 1,
+          "cases": [
+            "2024-12-23_USCOURTS-rid-1_24-cv-00166_Impulse Communications_ Inc. v. Uplift Games_ LLC et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "rhode island common-law": {
+          "count": 1,
+          "cases": [
+            "2024-12-23_USCOURTS-rid-1_24-cv-00166_Impulse Communications_ Inc. v. Uplift Games_ LLC et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "violation of illinois\u2019s biometric inform": {
+          "count": 1,
+          "cases": [
+            "2023-07-07_USCOURTS-ilnd-1_21-cv-06925_Dzananovic v. Bumble_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "copyright law": {
+          "count": 1,
+          "cases": [
+            "2024-07-19_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "lanham act": {
+          "count": 1,
+          "cases": [
+            "2024-07-19_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "title vii": {
+          "count": 1,
+          "cases": [
+            "2021-06-14_USCOURTS-txsd-4_20-cv-03315_Omoyosi v. Texas Health and Human Services Commission.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "general legal principles related to publ": {
+          "count": 1,
+          "cases": [
+            "2021-06-14_USCOURTS-txsd-4_20-cv-03315_Omoyosi v. Texas Health and Human Services Commission.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "macy's allegedly used clearview ai\u2019s dat": {
+          "count": 1,
+          "cases": [
+            "2022-01-27_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "macy's unauthorized use of biometric dat": {
+          "count": 2,
+          "cases": [
+            "2022-01-27_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 2
+          }
+        },
+        "statutory exclusion clause in the insura": {
+          "count": 1,
+          "cases": [
+            "2022-03-30_USCOURTS-ilnd-1_20-cv-03873_Citizens Insurance Company Of America v. Wynndalco Enterprises_ LLC et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "alleged conspiracy and harm from 5g inst": {
+          "count": 1,
+          "cases": [
+            "2023-08-10_USCOURTS-ctd-3_22-cv-01065_Flynn et al v. Verizon Wireless et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "allegation that kohan violated the terms": {
+          "count": 1,
+          "cases": [
+            "2023-07-19_USCOURTS-ilnd-1_23-cv-04430_Admiin Inc. v. Kohan et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "allegation that kohan and firmkey might": {
+          "count": 1,
+          "cases": [
+            "2023-07-19_USCOURTS-ilnd-1_23-cv-04430_Admiin Inc. v. Kohan et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "state privacy laws": {
+          "count": 1,
+          "cases": [
+            "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "section 631(a) of cipa, which prohibits": {
+          "count": 1,
+          "cases": [
+            "2024-07-05_USCOURTS-casd-3_23-cv-01082_Jones v. Peloton Interactive_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "violation of securities laws due to fals": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04263_Werner_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "violation of securities laws by providin": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04294_Tuopshug v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04346_Khalil v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "federal securities laws and regulations": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04528_Yu v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud under federal securitie": {
+          "count": 5,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04650_Magnan v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00262_Anderson v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00093_Rost v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04300_Fershteyn_ et al v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00932_Berdakina v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 5
+          }
+        },
+        "violation of securities laws by misrepre": {
+          "count": 4,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_01-cv-00096_Rubel v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04504_Tan v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04274_Lemieux_ et al v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04678_Dutt v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 4
+          }
+        },
+        "federal securities laws regarding accura": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04308_Alves v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities act of 1933 and the securitie": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04313_Kaplowitz v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "violation of securities laws by overstat": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04392_Miller_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "failure to provide necessary forms for p": {
+          "count": 1,
+          "cases": [
+            "2021-05-18_USCOURTS-ksd-5_21-cv-04021_Jones v. Patents and Trademarks Commissioner.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "securities fraud under the private secur": {
+          "count": 1,
+          "cases": [
+            "2024-10-30_USCOURTS-njd-2_24-cv-00971_D_AGOSTINO v. INNODATA INC. et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "fair credit reporting act (fcra)": {
+          "count": 2,
+          "cases": [
+            "2024-09-16_USCOURTS-txwd-1_23-cv-00545_Gray v. Experian Information Solutions_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1,
+            "other": 1
+          }
+        },
+        "overstated revenue and misleading financ": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04276_Civic v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "plaintiff claimed an ownership interest": {
+          "count": 1,
+          "cases": [
+            "2015-03-11_USCOURTS-mied-2_13-cv-14026_Odish v. Morgenthaler Ventures et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of securities laws related to": {
+          "count": 2,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04390_Zanowiak_ et al v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04381_Tick v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 2
+          }
+        },
+        "violation of federal securities laws": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04343_O_Neil v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "securities fraud under the securities ac": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04771_Klapper_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "negligence in data security practices": {
+          "count": 1,
+          "cases": [
+            "2016-04-06_USCOURTS-moed-4_15-md-02669_IN RE_ ASHLEY MADISON CUSTOMER DATA SECURITY BREACH LITIGATION.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "deceptive business practices": {
+          "count": 1,
+          "cases": [
+            "2016-04-06_USCOURTS-moed-4_15-md-02669_IN RE_ ASHLEY MADISON CUSTOMER DATA SECURITY BREACH LITIGATION.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "misleading financial statements and over": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04264_Weiss v. Quintus Corporation_ et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "federal jurisdiction over contractual di": {
+          "count": 1,
+          "cases": [
+            "2025-09-17_USCOURTS-insd-1_24-cv-01210_TSUPKO v. KINETIC ADVANTAGE LLC.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "defend trade secrets act": {
+          "count": 1,
+          "cases": [
+            "2019-03-26_USCOURTS-cand-5_18-cv-04327_Lamont v. Conner et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "kansas consumer protection act (kcpa)": {
+          "count": 1,
+          "cases": [
+            "2020-04-14_USCOURTS-ksd-5_20-cv-03072_Jones v. Google LLC_ Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of the illinois biometric info": {
+          "count": 1,
+          "cases": [
+            "2022-07-25_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "alleged involvement in a fraudulent sche": {
+          "count": 1,
+          "cases": [
+            "2022-05-26_USCOURTS-flsd-1_21-cv-23472_Birmingham et al v. Rofx.net et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of illinois' biometric informa": {
+          "count": 1,
+          "cases": [
+            "2025-07-25_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "telephone consumer protection act (tcpa)": {
+          "count": 1,
+          "cases": [
+            "2022-11-18_USCOURTS-cand-3_19-cv-05602_Risher v. Adecco Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "collection, storage, and disclosure of b": {
+          "count": 1,
+          "cases": [
+            "2022-10-07_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "alleged conspiracy between federal agenc": {
+          "count": 1,
+          "cases": [
+            "2021-05-17_USCOURTS-moed-4_21-cv-00275_Silva v. U.S. Army et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "common law": {
+          "count": 3,
+          "cases": [
+            "2021-05-17_USCOURTS-moed-4_21-cv-00275_Silva v. U.S. Army et al.pdf",
+            "2021-03-16_USCOURTS-ilnd-1_20-cv-01937_Stein v. Clarifai_ Inc..pdf",
+            "2024-04-24_USCOURTS-ca10-23-08088_Hodge v. United States.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 3
+          }
+        },
+        "the claim was based on the assertion tha": {
+          "count": 1,
+          "cases": [
+            "2025-04-07_USCOURTS-ca5-24-60452_Phi Theta Kappa v. Honor Society.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "spider labs alleged that john doe's anon": {
+          "count": 1,
+          "cases": [
+            "2020-12-07_USCOURTS-cand-5_20-mc-80141_In re Rule 45 Subpoenas Issued to Google LLC and LinkedIn Corporation Dated July 23_ 2020.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "habeas corpus under federal law": {
+          "count": 1,
+          "cases": [
+            "2021-03-15_USCOURTS-ksd-5_20-cv-03056_Jones v. Douglas County Jail.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "not specified under federal law": {
+          "count": 1,
+          "cases": [
+            "2021-03-15_USCOURTS-ksd-5_20-cv-03056_Jones v. Douglas County Jail.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "plaintiffs claimed that bofa's use of th": {
+          "count": 1,
+          "cases": [
+            "2024-04-18_USCOURTS-ca10-22-01402_Underwood_ et al v. Bank of America Corporation.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "procedural rules regarding the sufficien": {
+          "count": 1,
+          "cases": [
+            "2025-05-19_USCOURTS-cand-3_23-cv-04597_Gjovik v. Apple Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "the plaintiff alleged harm from implante": {
+          "count": 1,
+          "cases": [
+            "2024-01-04_USCOURTS-mnd-0_23-cv-03804_Dopp v. Wray et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "federal employment discrimination law": {
+          "count": 1,
+          "cases": [
+            "2025-06-05_USCOURTS-ned-8_23-cv-00477_Goins v. Father Flanagan_s Boys_ Home.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "federal employment retaliation law": {
+          "count": 1,
+          "cases": [
+            "2025-06-05_USCOURTS-ned-8_23-cv-00477_Goins v. Father Flanagan_s Boys_ Home.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "the seed agreement was allegedly breache": {
+          "count": 1,
+          "cases": [
+            "2025-03-26_USCOURTS-deb-1_23-ap-50370_Ryniker et al v. Washington et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of anti-discrimination laws": {
+          "count": 1,
+          "cases": [
+            "2024-01-17_USCOURTS-ohsd-3_23-cv-00028_McComb v. Best Buy Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "violation of disability rights laws": {
+          "count": 1,
+          "cases": [
+            "2024-01-17_USCOURTS-ohsd-3_23-cv-00028_McComb v. Best Buy Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "derivative litigation filed by sharehold": {
+          "count": 1,
+          "cases": [
+            "2024-11-14_USCOURTS-cand-3_20-cv-08331_In re Pinterest Derivative Litigation.pdf"
+          ],
+          "outcomes": {
+            "settled": 1
+          }
+        },
+        "contract law": {
+          "count": 2,
+          "cases": [
+            "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 2
+          }
+        },
+        "trade secret law": {
+          "count": 1,
+          "cases": [
+            "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "plaintiffs alleged that a hacker gained": {
+          "count": 1,
+          "cases": [
+            "2021-09-17_USCOURTS-cand-4_17-cv-02758_Long_ M.D._ et al v. Dorset.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "28 u.s.c. \u00a7 1915": {
+          "count": 1,
+          "cases": [
+            "2025-08-26_USCOURTS-dcd-1_25-cv-01567_CATALDO v. UNITED STATES OF AMERICA et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "\u00a7 15(c) of bipa": {
+          "count": 1,
+          "cases": [
+            "2024-02-26_USCOURTS-ilnd-1_22-cv-01284_Deyerler v. HireVue Inc..pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "claimed delays and potential prejudice t": {
+          "count": 1,
+          "cases": [
+            "2025-10-08_USCOURTS-nmd-1_23-cv-00899_Lipe v. Albuquerque Public Schools et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "breach of insurance agreements": {
+          "count": 1,
+          "cases": [
+            "2025-09-08_USCOURTS-mnd-0_23-cv-03514_Estate of Gene B. Lokken_ The et al v. UnitedHealth Group_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "zaletel claimed that prisma labs' use of": {
+          "count": 1,
+          "cases": [
+            "2017-03-06_USCOURTS-ded-1_16-cv-01307_Zaletel v. Prisma Labs_ Inc..pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "the plaintiff argued for leniency in pro": {
+          "count": 1,
+          "cases": [
+            "2025-09-08_USCOURTS-cod-1_23-cv-01766_Berg v. United Airlines et al.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "the plaintiff sought to amend her compla": {
+          "count": 1,
+          "cases": [
+            "2025-09-08_USCOURTS-cod-1_23-cv-01766_Berg v. United Airlines et al.pdf"
+          ],
+          "outcomes": {
+            "plaintiff_win": 1
+          }
+        },
+        "alleged that x corp made false promises": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "claimed reliance on x corp's promises re": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "argued that x corp benefited unfairly fr": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "alleged improper use of ai to suspend ac": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "outcomes": {
+            "defendant_win": 1
+          }
+        },
+        "playground ai alleges that mighty comput": {
+          "count": 1,
+          "cases": [
+            "2024-03-14_USCOURTS-cand-5_23-cv-05181_Playground AI LLC v. Mighty Computing_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        },
+        "playground ai claims that mighty computi": {
+          "count": 1,
+          "cases": [
+            "2024-03-14_USCOURTS-cand-5_23-cv-05181_Playground AI LLC v. Mighty Computing_ Inc. et al.pdf"
+          ],
+          "outcomes": {
+            "other": 1
+          }
+        }
+      },
+      "total_claims": 151
+    },
+    "defenses": {
+      "by_type": {
+        "communications did not meet the standard": {
+          "count": 1,
+          "cases": [
+            "2025-09-30_USCOURTS-njd-2_20-cv-12364_KERTESZ v. COLONY TIRE CORPORATION et al.pdf"
+          ],
+          "legal_bases": {
+            "Privacy law": 1
+          }
+        },
+        "improper venue in the northern": {
+          "count": 1,
+          "cases": [
+            "2025-01-15_USCOURTS-kywd-3_25-cv-00033_Fouts v. Commonwealth of Kentucky_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Venue laws based on the location of parties and events": 1
+          }
+        },
+        "motion to dismiss the case": {
+          "count": 1,
+          "cases": [
+            "2025-08-11_USCOURTS-cand-3_25-cv-00990_Taylor v. ConverseNow Technologies_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Insufficient allegations of CIPA violations.": 1
+          }
+        },
+        "isaacman's name does not qualify as a protected mark": {
+          "count": 1,
+          "cases": [
+            "2025-09-09_USCOURTS-cand-4_25-cv-06724_Shift4 Payments_ LLC et al v. JaredIsaacmanCourtCase.com et al.pdf"
+          ],
+          "legal_bases": {
+            "The plaintiffs failed to demonstrate that Isaacman's name has acquired secondary meaning or fame as required by the statute.": 1
+          }
+        },
+        "tiktok and bytedance likely argued": {
+          "count": 1,
+          "cases": [
+            "2022-07-28_USCOURTS-ilnd-1_20-cv-04699_In Re_ TikTok_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "legal_bases": {
+            "Compliance with existing privacy regulations and user agreements.": 1
+          }
+        },
+        "lack of personal jurisdiction": {
+          "count": 4,
+          "cases": [
+            "2025-03-07_USCOURTS-azd-2_24-cv-01869_GovernmentGPT Incorporated et al v. Axon Enterprise Incorporated et al.pdf",
+            "2024-03-07_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+            "2015-03-11_USCOURTS-mied-2_13-cv-14026_Odish v. Morgenthaler Ventures et al.pdf",
+            "2022-10-07_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf"
+          ],
+          "legal_bases": {
+            "Federal Rules of Civil Procedure": 1,
+            "GeoSnapShot Pty Ltd and GeoSnapShot, Inc. argued they did not have sufficient contacts with Illinois to be sued there.": 1,
+            "Defendants argued they did not have sufficient ties to Michigan.": 1,
+            "Wemagine.AI LLP did not purposefully direct its activities toward Illinois, nor did the injuries of the plaintiffs arise from any Illinois-specific conduct by the defendant.": 1
+          }
+        },
+        "failure to allege antitrust injury": {
+          "count": 1,
+          "cases": [
+            "2025-03-07_USCOURTS-azd-2_24-cv-01869_GovernmentGPT Incorporated et al v. Axon Enterprise Incorporated et al.pdf"
+          ],
+          "legal_bases": {
+            "Sherman Act and Clayton Act": 1
+          }
+        },
+        "implied consent": {
+          "count": 1,
+          "cases": [
+            "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "User agreement and privacy policy": 1
+          }
+        },
+        "no likelihood of consumer confusion": {
+          "count": 2,
+          "cases": [
+            "2025-07-14_USCOURTS-cand-3_25-cv-03995_Fizz Social Corp. v. Maplebear Inc. d_b_a Instacart et al.pdf",
+            "2024-08-02_USCOURTS-cand-3_22-cv-07197_La Canada Ventures_ Inc. v. MDalgorithms_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Trademark law, differentiation in services and branding.": 1,
+            "Trademark law principles": 1
+          }
+        },
+        "hp inc. may argue that": {
+          "count": 1,
+          "cases": [
+            "2024-07-09_USCOURTS-med-2_24-cv-00121_WEX INC v. HP INC et al.pdf"
+          ],
+          "legal_bases": {
+            "Trademark law, focusing on the distinctiveness and market separation of the products.": 1
+          }
+        },
+        "salesforce is protected from liability": {
+          "count": 1,
+          "cases": [
+            "2022-05-16_USCOURTS-ilnd-1_20-cv-02335_G _a minor_ et al v. Salesforce.com_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Section 230 of the Communications Decency Act": 1
+          }
+        },
+        "apple filed a motion to": {
+          "count": 1,
+          "cases": [
+            "2025-06-30_USCOURTS-njd-2_24-cv-04055_UNITED STATES OF AMERICA et al v. APPLE INC..pdf"
+          ],
+          "legal_bases": {
+            "Lack of sufficient evidence to support claims of anticompetitive practices.": 1
+          }
+        },
+        "the insurance policy's catch-all exclusion": {
+          "count": 1,
+          "cases": [
+            "2023-06-15_USCOURTS-ca7-22-02313_Citizens Insurance Company of America v. Wynndalco Enterprises_ LLC_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Violation-of-statutes exclusion in the insurance policy": 1
+          }
+        },
+        "the settlement agreement does not": {
+          "count": 1,
+          "cases": [
+            "2022-12-16_USCOURTS-txed-4_21-cv-00307_Celeste v. Intrusion Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Settlement agreements often include clauses where the defendant does not admit to any wrongdoing as part of the resolution of the case.": 1
+          }
+        },
+        "google's actions were in compliance": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-cand-3_20-cv-04688_Rodriguez et al v. Google LLC et al.pdf"
+          ],
+          "legal_bases": {
+            "Compliance with data collection agreements and consumer expectations.": 1
+          }
+        },
+        "exclusion of unrelated evidence such": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-cand-3_20-cv-04688_Rodriguez et al v. Google LLC et al.pdf"
+          ],
+          "legal_bases": {
+            "Relevance to the specific case and trial phases.": 1
+          }
+        },
+        "lack of standing": {
+          "count": 2,
+          "cases": [
+            "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf",
+            "2023-09-06_USCOURTS-ca5-22-50405_Rex Real Est I v. Rex Real Est.pdf"
+          ],
+          "legal_bases": {
+            "Plaintiff did not allege a concrete or imminent injury.": 1,
+            "Section 32(1) of the Lanham Act.": 1
+          }
+        },
+        "the proposed settlement and allocation": {
+          "count": 2,
+          "cases": [
+            "2022-12-16_USCOURTS-txed-4_21-cv-00374_Neely et al v. Intrusion Inc. et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04264_Weiss v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Court's assessment of the settlement agreement as fair, reasonable, and adequate for class members.": 1,
+            "Consideration of the risks of further litigation and the proportionality of the settlement to potential recovery.": 1
+          }
+        },
+        "lack of secondary meaning and": {
+          "count": 1,
+          "cases": [
+            "2025-07-21_USCOURTS-cand-4_23-cv-03918_OpenAI_ Inc. v. Open Artificial Intelligence_ Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Guy Ravine argued that OpenAI, Inc. did not have a valid trademark due to lack of secondary meaning and exclusivity.": 1
+          }
+        },
+        "geosnap argued that the court": {
+          "count": 1,
+          "cases": [
+            "2025-03-06_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf"
+          ],
+          "legal_bases": {
+            "Lack of personal jurisdiction due to being a foreign entity.": 1
+          }
+        },
+        "geosnapshot argued that it could compel arbitration based on waivers signed": {
+          "count": 1,
+          "cases": [
+            "2025-03-20_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf"
+          ],
+          "legal_bases": {
+            "Third-party beneficiary to the liability waiver agreements.": 1
+          }
+        },
+        "accuracy of advertising claims": {
+          "count": 1,
+          "cases": [
+            "2024-08-02_USCOURTS-cand-3_22-cv-07197_La Canada Ventures_ Inc. v. MDalgorithms_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "False advertising law principles": 1
+          }
+        },
+        "motion to dismiss invasion of": {
+          "count": 1,
+          "cases": [
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "legal_bases": {
+            "Claim did not meet the egregiousness standard required under California law.": 1
+          }
+        },
+        "motion to dismiss 'unlawful' ucl": {
+          "count": 1,
+          "cases": [
+            "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf"
+          ],
+          "legal_bases": {
+            "Lack of specification of which FTC guidelines were violated.": 1
+          }
+        },
+        "the use of templates in": {
+          "count": 1,
+          "cases": [
+            "2025-01-30_USCOURTS-mnd-0_23-cv-02789_Pettit v. Allina Health System.pdf"
+          ],
+          "legal_bases": {
+            "The defense argued that the use of templates, possibly facilitated by AI, should lower the costs of filing motions, contesting the fee amount claimed by the defendant.": 1
+          }
+        },
+        "failure to state a claim": {
+          "count": 4,
+          "cases": [
+            "2025-08-06_USCOURTS-azd-2_23-cv-02083_Lenk v. Monolithic Power Systems Incorporated.pdf",
+            "2021-05-17_USCOURTS-moed-4_21-cv-00275_Silva v. U.S. Army et al.pdf",
+            "2025-06-05_USCOURTS-ned-8_23-cv-00477_Goins v. Father Flanagan_s Boys_ Home.pdf",
+            "2024-04-24_USCOURTS-ca10-23-08088_Hodge v. United States.pdf"
+          ],
+          "legal_bases": {
+            "Federal Rules of Civil Procedure": 1,
+            "Plaintiff's allegations lacked factual support and were implausible under legal standards": 1,
+            "Federal employment law": 1,
+            "The complaint lacked specificity and facts to support any alleged negligent act by a federal employee.": 1
+          }
+        },
+        "preclusion doctrines": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-azd-2_23-cv-02083_Lenk v. Monolithic Power Systems Incorporated.pdf"
+          ],
+          "legal_bases": {
+            "Res judicata and collateral estoppel": 1
+          }
+        },
+        "failure to exhaust administrative remedies": {
+          "count": 1,
+          "cases": [
+            "2025-08-06_USCOURTS-azd-2_23-cv-02083_Lenk v. Monolithic Power Systems Incorporated.pdf"
+          ],
+          "legal_bases": {
+            "Requirement to pursue administrative channels before court action": 1
+          }
+        },
+        "apple inc. sought to intervene": {
+          "count": 1,
+          "cases": [
+            "2025-01-27_USCOURTS-dcd-1_20-cv-03010_UNITED STATES OF AMERICA et al v. GOOGLE LLC.pdf"
+          ],
+          "legal_bases": {
+            "Federal Rule of Civil Procedure 24.": 1
+          }
+        },
+        "motion to dismiss the case on the grounds that invoca is not a third party": {
+          "count": 1,
+          "cases": [
+            "2025-01-08_USCOURTS-caed-2_24-cv-01327_Tate v. Chemed Corp._ et al.pdf"
+          ],
+          "legal_bases": {
+            "Argument that Invoca's role does not constitute a third party under the California Invasion of Privacy Act.": 1
+          }
+        },
+        "distinct branding and lack of": {
+          "count": 1,
+          "cases": [
+            "2024-12-23_USCOURTS-rid-1_24-cv-00166_Impulse Communications_ Inc. v. Uplift Games_ LLC et al.pdf"
+          ],
+          "legal_bases": {
+            "Trademark law principles regarding distinctiveness and consumer confusion": 1
+          }
+        },
+        "bumble, inc. argued that the": {
+          "count": 1,
+          "cases": [
+            "2023-07-07_USCOURTS-ilnd-1_21-cv-06925_Dzananovic v. Bumble_ Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Lack of personal jurisdiction.": 1
+          }
+        },
+        "lack of evidence": {
+          "count": 1,
+          "cases": [
+            "2024-07-19_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "General defense against preliminary injunctions.": 1
+          }
+        },
+        "no demonstration of irreparable harm": {
+          "count": 1,
+          "cases": [
+            "2024-07-19_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "General defense against preliminary injunctions.": 1
+          }
+        },
+        "lack of standing to challenge": {
+          "count": 1,
+          "cases": [
+            "2021-06-14_USCOURTS-txsd-4_20-cv-03315_Omoyosi v. Texas Health and Human Services Commission.pdf"
+          ],
+          "legal_bases": {
+            "Legal requirement for standing in federal court.": 1
+          }
+        },
+        "failure to state a plausible": {
+          "count": 1,
+          "cases": [
+            "2021-06-14_USCOURTS-txsd-4_20-cv-03315_Omoyosi v. Texas Health and Human Services Commission.pdf"
+          ],
+          "legal_bases": {
+            "Title VII of the Civil Rights Act of 1964": 1
+          }
+        },
+        "sovereign immunity barring some claims": {
+          "count": 1,
+          "cases": [
+            "2021-06-14_USCOURTS-txsd-4_20-cv-03315_Omoyosi v. Texas Health and Human Services Commission.pdf"
+          ],
+          "legal_bases": {
+            "Doctrine of sovereign immunity protecting government agencies from certain lawsuits.": 1
+          }
+        },
+        "motion to dismiss claims": {
+          "count": 1,
+          "cases": [
+            "2022-01-27_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "legal_bases": {
+            "Macy's argued that the plaintiffs did not sufficiently allege violations under the relevant laws.": 1
+          }
+        },
+        "the insurance policy's statutory exclusion clause does not preclude coverage": {
+          "count": 1,
+          "cases": [
+            "2022-03-30_USCOURTS-ilnd-1_20-cv-03873_Citizens Insurance Company Of America v. Wynndalco Enterprises_ LLC et al.pdf"
+          ],
+          "legal_bases": {
+            "Ambiguity in the insurance policy language regarding statutory violations.": 1
+          }
+        },
+        "the settlement does not include": {
+          "count": 1,
+          "cases": [
+            "2025-01-17_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf"
+          ],
+          "legal_bases": {
+            "Settlement agreement without admission of liability.": 1
+          }
+        },
+        "lack of standing and failure": {
+          "count": 1,
+          "cases": [
+            "2023-08-10_USCOURTS-ctd-3_22-cv-01065_Flynn et al v. Verizon Wireless et al.pdf"
+          ],
+          "legal_bases": {
+            "Plaintiff did not provide specific personal injuries or concrete evidence linking alleged harms to defendants.": 1
+          }
+        },
+        "challenge to the scope of": {
+          "count": 1,
+          "cases": [
+            "2023-07-19_USCOURTS-ilnd-1_23-cv-04430_Admiin Inc. v. Kohan et al.pdf"
+          ],
+          "legal_bases": {
+            "The Court found the non-compete agreement potentially overbroad, which contributed to the denial of the TRO.": 1
+          }
+        },
+        "arlo technologies, inc. filed a motion to dismiss the claims, arguing that the allegations were insufficient to establish standing or plausible claims": {
+          "count": 1,
+          "cases": [
+            "2024-06-27_USCOURTS-cand-5_23-cv-05096_Tibbs et al v. Arlo Technologies_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Insufficient allegations to establish standing or plausible claims under BIPA.": 1
+          }
+        },
+        "motion to dismiss the claims": {
+          "count": 1,
+          "cases": [
+            "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "legal_bases": {
+            "General defense against alleged violations of privacy laws": 1
+          }
+        },
+        "motion to dismiss the class": {
+          "count": 1,
+          "cases": [
+            "2024-07-05_USCOURTS-casd-3_23-cv-01082_Jones v. Peloton Interactive_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Insufficient allegations to support a claim under CIPA.": 1
+          }
+        },
+        "the settlement agreement is fair": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04263_Werner_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "The complexities and risks of further litigation justify the settlement.": 1
+          }
+        },
+        "bankruptcy status of quintus corporation": {
+          "count": 2,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04294_Tuopshug v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04678_Dutt v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Inability to continue litigation due to financial insolvency.": 2
+          }
+        },
+        "the settlement is fair, reasonable": {
+          "count": 4,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04346_Khalil v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00270_Micnaud v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_00-cv-04504_Tan v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00093_Rost v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Approval of class action settlement by the court.": 1,
+            "The court's assessment of the settlement's fairness and adequacy for the affected investors.": 1,
+            "The settlement was justified under the circumstances, and no objections were raised by class members.": 1,
+            "Evaluation of settlement fairness under class action settlement standards.": 1
+          }
+        },
+        "the settlement and plan of": {
+          "count": 2,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04528_Yu v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00096_Rubel v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Federal Rule of Civil Procedure 23(e)": 1,
+            "Consideration of litigation risk, cost, and absence of objections from class members.": 1
+          }
+        },
+        "the proposed settlement agreement and": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04650_Magnan v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Federal Rules of Civil Procedure.": 1
+          }
+        },
+        "settlement agreement to resolve the": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04308_Alves v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Federal class action rules regarding fair, reasonable, and adequate settlements.": 1
+          }
+        },
+        "the proposed class settlement and plan": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04313_Kaplowitz v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Class action litigation rules": 1
+          }
+        },
+        "settlement agreement as a resolution": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04392_Miller_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Financial condition of Quintus and absence of objections from class members.": 1
+          }
+        },
+        "jones is ineligible to proceed in forma pauperis due to accumulating more than three strikes": {
+          "count": 1,
+          "cases": [
+            "2021-05-18_USCOURTS-ksd-5_21-cv-04021_Jones v. Patents and Trademarks Commissioner.pdf"
+          ],
+          "legal_bases": {
+            "Prison Litigation Reform Act (PLRA) disqualifies him from proceeding IFP.": 1
+          }
+        },
+        "innodata inc. may argue that": {
+          "count": 1,
+          "cases": [
+            "2024-10-30_USCOURTS-njd-2_24-cv-00971_D_AGOSTINO v. INNODATA INC. et al.pdf"
+          ],
+          "legal_bases": {
+            "Compliance with securities regulations and lack of intent to deceive investors.": 1
+          }
+        },
+        "gray failed to provide admissible": {
+          "count": 1,
+          "cases": [
+            "2024-09-16_USCOURTS-txwd-1_23-cv-00545_Gray v. Experian Information Solutions_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Summary judgment standards under the Fair Credit Reporting Act (FCRA)": 1
+          }
+        },
+        "limited financial resources due to": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04276_Civic v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Quintus Corporation's financial inability to provide a larger settlement.": 1
+          }
+        },
+        "inability to provide more due": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04274_Lemieux_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Financial incapacity due to bankruptcy proceedings.": 1
+          }
+        },
+        "the proposed settlement is fair": {
+          "count": 2,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04390_Zanowiak_ et al v. Quintus Corporation_ et al.pdf",
+            "2006-12-05_USCOURTS-cand-3_01-cv-00932_Berdakina v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Compliance with legal standards for class action settlements.": 1,
+            "Consideration of the absence of objections from class members and the complexity and risks involved in continuing litigation.": 1
+          }
+        },
+        "the settlement was fair, reasonable": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_01-cv-00262_Anderson v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Evaluation of settlement fairness under federal securities laws and bankruptcy considerations.": 1
+          }
+        },
+        "the defendants likely argued that": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04343_O_Neil v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Compliance with federal securities regulations.": 1
+          }
+        },
+        "the proposed settlement and plan": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04300_Fershteyn_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Federal Rule of Civil Procedure 23(e)": 1
+          }
+        },
+        "the defense likely argued the": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04381_Tick v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "Compliance with securities regulations and financial reporting standards.": 1
+          }
+        },
+        "challenges and risks of further": {
+          "count": 1,
+          "cases": [
+            "2006-12-05_USCOURTS-cand-3_00-cv-04771_Klapper_ et al v. Quintus Corporation_ et al.pdf"
+          ],
+          "legal_bases": {
+            "The defense likely argued that the settlement was the best possible outcome given the financial state of the company.": 1
+          }
+        },
+        "the need": {
+          "count": 1,
+          "cases": [
+            "2016-04-06_USCOURTS-moed-4_15-md-02669_IN RE_ ASHLEY MADISON CUSTOMER DATA SECURITY BREACH LITIGATION.pdf"
+          ],
+          "legal_bases": {
+            "Legal requirement for class representatives to disclose identities.": 1
+          }
+        },
+        "the federal court should abstain": {
+          "count": 1,
+          "cases": [
+            "2025-09-17_USCOURTS-insd-1_24-cv-01210_TSUPKO v. KINETIC ADVANTAGE LLC.pdf"
+          ],
+          "legal_bases": {
+            "Colorado River abstention doctrine.": 1
+          }
+        },
+        "lack of personal jurisdiction over": {
+          "count": 2,
+          "cases": [
+            "2019-03-26_USCOURTS-cand-5_18-cv-04327_Lamont v. Conner et al.pdf",
+            "2022-05-26_USCOURTS-flsd-1_21-cv-23472_Birmingham et al v. Rofx.net et al.pdf"
+          ],
+          "legal_bases": {
+            "Jurisdictional requirements": 1,
+            "EPS's alleged activities did not demonstrate purposeful activities in Florida or a concrete connection to the fraud conspiracy within the state.": 1
+          }
+        },
+        "insufficiently detailed allegations regarding google": {
+          "count": 1,
+          "cases": [
+            "2019-03-26_USCOURTS-cand-5_18-cv-04327_Lamont v. Conner et al.pdf"
+          ],
+          "legal_bases": {
+            "Pleading standards under the Defend Trade Secrets Act": 1
+          }
+        },
+        "fraudulent joinder of nondiverse municipal": {
+          "count": 1,
+          "cases": [
+            "2022-03-23_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "legal_bases": {
+            "28 U.S.C. \u00a7 1447(e)": 1
+          }
+        },
+        "the plaintiff's allegations lacked specificity": {
+          "count": 1,
+          "cases": [
+            "2020-04-14_USCOURTS-ksd-5_20-cv-03072_Jones v. Google LLC_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Kansas Consumer Protection Act (KCPA)": 1
+          }
+        },
+        "amazon filed a motion to dismiss the case, arguing that the allegations were insufficient to state a claim": {
+          "count": 1,
+          "cases": [
+            "2022-01-03_USCOURTS-ilnd-1_20-cv-06485_Naughton v. Amazon.com_ Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Procedural defense to challenge the sufficiency of the plaintiff's allegations.": 1
+          }
+        },
+        "arguments related to personal jurisdiction": {
+          "count": 1,
+          "cases": [
+            "2022-07-25_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "legal_bases": {
+            "Defendants claimed these issues were not adequately addressed in the initial proceedings.": 1
+          }
+        },
+        "lack of personal jurisdiction as": {
+          "count": 1,
+          "cases": [
+            "2022-01-26_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf"
+          ],
+          "legal_bases": {
+            "Personal jurisdiction principles under U.S. law": 1
+          }
+        },
+        "the settlement agreement implies that": {
+          "count": 1,
+          "cases": [
+            "2025-07-25_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf"
+          ],
+          "legal_bases": {
+            "Settlement agreement without admission of liability.": 1
+          }
+        },
+        "the text messages do not": {
+          "count": 1,
+          "cases": [
+            "2022-11-18_USCOURTS-cand-3_19-cv-05602_Risher v. Adecco Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Supreme Court\u2019s decision limiting the scope of autodialers and defining texts as not falling within the TCPA\u2019s provision on artificial or prerecorded voice.": 1
+          }
+        },
+        "macy's sought to certify an": {
+          "count": 1,
+          "cases": [
+            "2022-03-18_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf"
+          ],
+          "legal_bases": {
+            "28 U.S.C. \u00a7 1292(b)": 1
+          }
+        },
+        "jurisdictional challenges and defenses related": {
+          "count": 1,
+          "cases": [
+            "2022-09-26_USCOURTS-ilnd-1_21-cv-04409_Trio v. Turing Video_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Labor Management Relations Act and the Public Readiness and Emergency Preparedness Act": 1
+          }
+        },
+        "lack of subject matter jurisdiction": {
+          "count": 2,
+          "cases": [
+            "2021-05-17_USCOURTS-moed-4_21-cv-00275_Silva v. U.S. Army et al.pdf",
+            "2020-12-21_USCOURTS-mied-2_17-cv-10657_Cahoo et al v. SAS Analytics Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Plaintiff's claims were vague, conclusory, and unfounded": 1,
+            "The defendants argued that the plaintiffs did not have standing to sue as their injuries were not fairly traceable to the defendants' actions.": 1
+          }
+        },
+        "the injunction constituted an overbroad": {
+          "count": 1,
+          "cases": [
+            "2025-04-07_USCOURTS-ca5-24-60452_Phi Theta Kappa v. Honor Society.pdf"
+          ],
+          "legal_bases": {
+            "The defense was based on the First Amendment rights to free speech.": 1
+          }
+        },
+        "first amendment right to anonymous": {
+          "count": 1,
+          "cases": [
+            "2020-12-07_USCOURTS-cand-5_20-mc-80141_In re Rule 45 Subpoenas Issued to Google LLC and LinkedIn Corporation Dated July 23_ 2020.pdf"
+          ],
+          "legal_bases": {
+            "John Doe argued that his right to anonymous speech under the First Amendment should protect his identity from being revealed.": 1
+          }
+        },
+        "failure to exhaust state court": {
+          "count": 1,
+          "cases": [
+            "2021-03-15_USCOURTS-ksd-5_20-cv-03056_Jones v. Douglas County Jail.pdf"
+          ],
+          "legal_bases": {
+            "Requirement under federal habeas corpus law.": 1
+          }
+        },
+        "claims do not raise valid": {
+          "count": 1,
+          "cases": [
+            "2021-03-15_USCOURTS-ksd-5_20-cv-03056_Jones v. Douglas County Jail.pdf"
+          ],
+          "legal_bases": {
+            "Federal habeas corpus law requires a valid federal constitutional claim.": 1
+          }
+        },
+        "insufficient allegations regarding active steps": {
+          "count": 1,
+          "cases": [
+            "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf"
+          ],
+          "legal_bases": {
+            "Challenge to the sufficiency of the allegations under BIPA sections 15(b) and 15(d).": 1
+          }
+        },
+        "lack of subject-matter jurisdiction for": {
+          "count": 1,
+          "cases": [
+            "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf"
+          ],
+          "legal_bases": {
+            "Challenge to the jurisdictional basis of the claim under BIPA section 15(c).": 1
+          }
+        },
+        "lack of protectable interest in": {
+          "count": 1,
+          "cases": [
+            "2024-04-18_USCOURTS-ca10-22-01402_Underwood_ et al v. Bank of America Corporation.pdf"
+          ],
+          "legal_bases": {
+            "The plaintiffs did not demonstrate actual use in commerce of the 'E.R.I.C.A.' mark in a way that clearly distinguished and identified their offered services.": 1
+          }
+        },
+        "apple's affirmative defenses are sufficient": {
+          "count": 1,
+          "cases": [
+            "2025-05-19_USCOURTS-cand-3_23-cv-04597_Gjovik v. Apple Inc..pdf"
+          ],
+          "legal_bases": {
+            "Procedural rules regarding the sufficiency of defenses in legal pleadings.": 1
+          }
+        },
+        "the claims were frivolous and": {
+          "count": 1,
+          "cases": [
+            "2024-01-04_USCOURTS-mnd-0_23-cv-03804_Dopp v. Wray et al.pdf"
+          ],
+          "legal_bases": {
+            "The court found the claims to be outlandish and not fitting with any known laws.": 1
+          }
+        },
+        "lack of personal jurisdiction in": {
+          "count": 1,
+          "cases": [
+            "2021-03-16_USCOURTS-ilnd-1_20-cv-01937_Stein v. Clarifai_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Insufficient minimum contacts with the state of Illinois.": 1
+          }
+        },
+        "lack of jurisdiction over the": {
+          "count": 1,
+          "cases": [
+            "2025-03-26_USCOURTS-deb-1_23-ap-50370_Ryniker et al v. Washington et al.pdf"
+          ],
+          "legal_bases": {
+            "The claims were third-party claims not directly related to the bankruptcy estate.": 1
+          }
+        },
+        "plaintiffs did not suffer a": {
+          "count": 1,
+          "cases": [
+            "2020-10-23_USCOURTS-ilnd-1_20-cv-03843_Thornley et al v. Clearview AI_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "Article III of the U.S. Constitution": 1
+          }
+        },
+        "lack of jurisdiction": {
+          "count": 1,
+          "cases": [
+            "2024-04-24_USCOURTS-ca10-23-08088_Hodge v. United States.pdf"
+          ],
+          "legal_bases": {
+            "The United States retained sovereign immunity as the claims did not fall within the FTCA's scope.": 1
+          }
+        },
+        "motion to dismiss": {
+          "count": 1,
+          "cases": [
+            "2024-01-17_USCOURTS-ohsd-3_23-cv-00028_McComb v. Best Buy Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Federal Rule of Civil Procedure 8(a)": 1
+          }
+        },
+        "compliance with settlement terms and": {
+          "count": 1,
+          "cases": [
+            "2024-11-14_USCOURTS-cand-3_20-cv-08331_In re Pinterest Derivative Litigation.pdf"
+          ],
+          "legal_bases": {
+            "Pinterest's substantial compliance with the settlement terms was recognized by the court.": 1
+          }
+        },
+        "no breach of non-compete or": {
+          "count": 1,
+          "cases": [
+            "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf"
+          ],
+          "legal_bases": {
+            "Contract law": 1
+          }
+        },
+        "no misappropriation of trade secrets": {
+          "count": 1,
+          "cases": [
+            "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf"
+          ],
+          "legal_bases": {
+            "Trade secret law": 1
+          }
+        },
+        "lack of actual knowledge of": {
+          "count": 1,
+          "cases": [
+            "2021-09-17_USCOURTS-cand-4_17-cv-02758_Long_ M.D._ et al v. Dorset.pdf"
+          ],
+          "legal_bases": {
+            "The plaintiffs failed to establish Facebook's actual knowledge of the infringing content or to present new communications showing specific infringement on Facebook.": 1
+          }
+        },
+        "dmca safe harbor protection": {
+          "count": 1,
+          "cases": [
+            "2021-09-17_USCOURTS-cand-4_17-cv-02758_Long_ M.D._ et al v. Dorset.pdf"
+          ],
+          "legal_bases": {
+            "The court held that the Digital Millennium Copyright Act's (DMCA) safe harbor protection applied to Facebook.": 1
+          }
+        },
+        "the complaint lacked a legal": {
+          "count": 1,
+          "cases": [
+            "2025-08-26_USCOURTS-dcd-1_25-cv-01567_CATALDO v. UNITED STATES OF AMERICA et al.pdf"
+          ],
+          "legal_bases": {
+            "28 U.S.C. \u00a7 1915(e)(2)(B)(i)": 1
+          }
+        },
+        "lack of specific personal jurisdiction": {
+          "count": 1,
+          "cases": [
+            "2024-02-26_USCOURTS-ilnd-1_22-cv-01284_Deyerler v. HireVue Inc..pdf"
+          ],
+          "legal_bases": {
+            "Jurisdictional challenge based on HireVue's business operations outside Illinois": 1
+          }
+        },
+        "request": {
+          "count": 1,
+          "cases": [
+            "2025-10-08_USCOURTS-nmd-1_23-cv-00899_Lipe v. Albuquerque Public Schools et al.pdf"
+          ],
+          "legal_bases": {
+            "Unforeseen circumstances faced by the defense counsel\u2019s law clerk.": 1
+          }
+        },
+        "motion to bifurcate the discovery": {
+          "count": 1,
+          "cases": [
+            "2025-09-08_USCOURTS-mnd-0_23-cv-03514_Estate of Gene B. Lokken_ The et al v. UnitedHealth Group_ Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Judicial efficiency and clarity in handling class certification.": 1
+          }
+        },
+        "insufficient likelihood of confusion between": {
+          "count": 1,
+          "cases": [
+            "2017-03-06_USCOURTS-ded-1_16-cv-01307_Zaletel v. Prisma Labs_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "The court found that the marks were not likely to cause confusion among consumers.": 1
+          }
+        },
+        "lack of irreparable harm to": {
+          "count": 1,
+          "cases": [
+            "2017-03-06_USCOURTS-ded-1_16-cv-01307_Zaletel v. Prisma Labs_ Inc..pdf"
+          ],
+          "legal_bases": {
+            "The court determined that Zaletel had not demonstrated potential irreparable harm from Prisma Labs' use of the 'Prisma' mark.": 1
+          }
+        },
+        "the plaintiff's responses to the summary judgment motion should be stricken": {
+          "count": 1,
+          "cases": [
+            "2025-09-08_USCOURTS-cod-1_23-cv-01766_Berg v. United Airlines et al.pdf"
+          ],
+          "legal_bases": {
+            "The defendant argued that the plaintiff's filings violated court rules by being late and including fake legal citations generated by AI.": 1
+          }
+        },
+        "terms of service": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "legal_bases": {
+            "X Corp's Terms of Service allow account suspension and limit liability.": 1
+          }
+        },
+        "section 230 of the communications": {
+          "count": 1,
+          "cases": [
+            "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf"
+          ],
+          "legal_bases": {
+            "Provides immunity to X Corp from claims related to account suspension.": 1
+          }
+        },
+        "motion to dismiss by suhail": {
+          "count": 1,
+          "cases": [
+            "2024-03-14_USCOURTS-cand-5_23-cv-05181_Playground AI LLC v. Mighty Computing_ Inc. et al.pdf"
+          ],
+          "legal_bases": {
+            "Doshi argued that he should not be personally liable for the actions of Mighty Computing.": 1
+          }
+        }
+      },
+      "total_defenses": 124
+    },
+    "outcomes": {
+      "overall": {
+        "pending_trial": 5,
+        "other": 35,
+        "plaintiff_win": 27,
+        "settled": 29,
+        "defendant_win": 53,
+        "mixed": 2
+      },
+      "by_claim_type": {
+        "invasion of privacy": {
+          "pending_trial": 1,
+          "other": 1,
+          "defendant_win": 1
+        },
+        "violation of the new jersey law against discrimination (njlad)": {
+          "pending_trial": 1
+        },
+        "aiding and abetting discrimination": {
+          "pending_trial": 1
+        },
+        "missed social security checks": {
+          "other": 1
+        },
+        "hazardous living conditions": {
+          "other": 1
+        },
+        "child protective services investigations": {
+          "other": 1
+        },
+        "the california invasion of privacy act (cipa)": {
+          "plaintiff_win": 3
+        },
+        "cybersquatting": {
+          "plaintiff_win": 1,
+          "other": 1
+        },
+        "tiktok and bytedance collected and": {
+          "settled": 1
+        },
+        "antitrust violations": {
+          "defendant_win": 1
+        },
+        "false advertising": {
+          "defendant_win": 1,
+          "mixed": 1
+        },
+        "privacy violations": {
+          "other": 1,
+          "defendant_win": 1,
+          "settled": 1
+        },
+        "breach of contract": {
+          "other": 1,
+          "defendant_win": 1
+        },
+        "trademark infringement due to the": {
+          "plaintiff_win": 1
+        },
+        "trademark infringement by hp inc. using the 'wex' trademark": {
+          "defendant_win": 1
+        },
+        "salesforce knowingly benefited from backpage's": {
+          "defendant_win": 1
+        },
+        "apple engaged in anticompetitive practices": {
+          "other": 1
+        },
+        "apple's restrictive policies on app": {
+          "other": 1
+        },
+        "alleged violations of illinois' biometric information privacy act": {
+          "other": 1
+        },
+        "intrusion inc. made false claims": {
+          "settled": 1
+        },
+        "google unlawfully collected and utilized users\u2019 data when the users had web & app activity": {
+          "other": 1
+        },
+        "google's conduct was knowingly highly": {
+          "other": 1
+        },
+        "consumer fraud": {
+          "defendant_win": 1
+        },
+        "trademark infringement under section 32(1) of the lanham act": {
+          "other": 1
+        },
+        "trademark infringement under section 43(a) of the lanham act": {
+          "pending_trial": 1
+        },
+        "intrusion inc. made false representations": {
+          "settled": 1
+        },
+        "trademark infringement": {
+          "other": 2,
+          "mixed": 1,
+          "plaintiff_win": 1
+        },
+        "geosnap violated the illinois biometric information privacy act": {
+          "plaintiff_win": 1
+        },
+        "the illinois biometric information privacy act (bipa) due to the collection and use of biometric data without proper consent": {
+          "plaintiff_win": 1
+        },
+        "negligence": {
+          "other": 1
+        },
+        "unfair competition law": {
+          "other": 1,
+          "defendant_win": 1
+        },
+        "racial discrimination in employment": {
+          "other": 1
+        },
+        "the illinois biometric information privacy act (bipa)": {
+          "plaintiff_win": 2,
+          "other": 1
+        },
+        "discrimination in employment": {
+          "defendant_win": 1
+        },
+        "retaliation in employment": {
+          "defendant_win": 1
+        },
+        "antitrust violations by google llc": {
+          "plaintiff_win": 1
+        },
+        "unfair competition": {
+          "plaintiff_win": 1
+        },
+        "bumble's dating app used facial": {
+          "plaintiff_win": 1
+        },
+        "infringement of intellectual property related": {
+          "plaintiff_win": 1
+        },
+        "false advertising regarding ai capabilities": {
+          "plaintiff_win": 1
+        },
+        "racial discrimination": {
+          "defendant_win": 2
+        },
+        "challenge to the handling of": {
+          "defendant_win": 1
+        },
+        "california laws": {
+          "defendant_win": 1
+        },
+        "new york laws": {
+          "defendant_win": 1
+        },
+        "citizens insurance company of america": {
+          "other": 1
+        },
+        "conspiracy involving the installation of": {
+          "defendant_win": 1
+        },
+        "breach of a non-compete agreement": {
+          "plaintiff_win": 1
+        },
+        "potential misappropriation of trade secrets": {
+          "plaintiff_win": 1
+        },
+        "arlo technologies, inc. violated the illinois biometric information privacy act": {
+          "plaintiff_win": 1
+        },
+        "unlawful collection, analysis, and sale": {
+          "other": 1
+        },
+        "various state privacy laws": {
+          "other": 1
+        },
+        "unjust enrichment": {
+          "defendant_win": 2
+        },
+        "securities fraud": {
+          "settled": 1
+        },
+        "securities fraud due to misleading": {
+          "settled": 2
+        },
+        "misleading financial statements during ipo": {
+          "settled": 1
+        },
+        "securities fraud due to overstated": {
+          "settled": 4
+        },
+        "quintus corporation made false and": {
+          "settled": 3
+        },
+        "securities fraud through false and": {
+          "settled": 1
+        },
+        "securities fraud by overstating revenues": {
+          "settled": 1
+        },
+        "securities fraud due to false": {
+          "settled": 2
+        },
+        "the uspto failed to provide necessary forms to apply": {
+          "other": 1
+        },
+        "innodata inc. issued false or": {
+          "other": 1
+        },
+        "experian inaccurately reported thomas gray's": {
+          "defendant_win": 1
+        },
+        "experian's failure to correct inaccuracies": {
+          "other": 1
+        },
+        "securities fraud involving false financial": {
+          "settled": 1
+        },
+        "ownership interest in cognitive code": {
+          "defendant_win": 1
+        },
+        "securities fraud due to financial": {
+          "settled": 1
+        },
+        "defendants engaged in securities fraud": {
+          "settled": 1
+        },
+        "securities fraud by inflating revenues": {
+          "settled": 1
+        },
+        "quintus corporation overstated its financial": {
+          "settled": 1
+        },
+        "misrepresentation in financial statements leading": {
+          "settled": 1
+        },
+        "securities fraud by overstating revenue": {
+          "settled": 1
+        },
+        "false and misleading statements in": {
+          "settled": 1
+        },
+        "avid dating life, inc. inadequately": {
+          "other": 1
+        },
+        "avid dating life, inc. used": {
+          "other": 1
+        },
+        "the federal court should exercise jurisdiction over the dispute concerning a line of credit": {
+          "other": 1
+        },
+        "misappropriation of trade secrets concerning": {
+          "defendant_win": 1
+        },
+        "violation of privacy rights": {
+          "defendant_win": 1
+        },
+        "violation of free speech rights": {
+          "defendant_win": 1
+        },
+        "google violated the kansas consumer protection act": {
+          "defendant_win": 1
+        },
+        "amazon collected biometric data, including": {
+          "plaintiff_win": 1
+        },
+        "clearview ai, inc. covertly scraped": {
+          "other": 1
+        },
+        "the illinois biometric information privacy act": {
+          "defendant_win": 1
+        },
+        "fraudulent misrepresentation by rofx.net and": {
+          "defendant_win": 1
+        },
+        "lytx used ai-enabled drivecam devices": {
+          "settled": 1
+        },
+        "the telephone consumer protection act (tcpa)": {
+          "defendant_win": 1
+        },
+        "clearview ai violated the illinois biometric information privacy act": {
+          "other": 1
+        },
+        "macy's used clearview ai's biometric": {
+          "plaintiff_win": 1
+        },
+        "infringement of the illinois biometric information privacy act": {
+          "defendant_win": 1
+        },
+        "conspiracy to provide fake drugs": {
+          "defendant_win": 1
+        },
+        "wireless torture using advanced technology": {
+          "defendant_win": 1
+        },
+        "honorsociety.org disseminated misleading information about": {
+          "other": 1
+        },
+        "defamation": {
+          "other": 1
+        },
+        "the midas system falsely detected": {
+          "plaintiff_win": 1
+        },
+        "rights were violated due to": {
+          "defendant_win": 1
+        },
+        "artificial intelligence intervention impacted his": {
+          "defendant_win": 1
+        },
+        "violation of bipa section 15(a)": {
+          "other": 1
+        },
+        "violation of bipa section 15(b)": {
+          "defendant_win": 1
+        },
+        "violation of bipa section 15(d)": {
+          "defendant_win": 1
+        },
+        "violation of bipa section 15(c)": {
+          "defendant_win": 1
+        },
+        "trademark infringement of the unregistered": {
+          "other": 1
+        },
+        "apple's affirmative defenses are insufficient": {
+          "defendant_win": 1
+        },
+        "psychological and physical harm caused": {
+          "defendant_win": 1
+        },
+        "unauthorized use of photographs": {
+          "defendant_win": 1
+        },
+        "unjust enrichment from the use": {
+          "defendant_win": 1
+        },
+        "employment discrimination based on sex": {
+          "defendant_win": 1
+        },
+        "retaliation": {
+          "defendant_win": 1
+        },
+        "breach of contract involving a": {
+          "defendant_win": 1
+        },
+        "clearview ai profited from plaintiffs'": {
+          "pending_trial": 1
+        },
+        "sexual assault by artificial intelligence": {
+          "defendant_win": 1
+        },
+        "disability discrimination": {
+          "defendant_win": 1
+        },
+        "race and sex discrimination within": {
+          "settled": 1
+        },
+        "breach of non-compete agreement": {
+          "plaintiff_win": 1
+        },
+        "breach of non-solicitation agreement": {
+          "plaintiff_win": 1
+        },
+        "misappropriation of confidential information and": {
+          "plaintiff_win": 1
+        },
+        "copyright infringement": {
+          "defendant_win": 1
+        },
+        "concerns about the development of": {
+          "defendant_win": 1
+        },
+        "violation of the illinois biometric information privacy act (bipa)": {
+          "other": 1
+        },
+        "profiting from biometric data without": {
+          "defendant_win": 1
+        },
+        "opposition to the extension of time": {
+          "defendant_win": 1
+        },
+        "misuse of ai program nh": {
+          "plaintiff_win": 1
+        },
+        "trademark infringement through reverse confusion": {
+          "plaintiff_win": 1
+        },
+        "the plaintiff's filings should not": {
+          "defendant_win": 1
+        },
+        "the plaintiff should be allowed": {
+          "plaintiff_win": 1
+        },
+        "promissory fraud": {
+          "defendant_win": 1
+        },
+        "promissory estoppel": {
+          "defendant_win": 1
+        },
+        "unfair business practices": {
+          "defendant_win": 1
+        }
+      },
+      "by_legal_basis": {
+        "state law": {
+          "pending_trial": 1,
+          "plaintiff_win": 2,
+          "other": 3,
+          "mixed": 2,
+          "defendant_win": 1
+        },
+        "njlad": {
+          "pending_trial": 2
+        },
+        "constitutional": {
+          "other": 3,
+          "defendant_win": 2,
+          "plaintiff_win": 1
+        },
+        "isaacman's personal name being used in d": {
+          "plaintiff_win": 1
+        },
+        "violation of u.s. federal and state priv": {
+          "settled": 1
+        },
+        "sherman act and clayton act": {
+          "defendant_win": 1
+        },
+        "federal trade commission act": {
+          "defendant_win": 1
+        },
+        "contractual limitations and waiver uncon": {
+          "other": 1
+        },
+        "privacy commitments and implied consent": {
+          "other": 1
+        },
+        "trademark law, likelihood of consumer co": {
+          "plaintiff_win": 1
+        },
+        "trademark law, focusing on consumer conf": {
+          "defendant_win": 1
+        },
+        "18 u.s.c. \u00a7 1595": {
+          "defendant_win": 1
+        },
+        "violation of federal and state antitrust": {
+          "other": 2
+        },
+        "biometric information privacy act (bipa)": {
+          "other": 1
+        },
+        "violation of securities laws by making f": {
+          "settled": 2
+        },
+        "alleged improper handling of medical rec": {
+          "defendant_win": 1
+        },
+        "alleged breach concerning the handling o": {
+          "defendant_win": 1
+        },
+        "alleged deceptive practices in handling": {
+          "defendant_win": 1
+        },
+        "section 32(1) of the lanham act": {
+          "other": 1
+        },
+        "section 43(a) of the lanham act": {
+          "pending_trial": 1
+        },
+        "securities exchange act of 1934, section": {
+          "settled": 1
+        },
+        "openai, inc. claimed that guy ravine's u": {
+          "other": 1
+        },
+        "illinois biometric information privacy a": {
+          "plaintiff_win": 6,
+          "settled": 1,
+          "other": 4,
+          "defendant_win": 5,
+          "pending_trial": 1
+        },
+        "failure to adequately protect personal a": {
+          "other": 1
+        },
+        "failure to protect customer data and del": {
+          "other": 1
+        },
+        "alleged failure to protect personal data": {
+          "defendant_win": 1
+        },
+        "alleged violation of unspecified ftc gui": {
+          "defendant_win": 1
+        },
+        "alleged explicit racist actions experien": {
+          "other": 1
+        },
+        "collection of facial biometrics via geos": {
+          "plaintiff_win": 1
+        },
+        "alleged violation of anti-discrimination": {
+          "defendant_win": 1
+        },
+        "alleged violation of anti-retaliation la": {
+          "defendant_win": 1
+        },
+        "federal antitrust laws": {
+          "plaintiff_win": 1
+        },
+        "anticybersquatting consumer protection a": {
+          "plaintiff_win": 1
+        },
+        "rhode island common-law": {
+          "plaintiff_win": 1
+        },
+        "violation of illinois\u2019s biometric inform": {
+          "plaintiff_win": 1
+        },
+        "copyright law": {
+          "plaintiff_win": 1
+        },
+        "lanham act": {
+          "plaintiff_win": 1
+        },
+        "title vii": {
+          "defendant_win": 1
+        },
+        "general legal principles related to publ": {
+          "defendant_win": 1
+        },
+        "macy's allegedly used clearview ai\u2019s dat": {
+          "other": 1
+        },
+        "macy's unauthorized use of biometric dat": {
+          "defendant_win": 2
+        },
+        "statutory exclusion clause in the insura": {
+          "other": 1
+        },
+        "alleged conspiracy and harm from 5g inst": {
+          "defendant_win": 1
+        },
+        "allegation that kohan violated the terms": {
+          "plaintiff_win": 1
+        },
+        "allegation that kohan and firmkey might": {
+          "plaintiff_win": 1
+        },
+        "state privacy laws": {
+          "other": 1
+        },
+        "section 631(a) of cipa, which prohibits": {
+          "plaintiff_win": 1
+        },
+        "violation of securities laws due to fals": {
+          "settled": 1
+        },
+        "violation of securities laws by providin": {
+          "settled": 1
+        },
+        "securities fraud": {
+          "settled": 1
+        },
+        "federal securities laws and regulations": {
+          "settled": 1
+        },
+        "securities fraud under federal securitie": {
+          "settled": 5
+        },
+        "violation of securities laws by misrepre": {
+          "settled": 4
+        },
+        "federal securities laws regarding accura": {
+          "settled": 1
+        },
+        "securities act of 1933 and the securitie": {
+          "settled": 1
+        },
+        "violation of securities laws by overstat": {
+          "settled": 1
+        },
+        "failure to provide necessary forms for p": {
+          "other": 1
+        },
+        "securities fraud under the private secur": {
+          "other": 1
+        },
+        "fair credit reporting act (fcra)": {
+          "defendant_win": 1,
+          "other": 1
+        },
+        "overstated revenue and misleading financ": {
+          "settled": 1
+        },
+        "plaintiff claimed an ownership interest": {
+          "defendant_win": 1
+        },
+        "violation of securities laws related to": {
+          "settled": 2
+        },
+        "violation of federal securities laws": {
+          "settled": 1
+        },
+        "securities fraud under the securities ac": {
+          "settled": 1
+        },
+        "negligence in data security practices": {
+          "other": 1
+        },
+        "deceptive business practices": {
+          "other": 1
+        },
+        "misleading financial statements and over": {
+          "settled": 1
+        },
+        "federal jurisdiction over contractual di": {
+          "other": 1
+        },
+        "defend trade secrets act": {
+          "defendant_win": 1
+        },
+        "kansas consumer protection act (kcpa)": {
+          "defendant_win": 1
+        },
+        "violation of the illinois biometric info": {
+          "other": 1
+        },
+        "alleged involvement in a fraudulent sche": {
+          "defendant_win": 1
+        },
+        "violation of illinois' biometric informa": {
+          "settled": 1
+        },
+        "telephone consumer protection act (tcpa)": {
+          "defendant_win": 1
+        },
+        "collection, storage, and disclosure of b": {
+          "defendant_win": 1
+        },
+        "alleged conspiracy between federal agenc": {
+          "defendant_win": 1
+        },
+        "common law": {
+          "defendant_win": 3
+        },
+        "the claim was based on the assertion tha": {
+          "other": 1
+        },
+        "spider labs alleged that john doe's anon": {
+          "other": 1
+        },
+        "habeas corpus under federal law": {
+          "defendant_win": 1
+        },
+        "not specified under federal law": {
+          "defendant_win": 1
+        },
+        "plaintiffs claimed that bofa's use of th": {
+          "other": 1
+        },
+        "procedural rules regarding the sufficien": {
+          "defendant_win": 1
+        },
+        "the plaintiff alleged harm from implante": {
+          "defendant_win": 1
+        },
+        "federal employment discrimination law": {
+          "defendant_win": 1
+        },
+        "federal employment retaliation law": {
+          "defendant_win": 1
+        },
+        "the seed agreement was allegedly breache": {
+          "defendant_win": 1
+        },
+        "violation of anti-discrimination laws": {
+          "defendant_win": 1
+        },
+        "violation of disability rights laws": {
+          "defendant_win": 1
+        },
+        "derivative litigation filed by sharehold": {
+          "settled": 1
+        },
+        "contract law": {
+          "plaintiff_win": 2
+        },
+        "trade secret law": {
+          "plaintiff_win": 1
+        },
+        "plaintiffs alleged that a hacker gained": {
+          "defendant_win": 1
+        },
+        "28 u.s.c. \u00a7 1915": {
+          "defendant_win": 1
+        },
+        "\u00a7 15(c) of bipa": {
+          "defendant_win": 1
+        },
+        "claimed delays and potential prejudice t": {
+          "defendant_win": 1
+        },
+        "breach of insurance agreements": {
+          "plaintiff_win": 1
+        },
+        "zaletel claimed that prisma labs' use of": {
+          "plaintiff_win": 1
+        },
+        "the plaintiff argued for leniency in pro": {
+          "defendant_win": 1
+        },
+        "the plaintiff sought to amend her compla": {
+          "plaintiff_win": 1
+        },
+        "alleged that x corp made false promises": {
+          "defendant_win": 1
+        },
+        "claimed reliance on x corp's promises re": {
+          "defendant_win": 1
+        },
+        "argued that x corp benefited unfairly fr": {
+          "defendant_win": 1
+        },
+        "alleged improper use of ai to suspend ac": {
+          "defendant_win": 1
+        },
+        "playground ai alleges that mighty comput": {
+          "other": 1
+        },
+        "playground ai claims that mighty computi": {
+          "other": 1
+        }
+      }
+    },
+    "claim_defense_pairs": [
+      {
+        "claim": "unfair competition law",
+        "defense": "motion to dismiss invasion of",
+        "frequency": 2
+      },
+      {
+        "claim": "unfair competition law",
+        "defense": "motion to dismiss 'unlawful' ucl",
+        "frequency": 2
+      },
+      {
+        "claim": "securities fraud due to overstated",
+        "defense": "the settlement and plan of",
+        "frequency": 2
+      },
+      {
+        "claim": "invasion of privacy",
+        "defense": "communications did not meet the standard",
+        "frequency": 1
+      },
+      {
+        "claim": "violation of the new jersey law against discrimination (njlad)",
+        "defense": "communications did not meet the standard",
+        "frequency": 1
+      },
+      {
+        "claim": "aiding and abetting discrimination",
+        "defense": "communications did not meet the standard",
+        "frequency": 1
+      },
+      {
+        "claim": "missed social security checks",
+        "defense": "improper venue in the northern",
+        "frequency": 1
+      },
+      {
+        "claim": "hazardous living conditions",
+        "defense": "improper venue in the northern",
+        "frequency": 1
+      },
+      {
+        "claim": "child protective services investigations",
+        "defense": "improper venue in the northern",
+        "frequency": 1
+      },
+      {
+        "claim": "the california invasion of privacy act (cipa)",
+        "defense": "motion to dismiss the case",
+        "frequency": 1
+      },
+      {
+        "claim": "cybersquatting",
+        "defense": "isaacman's name does not qualify as a protected mark",
+        "frequency": 1
+      },
+      {
+        "claim": "tiktok and bytedance collected and",
+        "defense": "tiktok and bytedance likely argued",
+        "frequency": 1
+      },
+      {
+        "claim": "antitrust violations",
+        "defense": "lack of personal jurisdiction",
+        "frequency": 1
+      },
+      {
+        "claim": "false advertising",
+        "defense": "lack of personal jurisdiction",
+        "frequency": 1
+      },
+      {
+        "claim": "antitrust violations",
+        "defense": "failure to allege antitrust injury",
+        "frequency": 1
+      },
+      {
+        "claim": "false advertising",
+        "defense": "failure to allege antitrust injury",
+        "frequency": 1
+      },
+      {
+        "claim": "privacy violations",
+        "defense": "implied consent",
+        "frequency": 1
+      },
+      {
+        "claim": "breach of contract",
+        "defense": "implied consent",
+        "frequency": 1
+      },
+      {
+        "claim": "invasion of privacy",
+        "defense": "implied consent",
+        "frequency": 1
+      },
+      {
+        "claim": "trademark infringement due to the",
+        "defense": "no likelihood of consumer confusion",
+        "frequency": 1
+      },
+      {
+        "claim": "trademark infringement by hp inc. using the 'wex' trademark",
+        "defense": "hp inc. may argue that",
+        "frequency": 1
+      },
+      {
+        "claim": "salesforce knowingly benefited from backpage's",
+        "defense": "salesforce is protected from liability",
+        "frequency": 1
+      },
+      {
+        "claim": "apple engaged in anticompetitive practices",
+        "defense": "apple filed a motion to",
+        "frequency": 1
+      },
+      {
+        "claim": "apple's restrictive policies on app",
+        "defense": "apple filed a motion to",
+        "frequency": 1
+      },
+      {
+        "claim": "alleged violations of illinois' biometric information privacy act",
+        "defense": "the insurance policy's catch-all exclusion",
+        "frequency": 1
+      }
+    ],
+    "multi_claim_analysis": {
+      "single_claim_cases": 74,
+      "multi_claim_cases": 32,
+      "avg_claims_per_case": 1.4245283018867925,
+      "max_claims_in_case": 4
+    }
+  },
+  "detailed": {
+    "top_claims_ranked": [
+      {
+        "claim_type": "trademark infringement",
+        "frequency": 4,
+        "case_count": 4,
+        "outcomes": {
+          "other": 2,
+          "mixed": 1,
+          "plaintiff_win": 1
+        },
+        "success_rate": 37.5
+      },
+      {
+        "claim_type": "securities fraud due to overstated",
+        "frequency": 4,
+        "case_count": 4,
+        "outcomes": {
+          "settled": 4
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "invasion of privacy",
+        "frequency": 3,
+        "case_count": 3,
+        "outcomes": {
+          "pending_trial": 1,
+          "other": 1,
+          "defendant_win": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "the california invasion of privacy act (cipa)",
+        "frequency": 3,
+        "case_count": 3,
+        "outcomes": {
+          "plaintiff_win": 3
+        },
+        "success_rate": 100.0
+      },
+      {
+        "claim_type": "privacy violations",
+        "frequency": 3,
+        "case_count": 3,
+        "outcomes": {
+          "other": 1,
+          "defendant_win": 1,
+          "settled": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "the illinois biometric information privacy act (bipa)",
+        "frequency": 3,
+        "case_count": 3,
+        "outcomes": {
+          "plaintiff_win": 2,
+          "other": 1
+        },
+        "success_rate": 66.7
+      },
+      {
+        "claim_type": "quintus corporation made false and",
+        "frequency": 3,
+        "case_count": 3,
+        "outcomes": {
+          "settled": 3
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "cybersquatting",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "plaintiff_win": 1,
+          "other": 1
+        },
+        "success_rate": 50.0
+      },
+      {
+        "claim_type": "false advertising",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "defendant_win": 1,
+          "mixed": 1
+        },
+        "success_rate": 25.0
+      },
+      {
+        "claim_type": "breach of contract",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "other": 1,
+          "defendant_win": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "unfair competition law",
+        "frequency": 2,
+        "case_count": 1,
+        "outcomes": {
+          "other": 1,
+          "defendant_win": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "racial discrimination",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "defendant_win": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "unjust enrichment",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "defendant_win": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "securities fraud due to misleading",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "settled": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "securities fraud due to false",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "settled": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "violation of the new jersey law against discrimination (njlad)",
+        "frequency": 1,
+        "case_count": 1,
+        "outcomes": {
+          "pending_trial": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "aiding and abetting discrimination",
+        "frequency": 1,
+        "case_count": 1,
+        "outcomes": {
+          "pending_trial": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "missed social security checks",
+        "frequency": 1,
+        "case_count": 1,
+        "outcomes": {
+          "other": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "hazardous living conditions",
+        "frequency": 1,
+        "case_count": 1,
+        "outcomes": {
+          "other": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "claim_type": "child protective services investigations",
+        "frequency": 1,
+        "case_count": 1,
+        "outcomes": {
+          "other": 1
+        },
+        "success_rate": 0.0
+      }
+    ],
+    "top_defenses_ranked": [
+      {
+        "defense_type": "lack of personal jurisdiction",
+        "frequency": 4,
+        "case_count": 4,
+        "legal_bases": {
+          "Federal Rules of Civil Procedure": 1,
+          "GeoSnapShot Pty Ltd and GeoSnapShot, Inc. argued they did not have sufficient contacts with Illinois to be sued there.": 1,
+          "Defendants argued they did not have sufficient ties to Michigan.": 1,
+          "Wemagine.AI LLP did not purposefully direct its activities toward Illinois, nor did the injuries of the plaintiffs arise from any Illinois-specific conduct by the defendant.": 1
+        }
+      },
+      {
+        "defense_type": "failure to state a claim",
+        "frequency": 4,
+        "case_count": 4,
+        "legal_bases": {
+          "Federal Rules of Civil Procedure": 1,
+          "Plaintiff's allegations lacked factual support and were implausible under legal standards": 1,
+          "Federal employment law": 1,
+          "The complaint lacked specificity and facts to support any alleged negligent act by a federal employee.": 1
+        }
+      },
+      {
+        "defense_type": "the settlement is fair, reasonable",
+        "frequency": 4,
+        "case_count": 4,
+        "legal_bases": {
+          "Approval of class action settlement by the court.": 1,
+          "The court's assessment of the settlement's fairness and adequacy for the affected investors.": 1,
+          "The settlement was justified under the circumstances, and no objections were raised by class members.": 1,
+          "Evaluation of settlement fairness under class action settlement standards.": 1
+        }
+      },
+      {
+        "defense_type": "no likelihood of consumer confusion",
+        "frequency": 2,
+        "case_count": 2,
+        "legal_bases": {
+          "Trademark law, differentiation in services and branding.": 1,
+          "Trademark law principles": 1
+        }
+      },
+      {
+        "defense_type": "lack of standing",
+        "frequency": 2,
+        "case_count": 2,
+        "legal_bases": {
+          "Plaintiff did not allege a concrete or imminent injury.": 1,
+          "Section 32(1) of the Lanham Act.": 1
+        }
+      },
+      {
+        "defense_type": "the proposed settlement and allocation",
+        "frequency": 2,
+        "case_count": 2,
+        "legal_bases": {
+          "Court's assessment of the settlement agreement as fair, reasonable, and adequate for class members.": 1,
+          "Consideration of the risks of further litigation and the proportionality of the settlement to potential recovery.": 1
+        }
+      },
+      {
+        "defense_type": "bankruptcy status of quintus corporation",
+        "frequency": 2,
+        "case_count": 2,
+        "legal_bases": {
+          "Inability to continue litigation due to financial insolvency.": 2
+        }
+      },
+      {
+        "defense_type": "the settlement and plan of",
+        "frequency": 2,
+        "case_count": 2,
+        "legal_bases": {
+          "Federal Rule of Civil Procedure 23(e)": 1,
+          "Consideration of litigation risk, cost, and absence of objections from class members.": 1
+        }
+      },
+      {
+        "defense_type": "the proposed settlement is fair",
+        "frequency": 2,
+        "case_count": 2,
+        "legal_bases": {
+          "Compliance with legal standards for class action settlements.": 1,
+          "Consideration of the absence of objections from class members and the complexity and risks involved in continuing litigation.": 1
+        }
+      },
+      {
+        "defense_type": "lack of personal jurisdiction over",
+        "frequency": 2,
+        "case_count": 2,
+        "legal_bases": {
+          "Jurisdictional requirements": 1,
+          "EPS's alleged activities did not demonstrate purposeful activities in Florida or a concrete connection to the fraud conspiracy within the state.": 1
+        }
+      },
+      {
+        "defense_type": "lack of subject matter jurisdiction",
+        "frequency": 2,
+        "case_count": 2,
+        "legal_bases": {
+          "Plaintiff's claims were vague, conclusory, and unfounded": 1,
+          "The defendants argued that the plaintiffs did not have standing to sue as their injuries were not fairly traceable to the defendants' actions.": 1
+        }
+      },
+      {
+        "defense_type": "communications did not meet the standard",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "Privacy law": 1
+        }
+      },
+      {
+        "defense_type": "improper venue in the northern",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "Venue laws based on the location of parties and events": 1
+        }
+      },
+      {
+        "defense_type": "motion to dismiss the case",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "Insufficient allegations of CIPA violations.": 1
+        }
+      },
+      {
+        "defense_type": "isaacman's name does not qualify as a protected mark",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "The plaintiffs failed to demonstrate that Isaacman's name has acquired secondary meaning or fame as required by the statute.": 1
+        }
+      },
+      {
+        "defense_type": "tiktok and bytedance likely argued",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "Compliance with existing privacy regulations and user agreements.": 1
+        }
+      },
+      {
+        "defense_type": "failure to allege antitrust injury",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "Sherman Act and Clayton Act": 1
+        }
+      },
+      {
+        "defense_type": "implied consent",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "User agreement and privacy policy": 1
+        }
+      },
+      {
+        "defense_type": "hp inc. may argue that",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "Trademark law, focusing on the distinctiveness and market separation of the products.": 1
+        }
+      },
+      {
+        "defense_type": "salesforce is protected from liability",
+        "frequency": 1,
+        "case_count": 1,
+        "legal_bases": {
+          "Section 230 of the Communications Decency Act": 1
+        }
+      }
+    ],
+    "top_legal_bases_ranked": [
+      {
+        "legal_basis": "illinois biometric information privacy a",
+        "frequency": 17,
+        "case_count": 13,
+        "outcomes": {
+          "plaintiff_win": 6,
+          "settled": 1,
+          "other": 4,
+          "defendant_win": 5,
+          "pending_trial": 1
+        },
+        "success_rate": 35.3
+      },
+      {
+        "legal_basis": "state law",
+        "frequency": 9,
+        "case_count": 7,
+        "outcomes": {
+          "pending_trial": 1,
+          "plaintiff_win": 2,
+          "other": 3,
+          "mixed": 2,
+          "defendant_win": 1
+        },
+        "success_rate": 33.3
+      },
+      {
+        "legal_basis": "constitutional",
+        "frequency": 6,
+        "case_count": 3,
+        "outcomes": {
+          "other": 3,
+          "defendant_win": 2,
+          "plaintiff_win": 1
+        },
+        "success_rate": 16.7
+      },
+      {
+        "legal_basis": "securities fraud under federal securitie",
+        "frequency": 5,
+        "case_count": 5,
+        "outcomes": {
+          "settled": 5
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "violation of securities laws by misrepre",
+        "frequency": 4,
+        "case_count": 4,
+        "outcomes": {
+          "settled": 4
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "common law",
+        "frequency": 3,
+        "case_count": 3,
+        "outcomes": {
+          "defendant_win": 3
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "njlad",
+        "frequency": 2,
+        "case_count": 1,
+        "outcomes": {
+          "pending_trial": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "violation of federal and state antitrust",
+        "frequency": 2,
+        "case_count": 1,
+        "outcomes": {
+          "other": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "violation of securities laws by making f",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "settled": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "macy's unauthorized use of biometric dat",
+        "frequency": 2,
+        "case_count": 1,
+        "outcomes": {
+          "defendant_win": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "fair credit reporting act (fcra)",
+        "frequency": 2,
+        "case_count": 1,
+        "outcomes": {
+          "defendant_win": 1,
+          "other": 1
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "violation of securities laws related to",
+        "frequency": 2,
+        "case_count": 2,
+        "outcomes": {
+          "settled": 2
+        },
+        "success_rate": 0.0
+      },
+      {
+        "legal_basis": "contract law",
+        "frequency": 2,
+        "case_count": 1,
+        "outcomes": {
+          "plaintiff_win": 2
+        },
+        "success_rate": 100.0
+      },
+      {
+        "legal_basis": "isaacman's personal name being used in d",
+        "frequency": 1,
+        "case_count": 1,
+        "outcomes": {
+          "plaintiff_win": 1
+        },
+        "success_rate": 100.0
+      },
+      {
+        "legal_basis": "violation of u.s. federal and state priv",
+        "frequency": 1,
+        "case_count": 1,
+        "outcomes": {
+          "settled": 1
+        },
+        "success_rate": 0.0
+      }
+    ],
+    "outcome_success_rates": {
+      "plaintiff": 18.5,
+      "defendant": 35.1,
+      "by_outcome": {
+        "pending_trial": 5,
+        "other": 35,
+        "plaintiff_win": 27,
+        "settled": 29,
+        "defendant_win": 53,
+        "mixed": 2
+      }
+    }
+  },
+  "suggestions": {
+    "claim_types": {
+      "unique_count": 127,
+      "total_instances": 151,
+      "similar_groups": [
+        {
+          "canonical": "trademark infringement under section 32(1) of the lanham act",
+          "variations": [
+            "trademark infringement under section 43(a) of the lanham act"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "geosnap violated the illinois biometric information privacy act",
+          "variations": [
+            "clearview ai violated the illinois biometric information privacy act"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "unfair competition law",
+          "variations": [
+            "unfair competition"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "racial discrimination in employment",
+          "variations": [
+            "discrimination in employment"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "the illinois biometric information privacy act (bipa)",
+          "variations": [
+            "the illinois biometric information privacy act",
+            "violation of the illinois biometric information privacy act (bipa)"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "breach of a non-compete agreement",
+          "variations": [
+            "breach of non-compete agreement"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "securities fraud by overstating revenues",
+          "variations": [
+            "securities fraud by inflating revenues",
+            "securities fraud by overstating revenue"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "securities fraud due to false",
+          "variations": [
+            "securities fraud due to financial"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "violation of bipa section 15(a)",
+          "variations": [
+            "violation of bipa section 15(b)",
+            "violation of bipa section 15(d)",
+            "violation of bipa section 15(c)"
+          ],
+          "similarity": "medium"
+        }
+      ],
+      "all_terms": {
+        "trademark infringement": 4,
+        "securities fraud due to overstated": 4,
+        "invasion of privacy": 3,
+        "the california invasion of privacy act (cipa)": 3,
+        "privacy violations": 3,
+        "the illinois biometric information privacy act (bipa)": 3,
+        "quintus corporation made false and": 3,
+        "cybersquatting": 2,
+        "false advertising": 2,
+        "breach of contract": 2,
+        "unfair competition law": 2,
+        "racial discrimination": 2,
+        "unjust enrichment": 2,
+        "securities fraud due to misleading": 2,
+        "securities fraud due to false": 2,
+        "violation of the new jersey law against discrimination (njlad)": 1,
+        "aiding and abetting discrimination": 1,
+        "missed social security checks": 1,
+        "hazardous living conditions": 1,
+        "child protective services investigations": 1,
+        "tiktok and bytedance collected and": 1,
+        "antitrust violations": 1,
+        "trademark infringement due to the": 1,
+        "trademark infringement by hp inc. using the 'wex' trademark": 1,
+        "salesforce knowingly benefited from backpage's": 1,
+        "apple engaged in anticompetitive practices": 1,
+        "apple's restrictive policies on app": 1,
+        "alleged violations of illinois' biometric information privacy act": 1,
+        "intrusion inc. made false claims": 1,
+        "google unlawfully collected and utilized users\u2019 data when the users had web & app activity": 1,
+        "google's conduct was knowingly highly": 1,
+        "consumer fraud": 1,
+        "trademark infringement under section 32(1) of the lanham act": 1,
+        "trademark infringement under section 43(a) of the lanham act": 1,
+        "intrusion inc. made false representations": 1,
+        "geosnap violated the illinois biometric information privacy act": 1,
+        "the illinois biometric information privacy act (bipa) due to the collection and use of biometric data without proper consent": 1,
+        "negligence": 1,
+        "racial discrimination in employment": 1,
+        "discrimination in employment": 1,
+        "retaliation in employment": 1,
+        "antitrust violations by google llc": 1,
+        "unfair competition": 1,
+        "bumble's dating app used facial": 1,
+        "infringement of intellectual property related": 1,
+        "false advertising regarding ai capabilities": 1,
+        "challenge to the handling of": 1,
+        "california laws": 1,
+        "new york laws": 1,
+        "citizens insurance company of america": 1
+      }
+    },
+    "defense_types": {
+      "unique_count": 107,
+      "total_instances": 124,
+      "similar_groups": [
+        {
+          "canonical": "motion to dismiss the case",
+          "variations": [
+            "motion to dismiss the claims",
+            "motion to dismiss the class"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "lack of personal jurisdiction",
+          "variations": [
+            "lack of personal jurisdiction over",
+            "lack of personal jurisdiction as",
+            "lack of personal jurisdiction in",
+            "lack of specific personal jurisdiction"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "the proposed settlement and allocation",
+          "variations": [
+            "the proposed settlement and plan"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "the settlement is fair, reasonable,",
+          "variations": [
+            "the settlement was fair, reasonable,"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "the defendants likely argued that",
+          "variations": [
+            "the defense likely argued the"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "lack of subject matter jurisdiction",
+          "variations": [
+            "lack of subject-matter jurisdiction for"
+          ],
+          "similarity": "medium"
+        }
+      ],
+      "all_terms": {
+        "lack of personal jurisdiction": 4,
+        "failure to state a claim": 4,
+        "the settlement is fair, reasonable,": 4,
+        "no likelihood of consumer confusion": 2,
+        "lack of standing": 2,
+        "the proposed settlement and allocation": 2,
+        "bankruptcy status of quintus corporation": 2,
+        "the settlement and plan of": 2,
+        "the proposed settlement is fair,": 2,
+        "lack of personal jurisdiction over": 2,
+        "lack of subject matter jurisdiction": 2,
+        "communications did not meet the standard": 1,
+        "improper venue in the northern": 1,
+        "motion to dismiss the case": 1,
+        "isaacman's name does not qualify as a protected mark": 1,
+        "tiktok and bytedance likely argued": 1,
+        "failure to allege antitrust injury": 1,
+        "implied consent": 1,
+        "hp inc. may argue that": 1,
+        "salesforce is protected from liability": 1,
+        "apple filed a motion to": 1,
+        "the insurance policy's catch-all exclusion": 1,
+        "the settlement agreement does not": 1,
+        "google's actions were in compliance": 1,
+        "exclusion of unrelated evidence such": 1,
+        "lack of secondary meaning and": 1,
+        "geosnap argued that the court": 1,
+        "geosnapshot argued that it could compel arbitration based on waivers signed": 1,
+        "accuracy of advertising claims": 1,
+        "motion to dismiss invasion of": 1,
+        "motion to dismiss 'unlawful' ucl": 1,
+        "the use of templates in": 1,
+        "preclusion doctrines": 1,
+        "failure to exhaust administrative remedies": 1,
+        "apple inc. sought to intervene": 1,
+        "motion to dismiss the case on the grounds that invoca is not a third party": 1,
+        "distinct branding and lack of": 1,
+        "bumble, inc. argued that the": 1,
+        "lack of evidence": 1,
+        "no demonstration of irreparable harm": 1,
+        "lack of standing to challenge": 1,
+        "failure to state a plausible": 1,
+        "sovereign immunity barring some claims": 1,
+        "motion to dismiss claims": 1,
+        "the insurance policy's statutory exclusion clause does not preclude coverage": 1,
+        "the settlement does not include": 1,
+        "lack of standing and failure": 1,
+        "challenge to the scope of": 1,
+        "arlo technologies, inc. filed a motion to dismiss the claims, arguing that the allegations were insufficient to establish standing or plausible claims": 1,
+        "motion to dismiss the claims": 1
+      }
+    },
+    "plaintiff_types": {
+      "unique_count": 13,
+      "total_instances": 106,
+      "similar_groups": [],
+      "all_terms": {
+        "individual": 30,
+        "class-action group": 54,
+        "corporation: shift4 payments, llc": 1,
+        "corporation": 10,
+        "corporation (wex inc.)": 1,
+        "government agency": 2,
+        "corporation: rex real estate i, l.p": 1,
+        "corporation (overjet, inc.)": 1,
+        "corporation (admiin inc. d/b/a paro inc.)": 1,
+        "individual and corporation": 2,
+        "corporation (phi theta kappa honor society)": 1,
+        "corporation (my24hournews.com, inc.) and individual (erik m. underwood)": 1,
+        "litigation trustee for augustus intelligence, inc": 1
+      }
+    },
+    "defendant_types": {
+      "unique_count": 33,
+      "total_instances": 106,
+      "similar_groups": [
+        {
+          "canonical": "corporation (geosnapshot pty ltd)",
+          "variations": [
+            "corporation: geosnapshot pty ltd"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "government agency and corporation",
+          "variations": [
+            "government agency and corporations"
+          ],
+          "similarity": "medium"
+        }
+      ],
+      "all_terms": {
+        "corporation": 60,
+        "government agency": 6,
+        "corporation: cloudflare and unnamed individuals and corporations": 1,
+        "corporation (tiktok and bytedance)": 1,
+        "corporation (hp inc.)": 1,
+        "corporation: salesforce.com, inc": 1,
+        "corporation (intrusion inc.)": 2,
+        "corporation: rex real estate exchange, inc": 1,
+        "corporation (geosnapshot pty ltd)": 1,
+        "corporation: geosnapshot pty ltd": 1,
+        "corporation, allina health system": 1,
+        "corporation (videa health, inc.)": 1,
+        "corporation (macy\u2019s retail holdings, llc)": 1,
+        "individual (luke kohan) and corporation (firmkey solutions llc)": 1,
+        "corporation (clearview ai, inc.)": 1,
+        "corporation: peloton interactive, inc": 1,
+        "corporation (quintus corporation)": 6,
+        "corporation: experian information solutions, inc": 1,
+        "investors and advisors": 1,
+        "corporation (avid dating life, inc.)": 1,
+        "corporation: kinetic advantage, llc": 1,
+        "corporation (amazon.com, inc.)": 1,
+        "corporation (macy's)": 1,
+        "government agency and corporation": 1,
+        "corporation (honorsociety.org)": 1,
+        "individual": 4,
+        "corporation (bank of america corporation)": 1,
+        "corporation: apple inc": 1,
+        "corporation (best buy inc.)": 1,
+        "corporation (pinterest, inc.)": 1,
+        "government agency and corporations": 1,
+        "corporation: hirevue inc": 1,
+        "corporation: united airlines": 1
+      }
+    },
+    "legal_bases": {
+      "unique_count": 106,
+      "total_instances": 151,
+      "similar_groups": [
+        {
+          "canonical": "violation of securities laws by misrepre",
+          "variations": [
+            "violation of securities laws by making f",
+            "violation of securities laws by providin"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "section 32(1) of the lanham act",
+          "variations": [
+            "section 43(a) of the lanham act"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "violation of illinois\u2019s biometric inform",
+          "variations": [
+            "violation of the illinois biometric info",
+            "violation of illinois' biometric informa"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "violation of securities laws related to ",
+          "variations": [
+            "violation of securities laws due to fals"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "securities fraud under federal securitie",
+          "variations": [
+            "securities fraud under the securities ac"
+          ],
+          "similarity": "medium"
+        },
+        {
+          "canonical": "playground ai alleges that mighty comput",
+          "variations": [
+            "playground ai claims that mighty computi"
+          ],
+          "similarity": "medium"
+        }
+      ],
+      "all_terms": {
+        "illinois biometric information privacy a": 17,
+        "state law": 9,
+        "constitutional": 6,
+        "securities fraud under federal securitie": 5,
+        "violation of securities laws by misrepre": 4,
+        "common law": 3,
+        "njlad": 2,
+        "violation of federal and state antitrust": 2,
+        "violation of securities laws by making f": 2,
+        "macy's unauthorized use of biometric dat": 2,
+        "fair credit reporting act (fcra)": 2,
+        "violation of securities laws related to ": 2,
+        "contract law": 2,
+        "isaacman's personal name being used in d": 1,
+        "violation of u.s. federal and state priv": 1,
+        "sherman act and clayton act": 1,
+        "federal trade commission act": 1,
+        "contractual limitations and waiver uncon": 1,
+        "privacy commitments and implied consent": 1,
+        "trademark law, likelihood of consumer co": 1,
+        "trademark law, focusing on consumer conf": 1,
+        "18 u.s.c. \u00a7 1595": 1,
+        "biometric information privacy act (bipa)": 1,
+        "alleged improper handling of medical rec": 1,
+        "alleged breach concerning the handling o": 1,
+        "alleged deceptive practices in handling ": 1,
+        "section 32(1) of the lanham act": 1,
+        "section 43(a) of the lanham act": 1,
+        "securities exchange act of 1934, section": 1,
+        "openai, inc. claimed that guy ravine's u": 1
+      }
+    }
+  }
+}
