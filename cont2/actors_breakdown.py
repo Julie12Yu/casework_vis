@@ -2,6 +2,15 @@ import json
 from collections import Counter
 import re
 from pathlib import Path
+import spacy
+from rake_nltk import Rake
+
+# ============================================================
+# NLP MODELS
+# ============================================================
+
+nlp = spacy.load("en_core_web_sm")     # spaCy NER
+rake = Rake()                          # RAKE phrase extractor
 
 # ============================================================
 # CONFIG
@@ -24,20 +33,37 @@ def normalize_text(text):
 
 def extract_party_type(description):
     """
-    A far more detailed classifier to reduce 'other' occurrences.
-    Uses keyword rules to infer entity type from description.
+    1. NER -> If person, return individual
+    2. RAKE -> Get phrases that matter
+    3. Use rule-based classifier
     """
 
+    # Normalize fallback text
     text = normalize_text(description)
 
+
+    # 1. NER: FIND INDIVIDUALS
+    doc = nlp(description)
+    for ent in doc.ents:
+        if ent.label_ == "PERSON":
+            return "individual"
+
+
+    # 2. RAKE Keyphrase Extraction
+    rake.extract_keywords_from_text(description)
+    phrases = [p.lower() for p in rake.get_ranked_phrases()]
+    phrase_text = " ".join(phrases)
+
+
+    # 3. RULE-BASED CLASSIFICATION on keyphrases
     # CLASS ACTION
-    if any(k in text for k in [
+    if any(key in phrase_text or key in text for key in [
         "class action", "class-action", "putative class", "nationwide class",
     ]):
         return "class-action"
 
     # INDIVIDUAL / PEOPLE
-    if any(k in text for k in [
+    if any(k in phrase_text or k in text for k in [
         "individual", "person", "employee", "worker", "citizen", "resident",
         "plaintiff is a", "former employee", "job applicant", "customer", 
         "sex trafficking victim",
@@ -45,7 +71,7 @@ def extract_party_type(description):
         return "individual"
 
     # CORPORATIONS / COMPANIES
-    if any(k in text for k in [
+    if any(k in phrase_text or k in text for k in [
         "corporation", "company", "inc", "llc", "l.l.c.", "ltd", "limited",
         "corp", "business", "employer", "restaurant", "store",
         "consulting firm", "insurance company", "retail chain", "tech company",
@@ -53,102 +79,41 @@ def extract_party_type(description):
     ]):
         return "corporation"
 
-    # NONPROFITS / FOUNDATIONS / ASSOCIATIONS
-    if any(k in text for k in [
-        "nonprofit", "foundation", "charity", "organization", "association",
-        "advocacy group", "coalition"
+    # NONPROFITS / CHARITIES
+    if any(k in phrase_text or k in text for k in [
+        "nonprofit", "charity", "advocacy group"
     ]):
         return "nonprofit organization"
 
     # INVESTORS
-    if any(k in text for k in [
+    if any(k in phrase_text or k in text for k in [
         "investor", "investors", "shareholder", "venture capital", "stock purchasers"
     ]):
         return "investor(s)"
 
-    # PARTNERSHIPS
-    if any(k in text for k in [
-        "partnership", "general partnership", "limited partnership", "llp"
-    ]):
-        return "partnership"
-
     # HEALTHCARE / HOSPITALS
-    if any(k in text for k in [
+    if any(k in phrase_text or k in text for k in [
         "hospital", "clinic", "medical center", "health system", "healthcare",
         "physician group"
     ]):
         return "healthcare provider"
-    
-    """
-    # EDUCATIONAL INSTITUTIONS
-    if any(k in text for k in [
-        "university", "college", "school", "school district",
-        "academy", "board of education"
-    ]):
-        return "educational institution"
-    """
-
-    # BANKS / FINANCIAL
-    if any(k in text for k in [
-        "bank", "credit union", "financial institution", "investment firm",
-        "brokerage"
-    ]):
-        return "financial institution"
-
-    # MEDIA / PUBLISHERS
-    if any(k in text for k in [
-        "newspaper", "media company", "publisher", "broadcasting",
-        "television", "news organization"
-    ]):
-        return "media organization"
-
-    # UNIONS
-    if any(k in text for k in [
-        "union", "labor union", "local chapter", "collective bargaining unit"
-    ]):
-        return "labor union"
 
     # INSURANCE COMPANIES (special category)
-    if "insurance" in text:
+    if any(k in phrase_text or k in text for k in [
+        "insurance company", "insurer", "insurance provider", "insurance carrier"
+    ]):
         return "insurance company"
 
-    # LAW ENFORCEMENT
-    if any(k in text for k in [
-        "police", "sheriff", "law enforcement", "detective", "state trooper",
-        "patrol", "police department"
-    ]):
-        return "law enforcement agency"
-
     # GOVERNMENT ENTITIES (broad)
-    if any(k in text for k in [
+    if any(k in phrase_text or k in text for k in [
         "government", "govt", "state of", "county of", "city of",
         "municipality", "public agency", "department", "bureau",
         "division of", "state agency", "public authority"
     ]):
         return "government entity"
 
-    # MUNICIPALITIES (more specific)
-    if any(k in text for k in [
-        "city", "township", "borough", "village", "town", "municipality"
-    ]):
-        return "municipality"
-
-    # FEDERAL AGENCIES
-    if any(k in text for k in [
-        "federal", "u.s. department", "united states department",
-        "us department", "homeland security", "fbi", "irs", "department of"
-    ]):
-        return "federal agency"
-
-    # FOREIGN GOVERNMENTS
-    if any(k in text for k in [
-        "embassy", "consulate", "foreign ministry", "government of"
-    ]):
-        return "foreign government"
-
-    # DEFAULT
+    # OTHER
     return text
-
 
 
 # ============================================================

@@ -14,20 +14,18 @@
       "pretrial detainee and habeas petitioner": 1
     },
     "defendant_types": {
-      "individual": 15,
+      "individual": 17,
       "government entity": 5,
       "corporation": 74,
       "internet service provider and anonymous website operators": 1,
       "app developer and large tech platforms": 1,
-      "game developer of roblox-based adopt me! title": 1,
       "quintus and related securities defendants": 1,
       "investor(s)": 1,
-      "operator of ashley madison online dating website": 1,
-      "nonprofit organization": 1,
+      "competing online-based honor society organization": 1,
       "private vendors helping develop midas fraud-detection system": 1,
       "county detention facility and custodial authority": 1,
       "public school district and related defendants": 1,
-      "health insurer and affiliate using ai coverage tool": 1,
+      "insurance company": 1,
       "commercial airline and additional associated defendants": 1
     },
     "combinations": {
@@ -40,20 +38,18 @@
       "individual v. corporation": 22,
       "government entity v. corporation": 2,
       "investor(s) v. individual": 6,
-      "corporation v. individual": 5,
-      "corporation v. game developer of roblox-based adopt me! title": 1,
+      "corporation v. individual": 6,
       "investor(s) v. quintus and related securities defendants": 1,
       "investor(s) v. corporation": 11,
       "individual v. investor(s)": 1,
-      "class-action v. individual": 2,
+      "class-action v. individual": 3,
       "class of quintus securities purchasers alleging fraud v. corporation": 1,
-      "class-action v. operator of ashley madison online dating website": 1,
       "class of drivers using lytx drivecam-equipped vehicles v. corporation": 1,
-      "honor society for community college students v. nonprofit organization": 1,
+      "honor society for community college students v. competing online-based honor society organization": 1,
       "unemployment claimants challenging automated fraud determinations v. private vendors helping develop midas fraud-detection system": 1,
       "pretrial detainee and habeas petitioner v. county detention facility and custodial authority": 1,
       "individual v. public school district and related defendants": 1,
-      "class-action v. health insurer and affiliate using ai coverage tool": 1,
+      "class-action v. insurance company": 1,
       "individual v. commercial airline and additional associated defendants": 1
     }
   },
@@ -364,7 +360,7 @@
       "plaintiff_type": "corporation",
       "defendant_name": "Uplift Games, LLC et al.",
       "defendant_description": "Game developer of Roblox-based Adopt Me! title",
-      "defendant_type": "game developer of roblox-based adopt me! title"
+      "defendant_type": "individual"
     },
     {
       "case_id": "2023-07-07_USCOURTS-ilnd-1_21-cv-06925_Dzananovic v. Bumble_ Inc. et al.pdf",
@@ -451,7 +447,7 @@
       "plaintiff_description": "AI-powered finance and accounting solutions marketplace business.",
       "plaintiff_type": "corporation",
       "defendant_name": "Luke Kohan and FirmKey Solutions LLC",
-      "defendant_description": "Finance solution company of a previous employee.",
+      "defendant_description": "Finance solution company of a previous employee, and the employee.",
       "defendant_type": "individual"
     },
     {
@@ -771,7 +767,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "Avid Dating Life, Inc.",
       "defendant_description": "Operator of Ashley Madison online dating website",
-      "defendant_type": "operator of ashley madison online dating website"
+      "defendant_type": "individual"
     },
     {
       "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04264_Weiss v. Quintus Corporation_ et al.pdf",
@@ -958,7 +954,7 @@
       "plaintiff_type": "honor society for community college students",
       "defendant_name": "HonorSociety.org",
       "defendant_description": "Competing online-based honor society organization",
-      "defendant_type": "nonprofit organization"
+      "defendant_type": "competing online-based honor society organization"
     },
     {
       "case_id": "2020-12-07_USCOURTS-cand-5_20-mc-80141_In re Rule 45 Subpoenas Issued to Google LLC and LinkedIn Corporation Dated July 23_ 2020.pdf",
@@ -1178,7 +1174,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "UnitedHealth Group and naviHealth",
       "defendant_description": "Health insurer and affiliate using AI coverage tool",
-      "defendant_type": "health insurer and affiliate using ai coverage tool"
+      "defendant_type": "insurance company"
     },
     {
       "case_id": "2017-03-06_USCOURTS-ded-1_16-cv-01307_Zaletel v. Prisma Labs_ Inc..pdf",
