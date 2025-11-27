@@ -5,23 +5,13 @@ from pathlib import Path
 import spacy
 from rake_nltk import Rake
 
-# ============================================================
-# NLP MODELS
-# ============================================================
 
 nlp = spacy.load("en_core_web_sm")     # spaCy NER
 rake = Rake()                          # RAKE phrase extractor
 
-# ============================================================
-# CONFIG
-# ============================================================
-
 INPUT_PATH = "privacy/priv_cases_breakdown.json"
 OUTPUT_PATH = "privacy/actor_analysis.json"
 
-# ============================================================
-# HELPERS
-# ============================================================
 
 def normalize_text(text):
     if not text:
@@ -41,20 +31,20 @@ def extract_party_type(description):
     # Normalize fallback text
     text = normalize_text(description)
 
-
+    ###
     # 1. NER: FIND INDIVIDUALS
     doc = nlp(description)
     for ent in doc.ents:
         if ent.label_ == "PERSON":
             return "individual"
 
-
+    ###
     # 2. RAKE Keyphrase Extraction
     rake.extract_keywords_from_text(description)
     phrases = [p.lower() for p in rake.get_ranked_phrases()]
     phrase_text = " ".join(phrases)
 
-
+    ###
     # 3. RULE-BASED CLASSIFICATION on keyphrases
     # CLASS ACTION
     if any(key in phrase_text or key in text for key in [
@@ -116,10 +106,6 @@ def extract_party_type(description):
     return text
 
 
-# ============================================================
-# MAIN ANALYSIS (ACTORS ONLY)
-# ============================================================
-
 def analyze_actors(cases):
     plaintiff_types = Counter()
     defendant_types = Counter()
@@ -167,6 +153,7 @@ def analyze_actors(cases):
     }
 
     return final_data
+
 
 def main():
     print("\n📘 ACTOR-ONLY CASE ANALYSIS")
