@@ -63,12 +63,11 @@ def extract_case_structure(case_data):
         - Extract ALL claims and defenses
         - Use natural language
         - Be specific about outcomes
-        - For plaintiff_type / defendant_type: Identify the *type* of each party (e.g., corporation, individual, government agency, class-action group).
-        - For plaintiff_type / defendant_type: If it is a corporation, specify the name of the corporation. If it is a government agency, specify the name of the government agency.
+        - For plaintiff_type / defendant_type: Briefly describe each party in 5 words or less (e.g., “individual”, “corporation”, “business”, “government agency”, “class-action group”). Do not give names; give only the category-level description.
         - For ai_relevance: If artificial intelligence, machine learning, automated systems, algorithmic technologies, or other AI/ML-related technologies are involved in, impact, or led to the dispute, return exactly "NOT RELATED". Otherwise, describe how they play a role."""
     
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-5.1",
         response_format={
             "type": "json_schema",
             "json_schema": schema
@@ -109,4 +108,4 @@ def process_cases(input_file, output_file):
     print(f"Results written to {output_file}")
 
 if __name__ == "__main__":
-    process_cases("Privacy and Data Protection.json", "priv_cases_breakdown.json")
+    process_cases("privacy/Privacy and Data Protection.json", "privacy/priv_cases_breakdown.json")

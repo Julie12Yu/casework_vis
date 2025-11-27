@@ -5,10 +5,10 @@ from pathlib import Path
 from difflib import SequenceMatcher
 
 # Configuration
-INPUT_PATH = "priv_cases_breakdown.json"
-MAPPINGS_PATH = "term_mappings.json"
-SUGGESTIONS_OUTPUT = "term_standardization_suggestions.json"
-RAW_OUTPUT_PATH = "priv_cases_raw_output.json"
+INPUT_PATH = "privacy/priv_cases_breakdown.json"
+MAPPINGS_PATH = "privacy/term_mappings.json"
+SUGGESTIONS_OUTPUT = "privacy/term_standardization_suggestions.json"
+RAW_OUTPUT_PATH = "privacy/priv_cases_raw_output.json"
 
 # Default mappings for common variations
 DEFAULT_MAPPINGS = {
