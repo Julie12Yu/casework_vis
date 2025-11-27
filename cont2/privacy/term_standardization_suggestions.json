@@ -1,652 +1,92 @@
 {
   "claim_types": {
-    "unique_count": 237,
-    "total_instances": 321,
-    "similar_groups": [
-      {
-        "canonical": "violation of illinois biometric information privacy act (bipa)",
-        "variations": [
-          "illinois biometric information privacy act (bipa)",
-          "violation of the illinois biometric information privacy act (bipa)",
-          "the illinois biometric information privacy act (bipa)"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "class-action relief on behalf of",
-        "variations": [
-          "class-action claims on behalf of"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "racial discrimination in employment",
-        "variations": [
-          "sex discrimination in employment",
-          "racial discrimination in employment or"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "violation of bipa by failing to develop, publicly disclose, and comply with a written policy",
-        "variations": [
-          "violation of bipa \u00a7 15(a) \u2013 failure to develop, publicly disclose, and comply with a written policy"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "violation of illinois biometric information privacy act (bipa) \u00a7 15(b)",
-        "variations": [
-          "violation of illinois biometric information privacy act (bipa) \u00a7 15(a)",
-          "violation of illinois biometric information privacy act (bipa) \u00a7 15(d)"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "class action claims on behalf",
-        "variations": [
-          "class action claim on behalf"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "request",
-        "variations": [
-          "requests"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "claims",
-        "variations": [
-          "claim"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "unjust enrichment based on macy\u2019s",
-        "variations": [
-          "unjust enrichment based on clarifai\u2019s"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "unfair business practices by using",
-        "variations": [
-          "unfair business practices based on"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "breach of non-compete agreement by",
-        "variations": [
-          "breach of non-compete agreement"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "unlawful collection and capture of",
-        "variations": [
-          "unlawful collection and use of"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "class action claim",
-        "variations": [
-          "class action claims"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "securities fraud and misrepresentation in offering materials related to quintus corporation\u2019s initial public offering",
-        "variations": [
-          "securities fraud and misrepresentation in connection with quintus corporation\u2019s initial public offering"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "misappropriation of trade secrets relating",
-        "variations": [
-          "misappropriation of trade secrets"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "violation of bipa \u00a7 15(a)",
-        "variations": [
-          "violation of bipa \u00a7 15(b)",
-          "violation of bipa \u00a7 15(c)",
-          "violation of bipa \u00a7 15(d)"
-        ],
-        "similarity": "medium"
-      }
-    ],
+    "unique_count": 18,
+    "total_instances": 18,
+    "similar_groups": [],
     "all_terms": {
-      "request": 15,
-      "securities fraud based on false": 14,
-      "application": 9,
-      "bipa": 6,
-      "violation of illinois biometric information privacy act (bipa)": 4,
-      "unlawful storage and retention of": 4,
-      "securities fraud based on materially": 4,
-      "class action claim": 4,
-      "unfair competition and false designation": 3,
-      "illinois biometric information privacy act (bipa)": 3,
-      "violation of bipa": 3,
-      "unlawful collection of biometric identifiers": 3,
-      "unlawful disclosure or dissemination of": 3,
-      "class action claims": 3,
-      "securities fraud based on misleading": 3,
-      "class claims": 3,
-      "invasion of privacy by public": 2,
-      "federal antitrust violations": 2,
-      "related state-law trademark and unfair": 2,
-      "declaratory judgment that citizens has no duty to defend or indemnify wynndalco": 2,
-      "control person liability": 2,
-      "control person liability against certain individual defendants": 2,
-      "violation of the illinois biometric information privacy act (bipa)": 2,
-      "class-action relief on behalf of": 2,
-      "violation of california unfair competition law": 2,
-      "retaliation": 2,
-      "class-wide recovery and distribution of": 2,
-      "damages": 2,
-      "class action claims on behalf": 2,
-      "securities fraud based on overstated": 2,
-      "class action claim seeking statutory damages, injunctive relief, and other remedies": 2,
-      "motion": 2,
-      "additional invasion of privacy claims": 1,
-      "disability discrimination and failure to": 1,
-      "aiding and abetting unlawful discrimination": 1,
-      "various statutory and constitutional violations": 1,
-      "that the northern district of california is a proper venue": 1,
-      "california invasion of privacy act (cipa) \u2013 unlawful wiretapping/interception of communications": 1,
-      "california invasion of privacy act (cipa) \u2013 unlawful recording of confidential communications": 1,
+      "unlawful interception of telephone communications": 1,
+      "unlawful recording of confidential telephone": 1,
+      "class action relief": 1,
       "cybersquatting": 1,
-      "injunctive relief to require removal": 1,
-      "unlawful collection, use, and storage": 1,
-      "intrusion upon seclusion and invasion": 1,
-      "unfair and deceptive practices in": 1,
-      "unlawful interception, access, and sharing": 1,
-      "failure to implement and maintain reasonable data security and privacy safeguards": 1,
-      "false advertising and related unfair": 1,
+      "request": 1,
+      "unlawful collection, use, and sharing": 1,
+      "unlawful collection and use of biometric identifiers and biometric information": 1,
+      "improper tracking of users\u2019 locations": 1,
+      "failure to adequately disclose data": 1,
+      "federal antitrust violations based on": 1,
+      "antitrust injury and standing, alleging": 1,
+      "false advertising related to how": 1,
       "assertion of personal jurisdiction over": 1,
       "privacy violations based on unlawful": 1,
-      "breach of contract": 1
+      "breach of contract": 1,
+      "invasion of privacy by sharing intimate health information with third parties": 1,
+      "the california invasion of privacy act (cipa) through unauthorized interception and disclosure of app communications": 1,
+      "unenforceability of flo\u2019s class action": 1
     }
   },
   "defense_types": {
-    "unique_count": 227,
-    "total_instances": 273,
-    "similar_groups": [
-      {
-        "canonical": "complaint fails to state a",
-        "variations": [
-          "complaint fails to state a claim",
-          "the complaint fails to state"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "lack of personal jurisdiction over",
-        "variations": [
-          "lack of personal jurisdiction because",
-          "court lacks personal jurisdiction over",
-          "lack of personal jurisdiction \u2013"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "failure to state a claim",
-        "variations": [
-          "general failure to state a claim"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "plaintiff lacks article iii standing",
-        "variations": [
-          "plaintiffs lack article iii standing"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "complaint fails to state a plausible claim",
-        "variations": [
-          "plaintiff failed to state a plausible claim"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "settlement is fair, reasonable, and",
-        "variations": [
-          "the settlement is fair, reasonable,"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "the court lacks personal jurisdiction",
-        "variations": [
-          "the court lacked personal jurisdiction"
-        ],
-        "similarity": "medium"
-      }
-    ],
+    "unique_count": 17,
+    "total_instances": 17,
+    "similar_groups": [],
     "all_terms": {
-      "failure to state a claim": 11,
-      "lack of personal jurisdiction over": 6,
-      "the proposed settlement is fair,": 5,
-      "complaint fails to state a": 4,
-      "plaintiff lacks article iii standing": 4,
-      "denial of liability": 4,
-      "no likelihood of consumer confusion": 3,
-      "request": 3,
-      "plaintiff failed to state a": 3,
-      "plaintiffs lack article iii standing": 3,
-      "the court lacks personal jurisdiction": 3,
-      "denial of wrongdoing and liability,": 2,
-      "plaintiff cannot show irreparable harm": 2,
-      "lack of personal jurisdiction because": 2,
-      "lack of article iii standing": 2,
-      "complaint fails to state a claim": 2,
-      "absence of objections from class": 2,
-      "plaintiff lacks admissible evidence of": 2,
-      "the proposed settlement, including the": 2,
-      "internal communications about plaintiff\u2019s medical": 1,
-      "any disclosure of medical information": 1,
-      "plaintiff was not disabled within": 1,
-      "defendants provided reasonable accommodations or": 1,
-      "individual defendants did not knowingly and substantially assist any discriminatory conduct and therefore cannot be liable": 1,
-      "improper venue because all defendants,": 1,
-      "communications were not intercepted by": 1,
-      "plaintiff did not adequately allege": 1,
-      "the calls were not \u201cconfidential": 1,
-      "plaintiff\u2019s personal name is not a protected mark": 1,
-      "plaintiffs failed to establish likelihood": 1,
+      "conversenow did not unlawfully intercept": 1,
+      "the calls were not \u201cconfidential communications\u201d": 1,
+      "any recording or use of": 1,
+      "even if there was interception, conversenow\u2019s use of the data to improve its software does not make it a separate third party": 1,
+      "isaacman\u2019s personal name is not a protected mark": 1,
+      "plaintiffs cannot satisfy the likelihood-of-success": 1,
+      "denial of wrongdoing and assertion": 1,
       "argument that users consented to": 1,
-      "contention that alleged harms were speculative or insufficient to establish concrete injury or standing": 1,
-      "challenge to class certification, arguing": 1,
-      "plaintiff failed to allege antitrust injury and therefore lacked antitrust standing, because the complaint did not plausibly show harm to competition (as opposed to harm only to govgpt)": 1,
+      "challenge to scope and viability": 1,
+      "court lacks personal jurisdiction over": 1,
+      "plaintiff failed to allege antitrust": 1,
+      "complaint fails to state a": 1,
+      "false advertising allegations are conclusory": 1,
       "users gave implied or informed": 1,
-      "no breach of privacy commitments because disclosures were consistent with the written terms and necessary": 1,
-      "class action waiver and arbitration-related": 1,
-      "individual issues of consent, reliance,": 1,
-      "no actionable invasion of privacy or cipa violation because data was allegedly anonymized or not sufficiently sensitive, and no reasonable expectation of privacy existed": 1,
-      "balance of equities and public": 1,
-      "hp\u2019s use of \u201cwex\u201d": 1,
-      "any harm to wex inc.": 1,
-      "the balance of hardships and public interest do not favor an injunction because hp would be significantly burdened by rebranding or halting use of \u201cwex,\u201d and consumers benefit from hp\u2019s product": 1,
-      "immunity": 1,
-      "salesforce is an interactive computer": 1,
-      "plaintiffs failed to plausibly allege": 1,
-      "no proximate causation between salesforce\u2019s": 1,
-      "the amended complaint fails to state a claim": 1,
-      "plaintiffs lack antitrust standing to": 1,
-      "the alleged relevant markets\u2014smartphone and": 1
+      "contractual limitations and class action": 1,
+      "data sharing was consistent with": 1,
+      "individualized issues of consent and": 1
     }
   },
   "plaintiff_types": {
-    "unique_count": 57,
-    "total_instances": 106,
-    "similar_groups": [
-      {
-        "canonical": "securities-fraud class-action investors",
-        "variations": [
-          "securities class-action investors"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "investor class-action group",
-        "variations": [
-          "driver class-action group"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "investor shareholder class-action group",
-        "variations": [
-          "shareholder class-action group"
-        ],
-        "similarity": "medium"
-      }
-    ],
+    "unique_count": 3,
+    "total_instances": 5,
+    "similar_groups": [],
     "all_terms": {
-      "individual employee": 4,
-      "individual and minor child": 1,
-      "individual class-action representative": 2,
-      "payment services company; individual": 1,
-      "consumer class-action group": 11,
-      "ai-focused startup business": 1,
-      "corporation": 4,
-      "corporation providing payment software services": 1,
-      "individual minor and family": 1,
-      "federal and state governments": 2,
-      "insurance company": 2,
-      "securities-fraud class-action group": 13,
-      "individual patient": 1,
-      "real estate business": 1,
-      "investor securities class-action group": 4,
-      "individual class-action group": 2,
-      "individual consumers, class-action group": 2,
-      "corporation selling beauty products": 1,
-      "individual consumer": 4,
-      "individual, putative class representative": 3,
-      "technology corporation": 1,
-      "individual job applicant": 1,
-      "class-action group of drivers": 1,
-      "pro se individual plaintiff": 1,
-      "corporation / technology business": 1,
-      "delivery drivers class-action group": 1,
-      "securities-fraud class-action investors": 3,
-      "individual prisoner litigant": 1,
-      "securities class-action investors": 1,
-      "investor class-action group": 1,
-      "individual and closely held business": 1,
-      "investor shareholder class-action group": 1,
-      "securities investor class-action group": 1,
-      "shareholder securities class-action group": 1,
-      "shareholder class-action group": 1,
-      "individual business owner": 1,
-      "individual": 6,
-      "individual employee, class representative": 1,
-      "group of investor plaintiffs": 1,
-      "driver class-action group": 1,
-      "individual, on behalf of class": 1,
-      "nonprofit academic honor society": 1,
-      "corporation (technology/ad-fraud company)": 1,
-      "individual unemployment claimants": 1,
-      "individual pretrial detainee": 2,
-      "individual and small corporation": 1,
-      "individual former employee": 1,
-      "bankruptcy litigation trustee, investors": 1,
-      "shareholder derivative plaintiffs": 1,
-      "individual and small business": 1,
-      "class-action group of individuals": 1,
-      "individual student or parent": 1,
-      "estate and putative class": 1,
-      "individual app developer": 1,
-      "individual employee or passenger": 1,
-      "individual social media user": 1,
-      "limited liability company": 1
+      "individual": 2,
+      "other": 2,
+      "corporation": 1
     }
   },
   "defendant_types": {
-    "unique_count": 81,
-    "total_instances": 106,
-    "similar_groups": [
-      {
-        "canonical": "corporation and individual managers",
-        "variations": [
-          "corporation and individual"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "technology corporation",
-        "variations": [
-          "public technology corporation",
-          "large technology corporation"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "corporations operating digital platforms",
-        "variations": [
-          "corporations operating dating platform"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "foreign technology company",
-        "variations": [
-          "foreign technology corporation"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "corporation and related entities",
-        "variations": [
-          "corporation and related parties",
-          "corporation and related persons"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "public software corporation and officers",
-        "variations": [
-          "software corporation and its officers",
-          "ai software corporation and officers"
-        ],
-        "similarity": "medium"
-      }
-    ],
+    "unique_count": 2,
+    "total_instances": 5,
+    "similar_groups": [],
     "all_terms": {
-      "corporation and individual managers": 1,
-      "state and federal agencies": 1,
-      "technology corporation": 9,
-      "internet service provider; others": 1,
-      "technology corporation and parent": 1,
-      "multiple large corporations": 1,
-      "corporations operating digital platforms": 1,
-      "corporations operating consumer apps": 1,
-      "corporation providing enterprise software": 1,
       "corporation": 2,
-      "technology services business": 1,
-      "public cybersecurity technology corporation": 2,
-      "technology company and university hospital": 1,
-      "technology-driven real estate business": 1,
-      "corporation and individual": 1,
-      "foreign technology corporation": 1,
-      "foreign technology company": 2,
-      "corporation offering ai skincare": 1,
-      "corporation loan servicer": 1,
-      "healthcare system employer": 1,
-      "foreign and domestic corporations": 1,
-      "corporation employer": 1,
-      "healthcare corporation and tech provider": 1,
-      "corporations and business entities": 1,
-      "corporations operating dating platform": 1,
-      "state government agency": 1,
-      "retail corporation": 1,
-      "business technology company": 1,
-      "technology company and employers": 1,
-      "telecom companies and officials": 1,
-      "individual and business entity": 1,
-      "technology corporation and affiliates": 1,
-      "corporation operating fitness platform": 1,
-      "corporation and related entities": 9,
-      "corporation and related parties": 2,
-      "corporation and related persons": 2,
-      "software corporation and its officers": 1,
-      "corporation and related individuals": 3,
-      "federal government agency": 1,
-      "public corporation and executives": 1,
-      "corporate credit reporting agency": 1,
-      "public technology corporation": 2,
-      "public software corporation and officers": 2,
-      "venture investors and business advisors": 1,
-      "ai software corporation and officers": 1,
-      "public technology corporation and officers": 1,
-      "bankrupt corporation and affiliates": 1,
-      "software corporation and executives": 1,
-      "corporation operating dating website": 1,
-      "business finance company": 1,
-      "multiple business entities, individuals": 1,
-      "ai technology company and municipalities": 1,
-      "large technology corporation": 1,
-      "corporation employer and affiliates": 1,
-      "technology corporation and individuals": 1,
-      "online forex platform and companies": 1,
-      "trucking company and tech corporation": 1,
-      "corporations providing staffing services": 1,
-      "corporations using biometric database": 1,
-      "technology company operating app": 1,
-      "corporation providing ai kiosks": 1,
-      "multiple government agencies, corporations": 1,
-      "competing academic honor society": 1,
-      "individual anonymous online speaker": 1,
-      "private software/analytics companies": 1,
-      "local government jail facility": 1,
-      "multinational technology corporation": 1,
-      "large financial corporation": 1,
-      "technology corporation employer": 1,
-      "government officials and agencies": 1,
-      "nonprofit employer organization": 1,
-      "individual investor / contracting party": 1,
-      "federal government": 1,
-      "individual": 1,
-      "federal government and corporations": 1,
-      "corporation providing hiring software": 1,
-      "public school district entity": 1,
-      "health insurance corporations": 1,
-      "commercial airline corporation": 1,
-      "social media corporation": 1,
-      "corporation and individual officer": 1
+      "other": 3
     }
   },
   "legal_bases": {
-    "unique_count": 145,
-    "total_instances": 321,
-    "similar_groups": [
-      {
-        "canonical": "28 u.s.c. \u00a7 1915",
-        "variations": [
-          "28 u.s.c. \u00a7 1391"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "15 u.s.c. \u00a7 1125",
-        "variations": [
-          "15 u.s.c. \u00a7 1114",
-          "15 u.s.c. \u00a7 1681"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "federal and state antitrust laws prohibi",
-        "variations": [
-          "federal and state antitrust laws address",
-          "federal and state antitrust laws concern",
-          "federal and state antitrust laws, includ",
-          "federal and state antitrust laws on atte"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "insurance contract interpretation; polic",
-        "variations": [
-          "insurance contract interpretation; same "
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "federal securities laws, including secti",
-        "variations": [
-          "federal securities laws, including antif"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "section 20(a) of the securities exchange",
-        "variations": [
-          "section 10(b) of the securities exchange"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "federal rule of civil procedure 23 gover",
-        "variations": [
-          "federal rule of civil procedure 23(e) go",
-          "federal rule of civil procedure 23 and i",
-          "federal rule of civil procedure 23(h) an",
-          "federal rules of civil procedure governi",
-          "federal rule of civil procedure 11 for p",
-          "federal rule of civil procedure 55 and r",
-          "federal rule of civil procedure 24(a) (i",
-          "federal rule of civil procedure 24(b) (p",
-          "federal rule of civil procedure 23; illi",
-          "federal rule of civil procedure 23 for c",
-          "federal rule of civil procedure 23(a) an",
-          "federal rule of civil procedure 23(e) (c",
-          "federal rule of civil procedure 12(f) an",
-          "federal rule of civil procedure 12(e)",
-          "federal rule of civil procedure 23.1 and",
-          "federal rule of civil procedure 23 and u",
-          "federal rule of civil procedure 15(a) (a",
-          "federal rule of civil procedure 56 and l"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "federal rule of civil procedure 15(a) (l",
-        "variations": [
-          "federal rule of civil procedure 45 gover"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "federal class action procedure under fed",
-        "variations": [
-          "federal class action procedure under rul",
-          "federal class action procedures under fe"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "federal securities class action provisio",
-        "variations": [
-          "federal securities class action principl"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "equitable allocation principles under fe",
-        "variations": [
-          "equitable allocation principles in feder"
-        ],
-        "similarity": "medium"
-      },
-      {
-        "canonical": "common fund doctrine; federal rule of ci",
-        "variations": [
-          "common fund doctrine and federal rule of"
-        ],
-        "similarity": "medium"
-      }
-    ],
+    "unique_count": 15,
+    "total_instances": 18,
+    "similar_groups": [],
     "all_terms": {
-      "illinois biometric information privacy a": 63,
-      "federal securities laws, including secti": 18,
-      "constitutional": 17,
-      "state law": 16,
-      "common law": 12,
-      "15 u.s.c. \u00a7 1125": 9,
-      "title vii": 8,
-      "court\u2019s equitable authority in class act": 7,
-      "15 u.s.c. \u00a7 1114": 5,
-      "federal statute": 5,
-      "section 20(a) of the securities exchange": 4,
-      "federal rule of civil procedure 23 gover": 4,
-      "section 10(b) of the securities exchange": 3,
-      "federal rule of civil procedure 23(e) go": 3,
-      "15 u.s.c. \u00a7 78": 3,
-      "47 u.s.c. \u00a7 227": 3,
-      "28 u.s.c. \u00a7 1915": 3,
-      "njlad": 2,
-      "false advertising and unfair competition": 2,
-      "federal and state antitrust laws prohibi": 2,
-      "federal rule of civil procedure 23 and i": 2,
-      "federal securities class action provisio": 2,
-      "15 u.s.c. \u00a7 1681": 2,
-      "federal class action procedure under fed": 2,
-      "federal rule of civil procedure 23(h) an": 2,
-      "kansas consumer protection act (kcpa), k": 2,
-      "employment contract restrictive covenant": 2,
-      "28 u.s.c. \u00a7 1391": 1,
-      "equitable remedy predicated on underlyin": 1,
-      "state common-law privacy and intrusion-u": 1
+      "california invasion of privacy act (cipa": 4,
+      "15 u.s.c. \u00a7 1125": 1,
+      "equitable remedy standards for prelimina": 1,
+      "federal and state privacy and consumer p": 1,
+      "state biometric privacy statutes (such a": 1,
+      "state privacy, consumer protection, and ": 1,
+      "state unfair and deceptive acts and prac": 1,
+      "sherman act and clayton act (federal ant": 1,
+      "antitrust standing requirements under sh": 1,
+      "false advertising laws (likely lanham ac": 1,
+      "federal and state personal jurisdiction ": 1,
+      "state and common-law privacy rights, inc": 1,
+      "contract law based on flo\u2019s terms of ser": 1,
+      "constitutional": 1,
+      "unconscionability doctrine under califor": 1
     }
   }
 }

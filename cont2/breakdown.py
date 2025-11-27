@@ -18,10 +18,12 @@ def extract_case_structure(case_data):
                 "parties": {
                     "type": "object",
                     "properties": {
-                        "plaintiff_type": {"type": "string"},
-                        "defendant_type": {"type": "string"}
+                        "plaintiff_name": {"type": "string"},
+                        "plaintiff_description": {"type": "string"},
+                        "defendant_name": {"type": "string"},
+                        "defendant_description": {"type": "string"}
                     },
-                    "required": ["plaintiff_type", "defendant_type"]
+                    "required": ["plaintiff_name", "plaintiff_description", "defendant_type", "defendant_description"]
                 },
                 "claims": {
                     "type": "array",
@@ -63,7 +65,8 @@ def extract_case_structure(case_data):
         - Extract ALL claims and defenses
         - Use natural language
         - Be specific about outcomes
-        - For plaintiff_type / defendant_type: Briefly describe each party in 5 words or less (e.g., “individual”, “corporation”, “business”, “government agency”, “class-action group”). Do not give names; give only the category-level description.
+        - For plaintiff_name / defendant_name: Find the name of the party and assign it to this category. In 5 words or less.
+        - For plaintiff_description / defendant_description: Describe the party (e.g., “individual”, “corporation”, “business”, “government agency”, “class-action group”). In 10 words or less.
         - For ai_relevance: If artificial intelligence, machine learning, automated systems, algorithmic technologies, or other AI/ML-related technologies are involved in, impact, or led to the dispute, return exactly "NOT RELATED". Otherwise, describe how they play a role."""
     
     response = client.chat.completions.create(
