@@ -30,10 +30,17 @@ def extract_party_type(description):
 
     text = normalize_text(description)
 
+    # CLASS ACTION
+    if any(k in text for k in [
+        "class action", "class-action", "putative class", "nationwide class",
+    ]):
+        return "class-action"
+
     # INDIVIDUAL / PEOPLE
     if any(k in text for k in [
         "individual", "person", "employee", "worker", "citizen", "resident",
-        "plaintiff is a", "former employee", "job applicant", "customer"
+        "plaintiff is a", "former employee", "job applicant", "customer", 
+        "sex trafficking victim",
     ]):
         return "individual"
 
@@ -41,7 +48,8 @@ def extract_party_type(description):
     if any(k in text for k in [
         "corporation", "company", "inc", "llc", "l.l.c.", "ltd", "limited",
         "corp", "business", "employer", "restaurant", "store",
-        "consulting firm", "insurance company", "retail chain", "tech company"
+        "consulting firm", "insurance company", "retail chain", "tech company",
+        "companies"
     ]):
         return "corporation"
 
@@ -51,6 +59,12 @@ def extract_party_type(description):
         "advocacy group", "coalition"
     ]):
         return "nonprofit organization"
+
+    # INVESTORS
+    if any(k in text for k in [
+        "investor", "investors", "shareholder", "venture capital", "stock purchasers"
+    ]):
+        return "investor(s)"
 
     # PARTNERSHIPS
     if any(k in text for k in [
@@ -64,13 +78,15 @@ def extract_party_type(description):
         "physician group"
     ]):
         return "healthcare provider"
-
+    
+    """
     # EDUCATIONAL INSTITUTIONS
     if any(k in text for k in [
         "university", "college", "school", "school district",
         "academy", "board of education"
     ]):
         return "educational institution"
+    """
 
     # BANKS / FINANCIAL
     if any(k in text for k in [
@@ -131,7 +147,7 @@ def extract_party_type(description):
         return "foreign government"
 
     # DEFAULT
-    return "other"
+    return text
 
 
 

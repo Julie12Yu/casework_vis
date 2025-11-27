@@ -2,36 +2,59 @@
   "summary": {
     "total_cases": 106,
     "plaintiff_types": {
-      "individual": 48,
-      "other": 40,
-      "corporation": 15,
+      "individual": 33,
+      "class-action": 34,
+      "corporation": 14,
       "government entity": 2,
-      "educational institution": 1
+      "investor(s)": 18,
+      "class of quintus securities purchasers alleging fraud": 1,
+      "class of drivers using lytx drivecam-equipped vehicles": 1,
+      "honor society for community college students": 1,
+      "unemployment claimants challenging automated fraud determinations": 1,
+      "pretrial detainee and habeas petitioner": 1
     },
     "defendant_types": {
       "individual": 15,
       "government entity": 5,
-      "corporation": 72,
-      "other": 11,
-      "federal agency": 1,
+      "corporation": 74,
+      "internet service provider and anonymous website operators": 1,
+      "app developer and large tech platforms": 1,
+      "game developer of roblox-based adopt me! title": 1,
+      "quintus and related securities defendants": 1,
+      "investor(s)": 1,
+      "operator of ashley madison online dating website": 1,
       "nonprofit organization": 1,
-      "educational institution": 1
+      "private vendors helping develop midas fraud-detection system": 1,
+      "county detention facility and custodial authority": 1,
+      "public school district and related defendants": 1,
+      "health insurer and affiliate using ai coverage tool": 1,
+      "commercial airline and additional associated defendants": 1
     },
     "combinations": {
-      "individual v. individual": 3,
+      "individual v. individual": 2,
       "individual v. government entity": 5,
-      "individual v. corporation": 34,
-      "individual v. other": 4,
-      "other v. corporation": 28,
+      "class-action v. corporation": 29,
+      "individual v. internet service provider and anonymous website operators": 1,
       "corporation v. corporation": 8,
-      "other v. other": 5,
-      "corporation v. other": 2,
+      "class-action v. app developer and large tech platforms": 1,
+      "individual v. corporation": 22,
       "government entity v. corporation": 2,
-      "other v. individual": 7,
+      "investor(s) v. individual": 6,
       "corporation v. individual": 5,
-      "individual v. federal agency": 1,
-      "educational institution v. nonprofit organization": 1,
-      "individual v. educational institution": 1
+      "corporation v. game developer of roblox-based adopt me! title": 1,
+      "investor(s) v. quintus and related securities defendants": 1,
+      "investor(s) v. corporation": 11,
+      "individual v. investor(s)": 1,
+      "class-action v. individual": 2,
+      "class of quintus securities purchasers alleging fraud v. corporation": 1,
+      "class-action v. operator of ashley madison online dating website": 1,
+      "class of drivers using lytx drivecam-equipped vehicles v. corporation": 1,
+      "honor society for community college students v. nonprofit organization": 1,
+      "unemployment claimants challenging automated fraud determinations v. private vendors helping develop midas fraud-detection system": 1,
+      "pretrial detainee and habeas petitioner v. county detention facility and custodial authority": 1,
+      "individual v. public school district and related defendants": 1,
+      "class-action v. health insurer and affiliate using ai coverage tool": 1,
+      "individual v. commercial airline and additional associated defendants": 1
     }
   },
   "cases": [
@@ -63,7 +86,7 @@
       "ai_relevance": "Defendant\u2019s AI phone assistants allegedly intercepted and recorded calls without consent.",
       "plaintiff_name": "Eliza Taylor, on behalf of class",
       "plaintiff_description": "Individual consumer and putative class representative",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "ConverseNow Technologies, Inc.",
       "defendant_description": "Technology company providing AI phone ordering assistants",
       "defendant_type": "corporation"
@@ -77,7 +100,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Cloudflare; JaredIsaacmanCourtCase.com et al.",
       "defendant_description": "Internet service provider and anonymous website operators",
-      "defendant_type": "other"
+      "defendant_type": "internet service provider and anonymous website operators"
     },
     {
       "case_id": "2022-07-28_USCOURTS-ilnd-1_20-cv-04699_In Re_ TikTok_ Inc._ Consumer Privacy Litigation.pdf",
@@ -85,7 +108,7 @@
       "ai_relevance": "TikTok\u2019s AI/ML recommendation and data-processing systems allegedly misused personal and biometric data.",
       "plaintiff_name": "TikTok user class",
       "plaintiff_description": "Nationwide class of TikTok users alleging privacy violations",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "TikTok Inc. and ByteDance",
       "defendant_description": "Social media platform and parent technology company",
       "defendant_type": "corporation"
@@ -107,10 +130,10 @@
       "ai_relevance": "Flo app allegedly used automated SDK-based tracking and algorithmic ad/analytics systems to collect and share sensitive menstrual and pregnancy data with Meta and Google for commercial targeting and analytics purposes, raising AI-driven privacy and consent issues.",
       "plaintiff_name": "Flo app users class",
       "plaintiff_description": "Putative nationwide and California privacy class-action users",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Flo Health, Meta, Google",
       "defendant_description": "App developer and large tech platforms",
-      "defendant_type": "other"
+      "defendant_type": "app developer and large tech platforms"
     },
     {
       "case_id": "2025-07-14_USCOURTS-cand-3_25-cv-03995_Fizz Social Corp. v. Maplebear Inc. d_b_a Instacart et al.pdf",
@@ -121,7 +144,7 @@
       "plaintiff_type": "corporation",
       "defendant_name": "Maplebear Inc. d/b/a Instacart, Partiful",
       "defendant_description": "E-commerce delivery and event apps companies",
-      "defendant_type": "other"
+      "defendant_type": "corporation"
     },
     {
       "case_id": "2024-07-09_USCOURTS-med-2_24-cv-00121_WEX INC v. HP INC et al.pdf",
@@ -140,7 +163,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "G.G., a minor, et al.",
       "plaintiff_description": "Sex trafficking victim and her representatives",
-      "plaintiff_type": "other",
+      "plaintiff_type": "individual",
       "defendant_name": "Salesforce.com, Inc.",
       "defendant_description": "Technology corporation providing CRM software services",
       "defendant_type": "corporation"
@@ -173,7 +196,7 @@
       "ai_relevance": "Alleged misrepresentations about AI-based cybersecurity product \u2018Intrusion Shield\u2019 and its capabilities.",
       "plaintiff_name": "Celeste, on behalf of class",
       "plaintiff_description": "Securities-fraud class of Intrusion investors",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Intrusion Inc. and others",
       "defendant_description": "Public cybersecurity corporation and individual executives",
       "defendant_type": "individual"
@@ -184,7 +207,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Rodriguez et al., users",
       "plaintiff_description": "Putative class of Google users alleging privacy violations",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Google LLC et al.",
       "defendant_description": "Technology corporation operating Google services and platforms",
       "defendant_type": "corporation"
@@ -195,7 +218,7 @@
       "ai_relevance": "AI used to analyze anonymized patient data to predict healthcare needs; data-sharing for AI research triggered privacy and contract claims.",
       "plaintiff_name": "Matt Dinerstein",
       "plaintiff_description": "Individual patient and putative class representative",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Google LLC and University of Chicago",
       "defendant_description": "Technology company and university medical provider collaborators",
       "defendant_type": "corporation"
@@ -217,7 +240,7 @@
       "ai_relevance": "Alleged misrepresentations about AI-based cybersecurity product used to inflate stock price.",
       "plaintiff_name": "Neely et al.",
       "plaintiff_description": "Investor class alleging securities fraud misrepresentations.",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Intrusion Inc. et al.",
       "defendant_description": "Public cybersecurity company and related individual executives.",
       "defendant_type": "individual"
@@ -250,7 +273,7 @@
       "ai_relevance": "Defendant uses AI-based facial matching to identify and sell event photos.",
       "plaintiff_name": "Adam Moomaw et al.",
       "plaintiff_description": "Individuals and putative class alleging biometric privacy violations.",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "GeoSnapShot Pty Ltd et al.",
       "defendant_description": "Photo platform business using AI facial recognition technology.",
       "defendant_type": "corporation"
@@ -294,7 +317,7 @@
       "ai_relevance": "GeoSnapShot\u2019s AI-powered facial recognition matched selfies to event photos, triggering BIPA claims.",
       "plaintiff_name": "Adam and Regan Moomaw",
       "plaintiff_description": "Individual Illinois residents and putative class representatives",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "GeoSnapShot Pty Ltd; GeoSnapShot, Inc.",
       "defendant_description": "Foreign and U.S. corporate operators of AI photo platform",
       "defendant_type": "corporation"
@@ -341,7 +364,7 @@
       "plaintiff_type": "corporation",
       "defendant_name": "Uplift Games, LLC et al.",
       "defendant_description": "Game developer of Roblox-based Adopt Me! title",
-      "defendant_type": "other"
+      "defendant_type": "game developer of roblox-based adopt me! title"
     },
     {
       "case_id": "2023-07-07_USCOURTS-ilnd-1_21-cv-06925_Dzananovic v. Bumble_ Inc. et al.pdf",
@@ -349,7 +372,7 @@
       "ai_relevance": "Use of automated facial recognition to verify user photos and identities.",
       "plaintiff_name": "Dario Dzananovic",
       "plaintiff_description": "Individual Illinois user and putative class representative",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Bumble, Inc. et al.",
       "defendant_description": "Corporate operators of Bumble dating application",
       "defendant_type": "corporation"
@@ -382,7 +405,7 @@
       "ai_relevance": "Use of Clearview AI facial recognition database to identify individuals from images.",
       "plaintiff_name": "Consumer class plaintiffs",
       "plaintiff_description": "Putative class of individuals whose biometric data was used",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Macy\u2019s Retail Holdings, LLC",
       "defendant_description": "Retail corporation alleged to have used Clearview AI",
       "defendant_type": "corporation"
@@ -395,7 +418,7 @@
       "plaintiff_description": "Insurance company seeking coverage declaration",
       "plaintiff_type": "corporation",
       "defendant_name": "Wynndalco Enterprises, LLC et al.",
-      "defendant_description": "Business insured; sued in BIPA class actions",
+      "defendant_description": "business",
       "defendant_type": "corporation"
     },
     {
@@ -404,7 +427,7 @@
       "ai_relevance": "Use of Lytx DriveCam machine vision and AI to monitor drivers allegedly captured and processed biometric data without BIPA-compliant consent.",
       "plaintiff_name": "Joshua Lewis et al.",
       "plaintiff_description": "Putative class of vehicle operators under BIPA",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Lytx, Inc. et al.",
       "defendant_description": "Technology company and related defendants using MV+AI system",
       "defendant_type": "corporation"
@@ -428,7 +451,7 @@
       "plaintiff_description": "AI-powered finance and accounting solutions marketplace business.",
       "plaintiff_type": "corporation",
       "defendant_name": "Luke Kohan and FirmKey Solutions LLC",
-      "defendant_description": "Former employee and his competing finance solutions company.",
+      "defendant_description": "Finance solution company of a previous employee.",
       "defendant_type": "individual"
     },
     {
@@ -437,7 +460,7 @@
       "ai_relevance": "Arlo\u2019s security system allegedly uses facial recognition and AI-powered features to capture, analyze, and store biometric identifiers without proper consent or policies under BIPA.",
       "plaintiff_name": "Tibbs and other drivers",
       "plaintiff_description": "Putative class of Illinois delivery drivers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Arlo Technologies, Inc.",
       "defendant_description": "Technology company providing home security systems",
       "defendant_type": "corporation"
@@ -448,7 +471,7 @@
       "ai_relevance": "Defendant used AI facial-recognition algorithms to scrape, analyze, and sell biometric data.",
       "plaintiff_name": "Putative consumer class plaintiffs",
       "plaintiff_description": "Individuals in class action alleging biometric privacy violations",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Clearview AI, Inc. et al.",
       "defendant_description": "Technology company and related defendants offering facial-recognition services",
       "defendant_type": "corporation"
@@ -459,7 +482,7 @@
       "ai_relevance": "Alleged use of chat data to train and enhance Drift\u2019s AI technologies, raising privacy and eavesdropping issues.",
       "plaintiff_name": "Jones (and putative class)",
       "plaintiff_description": "Website users bringing privacy class action lawsuit",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Peloton Interactive, Inc.",
       "defendant_description": "Fitness technology corporation operating online platform and website chat",
       "defendant_type": "corporation"
@@ -470,10 +493,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Werner et al., investors",
       "plaintiff_description": "Securities fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Quintus and related securities defendants",
-      "defendant_type": "other"
+      "defendant_type": "quintus and related securities defendants"
     },
     {
       "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04294_Tuopshug v. Quintus Corporation_ et al.pdf",
@@ -481,7 +504,7 @@
       "ai_relevance": "Quintus sold eCRM products using AI to manage customer relationships; alleged misstatements concerned this AI-powered business.",
       "plaintiff_name": "Tuopshug and shareholder class",
       "plaintiff_description": "Investor class of Quintus securities purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public corporation and associated individual defendants",
       "defendant_type": "individual"
@@ -492,7 +515,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Khalil and class investors",
       "plaintiff_description": "Securities fraud class-action shareholder group",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public corporation and related defendants",
       "defendant_type": "corporation"
@@ -503,7 +526,7 @@
       "ai_relevance": "Quintus sold eCRM solutions using AI software central to its business.",
       "plaintiff_name": "Yu and investor class",
       "plaintiff_description": "Purchasers of Quintus securities in class action",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Bankrupt eCRM/AI software company and related defendants",
       "defendant_type": "corporation"
@@ -514,7 +537,7 @@
       "ai_relevance": "Quintus sold e-CRM software using automated, intelligent customer interaction technologies.",
       "plaintiff_name": "Magnan, et al. investors",
       "plaintiff_description": "Securities fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation, et al.",
       "defendant_description": "Software corporation and related individual defendants",
       "defendant_type": "individual"
@@ -525,7 +548,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Rubel; investor class",
       "plaintiff_description": "Purchasers of Quintus securities in class action",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public corporation and related defendants",
       "defendant_type": "corporation"
@@ -536,7 +559,7 @@
       "ai_relevance": "Quintus sold AI-based \u201ceContact\u201d CRM software central to alleged fraud.",
       "plaintiff_name": "Micnaud and investor class",
       "plaintiff_description": "Class of investors in Quintus securities",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Technology corporation and associated individual defendants",
       "defendant_type": "individual"
@@ -547,7 +570,7 @@
       "ai_relevance": "Quintus sold AI-related eCRM software; alleged fraud tied to that business.",
       "plaintiff_name": "Alves and investor class",
       "plaintiff_description": "Securities-fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public corporation and related defendants",
       "defendant_type": "corporation"
@@ -558,7 +581,7 @@
       "ai_relevance": "Defendant developed AI-based e-CRM software central to alleged misstatements.",
       "plaintiff_name": "Kaplowitz et al., investors",
       "plaintiff_description": "Securities fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Technology corporation and related defendants",
       "defendant_type": "corporation"
@@ -569,7 +592,7 @@
       "ai_relevance": "Quintus originally sold artificial intelligence software; alleged fraud tied to its finances.",
       "plaintiff_name": "Miller et al., investors",
       "plaintiff_description": "Securities-fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public corporation and related defendants",
       "defendant_type": "corporation"
@@ -591,7 +614,7 @@
       "ai_relevance": "Alleged misstatements about company\u2019s artificial intelligence technology in securities filings.",
       "plaintiff_name": "Francis Grondin",
       "plaintiff_description": "Investor and proposed securities class representative",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Innodata Inc. et al.",
       "defendant_description": "Public corporation and related defendants",
       "defendant_type": "corporation"
@@ -613,7 +636,7 @@
       "ai_relevance": "Quintus originally sold AI-based software; AI tools part of business context, not core legal issue.",
       "plaintiff_name": "Civic and investor class",
       "plaintiff_description": "Purchasers of Quintus securities in class action",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public software corporation and related defendants",
       "defendant_type": "corporation"
@@ -624,7 +647,7 @@
       "ai_relevance": "Quintus originally developed artificial intelligence software; alleged fraud tied to its AI/eCRM business performance and revenues.",
       "plaintiff_name": "Tan; shareholder class",
       "plaintiff_description": "Investors bringing securities fraud class action lawsuit",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation, et al.",
       "defendant_description": "Bankrupt software/eCRM company and related defendants",
       "defendant_type": "corporation"
@@ -638,7 +661,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Morgenthaler Ventures and others",
       "defendant_description": "California-based investors, advisors, and related entities",
-      "defendant_type": "other"
+      "defendant_type": "investor(s)"
     },
     {
       "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04274_Lemieux_ et al v. Quintus Corporation_ et al.pdf",
@@ -646,7 +669,7 @@
       "ai_relevance": "Quintus sold AI-based eCRM software; alleged revenue overstatements led to securities fraud claims.",
       "plaintiff_name": "Lemieux et al., investors",
       "plaintiff_description": "Securities-fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Bankrupt AI software corporation and related defendants",
       "defendant_type": "corporation"
@@ -657,7 +680,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Zanowiak et al., investors",
       "plaintiff_description": "Securities-fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Bankrupt corporation and related defendants",
       "defendant_type": "corporation"
@@ -668,7 +691,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Anderson and investor class",
       "plaintiff_description": "Purchasers of Quintus securities in class action",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Software corporation and related defendants",
       "defendant_type": "corporation"
@@ -679,7 +702,7 @@
       "ai_relevance": "Quintus previously developed AI-related software, but dispute concerns securities fraud only.",
       "plaintiff_name": "O\u2019Neil and investor class",
       "plaintiff_description": "Purchasers of Quintus common stock in class action",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public software corporation and associated individual defendants",
       "defendant_type": "individual"
@@ -690,7 +713,7 @@
       "ai_relevance": "Quintus developed AI-based e-customer relationship management software central to its business and alleged revenue inflation.",
       "plaintiff_name": "Dutt and shareholder class",
       "plaintiff_description": "Class of Quintus securities purchasers alleging fraud",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class of quintus securities purchasers alleging fraud",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Bankrupt software corporation and related defendants",
       "defendant_type": "corporation"
@@ -701,7 +724,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Rost and class investors",
       "plaintiff_description": "Purchasers of Quintus Corporation securities in class action",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation and others",
       "defendant_description": "Bankrupt public corporation and associated defendants",
       "defendant_type": "corporation"
@@ -712,7 +735,7 @@
       "ai_relevance": "Quintus sold AI-enabled eCRM software; business context, not core issue.",
       "plaintiff_name": "Fershteyn et al., investors",
       "plaintiff_description": "Securities fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Software corporation and related defendants",
       "defendant_type": "corporation"
@@ -723,7 +746,7 @@
       "ai_relevance": "Quintus developed AI-driven eCRM software central to the securities dispute.",
       "plaintiff_name": "Tick and shareholder class",
       "plaintiff_description": "Class of investors in Quintus stock alleging securities fraud",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Software corporation and related defendants accused of securities fraud",
       "defendant_type": "corporation"
@@ -734,7 +757,7 @@
       "ai_relevance": "Quintus sold AI-powered eCRM tools; alleged fraud tied to its business.",
       "plaintiff_name": "Klapper et al., shareholders",
       "plaintiff_description": "Securities-fraud class of Quintus stock purchasers",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public technology corporation and related officers/directors",
       "defendant_type": "corporation"
@@ -745,10 +768,10 @@
       "ai_relevance": "Use of automated AI-like bots to mimic users on dating site, central to deception allegations.",
       "plaintiff_name": "Ashley Madison users",
       "plaintiff_description": "Putative class of website customers in data-breach suit",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Avid Dating Life, Inc.",
       "defendant_description": "Operator of Ashley Madison online dating website",
-      "defendant_type": "other"
+      "defendant_type": "operator of ashley madison online dating website"
     },
     {
       "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04264_Weiss v. Quintus Corporation_ et al.pdf",
@@ -756,7 +779,7 @@
       "ai_relevance": "Quintus sold AI-based eCRM software; AI is business background, not legal issue.",
       "plaintiff_name": "Weiss and investor class",
       "plaintiff_description": "Purchasers of Quintus securities in class action",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Public software corporation and related defendants",
       "defendant_type": "corporation"
@@ -767,7 +790,7 @@
       "ai_relevance": "Quintus was an AI software company; alleged misstatements concerned its AI-driven business.",
       "plaintiff_name": "Berdakina et al.",
       "plaintiff_description": "Securities fraud shareholder class-action group",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "AI software and e-CRM corporation and related defendants",
       "defendant_type": "corporation"
@@ -800,7 +823,7 @@
       "ai_relevance": "Dispute centers on Clearview AI\u2019s facial recognition system built from scraped images.",
       "plaintiff_name": "Consumer plaintiffs",
       "plaintiff_description": "Individuals and putative class alleging privacy and constitutional violations",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Clearview AI and municipalities",
       "defendant_description": "AI company and municipal entities using facial recognition database",
       "defendant_type": "corporation"
@@ -833,7 +856,7 @@
       "ai_relevance": "Defendant allegedly used AI facial recognition on scraped images, triggering BIPA claims.",
       "plaintiff_name": "Consumer plaintiffs class",
       "plaintiff_description": "Putative class of individuals alleging biometric privacy violations",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Clearview AI, Inc. et al.",
       "defendant_description": "Facial recognition company and associated individual defendants",
       "defendant_type": "individual"
@@ -844,7 +867,7 @@
       "ai_relevance": "Dispute over AI-powered photo-editing app collecting biometric facial data.",
       "plaintiff_name": "Ricardo Gutierrez",
       "plaintiff_description": "Individual Illinois user bringing class action",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Wemagine.AI LLP",
       "defendant_description": "Canadian company operating Voila AI Artist app",
       "defendant_type": "corporation"
@@ -855,7 +878,7 @@
       "ai_relevance": "Platform marketed as AI-powered forex trading system; alleged fraudulent AI representations induced investments.",
       "plaintiff_name": "Birmingham and other investors",
       "plaintiff_description": "Group of investors alleging forex fraud scheme",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "RoFx.net and EPS",
       "defendant_description": "Online forex platform and UK payment company",
       "defendant_type": "corporation"
@@ -866,7 +889,7 @@
       "ai_relevance": "Use of AI-enabled Lytx DriveCam to analyze drivers\u2019 behavior and biometrics without consent is central to alleged BIPA violations and settlement.",
       "plaintiff_name": "Lewis; driver class",
       "plaintiff_description": "Class of drivers using Lytx DriveCam-equipped vehicles",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class of drivers using lytx drivecam-equipped vehicles",
       "defendant_name": "Maverick Transportation LLC; Lytx, Inc.",
       "defendant_description": "Trucking company and DriveCam AI technology provider",
       "defendant_type": "corporation"
@@ -877,7 +900,7 @@
       "ai_relevance": "Dispute over AI chatbot Mya sending automated recruiting text messages.",
       "plaintiff_name": "Clarence Risher",
       "plaintiff_description": "Individual job seeker and putative class representative",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Adecco, Inc. and Locutus, Inc.",
       "defendant_description": "Corporate defendants operating AI-based recruiting text platform",
       "defendant_type": "corporation"
@@ -888,7 +911,7 @@
       "ai_relevance": "Clearview\u2019s AI facial recognition system created biometric database used by Macy\u2019s.",
       "plaintiff_name": "Consumer plaintiffs",
       "plaintiff_description": "Putative class of individuals alleging biometric privacy violations",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Macy\u2019s, Inc.",
       "defendant_description": "Retail corporation accused of using Clearview AI database",
       "defendant_type": "corporation"
@@ -899,7 +922,7 @@
       "ai_relevance": "Dispute over AI-powered photo-editing app allegedly misusing biometric data.",
       "plaintiff_name": "Ricardo Gutierrez; Shannon Ross",
       "plaintiff_description": "Individual Illinois users bringing BIPA class action",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Wemagine.AI LLP",
       "defendant_description": "Company operating Voila AI Artist app",
       "defendant_type": "corporation"
@@ -924,7 +947,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "U.S. Army et al.",
       "defendant_description": "Federal agencies and pharmaceutical companies as institutional defendants",
-      "defendant_type": "federal agency"
+      "defendant_type": "corporation"
     },
     {
       "case_id": "2025-04-07_USCOURTS-ca5-24-60452_Phi Theta Kappa v. Honor Society.pdf",
@@ -932,7 +955,7 @@
       "ai_relevance": "Dispute involves use of generative AI to create misleading online content.",
       "plaintiff_name": "Phi Theta Kappa Honor Society",
       "plaintiff_description": "Honor society for community college students",
-      "plaintiff_type": "educational institution",
+      "plaintiff_type": "honor society for community college students",
       "defendant_name": "HonorSociety.org",
       "defendant_description": "Competing online-based honor society organization",
       "defendant_type": "nonprofit organization"
@@ -954,10 +977,10 @@
       "ai_relevance": "Dispute centers on automated algorithmic fraud-detection system (MiDAS) used for unemployment claims.",
       "plaintiff_name": "Cahoo et al.",
       "plaintiff_description": "Unemployment claimants challenging automated fraud determinations",
-      "plaintiff_type": "other",
+      "plaintiff_type": "unemployment claimants challenging automated fraud determinations",
       "defendant_name": "SAS Analytics Inc. et al.",
       "defendant_description": "Private vendors helping develop MiDAS fraud-detection system",
-      "defendant_type": "other"
+      "defendant_type": "private vendors helping develop midas fraud-detection system"
     },
     {
       "case_id": "2021-03-15_USCOURTS-ksd-5_20-cv-03056_Jones v. Douglas County Jail.pdf",
@@ -965,10 +988,10 @@
       "ai_relevance": "Petitioner alleged AI intervention in his criminal cases; court found claims meritless and unsupported.",
       "plaintiff_name": "Joseph Lee Jones",
       "plaintiff_description": "Pretrial detainee and habeas petitioner",
-      "plaintiff_type": "other",
+      "plaintiff_type": "pretrial detainee and habeas petitioner",
       "defendant_name": "Douglas County Jail",
       "defendant_description": "County detention facility and custodial authority",
-      "defendant_type": "other"
+      "defendant_type": "county detention facility and custodial authority"
     },
     {
       "case_id": "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf",
@@ -1020,7 +1043,7 @@
       "ai_relevance": "Defendant allegedly used AI facial recognition to extract biometric data from online photos without consent.",
       "plaintiff_name": "Jordan Stein",
       "plaintiff_description": "Individual Illinois resident, putative class representative",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "Clarifai, Inc.",
       "defendant_description": "Technology company providing AI facial recognition services",
       "defendant_type": "corporation"
@@ -1042,7 +1065,7 @@
       "ai_relevance": "Dispute arises from failed funding of AI solutions company Augustus Intelligence, Inc.",
       "plaintiff_name": "Brian Ryniker, Litigation Trustee",
       "plaintiff_description": "Litigation trustee for Augustus and certain investors",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Kevin Washington",
       "defendant_description": "Individual alleged investor and contract counterparty",
       "defendant_type": "individual"
@@ -1053,7 +1076,7 @@
       "ai_relevance": "Defendant used AI-driven facial recognition to scrape and monetize biometric data.",
       "plaintiff_name": "Melissa Thornley et al.",
       "plaintiff_description": "Putative class of Illinois biometric privacy plaintiffs",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "Clearview AI, Inc.",
       "defendant_description": "Company offering AI facial recognition technology services",
       "defendant_type": "corporation"
@@ -1086,7 +1109,7 @@
       "ai_relevance": "Settlement required Pinterest to use AI to promote diverse, inclusive content representation on its platform.",
       "plaintiff_name": "Pinterest shareholder plaintiffs",
       "plaintiff_description": "Shareholders bringing derivative claims on Pinterest\u2019s behalf",
-      "plaintiff_type": "other",
+      "plaintiff_type": "investor(s)",
       "defendant_name": "Pinterest, Inc.",
       "defendant_description": "Public technology company operating image-sharing platform",
       "defendant_type": "corporation"
@@ -1130,7 +1153,7 @@
       "ai_relevance": "AI-powered video interview software allegedly captured and analyzed applicants\u2019 biometric data.",
       "plaintiff_name": "Six Illinois residents",
       "plaintiff_description": "Putative class of Illinois job applicants under BIPA",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "class-action",
       "defendant_name": "HireVue, Inc.",
       "defendant_description": "Company providing AI video interview and assessment software",
       "defendant_type": "corporation"
@@ -1144,7 +1167,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Albuquerque Public Schools et al.",
       "defendant_description": "Public school district and related defendants",
-      "defendant_type": "educational institution"
+      "defendant_type": "public school district and related defendants"
     },
     {
       "case_id": "2025-09-08_USCOURTS-mnd-0_23-cv-03514_Estate of Gene B. Lokken_ The et al v. UnitedHealth Group_ Inc. et al.pdf",
@@ -1152,10 +1175,10 @@
       "ai_relevance": "Plaintiffs allege defendants used nH Predict AI tool instead of human medical directors to make coverage decisions in breach of insurance contracts.",
       "plaintiff_name": "Estate of Gene B. Lokken",
       "plaintiff_description": "Estate and other insureds in putative class action",
-      "plaintiff_type": "other",
+      "plaintiff_type": "class-action",
       "defendant_name": "UnitedHealth Group and naviHealth",
       "defendant_description": "Health insurer and affiliate using AI coverage tool",
-      "defendant_type": "other"
+      "defendant_type": "health insurer and affiliate using ai coverage tool"
     },
     {
       "case_id": "2017-03-06_USCOURTS-ded-1_16-cv-01307_Zaletel v. Prisma Labs_ Inc..pdf",
@@ -1177,7 +1200,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "United Airlines et al.",
       "defendant_description": "Commercial airline and additional associated defendants",
-      "defendant_type": "other"
+      "defendant_type": "commercial airline and additional associated defendants"
     },
     {
       "case_id": "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf",

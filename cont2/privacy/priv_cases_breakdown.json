@@ -1477,7 +1477,7 @@
       "plaintiff_name": "Citizens Insurance Company of America",
       "plaintiff_description": "Insurance company seeking coverage declaration",
       "defendant_name": "Wynndalco Enterprises, LLC et al.",
-      "defendant_description": "Business insured; sued in BIPA class actions"
+      "defendant_description": "business"
     },
     "claims": [
       {
@@ -1595,7 +1595,7 @@
       "plaintiff_name": "Admiin Inc. d/b/a Paro Inc.",
       "plaintiff_description": "AI-powered finance and accounting solutions marketplace business.",
       "defendant_name": "Luke Kohan and FirmKey Solutions LLC",
-      "defendant_description": "Former employee and his competing finance solutions company."
+      "defendant_description": "Finance solution company of a previous employee, and the employee."
     },
     "claims": [
       {
