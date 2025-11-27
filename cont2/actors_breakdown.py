@@ -49,7 +49,7 @@ def extract_party_type(description):
     def check_rules(search_text):
         # CLASS ACTION
         if any(k in search_text for k in [
-            "class action", "class-action", "putative class", "nationwide class",
+            "class action", "class-action", "putative class", "nationwide class", "class of "
         ]):
             return "class-action"
 
