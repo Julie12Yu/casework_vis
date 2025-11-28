@@ -9,8 +9,8 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-INPUT_PATH = "privacy/priv_cases_breakdown.json"
-OUTPUT_PATH = "privacy/actor_analysis.json"
+INPUT_PATH = "ipLaw/cases_breakdown.json"
+OUTPUT_PATH = "ipLaw/actor_analysis.json"
 
 
 def normalize_text(text):

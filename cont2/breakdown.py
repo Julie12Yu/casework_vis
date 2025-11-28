@@ -111,4 +111,4 @@ def process_cases(input_file, output_file):
     print(f"Results written to {output_file}")
 
 if __name__ == "__main__":
-    process_cases("privacy/Privacy and Data Protection.json", "privacy/priv_cases_breakdown.json")
+    process_cases("ipLaw/IP Law.json", "ipLaw/cases_breakdown.json")
