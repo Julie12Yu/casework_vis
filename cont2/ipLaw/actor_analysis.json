@@ -2,82 +2,67 @@
   "summary": {
     "total_cases": 134,
     "plaintiff_types": {
-      "class-action": 8,
-      "group of visual artist plaintiffs alleging copyright violations": 1,
-      "corporation": 66,
-      "individual": 41,
+      "class-action": 11,
+      "corporation(s)": 71,
+      "individual": 36,
       "authors alleging copyright infringement by ai training use": 2,
-      "publisher of westlaw legal research platform": 1,
+      "platform(s)": 4,
       "religious organization operating a church": 1,
       "lgbtq+ youtube content creators and channel operators": 1,
-      "group of book authors alleging copyright infringement": 1,
       "government entity": 1,
       "investor(s)": 1,
-      "plan participants/beneficiaries challenging mental health coverage denials": 1,
       "music publishers and copyright owners of song lyrics": 1,
       "author and his book publisher": 1,
-      "social media platform owner and operator": 1,
       "creators alleging unauthorized use of copyrighted works for ai training": 1,
-      "software developer of lottery tracking system": 1,
-      "software developer providing ai-based invenio engine": 1,
       "music publishers alleging copyright infringement by ai training use": 1,
       "authors and rightsholders suing over ai training use": 1,
       "artist and his design studio asserting copyright ownership": 1
     },
     "defendant_types": {
-      "ai and online art platforms developing and hosting image generators": 1,
-      "ai and online art platforms offering generative image tools": 1,
-      "corporation": 91,
-      "individual": 26,
+      "platform(s)": 12,
+      "corporation(s)": 95,
+      "individual": 12,
       "developer of ai-based legal research tool": 1,
       "commercial banks and financial institutions": 1,
       "investor(s)": 1,
-      "u.s. copyright office officials and federal agency": 1,
+      "government entity": 6,
       "author and associated publishing entities": 1,
       "healthcare provider": 1,
       "financial institution providing construction loan financing": 1,
       "former ceo and associated defendants": 1,
-      "government entity": 4,
       "automobile manufacturers and distributors": 1,
-      "u.s. copyright office officials, federal agency": 1,
       "automobile manufacturers accused of infringing safety screening patent": 1
     },
     "combinations": {
-      "class-action v. ai and online art platforms developing and hosting image generators": 1,
-      "class-action v. ai and online art platforms offering generative image tools": 1,
-      "group of visual artist plaintiffs alleging copyright violations v. corporation": 1,
-      "class-action v. corporation": 5,
-      "corporation v. corporation": 45,
-      "individual v. corporation": 28,
-      "authors alleging copyright infringement by ai training use v. corporation": 2,
-      "corporation v. individual": 15,
-      "individual v. individual": 7,
-      "publisher of westlaw legal research platform v. developer of ai-based legal research tool": 1,
+      "class-action v. platform(s)": 4,
+      "class-action v. corporation(s)": 5,
+      "corporation(s) v. corporation(s)": 51,
+      "individual v. corporation(s)": 27,
+      "authors alleging copyright infringement by ai training use v. corporation(s)": 2,
+      "corporation(s) v. individual": 8,
+      "individual v. individual": 2,
+      "platform(s) v. corporation(s)": 3,
+      "platform(s) v. developer of ai-based legal research tool": 1,
+      "corporation(s) v. platform(s)": 6,
       "religious organization operating a church v. commercial banks and financial institutions": 1,
-      "lgbtq+ youtube content creators and channel operators v. corporation": 1,
-      "group of book authors alleging copyright infringement v. individual": 1,
-      "government entity v. corporation": 1,
-      "investor(s) v. individual": 1,
-      "corporation v. investor(s)": 1,
-      "plan participants/beneficiaries challenging mental health coverage denials v. corporation": 1,
-      "music publishers and copyright owners of song lyrics v. corporation": 1,
-      "individual v. u.s. copyright office officials and federal agency": 1,
+      "lgbtq+ youtube content creators and channel operators v. platform(s)": 1,
+      "class-action v. individual": 2,
+      "government entity v. corporation(s)": 1,
+      "investor(s) v. corporation(s)": 1,
+      "corporation(s) v. investor(s)": 1,
+      "music publishers and copyright owners of song lyrics v. corporation(s)": 1,
+      "individual v. government entity": 6,
       "author and his book publisher v. author and associated publishing entities": 1,
-      "corporation v. healthcare provider": 1,
-      "corporation v. financial institution providing construction loan financing": 1,
-      "corporation v. former ceo and associated defendants": 1,
-      "individual v. government entity": 4,
-      "social media platform owner and operator v. corporation": 1,
-      "creators alleging unauthorized use of copyrighted works for ai training v. corporation": 1,
-      "software developer of lottery tracking system v. individual": 1,
-      "software developer providing ai-based invenio engine v. corporation": 1,
-      "corporation v. automobile manufacturers and distributors": 1,
-      "music publishers alleging copyright infringement by ai training use v. corporation": 1,
-      "class-action v. individual": 1,
-      "authors and rightsholders suing over ai training use v. corporation": 1,
-      "artist and his design studio asserting copyright ownership v. corporation": 1,
-      "individual v. u.s. copyright office officials, federal agency": 1,
-      "corporation v. automobile manufacturers accused of infringing safety screening patent": 1
+      "corporation(s) v. healthcare provider": 1,
+      "corporation(s) v. financial institution providing construction loan financing": 1,
+      "individual v. platform(s)": 1,
+      "corporation(s) v. former ceo and associated defendants": 1,
+      "creators alleging unauthorized use of copyrighted works for ai training v. corporation(s)": 1,
+      "corporation(s) v. automobile manufacturers and distributors": 1,
+      "music publishers alleging copyright infringement by ai training use v. corporation(s)": 1,
+      "authors and rightsholders suing over ai training use v. corporation(s)": 1,
+      "artist and his design studio asserting copyright ownership v. corporation(s)": 1,
+      "corporation(s) v. automobile manufacturers accused of infringing safety screening patent": 1
     }
   },
   "cases": [
@@ -86,33 +71,33 @@
       "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
       "ai_relevance": "AI image-generation models allegedly trained on copyrighted artworks without permission, enabling style imitation and infringing outputs.",
       "plaintiff_name": "Andersen and other artists",
-      "plaintiff_description": "Group of visual artists, copyright holders, putative class",
+      "plaintiff_description": "class-action from group of visual artists",
       "plaintiff_type": "class-action",
       "defendant_name": "Stability AI, Midjourney, DeviantArt",
       "defendant_description": "AI and online art platforms developing and hosting image generators",
-      "defendant_type": "ai and online art platforms developing and hosting image generators"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2023-10-30_USCOURTS-cand-3_23-cv-00201_Andersen et al v. Stability AI Ltd. et al.pdf",
       "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
       "ai_relevance": "Dispute over training and use of AI image generator Stable Diffusion on artists\u2019 copyrighted works.",
-      "plaintiff_name": "Sarah Andersen et al.",
-      "plaintiff_description": "Individual visual artists bringing putative class action",
+      "plaintiff_name": "Andersen and other artists",
+      "plaintiff_description": "class-action from group of visual artists",
       "plaintiff_type": "class-action",
       "defendant_name": "Stability AI, DeviantArt, Midjourney",
       "defendant_description": "AI and online art platforms offering generative image tools",
-      "defendant_type": "ai and online art platforms offering generative image tools"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2025-03-19_USCOURTS-cand-3_23-cv-00201_Andersen et al v. Stability AI Ltd. et al.pdf",
       "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
       "ai_relevance": "Dispute over training generative AI (Stable Diffusion) on artists\u2019 works without permission.",
       "plaintiff_name": "Andersen and other artists",
-      "plaintiff_description": "Group of visual artist plaintiffs alleging copyright violations",
-      "plaintiff_type": "group of visual artist plaintiffs alleging copyright violations",
+      "plaintiff_description": "class-action from group of visual artists",
+      "plaintiff_type": "class-action",
       "defendant_name": "Stability AI and others",
       "defendant_description": "AI and tech companies behind Stable Diffusion model",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-02-12_USCOURTS-cand-3_23-cv-03223_Tremblay et al v. OpenAI_ Inc. et al.pdf",
@@ -123,7 +108,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "OpenAI, Inc. et al.",
       "defendant_description": "AI company and related entities operating ChatGPT.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2019-11-21_USCOURTS-cand-3_19-cv-03132_UAB _Planner5D_ v. Meta Platforms_ Inc. et al.pdf",
@@ -131,10 +116,10 @@
       "ai_relevance": "Dispute centers on scraped 3D data used to train AI scene-recognition systems.",
       "plaintiff_name": "UAB Planner 5D",
       "plaintiff_description": "Company providing online 3D interior design tools",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Meta Platforms, Inc.; Princeton University, et al.",
       "defendant_description": "Technology company and university alleged data scrapers",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-06-25_USCOURTS-cand-3_23-cv-03417_Kadrey et al v. Meta Platforms_ Inc..pdf",
@@ -145,7 +130,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Large technology and social media corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-07-30_USCOURTS-cand-5_23-cv-04534_Sage Global Services Limited et al v. 4th Paradigm _Beijing_ Technology Co._ Ltd..pdf",
@@ -153,10 +138,10 @@
       "ai_relevance": "Dispute involves software and AI products branded with the SAGE mark.",
       "plaintiff_name": "Sage Global Services Limited; Sage Software, Inc.",
       "plaintiff_description": "Related corporate software companies asserting SAGE trademark rights.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "4th Paradigm (Beijing) Technology Co., Ltd.",
       "defendant_description": "Chinese technology company offering software and AI products.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-12-06_USCOURTS-cand-3_23-cv-03417_Kadrey et al v. Meta Platforms_ Inc..pdf",
@@ -167,7 +152,7 @@
       "plaintiff_type": "authors alleging copyright infringement by ai training use",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Technology corporation operating and developing Llama AI models",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-08-19_USCOURTS-ded-1_24-cv-01092_Hangzhou Jicai Procurement Co._ Ltd et al v. Anaconda_ Inc..pdf",
@@ -175,10 +160,10 @@
       "ai_relevance": "Dispute concerns contracts for Anaconda\u2019s AI technology software and related use.",
       "plaintiff_name": "Hangzhou Jicai; AliCloud",
       "plaintiff_description": "Corporate entities linked to Alibaba using Anaconda AI software",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Anaconda, Inc.",
       "defendant_description": "Software company providing AI and data science tools",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-01-08_USCOURTS-cand-4_24-cv-01454_Nazemian et al v. NVIDIA Corporation.pdf",
@@ -189,7 +174,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "NVIDIA Corporation",
       "defendant_description": "Technology corporation developing AI and GPU products",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-07-15_USCOURTS-ded-1_25-cv-00201_Aon Re_ Inc. v. Zesty.ai_ Inc..pdf",
@@ -197,10 +182,10 @@
       "ai_relevance": "Patents cover machine-learning models analyzing aerial images for property risk.",
       "plaintiff_name": "Aon Re, Inc.",
       "plaintiff_description": "Corporation offering reinsurance and risk analytics services",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Zesty.ai, Inc.",
       "defendant_description": "Technology company using AI for property risk analytics",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-09-21_USCOURTS-cand-3_22-cv-02366_Shared Partnership v. Meta Platforms_ Inc..pdf",
@@ -208,10 +193,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Shared Partnership (Shared.com)",
       "plaintiff_description": "Canadian online content creator business",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Social media and online advertising corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-12-06_USCOURTS-cand-3_20-cv-08570_Klein et al v. Meta Platforms_ Inc..pdf",
@@ -222,7 +207,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Technology corporation operating Facebook social advertising platform",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2024-12-20_USCOURTS-mad-1_22-cv-10723_In Re Cerence Stockholder Derivative Litigation.pdf",
@@ -230,10 +215,10 @@
       "ai_relevance": "Dispute involves AI-powered virtual assistants for automakers developed by Cerence.",
       "plaintiff_name": "Cerence shareholder plaintiffs",
       "plaintiff_description": "Shareholders bringing derivative action on company\u2019s behalf",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Cerence officers and directors",
       "defendant_description": "Corporate officers and directors of Cerence, Inc.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-10-22_USCOURTS-cand-4_25-cv-09081_Pete v. Facebook Data Breach __Transferred to ND_CA__.pdf",
@@ -244,7 +229,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Large social media technology corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-10-20_USCOURTS-mad-3_23-cv-13196_Demand Dogs_ LLC v. Blair.pdf",
@@ -252,7 +237,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Demand Dogs, LLC",
       "plaintiff_description": "Limited liability company business entity",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "John Blair",
       "defendant_description": "Individual alleged bourbon-monitoring technology inventor",
       "defendant_type": "individual"
@@ -266,18 +251,18 @@
       "plaintiff_type": "individual",
       "defendant_name": "Workday, Inc.",
       "defendant_description": "Corporation providing AI hiring and screening software",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-07-14_USCOURTS-cand-3_23-cv-00201_Andersen et al v. Stability AI Ltd. et al.pdf",
       "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
       "ai_relevance": "Dispute over access to confidential AI image-generation model source code and materials.",
       "plaintiff_name": "Andersen et al.",
-      "plaintiff_description": "Group of individual plaintiffs challenging AI image models",
-      "plaintiff_type": "individual",
+      "plaintiff_description": "class-action from group of visual artists",
+      "plaintiff_type": "class-action",
       "defendant_name": "Stability AI Ltd. et al.",
       "defendant_description": "AI companies operating generative image models",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-08-21_USCOURTS-cand-4_24-cv-01454_Nazemian et al v. NVIDIA Corporation.pdf",
@@ -296,10 +281,10 @@
       "ai_relevance": "Dispute centers on AI-powered legal research tool competing with Westlaw.",
       "plaintiff_name": "Thomson Reuters and West Publishing",
       "plaintiff_description": "Corporate publishers of Westlaw legal research platform",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "platform(s)",
       "defendant_name": "ROSS Intelligence Inc.",
       "defendant_description": "Technology company offering AI legal research tool",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-02-11_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
@@ -307,7 +292,7 @@
       "ai_relevance": "Defendant used AI legal research tool trained on plaintiffs\u2019 copyrighted headnotes.",
       "plaintiff_name": "Thomson Reuters Enterprise Centre GmbH",
       "plaintiff_description": "Publisher of Westlaw legal research platform",
-      "plaintiff_type": "publisher of westlaw legal research platform",
+      "plaintiff_type": "platform(s)",
       "defendant_name": "ROSS Intelligence Inc.",
       "defendant_description": "Developer of AI-based legal research tool",
       "defendant_type": "developer of ai-based legal research tool"
@@ -318,10 +303,10 @@
       "ai_relevance": "Dispute over use of legal database to develop competing AI legal search tool.",
       "plaintiff_name": "Thomson Reuters Enterprise Centre GmbH et al.",
       "plaintiff_description": "Corporate owners of Westlaw legal research database and tools.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "ROSS Intelligence Inc.",
       "defendant_description": "Company developing AI-based legal research search platform.",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2024-09-10_USCOURTS-pawd-2_23-cv-01798_ELKIN VALLEY BAPTIST CHURCH v. PNC FINANCIAL SERVICES GROUP_ INC_ et al.pdf",
@@ -343,7 +328,7 @@
       "plaintiff_type": "lgbtq+ youtube content creators and channel operators",
       "defendant_name": "Google LLC and YouTube LLC",
       "defendant_description": "Online video platform operators and parent technology corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2025-03-06_USCOURTS-cand-3_24-cv-07919_Brightex Bio-Photonics_ LLC v. L_Oreal USA_ Inc..pdf",
@@ -351,10 +336,10 @@
       "ai_relevance": "Case concerns AI-based facial image analysis to recommend personalized skincare treatments.",
       "plaintiff_name": "Brightex Bio-Photonics, LLC",
       "plaintiff_description": "Company developing image-based personalized skincare technology",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "L'Oreal USA, Inc.",
       "defendant_description": "Cosmetics and skincare products corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-09-30_USCOURTS-ded-1_19-cv-01410_VB Assets_ LLC v. Amazon.com Services LLC.pdf",
@@ -362,18 +347,18 @@
       "ai_relevance": "Dispute over Alexa smart speaker voice assistant and related automated technologies.",
       "plaintiff_name": "VB Assets, LLC",
       "plaintiff_description": "Patent-holding business entity asserting smart speaker patents.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Amazon.com Services LLC",
       "defendant_description": "Large technology and e-commerce corporation operating Alexa platform.",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2025-06-23_USCOURTS-cand-3_24-cv-05417_Bartz et al v. Anthropic PBC.pdf",
       "case_name": "Bartz et al v. Anthropic PBC",
       "ai_relevance": "Dispute over training large language model Claude on copyrighted books.",
       "plaintiff_name": "Bartz et al, authors",
-      "plaintiff_description": "Group of book authors alleging copyright infringement",
-      "plaintiff_type": "group of book authors alleging copyright infringement",
+      "plaintiff_description": "Punitive class action brought by group of book authors",
+      "plaintiff_type": "class-action",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "AI company developing Claude large language model",
       "defendant_type": "individual"
@@ -384,10 +369,10 @@
       "ai_relevance": "Dispute over patented natural language interface technology used in Alexa-like systems.",
       "plaintiff_name": "Rensselaer Polytechnic Institute; CF Dynamic",
       "plaintiff_description": "University and affiliated patent-holding/licensing company",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Amazon.com, Inc.",
       "defendant_description": "Large e-commerce and technology corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2011-08-18_USCOURTS-njd-2_04-cv-03623_SYNCSORT INCORPORATED v. INNOVATIVE ROUTINES INTERNATIONAL INC",
@@ -395,7 +380,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Syncsort Incorporated",
       "plaintiff_description": "Software company providing data transformation tools",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Innovative Routines International Inc.",
       "defendant_description": "Software company, maker of CoSORT product",
       "defendant_type": "individual"
@@ -406,10 +391,10 @@
       "ai_relevance": "Dispute centers on autonomous vehicle software and related AI technologies.",
       "plaintiff_name": "WeRide Corp. and affiliates",
       "plaintiff_description": "Autonomous vehicle technology companies alleging trade secret theft",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Kun Huang, Jing Wang, ZZX, AllRide",
       "defendant_description": "Former employees and rival autonomous driving companies",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-05-20_USCOURTS-ded-1_23-cv-00802_Staton Techiya_ LLC v. Harman International Industries_ Incorporated et al.pdf",
@@ -417,10 +402,10 @@
       "ai_relevance": "Patents cover ear-worn tech using intelligent, AI-based sound processing and personalization.",
       "plaintiff_name": "Staton Techiya, LLC",
       "plaintiff_description": "Technology company holding ear-worn audio patents",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Harman International Industries, Inc.; Harman-Kardon, Inc.",
       "defendant_description": "Audio electronics corporations accused of patent infringement",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-08-22_USCOURTS-idd-2_24-cv-00632_Chenco Engineering _ Consulting GMBH v. Do-Fluoride New Materials Co. LTD et al.pdf",
@@ -428,10 +413,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Chenco Engineering & Consulting GMBH",
       "plaintiff_description": "Foreign engineering and consulting company",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Do-Fluoride New Materials; Do-Fluoride New Energy",
       "defendant_description": "Foreign corporate defendants in materials and energy sectors",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-11-22_USCOURTS-txwd-6_21-cv-00968_Parus Holdings Inc. v. Apple Inc..pdf",
@@ -439,10 +424,10 @@
       "ai_relevance": "Dispute involves Siri\u2019s AI-based speech recognition and natural language processing.",
       "plaintiff_name": "Parus Holdings, Inc.",
       "plaintiff_description": "Corporation holding voice-search technology patents",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Apple Inc.",
       "defendant_description": "Technology corporation, maker of Siri devices",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2023-08-03_USCOURTS-tnwd-2_22-cv-02838_Pritchard v. Thompson et al.pdf",
@@ -453,7 +438,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Harman Connected Services, Aaron Thompson",
       "defendant_description": "Technology company and its representative employees",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-06-24_USCOURTS-tnmd-3_23-cv-01092_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
@@ -461,7 +446,7 @@
       "ai_relevance": "AI company Anthropic allegedly used copyrighted song lyrics to train Claude.",
       "plaintiff_name": "Concord Music Group, Inc. et al.",
       "plaintiff_description": "Group of music publishing companies alleging copyright infringement.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "Artificial intelligence company developing and operating Claude model.",
       "defendant_type": "individual"
@@ -475,7 +460,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Larkin University Corp. and ExamSoft",
       "defendant_description": "Private university and exam software company",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2023-03-15_USCOURTS-mad-1_20-cv-12236_Findability Sciences_ Inc. v. Soft10_ Inc..pdf",
@@ -483,7 +468,7 @@
       "ai_relevance": "Dispute over use and sublicensing of AI-related predictive analytics software (Dr. Mo).",
       "plaintiff_name": "Findability Sciences, Inc.",
       "plaintiff_description": "Artificial intelligence and analytics software company",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Soft10, Inc.",
       "defendant_description": "Software company providing Dr. Mo analytics tool",
       "defendant_type": "individual"
@@ -494,10 +479,10 @@
       "ai_relevance": "Dispute involves alleged misuse and funding of machine-learning software development work.",
       "plaintiff_name": "VoterLabs, Inc.",
       "plaintiff_description": "Technology company providing software and analytics services",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Ethos Group Consulting Services, LLC",
       "defendant_description": "Consulting services business entity",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-06-29_USCOURTS-mad-1_22-cv-10656_Nuance Communications_ Inc. v. Kovalenko.pdf",
@@ -505,7 +490,7 @@
       "ai_relevance": "Dispute involves competing AI-powered radiology workflow and imaging products.",
       "plaintiff_name": "Nuance Communications, Inc.",
       "plaintiff_description": "Technology corporation offering AI radiology and imaging solutions",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Kathryn Kovalenko",
       "defendant_description": "Individual former employee subject to non-compete",
       "defendant_type": "individual"
@@ -519,7 +504,7 @@
       "plaintiff_type": "government entity",
       "defendant_name": "Google LLC",
       "defendant_description": "Large technology corporation providing search and advertising services",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-06-28_USCOURTS-alnd-5_21-cv-01680_Quantum Research International Inc v. SPG Institute Inc et al.pdf",
@@ -527,10 +512,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Quantum Research International Inc.",
       "plaintiff_description": "Corporate defense and technology contractor",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "SPG Institute Inc. and others",
       "defendant_description": "Business entities and executives operating consortium",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-09-30_USCOURTS-cand-3_21-cv-08812_In re Meta Platforms_ Inc._ Securities Litigation.pdf",
@@ -541,7 +526,7 @@
       "plaintiff_type": "investor(s)",
       "defendant_name": "Meta Platforms, Inc. and executives",
       "defendant_description": "Public technology corporation and individual corporate officers",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-09-20_USCOURTS-mad-1_21-cv-11477_INTEGRATED TECHNOLOGY SOLUTIONS LLC v. iRacing.com Motorsport Simulations_ LLC.pdf",
@@ -549,10 +534,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Integrated Technology Solutions, LLC",
       "plaintiff_description": "Limited liability company patent owner",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "iRacing.com Motorsport Simulations, LLC",
       "defendant_description": "Limited liability company racing simulation developer",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-06-17_USCOURTS-ksd-6_21-cv-01270_Andes Capital Financing LLC et al v. Crossed Keys LLC et al.pdf",
@@ -560,7 +545,7 @@
       "ai_relevance": "Dispute over squeeze-out of minority shareholders in AI company Torch",
       "plaintiff_name": "Andes Capital Financing LLC et al",
       "plaintiff_description": "Minority shareholder entities in AI company Torch",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Crossed Keys LLC et al",
       "defendant_description": "Majority shareholder entities controlling Torch merger",
       "defendant_type": "investor(s)"
@@ -571,10 +556,10 @@
       "ai_relevance": "Dispute involves AGS\u2019s AI recruiting chatbot \u201cOlivia\u201d allegedly underperforming and contributing to claimed contract breach.",
       "plaintiff_name": "TruGreen Limited Partnership",
       "plaintiff_description": "Commercial lawn care services business",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Allegis Global Solutions, Inc.",
       "defendant_description": "Recruitment process outsourcing and staffing services company",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-07-25_USCOURTS-pamd-3_25-cv-01284_Deleman v. HighLevel_ Inc..pdf",
@@ -582,21 +567,21 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "John Michael Deleman",
       "plaintiff_description": "Individual operating marketing SaaS business",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "HighLevel, Inc.",
       "defendant_description": "Corporation providing marketing software-as-a-service platform",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2023-05-23_USCOURTS-utd-2_20-cv-00894_A. v. United Healthcare Insurance et al.pdf",
       "case_name": "A. v. United Healthcare Insurance et al.",
       "ai_relevance": "Confidential guidelines could train competitors\u2019 AI/ML benefit-decision models.",
       "plaintiff_name": "A. (and co-plaintiffs)",
-      "plaintiff_description": "Plan participants/beneficiaries challenging mental health coverage denials",
-      "plaintiff_type": "plan participants/beneficiaries challenging mental health coverage denials",
+      "plaintiff_description": "Two individuals under health plan",
+      "plaintiff_type": "individual",
       "defendant_name": "United Healthcare Insurance et al.",
       "defendant_description": "Health insurance companies and plan administrators",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-02-12_USCOURTS-cand-3_23-cv-03416_Silverman et al v. OpenAI_ Inc. et al.pdf",
@@ -607,7 +592,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "OpenAI, Inc. et al.",
       "defendant_description": "AI company and related entities operating ChatGPT.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2019-06-18_USCOURTS-mad-1_18-cv-12336_Conning v. Halpern et al.pdf",
@@ -618,7 +603,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Jack Halpern and CJK Dictionary Institute, Inc.",
       "defendant_description": "Individual and corporation based in Japan",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-03-29_USCOURTS-mad-1_23-cv-11097_Bulwer v. EchoNous_ Inc..pdf",
@@ -629,7 +614,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "EchoNous, Inc.",
       "defendant_description": "Corporation developing AI-enabled ultrasound software and devices",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2023-04-03_USCOURTS-mad-1_22-cv-11708_Groma_ LLC v. BuildRE_ LLC et al.pdf",
@@ -637,10 +622,10 @@
       "ai_relevance": "One defendant designs AI-based vehicle automation software; dispute is trademark jurisdictional, not about AI.",
       "plaintiff_name": "Groma, LLC",
       "plaintiff_description": "Massachusetts-based business entity",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "BuildRE, LLC et al.",
       "defendant_description": "Texas and Turkey-based business entities",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2017-08-29_USCOURTS-cand-3_17-cv-03049_Purepredictive_ Inc. v. H20.AI_ Inc..pdf",
@@ -648,10 +633,10 @@
       "ai_relevance": "Patent concerns automated predictive analytics using AI and machine learning models.",
       "plaintiff_name": "PurePredictive, Inc.",
       "plaintiff_description": "Corporation owning predictive analytics patent.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "H2O.AI, Inc.",
       "defendant_description": "Corporation providing machine learning software platform.",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2024-10-23_USCOURTS-mdd-1_23-cv-01822_Battle v. Microsoft Corporation.pdf",
@@ -673,7 +658,7 @@
       "plaintiff_type": "music publishers and copyright owners of song lyrics",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "AI company developing and operating Claude models",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2014-11-17_USCOURTS-mied-2_13-cv-14026_Odish v. Morgenthaler Ventures et al.pdf",
@@ -681,10 +666,10 @@
       "ai_relevance": "Dispute centers on alleged diminution of value of SILVIA AI platform owned by Cognitive Code, in which plaintiffs claimed interests.",
       "plaintiff_name": "Joseph Odish; Cranbrook Capital",
       "plaintiff_description": "Individual investor and his consulting LLC",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Peregrine; Morgenthaler; others",
       "defendant_description": "Technology company, venture firm, and related business entities",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2021-05-14_USCOURTS-cand-5_20-cv-07173_Prevail Legal_ Inc. v. Gordon et al.pdf",
@@ -692,10 +677,10 @@
       "ai_relevance": "Dispute involves AI-powered real-time transcription software critical to plaintiff\u2019s services.",
       "plaintiff_name": "Prevail Legal, Inc.",
       "plaintiff_description": "Company providing AI-based real-time transcription services.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "ShakaCode, LLC and Justin Gordon",
       "defendant_description": "Software development company and its owner in Hawaii.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-08-14_USCOURTS-ded-1_24-cv-00084_Samsara Inc. v. Motive Technologies Inc..pdf",
@@ -703,10 +688,10 @@
       "ai_relevance": "Dispute involves AI-driven dashboard camera technology allegedly infringed and misused.",
       "plaintiff_name": "Samsara Inc.",
       "plaintiff_description": "Delaware corporation offering AI telematics solutions.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Motive Technologies, Inc.",
       "defendant_description": "Delaware corporation providing fleet management technology.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2016-02-29_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
@@ -714,10 +699,10 @@
       "ai_relevance": "Plaintiff\u2019s AI technology forms core alleged trade secrets at issue.",
       "plaintiff_name": "Loop AI Labs Inc.",
       "plaintiff_description": "Artificial intelligence technology startup corporation",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Anna Gatti et al.",
       "defendant_description": "Former CEO and related individual and corporate defendants",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2020-05-15_USCOURTS-azd-2_19-cv-04685_Modulus Financial Engineering Incorporated v. Modulus Data USA Incorporated et al.pdf",
@@ -725,10 +710,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Modulus Financial Engineering Inc.",
       "plaintiff_description": "Corporation owning financial software trademarks",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Modulus Data USA Inc. et al.",
       "defendant_description": "Corporate defendants accused of trademark infringement",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2020-06-25_USCOURTS-mad-1_19-cv-12551_Singular Computing LLC v. Google LLC.pdf",
@@ -736,10 +721,10 @@
       "ai_relevance": "Patents cover specialized low-precision arithmetic hardware for AI/ML workloads.",
       "plaintiff_name": "Singular Computing LLC",
       "plaintiff_description": "Technology company owning asserted processing patents",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Google LLC",
       "defendant_description": "Large technology corporation and service provider",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2021-06-08_USCOURTS-cand-3_20-cv-09148_People.ai_ Inc. v. SetSail Technologies_ Inc..pdf",
@@ -747,10 +732,10 @@
       "ai_relevance": "Dispute over ML-based CRM and data analytics patent infringement.",
       "plaintiff_name": "People.ai, Inc.",
       "plaintiff_description": "Technology company offering AI-driven sales and CRM analytics.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "SetSail Technologies, Inc.",
       "defendant_description": "Technology company providing sales performance and analytics software.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2021-09-01_USCOURTS-casd-3_20-cv-00862_Lin et al v. Suavei_ Inc. et al.pdf",
@@ -758,10 +743,10 @@
       "ai_relevance": "Dispute over alleged misrepresentations about machine-learning cybersecurity product capabilities.",
       "plaintiff_name": "Lin and other investors",
       "plaintiff_description": "Individual investors in Suavei, Inc. technology company",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Suavei, Inc. and directors",
       "defendant_description": "Technology corporation and its board members",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-03-31_USCOURTS-flsd-0_24-cv-60715_Anderson v. MSC Cruises_ S.A..pdf",
@@ -772,7 +757,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "MSC Cruises S.A.",
       "defendant_description": "Cruise line company operating passenger vessels",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-03-26_USCOURTS-cand-5_24-cv-03811_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
@@ -780,10 +765,10 @@
       "ai_relevance": "Dispute over AI model Claude training and outputs using song lyrics.",
       "plaintiff_name": "Concord Music Group, Inc. et al.",
       "plaintiff_description": "Music publishing companies and rights holders",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "Artificial intelligence company developing Claude models",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2023-08-18_USCOURTS-dcd-1_22-cv-01564_THALER v. PERLMUTTER et al.pdf",
@@ -794,7 +779,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Perlmutter et al.",
       "defendant_description": "U.S. Copyright Office officials and federal agency",
-      "defendant_type": "u.s. copyright office officials and federal agency"
+      "defendant_type": "government entity"
     },
     {
       "case_id": "2016-06-30_USCOURTS-nmd-1_14-cv-00965_Clark v. Dashner et al.pdf",
@@ -816,7 +801,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Gale Anne Hurd; Pacific Western Productions",
       "defendant_description": "Film producer and production company defendants",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-08-14_USCOURTS-cand-3_24-cv-06049_Samsara Inc. v. Motive Technologies Inc..pdf",
@@ -824,10 +809,10 @@
       "ai_relevance": "Dispute over AI-powered driver safety camera technology and patents.",
       "plaintiff_name": "Samsara Inc.",
       "plaintiff_description": "Technology corporation providing AI-powered fleet safety cameras.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Motive Technologies Inc.",
       "defendant_description": "Technology corporation offering fleet management and safety systems.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-01-23_USCOURTS-ksd-6_24-cv-01055_Pathways Management Services_ LLC et al v. Northstar Hospital et al.pdf",
@@ -835,7 +820,7 @@
       "ai_relevance": "Protective order restricts use of confidential discovery materials with generative AI tools, barring uploads to open AI systems.",
       "plaintiff_name": "Pathways Management Services, LLC",
       "plaintiff_description": "Business entity operating healthcare-related services facility",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "NorthStar Hospital and others",
       "defendant_description": "Competing healthcare facility and associated defendants",
       "defendant_type": "healthcare provider"
@@ -846,7 +831,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Axis Dynamics, Inc.",
       "plaintiff_description": "Construction-related company alleging contract rights",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "First US Bank (FUSB)",
       "defendant_description": "Financial institution providing construction loan financing",
       "defendant_type": "financial institution providing construction loan financing"
@@ -860,7 +845,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "VIPKid and related companies",
       "defendant_description": "Online education companies and associated corporate defendants",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2016-02-24_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
@@ -868,10 +853,10 @@
       "ai_relevance": "Dispute arises from alleged misuse of AI technology trade secrets.",
       "plaintiff_name": "Loop AI Labs, Inc.",
       "plaintiff_description": "Artificial intelligence technology startup company",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Anna Gatti et al.",
       "defendant_description": "Former CEO and related defendants, including law firm",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2017-05-01_USCOURTS-ca13-16-01999_EMC Corporation v. Clouding Corp..pdf",
@@ -879,10 +864,10 @@
       "ai_relevance": "Patent concerns AI-based automated system for diagnosing and resolving computer issues.",
       "plaintiff_name": "EMC Corporation",
       "plaintiff_description": "Technology corporation challenging patent validity",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Clouding Corp.",
       "defendant_description": "Patent-holding technology corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-01-08_USCOURTS-cand-4_24-cv-02655_Dubus et al v. NVIDIA Corporation.pdf",
@@ -893,7 +878,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "NVIDIA Corporation",
       "defendant_description": "Technology corporation specializing in GPUs and AI hardware/software",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2023-08-29_USCOURTS-nyed-2_20-cv-06370_Meehan v. VIPKid et al.pdf",
@@ -904,7 +889,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "VIPKid and related entities",
       "defendant_description": "Online education companies operating remote English-teaching platform",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2015-09-18_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
@@ -912,10 +897,10 @@
       "ai_relevance": "Dispute centers on alleged misuse of Loop AI\u2019s artificial intelligence trade secrets.",
       "plaintiff_name": "Loop AI Labs Inc.",
       "plaintiff_description": "Artificial intelligence technology company and trade secret owner",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Anna Gatti et al.",
       "defendant_description": "Former CEO and alleged co-conspirators, including Italian competitors",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2016-07-19_USCOURTS-cand-3_16-cv-02935_Doe 1 et al v. Xytex Corporation et al.pdf",
@@ -926,7 +911,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Xytex Corporation et al.",
       "defendant_description": "Corporate providers of human semen and related services",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2011-06-03_USCOURTS-cand-4_11-cv-00420_Autonomy_ Inc v. Adiscov_ L.L.C..pdf",
@@ -934,10 +919,10 @@
       "ai_relevance": "Patent concerns use of artificial intelligence for electronic discovery processes.",
       "plaintiff_name": "Autonomy, Inc.",
       "plaintiff_description": "Corporation challenging validity of AI e-discovery patent.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Adiscov, L.L.C.",
       "defendant_description": "Limited liability company holding AI e-discovery patent.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2015-09-08_USCOURTS-cand-4_14-cv-01650_Blue Spike_ LLC v. Google Inc..pdf",
@@ -945,10 +930,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Blue Spike, LLC",
       "plaintiff_description": "Patent-holding company asserting comparison technology patents",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Google Inc.",
       "defendant_description": "Large technology corporation and online services provider",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-03-03_USCOURTS-mad-1_19-cv-10019_Wired Infomatics_ LLC v. OmniMD.pdf",
@@ -956,10 +941,10 @@
       "ai_relevance": "Dispute centers on performance of Invenio AI natural language processing software.",
       "plaintiff_name": "Wired Informatics, LLC",
       "plaintiff_description": "Business providing AI software and related services",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "OmniMD, Inc.",
       "defendant_description": "Business customer licensing AI medical software",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2015-12-21_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
@@ -967,7 +952,7 @@
       "ai_relevance": "Dispute over alleged misappropriation of AI-related trade secrets and technology.",
       "plaintiff_name": "Loop AI Labs Inc.",
       "plaintiff_description": "Artificial intelligence technology company",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Anna Gatti et al.",
       "defendant_description": "Former CEO and associated defendants",
       "defendant_type": "former ceo and associated defendants"
@@ -981,7 +966,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "InfoStream Group Inc.",
       "defendant_description": "Corporation accused of patent infringement",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-06-25_USCOURTS-ilsd-3_23-cv-03303_Phoenix Insurance Company et al v. Ackercamps.com LLC et al.pdf",
@@ -989,10 +974,10 @@
       "ai_relevance": "Case concerns ESI protocol including documents created by AI applications.",
       "plaintiff_name": "Phoenix Insurance Company et al.",
       "plaintiff_description": "Insurance companies bringing civil litigation claims.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Ackercamps.com LLC et al.",
       "defendant_description": "Business entities defending against insurance-related claims.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-08-05_USCOURTS-ca13-21-02347_Thaler v. Vidal.pdf",
@@ -1014,7 +999,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Morris Mohawk Gaming Group and Harp Media BV",
       "defendant_description": "International online gaming business entities",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2019-12-16_USCOURTS-mad-1_19-cv-11438_Nuance Communications Inc. v. Omilia Natural Language Solutions_ Ltd..pdf",
@@ -1022,10 +1007,10 @@
       "ai_relevance": "Dispute over AI-based speech recognition and conversational virtual agent technologies.",
       "plaintiff_name": "Nuance Communications, Inc.",
       "plaintiff_description": "Technology corporation providing speech and AI solutions",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Omilia Natural Language Solutions, Ltd.",
       "defendant_description": "Foreign corporation offering conversational AI platforms",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2024-06-17_USCOURTS-cand-5_22-cv-03699_Forrest v. Meta Platforms_ Inc..pdf",
@@ -1033,10 +1018,10 @@
       "ai_relevance": "Meta\u2019s automated, AI-powered ad tools allegedly helped create and target scam ads misusing plaintiff\u2019s likeness.",
       "plaintiff_name": "Dr. Andrew Forrest",
       "plaintiff_description": "Individual Australian businessman and public figure",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Social media and online advertising corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-11-11_USCOURTS-cand-3_25-mc-80299_In Re Application of X AI LLC for Subpoena to OpenAI_ Inc._ OpenAI Global_ LLC and OpenAI Opco_ LLC.pdf",
@@ -1044,10 +1029,10 @@
       "ai_relevance": "Dispute over alleged misappropriation and transfer of proprietary AI code and confidential AI-related information between competing AI companies.",
       "plaintiff_name": "X.AI LLC",
       "plaintiff_description": "Artificial intelligence technology company and employer of Fraiture",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "OpenAI entities",
       "defendant_description": "Artificial intelligence research and product companies subpoena recipients",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2016-07-06_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
@@ -1055,10 +1040,10 @@
       "ai_relevance": "Dispute over alleged misappropriation of AI technology trade secrets.",
       "plaintiff_name": "Loop AI Labs Inc.",
       "plaintiff_description": "Artificial intelligence technology startup company",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Gatti et al.",
       "defendant_description": "Multiple individual and corporate defendants",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2015-09-02_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
@@ -1066,10 +1051,10 @@
       "ai_relevance": "Dispute involves startup developing AI technology and related business interference.",
       "plaintiff_name": "Loop AI Labs Inc.",
       "plaintiff_description": "Artificial intelligence technology startup company",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "IQ System, Inc. (counterclaimant)",
       "defendant_description": "Corporation alleging contractual interference counterclaim",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-04-18_USCOURTS-cand-3_23-cv-03698_X Corp. v. Bright Data Ltd..pdf",
@@ -1077,10 +1062,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "X Corp., Inc.",
       "plaintiff_description": "Social media platform owner and operator",
-      "plaintiff_type": "social media platform owner and operator",
+      "plaintiff_type": "platform(s)",
       "defendant_name": "Bright Data Ltd.",
       "defendant_description": "Data-scraping and data services company",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-08-12_USCOURTS-txwd-1_25-cv-00855_De Los Santos v. Mattress By Appointment LLC.pdf",
@@ -1091,7 +1076,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Mattress By Appointment LLC",
       "defendant_description": "Mattress retail franchisor / dealer network business",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2021-05-03_USCOURTS-ohsd-1_21-cv-00131_Concentrix CVG Corporation et al v. Daoust et al.pdf",
@@ -1099,10 +1084,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Concentrix CVG Customer Management Group",
       "plaintiff_description": "Corporation providing customer management and related services",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Stephan J. Daoust and TaskUs",
       "defendant_description": "Former employee and competitor company",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2017-12-01_USCOURTS-txed-2_16-cv-00980_Intellectual Ventures II LLC v. FedEx Corporation et al.pdf",
@@ -1110,10 +1095,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Intellectual Ventures II LLC",
       "plaintiff_description": "Patent-holding intellectual property company",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "FedEx Corporation et al.",
       "defendant_description": "Package delivery and logistics corporations",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-06-25_USCOURTS-cand-3_24-cv-01451_In Re Mosaic LLM Litigation.pdf",
@@ -1124,7 +1109,7 @@
       "plaintiff_type": "authors alleging copyright infringement by ai training use",
       "defendant_name": "Databricks and Mosaic ML",
       "defendant_description": "Technology companies developing and deploying large language models.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2016-03-10_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
@@ -1132,10 +1117,10 @@
       "ai_relevance": "Dispute centers on alleged misappropriation of Loop AI\u2019s artificial intelligence technology and related trade secrets.",
       "plaintiff_name": "Loop AI Labs Inc.",
       "plaintiff_description": "Technology company developing artificial intelligence systems",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Almawave USA (and others)",
       "defendant_description": "Corporate defendants accused of misusing AI trade secrets",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2023-09-05_USCOURTS-txnd-3_22-cv-01699_Synergy Advisory Services LLC v. ClearPrism LLC.pdf",
@@ -1143,10 +1128,10 @@
       "ai_relevance": "Consulting dispute over marketing and sales of AI-based software products.",
       "plaintiff_name": "Synergy Advisory Services LLC",
       "plaintiff_description": "Business entity providing consulting and advisory services",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "ClearPrism LLC",
       "defendant_description": "Business entity marketing AI-based software solutions",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2018-10-11_USCOURTS-cand-5_18-cv-01959_Usens_ Inc. v. Chi.pdf",
@@ -1154,10 +1139,10 @@
       "ai_relevance": "Dispute over AI-based computer-vision tracking tech for AR/VR products and related trade secrets.",
       "plaintiff_name": "uSens, Inc.",
       "plaintiff_description": "Corporation developing AI-based AR/VR tracking technologies.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Shi Chi",
       "defendant_description": "Individual former consultant to AI tech company.",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2023-09-06_USCOURTS-tnwd-2_22-cv-02838_Pritchard v. Thompson et al.pdf",
@@ -1168,7 +1153,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Aaron Thompson; Harman Connected Services",
       "defendant_description": "Individual employee and technology corporation",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-05-23_USCOURTS-cand-5_24-cv-03811_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
@@ -1176,10 +1161,10 @@
       "ai_relevance": "Dispute over confidentiality of AI system Claude\u2019s training data, prompts, and usage metrics in discovery.",
       "plaintiff_name": "Concord Music Group, Inc. et al.",
       "plaintiff_description": "Music rights holders and related corporate entities.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "Artificial intelligence company developing Claude AI system.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-02-14_USCOURTS-ord-3_25-cv-00051_Shita v. Taylor.pdf",
@@ -1190,7 +1175,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Steve Taylor",
       "defendant_description": "Individual, former business associate over AGI technology",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-03-28_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf",
@@ -1198,10 +1183,10 @@
       "ai_relevance": "Dispute over competing dental AI systems for analyzing X\u2011rays and detecting disease.",
       "plaintiff_name": "Overjet, Inc.",
       "plaintiff_description": "Dental AI technology company and software developer",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "VideaHealth, Inc.",
       "defendant_description": "Competing dental AI software and technology company",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-03-11_USCOURTS-azd-2_21-cv-00093_Yammine v. Toolbox for HR Spolka z Ograniczona Odpowiedzialnoscia Spolka Komandytowa.pdf",
@@ -1212,7 +1197,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Toolbox for HR (TB4HR)",
       "defendant_description": "Polish software company offering AI recruitment tools",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-03-14_USCOURTS-azd-2_21-cv-00093_Yammine v. Toolbox for HR Spolka z Ograniczona Odpowiedzialnoscia Spolka Komandytowa.pdf",
@@ -1220,10 +1205,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Marco Yammine",
       "plaintiff_description": "Individual software/business collaborator",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Toolbox for HR Spolka z Ograniczona Odpowiedzialnoscia Spolka Komandytowa",
       "defendant_description": "Business entity marketing CV Timeline product",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2020-08-12_USCOURTS-mnd-0_20-cv-01558_Appdiff_ Inc. v. Bonine et al.pdf",
@@ -1231,10 +1216,10 @@
       "ai_relevance": "Dispute over ownership and use of AI-company (PinkLion) accounts and information after acquisition by AI-focused tech firm Appdiff.",
       "plaintiff_name": "Appdiff, Inc.",
       "plaintiff_description": "Technology corporation in artificial intelligence industry",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Bonine et al.",
       "defendant_description": "Former employees/affiliates of acquired AI company",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-07-01_USCOURTS-mnd-0_25-cv-00213_Fiorito v. Metropolitan Council et al.pdf",
@@ -1253,10 +1238,10 @@
       "ai_relevance": "Dispute involves subpoenas for AI/ML R&D documents allegedly tied to trade secrets.",
       "plaintiff_name": "Neo Ivy Capital Management LLC",
       "plaintiff_description": "Investment/technology business pursuing arbitration discovery",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Savvysherpa LLC and United Healthcare Service",
       "defendant_description": "Non-party corporations subpoenaed for documents",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-09-11_USCOURTS-cand-5_23-cv-03440_In re Google Generative AI Copyright Litigation.pdf",
@@ -1267,18 +1252,18 @@
       "plaintiff_type": "creators alleging unauthorized use of copyrighted works for ai training",
       "defendant_name": "Google and Alphabet Inc.",
       "defendant_description": "Technology companies operating and overseeing generative AI models",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2015-12-03_USCOURTS-gamd-5_15-cv-00115_ABBASI v. BHALODWALA et al.pdf",
       "case_name": "ABBASI v. BHALODWALA et al.",
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Abbasi",
-      "plaintiff_description": "Software developer of Lottery Tracking System",
-      "plaintiff_type": "software developer of lottery tracking system",
+      "plaintiff_description": "The individual software developer who created the Lottery Tracking System (LTS).",
+      "plaintiff_type": "individual",
       "defendant_name": "Bhalodwala et al.",
       "defendant_description": "Competing business and associated individuals",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2021-02-17_USCOURTS-cand-4_19-cv-04060_Lambda Labs_ Inc. v. Lambda_ Inc..pdf",
@@ -1286,10 +1271,10 @@
       "ai_relevance": "Trademark discovery dispute about AI and machine learning products and services.",
       "plaintiff_name": "Lambda Labs, Inc.",
       "plaintiff_description": "Corporation offering AI and machine learning products/services.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Lambda, Inc. (Lambda School)",
       "defendant_description": "Corporation operating education services, including coding and AI.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2020-07-30_USCOURTS-mad-1_19-cv-12235_Mantha v. Quotewizard.com_ LLC.pdf",
@@ -1300,7 +1285,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "QuoteWizard.com, LLC",
       "defendant_description": "Business entity offering insurance quote services",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2023-04-05_USCOURTS-ca13-23-01230_Aljindi v. US.pdf",
@@ -1318,11 +1303,11 @@
       "case_name": "Wired Informatics, LLC v. OmniMD Inc.",
       "ai_relevance": "Dispute centers on performance and representations of Wired\u2019s AI engine \u201cInvenio.\u201d",
       "plaintiff_name": "Wired Informatics, LLC",
-      "plaintiff_description": "Software developer providing AI-based Invenio engine",
-      "plaintiff_type": "software developer providing ai-based invenio engine",
+      "plaintiff_description": "The individual software developer who created the AI-based Invenio engine",
+      "plaintiff_type": "individual",
       "defendant_name": "OmniMD Inc.",
       "defendant_description": "Former client, healthcare software and services company",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2015-01-29_USCOURTS-ilnd-1_13-cv-04417_Vehicle Intelligence and Safety LLC v. Mercedes-Benz USA_ LLC et al.pdf",
@@ -1330,7 +1315,7 @@
       "ai_relevance": "Patent concerns an AI-style expert system to screen operators for impairment.",
       "plaintiff_name": "Vehicle Intelligence and Safety LLC",
       "plaintiff_description": "Patent-holding company asserting impairment-screening technology",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Mercedes-Benz USA, LLC; Daimler AG",
       "defendant_description": "Automobile manufacturers and distributors",
       "defendant_type": "automobile manufacturers and distributors"
@@ -1344,7 +1329,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "Multiple video game companies",
       "defendant_description": "Video game and technology corporations developing and publishing games",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-09-16_USCOURTS-cand-5_24-cv-03811_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
@@ -1355,7 +1340,7 @@
       "plaintiff_type": "music publishers alleging copyright infringement by ai training use",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "AI company operating large language model system.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-08-26_USCOURTS-cand-5_19-cv-04286_In re Google Assistant Privacy Litigation.pdf",
@@ -1366,7 +1351,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "Google LLC",
       "defendant_description": "Technology corporation operating Google Assistant platform.",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2025-11-04_USCOURTS-cand-3_24-cv-01451_In Re Mosaic LLM Litigation.pdf",
@@ -1385,7 +1370,7 @@
       "ai_relevance": "Dispute over proprietary AI application technology and related confidential information.",
       "plaintiff_name": "Next IT Corporation",
       "plaintiff_description": "Technology corporation developing AI software applications",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Joshua Knowles",
       "defendant_description": "Former employee and individual technologist",
       "defendant_type": "individual"
@@ -1399,7 +1384,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Global Semiconductor Alliance (GSA)",
       "defendant_description": "Industry association for semiconductor-related companies",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2016-03-30_USCOURTS-paed-2_15-cv-05387_DUCKWEED_ USA_ INC. et al v. BEHRENS et al.pdf",
@@ -1407,7 +1392,7 @@
       "ai_relevance": "Licensed clean\u2011energy system allegedly required an essential artificial intelligence control component.",
       "plaintiff_name": "Duckweed USA, Inc.",
       "plaintiff_description": "Corporation licensing and commercializing clean\u2011energy technology",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Edward Abraham and others",
       "defendant_description": "Individual patent owner and associated defendants",
       "defendant_type": "individual"
@@ -1421,7 +1406,7 @@
       "plaintiff_type": "authors and rightsholders suing over ai training use",
       "defendant_name": "OpenAI and Microsoft",
       "defendant_description": "AI developer and technology corporation defendants",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2019-11-27_USCOURTS-cand-4_19-cv-04433_Demos v. Google et al.pdf",
@@ -1432,7 +1417,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Google et al.",
       "defendant_description": "Multiple high-tech and oil corporations",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-11-28_USCOURTS-cofc-1_21-cv-01295_ALJINDI v. USA.pdf",
@@ -1451,10 +1436,10 @@
       "ai_relevance": "Dispute over AI system using images to generate automated repair estimates",
       "plaintiff_name": "CCC Information Services Inc.",
       "plaintiff_description": "Corporation providing auto-insurance estimating software platform",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "platform(s)",
       "defendant_name": "Tractable Inc.",
       "defendant_description": "Company offering AI-based vehicle damage assessment tools",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2019-05-07_USCOURTS-cand-5_18-cv-04327_Lamont v. Conner et al.pdf",
@@ -1465,7 +1450,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Google Ventures and Alphabet Inc.",
       "defendant_description": "Corporate defendants associated with Google and its investments",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-07-01_USCOURTS-cand-5_24-cv-04257_Kemp v. Meta Platforms Inc..pdf",
@@ -1476,7 +1461,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Meta Platforms Inc.",
       "defendant_description": "Social media and technology corporation",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2020-11-30_USCOURTS-azd-2_20-mc-00039_Spider Labs Limited v. Doe.pdf",
@@ -1484,7 +1469,7 @@
       "ai_relevance": "Dispute concerns allegedly defamatory statements about Spider Labs\u2019 AI technology.",
       "plaintiff_name": "Spider Labs Limited",
       "plaintiff_description": "Corporation offering AI-related technology and services",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "John Doe",
       "defendant_description": "Anonymous individual online speaker",
       "defendant_type": "individual"
@@ -1498,7 +1483,7 @@
       "plaintiff_type": "artist and his design studio asserting copyright ownership",
       "defendant_name": "Universal City Studios LLC et al.",
       "defendant_description": "Film studio and related entertainment companies accused of infringement.",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-11-14_USCOURTS-txwd-1_24-cv-00354_Mullen Industries LLC v. Meta Platforms_ Inc..pdf",
@@ -1506,10 +1491,10 @@
       "ai_relevance": "Dispute involves alleged infringement by Meta\u2019s AR/VR AI functionalities and systems.",
       "plaintiff_name": "Mullen Industries LLC",
       "plaintiff_description": "Patent-holding business entity asserting technology patents.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Large technology corporation offering AR/VR platforms.",
-      "defendant_type": "corporation"
+      "defendant_type": "platform(s)"
     },
     {
       "case_id": "2025-03-18_USCOURTS-caDC-23-05233_Stephen Thaler v. Shira Perlmutter_ et al.pdf",
@@ -1520,7 +1505,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Shira Perlmutter et al.",
       "defendant_description": "U.S. Copyright Office officials, federal agency",
-      "defendant_type": "u.s. copyright office officials, federal agency"
+      "defendant_type": "government entity"
     },
     {
       "case_id": "2025-01-29_USCOURTS-txwd-1_24-cv-00354_Mullen Industries LLC v. Meta Platforms_ Inc..pdf",
@@ -1528,10 +1513,10 @@
       "ai_relevance": "Dispute involves alleged patent infringement by Meta\u2019s AR/VR products, including insufficiently pled claims about use of artificial intelligence to practice patented methods.",
       "plaintiff_name": "Mullen Industries LLC",
       "plaintiff_description": "Limited liability company asserting patent rights",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Technology corporation offering AR/VR products",
-      "defendant_type": "corporation"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2014-09-18_USCOURTS-ilnd-1_13-cv-04417_Vehicle Intelligence and Safety LLC v. Mercedes-Benz USA_ LLC et al.pdf",
@@ -1539,7 +1524,7 @@
       "ai_relevance": "Dispute over patent covering an AI-based expert system for screening impaired equipment operators.",
       "plaintiff_name": "Vehicle Intelligence and Safety LLC",
       "plaintiff_description": "Patent-holding company asserting safety screening technology patent.",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Mercedes-Benz USA, LLC and Daimler AG",
       "defendant_description": "Automobile manufacturers accused of infringing safety screening patent.",
       "defendant_type": "automobile manufacturers accused of infringing safety screening patent"
@@ -1550,10 +1535,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Artificial Intelligence, Corp. (AIC)",
       "plaintiff_description": "Corporation producing copyrighted TV review capsules",
-      "plaintiff_type": "corporation",
+      "plaintiff_type": "corporation(s)",
       "defendant_name": "Osvaldo Oscar Friger Salgueiro; Friger Entertainment, LLC",
       "defendant_description": "Individual YouTube user and related entertainment company",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     }
   ]
 }

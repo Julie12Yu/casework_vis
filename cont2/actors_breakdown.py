@@ -53,13 +53,13 @@ def extract_party_type(description):
         ]):
             return "class-action"
 
-        # INDIVIDUAL / PEOPLE
+        # PLATFORMS (e.g., social media, marketplaces, they function different legally from companies)
         if any(k in search_text for k in [
-            "individual", "person", "employee", "worker", "citizen", "resident",
-            "plaintiff is a", "former employee", "job applicant", "customer", 
-            "sex trafficking victim",
+            "social media platform", "online marketplace", "e-commerce platform",
+            "social networking site", "content sharing platform", "video sharing platform",
+            "platform operator", "digital platform", "online platform", "platform", "platforms"
         ]):
-            return "individual"
+            return "platform(s)"
 
         # CORPORATIONS / COMPANIES
         if any(k in search_text for k in [
@@ -68,7 +68,7 @@ def extract_party_type(description):
             "consulting firm", "insurance company", "retail chain", "tech company",
             "companies"
         ]):
-            return "corporation"
+            return "corporation(s)"
 
         # NONPROFITS / CHARITIES
         if any(k in search_text for k in [
@@ -99,10 +99,17 @@ def extract_party_type(description):
         if any(k in search_text for k in [
             "government", "govt", "state of", "county of", "city of",
             "municipality", "public agency", "department", "bureau",
-            "division of", "state agency", "public authority"
+            "division of", "state agency", "public authority", "federal agency"
         ]):
             return "government entity"
 
+        # INDIVIDUAL / PEOPLE
+        if any(k in search_text for k in [
+            "individual", "person", "employee", "worker", "citizen", "resident",
+            "plaintiff is a", "former employee", "job applicant", "customer", 
+            "sex trafficking victim",
+        ]):
+            return "individual"
         return None
 
     # FIRST PASS: Check phrase_text

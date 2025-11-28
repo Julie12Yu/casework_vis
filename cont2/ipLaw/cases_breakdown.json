@@ -5,7 +5,7 @@
     "ai_relevance": "AI image-generation models allegedly trained on copyrighted artworks without permission, enabling style imitation and infringing outputs.",
     "parties": {
       "plaintiff_name": "Andersen and other artists",
-      "plaintiff_description": "Group of visual artists, copyright holders, putative class",
+      "plaintiff_description": "class-action from group of visual artists",
       "defendant_name": "Stability AI, Midjourney, DeviantArt",
       "defendant_description": "AI and online art platforms developing and hosting image generators"
     },
@@ -50,8 +50,8 @@
     "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
     "ai_relevance": "Dispute over training and use of AI image generator Stable Diffusion on artists\u2019 copyrighted works.",
     "parties": {
-      "plaintiff_name": "Sarah Andersen et al.",
-      "plaintiff_description": "Individual visual artists bringing putative class action",
+      "plaintiff_name": "Andersen and other artists",
+      "plaintiff_description": "class-action from group of visual artists",
       "defendant_name": "Stability AI, DeviantArt, Midjourney",
       "defendant_description": "AI and online art platforms offering generative image tools"
     },
@@ -145,7 +145,7 @@
     "ai_relevance": "Dispute over training generative AI (Stable Diffusion) on artists\u2019 works without permission.",
     "parties": {
       "plaintiff_name": "Andersen and other artists",
-      "plaintiff_description": "Group of visual artist plaintiffs alleging copyright violations",
+      "plaintiff_description": "class-action from group of visual artists",
       "defendant_name": "Stability AI and others",
       "defendant_description": "AI and tech companies behind Stable Diffusion model"
     },
@@ -762,7 +762,7 @@
     "ai_relevance": "Dispute over access to confidential AI image-generation model source code and materials.",
     "parties": {
       "plaintiff_name": "Andersen et al.",
-      "plaintiff_description": "Group of individual plaintiffs challenging AI image models",
+      "plaintiff_description": "class-action from group of visual artists",
       "defendant_name": "Stability AI Ltd. et al.",
       "defendant_description": "AI companies operating generative image models"
     },
@@ -1159,7 +1159,7 @@
     "ai_relevance": "Dispute over training large language model Claude on copyrighted books.",
     "parties": {
       "plaintiff_name": "Bartz et al, authors",
-      "plaintiff_description": "Group of book authors alleging copyright infringement",
+      "plaintiff_description": "Punitive class action brought by group of book authors",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "AI company developing Claude large language model"
     },
@@ -2078,7 +2078,7 @@
     "ai_relevance": "Confidential guidelines could train competitors\u2019 AI/ML benefit-decision models.",
     "parties": {
       "plaintiff_name": "A. (and co-plaintiffs)",
-      "plaintiff_description": "Plan participants/beneficiaries challenging mental health coverage denials",
+      "plaintiff_description": "Two individuals under health plan",
       "defendant_name": "United Healthcare Insurance et al.",
       "defendant_description": "Health insurance companies and plan administrators"
     },
@@ -4502,7 +4502,7 @@
     "ai_relevance": "NOT RELATED",
     "parties": {
       "plaintiff_name": "Abbasi",
-      "plaintiff_description": "Software developer of Lottery Tracking System",
+      "plaintiff_description": "The individual software developer who created the Lottery Tracking System (LTS).",
       "defendant_name": "Bhalodwala et al.",
       "defendant_description": "Competing business and associated individuals"
     },
@@ -4652,7 +4652,7 @@
     "ai_relevance": "Dispute centers on performance and representations of Wired\u2019s AI engine \u201cInvenio.\u201d",
     "parties": {
       "plaintiff_name": "Wired Informatics, LLC",
-      "plaintiff_description": "Software developer providing AI-based Invenio engine",
+      "plaintiff_description": "The individual software developer who created the AI-based Invenio engine",
       "defendant_name": "OmniMD Inc.",
       "defendant_description": "Former client, healthcare software and services company"
     },
