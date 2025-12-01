@@ -6,7 +6,7 @@ import re
 
 import datamapplot
 
-INPUT_JSON = "court_cases_processed.json"
+INPUT_JSON = "new_court_cases_processed.json"
 OUTPUT_HTML = "court_cases_visualization.html"
 
 

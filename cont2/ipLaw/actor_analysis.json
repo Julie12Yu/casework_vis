@@ -4,31 +4,25 @@
     "plaintiff_types": {
       "class-action": 11,
       "corporation(s)": 71,
-      "individual": 36,
-      "authors alleging copyright infringement by ai training use": 2,
+      "creative professional": 9,
+      "individual": 28,
       "platform(s)": 4,
       "religious organization operating a church": 1,
-      "lgbtq+ youtube content creators and channel operators": 1,
       "government entity": 1,
       "investor(s)": 1,
-      "music publishers and copyright owners of song lyrics": 1,
-      "author and his book publisher": 1,
-      "creators alleging unauthorized use of copyrighted works for ai training": 1,
-      "music publishers alleging copyright infringement by ai training use": 1,
-      "authors and rightsholders suing over ai training use": 1,
-      "artist and his design studio asserting copyright ownership": 1
+      "individual with publisher": 4,
+      "stem professional": 4
     },
     "defendant_types": {
       "platform(s)": 12,
       "corporation(s)": 95,
-      "individual": 12,
-      "developer of ai-based legal research tool": 1,
-      "commercial banks and financial institutions": 1,
+      "individual": 11,
+      "stem professional": 2,
+      "finance company": 2,
       "investor(s)": 1,
       "government entity": 6,
-      "author and associated publishing entities": 1,
+      "individual with publisher": 1,
       "healthcare provider": 1,
-      "financial institution providing construction loan financing": 1,
       "former ceo and associated defendants": 1,
       "automobile manufacturers and distributors": 1,
       "automobile manufacturers accused of infringing safety screening patent": 1
@@ -37,31 +31,32 @@
       "class-action v. platform(s)": 4,
       "class-action v. corporation(s)": 5,
       "corporation(s) v. corporation(s)": 51,
-      "individual v. corporation(s)": 27,
-      "authors alleging copyright infringement by ai training use v. corporation(s)": 2,
-      "corporation(s) v. individual": 8,
-      "individual v. individual": 2,
+      "creative professional v. corporation(s)": 6,
+      "individual v. corporation(s)": 23,
+      "corporation(s) v. individual": 7,
+      "creative professional v. individual": 1,
       "platform(s) v. corporation(s)": 3,
-      "platform(s) v. developer of ai-based legal research tool": 1,
+      "platform(s) v. stem professional": 1,
       "corporation(s) v. platform(s)": 6,
-      "religious organization operating a church v. commercial banks and financial institutions": 1,
-      "lgbtq+ youtube content creators and channel operators v. platform(s)": 1,
+      "religious organization operating a church v. finance company": 1,
+      "creative professional v. platform(s)": 1,
       "class-action v. individual": 2,
       "government entity v. corporation(s)": 1,
       "investor(s) v. corporation(s)": 1,
       "corporation(s) v. investor(s)": 1,
-      "music publishers and copyright owners of song lyrics v. corporation(s)": 1,
-      "individual v. government entity": 6,
-      "author and his book publisher v. author and associated publishing entities": 1,
+      "individual v. individual": 1,
+      "individual with publisher v. corporation(s)": 3,
+      "stem professional v. government entity": 2,
+      "individual with publisher v. individual with publisher": 1,
       "corporation(s) v. healthcare provider": 1,
-      "corporation(s) v. financial institution providing construction loan financing": 1,
+      "corporation(s) v. finance company": 1,
       "individual v. platform(s)": 1,
       "corporation(s) v. former ceo and associated defendants": 1,
-      "creators alleging unauthorized use of copyrighted works for ai training v. corporation(s)": 1,
+      "individual v. government entity": 3,
+      "stem professional v. corporation(s)": 2,
       "corporation(s) v. automobile manufacturers and distributors": 1,
-      "music publishers alleging copyright infringement by ai training use v. corporation(s)": 1,
-      "authors and rightsholders suing over ai training use v. corporation(s)": 1,
-      "artist and his design studio asserting copyright ownership v. corporation(s)": 1,
+      "corporation(s) v. stem professional": 1,
+      "creative professional v. government entity": 1,
       "corporation(s) v. automobile manufacturers accused of infringing safety screening patent": 1
     }
   },
@@ -127,7 +122,7 @@
       "ai_relevance": "Use of copyrighted books to train Meta\u2019s Llama generative AI models; fair use of AI training data at issue.",
       "plaintiff_name": "Richard Kadrey et al.",
       "plaintiff_description": "Group of individual author copyright holders",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Large technology and social media corporation",
       "defendant_type": "corporation(s)"
@@ -148,8 +143,8 @@
       "case_name": "Kadrey et al. v. Meta Platforms, Inc.",
       "ai_relevance": "Dispute over training Meta\u2019s Llama large language models on copyrighted books without permission.",
       "plaintiff_name": "Kadrey et al.",
-      "plaintiff_description": "Authors alleging copyright infringement by AI training use",
-      "plaintiff_type": "authors alleging copyright infringement by ai training use",
+      "plaintiff_description": "Individual author alleging copyright infringement by AI training use",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Technology corporation operating and developing Llama AI models",
       "defendant_type": "corporation(s)"
@@ -270,7 +265,7 @@
       "ai_relevance": "Dispute over training large language AI models on copyrighted books.",
       "plaintiff_name": "Nazemian et al.",
       "plaintiff_description": "Individual authors alleging copyright infringement by AI training",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "creative professional",
       "defendant_name": "NVIDIA Corporation",
       "defendant_description": "Technology corporation developing NeMo Megatron AI models",
       "defendant_type": "individual"
@@ -295,7 +290,7 @@
       "plaintiff_type": "platform(s)",
       "defendant_name": "ROSS Intelligence Inc.",
       "defendant_description": "Developer of AI-based legal research tool",
-      "defendant_type": "developer of ai-based legal research tool"
+      "defendant_type": "stem professional"
     },
     {
       "case_id": "2024-09-27_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
@@ -317,7 +312,7 @@
       "plaintiff_type": "religious organization operating a church",
       "defendant_name": "PNC Financial Services Group; FNB",
       "defendant_description": "Commercial banks and financial institutions",
-      "defendant_type": "commercial banks and financial institutions"
+      "defendant_type": "finance company"
     },
     {
       "case_id": "2022-09-30_USCOURTS-cand-5_19-cv-04749_Divino Group LLC et al v. Google LLC et al.pdf",
@@ -325,7 +320,7 @@
       "ai_relevance": "Algorithmic content-moderation and recommendation systems central to alleged discrimination.",
       "plaintiff_name": "Divino Group LLC et al.",
       "plaintiff_description": "LGBTQ+ YouTube content creators and channel operators",
-      "plaintiff_type": "lgbtq+ youtube content creators and channel operators",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Google LLC and YouTube LLC",
       "defendant_description": "Online video platform operators and parent technology corporation",
       "defendant_type": "platform(s)"
@@ -655,7 +650,7 @@
       "ai_relevance": "Dispute over training Anthropic\u2019s Claude AI on copyrighted song lyrics.",
       "plaintiff_name": "Concord Music Group, Inc. et al.",
       "plaintiff_description": "Music publishers and copyright owners of song lyrics",
-      "plaintiff_type": "music publishers and copyright owners of song lyrics",
+      "plaintiff_type": "individual with publisher",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "AI company developing and operating Claude models",
       "defendant_type": "corporation(s)"
@@ -776,7 +771,7 @@
       "ai_relevance": "Dispute over copyrightability of AI-generated artwork created autonomously by Creativity Machine.",
       "plaintiff_name": "Stephen Thaler",
       "plaintiff_description": "Individual AI developer and copyright applicant",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "stem professional",
       "defendant_name": "Perlmutter et al.",
       "defendant_description": "U.S. Copyright Office officials and federal agency",
       "defendant_type": "government entity"
@@ -787,10 +782,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Tize W. Clark and publisher",
       "plaintiff_description": "Author and his book publisher",
-      "plaintiff_type": "author and his book publisher",
+      "plaintiff_type": "individual with publisher",
       "defendant_name": "James Dashner and others",
-      "defendant_description": "Author and associated publishing entities",
-      "defendant_type": "author and associated publishing entities"
+      "defendant_description": "Author and his book publisher",
+      "defendant_type": "individual with publisher"
     },
     {
       "case_id": "2011-04-04_USCOURTS-cand-5_05-cv-03534_Goldberg v. Cameron et al.pdf",
@@ -834,7 +829,7 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "First US Bank (FUSB)",
       "defendant_description": "Financial institution providing construction loan financing",
-      "defendant_type": "financial institution providing construction loan financing"
+      "defendant_type": "finance company"
     },
     {
       "case_id": "2024-01-25_USCOURTS-nyed-2_20-cv-06370_Meehan v. VIPKid et al.pdf",
@@ -1106,7 +1101,7 @@
       "ai_relevance": "Dispute over training large language models on copyrighted works.",
       "plaintiff_name": "Group of authors",
       "plaintiff_description": "Authors alleging copyright infringement by AI training use.",
-      "plaintiff_type": "authors alleging copyright infringement by ai training use",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Databricks and Mosaic ML",
       "defendant_description": "Technology companies developing and deploying large language models.",
       "defendant_type": "corporation(s)"
@@ -1249,7 +1244,7 @@
       "ai_relevance": "Dispute over training generative AI models on copyrighted works without consent.",
       "plaintiff_name": "Visual artists and authors",
       "plaintiff_description": "Creators alleging unauthorized use of copyrighted works for AI training",
-      "plaintiff_type": "creators alleging unauthorized use of copyrighted works for ai training",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Google and Alphabet Inc.",
       "defendant_description": "Technology companies operating and overseeing generative AI models",
       "defendant_type": "corporation(s)"
@@ -1260,7 +1255,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Abbasi",
       "plaintiff_description": "The individual software developer who created the Lottery Tracking System (LTS).",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "stem professional",
       "defendant_name": "Bhalodwala et al.",
       "defendant_description": "Competing business and associated individuals",
       "defendant_type": "corporation(s)"
@@ -1304,7 +1299,7 @@
       "ai_relevance": "Dispute centers on performance and representations of Wired\u2019s AI engine \u201cInvenio.\u201d",
       "plaintiff_name": "Wired Informatics, LLC",
       "plaintiff_description": "The individual software developer who created the AI-based Invenio engine",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "stem professional",
       "defendant_name": "OmniMD Inc.",
       "defendant_description": "Former client, healthcare software and services company",
       "defendant_type": "corporation(s)"
@@ -1337,7 +1332,7 @@
       "ai_relevance": "AI model allegedly trained on copyrighted songs without permission, raising novel copyright issues.",
       "plaintiff_name": "Concord Music Group, Inc. et al.",
       "plaintiff_description": "Music publishers alleging copyright infringement by AI training use.",
-      "plaintiff_type": "music publishers alleging copyright infringement by ai training use",
+      "plaintiff_type": "individual with publisher",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "AI company operating large language model system.",
       "defendant_type": "corporation(s)"
@@ -1373,7 +1368,7 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "Joshua Knowles",
       "defendant_description": "Former employee and individual technologist",
-      "defendant_type": "individual"
+      "defendant_type": "stem professional"
     },
     {
       "case_id": "2024-09-12_USCOURTS-mied-2_24-cv-11786_Robinson v. Global Semiconductor Alliance.pdf",
@@ -1381,7 +1376,7 @@
       "ai_relevance": "Plaintiff alleges patented FOCL tech is used to run AI programs without authorization.",
       "plaintiff_name": "Kay C. Robinson, Jr.",
       "plaintiff_description": "Individual patent holder alleging unauthorized tech use",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Global Semiconductor Alliance (GSA)",
       "defendant_description": "Industry association for semiconductor-related companies",
       "defendant_type": "corporation(s)"
@@ -1403,7 +1398,7 @@
       "ai_relevance": "Centralization of lawsuits alleging copyrighted works used without consent to train large language models like GPT-4.",
       "plaintiff_name": "Various copyright holders",
       "plaintiff_description": "Authors and rightsholders suing over AI training use",
-      "plaintiff_type": "authors and rightsholders suing over ai training use",
+      "plaintiff_type": "individual with publisher",
       "defendant_name": "OpenAI and Microsoft",
       "defendant_description": "AI developer and technology corporation defendants",
       "defendant_type": "corporation(s)"
@@ -1425,7 +1420,7 @@
       "ai_relevance": "Dispute over alleged misuse of AI-related scientific work and concepts.",
       "plaintiff_name": "Ahmad Aljindi",
       "plaintiff_description": "Individual researcher and author",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "creative professional",
       "defendant_name": "United States of America",
       "defendant_description": "Federal government of the United States",
       "defendant_type": "government entity"
@@ -1479,8 +1474,8 @@
       "case_name": "Bertuccelli et al. v. Universal City Studios LLC et al.",
       "ai_relevance": "Plaintiffs\u2019 experts used AI-based facial recognition to analyze similarity.",
       "plaintiff_name": "Jonathan Bertuccelli; Studio 3, Inc.",
-      "plaintiff_description": "Artist and his design studio asserting copyright ownership.",
-      "plaintiff_type": "artist and his design studio asserting copyright ownership",
+      "plaintiff_description": "An artist and his design studio asserting copyright ownership.",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Universal City Studios LLC et al.",
       "defendant_description": "Film studio and related entertainment companies accused of infringement.",
       "defendant_type": "corporation(s)"
@@ -1502,7 +1497,7 @@
       "ai_relevance": "Dispute over whether AI system can be legal author under copyright law.",
       "plaintiff_name": "Stephen Thaler",
       "plaintiff_description": "Individual AI developer and copyright applicant",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "stem professional",
       "defendant_name": "Shira Perlmutter et al.",
       "defendant_description": "U.S. Copyright Office officials, federal agency",
       "defendant_type": "government entity"

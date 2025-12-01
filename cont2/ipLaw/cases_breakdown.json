@@ -363,7 +363,7 @@
     "ai_relevance": "Dispute over training Meta\u2019s Llama large language models on copyrighted books without permission.",
     "parties": {
       "plaintiff_name": "Kadrey et al.",
-      "plaintiff_description": "Authors alleging copyright infringement by AI training use",
+      "plaintiff_description": "Individual author alleging copyright infringement by AI training use",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Technology corporation operating and developing Llama AI models"
     },
@@ -2826,7 +2826,7 @@
       "plaintiff_name": "Tize W. Clark and publisher",
       "plaintiff_description": "Author and his book publisher",
       "defendant_name": "James Dashner and others",
-      "defendant_description": "Author and associated publishing entities"
+      "defendant_description": "Author and his book publisher"
     },
     "claims": [
       {
@@ -5204,7 +5204,7 @@
     "ai_relevance": "Plaintiffs\u2019 experts used AI-based facial recognition to analyze similarity.",
     "parties": {
       "plaintiff_name": "Jonathan Bertuccelli; Studio 3, Inc.",
-      "plaintiff_description": "Artist and his design studio asserting copyright ownership.",
+      "plaintiff_description": "An artist and his design studio asserting copyright ownership.",
       "defendant_name": "Universal City Studios LLC et al.",
       "defendant_description": "Film studio and related entertainment companies accused of infringement."
     },

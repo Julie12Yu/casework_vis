@@ -7,7 +7,7 @@ import re
 import datamapplot
 
 INPUT_JSON = "new_court_cases_processed.json"
-OUTPUT_HTML = "court_cases_visualization.html"
+OUTPUT_HTML = "index.html" # FOR NOW 
 
 
 def load_processed_data(input_json):
@@ -30,6 +30,14 @@ def extract_summary_sections(summary_text):
     """Extract only Summary and Key Legal Issue sections from the summary."""
     summary_section = ""
     legal_issue_section = ""
+    
+    # First, remove everything from ELI5 onwards
+    # \s* matches any whitespace including newlines, so "word.\n\n4." works correctly
+    summary_text = re.split(
+        r'\s*\d+\.\s*\*{0,2}ELI5\s+Explanation\*{0,2}\s*:',
+        summary_text,
+        flags=re.IGNORECASE
+    )[0].strip()
     
     # Summary section
     summary_match = re.search(
@@ -70,7 +78,7 @@ def extract_case_name(filename):
     
     if match:
         date = match.group(1)
-        case_name = match.group(2).rstrip('.')
+        case_name = match.group(2)
         return f"{case_name} ({date})"
     
     return filename
@@ -102,23 +110,9 @@ def create_visualization(docs, meta, output_file):
         name = extract_case_name(d["name"])
         summary_text = extract_summary_sections(d["summary"])
         cat = d.get("legal_category_name", "Unknown")
-        
-        # HDBSCAN status
-        if d["is_hdbscan_noise"]:
-            hdbscan_info = "Unclustered (noise)"
-            purity_info = ""
-        else:
-            hdbscan_info = d["hdbscan_cluster_name"]
-            purity = d.get("hdbscan_nesting_purity")
-            if purity is not None:
-                purity_info = f" [purity: {purity:.2f}]"
-            else:
-                purity_info = ""
 
         hover = (
             f"{name}\n"
-            f"K-Means Topic: {d['kmeans_cluster_name']}\n"
-            f"HDBSCAN Subcluster: {hdbscan_info}{purity_info}\n"
             f"Legal Category: {cat}\n\n"
             f"{summary_text}"
         )
@@ -127,24 +121,8 @@ def create_visualization(docs, meta, output_file):
     # Extra data for on_click panel
     extra_point_data = pd.DataFrame({
         "case_name": [extract_case_name(d["name"]) for d in docs],
-        "summary": [d["summary"] for d in docs],
-        "kmeans_cluster": [d["kmeans_cluster_name"] for d in docs],
-        "hdbscan_cluster": [
-            "Unclustered (noise)" if d["is_hdbscan_noise"] 
-            else d["hdbscan_cluster_name"] 
-            for d in docs
-        ],
-        "legal_category": [d.get("legal_category_name", "Unknown") for d in docs],
-        "hdbscan_status": [
-            "🔍 High-precision subcluster" if not d["is_hdbscan_noise"] 
-            else "📊 Unclustered (in K-Means topic)" 
-            for d in docs
-        ],
-        "nesting_purity": [
-            f"{d.get('hdbscan_nesting_purity', 0):.1%}" if not d["is_hdbscan_noise"]
-            else "N/A"
-            for d in docs
-        ]
+        "summary": [extract_summary_sections(d["summary"]) for d in docs],
+        "legal_category": [d.get("legal_category_name", "Unknown") for d in docs]
     })
 
     # Right-hand details panel (HTML injected into the page)
@@ -153,7 +131,7 @@ def create_visualization(docs, meta, output_file):
         position: fixed;
         top: 80px;
         right: 20px;
-        width: 450px;
+        width: 400px;
         max-height: 70vh;
         background: white;
         border: 2px solid #333;
@@ -168,14 +146,9 @@ def create_visualization(docs, meta, output_file):
                 style="float: right; background: #ff4444; color: white; border: none; 
                        padding: 5px 10px; cursor: pointer; border-radius: 4px;">×</button>
         <h3 id="case-name" style="margin-top: 0; color: #333;"></h3>
-        <div style="margin: 10px 0; padding: 15px; background: #f5f5f5; border-radius: 4px;">
-            <div style="margin-bottom: 8px;"><strong>📂 K-Means Topic:</strong> <span id="kmeans-cluster"></span></div>
-            <div style="margin-bottom: 8px;"><strong>🔬 HDBSCAN Subcluster:</strong> <span id="hdbscan-cluster"></span></div>
-            <div style="margin-bottom: 8px;"><strong>⚖️ Legal Category:</strong> <span id="legal-category"></span></div>
-            <div style="margin-bottom: 8px;"><strong>📊 Status:</strong> <span id="hdbscan-status"></span></div>
-            <div><strong>🎯 Nesting Purity:</strong> <span id="nesting-purity"></span></div>
+        <div style="margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 4px;">
+            <div><strong>Legal Category:</strong> <span id="legal-category"></span></div>
         </div>
-        <h4 style="margin-top: 15px; color: #555;">Case Summary</h4>
         <div id="case-summary" style="line-height: 1.6; color: #666; white-space: pre-wrap;"></div>
     </div>
     """
@@ -183,21 +156,10 @@ def create_visualization(docs, meta, output_file):
     # CSS (light + dark mode)
     custom_css = """
     #case-details {
-        font-family: 'Segoe UI', Arial, sans-serif;
+        font-family: Arial, sans-serif;
     }
     
-    #case-details h3 {
-        font-size: 18px;
-        border-bottom: 2px solid #007bff;
-        padding-bottom: 8px;
-    }
-    
-    #case-details h4 {
-        font-size: 14px;
-        color: #555;
-        margin-top: 15px;
-    }
-    
+    /* Dark mode styles */
     @media (prefers-color-scheme: dark) {
         #case-details {
             background: #2a2a2a !important;
@@ -206,7 +168,6 @@ def create_visualization(docs, meta, output_file):
         }
         #case-name {
             color: #e0e0e0 !important;
-            border-bottom-color: #4a9eff !important;
         }
         #case-details h4 {
             color: #c0c0c0 !important;
@@ -223,24 +184,25 @@ def create_visualization(docs, meta, output_file):
     # JS template that datamapplot fills with data from extra_point_data
     on_click_js = """
         (function() {{
-            var detailsDiv = document.getElementById('case-details');
-            var caseName = document.getElementById('case-name');
-            var kmeansCluster = document.getElementById('kmeans-cluster');
-            var hdbscanCluster = document.getElementById('hdbscan-cluster');
-            var legalCategory = document.getElementById('legal-category');
-            var hdbscanStatus = document.getElementById('hdbscan-status');
-            var nestingPurity = document.getElementById('nesting-purity');
-            var caseSummary = document.getElementById('case-summary');
-            
-            caseName.textContent = "{case_name}";
-            kmeansCluster.textContent = "{kmeans_cluster}";
-            hdbscanCluster.textContent = "{hdbscan_cluster}";
-            legalCategory.textContent = "{legal_category}";
-            hdbscanStatus.textContent = "{hdbscan_status}";
-            nestingPurity.textContent = "{nesting_purity}";
-            caseSummary.textContent = "{summary}";
-            
-            detailsDiv.style.display = 'block';
+            try {{
+                var detailsDiv = document.getElementById('case-details');
+                var caseName = document.getElementById('case-name');
+                var legalCategory = document.getElementById('legal-category');
+                var caseSummary = document.getElementById('case-summary');
+                
+                if (!detailsDiv || !caseName || !legalCategory || !caseSummary) {{
+                    console.error('Could not find required elements');
+                    return;
+                }}
+                
+                caseName.textContent = `{case_name}`;
+                legalCategory.textContent = `{legal_category}`;
+                caseSummary.textContent = `{summary}`;
+                
+                detailsDiv.style.display = 'block';
+            }} catch(e) {{
+                console.error('Error in click handler:', e);
+            }}
         }})();
     """
 

@@ -95,6 +95,12 @@ def extract_party_type(description):
         ]):
             return "insurance company"
         
+        # FINANCE COMPANIES?
+        if any(k in search_text for k in [
+            "finance company", "financial institution", "bank", "lender"
+        ]):
+            return "finance company"
+        
         # GOVERNMENT ENTITIES (broad)
         if any(k in search_text for k in [
             "government", "govt", "state of", "county of", "city of",
@@ -102,6 +108,25 @@ def extract_party_type(description):
             "division of", "state agency", "public authority", "federal agency"
         ]):
             return "government entity"
+
+        # INDIVIDUAL with an PUBLISHER
+        if any(k in search_text for k in [
+            "publisher", "publishing company", "publishing entity", "rightsholders"
+        ]):
+            return "individual with publisher"
+
+        # STEM CREATIVES
+        if any(k in search_text for k in [
+            "developer", "engineer", "scientist", "programmer", "technologist",
+            "software creator", "software engineer", "data scientist", "ai researcher",
+        ]):
+            return "stem professional"
+
+        # ART CREATIVES
+        if any(k in search_text for k in [
+            "author", "artist", "musician", "filmmaker", "designer", "photographer", "content creator"
+        ]):
+            return "creative professional"
 
         # INDIVIDUAL / PEOPLE
         if any(k in search_text for k in [
