@@ -145,18 +145,174 @@ def create_visualization(docs, meta, output_file):
         <button onclick="document.getElementById('case-details').style.display='none'" 
                 style="float: right; background: #ff4444; color: white; border: none; 
                        padding: 5px 10px; cursor: pointer; border-radius: 4px;">×</button>
+        
+        <!-- History Navigation -->
+        <div id="history-nav" style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 2px solid #ddd;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <button id="prev-case" onclick="navigateHistory(-1)" 
+                        style="background: #4CAF50; color: white; border: none; 
+                               padding: 8px 15px; cursor: pointer; border-radius: 4px; flex: 1; margin-right: 5px;">
+                    ← Previous
+                </button>
+                <span id="history-position" style="padding: 0 10px; font-weight: bold; color: #666;">-</span>
+                <button id="next-case" onclick="navigateHistory(1)" 
+                        style="background: #4CAF50; color: white; border: none; 
+                               padding: 8px 15px; cursor: pointer; border-radius: 4px; flex: 1; margin-left: 5px;">
+                    Next →
+                </button>
+            </div>
+            <button onclick="toggleHistoryList()" 
+                    style="width: 100%; background: #2196F3; color: white; border: none; 
+                           padding: 8px; cursor: pointer; border-radius: 4px;">
+                View History (<span id="history-count">0</span>)
+            </button>
+        </div>
+        
+        <!-- History List (collapsible) -->
+        <div id="history-list" style="display: none; margin-bottom: 15px; padding: 10px; 
+                                       background: #f9f9f9; border-radius: 4px; max-height: 200px; 
+                                       overflow-y: auto; border: 1px solid #ddd;">
+            <h4 style="margin-top: 0; margin-bottom: 10px; color: #333;">Click History:</h4>
+            <div id="history-items"></div>
+        </div>
+        
         <h3 id="case-name" style="margin-top: 0; color: #333;"></h3>
         <div style="margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 4px;">
             <div><strong>Legal Category:</strong> <span id="legal-category"></span></div>
         </div>
         <div id="case-summary" style="line-height: 1.6; color: #666; white-space: pre-wrap;"></div>
     </div>
+    
+    <script>
+        // Global history management
+        var caseHistory = [];
+        var currentHistoryIndex = -1;
+        var isNavigating = false;  // Flag to prevent adding to history during navigation
+        
+        function addToHistory(caseName, legalCategory, summary) {
+            if (isNavigating) return;  // Don't add to history when navigating
+            
+            var newCase = {
+                name: caseName,
+                category: legalCategory,
+                summary: summary
+            };
+            
+            // If we're not at the end of history, truncate everything after current position
+            if (currentHistoryIndex < caseHistory.length - 1) {
+                caseHistory = caseHistory.slice(0, currentHistoryIndex + 1);
+            }
+            
+            // Add new case to history
+            caseHistory.push(newCase);
+            currentHistoryIndex = caseHistory.length - 1;
+            
+            updateHistoryUI();
+        }
+        
+        function navigateHistory(direction) {
+            var newIndex = currentHistoryIndex + direction;
+            
+            if (newIndex < 0 || newIndex >= caseHistory.length) {
+                return;  // Can't navigate beyond bounds
+            }
+            
+            currentHistoryIndex = newIndex;
+            isNavigating = true;  // Set flag to prevent adding to history
+            
+            var caseData = caseHistory[currentHistoryIndex];
+            displayCase(caseData.name, caseData.category, caseData.summary);
+            updateHistoryUI();
+            
+            isNavigating = false;  // Reset flag
+        }
+        
+        function displayCase(caseName, legalCategory, summary) {
+            document.getElementById('case-name').textContent = caseName;
+            document.getElementById('legal-category').textContent = legalCategory;
+            document.getElementById('case-summary').textContent = summary;
+            document.getElementById('case-details').style.display = 'block';
+        }
+        
+        function updateHistoryUI() {
+            // Update position indicator
+            var positionText = caseHistory.length > 0 
+                ? (currentHistoryIndex + 1) + '/' + caseHistory.length 
+                : '-';
+            document.getElementById('history-position').textContent = positionText;
+            
+            // Update count
+            document.getElementById('history-count').textContent = caseHistory.length;
+            
+            // Enable/disable navigation buttons
+            document.getElementById('prev-case').disabled = currentHistoryIndex <= 0;
+            document.getElementById('next-case').disabled = currentHistoryIndex >= caseHistory.length - 1;
+            
+            // Update button styles for disabled state
+            var prevBtn = document.getElementById('prev-case');
+            var nextBtn = document.getElementById('next-case');
+            
+            prevBtn.style.opacity = prevBtn.disabled ? '0.5' : '1';
+            prevBtn.style.cursor = prevBtn.disabled ? 'not-allowed' : 'pointer';
+            nextBtn.style.opacity = nextBtn.disabled ? '0.5' : '1';
+            nextBtn.style.cursor = nextBtn.disabled ? 'not-allowed' : 'pointer';
+            
+            // Update history list
+            updateHistoryList();
+        }
+        
+        function updateHistoryList() {
+            var historyItems = document.getElementById('history-items');
+            historyItems.innerHTML = '';
+            
+            if (caseHistory.length === 0) {
+                historyItems.innerHTML = '<p style="color: #999; font-style: italic;">No cases viewed yet</p>';
+                return;
+            }
+            
+            // Show most recent first
+            for (var i = caseHistory.length - 1; i >= 0; i--) {
+                var caseData = caseHistory[i];
+                var isCurrentCase = i === currentHistoryIndex;
+                
+                var item = document.createElement('div');
+                item.style.cssText = 'padding: 8px; margin-bottom: 5px; border-radius: 4px; cursor: pointer; ' +
+                                     'border-left: 3px solid ' + (isCurrentCase ? '#4CAF50' : '#ddd') + '; ' +
+                                     'background: ' + (isCurrentCase ? '#e8f5e9' : 'white') + ';';
+                
+                item.innerHTML = '<strong>' + (i + 1) + '.</strong> ' + caseData.name.substring(0, 50) + 
+                                (caseData.name.length > 50 ? '...' : '');
+                
+                item.onclick = (function(index) {
+                    return function() {
+                        currentHistoryIndex = index;
+                        isNavigating = true;
+                        var caseData = caseHistory[index];
+                        displayCase(caseData.name, caseData.category, caseData.summary);
+                        updateHistoryUI();
+                        isNavigating = false;
+                    };
+                })(i);
+                
+                historyItems.appendChild(item);
+            }
+        }
+        
+        function toggleHistoryList() {
+            var historyList = document.getElementById('history-list');
+            historyList.style.display = historyList.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
     """
 
     # CSS (light + dark mode)
     custom_css = """
     #case-details {
         font-family: Arial, sans-serif;
+    }
+    
+    #history-list {
+        font-size: 14px;
     }
     
     /* Dark mode styles */
@@ -178,6 +334,23 @@ def create_visualization(docs, meta, output_file):
         #case-details > div {
             background: #333 !important;
         }
+        #history-nav {
+            border-bottom-color: #555 !important;
+        }
+        #history-position {
+            color: #b0b0b0 !important;
+        }
+        #history-list {
+            background: #333 !important;
+            border-color: #555 !important;
+        }
+        #history-items > div {
+            background: #2a2a2a !important;
+            border-left-color: #555 !important;
+        }
+        #history-items > div[style*="background: #e8f5e9"] {
+            background: #1b3a1b !important;
+        }
     }
     """
 
@@ -195,11 +368,18 @@ def create_visualization(docs, meta, output_file):
                     return;
                 }}
                 
-                caseName.textContent = `{case_name}`;
-                legalCategory.textContent = `{legal_category}`;
-                caseSummary.textContent = `{summary}`;
+                var caseNameText = `{case_name}`;
+                var legalCategoryText = `{legal_category}`;
+                var summaryText = `{summary}`;
+                
+                caseName.textContent = caseNameText;
+                legalCategory.textContent = legalCategoryText;
+                caseSummary.textContent = summaryText;
                 
                 detailsDiv.style.display = 'block';
+                
+                // Add to history
+                addToHistory(caseNameText, legalCategoryText, summaryText);
             }} catch(e) {{
                 console.error('Error in click handler:', e);
             }}
@@ -226,6 +406,8 @@ def create_visualization(docs, meta, output_file):
     print(f"  - Labels when zoomed: HDBSCAN subclusters (specific)")
     print(f"  - Noise points: Shown as 'Unclustered' within their K-Means topic")
     print(f"  - Click any point to see full details in right panel")
+    print(f"  - Navigate through clicked cases using Previous/Next buttons")
+    print(f"  - View full history list by clicking 'View History' button")
 
 
 def main():
