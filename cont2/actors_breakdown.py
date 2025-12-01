@@ -6,11 +6,11 @@ import spacy
 from rake_nltk import Rake
 
 
-nlp = spacy.load("en_core_web_sm")     # spaCy NER
-rake = Rake()                          # RAKE phrase extractor
+nlp = spacy.load("en_core_web_sm")
+rake = Rake()
 
-INPUT_PATH = "privacy/priv_cases_breakdown.json"
-OUTPUT_PATH = "privacy/actor_analysis.json"
+INPUT_PATH = "ipLaw/cases_breakdown.json"
+OUTPUT_PATH = "ipLaw/actor_analysis.json"
 
 
 def normalize_text(text):
@@ -46,61 +46,106 @@ def extract_party_type(description):
 
     ###
     # 3. RULE-BASED CLASSIFICATION on keyphrases
-    # CLASS ACTION
-    if any(key in phrase_text or key in text for key in [
-        "class action", "class-action", "putative class", "nationwide class",
-    ]):
-        return "class-action"
+    def check_rules(search_text):
+        # CLASS ACTION
+        if any(k in search_text for k in [
+            "class action", "class-action", "putative class", "nationwide class", "class of "
+        ]):
+            return "class-action"
 
-    # INDIVIDUAL / PEOPLE
-    if any(k in phrase_text or k in text for k in [
-        "individual", "person", "employee", "worker", "citizen", "resident",
-        "plaintiff is a", "former employee", "job applicant", "customer", 
-        "sex trafficking victim",
-    ]):
-        return "individual"
+        # PLATFORMS (e.g., social media, marketplaces, they function different legally from companies)
+        if any(k in search_text for k in [
+            "social media platform", "online marketplace", "e-commerce platform",
+            "social networking site", "content sharing platform", "video sharing platform",
+            "platform operator", "digital platform", "online platform", "platform", "platforms"
+        ]):
+            return "platform(s)"
 
-    # CORPORATIONS / COMPANIES
-    if any(k in phrase_text or k in text for k in [
-        "corporation", "company", "inc", "llc", "l.l.c.", "ltd", "limited",
-        "corp", "business", "employer", "restaurant", "store",
-        "consulting firm", "insurance company", "retail chain", "tech company",
-        "companies"
-    ]):
-        return "corporation"
+        # CORPORATIONS / COMPANIES
+        if any(k in search_text for k in [
+            "corporation", "company", "inc", "llc", "l.l.c.", "ltd", "limited",
+            "corp", "business", "employer", "restaurant", "store",
+            "consulting firm", "insurance company", "retail chain", "tech company",
+            "companies"
+        ]):
+            return "corporation(s)"
 
-    # NONPROFITS / CHARITIES
-    if any(k in phrase_text or k in text for k in [
-        "nonprofit", "charity", "advocacy group"
-    ]):
-        return "nonprofit organization"
+        # NONPROFITS / CHARITIES
+        if any(k in search_text for k in [
+            "nonprofit", "charity", "advocacy group"
+        ]):
+            return "nonprofit organization"
 
-    # INVESTORS
-    if any(k in phrase_text or k in text for k in [
-        "investor", "investors", "shareholder", "venture capital", "stock purchasers"
-    ]):
-        return "investor(s)"
+        # INVESTORS
+        if any(k in search_text for k in [
+            "investor", "investors", "shareholder", "venture capital", "stock purchasers"
+        ]):
+            return "investor(s)"
 
-    # HEALTHCARE / HOSPITALS
-    if any(k in phrase_text or k in text for k in [
-        "hospital", "clinic", "medical center", "health system", "healthcare",
-        "physician group"
-    ]):
-        return "healthcare provider"
+        # HEALTHCARE / HOSPITALS
+        if any(k in search_text for k in [
+            "hospital", "clinic", "medical center", "health system", "healthcare",
+            "physician group"
+        ]):
+            return "healthcare provider"
 
-    # INSURANCE COMPANIES (special category)
-    if any(k in phrase_text or k in text for k in [
-        "insurance company", "insurer", "insurance provider", "insurance carrier"
-    ]):
-        return "insurance company"
+        # INSURANCE COMPANIES
+        if any(k in search_text for k in [
+            "insurance company", "insurer", "insurance provider", "insurance carrier"
+        ]):
+            return "insurance company"
+        
+        # FINANCE COMPANIES?
+        if any(k in search_text for k in [
+            "finance company", "financial institution", "bank", "lender"
+        ]):
+            return "finance company"
+        
+        # GOVERNMENT ENTITIES (broad)
+        if any(k in search_text for k in [
+            "government", "govt", "state of", "county of", "city of",
+            "municipality", "public agency", "department", "bureau",
+            "division of", "state agency", "public authority", "federal agency"
+        ]):
+            return "government entity"
 
-    # GOVERNMENT ENTITIES (broad)
-    if any(k in phrase_text or k in text for k in [
-        "government", "govt", "state of", "county of", "city of",
-        "municipality", "public agency", "department", "bureau",
-        "division of", "state agency", "public authority"
-    ]):
-        return "government entity"
+        # INDIVIDUAL with an PUBLISHER
+        if any(k in search_text for k in [
+            "publisher", "publishing company", "publishing entity", "rightsholders"
+        ]):
+            return "individual with publisher"
+
+        # STEM CREATIVES
+        if any(k in search_text for k in [
+            "developer", "engineer", "scientist", "programmer", "technologist",
+            "software creator", "software engineer", "data scientist", "ai researcher",
+        ]):
+            return "stem professional"
+
+        # ART CREATIVES
+        if any(k in search_text for k in [
+            "author", "artist", "musician", "filmmaker", "designer", "photographer", "content creator"
+        ]):
+            return "creative professional"
+
+        # INDIVIDUAL / PEOPLE
+        if any(k in search_text for k in [
+            "individual", "person", "employee", "worker", "citizen", "resident",
+            "plaintiff is a", "former employee", "job applicant", "customer", 
+            "sex trafficking victim",
+        ]):
+            return "individual"
+        return None
+
+    # FIRST PASS: Check phrase_text
+    result = check_rules(phrase_text)
+    if result:
+        return result
+
+    # SECOND PASS: Check full normalized text
+    result = check_rules(text)
+    if result:
+        return result
 
     # OTHER
     return text

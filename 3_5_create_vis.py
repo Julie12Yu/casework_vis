@@ -7,7 +7,7 @@ import re
 import datamapplot
 
 INPUT_JSON = "new_court_cases_processed.json"
-OUTPUT_HTML = "court_cases_visualization.html"
+OUTPUT_HTML = "index.html" # FOR NOW 
 
 
 def load_processed_data(input_json):
@@ -30,6 +30,14 @@ def extract_summary_sections(summary_text):
     """Extract only Summary and Key Legal Issue sections from the summary."""
     summary_section = ""
     legal_issue_section = ""
+    
+    # First, remove everything from ELI5 onwards
+    # \s* matches any whitespace including newlines, so "word.\n\n4." works correctly
+    summary_text = re.split(
+        r'\s*\d+\.\s*\*{0,2}ELI5\s+Explanation\*{0,2}\s*:',
+        summary_text,
+        flags=re.IGNORECASE
+    )[0].strip()
     
     # Summary section
     summary_match = re.search(
@@ -70,7 +78,7 @@ def extract_case_name(filename):
     
     if match:
         date = match.group(1)
-        case_name = match.group(2).rstrip('.')
+        case_name = match.group(2)
         return f"{case_name} ({date})"
     
     return filename
@@ -102,23 +110,9 @@ def create_visualization(docs, meta, output_file):
         name = extract_case_name(d["name"])
         summary_text = extract_summary_sections(d["summary"])
         cat = d.get("legal_category_name", "Unknown")
-        
-        # HDBSCAN status
-        if d["is_hdbscan_noise"]:
-            hdbscan_info = "Unclustered (noise)"
-            purity_info = ""
-        else:
-            hdbscan_info = d["hdbscan_cluster_name"]
-            purity = d.get("hdbscan_nesting_purity")
-            if purity is not None:
-                purity_info = f" [purity: {purity:.2f}]"
-            else:
-                purity_info = ""
 
         hover = (
             f"{name}\n"
-            f"K-Means Topic: {d['kmeans_cluster_name']}\n"
-            f"HDBSCAN Subcluster: {hdbscan_info}{purity_info}\n"
             f"Legal Category: {cat}\n\n"
             f"{summary_text}"
         )
@@ -127,24 +121,8 @@ def create_visualization(docs, meta, output_file):
     # Extra data for on_click panel
     extra_point_data = pd.DataFrame({
         "case_name": [extract_case_name(d["name"]) for d in docs],
-        "summary": [d["summary"] for d in docs],
-        "kmeans_cluster": [d["kmeans_cluster_name"] for d in docs],
-        "hdbscan_cluster": [
-            "Unclustered (noise)" if d["is_hdbscan_noise"] 
-            else d["hdbscan_cluster_name"] 
-            for d in docs
-        ],
-        "legal_category": [d.get("legal_category_name", "Unknown") for d in docs],
-        "hdbscan_status": [
-            "🔍 High-precision subcluster" if not d["is_hdbscan_noise"] 
-            else "📊 Unclustered (in K-Means topic)" 
-            for d in docs
-        ],
-        "nesting_purity": [
-            f"{d.get('hdbscan_nesting_purity', 0):.1%}" if not d["is_hdbscan_noise"]
-            else "N/A"
-            for d in docs
-        ]
+        "summary": [extract_summary_sections(d["summary"]) for d in docs],
+        "legal_category": [d.get("legal_category_name", "Unknown") for d in docs]
     })
 
     # Right-hand details panel (HTML injected into the page)
@@ -153,7 +131,7 @@ def create_visualization(docs, meta, output_file):
         position: fixed;
         top: 80px;
         right: 20px;
-        width: 450px;
+        width: 400px;
         max-height: 70vh;
         background: white;
         border: 2px solid #333;
@@ -167,37 +145,177 @@ def create_visualization(docs, meta, output_file):
         <button onclick="document.getElementById('case-details').style.display='none'" 
                 style="float: right; background: #ff4444; color: white; border: none; 
                        padding: 5px 10px; cursor: pointer; border-radius: 4px;">×</button>
-        <h3 id="case-name" style="margin-top: 0; color: #333;"></h3>
-        <div style="margin: 10px 0; padding: 15px; background: #f5f5f5; border-radius: 4px;">
-            <div style="margin-bottom: 8px;"><strong>📂 K-Means Topic:</strong> <span id="kmeans-cluster"></span></div>
-            <div style="margin-bottom: 8px;"><strong>🔬 HDBSCAN Subcluster:</strong> <span id="hdbscan-cluster"></span></div>
-            <div style="margin-bottom: 8px;"><strong>⚖️ Legal Category:</strong> <span id="legal-category"></span></div>
-            <div style="margin-bottom: 8px;"><strong>📊 Status:</strong> <span id="hdbscan-status"></span></div>
-            <div><strong>🎯 Nesting Purity:</strong> <span id="nesting-purity"></span></div>
+        
+        <!-- History Navigation -->
+        <div id="history-nav" style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 2px solid #ddd;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <button id="prev-case" onclick="navigateHistory(-1)" 
+                        style="background: #4CAF50; color: white; border: none; 
+                               padding: 8px 15px; cursor: pointer; border-radius: 4px; flex: 1; margin-right: 5px;">
+                    ← Previous
+                </button>
+                <span id="history-position" style="padding: 0 10px; font-weight: bold; color: #666;">-</span>
+                <button id="next-case" onclick="navigateHistory(1)" 
+                        style="background: #4CAF50; color: white; border: none; 
+                               padding: 8px 15px; cursor: pointer; border-radius: 4px; flex: 1; margin-left: 5px;">
+                    Next →
+                </button>
+            </div>
+            <button onclick="toggleHistoryList()" 
+                    style="width: 100%; background: #2196F3; color: white; border: none; 
+                           padding: 8px; cursor: pointer; border-radius: 4px;">
+                View History (<span id="history-count">0</span>)
+            </button>
         </div>
-        <h4 style="margin-top: 15px; color: #555;">Case Summary</h4>
+        
+        <!-- History List (collapsible) -->
+        <div id="history-list" style="display: none; margin-bottom: 15px; padding: 10px; 
+                                       background: #f9f9f9; border-radius: 4px; max-height: 200px; 
+                                       overflow-y: auto; border: 1px solid #ddd;">
+            <h4 style="margin-top: 0; margin-bottom: 10px; color: #333;">Click History:</h4>
+            <div id="history-items"></div>
+        </div>
+        
+        <h3 id="case-name" style="margin-top: 0; color: #333;"></h3>
+        <div style="margin: 10px 0; padding: 10px; background: #f5f5f5; border-radius: 4px;">
+            <div><strong>Legal Category:</strong> <span id="legal-category"></span></div>
+        </div>
         <div id="case-summary" style="line-height: 1.6; color: #666; white-space: pre-wrap;"></div>
     </div>
+    
+    <script>
+        // Global history management
+        var caseHistory = [];
+        var currentHistoryIndex = -1;
+        var isNavigating = false;  // Flag to prevent adding to history during navigation
+        
+        function addToHistory(caseName, legalCategory, summary) {
+            if (isNavigating) return;  // Don't add to history when navigating
+            
+            var newCase = {
+                name: caseName,
+                category: legalCategory,
+                summary: summary
+            };
+            
+            // If we're not at the end of history, truncate everything after current position
+            if (currentHistoryIndex < caseHistory.length - 1) {
+                caseHistory = caseHistory.slice(0, currentHistoryIndex + 1);
+            }
+            
+            // Add new case to history
+            caseHistory.push(newCase);
+            currentHistoryIndex = caseHistory.length - 1;
+            
+            updateHistoryUI();
+        }
+        
+        function navigateHistory(direction) {
+            var newIndex = currentHistoryIndex + direction;
+            
+            if (newIndex < 0 || newIndex >= caseHistory.length) {
+                return;  // Can't navigate beyond bounds
+            }
+            
+            currentHistoryIndex = newIndex;
+            isNavigating = true;  // Set flag to prevent adding to history
+            
+            var caseData = caseHistory[currentHistoryIndex];
+            displayCase(caseData.name, caseData.category, caseData.summary);
+            updateHistoryUI();
+            
+            isNavigating = false;  // Reset flag
+        }
+        
+        function displayCase(caseName, legalCategory, summary) {
+            document.getElementById('case-name').textContent = caseName;
+            document.getElementById('legal-category').textContent = legalCategory;
+            document.getElementById('case-summary').textContent = summary;
+            document.getElementById('case-details').style.display = 'block';
+        }
+        
+        function updateHistoryUI() {
+            // Update position indicator
+            var positionText = caseHistory.length > 0 
+                ? (currentHistoryIndex + 1) + '/' + caseHistory.length 
+                : '-';
+            document.getElementById('history-position').textContent = positionText;
+            
+            // Update count
+            document.getElementById('history-count').textContent = caseHistory.length;
+            
+            // Enable/disable navigation buttons
+            document.getElementById('prev-case').disabled = currentHistoryIndex <= 0;
+            document.getElementById('next-case').disabled = currentHistoryIndex >= caseHistory.length - 1;
+            
+            // Update button styles for disabled state
+            var prevBtn = document.getElementById('prev-case');
+            var nextBtn = document.getElementById('next-case');
+            
+            prevBtn.style.opacity = prevBtn.disabled ? '0.5' : '1';
+            prevBtn.style.cursor = prevBtn.disabled ? 'not-allowed' : 'pointer';
+            nextBtn.style.opacity = nextBtn.disabled ? '0.5' : '1';
+            nextBtn.style.cursor = nextBtn.disabled ? 'not-allowed' : 'pointer';
+            
+            // Update history list
+            updateHistoryList();
+        }
+        
+        function updateHistoryList() {
+            var historyItems = document.getElementById('history-items');
+            historyItems.innerHTML = '';
+            
+            if (caseHistory.length === 0) {
+                historyItems.innerHTML = '<p style="color: #999; font-style: italic;">No cases viewed yet</p>';
+                return;
+            }
+            
+            // Show most recent first
+            for (var i = caseHistory.length - 1; i >= 0; i--) {
+                var caseData = caseHistory[i];
+                var isCurrentCase = i === currentHistoryIndex;
+                
+                var item = document.createElement('div');
+                item.style.cssText = 'padding: 8px; margin-bottom: 5px; border-radius: 4px; cursor: pointer; ' +
+                                     'border-left: 3px solid ' + (isCurrentCase ? '#4CAF50' : '#ddd') + '; ' +
+                                     'background: ' + (isCurrentCase ? '#e8f5e9' : 'white') + ';';
+                
+                item.innerHTML = '<strong>' + (i + 1) + '.</strong> ' + caseData.name.substring(0, 50) + 
+                                (caseData.name.length > 50 ? '...' : '');
+                
+                item.onclick = (function(index) {
+                    return function() {
+                        currentHistoryIndex = index;
+                        isNavigating = true;
+                        var caseData = caseHistory[index];
+                        displayCase(caseData.name, caseData.category, caseData.summary);
+                        updateHistoryUI();
+                        isNavigating = false;
+                    };
+                })(i);
+                
+                historyItems.appendChild(item);
+            }
+        }
+        
+        function toggleHistoryList() {
+            var historyList = document.getElementById('history-list');
+            historyList.style.display = historyList.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
     """
 
     # CSS (light + dark mode)
     custom_css = """
     #case-details {
-        font-family: 'Segoe UI', Arial, sans-serif;
+        font-family: Arial, sans-serif;
     }
     
-    #case-details h3 {
-        font-size: 18px;
-        border-bottom: 2px solid #007bff;
-        padding-bottom: 8px;
-    }
-    
-    #case-details h4 {
+    #history-list {
         font-size: 14px;
-        color: #555;
-        margin-top: 15px;
     }
     
+    /* Dark mode styles */
     @media (prefers-color-scheme: dark) {
         #case-details {
             background: #2a2a2a !important;
@@ -206,7 +324,6 @@ def create_visualization(docs, meta, output_file):
         }
         #case-name {
             color: #e0e0e0 !important;
-            border-bottom-color: #4a9eff !important;
         }
         #case-details h4 {
             color: #c0c0c0 !important;
@@ -217,30 +334,55 @@ def create_visualization(docs, meta, output_file):
         #case-details > div {
             background: #333 !important;
         }
+        #history-nav {
+            border-bottom-color: #555 !important;
+        }
+        #history-position {
+            color: #b0b0b0 !important;
+        }
+        #history-list {
+            background: #333 !important;
+            border-color: #555 !important;
+        }
+        #history-items > div {
+            background: #2a2a2a !important;
+            border-left-color: #555 !important;
+        }
+        #history-items > div[style*="background: #e8f5e9"] {
+            background: #1b3a1b !important;
+        }
     }
     """
 
     # JS template that datamapplot fills with data from extra_point_data
     on_click_js = """
         (function() {{
-            var detailsDiv = document.getElementById('case-details');
-            var caseName = document.getElementById('case-name');
-            var kmeansCluster = document.getElementById('kmeans-cluster');
-            var hdbscanCluster = document.getElementById('hdbscan-cluster');
-            var legalCategory = document.getElementById('legal-category');
-            var hdbscanStatus = document.getElementById('hdbscan-status');
-            var nestingPurity = document.getElementById('nesting-purity');
-            var caseSummary = document.getElementById('case-summary');
-            
-            caseName.textContent = "{case_name}";
-            kmeansCluster.textContent = "{kmeans_cluster}";
-            hdbscanCluster.textContent = "{hdbscan_cluster}";
-            legalCategory.textContent = "{legal_category}";
-            hdbscanStatus.textContent = "{hdbscan_status}";
-            nestingPurity.textContent = "{nesting_purity}";
-            caseSummary.textContent = "{summary}";
-            
-            detailsDiv.style.display = 'block';
+            try {{
+                var detailsDiv = document.getElementById('case-details');
+                var caseName = document.getElementById('case-name');
+                var legalCategory = document.getElementById('legal-category');
+                var caseSummary = document.getElementById('case-summary');
+                
+                if (!detailsDiv || !caseName || !legalCategory || !caseSummary) {{
+                    console.error('Could not find required elements');
+                    return;
+                }}
+                
+                var caseNameText = `{case_name}`;
+                var legalCategoryText = `{legal_category}`;
+                var summaryText = `{summary}`;
+                
+                caseName.textContent = caseNameText;
+                legalCategory.textContent = legalCategoryText;
+                caseSummary.textContent = summaryText;
+                
+                detailsDiv.style.display = 'block';
+                
+                // Add to history
+                addToHistory(caseNameText, legalCategoryText, summaryText);
+            }} catch(e) {{
+                console.error('Error in click handler:', e);
+            }}
         }})();
     """
 
@@ -264,6 +406,8 @@ def create_visualization(docs, meta, output_file):
     print(f"  - Labels when zoomed: HDBSCAN subclusters (specific)")
     print(f"  - Noise points: Shown as 'Unclustered' within their K-Means topic")
     print(f"  - Click any point to see full details in right panel")
+    print(f"  - Navigate through clicked cases using Previous/Next buttons")
+    print(f"  - View full history list by clicking 'View History' button")
 
 
 def main():

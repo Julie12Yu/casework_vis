@@ -3,12 +3,10 @@
     "total_cases": 106,
     "plaintiff_types": {
       "individual": 33,
-      "class-action": 34,
+      "class-action": 36,
       "corporation": 14,
       "government entity": 2,
       "investor(s)": 18,
-      "class of quintus securities purchasers alleging fraud": 1,
-      "class of drivers using lytx drivecam-equipped vehicles": 1,
       "honor society for community college students": 1,
       "unemployment claimants challenging automated fraud determinations": 1,
       "pretrial detainee and habeas petitioner": 1
@@ -31,7 +29,7 @@
     "combinations": {
       "individual v. individual": 2,
       "individual v. government entity": 5,
-      "class-action v. corporation": 29,
+      "class-action v. corporation": 31,
       "individual v. internet service provider and anonymous website operators": 1,
       "corporation v. corporation": 8,
       "class-action v. app developer and large tech platforms": 1,
@@ -43,8 +41,6 @@
       "investor(s) v. corporation": 11,
       "individual v. investor(s)": 1,
       "class-action v. individual": 3,
-      "class of quintus securities purchasers alleging fraud v. corporation": 1,
-      "class of drivers using lytx drivecam-equipped vehicles v. corporation": 1,
       "honor society for community college students v. competing online-based honor society organization": 1,
       "unemployment claimants challenging automated fraud determinations v. private vendors helping develop midas fraud-detection system": 1,
       "pretrial detainee and habeas petitioner v. county detention facility and custodial authority": 1,
@@ -709,7 +705,7 @@
       "ai_relevance": "Quintus developed AI-based e-customer relationship management software central to its business and alleged revenue inflation.",
       "plaintiff_name": "Dutt and shareholder class",
       "plaintiff_description": "Class of Quintus securities purchasers alleging fraud",
-      "plaintiff_type": "class of quintus securities purchasers alleging fraud",
+      "plaintiff_type": "class-action",
       "defendant_name": "Quintus Corporation et al.",
       "defendant_description": "Bankrupt software corporation and related defendants",
       "defendant_type": "corporation"
@@ -885,7 +881,7 @@
       "ai_relevance": "Use of AI-enabled Lytx DriveCam to analyze drivers\u2019 behavior and biometrics without consent is central to alleged BIPA violations and settlement.",
       "plaintiff_name": "Lewis; driver class",
       "plaintiff_description": "Class of drivers using Lytx DriveCam-equipped vehicles",
-      "plaintiff_type": "class of drivers using lytx drivecam-equipped vehicles",
+      "plaintiff_type": "class-action",
       "defendant_name": "Maverick Transportation LLC; Lytx, Inc.",
       "defendant_description": "Trucking company and DriveCam AI technology provider",
       "defendant_type": "corporation"
