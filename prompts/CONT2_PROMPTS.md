@@ -76,3 +76,26 @@ prompt = f"""
     - For plaintiff_description / defendant_description: Describe the party (e.g., “individual”, “corporation”, “business”, “government agency”, “class-action group”). In 10 words or less.
     - For ai_relevance: If artificial intelligence, machine learning, automated systems, algorithmic technologies, or other AI/ML-related technologies are involved in, impact, or led to the dispute, return exactly "NOT RELATED". Otherwise, describe how they play a role."""
 ```
+
+gather_args.py
+
+- In gather_args.py, we don't get the common arguments - we instead prompt NotebookLM
+- However, gather_args.py gets us all of the arguments for each side together
+- We throw this (per side) into NotebookLM to get general arguments
+- Below are the prompts we give to NotebookLM after uploading all of our documents
+
+For defendants:
+
+```
+Look through every defense and legal_basis in the dataset.
+Identify the main argument categories that appear across the cases.
+Be specific in describing each category, and ensure the categories reflect all arguments in the dataset.
+```
+
+For plaintiffs:
+
+```
+Look through every claim and legal_basis in the dataset.
+Identify the main argument categories that appear across the cases.
+Be specific in describing each category, and ensure the categories reflect all arguments in the dataset.
+```

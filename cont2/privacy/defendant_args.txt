@@ -1,0 +1,1136 @@
+{
+  "defendant_args": [
+    {
+      "defense": "Internal communications about plaintiff\u2019s medical condition did not amount to \u201cpublicity\u201d or public disclosure required for invasion-of-privacy liability.",
+      "legal_basis": "New Jersey invasion-of-privacy doctrine requiring widespread or public dissemination of private facts."
+    },
+    {
+      "defense": "Any disclosures of medical information were made for legitimate business or managerial reasons and were limited in scope.",
+      "legal_basis": "Justification and lack of unreasonable or highly offensive disclosure under New Jersey privacy law."
+    },
+    {
+      "defense": "Plaintiff was not disabled within the meaning of the NJLAD or was otherwise able to perform essential job functions without additional accommodation.",
+      "legal_basis": "Statutory definition of disability and essential functions under NJLAD."
+    },
+    {
+      "defense": "Defendants provided reasonable accommodations or engaged in the interactive process in good faith, so there was no failure to accommodate.",
+      "legal_basis": "NJLAD reasonable-accommodation and interactive-process standards."
+    },
+    {
+      "defense": "Employment decisions were based on legitimate, non-discriminatory business reasons unrelated to plaintiff\u2019s medical conditions.",
+      "legal_basis": "McDonnell Douglas burden-shifting framework as applied under NJLAD to show non-discriminatory reasons."
+    },
+    {
+      "defense": "Individual defendants did not substantially assist or share discriminatory intent and therefore cannot be liable for aiding and abetting.",
+      "legal_basis": "NJLAD aiding-and-abetting standard requiring knowing and substantial assistance in the discrimination."
+    },
+    {
+      "defense": "Venue in the Northern District of California is improper because all defendants and relevant events are located in Kentucky.",
+      "legal_basis": "28 U.S.C. \u00a7 1391(b) (venue lies where defendants reside or events occurred) and 28 U.S.C. \u00a7 1406(a) (transfer or dismissal for improper venue)."
+    },
+    {
+      "defense": "ConverseNow did not unlawfully intercept communications because it was a direct participant in the calls, not a third-party eavesdropper.",
+      "legal_basis": "Interpretation of Cal. Penal Code \u00a7 631 limiting liability to non-participant third parties."
+    },
+    {
+      "defense": "The calls were not \u201cconfidential communications,\u201d so recording them did not violate CIPA.",
+      "legal_basis": "Statutory definition and case law interpreting \u201cconfidential communication\u201d under Cal. Penal Code \u00a7 632."
+    },
+    {
+      "defense": "Plaintiff failed to adequately allege lack of consent to the interception and recording of calls.",
+      "legal_basis": "Pleading standards under Federal Rule of Civil Procedure 12(b)(6) and consent exceptions under CIPA \u00a7\u00a7 631 and 632."
+    },
+    {
+      "defense": "Use of call data to improve AI software does not transform ConverseNow into a third-party interceptor under CIPA.",
+      "legal_basis": "Capability approach and participant exception interpretations under Cal. Penal Code \u00a7 631."
+    },
+    {
+      "defense": "Isaacman\u2019s personal name is not a protected mark under the ACPA because it lacks secondary meaning or fame.",
+      "legal_basis": "Statutory requirements of the Anticybersquatting Consumer Protection Act, 15 U.S.C. \u00a7 1125(d), including requirement that a personal name function as a distinctive or famous mark."
+    },
+    {
+      "defense": "Plaintiffs cannot satisfy the elements for a preliminary injunction, including likelihood of success on the merits of the ACPA claim.",
+      "legal_basis": "General federal preliminary injunction standard (e.g., Winter v. NRDC and related precedent)."
+    },
+    {
+      "defense": "Denial of liability and wrongdoing regarding data collection, use, and sharing practices.",
+      "legal_basis": "General denial; assertion that practices complied with applicable federal and state privacy and consumer protection laws."
+    },
+    {
+      "defense": "Challenge to class certification and manageability absent settlement (e.g., differences in state laws, individualized issues).",
+      "legal_basis": "Federal Rule of Civil Procedure 23 requirements for class certification."
+    },
+    {
+      "defense": "Argument that users consented to data practices through terms of service and privacy policies.",
+      "legal_basis": "Contract and consent principles; enforceability of online terms and disclosures."
+    },
+    {
+      "defense": "Contestation of alleged damages and causation, including lack of concrete injury for all class members.",
+      "legal_basis": "Article III standing requirements and state-law injury and damages standards."
+    },
+    {
+      "defense": "The court lacks personal jurisdiction over Safariland, so claims against it cannot proceed.",
+      "legal_basis": "Personal jurisdiction requirements under Due Process Clause and applicable jurisdictional statutes/rules."
+    },
+    {
+      "defense": "GovGPT failed to allege a concrete antitrust injury and therefore lacks antitrust standing.",
+      "legal_basis": "Antitrust injury and standing requirements under the Sherman and Clayton Acts."
+    },
+    {
+      "defense": "GovGPT\u2019s complaint does not contain sufficient factual matter to state a plausible claim for relief.",
+      "legal_basis": "Pleading standards under Federal Rule of Civil Procedure 8(a) and the Twombly/Iqbal plausibility standard."
+    },
+    {
+      "defense": "Users gave implied or informed consent to data sharing through app use and disclosures",
+      "legal_basis": "Consent doctrines under state privacy and contract law, including California law"
+    },
+    {
+      "defense": "Flo\u2019s terms of service, including class action waiver, bar class litigation",
+      "legal_basis": "Enforcement of arbitration and class waiver provisions under state contract law"
+    },
+    {
+      "defense": "Data sharing via SDKs was consistent with disclosed analytics and advertising practices",
+      "legal_basis": "Contract interpretation and disclosure-based defenses under consumer protection and contract law"
+    },
+    {
+      "defense": "No reasonable expectation of privacy in data shared with third-party platforms",
+      "legal_basis": "Limits on privacy and intrusion claims under California and other state privacy doctrines"
+    },
+    {
+      "defense": "Defendants\u2019 use of FIZZ for a group ordering app is unlikely to cause consumer confusion with plaintiff\u2019s social media platform.",
+      "legal_basis": "Opposition to preliminary injunction based on lack of likelihood of confusion under Lanham Act standards."
+    },
+    {
+      "defense": "Plaintiff cannot show irreparable harm from defendants\u2019 continued use of the FIZZ name for the Instacart app.",
+      "legal_basis": "Preliminary injunction standard requiring proof of irreparable harm."
+    },
+    {
+      "defense": "Balance of equities and public interest weigh against restricting defendants\u2019 use of the FIZZ name at this stage.",
+      "legal_basis": "Equitable factors for granting or denying a preliminary injunction."
+    },
+    {
+      "defense": "HP\u2019s use of \u201cWEX\u201d for its Workforce Experience Platform is not likely to cause consumer confusion because the parties operate in different business domains and offer distinct products and services.",
+      "legal_basis": "Trademark law standards for likelihood of confusion under the Lanham Act and related case law."
+    },
+    {
+      "defense": "Any similarity between HP\u2019s \u201cWEX\u201d name and WEX Inc.\u2019s marks is limited and does not infringe because consumers will recognize HP as the source of the software product.",
+      "legal_basis": "Lanham Act principles regarding distinctiveness, marketplace context, and consumer perception in assessing infringement."
+    },
+    {
+      "defense": "WEX Inc. will not suffer irreparable harm from HP\u2019s use of \u201cWEX,\u201d so extraordinary relief such as a preliminary injunction is unwarranted.",
+      "legal_basis": "Equitable standards for preliminary injunctions, including irreparable harm and balance of hardships."
+    },
+    {
+      "defense": "Salesforce is immune from plaintiffs\u2019 claims under Section 230 because it is an interactive computer service provider and plaintiffs\u2019 theory improperly treats Salesforce as the publisher of third\u2011party content on Backpage.",
+      "legal_basis": "47 U.S.C. \u00a7 230 (Communications Decency Act) \u2013 immunity for interactive computer service providers from being treated as the publisher or speaker of information provided by another information content provider."
+    },
+    {
+      "defense": "Plaintiffs failed to plausibly allege that Salesforce knowingly benefited from, or knowingly participated in, the specific sex trafficking venture involving G.G., as required for civil liability under the TVPRA.",
+      "legal_basis": "18 U.S.C. \u00a7 1595 (Trafficking Victims Protection Reauthorization Act) \u2013 requirement of knowing benefit and participation in a sex trafficking venture."
+    },
+    {
+      "defense": "Salesforce\u2019s provision of generic CRM software and business services to Backpage constitutes routine commercial conduct and does not amount to participation in a sex trafficking venture.",
+      "legal_basis": "18 U.S.C. \u00a7 1595 as interpreted by case law distinguishing ordinary commercial relationships from knowing participation in a trafficking venture."
+    },
+    {
+      "defense": "The amended complaint failed to state a claim for monopolization or anticompetitive conduct under federal and state antitrust laws.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) (failure to state a claim) and substantive antitrust standards for monopolization and exclusionary conduct.",
+      "outcome": "Court rejected this defense at the pleading stage and denied the motion to dismiss."
+    },
+    {
+      "defense": "Plaintiffs lacked standing to bring the antitrust claims, including failure to show cognizable injury and proper enforcement authority.",
+      "legal_basis": "Article III standing doctrine and statutory limits on federal and state antitrust enforcement authority.",
+      "outcome": "Court rejected the standing challenge and held that plaintiffs adequately alleged standing."
+    },
+    {
+      "defense": "The plaintiffs\u2019 alleged relevant markets, including the smartphone and performance smartphone markets, were improperly defined or implausible as a matter of law.",
+      "legal_basis": "Antitrust law requirements for defining relevant product and geographic markets in monopolization cases.",
+      "outcome": "Court found the market definitions plausibly alleged and declined to dismiss on this basis."
+    },
+    {
+      "defense": "Apple\u2019s policies regarding super apps, cloud streaming apps, text messaging, smartwatches, and digital wallets were lawful product design or business justifications, not anticompetitive conduct.",
+      "legal_basis": "Antitrust principles allowing unilateral product design and business decisions absent exclusionary conduct or harm to competition.",
+      "outcome": "Court held that, at the motion\u2011to\u2011dismiss stage, plaintiffs plausibly alleged these practices could be exclusionary and refused to dismiss on this justification\u2011based defense."
+    },
+    {
+      "defense": "The policy\u2019s \u201cviolation-of-statutes\u201d exclusion, including its catch-all clause, bars coverage for any claims arising out of statutes that regulate the sending, transmitting, communicating, or distribution of information, which Citizens argues encompasses BIPA claims.",
+      "legal_basis": "Contract interpretation of insurance policy exclusion; argument that BIPA is a statute regulating the communication or distribution of information, thus unambiguously within the exclusion."
+    },
+    {
+      "defense": "Because the exclusion bars coverage, Citizens has no duty to defend or indemnify Wynndalco in the underlying BIPA and related lawsuits.",
+      "legal_basis": "Illinois insurance law principle that if an exclusion clearly applies, the insurer owes no duty to defend or indemnify."
+    },
+    {
+      "defense": "The challenged statements about Intrusion Shield were accurate, forward-looking, or non-actionable corporate puffery and therefore not materially false or misleading.",
+      "legal_basis": "Federal securities law standards for material misrepresentation and the PSLRA safe harbor for forward-looking statements."
+    },
+    {
+      "defense": "Plaintiffs could not prove loss causation or that the alleged misstatements, rather than other market factors, caused the stock price decline and investor losses.",
+      "legal_basis": "Loss causation requirement under Section 10(b) and Rule 10b-5."
+    },
+    {
+      "defense": "Plaintiffs could not establish scienter, i.e., that defendants acted with intent to deceive or with severe recklessness regarding statements about Intrusion Shield.",
+      "legal_basis": "Scienter requirement under federal securities fraud jurisprudence and the PSLRA."
+    },
+    {
+      "defense": "Class certification requirements, including predominance and typicality, were not satisfied because individual issues would predominate over common ones.",
+      "legal_basis": "Federal Rule of Civil Procedure 23 requirements for securities-fraud class actions."
+    },
+    {
+      "defense": "Evidence unrelated to the specific WAA practices\u2014such as non-U.S. consumer studies, unrelated lawsuits, and Alphabet\u2019s overall revenues\u2014is irrelevant, unduly prejudicial, and should be excluded from trial.",
+      "legal_basis": "Federal Rules of Evidence 401\u2013403 regarding relevance, prejudice, confusion, and waste of time.",
+      "defense_outcome": "Court largely agreed and excluded such unrelated evidence, allowing only materials directly tied to the services and practices at issue."
+    },
+    {
+      "defense": "Trial on punitive damages should be separated from compensatory damages to avoid prejudice and jury confusion.",
+      "legal_basis": "Court\u2019s inherent case-management authority and Federal Rules of Civil Procedure permitting bifurcation of issues for convenience, to avoid prejudice, or to expedite and economize.",
+      "defense_outcome": "Court granted Google\u2019s motion to bifurcate, ordering separate phases for compensatory and punitive damages."
+    },
+    {
+      "defense": "Plaintiff lacks Article III standing because he failed to allege a concrete, particularized injury in fact.",
+      "legal_basis": "U.S. Constitution Article III; standing doctrine requiring concrete, actual or imminent injury; precedents such as Spokeo and TransUnion."
+    },
+    {
+      "defense": "Any alleged harms from data sharing are speculative, with no demonstrated misuse, disclosure, or re-identification of plaintiff\u2019s data.",
+      "legal_basis": "Federal standing case law requiring non-speculative, real-world harm rather than hypothetical or conjectural injuries."
+    },
+    {
+      "defense": "No cognizable damages from alleged breach of contract or consumer fraud because plaintiff did not suffer economic loss or concrete privacy harm.",
+      "legal_basis": "State contract and consumer protection law damages requirements, combined with federal standing principles."
+    },
+    {
+      "defense": "Anonymization and de-identification of patient data complied with applicable privacy standards, undermining any claim of concrete privacy invasion.",
+      "legal_basis": "Health privacy regulatory framework (e.g., HIPAA de-identification concepts) and common-law privacy principles limiting liability for de-identified data use."
+    },
+    {
+      "defense": "Plaintiff lacks standing to sue for infringement of the federally registered trademarks because it never received a valid assignment of those marks.",
+      "legal_basis": "Lanham Act \u00a7 32(1) requires ownership of the registered mark; standing doctrine for trademark plaintiffs."
+    },
+    {
+      "defense": "Plaintiff has no protectable rights in the asserted unregistered 'Rex' marks because they lack distinctiveness and/or secondary meaning.",
+      "legal_basis": "Lanham Act \u00a7 43(a) protection for unregistered marks requires distinctiveness or secondary meaning."
+    },
+    {
+      "defense": "Defendant\u2019s use of 'Rex' does not create a likelihood of consumer confusion with plaintiff\u2019s services.",
+      "legal_basis": "Lanham Act likelihood-of-confusion standard under \u00a7\u00a7 32(1) and 43(a)."
+    },
+    {
+      "defense": "The settlement is fair, reasonable, and adequate, and there is no evidence of fraud or collusion in reaching the agreement.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for approval of class action settlements; general principles of class action fairness review."
+    },
+    {
+      "defense": "Implicit defense that alleged statements about Intrusion Shield and its AI capabilities were not actionable securities fraud (e.g., not materially false or misleading, or not made with scienter).",
+      "legal_basis": "Section 10(b) and Rule 10b-5 standards for material misrepresentation, scienter, reliance, loss causation, and damages, though ultimately not adjudicated due to settlement."
+    },
+    {
+      "defense": "Guy Ravine claimed he, not OpenAI, owned a valid \u201cOpen AI\u201d trademark with priority.",
+      "legal_basis": "Trademark ownership and priority under the Lanham Act based on alleged earlier use and registration."
+    },
+    {
+      "defense": "Assertion that OpenAI, Inc. lacked secondary meaning or a protectible mark at the time of Ravine\u2019s use.",
+      "legal_basis": "Requirement of distinctiveness and secondary meaning for protection of descriptive or non-inherently distinctive marks."
+    },
+    {
+      "defense": "Implied argument that there was no actionable infringement because OpenAI had no exclusive rights to the term \u201cOpen AI\u201d.",
+      "legal_basis": "Lanham Act infringement elements requiring a valid, protectible mark and likelihood of confusion."
+    },
+    {
+      "defense": "Lack of personal jurisdiction because GeoSnap is an Australian company with allegedly insufficient contacts with Illinois.",
+      "legal_basis": "Due process limits on personal jurisdiction under the U.S. Constitution and Illinois long-arm statute.",
+      "defense_outcome": "Rejected; court held GeoSnap purposefully directed activities at Illinois and denied motion to dismiss for lack of personal jurisdiction."
+    },
+    {
+      "defense": "Claims must be arbitrated under arbitration clauses in Tough Mudder participant liability waivers signed by plaintiffs.",
+      "legal_basis": "Federal Arbitration Act and contract law principles enforcing arbitration agreements.",
+      "defense_outcome": "Court denied motion to compel arbitration; GeoSnapShot, a non-signatory, cannot enforce the clauses."
+    },
+    {
+      "defense": "GeoSnapShot is a third-party beneficiary of the Tough Mudder liability waivers and thus entitled to enforce their arbitration and related provisions.",
+      "legal_basis": "State contract and third\u2011party beneficiary law allowing non-signatories to enforce contracts intended for their benefit.",
+      "defense_outcome": "Rejected; court found no clear intent to directly benefit GeoSnapShot or similar non-signatories."
+    },
+    {
+      "defense": "Complaint should be dismissed based on the terms, releases, or limitations contained in the Tough Mudder agreements signed by plaintiffs.",
+      "legal_basis": "Contract law defenses based on releases, waivers, and limitation-of-liability provisions in event participation agreements.",
+      "defense_outcome": "Denied; court found contract formation and applicability problems and insufficient evidence that plaintiffs agreed to GeoSnapShot\u2019s terms."
+    },
+    {
+      "defense": "No likelihood of consumer confusion between plaintiff\u2019s marks and defendant\u2019s \u201cMDacne\u201d mark.",
+      "legal_basis": "Lanham Act likelihood-of-confusion standard; summary judgment standard for absence of material factual dispute."
+    },
+    {
+      "defense": "Advertising statements were not false or misleading and lacked evidence of deception or materiality.",
+      "legal_basis": "Lanham Act \u00a7 43(a) false advertising elements and analogous California law requirements."
+    },
+    {
+      "defense": "Plaintiff\u2019s expert evidence on confusion and advertising impact was unreliable and inadmissible.",
+      "legal_basis": "Federal Rules of Evidence 702 and Daubert reliability standard for expert testimony."
+    },
+    {
+      "defense": "Plaintiff failed to state a claim for invasion of privacy because the alleged conduct and data exposure do not meet the required standard of egregiousness or highly offensive intrusion.",
+      "legal_basis": "California privacy jurisprudence requiring an egregious breach of social norms for invasion of privacy claims."
+    },
+    {
+      "defense": "Plaintiff failed to state an \u201cunlawful\u201d UCL claim because she did not identify specific statutes, regulations, or FTC rules that SNSC allegedly violated.",
+      "legal_basis": "California Business & Professions Code \u00a7 17200 \u201cunlawful\u201d prong pleading requirements."
+    },
+    {
+      "defense": "Plaintiff\u2019s remaining UCL and negligence claims are inadequately pleaded and should be dismissed for failure to allege sufficient facts showing breach, causation, and cognizable injury.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) failure to state a claim; general negligence and UCL pleading standards."
+    },
+    {
+      "defense": "Plaintiff\u2019s allegations were factually unsupported and copied from an unrelated case, rendering the complaint improper.",
+      "legal_basis": "Federal Rule of Civil Procedure 11(b) (duty to ensure factual and legal basis for pleadings)."
+    },
+    {
+      "defense": "Plaintiff and her counsel failed to comply with discovery obligations, necessitating a motion to compel and cost-shifting.",
+      "legal_basis": "Federal Rules of Civil Procedure 26 and 37 (discovery duties and sanctions)."
+    },
+    {
+      "defense": "Requested attorney\u2019s fees should be limited because modern legal practice uses templates and technology, reducing the reasonable time and cost of preparing motions.",
+      "legal_basis": "Standards for determining reasonable attorney\u2019s fees under federal fee-shifting and sanctions jurisprudence (lodestar reasonableness)."
+    },
+    {
+      "defense": "Lack of personal jurisdiction over GeoSnapShot Pty Ltd because it is an Australian company with allegedly insufficient contacts with Illinois.",
+      "legal_basis": "Due Process Clause; Illinois long-arm statute; minimum contacts requirement for specific jurisdiction."
+    },
+    {
+      "defense": "Lack of personal jurisdiction over GeoSnapShot, Inc. due to allegedly inadequate or attenuated connections to Illinois and the challenged biometric data collection.",
+      "legal_basis": "Due Process Clause; Illinois long-arm statute; minimum contacts and fairness principles for exercising jurisdiction."
+    },
+    {
+      "defense": "Preclusion doctrines bar re-litigation of claims previously decided in earlier lawsuits brought by plaintiff",
+      "legal_basis": "Res judicata (claim preclusion) and collateral estoppel (issue preclusion) under federal preclusion principles."
+    },
+    {
+      "defense": "Failure to state a claim because allegations are conclusory and do not plausibly show discrimination or retaliation",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) and Twombly/Iqbal pleading standards."
+    },
+    {
+      "defense": "Failure to exhaust administrative remedies for certain discrimination and retaliation theories",
+      "legal_basis": "Statutory exhaustion requirements under federal and/or state employment discrimination laws (e.g., EEOC/administrative charge prerequisites)."
+    },
+    {
+      "defense": "Impropriety of default judgment because defendant appeared and defended, and procedural prerequisites for default were not satisfied",
+      "legal_basis": "Federal Rules of Civil Procedure 55 and related case law governing entry of default and default judgment."
+    },
+    {
+      "defense": "Futility and undue speculation in proposed amendment to add BlackRock as a defendant",
+      "legal_basis": "Federal Rule of Civil Procedure 15(a) (leave to amend may be denied as futile) and case law requiring non-speculative factual allegations against new parties."
+    },
+    {
+      "defense": "Opposition to Apple\u2019s intervention on the ground that the motion was untimely given the long pendency of the case and Apple\u2019s delay after recognizing potential inadequacy of representation.",
+      "legal_basis": "Timeliness requirement under Federal Rule of Civil Procedure 24; equitable considerations regarding delay, prejudice to existing parties, and stage of proceedings."
+    },
+    {
+      "defense": "Argument that existing parties, including Google, adequately represented any overlapping interests Apple claimed in the remedial phase, reducing the need for intervention.",
+      "legal_basis": "Adequate representation element under Federal Rule of Civil Procedure 24(a)(2)."
+    },
+    {
+      "defense": "Invoca is merely a tool or extension of VITAS, not a separate third party, so CIPA \u00a7 631(a) does not apply.",
+      "legal_basis": "Interpretation of \u201cthird party\u201d under Cal. Penal Code \u00a7 631(a) and related California case law limiting liability when a vendor acts only as the service provider\u2019s agent."
+    },
+    {
+      "defense": "Plaintiff failed to state a claim because the alleged call recording and analysis do not constitute unlawful interception or eavesdropping under CIPA.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) failure-to-state-a-claim standard and statutory interpretation of CIPA\u2019s interception and consent requirements."
+    },
+    {
+      "defense": "No likelihood of consumer confusion because defendants\u2019 Roblox-based Adopt Me! game is distinct from plaintiff\u2019s products.",
+      "legal_basis": "Substantive trademark law standard for infringement and unfair competition under the Lanham Act and state law."
+    },
+    {
+      "defense": "Use of the Adopt Me! name and related domains is lawful and non-infringing, reflecting defendants\u2019 own brand and game.",
+      "legal_basis": "Lanham Act defenses to infringement and unfair competition; challenge to plausibility of complaint under Rule 12(b)(6)."
+    },
+    {
+      "defense": "Complaint contains irrelevant, hyperbolic, or prejudicial allegations that should be removed from the pleadings.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(f) motion to strike immaterial, impertinent, or scandalous matter."
+    },
+    {
+      "defense": "The Illinois federal court lacks personal jurisdiction over Bumble and related entities because they are not Illinois companies and do not have sufficient contacts with Illinois.",
+      "legal_basis": "Due process limits on specific personal jurisdiction under the Fourteenth Amendment and Federal Rule of Civil Procedure 12(b)(2)."
+    },
+    {
+      "defense": "Any alleged BIPA violations did not arise from Bumble\u2019s contacts with Illinois, so the required nexus for specific jurisdiction is missing.",
+      "legal_basis": "Specific personal jurisdiction doctrine requiring that claims arise out of or relate to forum contacts."
+    },
+    {
+      "defense": "Bumble\u2019s marketing and app availability in Illinois are insufficient to constitute purposeful availment or targeting of the Illinois market for jurisdictional purposes.",
+      "legal_basis": "Constitutional minimum contacts and purposeful availment standards under U.S. Supreme Court precedent (e.g., International Shoe and progeny)."
+    },
+    {
+      "defense": "Overjet\u2019s color, shape, and shading scheme for X\u2011ray annotations is not protectable by copyright (functional, generic, or lacking originality).",
+      "legal_basis": "Copyright law limits on protectability of functional or non\u2011original design elements."
+    },
+    {
+      "defense": "No substantial similarity or copying of any protectable expression in Overjet\u2019s annotated X\u2011ray displays.",
+      "legal_basis": "Copyright infringement requires copying of protectable expression and substantial similarity."
+    },
+    {
+      "defense": "Videa\u2019s advertising about its AI capabilities is not false or misleading, or is non\u2011actionable marketing puffery.",
+      "legal_basis": "Lanham Act false advertising standards requiring material falsity or deception."
+    },
+    {
+      "defense": "Overjet cannot show irreparable harm or that the balance of equities and public interest favor an injunction.",
+      "legal_basis": "Preliminary injunction standard under federal equitable principles."
+    },
+    {
+      "defense": "Failure to state a claim of racial discrimination; complaint lacked facts supporting an inference of discriminatory motive in hiring decisions.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6); Title VII pleading standards under Twombly/Iqbal."
+    },
+    {
+      "defense": "Lack of Article III standing to challenge the agency\u2019s COVID-19 response and policies.",
+      "legal_basis": "U.S. Constitution Article III case-or-controversy requirement; standing doctrine (injury in fact, traceability, redressability)."
+    },
+    {
+      "defense": "Sovereign immunity bars claims against the state agency for certain requested relief and causes of action.",
+      "legal_basis": "Eleventh Amendment and related sovereign immunity principles protecting state agencies from suit absent waiver or valid abrogation."
+    },
+    {
+      "defense": "Futility of amendment; additional amendments would not cure legal deficiencies in plaintiff\u2019s claims.",
+      "legal_basis": "Federal Rule of Civil Procedure 15(a); court\u2019s discretion to deny leave to amend when amendment would be futile."
+    },
+    {
+      "defense": "Lack of Article III standing because alleged biometric privacy violations did not constitute a concrete injury.",
+      "legal_basis": "U.S. Constitution Article III standing requirements; Spokeo and related precedent."
+    },
+    {
+      "defense": "Failure to state a claim under BIPA because Macy\u2019s alleged conduct did not amount to collection, capture, or use of biometric identifiers/information as defined by the statute.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6); interpretation of Illinois BIPA."
+    },
+    {
+      "defense": "California Unfair Competition Law claims insufficient because plaintiffs did not adequately allege economic injury or actionable unfair/unlawful conduct attributable to Macy\u2019s.",
+      "legal_basis": "California Unfair Competition Law, Cal. Bus. & Prof. Code \u00a7 17200 et seq.; Rule 12(b)(6)."
+    },
+    {
+      "defense": "New York unjust enrichment claim improper because it was duplicative of other claims and lacked a sufficiently direct relationship between Macy\u2019s benefit and plaintiffs\u2019 alleged loss.",
+      "legal_basis": "New York common law of unjust enrichment; Rule 12(b)(6)."
+    },
+    {
+      "defense": "State-law claims outside Illinois, California, and New York, or extraterritorial application of certain statutes, were barred or inadequately pled.",
+      "legal_basis": "State statutory limits on extraterritorial application; Rule 12(b)(6)."
+    },
+    {
+      "defense": "The statutory violation exclusion does not clearly apply to BIPA claims and is ambiguous.",
+      "legal_basis": "Illinois insurance law requiring ambiguities in policy language to be construed in favor of the insured and against the drafter/insurer."
+    },
+    {
+      "defense": "BIPA claims fall within the policy\u2019s coverage for personal and advertising injury, including violations of privacy rights.",
+      "legal_basis": "Policy provisions defining covered \u201cpersonal and advertising injury,\u201d including offenses involving privacy rights; general principles of broad duty to defend when allegations potentially fall within coverage."
+    },
+    {
+      "defense": "Denial that the MV+AI system collected \u201cbiometric identifiers\u201d or \u201cbiometric information\u201d as defined by BIPA.",
+      "legal_basis": "Statutory interpretation of BIPA definitions under 740 ILCS 14/10 and related provisions."
+    },
+    {
+      "defense": "Assertion that any collection or use of data was consented to or otherwise lawful and compliant with applicable policies and agreements.",
+      "legal_basis": "Compliance with BIPA notice and consent requirements; contractual consent principles."
+    },
+    {
+      "defense": "Settlement without admission of liability or wrongdoing regarding alleged BIPA violations.",
+      "legal_basis": "Standard class action settlement terms preserving defendants\u2019 denial of liability."
+    },
+    {
+      "defense": "Plaintiff lacks Article III standing because he failed to allege a concrete, particularized, and actual or imminent injury traceable to defendants\u2019 conduct.",
+      "legal_basis": "U.S. Constitution Article III standing requirements; federal justiciability doctrine."
+    },
+    {
+      "defense": "Complaint fails to state a claim upon which relief can be granted because the conspiracy and harm allegations are speculative and not plausibly pled.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) and plausibility standard under Twombly/Iqbal."
+    },
+    {
+      "defense": "Non-compete agreement is overbroad and unenforceable.",
+      "legal_basis": "Contract law and state public policy limiting restrictive covenants in scope, geography, and duration."
+    },
+    {
+      "defense": "No actual or threatened misappropriation of trade secrets occurred.",
+      "legal_basis": "Trade secret statutes require proof of misappropriation or concrete threat; mere knowledge and competition are insufficient."
+    },
+    {
+      "defense": "Plaintiff cannot show likelihood of success or irreparable harm required for TRO.",
+      "legal_basis": "Federal standard for temporary restraining orders and preliminary injunctions under Rule 65 and equitable principles."
+    },
+    {
+      "defense": "Plaintiffs lack Article III standing because alleged BIPA violations do not constitute a concrete injury-in-fact.",
+      "legal_basis": "U.S. Constitution, Article III; federal standing precedents limiting statutory injury claims."
+    },
+    {
+      "defense": "Complaint fails to state a claim under BIPA because Arlo\u2019s conduct is not covered by the statute or the allegations are too conclusory or speculative.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6); interpretation of Illinois Biometric Information Privacy Act scope and pleading standards."
+    },
+    {
+      "defense": "Arlo\u2019s motion to strike plaintiffs\u2019 supplemental authority, arguing that the additional authority was improper or irrelevant to the court\u2019s consideration of the motion to dismiss.",
+      "legal_basis": "Court\u2019s inherent authority and Federal Rules of Civil Procedure governing motion practice and supplemental filings."
+    },
+    {
+      "defense": "Failure to state a claim because alleged conduct does not fall within the scope of BIPA\u2019s definition of biometric identifiers or covered activities.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6); interpretation of 740 ILCS 14/10 and 14/15."
+    },
+    {
+      "defense": "Plaintiffs lack standing because they did not suffer a concrete injury from alleged biometric collection and use.",
+      "legal_basis": "Article III standing requirements under the U.S. Constitution; Spokeo and related precedent."
+    },
+    {
+      "defense": "Preemption or displacement of certain state-law claims, including New York unjust enrichment, by existing statutory schemes.",
+      "legal_basis": "State-law preemption doctrines and statutory exclusivity, particularly under New York law."
+    },
+    {
+      "defense": "Compliance with or exemption from applicable privacy statutes due to the public availability of the scraped images on the internet.",
+      "legal_basis": "Statutory interpretation of BIPA and other state privacy laws regarding publicly available information."
+    },
+    {
+      "defense": "First Amendment and free-speech protections for collecting, analyzing, and disseminating publicly available information, including images.",
+      "legal_basis": "U.S. Constitution, First Amendment; state constitutional free-speech protections."
+    },
+    {
+      "defense": "Drift acted merely as Peloton\u2019s tool or agent, not as a third-party eavesdropper, so there was no unlawful interception under CIPA \u00a7 631(a).",
+      "legal_basis": "Interpretation of \u201cthird-party eavesdropper\u201d and party exception under Cal. Penal Code \u00a7 631(a)."
+    },
+    {
+      "defense": "Plaintiff failed to state a plausible claim because the alleged conduct falls outside the scope of CIPA\u2019s interception prohibitions.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) failure to state a claim; statutory interpretation of CIPA \u00a7 631(a)."
+    },
+    {
+      "defense": "Denial of liability and contention that Quintus\u2019s financial statements and disclosures were not materially false or misleading.",
+      "legal_basis": "General denial under federal securities law standards for materiality, scienter, and causation."
+    },
+    {
+      "defense": "Argument that even if misstatements existed, plaintiffs could not prove loss causation or damages attributable to the alleged fraud.",
+      "legal_basis": "Federal securities law requirements for proving loss causation and damages under Section 10(b)/Rule 10b-5."
+    },
+    {
+      "defense": "Assertion that risks and uncertainties were adequately disclosed and that investors were aware of market and business risks.",
+      "legal_basis": "Safe harbor and risk disclosure principles under federal securities laws and related case law."
+    },
+    {
+      "defense": "Further litigation would be risky for plaintiffs due to difficulties in proving falsity, scienter, loss causation, and damages, especially given Quintus\u2019s bankruptcy and limited resources.",
+      "legal_basis": "General defenses under federal securities law standards (e.g., lack of scienter, lack of material misrepresentation, no loss causation) and practical insolvency/bankruptcy constraints on recovery."
+    },
+    {
+      "defense": "Settlement is preferable to continued litigation because of the company\u2019s bankruptcy status, which limits potential recovery even if plaintiffs prevailed at trial.",
+      "legal_basis": "Bankruptcy law constraints on collectability and judicial policy favoring settlement in complex securities class actions."
+    },
+    {
+      "defense": "Continued litigation posed high risk and uncertainty of recovery for plaintiffs, given evidentiary challenges and defenses available to defendants on falsity, scienter, and loss causation.",
+      "legal_basis": "Practical and legal litigation-risk considerations under Federal Rule of Civil Procedure 23(e) fairness analysis for class settlements."
+    },
+    {
+      "defense": "Quintus\u2019s bankruptcy and limited available assets constrained potential recovery, making a larger judgment unlikely to be collectible.",
+      "legal_basis": "Bankruptcy law constraints and collectability concerns considered under Rule 23(e) in evaluating settlement fairness."
+    },
+    {
+      "defense": "Absence of objections from class members and their overall support for the settlement indicated that the compromise was reasonable and in their best interests.",
+      "legal_basis": "Class action settlement approval standards under Rule 23(e), focusing on reaction of the class to the proposed settlement."
+    },
+    {
+      "defense": "The proposed settlement and plan of allocation are fair, reasonable, and adequate to the class in light of litigation risks, Quintus\u2019s bankruptcy, and limited available funds.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for approval of class action settlements, including factors such as risk, expense, complexity, and amount offered in settlement."
+    },
+    {
+      "defense": "Requested attorney fees and expenses are reasonable given the results achieved, the risks undertaken, and prevailing benchmarks for common fund securities class actions.",
+      "legal_basis": "Rule 23(h) and Ninth Circuit precedent on percentage-of-recovery and lodestar cross-check for fee awards in class actions."
+    },
+    {
+      "defense": "The proposed settlement is fair, reasonable, and adequate and should be approved.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for class action settlement approval."
+    },
+    {
+      "defense": "The plan of allocation fairly distributes the settlement fund among class members.",
+      "legal_basis": "Equitable principles and Rule 23(e) requirements that allocation be fair, reasonable, and adequate."
+    },
+    {
+      "defense": "Requested attorney fees and expenses are reasonable given the risks, complexity, and results achieved.",
+      "legal_basis": "Rule 23(h) and common fund doctrine permitting reasonable fee awards in successful class actions."
+    },
+    {
+      "defense": "The proposed settlement and plan of allocation are fair, reasonable, and adequate in light of the risks, costs, and delay of continued securities litigation and Quintus\u2019s bankruptcy.",
+      "legal_basis": "Standards for class action settlements under Federal Rule of Civil Procedure 23(e) and case law evaluating fairness, reasonableness, and adequacy."
+    },
+    {
+      "defense": "The requested attorney fees and expense reimbursements are reasonable given the results obtained, the complexity and risk of the case, and the contingent nature of counsel\u2019s representation.",
+      "legal_basis": "Common fund doctrine, Rule 23(h), and prevailing case law on reasonableness of class counsel fee awards."
+    },
+    {
+      "defense": "The proposed settlement is fair, reasonable, and adequate and should be approved, resolving all claims without further litigation risk and expense.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for approval of class action settlements and case law favoring settlement of complex securities litigation."
+    },
+    {
+      "defense": "The plan of allocation fairly reflects relative damages and trading positions of class members and treats class members equitably.",
+      "legal_basis": "Rule 23(e) fairness requirements and judicial discretion to approve reasonable allocation formulas in securities class actions."
+    },
+    {
+      "defense": "Requested attorney fees and expenses are reasonable in light of the results achieved, risks undertaken, and complexity of the litigation.",
+      "legal_basis": "Rule 23(h), common fund doctrine, and lodestar/percentage-of-fund standards for fee awards in class actions."
+    },
+    {
+      "defense": "The proposed settlement is fair, reasonable, and adequate in light of litigation risks, potential recovery, and costs of continued proceedings.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for approval of class action settlements."
+    },
+    {
+      "defense": "The proposed settlement and allocation plan are fair, reasonable, and adequate given litigation risks, complexity, and costs.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for approval of class action settlements and relevant Ninth Circuit precedent."
+    },
+    {
+      "defense": "No objections from class members indicate support for the settlement and allocation, reinforcing its fairness and adequacy.",
+      "legal_basis": "Class action settlement jurisprudence considering reaction of the class as a factor under Rule 23(e)."
+    },
+    {
+      "defense": "Attorneys\u2019 fees and expense reimbursement requested are reasonable in light of the results achieved and the risks undertaken in complex securities litigation.",
+      "legal_basis": "Court\u2019s equitable authority to award fees in common fund class actions; standards under federal securities class action fee jurisprudence."
+    },
+    {
+      "defense": "Further litigation posed substantial risk to plaintiffs due to Quintus\u2019s poor financial condition and bankruptcy, limiting potential recovery even if plaintiffs prevailed at trial.",
+      "legal_basis": "Practical and equitable considerations under Rule 23(e) fairness analysis for class action settlements, including ability to pay and collect judgments."
+    },
+    {
+      "defense": "The comprehensive settlement among various litigants, with no objections from class members, supports a finding that the compromise is fair, reasonable, and adequate.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for approval of class action settlements, considering reaction of the class and overall settlement structure."
+    },
+    {
+      "defense": "Plaintiff is barred from proceeding in forma pauperis because he has accumulated more than three prior dismissals qualifying as \u201cstrikes\u201d under the Prison Litigation Reform Act.",
+      "legal_basis": "28 U.S.C. \u00a7 1915(g) (PLRA three-strikes provision)."
+    },
+    {
+      "defense": "Complaint fails to state a claim upon which relief can be granted because it does not allege specific, plausible facts showing a legal violation by USPTO or other defendants.",
+      "legal_basis": "Fed. R. Civ. P. 12(b)(6); pleading standards under 28 U.S.C. \u00a7\u00a7 1915(e)(2)(B), 1915A and Twombly/Iqbal."
+    },
+    {
+      "defense": "Challenge to Gardner\u2019s adequacy and superiority as lead plaintiff, arguing he lacked the largest financial interest and did not best represent the class.",
+      "legal_basis": "PSLRA \u201cmost adequate plaintiff\u201d standard, 15 U.S.C. \u00a7 78u-4(a)(3)(B), and Rule 23 adequacy and typicality requirements used to rebut the presumption of lead plaintiff status."
+    },
+    {
+      "defense": "Implicit contention that competing movants other than Grondin should not be appointed because they failed to meet PSLRA procedural requirements (timely motion, certification, loss showing).",
+      "legal_basis": "PSLRA procedural prerequisites for lead plaintiff motions, including notice, 60-day filing window, sworn certification, and demonstration of financial interest."
+    },
+    {
+      "defense": "Gray cannot establish that Experian reported any inaccurate information about him.",
+      "legal_basis": "Element of an FCRA claim under \u00a7 1681e(b) and \u00a7 1681i requires proof of inaccuracy; absence of inaccuracy defeats liability."
+    },
+    {
+      "defense": "Experian followed reasonable procedures and conducted appropriate reinvestigations in response to Gray\u2019s disputes.",
+      "legal_basis": "Compliance with FCRA duties under 15 U.S.C. \u00a7\u00a7 1681e(b) and 1681i; reasonable procedures and reinvestigation negate liability."
+    },
+    {
+      "defense": "Gray lacks admissible evidence of causation and damages allegedly resulting from Experian\u2019s credit reporting.",
+      "legal_basis": "FCRA damages provisions, 15 U.S.C. \u00a7\u00a7 1681n, 1681o, require proof of actual damages and causal connection to any violation."
+    },
+    {
+      "defense": "Plaintiff\u2019s AI-generated phone-call transcript is inadmissible and cannot create a genuine dispute of material fact.",
+      "legal_basis": "Federal Rules of Evidence on authentication and reliability; unsupported, AI-generated transcript deemed insufficient to oppose summary judgment."
+    },
+    {
+      "defense": "Quintus\u2019s limited financial resources and ongoing bankruptcy constrained its ability to pay larger judgments or settlements, supporting the reasonableness of the negotiated settlement amount.",
+      "legal_basis": "Practical and equitable considerations in class action settlement review; factors under Rule 23(e) assessing fairness, reasonableness, and adequacy, including defendants\u2019 financial condition and risks of continued litigation."
+    },
+    {
+      "defense": "Risks and uncertainties of continued litigation, including challenges in proving liability, scienter, loss causation, and damages, and the possibility of no or reduced recovery if the case proceeded to trial.",
+      "legal_basis": "Rule 23(e) settlement fairness factors, which require the court to weigh the strength of plaintiffs\u2019 case against the risks, expense, complexity, and likely duration of further litigation."
+    },
+    {
+      "defense": "Further litigation would be complex and risky, with uncertainty of recovery given Quintus\u2019s bankruptcy and contested liability.",
+      "legal_basis": "General defenses to securities fraud liability and practical limitations on collectability in bankruptcy, supporting settlement approval rather than continued litigation."
+    },
+    {
+      "defense": "The Michigan federal court lacked personal jurisdiction over the primarily California-based Defendants because they had insufficient contacts with Michigan related to Plaintiffs\u2019 claims.",
+      "legal_basis": "Federal due process requirements for personal jurisdiction under the Fourteenth Amendment and applicable Michigan long-arm statute; minimum contacts and purposeful availment standards.",
+      "defense_outcome": "Accepted; court granted Defendants\u2019 motion to dismiss and terminated the case without reaching merits."
+    },
+    {
+      "defense": "Because personal jurisdiction was lacking, the court should dismiss the action without addressing the substantive allegations about ownership or alleged wrongful conduct.",
+      "legal_basis": "Procedural principle that jurisdictional issues must be resolved before merits; Federal Rules of Civil Procedure 12(b)(2).",
+      "defense_outcome": "Accepted; court dismissed on jurisdictional grounds and declined to consider substantive claims."
+    },
+    {
+      "defense": "Limited ability to pay due to Quintus\u2019s bankruptcy and lack of deeper financial resources, constraining potential recovery.",
+      "legal_basis": "Practical insolvency and bankruptcy constraints on collectability, affecting fairness and adequacy analysis of settlement under Rule 23(e)."
+    },
+    {
+      "defense": "Litigation risks and uncertainties regarding proving liability, scienter, and damages at trial.",
+      "legal_basis": "General securities litigation standards requiring proof of falsity, scienter, loss causation, and damages; used to justify compromise settlement as reasonable."
+    },
+    {
+      "defense": "The proposed settlement, including the amount and allocation, is fair, reasonable, and adequate given the risks of continued litigation, Quintus\u2019s bankruptcy, and limited resources.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for class action settlements and case law favoring settlement in complex securities and bankruptcy-related litigation."
+    },
+    {
+      "defense": "Bankruptcy and financial condition of Quintus significantly limit the potential recovery available to plaintiffs if litigation continued, justifying compromise.",
+      "legal_basis": "Bankruptcy law constraints on recovery from the debtor\u2019s estate and practical limits on collectability recognized in settlement-approval jurisprudence."
+    },
+    {
+      "defense": "The requested attorney fees and expenses are reasonable in light of the complexity, duration, and contingent risk of the securities class action.",
+      "legal_basis": "Common-fund doctrine and Rule 23(h) standards for awarding reasonable attorney fees and costs in class actions."
+    },
+    {
+      "defense": "The $10.1 million settlement amount and allocation are fair, reasonable, and adequate to the class in light of litigation risks and Quintus\u2019s bankruptcy.",
+      "legal_basis": "Standards for class action settlements under Federal Rule of Civil Procedure 23(e)."
+    },
+    {
+      "defense": "Requested attorney fees and expenses are reasonable given the results obtained, the risks undertaken, and the low lodestar multiplier.",
+      "legal_basis": "Common-fund doctrine and Rule 23(h) standards for fee awards in class actions."
+    },
+    {
+      "defense": "Defendants did not make false or misleading statements and adequately disclosed Quintus\u2019s true financial condition, so no securities fraud occurred.",
+      "legal_basis": "Substantive defenses under Section 10(b) and Rule 10b-5 requiring proof of material misrepresentation or omission and falsity."
+    },
+    {
+      "defense": "Any alleged misstatements or omissions were not material to a reasonable investor and therefore cannot support securities fraud liability.",
+      "legal_basis": "Materiality requirement under federal securities laws, including Section 10(b) and Rule 10b-5 jurisprudence."
+    },
+    {
+      "defense": "Defendants lacked the requisite scienter and did not act with intent to deceive, manipulate, or defraud investors.",
+      "legal_basis": "Scienter requirement for liability under Section 10(b) and Rule 10b-5."
+    },
+    {
+      "defense": "The decline in Quintus\u2019s stock price and investor losses were caused by market forces or other factors, not by any alleged misrepresentations by defendants.",
+      "legal_basis": "Loss causation requirement under federal securities law, including Section 10(b) and Rule 10b-5."
+    },
+    {
+      "defense": "Certain claims may be barred by applicable statutes of limitation or repose for federal securities fraud actions.",
+      "legal_basis": "Statutes of limitation and repose under the Securities Exchange Act and related federal law."
+    },
+    {
+      "defense": "Further litigation would be risky, costly, and complex given Quintus\u2019s bankruptcy and uncertain recovery prospects for shareholders.",
+      "legal_basis": "Fed. R. Civ. P. 23(e) factors assessing fairness, reasonableness, and adequacy of settlement compared to risks of continued litigation."
+    },
+    {
+      "defense": "Settlement amount and allocation plan provide a beneficial and certain recovery relative to potential but speculative trial outcomes.",
+      "legal_basis": "Judicial standards for evaluating class settlements under federal securities law and Rule 23(e) fairness analysis."
+    },
+    {
+      "defense": "The proposed settlement amount is fair, reasonable, and adequate given Quintus\u2019s bankruptcy and limited resources.",
+      "legal_basis": "Standards for approval of class action settlements under Federal Rule of Civil Procedure 23(e)."
+    },
+    {
+      "defense": "Settlement avoids risks, costs, and delays of continued securities litigation with uncertain recovery.",
+      "legal_basis": "Judicial policy favoring settlement of complex class actions and Rule 23(e) fairness factors, including risk, expense, complexity, and likely duration of further litigation."
+    },
+    {
+      "defense": "Denial of liability for securities fraud and contention that financial statements and disclosures were not materially false or misleading.",
+      "legal_basis": "Substantive defenses under Section 10(b) and Rule 10b-5, including lack of scienter, lack of material misstatement or omission, and lack of loss causation."
+    },
+    {
+      "defense": "Argument that, even if misstatements occurred, damages and class-wide impact were limited or speculative.",
+      "legal_basis": "Federal securities law principles on loss causation and damages; challenges to class-wide proof under Rule 23."
+    },
+    {
+      "defense": "Settlement is fair, reasonable, and adequate given litigation risks, bankruptcy, and limited resources.",
+      "legal_basis": "Standards for approval of class action settlements under Federal Rule of Civil Procedure 23(e)."
+    },
+    {
+      "defense": "Company\u2019s bankruptcy and limited assets constrain potential recovery for shareholders.",
+      "legal_basis": "Bankruptcy law principles and practical limits on recoverable assets in class action settlements."
+    },
+    {
+      "defense": "The proposed settlement amount and allocation are fair, reasonable, and adequate given litigation risks, causation and damages challenges, and Quintus\u2019s bankruptcy.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for class action settlements."
+    },
+    {
+      "defense": "Further litigation posed substantial risk of no or reduced recovery due to proof difficulties and limited assets in bankruptcy, justifying settlement approval.",
+      "legal_basis": "Case law interpreting Rule 23(e) factors (risk, complexity, expense, and likely duration of further litigation)."
+    },
+    {
+      "defense": "Class representatives must be publicly identified so that absent class members and the court can evaluate their adequacy, credibility, and potential conflicts of interest.",
+      "legal_basis": "Federal Rule of Civil Procedure 23 adequacy and typicality requirements; due process and transparency principles in class actions; strong presumption of open judicial proceedings."
+    },
+    {
+      "defense": "The general rule is that parties must proceed in their real names, and plaintiffs\u2019 concerns about embarrassment or reputational harm do not constitute the exceptional circumstances required to overcome this presumption for class representatives.",
+      "legal_basis": "Common-law and constitutional presumption of public access to judicial proceedings; case law limiting pseudonymous litigation to rare, exceptional cases (e.g., severe threats, highly sensitive matters)."
+    },
+    {
+      "defense": "The proposed settlement amount is fair, reasonable, and adequate given the substantial risks, costs, and delays of continued securities fraud litigation and the uncertainty of proving liability and damages at trial.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) factors for class settlement approval, including risk, complexity, expense, and likelihood of success on the merits."
+    },
+    {
+      "defense": "The plan of allocation treats class members equitably and rationally by tying recovery to each investor\u2019s recognized loss, thereby satisfying fairness and adequacy requirements.",
+      "legal_basis": "Rule 23(e) standards and case law requiring that allocation plans be fair, reasonable, and not arbitrarily favor particular class members."
+    },
+    {
+      "defense": "The requested attorneys\u2019 fees and expenses are reasonable in light of the size of the common fund, the contingent nature and risk of the case, the quality of representation, and results achieved.",
+      "legal_basis": "Common-fund doctrine and Rule 23(h), applying factors such as percentage-of-the-fund and lodestar cross-check to assess fee reasonableness."
+    },
+    {
+      "defense": "The proposed settlement is fair, reasonable, and adequate given litigation risks, complexity, and costs.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for approval of class action settlements and relevant case law on fairness and adequacy."
+    },
+    {
+      "defense": "Continued litigation posed substantial risk of no recovery or a smaller recovery for shareholders.",
+      "legal_basis": "Risk-benefit analysis under Rule 23(e) and securities class action precedent emphasizing uncertainty of trial outcomes and collection."
+    },
+    {
+      "defense": "Absence of objections from class members supports approval of the settlement and fee request.",
+      "legal_basis": "Class action settlement approval standards considering reaction of the class as a factor in determining fairness and adequacy."
+    },
+    {
+      "defense": "Federal court should abstain from exercising jurisdiction because a parallel state court case between the same parties involves the same issues and can fully resolve the dispute.",
+      "legal_basis": "Colorado River abstention doctrine and principles of wise judicial administration."
+    },
+    {
+      "defense": "Court lacks personal jurisdiction over the Conner Defendants and Catherine Stephanie Straggas",
+      "legal_basis": "Federal due process limits on personal jurisdiction; insufficient minimum contacts with the forum state."
+    },
+    {
+      "defense": "Plaintiff failed to state a plausible claim for trade secret misappropriation against Google Ventures",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) requiring sufficient factual allegations to state a claim under the DTSA."
+    },
+    {
+      "defense": "Municipal defendants were fraudulently joined solely to defeat federal diversity jurisdiction and should be disregarded for jurisdictional purposes.",
+      "legal_basis": "Federal fraudulent joinder doctrine; 28 U.S.C. \u00a7\u00a7 1332, 1441, 1447(e)."
+    },
+    {
+      "defense": "Claims against municipal defendants are not viable and should be severed, allowing the case against Clearview AI to remain in federal court.",
+      "legal_basis": "Federal procedural and removal statutes, including 28 U.S.C. \u00a7 1447(e), and case law on severance and remand."
+    },
+    {
+      "defense": "Complaint fails to state a claim under the KCPA because it does not plead with requisite specificity any deceptive or unconscionable act, including the time, place, or content of alleged misrepresentations, nor does it identify a specific consumer transaction.",
+      "legal_basis": "Failure to state a claim upon which relief can be granted (Fed. R. Civ. P. 12(b)(6)); pleading standards under Twombly/Iqbal and KCPA requirements for particularity."
+    },
+    {
+      "defense": "The complaint fails to state a claim because the alleged wellness-check facial scans do not constitute \u201cbiometric identifiers\u201d or \u201cbiometric information\u201d under BIPA.",
+      "legal_basis": "Argument based on statutory definitions in 740 ILCS 14/10 and pleading standards under Fed. R. Civ. P. 12(b)(6)."
+    },
+    {
+      "defense": "Amazon did not collect, possess, or disclose biometric data in a manner covered by BIPA, or any such use was too attenuated or incidental to fall within the statute.",
+      "legal_basis": "Interpretation of scope and reach of BIPA, 740 ILCS 14/1 et seq., and application of Rule 12(b)(6)."
+    },
+    {
+      "defense": "Even if data was collected, plaintiff did not adequately allege dissemination or profit from biometric data to support separate BIPA subsections.",
+      "legal_basis": "Pleading sufficiency under Fed. R. Civ. P. 8(a) and 12(b)(6) as to BIPA \u00a7\u00a715(c) and 15(d)."
+    },
+    {
+      "defense": "Any alleged violations are not actionable because plaintiff suffered no concrete injury beyond statutory violations.",
+      "legal_basis": "Article III standing requirements under the U.S. Constitution and related federal case law on intangible harms."
+    },
+    {
+      "defense": "Lack of personal jurisdiction over certain defendants",
+      "legal_basis": "Constitutional due process limits on personal jurisdiction; Fed. R. Civ. P. 12(b)(2)"
+    },
+    {
+      "defense": "Lack of Article III standing for plaintiffs\u2019 BIPA claims",
+      "legal_basis": "U.S. Constitution Article III case-or-controversy requirement; standing doctrine"
+    },
+    {
+      "defense": "Government-contractor exemption under BIPA bars liability for work done for government clients",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA) statutory exemption for government contractors"
+    },
+    {
+      "defense": "Arguments raised for the first time on reconsideration should alter prior rulings",
+      "legal_basis": "Fed. R. Civ. P. 54(b) / inherent authority to reconsider interlocutory orders (procedural reconsideration standard)"
+    },
+    {
+      "defense": "The court lacks personal jurisdiction because Wemagine.AI, a Canadian company, did not purposefully direct activities or targeted marketing at Illinois; any contacts with Illinois arose solely from users\u2019 unilateral decision to download and use the app.",
+      "legal_basis": "U.S. constitutional due process limits on personal jurisdiction; minimum contacts and purposeful availment standards under cases such as International Shoe and its progeny."
+    },
+    {
+      "defense": "The court lacks personal jurisdiction over ePayments Systems Ltd., a UK-based entity, because it did not purposefully direct activities at Florida and had no sufficient nexus to the alleged conspiracy there.",
+      "legal_basis": "Constitutional due process limits on personal jurisdiction; Florida long-arm statute requirements."
+    },
+    {
+      "defense": "Defendants deny any violation of BIPA or other laws and contend their conduct complied with applicable legal requirements.",
+      "legal_basis": "General denial of liability under Illinois Biometric Information Privacy Act and related statutory and common-law principles."
+    },
+    {
+      "defense": "Defendants assert that, even if BIPA applied, class certification and recovery would be uncertain due to litigation risks, including issues of consent, extraterritoriality, and damages.",
+      "legal_basis": "Procedural and substantive defenses under BIPA and class action standards (Fed. R. Civ. P. 23)."
+    },
+    {
+      "defense": "The texting platform, including AI chatbot Mya, is not an automatic telephone dialing system under the TCPA as interpreted by the Supreme Court.",
+      "legal_basis": "Statutory definition of \u201cautomatic telephone dialing system\u201d in 47 U.S.C. \u00a7 227(a)(1) and Supreme Court precedent limiting autodialers to systems using a random or sequential number generator."
+    },
+    {
+      "defense": "Text messages sent by Mya do not use an artificial or prerecorded voice and therefore fall outside the TCPA\u2019s \u201cartificial or prerecorded voice\u201d prohibition.",
+      "legal_basis": "Plain-language interpretation of 47 U.S.C. \u00a7 227(b)(1)(A) and case law distinguishing text messages from voice calls."
+    },
+    {
+      "defense": "Plaintiffs did not suffer concrete injury and therefore lacked Article III standing for their BIPA claims.",
+      "legal_basis": "Article III standing requirements under the U.S. Constitution; reliance on standing jurisprudence limiting statutory-violation claims without concrete harm."
+    },
+    {
+      "defense": "The district court\u2019s interpretation of BIPA, including what constitutes profiting from biometric data and sufficient harm, was contestable and warranted interlocutory review.",
+      "legal_basis": "28 U.S.C. \u00a7 1292(b) \u2013 certification for interlocutory appeal based on controlling question of law and substantial ground for difference of opinion."
+    },
+    {
+      "defense": "The court lacks personal jurisdiction because Wemagine.AI did not purposefully direct its activities at Illinois or specifically target the Illinois market.",
+      "legal_basis": "U.S. Constitution Due Process Clause; specific personal jurisdiction standards (minimum contacts, purposeful availment)."
+    },
+    {
+      "defense": "Plaintiffs\u2019 alleged injuries do not arise out of or relate to any Illinois-specific conduct by Wemagine.AI; app availability nationwide is insufficient.",
+      "legal_basis": "Specific jurisdiction \u201carise out of or relate to\u201d requirement under federal due process jurisprudence."
+    },
+    {
+      "defense": "Lack of personal jurisdiction over Turing Video in Illinois.",
+      "legal_basis": "Constitutional due process limits on specific personal jurisdiction under the Fourteenth Amendment."
+    },
+    {
+      "defense": "BIPA claims are preempted by Section 301 of the Labor Management Relations Act because they require interpretation of a collective bargaining agreement.",
+      "legal_basis": "Labor Management Relations Act (LMRA) \u00a7 301 preemption doctrine."
+    },
+    {
+      "defense": "BIPA claims are barred or preempted by the Public Readiness and Emergency Preparedness Act due to use of Turing Shield for COVID-19 screening.",
+      "legal_basis": "Public Readiness and Emergency Preparedness (PREP) Act, 42 U.S.C. \u00a7 247d-6d."
+    },
+    {
+      "defense": "Failure to state a claim because Turing Shield\u2019s operations do not involve \u201cbiometric identifiers\u201d or \u201cbiometric information\u201d as defined by BIPA.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA) statutory definitions and pleading standards under Federal Rule of Civil Procedure 12(b)(6)."
+    },
+    {
+      "defense": "Court lacks subject matter jurisdiction over plaintiff\u2019s speculative and insubstantial federal claims.",
+      "legal_basis": "Federal subject matter jurisdiction standards; claims deemed frivolous and insubstantial under Rule 12(b)(1)."
+    },
+    {
+      "defense": "Complaint fails to state a claim upon which relief can be granted because allegations are vague, conclusory, and implausible.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6); Twombly/Iqbal plausibility standard."
+    },
+    {
+      "defense": "The injunction imposed by the district court was an overbroad prior restraint on speech and impermissibly compelled speech in violation of the First Amendment.",
+      "legal_basis": "First Amendment to the U.S. Constitution; prior restraint and compelled speech doctrines; appellate review of equitable injunctions."
+    },
+    {
+      "defense": "Any disputed statements about Phi Theta Kappa are protected speech or at least cannot be categorically enjoined in the sweeping manner ordered by the district court.",
+      "legal_basis": "First Amendment protections for speech, including commercial and comparative speech; limits on injunctive relief against speech."
+    },
+    {
+      "defense": "Motion to quash subpoenas to Google and LinkedIn seeking Doe\u2019s identity.",
+      "legal_basis": "First Amendment right to anonymous speech; requirement that a subpoena seeking to unmask an anonymous speaker be supported by a prima facie case of defamation and competent evidence; Rule 45 protections against undue burden and improper purpose.",
+      "defense_outcome": "Court granted the motion to quash; subpoenas to Google and LinkedIn were invalidated and Doe\u2019s anonymity preserved."
+    },
+    {
+      "defense": "Doe\u2019s online statements were protected opinion and/or not shown to be false or defamatory.",
+      "legal_basis": "First Amendment protections for opinion and criticism; defamation elements requiring falsity, defamatory meaning, and evidence of harm; burden on Spider Labs to show a prima facie case before unmasking.",
+      "defense_outcome": "Accepted in substance: court found Spider Labs had not provided sufficient competent evidence of defamation, so Doe\u2019s speech remained protected and identity was not disclosed."
+    },
+    {
+      "defense": "Plaintiffs lack Article III standing because their injuries are not fairly traceable to defendants\u2019 conduct related to MiDAS.",
+      "legal_basis": "Article III standing requirements under the U.S. Constitution (injury-in-fact, traceability, redressability)."
+    },
+    {
+      "defense": "Court lacks subject matter jurisdiction due to absence of standing.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(1) and constitutional limits on federal jurisdiction."
+    },
+    {
+      "defense": "Petitioner failed to exhaust available state court remedies before seeking federal habeas relief.",
+      "legal_basis": "Exhaustion requirement for state pretrial detainees seeking federal habeas under 28 U.S.C. \u00a7 2241 and related precedent."
+    },
+    {
+      "defense": "Petitioner\u2019s allegations concern only state-law issues and do not present a cognizable federal constitutional claim.",
+      "legal_basis": "Federal habeas corpus under 28 U.S.C. \u00a7 2241 and \u00a7 2254 provides relief only for violations of the Constitution, laws, or treaties of the United States; state-law errors are not grounds for federal habeas relief."
+    },
+    {
+      "defense": "Allegations of AI intervention are conclusory and unsupported, failing to state any plausible constitutional violation.",
+      "legal_basis": "Pleading standards for habeas petitions and constitutional claims; requirement of specific factual allegations to show a deprivation of federal rights."
+    },
+    {
+      "defense": "Microsoft did not actively collect or obtain plaintiff\u2019s biometric identifiers or information, but merely provided cloud and AI infrastructure used by Brainshark, so it is not liable under BIPA \u00a7\u00a715(b) and 15(d).",
+      "legal_basis": "Statutory interpretation of BIPA \u00a7\u00a715(b) and 15(d) requiring active collection or dissemination by the defendant."
+    },
+    {
+      "defense": "Plaintiff lacks Article III standing for the BIPA \u00a715(c) claim because he did not allege a concrete, particularized injury from Microsoft\u2019s alleged profiting from biometric data.",
+      "legal_basis": "U.S. Constitution Article III standing requirements; case-or-controversy and concrete injury doctrine."
+    },
+    {
+      "defense": "Any alleged possession or control of biometric data by Microsoft is insufficiently pled or too attenuated to impose BIPA obligations on Microsoft as a non-end-user service provider.",
+      "legal_basis": "Statutory interpretation of BIPA \u00a715(a) and general pleading standards under Federal Rule of Civil Procedure 12(b)(6)."
+    },
+    {
+      "defense": "Plaintiffs have no protectable rights in the unregistered \u201cE.R.I.C.A.\u201d mark because they never used it in commerce in a way that clearly distinguished and identified their services.",
+      "legal_basis": "Lanham Act requirement of actual use in commerce to create rights in an unregistered mark; burden on plaintiff to show distinct, source-identifying use."
+    },
+    {
+      "defense": "Without a protectable mark, there can be no likelihood of confusion or liability for trademark infringement or unfair competition.",
+      "legal_basis": "Trademark infringement and unfair competition under the Lanham Act and parallel state law require a valid, protectable mark as a threshold element."
+    },
+    {
+      "defense": "Apple\u2019s affirmative defenses were adequately pled and met the applicable notice-pleading standard, so they should not be stricken.",
+      "legal_basis": "Federal Rules of Civil Procedure 8(b) and 8(c) governing defenses and notice pleading; case law allowing concise, general affirmative defenses at early stages."
+    },
+    {
+      "defense": "A motion for a more definite statement is not the proper vehicle to challenge the clarity of answers or affirmative defenses, and Apple\u2019s existing responses are sufficiently definite.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(e) limiting such motions to pleadings that are so vague or ambiguous a party cannot reasonably prepare a response; related precedent disfavoring Rule 12(e) motions against answers."
+    },
+    {
+      "defense": "Plaintiff\u2019s allegations are fanciful, delusional, and lack any arguable basis in fact or law, rendering the complaint frivolous.",
+      "legal_basis": "28 U.S.C. \u00a7 1915(e)(2)(B)(i) \u2013 court\u2019s duty to dismiss frivolous in forma pauperis actions."
+    },
+    {
+      "defense": "Complaint fails to state any cognizable legal claim against the named defendants, even if the facts were accepted as true.",
+      "legal_basis": "Failure to state a claim upon which relief can be granted under federal pleading standards (Rule 8 and Rule 12(b)(6) principles)."
+    },
+    {
+      "defense": "The court lacks personal jurisdiction over Clarifai in Illinois because Clarifai\u2019s contacts with the state are insufficient to establish specific or general jurisdiction.",
+      "legal_basis": "Due Process Clause of the Fourteenth Amendment; federal personal jurisdiction standards (minimum contacts and fair play and substantial justice)."
+    },
+    {
+      "defense": "Clarifai\u2019s limited sales and business activities in Illinois, including sales of its demographic model to a small number of Illinois customers, are unrelated to plaintiff\u2019s alleged injuries and therefore cannot support specific jurisdiction.",
+      "legal_basis": "Specific personal jurisdiction doctrine requiring that the claim arise out of or relate to defendant\u2019s forum contacts."
+    },
+    {
+      "defense": "Clarifai is not \u201cat home\u201d in Illinois, so the court cannot exercise general jurisdiction over it.",
+      "legal_basis": "General personal jurisdiction doctrine under Daimler AG v. Bauman and related precedent."
+    },
+    {
+      "defense": "Complaint fails to state a claim because allegations do not meet the legal standard for employment discrimination or retaliation.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) and substantive standards under federal employment discrimination law."
+    },
+    {
+      "defense": "Claims are time-barred due to untimely filing of charges or lawsuit.",
+      "legal_basis": "Statutory filing deadlines and exhaustion requirements under federal employment discrimination statutes (e.g., EEOC charge and limitations periods)."
+    },
+    {
+      "defense": "No evidence of discriminatory or retaliatory intent by employer.",
+      "legal_basis": "Burden-shifting and evidentiary standards for discrimination and retaliation claims under federal employment law."
+    },
+    {
+      "defense": "Plaintiff\u2019s briefing relied on inaccurate citations, suspected to be generated by AI, undermining credibility and legal sufficiency of arguments.",
+      "legal_basis": "Court\u2019s inherent authority to assess reliability of submissions and requirement for accurate citation to legal authority."
+    },
+    {
+      "defense": "The Seed Agreement is unenforceable because it was part of a fraudulent scheme to induce and defraud investors, and courts will not enforce an illegal or fraudulent contract.",
+      "legal_basis": "Contract law doctrine that contracts founded on fraud or illegality are void or unenforceable as against public policy."
+    },
+    {
+      "defense": "The bankruptcy court lacks subject matter jurisdiction over the Assigned Investor Claims because they are third-party claims that do not affect the bankruptcy estate post-confirmation.",
+      "legal_basis": "Limits on bankruptcy court jurisdiction under 28 U.S.C. \u00a7\u00a7 1334 and 157 and post-confirmation \u201crelated to\u201d jurisdiction standards."
+    },
+    {
+      "defense": "Plaintiffs lacked Article III standing because they alleged only statutory violations and damages, not a concrete injury-in-fact.",
+      "legal_basis": "U.S. Constitution Article III standing requirements; federal case-or-controversy doctrine as interpreted in Supreme Court and Seventh Circuit precedent."
+    },
+    {
+      "defense": "Federal court lacked subject matter jurisdiction over purely statutory BIPA claims seeking damages without concrete harm.",
+      "legal_basis": "28 U.S.C. \u00a7 1331 and Article III jurisdictional limits requiring concrete injury for federal jurisdiction."
+    },
+    {
+      "defense": "Sovereign immunity bars the claims because they do not fall within the FTCA\u2019s limited waiver of immunity.",
+      "legal_basis": "Sovereign immunity and FTCA jurisdictional limits, 28 U.S.C. \u00a7\u00a7 1346(b), 2671\u20132680."
+    },
+    {
+      "defense": "Failure to state a claim due to lack of specific factual allegations tying any injury to a negligent or wrongful act of a federal employee acting within the scope of employment.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) and FTCA pleading requirements."
+    },
+    {
+      "defense": "Claims are frivolous and lack an arguable basis in law or fact, so the appeal should be dismissed and in forma pauperis status denied.",
+      "legal_basis": "28 U.S.C. \u00a7 1915(e)(2)(B) (screening and dismissal of frivolous actions and appeals)."
+    },
+    {
+      "defense": "Motion to dismiss the amended complaint for failure to state a claim and/or failure to comply with pleading standards.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6) and Rule 8(a)."
+    },
+    {
+      "defense": "Challenge to the sufficiency and clarity of plaintiff\u2019s factual allegations.",
+      "legal_basis": "Federal Rule of Civil Procedure 8(a) and related case law on pleading standards."
+    },
+    {
+      "defense": "Pinterest substantially complied with the settlement\u2019s governance, diversity, and inclusivity obligations, including implementation of agreed reforms.",
+      "legal_basis": "Contract and settlement-enforcement principles; substantial-compliance doctrine limiting additional or reduced obligations when core settlement objectives are met."
+    },
+    {
+      "defense": "The scope and results of Pinterest\u2019s reforms, including diversity improvements and inclusive content initiatives, justified limiting any further obligations beyond the settlement\u2019s terms.",
+      "legal_basis": "Settlement agreement interpretation under contract law; equitable principles governing derivative settlements and fee awards."
+    },
+    {
+      "defense": "No breach of non-compete or non-solicitation because Nines is not a direct competitor as represented and activities fall outside the covenants\u2019 scope.",
+      "legal_basis": "Contract interpretation under Minnesota law; restrictive covenants construed narrowly."
+    },
+    {
+      "defense": "No misappropriation or use of vRad\u2019s confidential information or trade secrets in work for Nines.",
+      "legal_basis": "Requirements of trade secret misappropriation statutes and common law; need for proof of use or disclosure."
+    },
+    {
+      "defense": "vRad cannot show irreparable harm from Rabern\u2019s employment at Nines.",
+      "legal_basis": "Preliminary injunction standard under federal law (Dataphase factors) requiring proof of irreparable harm."
+    },
+    {
+      "defense": "vRad is unlikely to succeed on the merits of its contract and fraud claims.",
+      "legal_basis": "Federal preliminary injunction standard; burden on movant to show likelihood of success."
+    },
+    {
+      "defense": "Any alleged misrepresentation about Nines\u2019 business was not false or not material, and vRad did not reasonably rely on it.",
+      "legal_basis": "Elements of common-law fraud and misrepresentation under Minnesota law."
+    },
+    {
+      "defense": "Lack of actual or specific knowledge of infringing material on the platform",
+      "legal_basis": "Contributory copyright infringement requires actual knowledge of specific infringements; failure to plead such knowledge warrants dismissal."
+    },
+    {
+      "defense": "DMCA safe harbor protection for online service providers",
+      "legal_basis": "17 U.S.C. \u00a7 512; Facebook qualifies for safe harbor because it lacked actual knowledge of specific infringements and removed material when properly notified."
+    },
+    {
+      "defense": "Failure to state a claim in the second amended complaint",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6); plaintiffs did not cure prior pleading deficiencies regarding knowledge and specific infringing acts."
+    },
+    {
+      "defense": "Complaint is frivolous and based on fantastical, speculative allegations about AI, lacking any cognizable legal claim or concrete injury.",
+      "legal_basis": "28 U.S.C. \u00a7 1915(e)(2)(B)(i) (court must dismiss frivolous in forma pauperis actions)."
+    },
+    {
+      "defense": "Plaintiff fails to state a justiciable case or controversy, including lack of standing and absence of a specific cause of action against the government or tech companies regarding AI development.",
+      "legal_basis": "Article III case-or-controversy and standing requirements; general failure-to-state-a-claim principles under Fed. R. Civ. P. 12(b)(1) and 12(b)(6) (as applied through \u00a7 1915 screening)."
+    },
+    {
+      "defense": "Lack of personal jurisdiction because HireVue is not based in Illinois and its contacts with Illinois were allegedly insufficient to support specific jurisdiction.",
+      "legal_basis": "Due Process Clause; minimum contacts and specific personal jurisdiction standards under federal constitutional law."
+    },
+    {
+      "defense": "Failure to state a claim under BIPA \u00a7 15(c) because plaintiffs did not plausibly allege that HireVue sold, leased, traded, or otherwise profited from biometric identifiers or information themselves, as opposed to generally selling software services.",
+      "legal_basis": "Illinois Biometric Information Privacy Act \u00a7 15(c); Federal Rule of Civil Procedure 12(b)(6)."
+    },
+    {
+      "defense": "General Rule 12(b)(6) challenge that the complaint did not adequately plead elements of certain BIPA violations, including insufficient allegations of individualized harm and statutory violations tied to specific conduct.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(b)(6); pleading standards under Twombly and Iqbal."
+    },
+    {
+      "defense": "Good cause exists for a 10-day extension to supplement discovery responses due to unforeseen circumstances involving defense counsel\u2019s law clerk.",
+      "legal_basis": "Federal Rule of Civil Procedure 6(b) and related good-cause standard for modifying deadlines."
+    },
+    {
+      "defense": "The requested extension will not unduly prejudice plaintiff and is not sought in bad faith or for purposes of delay.",
+      "legal_basis": "Equitable considerations under the Federal Rules of Civil Procedure governing case management and discovery, including absence of bad faith and minimal prejudice to the opposing party."
+    },
+    {
+      "defense": "Request to bifurcate discovery so that only named plaintiffs\u2019 merits are litigated first, delaying class-wide discovery and certification issues",
+      "legal_basis": "Federal Rules of Civil Procedure 23 and 26; judicial economy and proportionality arguments for phased discovery"
+    },
+    {
+      "defense": "Argument that early focus on named plaintiffs\u2019 individual coverage disputes could obviate or narrow need for class discovery and certification",
+      "legal_basis": "Case-management discretion of the court under Federal Rule of Civil Procedure 16 and inherent judicial authority"
+    },
+    {
+      "defense": "No likelihood of confusion between PRIZMIA and PRISMA marks, including under reverse confusion theory.",
+      "legal_basis": "Trademark infringement standards under the Lanham Act; multi-factor likelihood-of-confusion analysis."
+    },
+    {
+      "defense": "Plaintiff failed to show irreparable harm from defendant\u2019s continued use of PRISMA mark.",
+      "legal_basis": "Equitable requirements for preliminary injunction under federal law."
+    },
+    {
+      "defense": "Plaintiff\u2019s summary judgment responses were untimely and violated procedural rules.",
+      "legal_basis": "Federal Rules of Civil Procedure and local rules on filing deadlines and proper motion practice."
+    },
+    {
+      "defense": "Plaintiff\u2019s filings improperly relied on AI-generated content containing fake legal citations, rendering them unreliable and noncompliant.",
+      "legal_basis": "Court\u2019s inherent authority to manage its docket, enforce rules, and require accurate, good-faith legal citations and representations."
+    },
+    {
+      "defense": "Amendment of the complaint at this stage would be improper due to lack of good cause and failure to follow required procedures.",
+      "legal_basis": "Federal Rule of Civil Procedure 15 and standards for modifying scheduling orders and allowing late amendments."
+    },
+    {
+      "defense": "Contractual right to suspend accounts and limit liability under Terms of Service",
+      "legal_basis": "Enforceability of X Corp.\u2019s Terms of Service as binding contract governing user accounts, expressly permitting suspension and excluding liability for such actions."
+    },
+    {
+      "defense": "Section 230 immunity from liability for unjust enrichment claim",
+      "legal_basis": "Section 230 of the Communications Decency Act shields X Corp. from liability arising from its moderation and suspension decisions, independently barring the unjust enrichment claim."
+    },
+    {
+      "defense": "Suhail Doshi argued he could not be held personally liable for trademark infringement because any alleged conduct was undertaken by Mighty Computing, Inc., not by him individually.",
+      "legal_basis": "Corporate officer limited-liability principles; requirement of direct participation or control for personal liability under trademark law.",
+      "defense_outcome": "Court rejected this argument at the pleading stage, finding plausible allegations of his direct involvement and control; motion to dismiss denied."
+    },
+    {
+      "defense": "Suhail Doshi argued he could not be personally liable for cybersquatting because he did not personally register or control the allegedly infringing domains beyond his corporate role.",
+      "legal_basis": "Corporate separateness and personal participation doctrine under the ACPA.",
+      "defense_outcome": "Court found sufficient allegations that he was the central decision-maker behind the challenged conduct; motion to dismiss denied."
+    }
+  ]
+}
