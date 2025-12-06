@@ -4,3 +4,4 @@ otherkey.txt
 IPLawBase/
 credentials.json
 token.pickle
+.DS_Store
