@@ -5,11 +5,11 @@ we are investigating specific categories, so while looking at the 2 catgories we
 
 breakdown.py
 
-> looks at each case in the category provided
-> looks at the raw text.
-> finds plaintiffs + defendants, generates description for it
-> finds arguments for litigants (both sides), finds descriptions for it.
-> there are 2 parts: a schema, and a prompt.
+- looks at each case in the category provided
+- looks at the raw text.
+- finds plaintiffs + defendants, generates description for it
+- finds arguments for litigants (both sides), finds descriptions for it.
+- there are 2 parts: a schema, and a prompt.
 
 ```
 schema = {
