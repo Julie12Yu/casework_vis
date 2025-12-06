@@ -15,7 +15,7 @@
     },
     "defendant_types": {
       "platform(s)": 12,
-      "corporation(s)": 95,
+      "corporation(s)": 97,
       "individual": 11,
       "stem professional": 2,
       "finance company": 2,
@@ -23,14 +23,12 @@
       "government entity": 6,
       "individual with publisher": 1,
       "healthcare provider": 1,
-      "former ceo and associated defendants": 1,
-      "automobile manufacturers and distributors": 1,
-      "automobile manufacturers accused of infringing safety screening patent": 1
+      "former ceo and associated defendants": 1
     },
     "combinations": {
       "class-action v. platform(s)": 4,
       "class-action v. corporation(s)": 5,
-      "corporation(s) v. corporation(s)": 51,
+      "corporation(s) v. corporation(s)": 53,
       "creative professional v. corporation(s)": 6,
       "individual v. corporation(s)": 23,
       "corporation(s) v. individual": 7,
@@ -54,10 +52,8 @@
       "corporation(s) v. former ceo and associated defendants": 1,
       "individual v. government entity": 3,
       "stem professional v. corporation(s)": 2,
-      "corporation(s) v. automobile manufacturers and distributors": 1,
       "corporation(s) v. stem professional": 1,
-      "creative professional v. government entity": 1,
-      "corporation(s) v. automobile manufacturers accused of infringing safety screening patent": 1
+      "creative professional v. government entity": 1
     }
   },
   "cases": [
@@ -1312,8 +1308,8 @@
       "plaintiff_description": "Patent-holding company asserting impairment-screening technology",
       "plaintiff_type": "corporation(s)",
       "defendant_name": "Mercedes-Benz USA, LLC; Daimler AG",
-      "defendant_description": "Automobile manufacturers and distributors",
-      "defendant_type": "automobile manufacturers and distributors"
+      "defendant_description": "Company specializing in automobiles",
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-06-05_USCOURTS-jpml-1_24-F-03109_IN RE_ Video Game Addiction Products Liability Litigation.pdf",
@@ -1521,8 +1517,8 @@
       "plaintiff_description": "Patent-holding company asserting safety screening technology patent.",
       "plaintiff_type": "corporation(s)",
       "defendant_name": "Mercedes-Benz USA, LLC and Daimler AG",
-      "defendant_description": "Automobile manufacturers accused of infringing safety screening patent.",
-      "defendant_type": "automobile manufacturers accused of infringing safety screening patent"
+      "defendant_description": "Company that manufacturer automobiles.",
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2021-03-29_USCOURTS-prd-3_19-cv-01690_Mech-Tech College_ LLC et al v. Friger-Salgueiro et al.pdf",
