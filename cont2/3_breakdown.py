@@ -2,6 +2,9 @@ import json
 import os
 from openai import OpenAI
 
+CASE_TYPE = "tort"
+CASE_TYPE_TITLE = "Tort"
+
 def extract_case_structure(case_data):
     with open("../otherkey.txt") as f:
         key = f.read().strip()
@@ -111,4 +114,4 @@ def process_cases(input_file, output_file):
     print(f"Results written to {output_file}")
 
 if __name__ == "__main__":
-    process_cases("ipLaw/IP Law.json", "ipLaw/cases_breakdown.json")
+    process_cases(f"{CASE_TYPE}/{CASE_TYPE_TITLE}.json", f"{CASE_TYPE}/cases_breakdown.json")

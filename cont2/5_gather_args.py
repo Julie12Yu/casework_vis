@@ -1,7 +1,7 @@
 import json
 
 
-TOPIC = "privacy"
+TOPIC = "tort"
 
 INPUT_PATH = f"{TOPIC}/cases_breakdown.json"
 P_OUTPUT_PATH = f"{TOPIC}/plaintiff_args.txt"
@@ -10,15 +10,17 @@ D_OUTPUT_PATH = f"{TOPIC}/defendant_args.txt"
 # Passing JSON -> txt to NotebookLM
 prompt_defense = f"""
 Look through every defense and legal_basis in the dataset. 
-Identify the main argument categories that appear across the cases. 
+Identify the main argument categories that appear across the cases.
 Be specific in describing each category, and ensure the categories reflect all arguments in the dataset.
+Expected output should be a list of categories, their arguments, and the legal basis for each argument. 
 """ 
 
 prompt_plaintiff = f"""
 Look through every claim and legal_basis in the dataset. 
 Identify the main argument categories that appear across the cases. 
 Be specific in describing each category, and ensure the categories reflect all arguments in the dataset.
-""" 
+Expected output should be a list of categories, their arguments, and the legal basis for each argument. 
+"""
 
 
 def get_args(cases):

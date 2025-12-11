@@ -1,0 +1,308 @@
+{
+  "plaintiff_args": [
+    {
+      "claim": "Cost recovery and contribution under CERCLA for investigation and cleanup of petroleum contamination on Dutch Girl\u2019s property",
+      "legal_basis": "Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), 42 U.S.C. \u00a7 9601 et seq."
+    },
+    {
+      "claim": "Cost recovery and contribution under California\u2019s Hazardous Substances Account Act (HSAA) for contamination remediation",
+      "legal_basis": "California Hazardous Substances Account Act (HSAA), Cal. Health & Safety Code \u00a7 25300 et seq."
+    },
+    {
+      "claim": "Negligence for failure to prevent, detect, and remediate releases of petroleum that migrated onto plaintiff\u2019s property",
+      "legal_basis": "California common law negligence (duty, breach, causation, damages)"
+    },
+    {
+      "claim": "Negligence per se based on violations of environmental statutes and regulations governing underground storage tanks and hazardous releases",
+      "legal_basis": "California negligence per se doctrine incorporating federal and state environmental regulations"
+    },
+    {
+      "claim": "Private nuisance based on ongoing contamination interfering with use and enjoyment of Dutch Girl\u2019s property",
+      "legal_basis": "California common law nuisance"
+    },
+    {
+      "claim": "Trespass based on migration of petroleum and related contaminants from defendants\u2019 gas station onto plaintiff\u2019s land",
+      "legal_basis": "California common law trespass"
+    },
+    {
+      "claim": "Failure to warn and violations related to California Proposition 65 for exposure to hazardous substances",
+      "legal_basis": "California Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)"
+    },
+    {
+      "claim": "Equitable indemnity seeking to shift cleanup and related costs to defendants",
+      "legal_basis": "California common law equitable indemnity"
+    },
+    {
+      "claim": "Declaratory relief regarding responsibility for contamination and future cleanup costs",
+      "legal_basis": "Federal Declaratory Judgment Act and parallel California declaratory relief principles"
+    },
+    {
+      "claim": "Breach of insurance contract for underpayment of hail and wind damage claim",
+      "legal_basis": "State contract law governing insurance policies and payment obligations"
+    },
+    {
+      "claim": "Insurance bad faith for failing to reasonably investigate and adequately pay the claim",
+      "legal_basis": "State insurance bad-faith law requiring reasonable basis and fair dealing in claim handling"
+    },
+    {
+      "claim": "Criminal theft of trade secrets to benefit a foreign government (the PRC).",
+      "legal_basis": "18 U.S.C. \u00a7 1831 (Economic Espionage Act \u2013 economic espionage to benefit a foreign government)."
+    },
+    {
+      "claim": "Georgia\u2019s current Dominion Ballot Marking Device (BMD) electronic voting system is insecure and unreliable, burdening and effectively denying voters\u2019 rights to cast votes that are accurately recorded and counted.",
+      "legal_basis": "First and Fourteenth Amendments to the U.S. Constitution (right to vote; due process; equal protection) via 42 U.S.C. \u00a7 1983."
+    },
+    {
+      "claim": "Georgia\u2019s prior Direct Recording Electronic (DRE) voting system was unconstitutional due to severe cybersecurity vulnerabilities and inability to produce a reliable voter-verifiable paper record, burdening the right to vote.",
+      "legal_basis": "First and Fourteenth Amendments to the U.S. Constitution (right to vote; due process; equal protection) via 42 U.S.C. \u00a7 1983."
+    },
+    {
+      "claim": "Georgia\u2019s implementation and management of the statewide electronic voting infrastructure, including election management systems, voter registration databases, and electronic pollbooks, create systemic cybersecurity risks that threaten election integrity and voters\u2019 constitutional rights.",
+      "legal_basis": "First and Fourteenth Amendments to the U.S. Constitution (right to vote; due process; equal protection) via 42 U.S.C. \u00a7 1983."
+    },
+    {
+      "claim": "Fulton County is liable for constitutional violations arising from use of the challenged statewide electronic voting system and related equipment in its local elections.",
+      "legal_basis": "First and Fourteenth Amendments via 42 U.S.C. \u00a7 1983; theories of liability based on Fulton County\u2019s role in election administration."
+    },
+    {
+      "claim": "Prosecution for participation in a large-scale cross-border drug distribution scheme",
+      "legal_basis": "Federal criminal drug statutes governing distribution and conspiracy"
+    },
+    {
+      "claim": "Defendants\u2019 motion to suppress evidence obtained during the FBI investigation",
+      "legal_basis": "Fourth Amendment protections against unreasonable searches and seizures"
+    },
+    {
+      "claim": "Defendants\u2019 motions for severance to obtain separate trials",
+      "legal_basis": "Federal Rules of Criminal Procedure (including Rule 14) and due process concerns about prejudice from joint trial"
+    },
+    {
+      "claim": "Defendants\u2019 broader pretrial motions challenging aspects of the investigation and admissibility of evidence",
+      "legal_basis": "Constitutional criminal procedure protections and evidentiary rules"
+    },
+    {
+      "claim": "Breach of insurance contract for failure to pay for windstorm-related roof and water damage to plaintiff\u2019s premises.",
+      "legal_basis": "State property insurance contract law; insurer\u2019s duty to provide coverage for covered perils such as windstorm."
+    },
+    {
+      "claim": "Claim for punitive damages based on alleged bad-faith or egregious denial of insurance benefits.",
+      "legal_basis": "State punitive damages standards for insurer misconduct and bad-faith handling of claims."
+    },
+    {
+      "claim": "Criminal charge of conspiracy to manufacture and distribute controlled substances against Bressi.",
+      "legal_basis": "Federal Controlled Substances Act and related federal criminal statutes."
+    },
+    {
+      "claim": "Motion to suppress evidence based on alleged breach of an immunity agreement by the government.",
+      "legal_basis": "Fifth Amendment due process; contract principles governing immunity or cooperation agreements; supervisory powers of the court."
+    },
+    {
+      "claim": "Motion to suppress or exclude evidence based on alleged destruction or spoliation of evidence by the government.",
+      "legal_basis": "Due process under the Fifth Amendment; standards for destruction of potentially exculpatory evidence (e.g., bad faith requirement)."
+    },
+    {
+      "claim": "Motion to suppress evidence based on alleged illegal search and seizure.",
+      "legal_basis": "Fourth Amendment protection against unreasonable searches and seizures; exclusionary rule."
+    },
+    {
+      "claim": "Motion to dismiss the indictment based on alleged government misconduct, including misuse of grand jury subpoenas.",
+      "legal_basis": "Fifth Amendment due process; grand jury rules and supervisory powers of the court over grand jury process."
+    },
+    {
+      "claim": "Motion to dismiss the indictment challenging the constitutionality of the Controlled Substances Act.",
+      "legal_basis": "Constitutional challenges to Congress\u2019s authority and the validity of the Controlled Substances Act."
+    },
+    {
+      "claim": "General motions to dismiss the indictment based on cumulative alleged government misconduct and procedural defects.",
+      "legal_basis": "Fifth Amendment due process; court\u2019s supervisory powers to dismiss indictments for egregious misconduct or prejudice."
+    },
+    {
+      "claim": "Defendants deceived users about the potential access and exploitation of their data by the Chinese government.",
+      "legal_basis": "Arkansas Deceptive Trade Practices Act and related state consumer protection law theories."
+    },
+    {
+      "claim": "Conspiracy to commit wire fraud through a large-scale cryptocurrency investment scheme raising approximately $650 million.",
+      "legal_basis": "Federal wire fraud and conspiracy statutes (e.g., 18 U.S.C. \u00a7\u00a7 1343, 1349)."
+    },
+    {
+      "claim": "Conspiracy to commit money laundering by moving and concealing proceeds of the alleged cryptocurrency fraud.",
+      "legal_basis": "Federal money laundering and conspiracy statutes (e.g., 18 U.S.C. \u00a7\u00a7 1956, 1957, 1956(h))."
+    },
+    {
+      "claim": "Government\u2019s motion for pretrial detention based on serious risk that Reynoso will flee and that no conditions can reasonably assure his appearance and community safety.",
+      "legal_basis": "Bail Reform Act, including 18 U.S.C. \u00a7 3142(e)\u2013(g)."
+    },
+    {
+      "claim": "NSF\u2019s 15% cap on indirect cost reimbursement for grants to Institutions of Higher Education is unlawful because it conflicts with and undermines existing, higher, federally negotiated indirect cost rates.",
+      "legal_basis": "Administrative Procedure Act (APA) \u2013 agency action contrary to law; federal statutes and regulations governing cost principles and negotiated indirect cost rates for federal research grants to IHEs."
+    },
+    {
+      "claim": "NSF\u2019s adoption and implementation of the 15% Indirect Cost Rate policy is arbitrary and capricious because the agency failed to reasonably explain the cap, consider important aspects of the problem, or justify departure from established negotiated rates.",
+      "legal_basis": "Administrative Procedure Act (APA), 5 U.S.C. \u00a7 706(2)(A) \u2013 prohibition on arbitrary and capricious agency action."
+    },
+    {
+      "claim": "NSF lacked proper procedural and/or statutory authority to impose a blanket 15% indirect cost cap on IHE grants in the manner it did.",
+      "legal_basis": "Administrative Procedure Act and governing grant statutes and regulations requiring adherence to established cost principles and negotiated rates, and proper procedure for substantive policy changes."
+    },
+    {
+      "claim": "Wire fraud based on false representations about GoldenSpear and AI Health to obtain money from investors and others.",
+      "legal_basis": "Federal wire fraud statutes (18 U.S.C. \u00a7 1343 and related provisions)."
+    },
+    {
+      "claim": "Bank fraud arising from misrepresentations to financial institutions regarding the AI and healthcare businesses.",
+      "legal_basis": "Federal bank fraud statutes (18 U.S.C. \u00a7 1344 and related provisions)."
+    },
+    {
+      "claim": "Conspiracy to commit fraud through a unified scheme involving AI and healthcare-related misrepresentations by GoldenSpear and AI Health.",
+      "legal_basis": "Federal conspiracy statutes (including 18 U.S.C. \u00a7 1349 or similar conspiracy provisions)."
+    },
+    {
+      "claim": "Use of vague and open-ended language in one fraud-related count, including the phrase \u201camong other things,\u201d allegedly failing to provide adequate notice of the charges.",
+      "legal_basis": "Due process and Federal Rule of Criminal Procedure 7(c) requiring a clear, non-vague indictment."
+    },
+    {
+      "claim": "Improper joinder of multiple fraud schemes in a single indictment, allegedly combining distinct offenses that should be separately charged or tried.",
+      "legal_basis": "Federal Rules of Criminal Procedure 8(a) and 8(b) governing joinder of offenses and defendants."
+    },
+    {
+      "claim": "Request to sever certain counts for separate trials to avoid prejudice from trying all alleged schemes together.",
+      "legal_basis": "Federal Rule of Criminal Procedure 14(a) allowing severance to prevent prejudice."
+    },
+    {
+      "claim": "Defendants violated plaintiffs\u2019 procedural due process rights by using MiDAS to automatically determine fraud and stop unemployment benefits without adequate notice or opportunity to be heard.",
+      "legal_basis": "U.S. Constitution, Fourteenth Amendment Procedural Due Process; 42 U.S.C. \u00a7 1983."
+    },
+    {
+      "claim": "Defendants are liable for harms caused by the design, implementation, and operation of the MiDAS automated unemployment claims system, which allegedly produced false fraud determinations.",
+      "legal_basis": "Federal civil rights liability under 42 U.S.C. \u00a7 1983 and related constitutional doctrines (implementation of unconstitutional policies and practices)."
+    },
+    {
+      "claim": "Expert testimony from CSG\u2019s retained expert and various non-retained witnesses should be limited or excluded because it fails to comply with Federal Rules of Civil Procedure and Federal Rules of Evidence governing expert disclosures and admissibility.",
+      "legal_basis": "Federal Rules of Civil Procedure 26(a)(2) and 37(c); Federal Rules of Evidence 702\u2013703 and related case law on expert disclosures and legal-conclusion testimony."
+    },
+    {
+      "claim": "Federal child sexual exploitation offenses based on secretly recording minors in airplane bathrooms using a cellphone.",
+      "legal_basis": "Federal child sexual exploitation statutes (e.g., 18 U.S.C. \u00a7\u00a7 2251 et seq., as charged in the indictment)."
+    },
+    {
+      "claim": "Possession of child pornography, including images found in defendant\u2019s iCloud account.",
+      "legal_basis": "Federal child pornography possession statutes (e.g., 18 U.S.C. \u00a7 2252/2252A, as charged in the indictment)."
+    },
+    {
+      "claim": "Venue for the charged offenses is proper in the District of Massachusetts because the aircraft transporting the defendant and victims landed there during interstate transportation.",
+      "legal_basis": "Constitutional and statutory venue provisions for federal crimes involving interstate transportation (including 18 U.S.C. \u00a7 3237(a))."
+    },
+    {
+      "claim": "Employment discrimination by the U.S. government/Department of Defense.",
+      "legal_basis": "Federal employment discrimination statutes (e.g., Title VII or similar), not within Tucker Act money-mandating jurisdiction of Court of Federal Claims."
+    },
+    {
+      "claim": "Theft/misappropriation of intellectual property, including AI-related inventions or ideas, by the Department of Defense.",
+      "legal_basis": "General tort and non-contract IP-theft theories not grounded in a money-mandating statute within the Tucker Act; to the extent framed as tort, barred by 28 U.S.C. \u00a7 1491(a)(1)."
+    },
+    {
+      "claim": "Copyright infringement based on alleged copying/use of his creative works (including AI-related materials).",
+      "legal_basis": "Copyright Act, 28 U.S.C. \u00a7 1498(b) (exclusive remedy for copyright infringement by the United States in the Court of Federal Claims)."
+    },
+    {
+      "claim": "Negligence by the U.S. government in handling his work, employment, or intellectual property.",
+      "legal_basis": "Common-law negligence/tort theories, which fall under the Federal Tort Claims Act and are excluded from Court of Federal Claims jurisdiction by the Tucker Act."
+    },
+    {
+      "claim": "Other tort claims (unspecified tortious conduct related to his employment and intellectual property).",
+      "legal_basis": "General tort law and Federal Tort Claims Act, which must be brought in district court, not the Court of Federal Claims."
+    },
+    {
+      "claim": "Judicial misconduct by prior courts or judges in handling his disputes.",
+      "legal_basis": "Allegations of misconduct not tied to a money-mandating statute; outside Tucker Act jurisdiction and not a cognizable damages claim in the Court of Federal Claims."
+    },
+    {
+      "claim": "Failure by Kentucky and federal agencies to provide due social security checks to Fouts",
+      "legal_basis": "Implied federal benefits and constitutional claims (exact statutes not specified)"
+    },
+    {
+      "claim": "Failure to provide necessary prescription drugs to Fouts",
+      "legal_basis": "Implied federal and/or state law claims regarding benefits or medical access (not specified)"
+    },
+    {
+      "claim": "Improper or harmful Child Protective Services investigation involving Fouts\u2019s minor child",
+      "legal_basis": "Implied civil rights and state-law claims regarding CPS conduct (not specified)"
+    },
+    {
+      "claim": "Various additional grievances against Kentucky and federal agencies related to their treatment of Fouts",
+      "legal_basis": "Unspecified federal and state law claims; details not addressed by the court"
+    },
+    {
+      "claim": "Negligence in failing to provide a reasonably safe workplace, leading to injuries from a derailment caused by a rockslide.",
+      "legal_basis": "Federal Employers' Liability Act (FELA), 45 U.S.C. \u00a7 51 et seq."
+    },
+    {
+      "claim": "Negligent failure to prevent or mitigate rockslides on the track, including inadequate monitoring and maintenance of the rockface adjacent to the tracks.",
+      "legal_basis": "Federal Employers' Liability Act duty to provide safe place to work; common-law negligence principles incorporated into FELA."
+    },
+    {
+      "claim": "Negligent implementation and operation of an AI-based rockslide detection system, including failure to make the system fully operational before the derailment.",
+      "legal_basis": "Federal Employers' Liability Act duty to use reasonable care in adopting and maintaining safety devices and systems; negligence under FELA."
+    },
+    {
+      "claim": "Breach of contract for wrongful denial and premature termination of post-acute care benefits under Medicare Advantage plans, allegedly based on nH Predict rather than individualized medical judgment.",
+      "legal_basis": "State common law breach of contract; plan terms under Medicare Advantage contracts."
+    },
+    {
+      "claim": "Breach of the implied covenant of good faith and fair dealing by using nH Predict to systematically deny or curtail covered post-acute care, allegedly frustrating plaintiffs\u2019 contractual rights.",
+      "legal_basis": "State common law implied covenant of good faith and fair dealing tied to Medicare Advantage plan contracts."
+    },
+    {
+      "claim": "Statutory and/or common law bad faith / insurance bad faith in claims handling, including use of nH Predict to prioritize cost savings over medically necessary care.",
+      "legal_basis": "State insurance bad-faith doctrines and related statutes (where applicable)."
+    },
+    {
+      "claim": "Unfair or deceptive trade practices and consumer protection violations based on misrepresentations or omissions about coverage, medical review, and the role of nH Predict in benefit determinations.",
+      "legal_basis": "State consumer protection and unfair trade practices statutes."
+    },
+    {
+      "claim": "Negligence in designing, implementing, and relying on nH Predict and related utilization review processes that allegedly caused wrongful denials and early terminations of care.",
+      "legal_basis": "State common law negligence and negligent utilization review theories."
+    },
+    {
+      "claim": "Fraud and misrepresentation regarding the nature of coverage, the role of physicians, and the use of AI-driven criteria in determining post-acute care benefits.",
+      "legal_basis": "State common law fraud, negligent misrepresentation, and related tort theories."
+    },
+    {
+      "claim": "Unjust enrichment based on UHC allegedly retaining premiums and cost savings from systematically under-providing covered post-acute care through nH Predict-driven denials.",
+      "legal_basis": "State common law unjust enrichment and restitution principles."
+    },
+    {
+      "claim": "Claims seeking direct review or alteration of specific Medicare Advantage benefit determinations without first completing the Medicare administrative appeals process.",
+      "legal_basis": "Medicare Act-related benefit entitlement theories asserted via state-law causes of action without exhaustion."
+    },
+    {
+      "claim": "Mr. Stewart seeks appellate review of a district court decision in his criminal case.",
+      "legal_basis": "General right to appeal federal criminal judgments; Federal Rule of Appellate Procedure 3 governing notices of appeal."
+    },
+    {
+      "claim": "Implicit claim that his notice of appeal was sufficient to invoke the Tenth Circuit\u2019s jurisdiction.",
+      "legal_basis": "Federal Rule of Appellate Procedure 3(c) and related jurisdictional precedent requiring liberal construction of notices of appeal."
+    },
+    {
+      "claim": "Through his response filing, Mr. Stewart effectively asserted that the authorities he cited supported his position on appeal.",
+      "legal_basis": "Reliance on purported case law and documents cited in his response brief."
+    },
+    {
+      "claim": "Takings claim seeking compensation for government use of his AI and information security research without payment.",
+      "legal_basis": "Fifth Amendment Takings Clause; Tucker Act jurisdiction in Court of Federal Claims."
+    },
+    {
+      "claim": "Retaliation and wrongful denial of a Small Business Administration (SBA) loan to his company.",
+      "legal_basis": "Alleged constitutional retaliation and statutory violations related to SBA lending (exact statutes not specified)."
+    },
+    {
+      "claim": "Claims brought on behalf of his LLC for injuries related to AI research use and SBA loan denial.",
+      "legal_basis": "Same underlying constitutional and statutory theories, asserted via his company."
+    },
+    {
+      "claim": "Request to disqualify or recuse the presiding judge based on alleged bias from prior adverse rulings.",
+      "legal_basis": "Judicial disqualification/recusal standards under federal law (e.g., 28 U.S.C. \u00a7 455)."
+    }
+  ]
+}

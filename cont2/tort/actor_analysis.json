@@ -1,0 +1,242 @@
+{
+  "summary": {
+    "total_cases": 19,
+    "plaintiff_types": {
+      "property owner alleging contamination of its land": 1,
+      "individual": 4,
+      "government entity": 9,
+      "nonprofit organization": 1,
+      "corporation(s)": 2,
+      "consortium of higher education and research institutions": 1,
+      "medicare advantage enrollees and representatives alleging wrongful benefit denials": 1
+    },
+    "defendant_types": {
+      "corporation(s)": 8,
+      "individual": 6,
+      "government entity": 4,
+      "insurance company": 1
+    },
+    "combinations": {
+      "property owner alleging contamination of its land v. corporation(s)": 1,
+      "individual v. corporation(s)": 2,
+      "government entity v. individual": 6,
+      "nonprofit organization v. government entity": 1,
+      "corporation(s) v. corporation(s)": 2,
+      "government entity v. corporation(s)": 3,
+      "consortium of higher education and research institutions v. government entity": 1,
+      "individual v. government entity": 2,
+      "medicare advantage enrollees and representatives alleging wrongful benefit denials v. insurance company": 1
+    }
+  },
+  "cases": [
+    {
+      "case_id": "2025-10-06_USCOURTS-cand-4_25-cv-01390_Dutch Girl Plaza LLC et al v. Marathon Petroleum Corporation et al.pdf",
+      "case_name": "Dutch Girl Plaza LLC et al. v. Marathon Petroleum Corporation et al.",
+      "ai_relevance": "Plaintiffs\u2019 counsel used AI drafting tool that generated non-existent case citations, noted by the court but not central to liability.",
+      "plaintiff_name": "Dutch Girl Plaza LLC",
+      "plaintiff_description": "Property owner alleging contamination of its land",
+      "plaintiff_type": "property owner alleging contamination of its land",
+      "defendant_name": "Marathon Petroleum Corporation et al.",
+      "defendant_description": "Petroleum companies operating neighboring gas station",
+      "defendant_type": "corporation(s)"
+    },
+    {
+      "case_id": "2025-07-07_USCOURTS-ned-8_24-cv-00015_Martinez v. Foremost Insurance Company.pdf",
+      "case_name": "Martinez v. Foremost Insurance Company",
+      "ai_relevance": "NOT RELATED",
+      "plaintiff_name": "Ismael Martinez",
+      "plaintiff_description": "Individual homeowner and insured property owner",
+      "plaintiff_type": "individual",
+      "defendant_name": "Foremost Insurance Company",
+      "defendant_description": "Insurance company providing property coverage",
+      "defendant_type": "corporation(s)"
+    },
+    {
+      "case_id": "2025-06-11_USCOURTS-cand-3_24-cr-00141_USA v. Ding.pdf",
+      "case_name": "United States of America v. Linwei Ding",
+      "ai_relevance": "Alleged theft of AI-related trade secrets and PRC-aligned AI company activities.",
+      "plaintiff_name": "United States of America",
+      "plaintiff_description": "Federal government prosecuting criminal trade secret theft case",
+      "plaintiff_type": "government entity",
+      "defendant_name": "Linwei Ding",
+      "defendant_description": "Individual criminal defendant, alleged trade secret thief",
+      "defendant_type": "individual"
+    },
+    {
+      "case_id": "2023-11-10_USCOURTS-gand-1_17-cv-02989_Curling et al v. Raffensperger et al.pdf",
+      "case_name": "Curling et al. v. Raffensperger et al.",
+      "ai_relevance": "Electronic voting machines, software, and automated pollbooks central to dispute over secure, accurate vote casting and counting.",
+      "plaintiff_name": "Curling et al.",
+      "plaintiff_description": "Voters and advocacy groups challenging Georgia\u2019s voting system",
+      "plaintiff_type": "nonprofit organization",
+      "defendant_name": "Raffensperger et al.",
+      "defendant_description": "Georgia state election officials and related government defendants",
+      "defendant_type": "government entity"
+    },
+    {
+      "case_id": "2023-04-19_USCOURTS-pamd-4_19-cr-00207_USA v. Bressi et al.pdf",
+      "case_name": "United States v. Anthony D. Bressi, Damonico L. Henderson, and Terry Harris",
+      "ai_relevance": "NOT RELATED",
+      "plaintiff_name": "United States of America",
+      "plaintiff_description": "Federal government prosecuting criminal drug charges",
+      "plaintiff_type": "government entity",
+      "defendant_name": "Anthony D. Bressi et al.",
+      "defendant_description": "Individual criminal defendants in drug conspiracy",
+      "defendant_type": "individual"
+    },
+    {
+      "case_id": "2025-07-03_USCOURTS-tnwd-2_23-cv-02005_Milia L.L.C. v. State Farm Fire _ Casualty Company.pdf",
+      "case_name": "Milia L.L.C. v. State Farm Fire & Casualty Company",
+      "ai_relevance": "NOT RELATED",
+      "plaintiff_name": "Milia L.L.C.",
+      "plaintiff_description": "Business entity owning insured premises",
+      "plaintiff_type": "corporation(s)",
+      "defendant_name": "State Farm Fire & Casualty Company",
+      "defendant_description": "Insurance company providing property coverage",
+      "defendant_type": "corporation(s)"
+    },
+    {
+      "case_id": "2024-09-06_USCOURTS-pamd-4_19-cr-00207_USA v. Bressi et al.pdf",
+      "case_name": "USA v. Bressi et al.",
+      "ai_relevance": "NOT RELATED",
+      "plaintiff_name": "United States of America",
+      "plaintiff_description": "Federal government prosecuting criminal drug conspiracy case",
+      "plaintiff_type": "government entity",
+      "defendant_name": "Anthony Bressi",
+      "defendant_description": "Individual criminal defendant charged with drug offenses",
+      "defendant_type": "individual"
+    },
+    {
+      "case_id": "2023-07-25_USCOURTS-arwd-1_23-cv-01038_State of Arkansas v. TikTok Inc. et al.pdf",
+      "case_name": "State of Arkansas v. TikTok Inc. et al.",
+      "ai_relevance": "NOT RELATED",
+      "plaintiff_name": "State of Arkansas",
+      "plaintiff_description": "U.S. state government plaintiff",
+      "plaintiff_type": "government entity",
+      "defendant_name": "TikTok Inc. et al.",
+      "defendant_description": "Social media companies and related entities",
+      "defendant_type": "corporation(s)"
+    },
+    {
+      "case_id": "2025-07-30_USCOURTS-prd-3_25-cr-00284_USA v. Sims et al.pdf",
+      "case_name": "United States v. Juan Carlos Reynoso",
+      "ai_relevance": "Alleged crypto fraud scheme used AI-enabled, automated commission-based marketing platforms.",
+      "plaintiff_name": "United States of America",
+      "plaintiff_description": "Federal government prosecuting alleged criminal offenses",
+      "plaintiff_type": "government entity",
+      "defendant_name": "Juan Carlos Reynoso",
+      "defendant_description": "Individual criminal defendant, dual citizen, crypto entrepreneur",
+      "defendant_type": "individual"
+    },
+    {
+      "case_id": "2025-06-20_USCOURTS-mad-1_25-cv-11231_Association of American Universities et al v. National Science Foundation et al.pdf",
+      "case_name": "Association of American Universities et al. v. National Science Foundation et al.",
+      "ai_relevance": "NOT RELATED",
+      "plaintiff_name": "Association of American Universities et al.",
+      "plaintiff_description": "Consortium of higher education and research institutions",
+      "plaintiff_type": "consortium of higher education and research institutions",
+      "defendant_name": "National Science Foundation et al.",
+      "defendant_description": "Federal science funding agency and related government defendants",
+      "defendant_type": "government entity"
+    },
+    {
+      "case_id": "2025-10-30_USCOURTS-cand-3_22-cr-00378_USA v. Soto_ et al..pdf",
+      "case_name": "United States v. Santos Rene Soto and Santos Moises Soto",
+      "ai_relevance": "AI company GoldenSpear and AI Health allegedly used to perpetrate fraud schemes via false AI and healthcare technology claims.",
+      "plaintiff_name": "United States of America",
+      "plaintiff_description": "Federal government prosecuting criminal fraud charges.",
+      "plaintiff_type": "government entity",
+      "defendant_name": "Santos Rene Soto and Santos Moises Soto",
+      "defendant_description": "Individual executives of AI-related companies GoldenSpear and AI Health.",
+      "defendant_type": "corporation(s)"
+    },
+    {
+      "case_id": "2021-03-18_USCOURTS-mied-2_17-cv-10657_Cahoo et al v. SAS Analytics Inc. et al.pdf",
+      "case_name": "Cahoo et al. v. SAS Analytics Inc. et al.",
+      "ai_relevance": "Automated algorithmic system (MiDAS) allegedly caused wrongful unemployment fraud determinations and due process violations.",
+      "plaintiff_name": "Cahoo et al., unemployment claimants",
+      "plaintiff_description": "Individuals challenging automated unemployment fraud determinations",
+      "plaintiff_type": "individual",
+      "defendant_name": "SAS Analytics Inc. et al.",
+      "defendant_description": "Private vendors and state officials running MiDAS system",
+      "defendant_type": "government entity"
+    },
+    {
+      "case_id": "2024-12-18_USCOURTS-mad-1_24-cr-10107_USA v. Thompson III.pdf",
+      "case_name": "United States of America v. Estes Carter Thompson III",
+      "ai_relevance": "Allegations include possession of AI-generated child sexual abuse images.",
+      "plaintiff_name": "United States of America",
+      "plaintiff_description": "Federal government prosecuting criminal charges",
+      "plaintiff_type": "government entity",
+      "defendant_name": "Estes Carter Thompson III",
+      "defendant_description": "Individual criminal defendant, airline employee",
+      "defendant_type": "individual"
+    },
+    {
+      "case_id": "2022-05-10_USCOURTS-ca13-22-01117_Aljindi v. US.pdf",
+      "case_name": "Aljindi v. United States",
+      "ai_relevance": "Plaintiff alleges DoD stole his AI-related intellectual property and works.",
+      "plaintiff_name": "Dr. Ahmad Aljindi",
+      "plaintiff_description": "Individual plaintiff alleging discrimination and IP theft by government.",
+      "plaintiff_type": "government entity",
+      "defendant_name": "United States (Department of Defense)",
+      "defendant_description": "Federal government, including Department of Defense and related entities.",
+      "defendant_type": "corporation(s)"
+    },
+    {
+      "case_id": "2025-01-15_USCOURTS-cand-3_24-cv-09325_Fouts v. Commonwealth of Kentucky_ et al.pdf",
+      "case_name": "Fouts v. Commonwealth of Kentucky, et al.",
+      "ai_relevance": "NOT RELATED",
+      "plaintiff_name": "John R. Fouts and minor child",
+      "plaintiff_description": "Individual Kentucky resident and his minor child",
+      "plaintiff_type": "individual",
+      "defendant_name": "Commonwealth of Kentucky et al.",
+      "defendant_description": "State government and related agencies, plus federal agencies",
+      "defendant_type": "government entity"
+    },
+    {
+      "case_id": "2025-09-25_USCOURTS-pawd-2_22-cv-01159_MANSFIELD et al v. NORFOLK SOUTHERN RAILWAY COMPANY.pdf",
+      "case_name": "Mansfield and Marchionnda v. Norfolk Southern Railway Company",
+      "ai_relevance": "Defendant allegedly used an AI-based rockslide detection system that was not fully operational, and its failure is part of plaintiffs\u2019 negligence theory about unsafe track conditions and workplace safety.",
+      "plaintiff_name": "Mansfield and Marchionnda",
+      "plaintiff_description": "Individual railroad employees injured in derailment",
+      "plaintiff_type": "individual",
+      "defendant_name": "Norfolk Southern Railway Company",
+      "defendant_description": "Railroad corporation and employer of plaintiffs",
+      "defendant_type": "corporation(s)"
+    },
+    {
+      "case_id": "2025-02-13_USCOURTS-mnd-0_23-cv-03514_Estate of Gene B. Lokken_ The et al v. UnitedHealth Group_ Inc. et al.pdf",
+      "case_name": "Estate of Gene B. Lokken et al. v. UnitedHealth Group, Inc. et al.",
+      "ai_relevance": "Dispute centers on UHC\u2019s AI tool nH Predict allegedly driving wrongful denials of post-acute Medicare Advantage benefits.",
+      "plaintiff_name": "Estate of Gene B. Lokken et al.",
+      "plaintiff_description": "Medicare Advantage enrollees and representatives alleging wrongful benefit denials",
+      "plaintiff_type": "medicare advantage enrollees and representatives alleging wrongful benefit denials",
+      "defendant_name": "UnitedHealth Group, Inc. et al.",
+      "defendant_description": "Health insurer and related entities administering Medicare Advantage plans",
+      "defendant_type": "insurance company"
+    },
+    {
+      "case_id": "2025-07-16_USCOURTS-ca10-25-01250_United States v. Stewart.pdf",
+      "case_name": "United States v. Stewart",
+      "ai_relevance": "Party\u2019s filing apparently drafted with AI, causing fabricated citations and non-existent authorities.",
+      "plaintiff_name": "United States of America",
+      "plaintiff_description": "Federal government prosecuting authority",
+      "plaintiff_type": "government entity",
+      "defendant_name": "Michael Shawn Stewart",
+      "defendant_description": "Individual criminal defendant and appellant",
+      "defendant_type": "individual"
+    },
+    {
+      "case_id": "2025-02-10_USCOURTS-ca13-24-01997_Aljindi v. US.pdf",
+      "case_name": "Aljindi v. United States",
+      "ai_relevance": "Plaintiff alleges uncompensated government use of his AI and information security research.",
+      "plaintiff_name": "Dr. Ahmad Aljindi",
+      "plaintiff_description": "Individual researcher and business owner, pro se litigant",
+      "plaintiff_type": "corporation(s)",
+      "defendant_name": "United States of America",
+      "defendant_description": "Federal government and its agencies, including SBA",
+      "defendant_type": "corporation(s)"
+    }
+  ]
+}

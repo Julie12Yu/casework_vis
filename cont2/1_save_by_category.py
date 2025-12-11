@@ -2,7 +2,8 @@ import json
 
 # Privacy and Data Protection
 # IP Law
-NAME = 'IP Law'
+# Tort (why not DAFSDOFASDFD)
+NAME = 'Justice and Equity'
 
 def filter_privacy_cases(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -24,7 +25,7 @@ def filter_privacy_cases(input_file, output_file):
 
 if __name__ == "__main__":
     # Specify your input and output file paths
-    input_file = "../new_court_cases_processed.json"
+    input_file = "../misc/new_court_cases_processed.json"
     output_file = f"{NAME}.json"
     
     filter_privacy_cases(input_file, output_file)

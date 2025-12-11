@@ -9,7 +9,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-NAME = "ipLaw"
+NAME = "tort"
 
 INPUT_PATH = f"{NAME}/cases_breakdown.json"
 OUTPUT_PATH = f"{NAME}/actor_analysis.json"
