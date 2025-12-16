@@ -3,57 +3,55 @@
     "total_cases": 134,
     "plaintiff_types": {
       "class-action": 11,
-      "corporation(s)": 71,
-      "creative professional": 9,
-      "individual": 28,
+      "corporation(s)": 68,
+      "creative professional": 12,
+      "individual": 23,
       "platform(s)": 4,
       "religious organization operating a church": 1,
+      "stem professional": 11,
       "government entity": 1,
       "investor(s)": 1,
-      "individual with publisher": 4,
-      "stem professional": 4
+      "individual with publisher": 2
     },
     "defendant_types": {
       "platform(s)": 12,
-      "corporation(s)": 97,
-      "individual": 11,
-      "stem professional": 2,
+      "corporation(s)": 101,
+      "creative professional": 2,
+      "stem professional": 5,
       "finance company": 2,
+      "individual": 3,
       "investor(s)": 1,
       "government entity": 6,
-      "individual with publisher": 1,
       "healthcare provider": 1,
       "former ceo and associated defendants": 1
     },
     "combinations": {
       "class-action v. platform(s)": 4,
-      "class-action v. corporation(s)": 5,
-      "corporation(s) v. corporation(s)": 53,
-      "creative professional v. corporation(s)": 6,
-      "individual v. corporation(s)": 23,
-      "corporation(s) v. individual": 7,
-      "creative professional v. individual": 1,
+      "class-action v. corporation(s)": 7,
+      "corporation(s) v. corporation(s)": 51,
+      "creative professional v. corporation(s)": 9,
+      "individual v. corporation(s)": 20,
+      "corporation(s) v. creative professional": 1,
+      "corporation(s) v. stem professional": 3,
       "platform(s) v. corporation(s)": 3,
       "platform(s) v. stem professional": 1,
       "corporation(s) v. platform(s)": 6,
       "religious organization operating a church v. finance company": 1,
       "creative professional v. platform(s)": 1,
-      "class-action v. individual": 2,
+      "stem professional v. corporation(s)": 7,
+      "corporation(s) v. individual": 3,
       "government entity v. corporation(s)": 1,
       "investor(s) v. corporation(s)": 1,
       "corporation(s) v. investor(s)": 1,
-      "individual v. individual": 1,
-      "individual with publisher v. corporation(s)": 3,
-      "stem professional v. government entity": 2,
-      "individual with publisher v. individual with publisher": 1,
+      "individual with publisher v. corporation(s)": 2,
+      "stem professional v. government entity": 4,
+      "creative professional v. creative professional": 1,
       "corporation(s) v. healthcare provider": 1,
       "corporation(s) v. finance company": 1,
       "individual v. platform(s)": 1,
       "corporation(s) v. former ceo and associated defendants": 1,
-      "individual v. government entity": 3,
-      "stem professional v. corporation(s)": 2,
-      "corporation(s) v. stem professional": 1,
-      "creative professional v. government entity": 1
+      "individual v. government entity": 2,
+      "creative professional v. stem professional": 1
     }
   },
   "cases": [
@@ -184,7 +182,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Shared Partnership (Shared.com)",
       "plaintiff_description": "Canadian online content creator business",
-      "plaintiff_type": "corporation(s)",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Meta Platforms, Inc.",
       "defendant_description": "Social media and online advertising corporation",
       "defendant_type": "corporation(s)"
@@ -209,7 +207,7 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "Cerence officers and directors",
       "defendant_description": "Corporate officers and directors of Cerence, Inc.",
-      "defendant_type": "corporation(s)"
+      "defendant_type": "creative professional"
     },
     {
       "case_id": "2025-10-22_USCOURTS-cand-4_25-cv-09081_Pete v. Facebook Data Breach __Transferred to ND_CA__.pdf",
@@ -231,7 +229,7 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "John Blair",
       "defendant_description": "Individual alleged bourbon-monitoring technology inventor",
-      "defendant_type": "individual"
+      "defendant_type": "stem professional"
     },
     {
       "case_id": "2025-05-16_USCOURTS-cand-3_23-cv-00770_Mobley v. Workday_ Inc..pdf",
@@ -264,7 +262,7 @@
       "plaintiff_type": "creative professional",
       "defendant_name": "NVIDIA Corporation",
       "defendant_description": "Technology corporation developing NeMo Megatron AI models",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2022-04-26_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
@@ -352,7 +350,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "AI company developing Claude large language model",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2021-09-30_USCOURTS-nynd-1_18-cv-00549_Rensselaer Polytechnic Institute et al. v. Amazon.com_ Inc..pdf",
@@ -374,7 +372,7 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "Innovative Routines International Inc.",
       "defendant_description": "Software company, maker of CoSORT product",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2019-04-01_USCOURTS-cand-5_18-cv-07233_WeRide Corp. et al v. Huang et al.pdf",
@@ -404,7 +402,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Chenco Engineering & Consulting GMBH",
       "plaintiff_description": "Foreign engineering and consulting company",
-      "plaintiff_type": "corporation(s)",
+      "plaintiff_type": "stem professional",
       "defendant_name": "Do-Fluoride New Materials; Do-Fluoride New Energy",
       "defendant_description": "Foreign corporate defendants in materials and energy sectors",
       "defendant_type": "corporation(s)"
@@ -426,7 +424,7 @@
       "ai_relevance": "Dispute over alleged misappropriation of AI-enabled dashcam design and technology.",
       "plaintiff_name": "Chris A. Pritchard",
       "plaintiff_description": "Pro se individual inventor and patent holder",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "stem professional",
       "defendant_name": "Harman Connected Services, Aaron Thompson",
       "defendant_description": "Technology company and its representative employees",
       "defendant_type": "corporation(s)"
@@ -440,7 +438,7 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "Artificial intelligence company developing and operating Claude model.",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2024-07-22_USCOURTS-flsd-1_23-cv-23306_MAZILE v. Larkin University Corp. et al.pdf",
@@ -462,7 +460,7 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "Soft10, Inc.",
       "defendant_description": "Software company providing Dr. Mo analytics tool",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2020-10-19_USCOURTS-ded-1_19-cv-00524_VoterLabs_ Inc. v. Ethos Group Consulting Services_ LLC.pdf",
@@ -528,7 +526,7 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "iRacing.com Motorsport Simulations, LLC",
       "defendant_description": "Limited liability company racing simulation developer",
-      "defendant_type": "corporation(s)"
+      "defendant_type": "stem professional"
     },
     {
       "case_id": "2022-06-17_USCOURTS-ksd-6_21-cv-01270_Andes Capital Financing LLC et al v. Crossed Keys LLC et al.pdf",
@@ -638,7 +636,7 @@
       "plaintiff_type": "individual",
       "defendant_name": "Microsoft Corporation",
       "defendant_description": "Technology corporation providing Bing and Copilot services",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2025-03-25_USCOURTS-cand-5_24-cv-03811_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
@@ -778,10 +776,10 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Tize W. Clark and publisher",
       "plaintiff_description": "Author and his book publisher",
-      "plaintiff_type": "individual with publisher",
+      "plaintiff_type": "creative professional",
       "defendant_name": "James Dashner and others",
       "defendant_description": "Author and his book publisher",
-      "defendant_type": "individual with publisher"
+      "defendant_type": "creative professional"
     },
     {
       "case_id": "2011-04-04_USCOURTS-cand-5_05-cv-03534_Goldberg v. Cameron et al.pdf",
@@ -789,7 +787,7 @@
       "ai_relevance": "NOT RELATED",
       "plaintiff_name": "Neil Goldberg",
       "plaintiff_description": "Individual screenwriter and composer alleging infringement",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Gale Anne Hurd; Pacific Western Productions",
       "defendant_description": "Film producer and production company defendants",
       "defendant_type": "corporation(s)"
@@ -954,7 +952,7 @@
       "ai_relevance": "Patents cover AI-enabled host websites improving label-based internet searching.",
       "plaintiff_name": "Emmanuel C. Gonzalez",
       "plaintiff_description": "Individual patent owner and inventor",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "stem professional",
       "defendant_name": "InfoStream Group Inc.",
       "defendant_description": "Corporation accused of patent infringement",
       "defendant_type": "corporation(s)"
@@ -976,7 +974,7 @@
       "ai_relevance": "Dispute over whether AI system DABUS can be a patent inventor.",
       "plaintiff_name": "Stephen Thaler",
       "plaintiff_description": "Individual inventor and owner of AI system DABUS",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "stem professional",
       "defendant_name": "Kathi Vidal, USPTO Director",
       "defendant_description": "Federal government official heading U.S. Patent and Trademark Office",
       "defendant_type": "government entity"
@@ -1141,7 +1139,7 @@
       "ai_relevance": "Dispute over AI-enabled dashcam patent and alleged misuse of AI technology.",
       "plaintiff_name": "Chris A. Pritchard",
       "plaintiff_description": "Individual inventor and patent holder",
-      "plaintiff_type": "individual",
+      "plaintiff_type": "stem professional",
       "defendant_name": "Aaron Thompson; Harman Connected Services",
       "defendant_description": "Individual employee and technology corporation",
       "defendant_type": "corporation(s)"
@@ -1174,7 +1172,7 @@
       "ai_relevance": "Dispute over competing dental AI systems for analyzing X\u2011rays and detecting disease.",
       "plaintiff_name": "Overjet, Inc.",
       "plaintiff_description": "Dental AI technology company and software developer",
-      "plaintiff_type": "corporation(s)",
+      "plaintiff_type": "stem professional",
       "defendant_name": "VideaHealth, Inc.",
       "defendant_description": "Competing dental AI software and technology company",
       "defendant_type": "corporation(s)"
@@ -1353,7 +1351,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "Mosaic LLM defendants",
       "defendant_description": "Companies operating or deploying Mosaic-related generative AI models",
-      "defendant_type": "individual"
+      "defendant_type": "corporation(s)"
     },
     {
       "case_id": "2006-02-14_USCOURTS-waed-2_05-cv-00380_Next It Corporation v. Roy et al.pdf",
@@ -1394,10 +1392,10 @@
       "ai_relevance": "Centralization of lawsuits alleging copyrighted works used without consent to train large language models like GPT-4.",
       "plaintiff_name": "Various copyright holders",
       "plaintiff_description": "Authors and rightsholders suing over AI training use",
-      "plaintiff_type": "individual with publisher",
+      "plaintiff_type": "creative professional",
       "defendant_name": "OpenAI and Microsoft",
       "defendant_description": "AI developer and technology corporation defendants",
-      "defendant_type": "corporation(s)"
+      "defendant_type": "stem professional"
     },
     {
       "case_id": "2019-11-27_USCOURTS-cand-4_19-cv-04433_Demos v. Google et al.pdf",
@@ -1416,7 +1414,7 @@
       "ai_relevance": "Dispute over alleged misuse of AI-related scientific work and concepts.",
       "plaintiff_name": "Ahmad Aljindi",
       "plaintiff_description": "Individual researcher and author",
-      "plaintiff_type": "creative professional",
+      "plaintiff_type": "stem professional",
       "defendant_name": "United States of America",
       "defendant_description": "Federal government of the United States",
       "defendant_type": "government entity"

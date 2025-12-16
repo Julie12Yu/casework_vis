@@ -4,11 +4,13 @@
     "plaintiff_types": {
       "property owner alleging contamination of its land": 1,
       "individual": 4,
-      "government entity": 9,
+      "government entity": 8,
       "nonprofit organization": 1,
-      "corporation(s)": 2,
+      "corporation(s)": 1,
       "consortium of higher education and research institutions": 1,
-      "medicare advantage enrollees and representatives alleging wrongful benefit denials": 1
+      "medicare advantage enrollees and representatives alleging wrongful benefit denials": 1,
+      "creative professional": 1,
+      "stem professional": 1
     },
     "defendant_types": {
       "corporation(s)": 8,
@@ -19,13 +21,15 @@
     "combinations": {
       "property owner alleging contamination of its land v. corporation(s)": 1,
       "individual v. corporation(s)": 2,
-      "government entity v. individual": 6,
+      "government entity v. individual": 5,
       "nonprofit organization v. government entity": 1,
-      "corporation(s) v. corporation(s)": 2,
+      "corporation(s) v. corporation(s)": 1,
       "government entity v. corporation(s)": 3,
       "consortium of higher education and research institutions v. government entity": 1,
       "individual v. government entity": 2,
-      "medicare advantage enrollees and representatives alleging wrongful benefit denials v. insurance company": 1
+      "medicare advantage enrollees and representatives alleging wrongful benefit denials v. insurance company": 1,
+      "creative professional v. individual": 1,
+      "stem professional v. corporation(s)": 1
     }
   },
   "cases": [
@@ -222,7 +226,7 @@
       "ai_relevance": "Party\u2019s filing apparently drafted with AI, causing fabricated citations and non-existent authorities.",
       "plaintiff_name": "United States of America",
       "plaintiff_description": "Federal government prosecuting authority",
-      "plaintiff_type": "government entity",
+      "plaintiff_type": "creative professional",
       "defendant_name": "Michael Shawn Stewart",
       "defendant_description": "Individual criminal defendant and appellant",
       "defendant_type": "individual"
@@ -233,7 +237,7 @@
       "ai_relevance": "Plaintiff alleges uncompensated government use of his AI and information security research.",
       "plaintiff_name": "Dr. Ahmad Aljindi",
       "plaintiff_description": "Individual researcher and business owner, pro se litigant",
-      "plaintiff_type": "corporation(s)",
+      "plaintiff_type": "stem professional",
       "defendant_name": "United States of America",
       "defendant_description": "Federal government and its agencies, including SBA",
       "defendant_type": "corporation(s)"

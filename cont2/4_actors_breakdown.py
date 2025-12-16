@@ -9,7 +9,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-NAME = "tort"
+NAME = "privacy"
 
 INPUT_PATH = f"{NAME}/cases_breakdown.json"
 OUTPUT_PATH = f"{NAME}/actor_analysis.json"
@@ -34,13 +34,6 @@ def extract_party_type(description):
     text = normalize_text(description)
 
     ###
-    # 1. NER: FIND INDIVIDUALS
-    doc = nlp(description)
-    for ent in doc.ents:
-        if ent.label_ == "PERSON":
-            return "individual"
-
-    ###
     # 2. RAKE Keyphrase Extraction
     rake.extract_keywords_from_text(description)
     phrases = [p.lower() for p in rake.get_ranked_phrases()]
@@ -54,6 +47,21 @@ def extract_party_type(description):
             "class action", "class-action", "putative class", "nationwide class", "class of "
         ]):
             return "class-action"
+        
+        # STEM CREATIVES
+        if any(k in search_text for k in [
+            "developer", "engineer", "scientist", "programmer", "technologist",
+            "software creator", "software engineer", "data scientist", "ai researcher",
+            "inventor", "researcher"
+        ]):
+            return "stem professional"
+
+        # ART CREATIVES
+        if any(k in search_text for k in [
+            "author", "director", "editor", "illustrator", "composer", "songwriter", "artist", 
+            "poet", "musician", "writer", "filmmaker", "designer", "photographer", "content creator"
+        ]):
+            return "creative professional"
 
         # PLATFORMS (e.g., social media, marketplaces, they function different legally from companies)
         if any(k in search_text for k in [
@@ -116,19 +124,6 @@ def extract_party_type(description):
             "publisher", "publishing company", "publishing entity", "rightsholders"
         ]):
             return "individual with publisher"
-
-        # STEM CREATIVES
-        if any(k in search_text for k in [
-            "developer", "engineer", "scientist", "programmer", "technologist",
-            "software creator", "software engineer", "data scientist", "ai researcher",
-        ]):
-            return "stem professional"
-
-        # ART CREATIVES
-        if any(k in search_text for k in [
-            "author", "artist", "musician", "filmmaker", "designer", "photographer", "content creator"
-        ]):
-            return "creative professional"
 
         # INDIVIDUAL / PEOPLE
         if any(k in search_text for k in [
