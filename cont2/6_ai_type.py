@@ -10,7 +10,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-NAME = "ipLaw"
+NAME = "privacy"
 
 INPUT_PATH = f"{NAME}/cases_breakdown.json"
 OUTPUT_PATH = f"{NAME}/ai_tech.json"
@@ -126,6 +126,9 @@ def analyze_description(cases):
         defendant_desc = parties.get("defendant_description", "")
 
         # Combine all relevant text into one classification input
+        print(ai_relevance)
+        if ai_relevance == "NOT RELATED":
+            ai_relevance = ""
         combined_text = " ".join([
             ai_relevance,
             plaintiff_desc,
