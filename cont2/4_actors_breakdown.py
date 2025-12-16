@@ -9,7 +9,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-NAME = "privacy"
+NAME = "ipLaw"
 
 INPUT_PATH = f"{NAME}/cases_breakdown.json"
 OUTPUT_PATH = f"{NAME}/actor_analysis.json"
@@ -24,23 +24,23 @@ def normalize_text(text):
 
 
 def extract_party_type(description):
-    """
-    1. NER -> If person, return individual
-    2. RAKE -> Get phrases that matter
-    3. Use rule-based classifier
+    """    
+    1. RAKE -> Get phrases that matter
+    2. Use rule-based classifier
+    3. NER -> On leftovers, if person, return individual
     """
 
     # Normalize fallback text
     text = normalize_text(description)
 
     ###
-    # 2. RAKE Keyphrase Extraction
+    # 1. RAKE Keyphrase Extraction
     rake.extract_keywords_from_text(description)
     phrases = [p.lower() for p in rake.get_ranked_phrases()]
     phrase_text = " ".join(phrases)
 
     ###
-    # 3. RULE-BASED CLASSIFICATION on keyphrases
+    # 2. RULE-BASED CLASSIFICATION on keyphrases
     def check_rules(search_text):
         # CLASS ACTION
         if any(k in search_text for k in [
@@ -143,6 +143,13 @@ def extract_party_type(description):
     result = check_rules(text)
     if result:
         return result
+
+    ###
+    # 3. NER: FIND INDIVIDUALS
+    doc = nlp(description)
+    for ent in doc.ents:
+        if ent.label_ == "PERSON":
+            return "individual"
 
     # OTHER
     return text

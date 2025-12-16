@@ -23,9 +23,8 @@
       "quintus and related securities defendants": 1,
       "investor(s)": 2,
       "creative professional": 4,
-      "operator of ashley madison online dating website": 1,
+      "individual": 3,
       "competing online-based honor society organization": 1,
-      "individual": 2,
       "private vendors helping develop midas fraud-detection system": 1,
       "public school district and related defendants": 1,
       "insurance company": 1,
@@ -48,7 +47,7 @@
       "investor(s) v. quintus and related securities defendants": 1,
       "corporation(s) v. investor(s)": 1,
       "investor(s) v. creative professional": 1,
-      "class-action v. operator of ashley madison online dating website": 1,
+      "class-action v. individual": 1,
       "class-action v. creative professional": 2,
       "investor(s) v. platform(s)": 2,
       "honor society for community college students v. competing online-based honor society organization": 1,
@@ -777,7 +776,7 @@
       "plaintiff_type": "class-action",
       "defendant_name": "Avid Dating Life, Inc.",
       "defendant_description": "Operator of Ashley Madison online dating website",
-      "defendant_type": "operator of ashley madison online dating website"
+      "defendant_type": "individual"
     },
     {
       "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04264_Weiss v. Quintus Corporation_ et al.pdf",
