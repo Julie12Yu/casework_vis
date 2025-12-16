@@ -4,7 +4,7 @@
     "associated_technologies": {
       "individual employee alleging privacy and discrimination violations employer corporation and individual managerial employees": 1,
       "plaintiff disclosed using ai to draft filings; court noted but it did not affect venue decision. pro se individual and his minor child state government and related agencies, officials": 1,
-      "defendant\u2019s ai phone assistants allegedly intercepted and recorded calls without consent. individual consumer and putative class representative technology company providing ai phone ordering assistants": 1,
+      "ai bots": 8,
       "websites allegedly used ai-generated content to fabricate litigation documents and statements. payment-processing company and its individual founder internet service provider and anonymous website operators": 1,
       "face recognition": 23,
       "dispute involves ai-focused startup alleging anticompetitive conduct in ai-related markets. ai-focused startup business entity corporate defendants in technology and law-enforcement markets": 1,
@@ -15,13 +15,13 @@
       "federal government and 20 state attorneys general technology corporation and smartphone manufacturer": 1,
       "cybersecurity": 2,
       "putative class of google users alleging privacy violations technology corporation operating google services and platforms": 1,
+      "medical ai": 2,
       "defendant uses ai-driven platform to connect real estate buyers with homes, relevant to disputed branding and services. texas real estate business asserting trademark rights real estate company using ai-based home search platform": 1,
       "trademark rights over name of ai research and product company artificial intelligence research and product corporation competing business led by individual guy ravine": 1,
       "individual consumers affected by data breach mortgage loan servicing corporation, alaska-based": 1,
       "individual employee alleging racial discrimination healthcare system and former employer": 1,
       "defendant allegedly used ai in hiring decisions, but ai not central to ruling. individual former employee and job applicant corporate employer/technology company": 1,
       "federal government and state plaintiffs in antitrust action technology corporation and antitrust defendant": 1,
-      "ai bots": 7,
       "dispute over competing ai systems for detecting dental disease from x\u2011rays. dental artificial intelligence software company competing dental artificial intelligence software company": 1,
       "individual job applicant alleging racial discrimination texas state government health and human services agency": 1,
       "plaintiff alleged 5g enables ai-based secretive data collection and control. pro se individual plaintiff alleging 5g conspiracy harms. telecom company and multiple alleged conspirator defendants": 1,
@@ -32,19 +32,17 @@
       "alleged misstatements about company\u2019s artificial intelligence technology in securities filings. investor and proposed securities class representative public corporation and related defendants": 1,
       "plaintiff used ai transcription tool for phone-call evidence; court found inadmissible. individual consumer alleging credit reporting errors consumer credit reporting agency corporation": 1,
       "party\u2019s filings appeared to rely on ai, causing fake citations. individual car dealer/borrower in credit dispute business entity providing line of credit financing": 1,
-      "dispute involves alleged misappropriation of ai software product designs. individual alleging trade secret misappropriation individual defendants and corporate investor entity": 1,
+      "ai trade secrets": 1,
       "plaintiff alleged google misrepresented itself as an artificial intelligence research company, but ai was only tangential to the consumer-protection claim. individual consumer and google plus user large technology corporation providing online services": 1,
       "platform marketed as ai-powered forex trading system; alleged fraudulent ai representations induced investments. group of investors alleging forex fraud scheme online forex platform and uk payment company": 1,
       "plaintiff alleged ai-driven wireless torture and spoofing operations by defendants. individual pro se plaintiff alleging government and corporate conspiracy federal agencies and pharmaceutical companies as institutional defendants": 1,
       "generative ai": 6,
-      "dispute centers on online criticism of spider labs\u2019 claimed ai-based ad fraud detection technology. corporation alleging defamation over online statements anonymous individual online speaker": 1,
       "petitioner alleged ai intervention in his criminal cases; court found claims meritless and unsupported. pretrial detainee and habeas petitioner county detention facility and custodial authority": 1,
       "plaintiff alleges implanted chip and ai used to cause psychological and physical harm. individual pro se plaintiff alleging implanted chip harms federal officials and related government defendants": 1,
       "dispute arises from failed funding of ai solutions company augustus intelligence, inc. litigation trustee for augustus and certain investors individual alleged investor and contract counterparty": 1,
       "plaintiff alleged sexual assault committed by artificial intelligence system. individual state pretrial detainee bringing ftca claims federal government sued under federal tort claims act": 1,
       "court expressly barred use of ai tools to draft any filings. individual pro se plaintiff alleging discrimination corporate employer and related business entities": 1,
       "settlement required pinterest to use ai to promote diverse, inclusive content representation on its platform. shareholders bringing derivative claims on pinterest\u2019s behalf public technology company operating image-sharing platform": 1,
-      "medical teleradiology services corporation and former employer individual former employee and executive": 1,
       "plaintiff challenges risks and development of advanced ai systems by government and tech companies. individual pro se litigant raising ai-related fears federal government and private ai/technology corporations": 1,
       "plaintiff used ai to draft filings that contained fake legal citations, leading court to strike her summary judgment responses. individual passenger and pro se litigant commercial airline and additional associated defendants": 1,
       "trademark dispute between ai-focused companies over use of the \u201cplayground ai\u201d brand. artificial intelligence technology company offering ai services ai-focused corporation and its individual founder/executive": 1
@@ -64,7 +62,7 @@
     {
       "case_id": "2025-08-11_USCOURTS-cand-3_25-cv-00990_Taylor v. ConverseNow Technologies_ Inc..pdf",
       "case_name": "Taylor v. ConverseNow Technologies, Inc.",
-      "associated_technology": "defendant\u2019s ai phone assistants allegedly intercepted and recorded calls without consent. individual consumer and putative class representative technology company providing ai phone ordering assistants"
+      "associated_technology": "ai bots"
     },
     {
       "case_id": "2025-09-09_USCOURTS-cand-4_25-cv-06724_Shift4 Payments_ LLC et al v. JaredIsaacmanCourtCase.com et al.pdf",
@@ -124,7 +122,7 @@
     {
       "case_id": "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf",
       "case_name": "Matt Dinerstein v. Google LLC et al.",
-      "associated_technology": "algorithims"
+      "associated_technology": "medical ai"
     },
     {
       "case_id": "2023-09-06_USCOURTS-ca5-22-50405_Rex Real Est I v. Rex Real Est.pdf",
@@ -394,7 +392,7 @@
     {
       "case_id": "2019-03-26_USCOURTS-cand-5_18-cv-04327_Lamont v. Conner et al.pdf",
       "case_name": "Lamont v. Conner et al.",
-      "associated_technology": "dispute involves alleged misappropriation of ai software product designs. individual alleging trade secret misappropriation individual defendants and corporate investor entity"
+      "associated_technology": "ai trade secrets"
     },
     {
       "case_id": "2022-03-23_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
@@ -464,7 +462,7 @@
     {
       "case_id": "2020-12-07_USCOURTS-cand-5_20-mc-80141_In re Rule 45 Subpoenas Issued to Google LLC and LinkedIn Corporation Dated July 23_ 2020.pdf",
       "case_name": "In re Rule 45 Subpoenas Issued to Google LLC and LinkedIn Corporation Dated July 23, 2020",
-      "associated_technology": "dispute centers on online criticism of spider labs\u2019 claimed ai-based ad fraud detection technology. corporation alleging defamation over online statements anonymous individual online speaker"
+      "associated_technology": "algorithims"
     },
     {
       "case_id": "2020-12-21_USCOURTS-mied-2_17-cv-10657_Cahoo et al v. SAS Analytics Inc. et al.pdf",
@@ -534,7 +532,7 @@
     {
       "case_id": "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf",
       "case_name": "Virtual Radiologic Corporation v. Rabern",
-      "associated_technology": "medical teleradiology services corporation and former employer individual former employee and executive"
+      "associated_technology": "medical ai"
     },
     {
       "case_id": "2021-09-17_USCOURTS-cand-4_17-cv-02758_Long_ M.D._ et al v. Dorset.pdf",

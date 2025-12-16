@@ -807,7 +807,7 @@
   {
     "case_id": "2022-04-26_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
     "case_name": "Thomson Reuters Enterprise Centre GmbH et al. v. ROSS Intelligence Inc.",
-    "ai_relevance": "Dispute centers on AI-powered legal research tool competing with Westlaw.",
+    "ai_relevance": "Dispute centers on AI-powered legal research tool, specifically the one trained on Westlaw case data to generate summaries (likely LLM) competing with Westlaw.",
     "parties": {
       "plaintiff_name": "Thomson Reuters and West Publishing",
       "plaintiff_description": "Corporate publishers of Westlaw legal research platform",

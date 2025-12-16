@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total_cases": 134,
+    "total_cases": 133,
     "plaintiff_types": {
       "class-action": 11,
       "corporation(s)": 68,
       "creative professional": 12,
-      "individual": 23,
+      "individual": 22,
       "platform(s)": 4,
       "religious organization operating a church": 1,
       "stem professional": 11,
@@ -15,7 +15,7 @@
     },
     "defendant_types": {
       "platform(s)": 12,
-      "corporation(s)": 101,
+      "corporation(s)": 100,
       "creative professional": 2,
       "stem professional": 5,
       "finance company": 2,
@@ -30,7 +30,7 @@
       "class-action v. corporation(s)": 7,
       "corporation(s) v. corporation(s)": 51,
       "creative professional v. corporation(s)": 9,
-      "individual v. corporation(s)": 20,
+      "individual v. corporation(s)": 19,
       "corporation(s) v. creative professional": 1,
       "corporation(s) v. stem professional": 3,
       "platform(s) v. corporation(s)": 3,
@@ -267,7 +267,7 @@
     {
       "case_id": "2022-04-26_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
       "case_name": "Thomson Reuters Enterprise Centre GmbH et al. v. ROSS Intelligence Inc.",
-      "ai_relevance": "Dispute centers on AI-powered legal research tool competing with Westlaw.",
+      "ai_relevance": "Dispute centers on AI-powered legal research tool, specifically the one trained on Westlaw case data to generate summaries (likely LLM) competing with Westlaw.",
       "plaintiff_name": "Thomson Reuters and West Publishing",
       "plaintiff_description": "Corporate publishers of Westlaw legal research platform",
       "plaintiff_type": "platform(s)",
@@ -438,17 +438,6 @@
       "plaintiff_type": "corporation(s)",
       "defendant_name": "Anthropic PBC",
       "defendant_description": "Artificial intelligence company developing and operating Claude model.",
-      "defendant_type": "corporation(s)"
-    },
-    {
-      "case_id": "2024-07-22_USCOURTS-flsd-1_23-cv-23306_MAZILE v. Larkin University Corp. et al.pdf",
-      "case_name": "Mazile v. Larkin University Corp. and ExamSoft Worldwide, Inc.",
-      "ai_relevance": "AI-based remote proctoring flagged plaintiff as cheating, triggering discipline.",
-      "plaintiff_name": "Christelle Mazile",
-      "plaintiff_description": "Individual doctoral student at Larkin University",
-      "plaintiff_type": "individual",
-      "defendant_name": "Larkin University Corp. and ExamSoft",
-      "defendant_description": "Private university and exam software company",
       "defendant_type": "corporation(s)"
     },
     {
