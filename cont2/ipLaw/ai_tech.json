@@ -2,7 +2,7 @@
   "summary": {
     "total_cases": 133,
     "associated_technologies": {
-      "generative ai": 29,
+      "generative ai": 32,
       "dispute centers on scraped 3d data used to train ai scene-recognition systems. company providing online 3d interior design tools technology company and university alleged data scrapers": 1,
       "dispute involves software and ai products branded with the sage mark. related corporate software companies asserting sage trademark rights. chinese technology company offering software and ai products": 1,
       "dispute concerns contracts for anaconda\u2019s ai technology software and related use. corporate entities linked to alibaba using anaconda ai software software company providing ai and data science tools": 1,
@@ -12,8 +12,6 @@
       "ai bots": 9,
       "individual consumer alleging data breach harm large social media technology corporation": 1,
       "limited liability company business entity individual alleged bourbon-monitoring technology inventor": 1,
-      "defendant used ai legal research tool trained on plaintiffs\u2019 copyrighted headnotes. publisher of westlaw legal research platform developer of ai-based legal research tool": 1,
-      "dispute over use of legal database to develop competing ai legal search tool. corporate owners of westlaw legal research database and tools. company developing ai-based legal research search platform": 1,
       "religious organization operating a church commercial banks and financial institutions": 1,
       "face recognition": 4,
       "software company providing data transformation tools software company, maker of cosort product": 1,
@@ -42,7 +40,6 @@
       "case concerns esi protocol including documents created by ai applications. insurance companies bringing civil litigation claims. business entities defending against insurance-related claims": 1,
       "individual online gaming customer international online gaming business entities": 1,
       "dispute involves startup developing ai technology and related business interference. artificial intelligence technology startup company corporation alleging contractual interference counterclaim": 1,
-      "social media platform owner and operator data-scraping and data services company": 1,
       "dispute involves promotion of unauthorized ai tools to other dealers. individual mattress dealer under mba agreement mattress retail franchisor / dealer network business": 1,
       "corporation providing customer management and related services former employee and competitor company": 1,
       "patent-holding intellectual property company package delivery and logistics corporations": 1,
@@ -171,12 +168,12 @@
     {
       "case_id": "2025-02-11_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
       "case_name": "Thomson Reuters Enterprise Centre GmbH et al. v. ROSS Intelligence Inc.",
-      "associated_technology": "defendant used ai legal research tool trained on plaintiffs\u2019 copyrighted headnotes. publisher of westlaw legal research platform developer of ai-based legal research tool"
+      "associated_technology": "generative ai"
     },
     {
       "case_id": "2024-09-27_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
       "case_name": "Thomson Reuters Enterprise Centre GmbH et al. v. ROSS Intelligence Inc.",
-      "associated_technology": "dispute over use of legal database to develop competing ai legal search tool. corporate owners of westlaw legal research database and tools. company developing ai-based legal research search platform"
+      "associated_technology": "generative ai"
     },
     {
       "case_id": "2024-09-10_USCOURTS-pawd-2_23-cv-01798_ELKIN VALLEY BAPTIST CHURCH v. PNC FINANCIAL SERVICES GROUP_ INC_ et al.pdf",
@@ -516,7 +513,7 @@
     {
       "case_id": "2025-04-18_USCOURTS-cand-3_23-cv-03698_X Corp. v. Bright Data Ltd..pdf",
       "case_name": "X Corp., Inc. v. Bright Data Ltd.",
-      "associated_technology": "social media platform owner and operator data-scraping and data services company"
+      "associated_technology": "generative ai"
     },
     {
       "case_id": "2025-08-12_USCOURTS-txwd-1_25-cv-00855_De Los Santos v. Mattress By Appointment LLC.pdf",

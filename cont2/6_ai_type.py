@@ -55,7 +55,8 @@ def extract_ai_tech_type(description):
             "large language model", "llm", "generative ai", "generative artificial intelligence",
             "ai-based photo art", "chatgpt", "claude", "ai image-generation models", "image-generation model",
             "ai image generator", "large language", "ai-generated artwork", "book", "movie", "artwork", "music",
-            "copyright law", "legal author", "dabus", "agi technology", "in re mosaic llm litigation"
+            "copyright law", "legal author", "dabus", "agi technology", "in re mosaic llm litigation",
+            "ai-based legal research"
         ]):
             return "generative ai"
         

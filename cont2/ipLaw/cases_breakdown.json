@@ -3678,7 +3678,7 @@
     "ai_relevance": "NOT RELATED",
     "parties": {
       "plaintiff_name": "X Corp., Inc.",
-      "plaintiff_description": "Social media platform owner and operator",
+      "plaintiff_description": "Social media platform owner and operator that aims to create a generative AI chatbot that can answer all questions",
       "defendant_name": "Bright Data Ltd.",
       "defendant_description": "Data-scraping and data services company"
     },
