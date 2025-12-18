@@ -10,7 +10,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-NAME = "ipLaw"
+NAME = "privacy"
 
 INPUT_PATH = f"{NAME}/cases_breakdown.json"
 OUTPUT_PATH = f"{NAME}/ai_tech.json"
@@ -42,16 +42,18 @@ def extract_ai_tech_type(description):
     ###
     # 2. RULE-BASED CLASSIFICATION on keyphrases
     def check_rules(search_text):
+        t = search_text.lower()
+
         # FACIAL RECOGNITION
-        if any(k in search_text for k in [
+        if any(k in t for k in [
             "facial geometry", "face recognition", "facial recognition", "facial features", "face data",
             "facial-recognition", "bipa", "biometric information", "biometric identifiers", "biometric",
             "facial image analysis"
         ]):
             return "face recognition"
-        
-        # GENERATIVE AI
-        if any(k in search_text for k in [
+            
+        # GENERATIVE AI (LLM, copyright, creative use)
+        if any(k in t for k in [
             "large language model", "llm", "generative ai", "generative artificial intelligence",
             "ai-based photo art", "chatgpt", "claude", "ai image-generation models", "image-generation model",
             "ai image generator", "large language", "ai-generated artwork", "book", "movie", "artwork", "music",
@@ -59,65 +61,94 @@ def extract_ai_tech_type(description):
             "ai-based legal research"
         ]):
             return "generative ai"
-        
-        # AI BOTS? (eg chatbots, virtual assistants) (Expanded)
-        if any(k in search_text for k in [
-            "chatbot", "virtual assistant", "ai bot", "ai chatbot", "conversational ai", "ai-powered conversation intelligence",
-            "ai-powered virtual pet", "ai-powered chatbot", "chat data", "ai assistant", "automated ai-like bots",
-            "alexa", "siri", "smart speaker", "voice assistant", "speech recognition", "natural language interface",
-            "google assistant", "automated texting", "nlp", "ai phone assistants"
+
+        # AI BOTS / CHATBOTS / ASSISTANTS
+        if any(k in t for k in [
+            "chatbot", "virtual assistant", "ai bot", "ai chatbot", "conversational ai",
+            "ai-powered conversation intelligence", "ai-powered virtual pet", "ai-powered chatbot",
+            "chat data", "ai assistant", "automated ai-like bots", "alexa", "siri", "smart speaker",
+            "voice assistant", "speech recognition", "natural language interface", "google assistant",
+            "automated texting", "nlp", "ai phone assistants"
         ]):
             return "ai bots"
 
         # MEDICAL / HEALTHCARE AI
-        if any(k in search_text.lower() for k in [
+        if any(k in t for k in [
             "radiology", "medical imaging", "diagnostic ai", "imaging solutions",
             "clinical workflow", "x-ray", "mri", "ct scan", "ultrasound", 
             "patient data", "healthcare software", "physician tool", "ai radiology"
         ]):
             return "medical ai"
 
-        # ALGORITHIM / ANALYTICAL AI / ML Systems (Expanded significantly)
-        if any(k in search_text for k in [
+        # COMPUTER VISION & IMAGE SYSTEMS
+        if any(k in t for k in [
+            "computer vision", "image analysis", "dashcam", "3d scene", "3d interior", "ar/vr",
+            "vision analysis", "image detection", "image comparison", "object detection",
+            "dental x-ray", "xrays", "medical image analysis"
+        ]):
+            return "computer vision ai"
+
+        # ALGORITHIM / ANALYTICAL AI / ML Systems
+        if any(k in t for k in [
             "algorithm", "algorithms", "algorithmic", "algorithmic decision-making", "predictive", "predict", 
             "ai system to target", "ai system to predict", "machine-learning models", "ml workloads", 
             "ai applicant-screening system", "hiring software", "age discrimination", "disparate impact",
             "property risk", "ml-based crm", "data analytics", "sound processing", "recruitment software", 
             "automated repair estimates", "vehicle damage assessment", "ai-powered ad tools", 
             "ai-enabled host websites", "ai-based ad fraud", "ad fraud detection", "invalid traffic detection", 
-            "predictive fraud modeling"
+            "predictive fraud modeling", "benefit-decision models"
         ]):
             return "algorithims"
-        
+
         # AUTONOMOUS / VEHICLE AI
-        if any(k in search_text for k in [
+        if any(k in t for k in [
             "autonomous vehicle", "autonomous driving", "dashcam design", "dashcam technology", 
             "driver safety camera", "fleet safety cameras", "vehicle automation software", "telematics solutions",
             "ai-based vehicle automation", "ai-driven dashboard camera"
         ]):
-            return "autonomous/vehicle ai"
-            
-        # CYBERSECURITY BACKED WITH AI
-        if any(k in search_text for k in [
-            "cybersecurity",
-        ]):
+            return "autonomous/vehicle ai"      
+
+        # CYBERSECURITY AI
+        if "cybersecurity" in t:
             return "cybersecurity"
-        
-        # TRADE SECRETS / PROPRIETARY AI (Specific terminology often used in misappropriation cases)
-        if any(k in search_text for k in [
+
+        # TRADE SECRETS / PROPRIETARY AI
+        if any(k in t for k in [
             "trade secrets", "misappropriation", "proprietary ai", "ai technology forms core alleged trade secrets",
             "ai code", "confidential ai-related information", "ai/ml source code"
         ]):
-            # NOTE: Trade secret cases often overlap with other categories (e.g., Autonomous/Vehicle AI [1]), 
-            # so this rule is placed late to catch general AI disputes not linked to a specific tech type.
             return "ai trade secrets"
-        
-        if any(k in search_text for k in [
-            "Quintus", "quintus"
+
+        # ENTERPRISE AI — business & operational AI systems
+        if any(k in t for k in [
+            "ediscovery", "e-discovery", "crm", "workflow", "enterprise",
+            "document review", "customer management", "business analytics",
+            "business intelligence", "marketing ai", "sales ai"
         ]):
+            return "enterprise ai"
+
+        # GENERAL SYSTEM / EXPERT AI
+        if any(k in t for k in [
+            "expert system", "expert ai", "diagnostic system", "ai platform",
+            "system intelligence", "core ai system"
+        ]):
+            return "general ai system"
+
+        # QUINTUS (as original)
+        if any(k in t for k in ["quintus"]):
             return "quintus"
-            
+
+        # AI PATENT / IP DISPUTES
+        if "patent" in t:
+            return "ai patent / ip"
+
+        # fallback if "ai" exists at all
+        if "ai" in t:
+            return "general ai"
+
+        # otherwise none
         return None
+
 
     # FIRST PASS: Check phrase_text
     result = check_rules(phrase_text)

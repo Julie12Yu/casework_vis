@@ -2337,7 +2337,7 @@
   {
     "case_id": "2014-11-17_USCOURTS-mied-2_13-cv-14026_Odish v. Morgenthaler Ventures et al.pdf",
     "case_name": "Odish v. Morgenthaler Ventures et al.",
-    "ai_relevance": "Dispute centers on alleged diminution of value of SILVIA AI platform owned by Cognitive Code, in which plaintiffs claimed interests.",
+    "ai_relevance": "alleged diminution of value of SILVIA AI platform (chatbot, human interacting bot) owned by Cognitive Code, in which plaintiffs claimed interests.",
     "parties": {
       "plaintiff_name": "Joseph Odish; Cranbrook Capital",
       "plaintiff_description": "Individual investor and his consulting LLC",
