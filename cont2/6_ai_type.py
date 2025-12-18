@@ -67,15 +67,23 @@ def extract_ai_tech_type(description):
             "chatbot", "virtual assistant", "ai bot", "ai chatbot", "conversational ai",
             "ai-powered conversation intelligence", "ai-powered virtual pet", "ai-powered chatbot",
             "chat data", "ai assistant", "automated ai-like bots", "alexa", "siri", "smart speaker",
-            "voice assistant", "speech recognition", "natural language interface", "google assistant",
-            "automated texting", "nlp", "ai phone assistants"
+            "voice assistant", "google assistant", "ai phone assistants"
         ]):
             return "ai bots"
+        
+        # TRANSCRIPTION / SPEECH-TO-TEXT AI
+        if any(k in t for k in [
+            "speech-to-text", "transcription", "audio transcription", "speech recognition",
+            "dictation", "meeting transcription", "video transcription", "natural language interface",
+            "automated texting", "nlp", "automatic speech recognition", "asr", "voice-to-text",
+        ]):
+            return "transcription ai"
+
 
         # MEDICAL / HEALTHCARE AI
         if any(k in t for k in [
             "radiology", "medical imaging", "diagnostic ai", "imaging solutions",
-            "clinical workflow", "x-ray", "mri", "ct scan", "ultrasound", 
+            "clinical workflow", "x-ray", "mri", "ct scan", "ultrasound", "ai medical assistant",
             "patient data", "healthcare software", "physician tool", "ai radiology",
             "dental x-ray", "xrays", "medical image analysis"
         ]):
@@ -126,13 +134,6 @@ def extract_ai_tech_type(description):
             "business intelligence", "marketing ai", "sales ai"
         ]):
             return "enterprise ai"
-
-        # GENERAL SYSTEM / EXPERT AI
-        if any(k in t for k in [
-            "expert system", "expert ai", "diagnostic system", "ai platform",
-            "system intelligence", "core ai system"
-        ]):
-            return "general ai system"
 
         # QUINTUS
         if any(k in t for k in ["quintus"]):

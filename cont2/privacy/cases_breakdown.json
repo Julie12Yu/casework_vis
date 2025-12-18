@@ -719,7 +719,7 @@
   {
     "case_id": "2023-09-06_USCOURTS-ca5-22-50405_Rex Real Est I v. Rex Real Est.pdf",
     "case_name": "Rex Real Estate I, L.P. v. Rex Real Estate Exchange, Inc.",
-    "ai_relevance": "Defendant uses AI-driven platform to connect real estate buyers with homes, relevant to disputed branding and services.",
+    "ai_relevance": "Defendant uses AI matchmaking algorithim, platform to connect real estate buyers with homes, relevant to disputed branding and services.",
     "parties": {
       "plaintiff_name": "Rex Real Estate I, L.P.",
       "plaintiff_description": "Texas real estate business asserting trademark rights",
@@ -3965,7 +3965,7 @@
   {
     "case_id": "2024-11-14_USCOURTS-cand-3_20-cv-08331_In re Pinterest Derivative Litigation.pdf",
     "case_name": "In re Pinterest Derivative Litigation",
-    "ai_relevance": "Settlement required Pinterest to use AI to promote diverse, inclusive content representation on its platform.",
+    "ai_relevance": "Settlement required Pinterest to use algorithmic AI to promote diverse, inclusive content representation on its platform.",
     "parties": {
       "plaintiff_name": "Pinterest shareholder plaintiffs",
       "plaintiff_description": "Shareholders bringing derivative claims on Pinterest\u2019s behalf",
