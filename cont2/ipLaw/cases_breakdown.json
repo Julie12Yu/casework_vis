@@ -807,7 +807,7 @@
   {
     "case_id": "2022-04-26_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
     "case_name": "Thomson Reuters Enterprise Centre GmbH et al. v. ROSS Intelligence Inc.",
-    "ai_relevance": "Dispute centers on AI-powered legal research tool competing with Westlaw.",
+    "ai_relevance": "Dispute centers on AI-powered legal research tool, specifically the one trained on Westlaw case data to generate summaries (likely LLM) competing with Westlaw.",
     "parties": {
       "plaintiff_name": "Thomson Reuters and West Publishing",
       "plaintiff_description": "Corporate publishers of Westlaw legal research platform",
@@ -2337,7 +2337,7 @@
   {
     "case_id": "2014-11-17_USCOURTS-mied-2_13-cv-14026_Odish v. Morgenthaler Ventures et al.pdf",
     "case_name": "Odish v. Morgenthaler Ventures et al.",
-    "ai_relevance": "Dispute centers on alleged diminution of value of SILVIA AI platform owned by Cognitive Code, in which plaintiffs claimed interests.",
+    "ai_relevance": "alleged diminution of value of SILVIA AI platform (chatbot, human interacting bot) owned by Cognitive Code, in which plaintiffs claimed interests.",
     "parties": {
       "plaintiff_name": "Joseph Odish; Cranbrook Capital",
       "plaintiff_description": "Individual investor and his consulting LLC",
@@ -3678,7 +3678,7 @@
     "ai_relevance": "NOT RELATED",
     "parties": {
       "plaintiff_name": "X Corp., Inc.",
-      "plaintiff_description": "Social media platform owner and operator",
+      "plaintiff_description": "Social media platform owner and operator that aims to create a generative AI chatbot that can answer all questions",
       "defendant_name": "Bright Data Ltd.",
       "defendant_description": "Data-scraping and data services company"
     },
