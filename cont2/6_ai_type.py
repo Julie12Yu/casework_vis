@@ -10,7 +10,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-NAME = "ipLaw"
+NAME = "privacy"
 
 INPUT_PATH = f"{NAME}/cases_breakdown.json"
 OUTPUT_PATH = f"{NAME}/ai_tech.json"
@@ -141,10 +141,6 @@ def extract_ai_tech_type(description):
         # AI PATENT / IP DISPUTES
         if "patent" in t:
             return "ai patent / ip"
-
-        # fallback if "ai" exists at all
-        if "ai" in t:
-            return "general ai"
 
         # otherwise none
         return None
