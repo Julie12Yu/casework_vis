@@ -2,7 +2,7 @@
 import json
 from collections import Counter
 
-INPUT_JSON = "new_court_cases_processed.json"
+INPUT_JSON = "../misc/new_court_cases_processed.json"
 
 
 def load_documents(input_json):
