@@ -18,24 +18,17 @@ def load_documents(input_json):
 
 def count_categories(docs):
     # Count by numeric ID and by human-readable name
-    counts_by_num = Counter(d.get("legal_category", None) for d in docs)
     counts_by_name = Counter(d.get("legal_category_name", "Unknown") for d in docs)
 
-    return counts_by_num, counts_by_name
+    return counts_by_name
 
 
 def main():
     docs, meta = load_documents(INPUT_JSON)
-    counts_by_num, counts_by_name = count_categories(docs)
+    counts_by_name = count_categories(docs)
 
     # Optional: pull canonical category names from meta if present
     legal_categories_meta = meta.get("legal_categories", {})
-
-    print("\nCases per legal category (by number):")
-    for cat_num in sorted(k for k in counts_by_num.keys() if k is not None):
-        name_from_meta = legal_categories_meta.get(str(cat_num)) or legal_categories_meta.get(cat_num)
-        display_name = name_from_meta if name_from_meta else "Unknown"
-        print(f"  {cat_num} ({display_name}): {counts_by_num[cat_num]}")
 
     print("\nCases per legal category (by name):")
     for name, count in sorted(counts_by_name.items(), key=lambda x: x[0]):
