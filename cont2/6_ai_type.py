@@ -10,7 +10,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-NAME = "privacy"
+NAME = "ipLaw"
 
 INPUT_PATH = f"{NAME}/cases_breakdown.json"
 OUTPUT_PATH = f"{NAME}/ai_tech.json"
@@ -76,7 +76,8 @@ def extract_ai_tech_type(description):
         if any(k in t for k in [
             "radiology", "medical imaging", "diagnostic ai", "imaging solutions",
             "clinical workflow", "x-ray", "mri", "ct scan", "ultrasound", 
-            "patient data", "healthcare software", "physician tool", "ai radiology"
+            "patient data", "healthcare software", "physician tool", "ai radiology",
+            "dental x-ray", "xrays", "medical image analysis"
         ]):
             return "medical ai"
 
@@ -84,7 +85,6 @@ def extract_ai_tech_type(description):
         if any(k in t for k in [
             "computer vision", "image analysis", "dashcam", "3d scene", "3d interior", "ar/vr",
             "vision analysis", "image detection", "image comparison", "object detection",
-            "dental x-ray", "xrays", "medical image analysis"
         ]):
             return "computer vision ai"
 
@@ -134,7 +134,7 @@ def extract_ai_tech_type(description):
         ]):
             return "general ai system"
 
-        # QUINTUS (as original)
+        # QUINTUS
         if any(k in t for k in ["quintus"]):
             return "quintus"
 
