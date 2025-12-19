@@ -1,0 +1,1504 @@
+{
+  "plaintiff_args": [
+    {
+      "claim": "Direct copyright infringement based on use of plaintiffs\u2019 artworks to train Stable Diffusion and generate images imitating their styles.",
+      "legal_basis": "Copyright Act, 17 U.S.C. \u00a7 101 et seq. (direct infringement of exclusive rights in copyrighted works)."
+    },
+    {
+      "claim": "Violation of the Digital Millennium Copyright Act for removal or alteration of copyright management information related to plaintiffs\u2019 artworks used in AI training or outputs.",
+      "legal_basis": "Digital Millennium Copyright Act (DMCA), 17 U.S.C. \u00a7 1202."
+    },
+    {
+      "claim": "Unjust enrichment based on defendants\u2019 alleged benefit from using plaintiffs\u2019 artworks without permission to develop and profit from AI tools and services.",
+      "legal_basis": "State-law unjust enrichment (potentially preempted by the Copyright Act)."
+    },
+    {
+      "claim": "Direct copyright infringement based on use of plaintiffs\u2019 artworks to train Stable Diffusion and related AI systems without authorization.",
+      "legal_basis": "Copyright Act \u2013 direct infringement of exclusive rights in copyrighted works."
+    },
+    {
+      "claim": "Secondary copyright infringement (contributory and/or vicarious) arising from defendants\u2019 alleged facilitation and exploitation of infringing uses of plaintiffs\u2019 works through Stable Diffusion and related services.",
+      "legal_basis": "Copyright Act \u2013 secondary liability doctrines (contributory and vicarious infringement)."
+    },
+    {
+      "claim": "Creation and distribution of infringing derivative works by generating images via Stable Diffusion that allegedly are based on and derived from plaintiffs\u2019 copyrighted artworks and styles.",
+      "legal_basis": "Copyright Act \u2013 exclusive right to prepare derivative works."
+    },
+    {
+      "claim": "Violation of the Digital Millennium Copyright Act (DMCA) for removal or alteration of copyright management information in connection with training Stable Diffusion and distributing outputs.",
+      "legal_basis": "DMCA, including 17 U.S.C. \u00a7 1202 regarding copyright management information."
+    },
+    {
+      "claim": "Other related copyright and state-law claims (including class-wide claims) premised on alleged unauthorized copying, storage, and use of plaintiffs\u2019 images within the Stable Diffusion model as \u201ccompressed copies.\u201d",
+      "legal_basis": "Copyright Act and various state-law theories (e.g., unfair competition or similar), as framed in the complaint."
+    },
+    {
+      "claim": "Unauthorized use of plaintiffs\u2019 artworks to train the Stable Diffusion generative AI model.",
+      "legal_basis": "Copyright infringement under U.S. copyright law (alleged)."
+    },
+    {
+      "claim": "Widespread copying and exploitation of plaintiffs\u2019 copyrighted artworks through AI training without permission.",
+      "legal_basis": "Copyright infringement and related intellectual property claims (alleged)."
+    },
+    {
+      "claim": "Direct copyright infringement based on using plaintiffs\u2019 copyrighted books to train OpenAI\u2019s AI language models (including ChatGPT) without authorization.",
+      "legal_basis": "Federal Copyright Act, 17 U.S.C. \u00a7\u00a7 101 et seq. (direct infringement)."
+    },
+    {
+      "claim": "Vicarious copyright infringement arising from OpenAI\u2019s alleged control over and financial benefit from infringing uses of plaintiffs\u2019 works by its AI models and users.",
+      "legal_basis": "Federal Copyright Act, 17 U.S.C. \u00a7\u00a7 101 et seq. (vicarious infringement doctrine)."
+    },
+    {
+      "claim": "Violation of the Digital Millennium Copyright Act (DMCA) for allegedly removing or altering copyright management information associated with plaintiffs\u2019 works during ingestion and training of the AI models.",
+      "legal_basis": "Digital Millennium Copyright Act, 17 U.S.C. \u00a7 1202."
+    },
+    {
+      "claim": "Negligence based on OpenAI\u2019s alleged failure to exercise reasonable care in acquiring, handling, and using copyrighted books to train its AI models, and in preventing resulting harms to authors.",
+      "legal_basis": "State common-law negligence (duty, breach, causation, damages)."
+    },
+    {
+      "claim": "Unjust enrichment based on OpenAI\u2019s alleged retention of benefits from using plaintiffs\u2019 copyrighted works to develop and commercialize AI models without compensating the authors.",
+      "legal_basis": "State common-law unjust enrichment / restitution principles."
+    },
+    {
+      "claim": "Unfair competition under California\u2019s Unfair Competition Law (UCL) based on allegedly unfair business practices in using copyrighted books without authorization to train and profit from AI models.",
+      "legal_basis": "California Unfair Competition Law, Cal. Bus. & Prof. Code \u00a7 17200 et seq., particularly the \u201cunfair\u201d prong."
+    },
+    {
+      "claim": "Copyright infringement based on alleged unauthorized copying and use of Planner 5D\u2019s 3D design objects and scenes dataset via automated scraping.",
+      "legal_basis": "U.S. Copyright Act, including 17 U.S.C. \u00a7 501 and registration requirements under 17 U.S.C. \u00a7 411(a)."
+    },
+    {
+      "claim": "Contributory and/or vicarious copyright infringement arising from defendants\u2019 alleged use, distribution, or facilitation of use of the scraped 3D dataset in AI research and related projects.",
+      "legal_basis": "Secondary liability doctrines under the U.S. Copyright Act (contributory and vicarious infringement)."
+    },
+    {
+      "claim": "Trade secret misappropriation based on alleged taking and use of Planner 5D\u2019s proprietary 3D design library and dataset.",
+      "legal_basis": "Federal Defend Trade Secrets Act (DTSA), 18 U.S.C. \u00a7 1836 et seq., and parallel state trade secret law (e.g., California Uniform Trade Secrets Act)."
+    },
+    {
+      "claim": "Unfair competition and related state-law business torts premised on the alleged scraping and use of Planner 5D\u2019s data to develop competing or related AI technologies.",
+      "legal_basis": "State unfair competition law (e.g., California Unfair Competition Law, Cal. Bus. & Prof. Code \u00a7 17200, and similar doctrines)."
+    },
+    {
+      "claim": "Copyright infringement based on Meta\u2019s use of plaintiffs\u2019 books as training data for its Llama large language models.",
+      "legal_basis": "Copyright Act, 17 U.S.C. \u00a7 106 (exclusive rights in copyrighted works), alleging unauthorized reproduction and use of the works in AI training."
+    },
+    {
+      "claim": "Derivative works / unfair exploitation theory that outputs of the Llama models unlawfully draw on plaintiffs\u2019 books.",
+      "legal_basis": "Copyright Act, 17 U.S.C. \u00a7 106(2) (exclusive right to prepare derivative works), premised on the idea that Llama outputs are infringing derivatives of plaintiffs\u2019 books."
+    },
+    {
+      "claim": "Market harm / lost licensing revenue theory that Meta\u2019s AI training use supplanted or harmed the market for licensing plaintiffs\u2019 works for AI training.",
+      "legal_basis": "Fourth fair-use factor under 17 U.S.C. \u00a7 107 (effect of the use upon the potential market for or value of the copyrighted work)."
+    },
+    {
+      "claim": "Trademark infringement based on defendant\u2019s use of the SAGE mark in connection with software and AI products.",
+      "legal_basis": "Federal and/or state trademark law (e.g., Lanham Act) protecting the SAGE mark against unauthorized use likely to cause confusion."
+    },
+    {
+      "claim": "Related trademark and unfair competition claims arising from alleged misuse of the SAGE brand in commerce (e.g., false designation of origin/unfair competition).",
+      "legal_basis": "Federal and/or state unfair competition and false designation of origin provisions associated with trademark rights."
+    },
+    {
+      "claim": "Meta used plaintiffs\u2019 copyrighted books without permission to train its Llama large language models.",
+      "legal_basis": "Copyright infringement under federal copyright law (unauthorized reproduction and use in training datasets)."
+    },
+    {
+      "claim": "Meta\u2019s use of copyrighted books in AI training datasets exceeded any license or implied authorization granted to Meta.",
+      "legal_basis": "Copyright infringement and breach of license/terms theories (scope-of-license and overuse of works)."
+    },
+    {
+      "claim": "Meta failed to adequately respond to requests for admission regarding its use of copyrighted works and the training of Llama models, including Llama 5.",
+      "legal_basis": "Federal discovery rules (Fed. R. Civ. P. 26 and 36) requiring complete, non-evasive responses to requests for admission."
+    },
+    {
+      "claim": "Meta failed to adequately produce documents and information about the datasets and sources used to train its Llama AI models, instead providing summaries or limited disclosures.",
+      "legal_basis": "Federal discovery rules (Fed. R. Civ. P. 26 and 34) governing scope and sufficiency of document production."
+    },
+    {
+      "claim": "Request for declaratory judgment that the Anaconda Agreements are valid and/or have not been breached by Jicai and AliCloud, and that they are not liable under those contracts.",
+      "legal_basis": "Federal Declaratory Judgment Act; contract law principles regarding validity and breach of the Anaconda Agreements."
+    },
+    {
+      "claim": "Request for declaratory judgment clarifying that Anaconda\u2019s pending Texas breach of contract litigation against other Alibaba entities does not create liability or legal exposure for Jicai and AliCloud under the Anaconda Agreements.",
+      "legal_basis": "Federal Declaratory Judgment Act; Article III case-or-controversy requirement; contract interpretation of Anaconda Agreements."
+    },
+    {
+      "claim": "Request for court protection of confidential and highly confidential discovery materials, including AI and machine-learning source code and technical information, from public disclosure or misuse during litigation.",
+      "legal_basis": "Federal Rules of Civil Procedure 26(c) (protective orders) and parties\u2019 stipulated agreement regarding confidentiality in discovery."
+    },
+    {
+      "claim": "Patent infringement based on use of Aon\u2019s patented machine-learning methods for analyzing aerial property images to assess risk.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement) and related U.S. patent laws covering asserted patents that employ machine learning classifiers for property risk assessment."
+    },
+    {
+      "claim": "Validity of Aon\u2019s patents on machine-learning-based property risk assessment against challenge that they are directed to an abstract idea and thus patent-ineligible.",
+      "legal_basis": "35 U.S.C. \u00a7 101 (patent-eligible subject matter; abstract idea doctrine under Alice/Mayo framework)."
+    },
+    {
+      "claim": "Breach of contract for restricting or removing Shared\u2019s access to Facebook advertising and monetization services contrary to agreed terms.",
+      "legal_basis": "State contract law; alleged violation of Facebook/Meta terms and related agreements."
+    },
+    {
+      "claim": "Breach of contract for failing to provide required notice and adequate explanations for ad rejections and service restrictions.",
+      "legal_basis": "State contract law; obligations arising from Facebook/Meta terms regarding notice and explanations."
+    },
+    {
+      "claim": "Breach of contract for failing to comply with contractual payment timing and monetization obligations.",
+      "legal_basis": "State contract law; payment and monetization provisions in Meta\u2019s terms and related agreements."
+    },
+    {
+      "claim": "Misrepresentation related to how Facebook\u2019s advertising and monetization systems and enforcement would operate, including notice and review processes.",
+      "legal_basis": "State tort law for misrepresentation/fraudulent or negligent misrepresentation."
+    },
+    {
+      "claim": "Meta unlawfully monopolized the social advertising market, leading to inflated ad prices for Facebook advertisers.",
+      "legal_basis": "Section 2 of the Sherman Act (monopolization) and related federal antitrust principles."
+    },
+    {
+      "claim": "Meta attempted to monopolize the social advertising market through exclusionary and anticompetitive conduct, including use of AI and machine learning tools to entrench its dominance.",
+      "legal_basis": "Section 2 of the Sherman Act (attempted monopolization)."
+    },
+    {
+      "claim": "Meta engaged in anticompetitive agreements and practices that unreasonably restrained trade in the social advertising market.",
+      "legal_basis": "Section 1 of the Sherman Act (unreasonable restraint of trade / anticompetitive agreements)."
+    },
+    {
+      "claim": "Meta\u2019s conduct in maintaining and exploiting its dominance in social advertising caused advertisers to pay supracompetitive prices and suffer antitrust injury.",
+      "legal_basis": "Federal antitrust injury and damages theories under the Sherman Act and Clayton Act (private right of action)."
+    },
+    {
+      "claim": "Derivative claim for violations of the Exchange Act",
+      "legal_basis": "Federal securities law \u2013 Exchange Act provisions (e.g., Section 10(b)/Rule 10b-5, and related provisions, as typically invoked in derivative securities actions)"
+    },
+    {
+      "claim": "Breach of fiduciary duty by officers and directors",
+      "legal_basis": "State corporate law fiduciary duties (duty of care, loyalty, and good faith under Delaware law)"
+    },
+    {
+      "claim": "Unjust enrichment arising from alleged misconduct and insider trading",
+      "legal_basis": "Equitable unjust enrichment under state (Delaware) law"
+    },
+    {
+      "claim": "Insider trading by certain officers and/or directors",
+      "legal_basis": "State-law derivative insider trading theories and/or federal securities law provisions related to trading on material nonpublic information"
+    },
+    {
+      "claim": "Meta is liable for harms arising from a Facebook-related data breach affecting plaintiff\u2019s personal information.",
+      "legal_basis": "Implied federal and/or state data privacy, negligence, and related data-breach liability theories (exact causes of action not specified in summary)."
+    },
+    {
+      "claim": "The case should remain in the Eastern District of Texas and not be transferred to the Northern District of California.",
+      "legal_basis": "Procedural objection to transfer under 28 U.S.C. \u00a7 1631 and interest-of-justice factors; plaintiff argued personal hardship, financial status, and pro se status as reasons to keep venue in Texas."
+    },
+    {
+      "claim": "Correction of inventorship and recognition of Blair as an inventor of the bourbon-monitoring technology covered by the nonprovisional patent filed by Barrel Proof.",
+      "legal_basis": "Federal patent law \u2013 claim for correction of inventorship under 35 U.S.C. \u00a7 256 and related patent ownership principles."
+    },
+    {
+      "claim": "Ownership interest in the patented bourbon-monitoring technology and related patent rights allegedly derived from Blair\u2019s original invention.",
+      "legal_basis": "Federal patent law and associated state-law ownership principles concerning entitlement to patent rights based on inventorship and contribution to the invention."
+    },
+    {
+      "claim": "Claims against Barrel Proof as a third-party defendant for wrongfully excluding Blair from the patent and related business opportunities.",
+      "legal_basis": "Third-party practice under Federal Rule of Civil Procedure 14, combined with patent law inventorship/ownership theories and potentially related state-law claims (e.g., unjust enrichment or breach of duty)."
+    },
+    {
+      "claim": "Age discrimination via disparate impact from Workday\u2019s AI-based applicant recommendation system against applicants over forty.",
+      "legal_basis": "Age Discrimination in Employment Act (ADEA) \u2013 disparate impact theory, collective action under 29 U.S.C. \u00a7 216(b)."
+    },
+    {
+      "claim": "Discrimination based on race and disability by Workday\u2019s AI-based applicant recommendation system in screening and recommending job applicants.",
+      "legal_basis": "Federal anti-discrimination statutes (e.g., Title VII for race; ADA for disability) \u2013 disparate impact and/or disparate treatment theories (as alleged in the broader complaint)."
+    },
+    {
+      "claim": "Plaintiffs seek to have their expert, Dr. Ben Yanbin Zhao, access defendants\u2019 highly confidential materials, including source code for AI image generation models, for purposes of expert analysis in the litigation.",
+      "legal_basis": "Discovery rights under the Federal Rules of Civil Procedure and the protective order\u2019s provisions allowing disclosure of confidential materials to qualified experts, subject to court approval."
+    },
+    {
+      "claim": "Copyright infringement by using plaintiffs\u2019 books contained in \"The Pile\" dataset to train NeMo Megatron large language models without authorization.",
+      "legal_basis": "Federal copyright law (unauthorized reproduction and use of copyrighted works for AI training)."
+    },
+    {
+      "claim": "Copyright infringement against ROSS for allegedly using and copying Westlaw content to develop and power its competing legal research tool.",
+      "legal_basis": "Federal copyright law (Copyright Act)."
+    },
+    {
+      "claim": "Tortious interference with contractual relations based on ROSS allegedly inducing third parties to breach contracts with plaintiffs related to Westlaw content and services.",
+      "legal_basis": "State tort law of tortious interference with contract."
+    },
+    {
+      "claim": "Antitrust claim that plaintiffs engaged in unlawful tying by conditioning access to their public law database on the purchase and use of their proprietary legal search tool (Westlaw), thereby foreclosing competition from ROSS\u2019s AI legal search product.",
+      "legal_basis": "Section 1 of the Sherman Act (unlawful tying agreement and restraint of trade)."
+    },
+    {
+      "claim": "Monopolization and attempted monopolization based on plaintiffs\u2019 alleged use of tying and other exclusionary conduct to maintain and extend monopoly power in legal research services and public law databases, harming ROSS as a competitor.",
+      "legal_basis": "Section 2 of the Sherman Act (monopolization and attempted monopolization)."
+    },
+    {
+      "claim": "Antitrust claim that plaintiffs\u2019 conduct, including tying and restrictive licensing, constituted unreasonable restraints of trade and exclusion of ROSS from the market for legal research tools.",
+      "legal_basis": "Sections 1 and 2 of the Sherman Act (restraint of trade and monopolization)."
+    },
+    {
+      "claim": "Unfair competition claim alleging plaintiffs used their market power and restrictive practices to unfairly stifle ROSS\u2019s competing AI legal research product.",
+      "legal_basis": "Federal and/or state unfair competition law (e.g., Lanham Act or analogous state statutes/common law, as pled in counterclaims)."
+    },
+    {
+      "claim": "Antitrust claim that plaintiffs\u2019 lawsuits against ROSS, including the copyright and tortious interference suit, constituted sham litigation intended to burden and exclude a competitor rather than to vindicate legitimate rights.",
+      "legal_basis": "Noerr-Pennington doctrine exception; Sections 1 and 2 of the Sherman Act (sham litigation as anticompetitive conduct)."
+    },
+    {
+      "claim": "Claim that plaintiffs\u2019 initiation and maintenance of this lawsuit constituted unfair competition and improper use of legal process to suppress a rival\u2019s AI legal research product (sham litigation as unfair competition).",
+      "legal_basis": "State unfair competition law and related doctrines, relying on sham litigation theory."
+    },
+    {
+      "claim": "Direct copyright infringement based on copying and using Westlaw headnotes to develop and train ROSS\u2019s legal research/AI tool without authorization.",
+      "legal_basis": "Copyright Act, 17 U.S.C. \u00a7\u00a7 101 et seq., including exclusive rights to reproduce and prepare derivative works in plaintiffs\u2019 copyrighted Westlaw headnotes."
+    },
+    {
+      "claim": "Declaratory and related relief confirming Thomson Reuters\u2019 ownership and validity of copyrights in Westlaw headnotes.",
+      "legal_basis": "Copyright Act, 17 U.S.C. \u00a7\u00a7 101 et seq., and federal declaratory judgment principles."
+    },
+    {
+      "claim": "Copyright infringement based on ROSS\u2019s use of Thomson Reuters\u2019 legal database to develop a competing search tool.",
+      "legal_basis": "Federal copyright law (alleged unauthorized copying/use of proprietary legal database content)."
+    },
+    {
+      "claim": "Antitrust counterclaim alleging illegal tying of Thomson Reuters\u2019 legal search tool with its legal database, excluding competitors like ROSS.",
+      "legal_basis": "Federal antitrust law on unlawful tying arrangements (e.g., Sherman Act/Clayton Act tying doctrine)."
+    },
+    {
+      "claim": "Violation of UCC Article 4A (including \u00a7 4A-207) by PNC for executing a wire transfer to a fraudster when the beneficiary name and account number did not match.",
+      "legal_basis": "Uniform Commercial Code Article 4A, including \u00a7 4A-207 (funds transfers)."
+    },
+    {
+      "claim": "Common law negligence by PNC for failing to detect and prevent the fraudulent wire transfer despite alleged knowledge or ability to know of mismatched account details.",
+      "legal_basis": "State common law negligence (duty of reasonable care in handling wire transfers and account information)."
+    },
+    {
+      "claim": "Violation of UCC Article 4A by FNB Corporation relating to its role as the Church\u2019s bank in processing the outgoing wire transfer to the fraudster.",
+      "legal_basis": "Uniform Commercial Code Article 4A governing funds transfers."
+    },
+    {
+      "claim": "Common law negligence by FNB Corporation for its role in processing the fraudulent wire transfer from the Church\u2019s account.",
+      "legal_basis": "State common law negligence, alleging duties beyond UCC obligations."
+    },
+    {
+      "claim": "Discriminatory content moderation and demonetization of LGBTQ+ creators\u2019 videos under the Unruh Civil Rights Act and similar anti-discrimination theories.",
+      "legal_basis": "California Unruh Civil Rights Act and related anti-discrimination laws; theories that YouTube is a business establishment discriminating based on sexual orientation and related protected characteristics."
+    },
+    {
+      "claim": "Unlawful restriction, suppression, and unequal treatment of LGBTQ+ content in recommendation, search, and access, framed as wrongful content moderation practices.",
+      "legal_basis": "Various state and federal statutory and constitutional theories (including free speech\u2013style arguments) asserting that YouTube\u2019s moderation and distribution decisions are unlawful discrimination or censorship."
+    },
+    {
+      "claim": "Improper demonetization and ad-restriction of LGBTQ+ creators\u2019 videos, allegedly based on sexual orientation and viewpoint, rather than neutral policy enforcement.",
+      "legal_basis": "State and federal anti-discrimination and unfair business practice theories, including California consumer protection concepts, premised on discriminatory application of monetization policies."
+    },
+    {
+      "claim": "Breach of the implied covenant of good faith and fair dealing in YouTube\u2019s contractual relationship with creators, based on allegedly arbitrary and discriminatory moderation and monetization decisions.",
+      "legal_basis": "Common law claim for breach of the implied covenant of good faith and fair dealing arising from YouTube\u2019s Terms of Service and related agreements with content creators."
+    },
+    {
+      "claim": "Other contract and quasi-contract claims alleging that YouTube failed to honor promises about fair treatment, visibility, and monetization of content.",
+      "legal_basis": "Contract and related common law theories (beyond the implied covenant claim) based on alleged promises in Terms of Service, policies, and public statements about how content would be treated."
+    },
+    {
+      "claim": "Patent infringement of the \u2019358 Patent relating to a system and method for providing personalized skincare recommendations using facial analysis.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement) based on alleged unauthorized use of the \u2019358 Patent."
+    },
+    {
+      "claim": "Patent infringement of a second asserted patent (in addition to the \u2019358 Patent) relating to skincare analysis and recommendations.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement) based on alleged unauthorized use of the second patent."
+    },
+    {
+      "claim": "Willful infringement of patents related to smart speaker technology by Amazon\u2019s Alexa products and services.",
+      "legal_basis": "Federal patent infringement under 35 U.S.C. \u00a7\u00a7 271 et seq., including willful infringement for enhanced damages."
+    },
+    {
+      "claim": "Entitlement to monetary damages adequate to compensate for Amazon\u2019s infringement, including a reasonable royalty.",
+      "legal_basis": "35 U.S.C. \u00a7 284 (damages adequate to compensate for infringement)."
+    },
+    {
+      "claim": "Entitlement to an ongoing royalty for Amazon\u2019s post-verdict use of the patented smart speaker technology.",
+      "legal_basis": "Equitable relief and continuing damages under 35 U.S.C. \u00a7 283\u2013284 for ongoing infringement in lieu of or in addition to injunctive relief."
+    },
+    {
+      "claim": "Anthropic infringed plaintiffs\u2019 copyrights by using their books, including pirated copies, to train its large language model Claude and other AI models.",
+      "legal_basis": "Copyright infringement under the Copyright Act, challenging fair use under 17 U.S.C. \u00a7 107."
+    },
+    {
+      "claim": "Anthropic infringed copyrights by retaining pirated copies of plaintiffs\u2019 books in its central digital library, separate from the transformative training use.",
+      "legal_basis": "Copyright infringement under the Copyright Act for unauthorized reproduction and retention of pirated works, not justified by fair use under 17 U.S.C. \u00a7 107."
+    },
+    {
+      "claim": "Patent infringement of the \u2019798 Patent covering a natural language interface (NLI) and natural language query (NLQ) processor technology allegedly practiced by Amazon products such as Alexa.",
+      "legal_basis": "Federal patent law under 35 U.S.C. \u00a7\u00a7 271 et seq. (infringement of a duly issued U.S. patent)."
+    },
+    {
+      "claim": "Misappropriation of trade secrets in Syncsort\u2019s command language and related materials to develop the ssu2scl translator utility.",
+      "legal_basis": "State trade secret law (misappropriation of trade secrets and confidential information)."
+    },
+    {
+      "claim": "Unfair competition by using Syncsort\u2019s confidential reference materials and job-control scripts to facilitate customer migration from Syncsort\u2019s software to IRI\u2019s CoSORT product.",
+      "legal_basis": "State unfair competition law based on misuse of proprietary materials and wrongful competitive conduct."
+    },
+    {
+      "claim": "Misappropriation of trade secrets under the Defend Trade Secrets Act (DTSA) against Kun Huang, ZZX, and AllRide",
+      "legal_basis": "Federal Defend Trade Secrets Act, 18 U.S.C. \u00a7 1836 et seq."
+    },
+    {
+      "claim": "Misappropriation of trade secrets under the California Uniform Trade Secrets Act (CUTSA) against Kun Huang, ZZX, and AllRide",
+      "legal_basis": "California Uniform Trade Secrets Act, Cal. Civ. Code \u00a7 3426 et seq."
+    },
+    {
+      "claim": "Misappropriation of trade secrets under DTSA and CUTSA against Jing Wang",
+      "legal_basis": "Defend Trade Secrets Act and California Uniform Trade Secrets Act"
+    },
+    {
+      "claim": "Breach of contract (confidentiality, employment, or related agreements) by former employee Kun Huang",
+      "legal_basis": "State contract law based on Huang\u2019s employment and confidentiality agreements with WeRide"
+    },
+    {
+      "claim": "Breach of contract by former executive Jing Wang",
+      "legal_basis": "State contract law based on Wang\u2019s employment and confidentiality agreements with WeRide"
+    },
+    {
+      "claim": "Defamation claim against Jing Wang for allegedly false statements about WeRide",
+      "legal_basis": "State defamation law (libel/slander)"
+    },
+    {
+      "claim": "Related unfair competition and business tort claims (e.g., unfair competition, interference) against defendants",
+      "legal_basis": "California Unfair Competition Law and common-law business torts"
+    },
+    {
+      "claim": "Direct infringement of nine patents covering ear-worn technology for sound processing and personalized sound management.",
+      "legal_basis": "Federal patent infringement under 35 U.S.C. \u00a7 271(a)."
+    },
+    {
+      "claim": "Induced infringement of certain asserted patents based on Harman\u2019s pre-suit knowledge and actions encouraging others to infringe.",
+      "legal_basis": "Induced infringement under 35 U.S.C. \u00a7 271(b) based on pre-suit knowledge."
+    },
+    {
+      "claim": "Induced infringement of asserted patents based on Harman\u2019s post-suit knowledge arising from the filing of the complaint.",
+      "legal_basis": "Induced infringement under 35 U.S.C. \u00a7 271(b) based on post-suit knowledge."
+    },
+    {
+      "claim": "Willful infringement of certain patents based on Harman\u2019s pre-suit knowledge and continued infringing conduct.",
+      "legal_basis": "Willful infringement under 35 U.S.C. \u00a7\u00a7 284\u2013285 and related Federal Circuit standards (e.g., Halo) requiring knowledge and egregiousness."
+    },
+    {
+      "claim": "Willful infringement of asserted patents based solely on Harman\u2019s post-suit knowledge from the filing of the complaint.",
+      "legal_basis": "Willful infringement under 35 U.S.C. \u00a7\u00a7 284\u2013285 premised on post-suit knowledge."
+    },
+    {
+      "claim": "Enforcement of foreign court judgments against defendants",
+      "legal_basis": "Recognition and enforcement of foreign country money judgments under applicable Idaho and/or U.S. state law"
+    },
+    {
+      "claim": "Attempted removal to federal court based on New York Convention arbitration jurisdiction",
+      "legal_basis": "9 U.S.C. \u00a7 205 (removal of cases related to arbitration agreements or awards under the New York Convention)"
+    },
+    {
+      "claim": "Apple infringed Parus\u2019s patents covering voice-enabled internet search and retrieval systems used in products like Siri-enabled devices.",
+      "legal_basis": "Patent infringement under the U.S. Patent Act (35 U.S.C. \u00a7\u00a7 271 et seq.)."
+    },
+    {
+      "claim": "The Western District of Texas is a proper and convenient venue for Parus\u2019s patent infringement suit against Apple.",
+      "legal_basis": "Venue propriety and convenience under 28 U.S.C. \u00a7 1404(a) (opposing transfer)."
+    },
+    {
+      "claim": "Misappropriation of trade secrets related to an AI-capable dashcam design and associated confidential information.",
+      "legal_basis": "Tennessee Uniform Trade Secrets Act (TUTSA) and related trade secret principles."
+    },
+    {
+      "claim": "Breach of a Non-Disclosure Agreement (NDA) or breach of confidentiality obligations arising from negotiations over an NDA for the AI dashcam concept.",
+      "legal_basis": "State contract law and implied contractual duties of confidentiality."
+    },
+    {
+      "claim": "Fraud or fraudulent inducement based on defendants allegedly tricking plaintiff into disclosing trade secrets by claiming they needed details to prepare an NDA.",
+      "legal_basis": "State common-law fraud and misrepresentation doctrines."
+    },
+    {
+      "claim": "Conversion or theft of intellectual property and confidential business information embodied in the AI dashcam design.",
+      "legal_basis": "State common-law conversion and related tort theories."
+    },
+    {
+      "claim": "Unfair competition and/or unjust enrichment arising from defendants\u2019 alleged use and commercialization of plaintiff\u2019s AI dashcam design without authorization.",
+      "legal_basis": "State unfair competition and unjust enrichment doctrines."
+    },
+    {
+      "claim": "Copyright infringement based on Anthropic\u2019s alleged use of plaintiffs\u2019 song lyrics to train and operate the Claude AI model without authorization.",
+      "legal_basis": "Federal copyright law under Title 17, including exclusive rights to reproduce and prepare derivative works."
+    },
+    {
+      "claim": "Contributory and/or vicarious copyright infringement arising from Claude\u2019s alleged ability to output or reproduce plaintiffs\u2019 lyrics in response to user prompts.",
+      "legal_basis": "Federal copyright law doctrines of secondary liability (contributory and vicarious infringement)."
+    },
+    {
+      "claim": "Copyright infringement based on Findability\u2019s alleged unauthorized use, copying, and sublicensing of the Dr. Mo software.",
+      "legal_basis": "Federal copyright law (17 U.S.C. \u00a7 101 et seq.)."
+    },
+    {
+      "claim": "Breach of contract for violating the software license and related agreements governing use and sublicensing of Dr. Mo and payment obligations.",
+      "legal_basis": "State contract law under the parties\u2019 written software and licensing agreements."
+    },
+    {
+      "claim": "Breach of the implied covenant of good faith and fair dealing arising from Findability\u2019s conduct under the software agreements.",
+      "legal_basis": "State common law duty of good faith and fair dealing implied in contracts."
+    },
+    {
+      "claim": "Unfair and deceptive business practices based on Findability\u2019s conduct in using and sublicensing Dr. Mo and handling payments.",
+      "legal_basis": "Massachusetts General Laws ch. 93A (unfair and deceptive acts and practices)."
+    },
+    {
+      "claim": "Misappropriation of trade secrets relating to confidential aspects of the Dr. Mo software and related proprietary information.",
+      "legal_basis": "Trade secret law (likely Massachusetts trade secret statute/common law)."
+    },
+    {
+      "claim": "Promissory estoppel based on alleged promises by Findability outside the written contracts.",
+      "legal_basis": "State common law doctrine of promissory estoppel (reliance on promises)."
+    },
+    {
+      "claim": "Unjust enrichment for benefits Findability allegedly received from using Dr. Mo without proper compensation.",
+      "legal_basis": "Equitable doctrine of unjust enrichment under state law."
+    },
+    {
+      "claim": "Rescission of the software agreements based on alleged misconduct and nonperformance.",
+      "legal_basis": "Equitable remedy of rescission under state contract law."
+    },
+    {
+      "claim": "Conversion based on Findability\u2019s alleged wrongful control over Dr. Mo software and related property.",
+      "legal_basis": "State common law tort of conversion."
+    },
+    {
+      "claim": "Malicious breach of contract based on Ethos\u2019 failure to make the engagement payment and alleged use of that payment as leverage to extract concessions from VoterLabs.",
+      "legal_basis": "State contract law governing breach of contract and the implied covenant of good faith and fair dealing (malicious or bad-faith breach)."
+    },
+    {
+      "claim": "Breach of contract for failure to make required engagement payment under the parties\u2019 agreement.",
+      "legal_basis": "State contract law for nonpayment under a valid contract."
+    },
+    {
+      "claim": "Fraud based on alleged misrepresentations by VoterLabs about the intended use of Ethos\u2019 investment and the nature and purpose of the software and machine learning work being performed.",
+      "legal_basis": "State common-law fraud, requiring a material misrepresentation, scienter, reliance, and damages."
+    },
+    {
+      "claim": "Negligent misrepresentation by VoterLabs regarding how Ethos\u2019 funds would be used and whether the software and machine learning development were for Ethos\u2019 benefit rather than for separate projects.",
+      "legal_basis": "State common-law negligent misrepresentation, based on supplying false information in business transactions without reasonable care."
+    },
+    {
+      "claim": "Breach of non-compete agreement by joining a direct competitor (Sirona Medical, Inc.) shortly after leaving Nuance.",
+      "legal_basis": "Contract law \u2013 enforcement of non-compete covenant in employment agreement; protection of confidential information and goodwill."
+    },
+    {
+      "claim": "Threatened or potential misuse/disclosure of Nuance\u2019s confidential and proprietary information, including information related to its AI-powered radiology products.",
+      "legal_basis": "Contractual confidentiality and restrictive covenants; trade secret and confidential information protection principles under state law."
+    },
+    {
+      "claim": "Google unlawfully maintained a monopoly in the general search services market through exclusionary and exclusive agreements.",
+      "legal_basis": "Section 2 of the Sherman Act \u2013 monopolization and maintenance of monopoly power through exclusionary conduct."
+    },
+    {
+      "claim": "Google unlawfully maintained a monopoly in the search text advertising market through exclusionary agreements tied to its search dominance.",
+      "legal_basis": "Section 2 of the Sherman Act \u2013 monopolization of search text advertising via exclusionary practices that foreclosed rivals."
+    },
+    {
+      "claim": "Google\u2019s exclusive distribution agreements with device manufacturers, browser developers, and other partners unlawfully foreclosed rival search engines and harmed competition.",
+      "legal_basis": "Section 2 of the Sherman Act \u2013 exclusionary agreements and de facto exclusivity as unlawful means of maintaining monopoly power."
+    },
+    {
+      "claim": "Fraud and misrepresentation in connection with the Autonomy Research Network Consortium and related dealings",
+      "legal_basis": "State-law fraud and misrepresentation principles (tort claims)"
+    },
+    {
+      "claim": "Scheme to defraud Quantum and other defense and technology companies",
+      "legal_basis": "State-law fraud, conspiracy, and related business tort theories"
+    },
+    {
+      "claim": "Contract-related claims arising from the Subaward Agreement and participation in the Autonomy Research Network Consortium",
+      "legal_basis": "Contract law based on Subaward Agreement terms"
+    },
+    {
+      "claim": "Meta and its executives made materially false or misleading statements about the effectiveness and nature of Meta\u2019s cross-check content moderation system and overall content moderation practices, thereby inflating Meta\u2019s stock price and causing investor losses when the truth emerged.",
+      "legal_basis": "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5; Section 20(a) control-person liability for executives."
+    },
+    {
+      "claim": "Meta and its executives misrepresented or omitted material facts about algorithmic bias and the operation of Meta\u2019s algorithms used to moderate and recommend content, including how effectively they addressed harmful or violative content.",
+      "legal_basis": "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5; Section 20(a) for control-person liability."
+    },
+    {
+      "claim": "Meta and its executives made materially false or misleading statements minimizing or denying the harmful impact of Instagram, including its algorithmic features, on young users\u2019 mental health, thereby misleading investors about regulatory, reputational, and business risks.",
+      "legal_basis": "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5; Section 20(a) for control-person liability."
+    },
+    {
+      "claim": "Meta and its executives misrepresented or failed to accurately disclose the prevalence and impact of duplicate accounts on Meta\u2019s platforms, which allegedly affected key user metrics important to investors.",
+      "legal_basis": "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5; Section 20(a) for control-person liability."
+    },
+    {
+      "claim": "Meta\u2019s executives are liable as control persons for the alleged primary securities law violations by Meta, based on their positions and involvement in the challenged statements and disclosures.",
+      "legal_basis": "Section 20(a) of the Securities Exchange Act of 1934."
+    },
+    {
+      "claim": "Patent infringement of U.S. Patent No. 10,046,241 related to systems modifying racing video games through environmental and player interaction changes.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement) based on alleged unauthorized use of patented video game modification systems and methods."
+    },
+    {
+      "claim": "Breach of fiduciary duty by majority shareholders in executing a squeeze-out merger that allegedly undervalued minority shareholders\u2019 interests in Torch.",
+      "legal_basis": "State corporate/LLC fiduciary duty law governing majority/minority shareholder and manager duties in mergers and squeeze-outs."
+    },
+    {
+      "claim": "Breach of Torch\u2019s operating agreements in connection with the squeeze-out merger and valuation process that forced out minority members.",
+      "legal_basis": "Contract law based on Torch\u2019s operating agreements and related governing documents."
+    },
+    {
+      "claim": "Fraud in connection with the squeeze-out merger, including alleged misrepresentations or concealment affecting valuation and treatment of minority shareholders.",
+      "legal_basis": "State common-law fraud and related misrepresentation doctrines."
+    },
+    {
+      "claim": "Motion to compel discovery of documents and information dated after the merger, including additional custodial searches and ongoing updates.",
+      "legal_basis": "Federal Rules of Civil Procedure 26(b)(1) and 37, governing scope of discovery, relevance, and proportionality."
+    },
+    {
+      "claim": "Breach of contract for failure to perform recruitment obligations under the Recruitment Process Outsourcing Agreement, including failure to recruit the promised number of employees and problems with the performance of the AI chatbot \u201cOlivia.\u201d",
+      "legal_basis": "Common law breach of contract under the Recruitment Process Outsourcing Agreement between TruGreen and AGS."
+    },
+    {
+      "claim": "Negligent misrepresentation regarding AGS\u2019s capabilities and performance, including representations about its recruitment services and tools such as the Olivia chatbot.",
+      "legal_basis": "Common law negligent misrepresentation based on alleged false statements made during negotiations and performance of the Agreement."
+    },
+    {
+      "claim": "Promissory estoppel based on AGS\u2019s alleged promises about recruitment performance and technology that TruGreen claims it reasonably relied upon to its detriment.",
+      "legal_basis": "Equitable claim of promissory estoppel under state common law."
+    },
+    {
+      "claim": "Additional non-contract claims (such as other tort or quasi-contract theories) seeking relief beyond the contract, including claims overlapping with negligent misrepresentation and promissory estoppel.",
+      "legal_basis": "Other common law causes of action pled in Counts III\u2013V of the amended complaint (e.g., possibly unjust enrichment or related theories)."
+    },
+    {
+      "claim": "Request for declaratory judgment concerning the parties\u2019 rights and obligations and TruGreen\u2019s entitlement to certain categories of damages under the Agreement.",
+      "legal_basis": "Declaratory Judgment Act and related state declaratory judgment principles, tied to the contract dispute."
+    },
+    {
+      "claim": "Wrongful termination of plaintiff\u2019s marketing software account causing business losses and damages.",
+      "legal_basis": "Contract law and related state-law business/contract claims (exact causes not specified in summary)."
+    },
+    {
+      "claim": "Request for temporary restraining order to restore or maintain access to HighLevel account pending litigation.",
+      "legal_basis": "Equitable injunctive relief standards under federal law (likelihood of success, irreparable harm, balance of equities, public interest)."
+    },
+    {
+      "claim": "Request for preliminary injunction to prevent HighLevel from enforcing termination and to preserve business operations.",
+      "legal_basis": "Equitable injunctive relief standards under federal law; constrained by arbitration agreement limiting court intervention."
+    },
+    {
+      "claim": "Challenge to defendants\u2019 confidentiality designations over mental\u2011health benefit guidelines and assessments produced in discovery.",
+      "legal_basis": "Federal Rule of Civil Procedure 26(c) (protective orders), ERISA and MHPAEA disclosure provisions (argued by plaintiffs as limiting confidentiality)."
+    },
+    {
+      "claim": "Argument that ERISA and MHPAEA\u2019s mandatory disclosure provisions require broader, less\u2011restricted access to the disputed documents, undermining defendants\u2019 confidentiality claims.",
+      "legal_basis": "ERISA disclosure provisions, MHPAEA parity and disclosure requirements."
+    },
+    {
+      "claim": "Direct copyright infringement based on using plaintiffs\u2019 books to train OpenAI\u2019s AI language models, including ChatGPT, without authorization.",
+      "legal_basis": "Federal Copyright Act, 17 U.S.C. \u00a7\u00a7 101 et seq. (direct infringement)."
+    },
+    {
+      "claim": "Vicarious copyright infringement arising from OpenAI\u2019s alleged control over and financial benefit from infringing uses of plaintiffs\u2019 works by its AI models and users.",
+      "legal_basis": "Federal Copyright Act, 17 U.S.C. \u00a7\u00a7 101 et seq. (vicarious infringement)."
+    },
+    {
+      "claim": "Violation of the Digital Millennium Copyright Act (DMCA) for allegedly removing or altering copyright management information associated with plaintiffs\u2019 works in the training and operation of OpenAI\u2019s AI models.",
+      "legal_basis": "Digital Millennium Copyright Act, 17 U.S.C. \u00a7 1202 and related provisions."
+    },
+    {
+      "claim": "Unfair competition under California\u2019s Unfair Competition Law (UCL) based on allegedly unfair business practices in using plaintiffs\u2019 copyrighted books to train AI models without consent or compensation.",
+      "legal_basis": "California Unfair Competition Law, Cal. Bus. & Prof. Code \u00a7 17200, \u201cunfair\u201d prong."
+    },
+    {
+      "claim": "Unlawful or fraudulent prongs of California\u2019s Unfair Competition Law based on the same alleged conduct surrounding AI training and outputs.",
+      "legal_basis": "California Unfair Competition Law, Cal. Bus. & Prof. Code \u00a7 17200, \u201cunlawful\u201d and/or \u201cfraudulent\u201d prongs."
+    },
+    {
+      "claim": "Negligence in developing, training, and deploying OpenAI\u2019s AI language models using plaintiffs\u2019 copyrighted works without adequate safeguards or permissions.",
+      "legal_basis": "Common-law negligence under California law (duty, breach, causation, damages)."
+    },
+    {
+      "claim": "Unjust enrichment based on OpenAI\u2019s alleged receipt and retention of benefits from using plaintiffs\u2019 copyrighted books to train AI models without compensating the authors.",
+      "legal_basis": "Common-law unjust enrichment / restitution under California law."
+    },
+    {
+      "claim": "Defamation",
+      "legal_basis": "Massachusetts defamation law (state tort law)"
+    },
+    {
+      "claim": "Tortious interference with advantageous or contractual relations",
+      "legal_basis": "Massachusetts tort law on interference with contractual or business relations"
+    },
+    {
+      "claim": "Violation of Massachusetts consumer protection laws",
+      "legal_basis": "Massachusetts General Laws Chapter 93A (unfair or deceptive practices)"
+    },
+    {
+      "claim": "Enforcement of an arbitration award",
+      "legal_basis": "Contract and arbitration law, including enforcement of arbitral awards under applicable statutes"
+    },
+    {
+      "claim": "Unjust enrichment for pre-October 26, 2021 services provided to EchoNous related to the Kosmos AI-enabled ultrasound device.",
+      "legal_basis": "Common law unjust enrichment under Massachusetts law for benefits conferred without adequate compensation and outside the scope of any enforceable contract."
+    },
+    {
+      "claim": "Quantum meruit for the reasonable value of pre-October 26, 2021 services, including addressing technical challenges and creating training protocols for the Kosmos device.",
+      "legal_basis": "Common law quantum meruit under Massachusetts law, seeking payment for the reasonable value of services rendered where no contract governs those services."
+    },
+    {
+      "claim": "Opposition to enforcement of the Independent Contractor Agreement as a bar to recovery for pre-October 26, 2021 work.",
+      "legal_basis": "Contract interpretation under state law; argument that the Independent Contractor Agreement did not apply retroactively to services rendered before its effective date."
+    },
+    {
+      "claim": "Opposition to transfer of venue to Washington based on the Agreement\u2019s forum selection clause.",
+      "legal_basis": "Contract law and federal venue/transfer standards (28 U.S.C. \u00a7 1404(a)); argument that the forum selection clause does not cover pre-Agreement services and thus should not control venue for these claims."
+    },
+    {
+      "claim": "Trademark infringement against BuildRE, LLC and related entities for use of the Groma mark or similar branding.",
+      "legal_basis": "Federal and/or state trademark law (likely Lanham Act) as asserted by plaintiff."
+    },
+    {
+      "claim": "Request for preliminary injunction to stop defendants from using the allegedly infringing mark during the litigation.",
+      "legal_basis": "Equitable injunctive relief ancillary to trademark infringement claims under federal and/or state law."
+    },
+    {
+      "claim": "Patent infringement of U.S. Patent No. 8,880,446 related to an automated predictive analytics factory.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement) based on alleged unauthorized use of the \u2019446 Patent."
+    },
+    {
+      "claim": "Defamation and reputational harm from Bing search results and Microsoft Copilot associating plaintiff with a convicted terrorist.",
+      "legal_basis": "State-law defamation and related tort claims arising from online publication of false statements."
+    },
+    {
+      "claim": "General harm and damages caused by Microsoft\u2019s services misidentifying plaintiff, including emotional distress and other injuries.",
+      "legal_basis": "State-law tort theories tied to use of Microsoft online services governed by the Microsoft Services Agreement."
+    },
+    {
+      "claim": "Copyright infringement based on Anthropic\u2019s use of plaintiffs\u2019 song lyrics to train its Claude AI models without authorization or license.",
+      "legal_basis": "Federal copyright law, including 17 U.S.C. \u00a7\u00a7 106 and 501 (exclusive rights to reproduce, distribute, and prepare derivative works)."
+    },
+    {
+      "claim": "Copyright infringement based on Anthropic\u2019s reproduction and display of plaintiffs\u2019 lyrics in Claude\u2019s outputs in response to user prompts.",
+      "legal_basis": "Federal copyright law, including 17 U.S.C. \u00a7\u00a7 106(1) and 106(3)\u2013(5) (rights to reproduce, distribute, and publicly display copyrighted works)."
+    },
+    {
+      "claim": "Contributory and/or vicarious copyright infringement arising from Anthropic enabling users of Claude to obtain infringing lyric outputs and allegedly benefiting from such use.",
+      "legal_basis": "Judge-made doctrines of secondary copyright liability under the Copyright Act (contributory and vicarious infringement)."
+    },
+    {
+      "claim": "Request for preliminary injunction to bar Anthropic from using plaintiffs\u2019 lyrics in training, retraining, or operating Claude and from reproducing, distributing, or displaying plaintiffs\u2019 lyrics via Claude.",
+      "legal_basis": "Equitable remedy standards for preliminary injunctions under federal law (likelihood of success on the merits, irreparable harm, balance of equities, and public interest)."
+    },
+    {
+      "claim": "Defendants committed acts that diminished the value of Cognitive Code, Inc., particularly harming the value of its AI platform, SILVIA, thereby injuring plaintiffs\u2019 ownership and economic interests.",
+      "legal_basis": "State-law business tort and contract-related claims (e.g., interference with business relations, breach of duties, and related corporate/ownership claims) asserted under Michigan law or applicable state law."
+    },
+    {
+      "claim": "Unauthorized deletion of software critical to Prevail\u2019s AI transcription operations, causing project delays and damages.",
+      "legal_basis": "State-law business tort and contract-related claims (e.g., interference, conversion, breach-related theories) asserted in federal court."
+    },
+    {
+      "claim": "Patent infringement relating to Samsara\u2019s technology, including AI-driven dashboard cameras.",
+      "legal_basis": "Federal patent law (35 U.S.C. \u00a7\u00a7 271 et seq.)."
+    },
+    {
+      "claim": "Misappropriation of Samsara\u2019s proprietary technology.",
+      "legal_basis": "Trade secret and related proprietary rights law (likely DTSA/state trade secret law)."
+    },
+    {
+      "claim": "Misappropriation of trade secrets related to Loop\u2019s AI technology and confidential business information.",
+      "legal_basis": "Trade secret misappropriation under applicable state and/or federal trade secret law."
+    },
+    {
+      "claim": "Other related business torts and statutory violations arising from alleged misuse of Loop\u2019s confidential information and competitive activities by Gatti and associated entities.",
+      "legal_basis": "Unspecified in summary; likely includes breach of duty, unfair competition, and related statutory or common-law claims."
+    },
+    {
+      "claim": "Federal trademark infringement based on defendants\u2019 use of Modulus-related marks",
+      "legal_basis": "Lanham Act, 15 U.S.C. \u00a7 1114 and related provisions"
+    },
+    {
+      "claim": "Unfair competition arising from alleged confusingly similar use of Modulus marks",
+      "legal_basis": "Lanham Act \u00a7 43(a), 15 U.S.C. \u00a7 1125(a), and/or analogous state law"
+    },
+    {
+      "claim": "Cancellation of defendants\u2019 trademark registrations incorporating Modulus-related terms",
+      "legal_basis": "Lanham Act, 15 U.S.C. \u00a7 1119 and related provisions"
+    },
+    {
+      "claim": "Patent infringement of Singular\u2019s patents covering methods of processing using Compact Arithmetic Processing Elements that perform low precision and high dynamic range (LPHDR) arithmetic operations.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement) and related patent law doctrines; validity challenged under 35 U.S.C. \u00a7 101 (patentable subject matter)."
+    },
+    {
+      "claim": "Patent infringement of People.ai\u2019s patents covering data analytics and CRM systems involving machine learning by SetSail\u2019s software products.",
+      "legal_basis": "Federal patent infringement under 35 U.S.C. \u00a7 271 and related patent statutes."
+    },
+    {
+      "claim": "Breach of fiduciary duty by Suavei board members related to misrepresentations about the company\u2019s cybersecurity product and its capabilities.",
+      "legal_basis": "State corporate law fiduciary duty principles (duty of care and loyalty) owed by directors/officers to stockholders."
+    },
+    {
+      "claim": "Breach of duty of loyalty by Suavei board members in connection with alleged misleading statements about the machine-learning-based cybersecurity product and its architecture, harming stockholders.",
+      "legal_basis": "State corporate law duty of loyalty owed by directors/officers to stockholders, including prohibition on self-dealing and bad-faith conduct."
+    },
+    {
+      "claim": "Direct claims by stockholder-plaintiffs for harm allegedly suffered personally from misrepresentations about the product\u2019s capabilities (as opposed to purely derivative corporate harm).",
+      "legal_basis": "Corporate law distinction between direct and derivative stockholder claims; direct claims permitted where misrepresentations affect stockholders individually."
+    },
+    {
+      "claim": "Assertion of personal jurisdiction over Defendant Wong for claims arising from alleged misrepresentations and fiduciary breaches related to Suavei\u2019s product and investment activities.",
+      "legal_basis": "Personal jurisdiction standards under due process and applicable long-arm statute (minimum contacts with the forum)."
+    },
+    {
+      "claim": "Assertion of personal jurisdiction over Defendant Infante for the same underlying misconduct related to Suavei\u2019s product and investor communications.",
+      "legal_basis": "Personal jurisdiction standards under due process and applicable long-arm statute (sufficient contacts with the forum)."
+    },
+    {
+      "claim": "Negligence and related personal injury claims arising from injuries suffered aboard MSC\u2019s vessel during his work assignment",
+      "legal_basis": "Maritime negligence and general maritime law; duties of vessel owner/operator to provide a reasonably safe place to work"
+    },
+    {
+      "claim": "Claims premised on rights and obligations arising from his employment relationship with Espit Ventures, including safe working conditions and medical care while serving on MSC\u2019s vessel",
+      "legal_basis": "Employment-related rights under his contract with Espit Ventures and applicable maritime/employment law"
+    },
+    {
+      "claim": "Direct and/or primary copyright infringement based on use of song lyrics in training and outputs of the Claude AI model.",
+      "legal_basis": "Copyright Act \u2013 unauthorized reproduction, distribution, and display of copyrighted song lyrics."
+    },
+    {
+      "claim": "Contributory copyright infringement for facilitating third parties\u2019 infringing uses of plaintiffs\u2019 song lyrics via the Claude AI model.",
+      "legal_basis": "Copyright Act \u2013 secondary liability for materially contributing to or inducing direct infringement by users."
+    },
+    {
+      "claim": "Vicarious copyright infringement for profiting from and having the right and ability to control third\u2011party infringement via the Claude AI model.",
+      "legal_basis": "Copyright Act \u2013 vicarious liability for financial benefit from and control over infringing activity by users."
+    },
+    {
+      "claim": "Removal or alteration of copyright management information related to song lyrics used by the Claude AI model.",
+      "legal_basis": "Digital Millennium Copyright Act (DMCA), 17 U.S.C. \u00a7 1202 \u2013 prohibition on removal or alteration of copyright management information and distribution of works with CMI removed."
+    },
+    {
+      "claim": "Challenge to denial of copyright registration for AI-generated artwork, seeking judicial review and an order requiring registration of the work.",
+      "legal_basis": "Administrative Procedure Act and U.S. Copyright Act (alleged unlawful agency action in refusing registration based on lack of human authorship)."
+    },
+    {
+      "claim": "Assertion that a work generated entirely by an AI system can qualify as a \u201cwork of authorship\u201d under U.S. copyright law, with the AI\u2019s owner as the copyright claimant.",
+      "legal_basis": "Interpretation of the Copyright Act\u2019s terms \u201cauthor\u201d and \u201cworks of authorship,\u201d and general principles of copyright ownership."
+    },
+    {
+      "claim": "Copyright infringement based on allegations that James Dashner\u2019s novel \"The Maze Runner\" copied protectable elements of Clark\u2019s earlier novel \"The Maze.\"",
+      "legal_basis": "Federal copyright law under the Copyright Act (17 U.S.C. \u00a7 101 et seq.)."
+    },
+    {
+      "claim": "Unfair trade practices arising from alleged copying and exploitation of \"The Maze\" through publication and distribution of \"The Maze Runner.\"",
+      "legal_basis": "State unfair trade practices statute (unfair or deceptive trade practices)."
+    },
+    {
+      "claim": "Unfair competition based on alleged misappropriation of the concept and market for \"The Maze\" by publishing and profiting from \"The Maze Runner.\"",
+      "legal_basis": "State common-law unfair competition and related doctrines."
+    },
+    {
+      "claim": "Contributory copyright infringement based on alleged use of plaintiff\u2019s script \"Long Live Music\" and soundtrack \"Energy\" in the Terminator film franchise.",
+      "legal_basis": "Federal copyright law, contributory infringement (17 U.S.C. \u00a7 501 et seq.)."
+    },
+    {
+      "claim": "Misappropriation or theft of proprietary driver safety and camera technology.",
+      "legal_basis": "Trade secret and proprietary technology misappropriation under applicable state and federal law (exact statutes not specified in summary)."
+    },
+    {
+      "claim": "Patent infringement relating to driver safety and AI-powered dashboard camera technology.",
+      "legal_basis": "Patent infringement under federal patent law (35 U.S.C. \u00a7\u00a7 271 et seq., implied from context)."
+    },
+    {
+      "claim": "Procedural request to keep the action in the original Delaware venue.",
+      "legal_basis": "Opposition to transfer under 28 U.S.C. \u00a7 1404(a), arguing Delaware is a proper and convenient forum."
+    },
+    {
+      "claim": "Misappropriation of confidential business information and trade secrets to establish a competing facility.",
+      "legal_basis": "Trade secret misappropriation and unfair competition under applicable trade secret and unfair competition laws."
+    },
+    {
+      "claim": "Unfair competition by using Pathways\u2019 proprietary information to compete against it.",
+      "legal_basis": "Unfair competition doctrines tied to misuse of confidential and proprietary business information."
+    },
+    {
+      "claim": "Breach of contract based on alleged rights as a third-party beneficiary to the construction loan agreement between the Hawks and FUSB.",
+      "legal_basis": "State contract law governing third-party beneficiary rights under a construction loan agreement."
+    },
+    {
+      "claim": "Fraud based on alleged undisclosed collection and use of teachers\u2019 biometric data and other information from the VIPKid platform.",
+      "legal_basis": "Common law fraud and misrepresentation under applicable state law."
+    },
+    {
+      "claim": "Conversion of teachers\u2019 biometric data and other personal information allegedly taken and used to develop AI and facial recognition technologies.",
+      "legal_basis": "Common law conversion under applicable state law."
+    },
+    {
+      "claim": "Deceptive and unfair business practices related to the undisclosed capture and use of biometric data and other information from teachers.",
+      "legal_basis": "State consumer protection and deceptive trade practices statutes."
+    },
+    {
+      "claim": "Labor law violations arising from the terms and conditions of work as an online teacher for VIPKid.",
+      "legal_basis": "Applicable state and/or federal labor and employment laws (e.g., wage-and-hour or misclassification theories)."
+    },
+    {
+      "claim": "Class action claims on behalf of similarly situated VIPKid teachers for the same alleged fraud, conversion, deceptive practices, and labor violations.",
+      "legal_basis": "Federal Rule of Civil Procedure 23 and underlying substantive state and federal laws."
+    },
+    {
+      "claim": "Misappropriation of trade secrets related to Loop AI\u2019s technology and confidential business information.",
+      "legal_basis": "Trade secret misappropriation under applicable trade secret statutes and common law."
+    },
+    {
+      "claim": "Unfair competition arising from alleged misuse of Loop AI\u2019s proprietary information and business opportunities.",
+      "legal_basis": "Unfair competition laws and related common law doctrines."
+    },
+    {
+      "claim": "Motion to compel production of Orrick\u2019s internal communications in response to Loop\u2019s subpoena.",
+      "legal_basis": "Federal Rules of Civil Procedure governing discovery and subpoenas; challenge to assertion of attorney-client privilege and work-product protection."
+    },
+    {
+      "claim": "Petition for inter partes review challenging Clouding Corp.\u2019s patent claims as obvious over prior art Barnett and Allen, including the step of saving the state of the computer system when a solution cannot be determined.",
+      "legal_basis": "35 U.S.C. \u00a7 103 (obviousness) in inter partes review before the PTAB"
+    },
+    {
+      "claim": "Plaintiffs seek discovery of NVIDIA\u2019s technical and business materials, including AI and machine-learning related source code, models, and algorithms, to prosecute their underlying civil claims (not fully detailed in the protective-order summary).",
+      "legal_basis": "Federal civil procedure discovery rules (e.g., Fed. R. Civ. P. 26) allowing parties to obtain relevant, non-privileged information for their claims and defenses."
+    },
+    {
+      "claim": "Conspiracy to secretly collect and use teachers\u2019 biometric data for AI and AGI development without consent.",
+      "legal_basis": "Privacy and biometric data protection theories; class action claims under state and/or common law (exact statutes not specified in summary)."
+    },
+    {
+      "claim": "Unlawful use of facial recognition and AI-driven technologies to create \u201cvirtual humans\u201d intended to replace human teachers.",
+      "legal_basis": "Invasion of privacy, misuse of biometric identifiers, and related statutory or common-law claims (exact provisions not specified in summary)."
+    },
+    {
+      "claim": "Class action claims on behalf of other American teachers on the platform for the same alleged biometric and AI-related misconduct.",
+      "legal_basis": "Class action procedural rules combined with underlying privacy/biometric claims (specific rule/statutes not detailed in summary)."
+    },
+    {
+      "claim": "Misappropriation of trade secrets related to Loop AI\u2019s technology and business information",
+      "legal_basis": "Trade secret law (likely federal and/or state, e.g., DTSA/UTSA equivalents)"
+    },
+    {
+      "claim": "Conspiracy with Almaviva Defendants to sabotage Loop AI\u2019s investor relations",
+      "legal_basis": "State law civil conspiracy and related business torts"
+    },
+    {
+      "claim": "Unlawful use of Loop AI\u2019s AI trade secrets by Gatti and Almaviva Defendants",
+      "legal_basis": "Trade secret misappropriation and unfair competition statutes/common law"
+    },
+    {
+      "claim": "Relief related to discovery from Russell Reynolds Associates (RRA), including enforcement of subpoenas for documents and depositions",
+      "legal_basis": "Federal Rules of Civil Procedure governing subpoenas and discovery (Rules 26, 30, 34, 45)"
+    },
+    {
+      "claim": "Entry of a protective order with plaintiff\u2019s proposed additional confidentiality and handling provisions",
+      "legal_basis": "Federal Rules of Civil Procedure Rule 26(c) (protective orders)"
+    },
+    {
+      "claim": "Product-liability claim regarding the sale of human semen used for artificial insemination, alleging defects and/or misrepresentations related to the donor and his qualifications.",
+      "legal_basis": "State product-liability law governing sale of goods and related representations (exact statutes not specified in summary)."
+    },
+    {
+      "claim": "Challenge to enforcement of a forum-selection clause requiring litigation in Georgia, arguing lack of assent because the clause was contained in a browsewrap website agreement plaintiffs did not knowingly accept.",
+      "legal_basis": "Contract law principles on assent to online terms; federal venue-transfer standards under 28 U.S.C. \u00a7 1404(a) and case law on enforceability of forum-selection clauses, particularly in browsewrap agreements."
+    },
+    {
+      "claim": "Declaratory judgment that Adiscov\u2019s patent relating to using artificial intelligence for electronic discovery is invalid and/or unenforceable.",
+      "legal_basis": "Declaratory Judgment Act, 28 U.S.C. \u00a7\u00a7 2201\u20132202; federal patent law regarding validity and enforceability of patents."
+    },
+    {
+      "claim": "Google\u2019s products infringed five Blue Spike patents related to electronic content comparison using digital fingerprints or abstracts.",
+      "legal_basis": "Patent infringement under the Patent Act (35 U.S.C. \u00a7\u00a7 271 et seq.)."
+    },
+    {
+      "claim": "The asserted patents claimed patent-eligible computer-implemented systems and methods for generating and comparing digital abstracts of signals.",
+      "legal_basis": "Patent validity under 35 U.S.C. \u00a7 101 (subject-matter eligibility)."
+    },
+    {
+      "claim": "Breach of contract for failure to pay license fees under the Master Software License and Services Agreement for the Invenio Program.",
+      "legal_basis": "Common law breach of contract under the governing state law and the Master Software License and Services Agreement terms requiring payment of license fees."
+    },
+    {
+      "claim": "Breach of the implied covenant of good faith and fair dealing based on OmniMD\u2019s nonpayment and alleged bad-faith conduct in refusing to honor the Agreement.",
+      "legal_basis": "Implied covenant of good faith and fair dealing inherent in the contract under applicable state contract law."
+    },
+    {
+      "claim": "Misappropriation of trade secrets related to Loop AI Labs\u2019 technology and business information.",
+      "legal_basis": "California trade secret law; Cal. Civ. Proc. Code \u00a7 2019.210 procedural requirement for particularized trade secret identification."
+    },
+    {
+      "claim": "Other non\u2013trade secret claims (e.g., related to alleged sabotage of investor negotiations and other wrongful conduct).",
+      "legal_basis": "Not specified in the provided summary; likely state and/or federal business tort or contract claims."
+    },
+    {
+      "claim": "Patent infringement of five U.S. patents covering methods and systems for labeling websites with digital labels to enable more efficient internet searching.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement) and related patent law doctrines on claim scope and construction."
+    },
+    {
+      "claim": "Assertion that the term \u201cdigital label\u201d in the patents covers the accused systems\u2019 use of labels or tags for websites, so that defendants\u2019 search-related technology falls within the scope of the asserted claims.",
+      "legal_basis": "Patent claim interpretation under Markman v. Westview Instruments and intrinsic evidence from the patent specifications and prosecution history."
+    },
+    {
+      "claim": "Assertion that \u201cstored websites\u201d in the patent claims encompasses the way defendants\u2019 systems store and manage websites for label-based searching, supporting infringement.",
+      "legal_basis": "Patent claim construction principles, including plain and ordinary meaning and contextual reading of the claims and specification."
+    },
+    {
+      "claim": "Assertion that \u201cHost Website\u2019s computer\u201d refers to the computer system of the host website implementing the patented labeling and search functions, and that defendants\u2019 systems meet this limitation.",
+      "legal_basis": "Patent claim construction, including correction of minor claim language inconsistencies under the doctrine of obvious error and contextual reading of the claims."
+    },
+    {
+      "claim": "Request for judicial review of the PTO\u2019s refusal to accept patent applications listing DABUS, an AI system, as the inventor.",
+      "legal_basis": "Administrative Procedure Act and interpretation of the U.S. Patent Act\u2019s definition of \u201cinventor\u201d as an \u201cindividual.\u201d"
+    },
+    {
+      "claim": "Assertion that the Patent Act permits non-human entities, including AI systems, to be inventors because the term \u201cindividual\u201d should be interpreted broadly.",
+      "legal_basis": "Statutory interpretation of 35 U.S.C. \u00a7\u00a7 100(f), 100(g), and related provisions defining \u201cinventor\u201d and \u201cjoint inventor.\u201d"
+    },
+    {
+      "claim": "Recovery of losses from online gaming transactions and related damages",
+      "legal_basis": "Civil claims for monetary damages arising from online gaming activities (specific statutory or common-law bases not detailed in summary)"
+    },
+    {
+      "claim": "Request for treble damages for online gaming losses",
+      "legal_basis": "Treble-damages theory under applicable gambling or consumer protection laws (not specified in summary)"
+    },
+    {
+      "claim": "Motion for leave to serve international defendants via email under Rule 4(f)(3)",
+      "legal_basis": "Federal Rule of Civil Procedure 4(f)(3) permitting court-ordered alternative service on foreign defendants"
+    },
+    {
+      "claim": "Patent infringement based on Omilia\u2019s Conversational Virtual Agent and related AI-based platforms allegedly practicing Nuance\u2019s patented automated speech recognition and interactive voice response technologies.",
+      "legal_basis": "Federal patent law (35 U.S.C. \u00a7\u00a7 271 et seq.) for direct and/or indirect infringement of Nuance\u2019s patents covering automated speech recognition and IVR systems."
+    },
+    {
+      "claim": "Negligence in operating and managing Facebook\u2019s advertising platform, including automated and AI-driven ad tools, leading to publication of scam cryptocurrency ads misusing plaintiff\u2019s likeness.",
+      "legal_basis": "Common-law negligence under applicable state law (duty of reasonable care in operating ad platform)."
+    },
+    {
+      "claim": "Misappropriation of likeness based on unauthorized use of Dr. Forrest\u2019s name, image, and identity in fraudulent cryptocurrency advertisements on Facebook.",
+      "legal_basis": "State-law right of publicity / misappropriation of likeness statutes and common law."
+    },
+    {
+      "claim": "Negligent failure to warn users, including Dr. Forrest and Facebook users, about the risk and presence of scam cryptocurrency ads falsely using his likeness.",
+      "legal_basis": "Common-law negligent failure to warn theory under state tort law."
+    },
+    {
+      "claim": "Unjust enrichment based on Meta allegedly profiting from advertising revenue generated by fraudulent cryptocurrency ads misusing Dr. Forrest\u2019s likeness.",
+      "legal_basis": "Equitable claim for unjust enrichment under state law."
+    },
+    {
+      "claim": "Declaratory judgment seeking a judicial declaration regarding Meta\u2019s liability and obligations concerning the scam ads and misuse of plaintiff\u2019s likeness.",
+      "legal_basis": "Declaratory Judgment Act and parallel state declaratory relief provisions."
+    },
+    {
+      "claim": "Application for discovery from OpenAI for use in UK litigation against former employee Jimmy Fraiture regarding alleged misappropriation of confidential information and proprietary AI code.",
+      "legal_basis": "28 U.S.C. \u00a7 1782 (assistance to foreign and international tribunals and litigants)"
+    },
+    {
+      "claim": "Misappropriation of trade secrets related to Loop AI\u2019s artificial intelligence technology and associated confidential information.",
+      "legal_basis": "California Uniform Trade Secrets Act (CUTSA) and California Code of Civil Procedure \u00a7 2019.210 governing trade secret identification in discovery."
+    },
+    {
+      "claim": "Intentional interference with contractual relations (counterclaim by IQ System against Loop AI).",
+      "legal_basis": "California tort law on intentional interference with contractual relations; challenged under California\u2019s anti-SLAPP statute and barred by California\u2019s litigation privilege."
+    },
+    {
+      "claim": "Data scraping by Bright Data from X\u2019s platform violated X\u2019s Terms of Service and other contractual obligations.",
+      "legal_basis": "Breach of contract under applicable state law (exact state unspecified)."
+    },
+    {
+      "claim": "Bright Data\u2019s scraping and related conduct violated other unspecified laws protecting X\u2019s platform and data.",
+      "legal_basis": "Other non-contract legal theories (e.g., possibly computer access or related statutes; not specified in summary)."
+    },
+    {
+      "claim": "X Corp.\u2019s new Terms of Service unreasonably restrain trade by restricting data scraping and penalizing entities like Bright Data, harming competition in the market for publicly available data.",
+      "legal_basis": "Sherman Act \u00a7 1 (unreasonable restraints of trade)."
+    },
+    {
+      "claim": "X Corp. engaged in monopolization or attempted monopolization by using restrictive Terms of Service and practices to control and exclude competition in the market for publicly available data.",
+      "legal_basis": "Sherman Act \u00a7 2 (monopolization / attempted monopolization)."
+    },
+    {
+      "claim": "X Corp.\u2019s restrictive Terms of Service and related conduct violated state antitrust and unfair competition laws beyond federal Sherman Act claims.",
+      "legal_basis": "Related state antitrust and unfair competition statutes (specific statutes not detailed in summary)."
+    },
+    {
+      "claim": "X Corp. engaged in fraudulent competition under California\u2019s Unfair Competition Law by misleading or fraudulent practices tied to its Terms of Service and data restrictions.",
+      "legal_basis": "California Business & Professions Code \u00a7 17200 (fraudulent prong of unfair competition)."
+    },
+    {
+      "claim": "Declaratory judgment that the court, not an arbitrator, has jurisdiction and that the arbitration agreement or delegation clause is unenforceable or inapplicable.",
+      "legal_basis": "Federal Declaratory Judgment Act and contract law principles challenging enforceability and scope of arbitration and delegation clauses."
+    },
+    {
+      "claim": "Breach of dealer agreement by Santos for promoting unauthorized artificial intelligence tools to other dealers and failing to comply with purchase requirements.",
+      "legal_basis": "State contract law governing breach of the dealer agreement between Santos and MBA."
+    },
+    {
+      "claim": "Motion by Mattress by Appointment LLC to compel arbitration of all disputes arising from the dealer agreement and to stay the federal court proceedings.",
+      "legal_basis": "Federal Arbitration Act and the arbitration clause, including delegation clause, in the dealer agreement."
+    },
+    {
+      "claim": "Breach of non-compete agreement by Daoust through employment with competitor TaskUs",
+      "legal_basis": "Contract law; enforcement of restrictive covenant under applicable state law"
+    },
+    {
+      "claim": "Misappropriation or threatened misappropriation of Concentrix trade secrets by Daoust and/or TaskUs",
+      "legal_basis": "Trade secret law (likely state trade secrets statute and/or DTSA)"
+    },
+    {
+      "claim": "Request for preliminary injunction to bar Daoust from working for TaskUs and to protect alleged trade secrets",
+      "legal_basis": "Equitable relief standard for preliminary injunction (likelihood of success, irreparable harm, balance of harms, public interest)"
+    },
+    {
+      "claim": "Patent infringement of five asserted patents by FedEx\u2019s systems and operations.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement)."
+    },
+    {
+      "claim": "Copyright infringement based on training Mosaic ML\u2019s LLMs on datasets containing plaintiffs\u2019 copyrighted works.",
+      "legal_basis": "Federal copyright law \u2013 unauthorized reproduction and use of copyrighted works in training datasets."
+    },
+    {
+      "claim": "Direct copyright infringement claim against Databricks for its new DBRX large language models allegedly trained on plaintiffs\u2019 works.",
+      "legal_basis": "Federal copyright law \u2013 direct infringement through training and operation of DBRX models using copyrighted material."
+    },
+    {
+      "claim": "Update and expansion of the list of allegedly infringed copyrighted works included in the complaint.",
+      "legal_basis": "Procedural amendment under Federal Rule of Civil Procedure 15 to modify pleadings to reflect additional works allegedly infringed."
+    },
+    {
+      "claim": "Misappropriation of trade secrets related to Loop AI\u2019s artificial intelligence technology and associated competitive business information.",
+      "legal_basis": "Trade secret misappropriation under applicable state and/or federal trade secret law (e.g., California trade secret law)."
+    },
+    {
+      "claim": "Unspecified additional claims in the complaint related to unfair competition and other business torts tied to the alleged misuse of Loop AI\u2019s technology and confidential information.",
+      "legal_basis": "Unfair competition and related business tort statutes and common law (exact provisions not specified in the summary)."
+    },
+    {
+      "claim": "Breach of Settlement Agreement for failure to make agreed payments resolving earlier consulting-fee dispute.",
+      "legal_basis": "Breach of contract under the Settlement Agreement governing payment obligations."
+    },
+    {
+      "claim": "Request for preliminary injunction to prohibit defendant from using or disclosing uSens\u2019 confidential information and alleged trade secrets related to AI-based computer-vision tracking technologies.",
+      "legal_basis": "Trade secret misappropriation and protection of confidential information under applicable trade secret and unfair competition laws; equitable standard for preliminary injunction (likelihood of success, irreparable harm, balance of equities, public interest)."
+    },
+    {
+      "claim": "Request for an order compelling defendant to return a Dell laptop and cell phone allegedly containing uSens\u2019 confidential information and trade secrets.",
+      "legal_basis": "Property and trade secret protection principles, and equitable relief standards for preliminary injunctions and orders for return of company devices containing confidential information."
+    },
+    {
+      "claim": "Patent infringement relating to plaintiff\u2019s dashcam invention with AI capabilities",
+      "legal_basis": "Federal patent law (35 U.S.C. \u00a7\u00a7 et seq.)"
+    },
+    {
+      "claim": "Trade secret misappropriation concerning confidential information about the AI dashcam",
+      "legal_basis": "Trade secret law (likely DTSA and/or state trade secret statutes)"
+    },
+    {
+      "claim": "Other related claims arising from alleged misuse and display of plaintiff\u2019s AI dashcam technology on defendants\u2019 website (e.g., possible breach of confidentiality or related business torts)",
+      "legal_basis": "Unspecified in summary; likely state-law business tort and/or contract theories"
+    },
+    {
+      "claim": "Request to file under seal various discovery materials relating to Claude, including usage metrics, specific prompts, and datasets used to train the AI system.",
+      "legal_basis": "Protective order and Federal Rule of Civil Procedure 26(c) \u201cgood cause\u201d standard for sealing non-dispositive discovery materials; protection of confidential and competitively sensitive business information and trade secrets."
+    },
+    {
+      "claim": "Opposition to Anthropic\u2019s sealing requests, seeking public access to discovery materials about Claude\u2019s operation, prompts, usage metrics, and training datasets.",
+      "legal_basis": "Common law and local rules favoring public access to court records; argument that Anthropic failed to show good cause to seal non-dispositive discovery materials."
+    },
+    {
+      "claim": "Trade secret misappropriation relating to AGI technology",
+      "legal_basis": "State trade secret law (likely Oregon Uniform Trade Secrets Act)"
+    },
+    {
+      "claim": "Conversion of AGI-related property or assets",
+      "legal_basis": "State common law conversion"
+    },
+    {
+      "claim": "Breach of fiduciary duty arising from business relationship over AGI technology",
+      "legal_basis": "State common law breach of fiduciary duty"
+    },
+    {
+      "claim": "Tortious interference with business or economic relations involving AGI technology",
+      "legal_basis": "State common law tortious interference"
+    },
+    {
+      "claim": "Request for temporary restraining order (TRO) to stop defendant\u2019s conduct regarding AGI technology",
+      "legal_basis": "Equitable relief under federal procedural rules for TROs (Fed. R. Civ. P. 65)"
+    },
+    {
+      "claim": "Motion to seal the case to keep AGI-related information confidential",
+      "legal_basis": "Court\u2019s inherent authority and local rules governing sealing and confidentiality"
+    },
+    {
+      "claim": "Application to proceed in forma pauperis (waiver of filing fees)",
+      "legal_basis": "28 U.S.C. \u00a7 1915"
+    },
+    {
+      "claim": "Trademark infringement related to Overjet\u2019s branding and marks used with its dental AI products.",
+      "legal_basis": "Federal trademark law (likely Lanham Act) protecting Overjet\u2019s trademarks against confusingly similar use by VideaHealth."
+    },
+    {
+      "claim": "Copyright infringement based on alleged copying of Overjet\u2019s unique combination of design elements and visual presentation in its dental AI X\u2011ray analysis products.",
+      "legal_basis": "Federal copyright law protecting Overjet\u2019s original expressive design elements and visual layouts in its software interface and outputs."
+    },
+    {
+      "claim": "Patent infringement based on alleged copying and use of Overjet\u2019s proprietary technological methods for AI\u2011based scanning and analysis of dental X\u2011rays to detect disease.",
+      "legal_basis": "Federal patent law protecting Overjet\u2019s patented methods and systems for dental AI analysis."
+    },
+    {
+      "claim": "Trademark infringement related to the \"CV Timeline\" name and associated marks",
+      "legal_basis": "Trademark law (likely Lanham Act and/or analogous protections)"
+    },
+    {
+      "claim": "Misappropriation of trade secrets connected to TB4HR\u2019s recruitment software and related confidential information",
+      "legal_basis": "Trade secret law (likely state trade secrets statute or common law)"
+    },
+    {
+      "claim": "Breach of fiduciary duty by Yammine in connection with his role and actions regarding the project and domain",
+      "legal_basis": "Common law fiduciary duty principles"
+    },
+    {
+      "claim": "Tortious interference with business expectancies related to potential or existing TB4HR customer relationships",
+      "legal_basis": "Common law tortious interference with business expectancy/relations"
+    },
+    {
+      "claim": "Challenge to personal jurisdiction over Yammine for TB4HR\u2019s counterclaims",
+      "legal_basis": "Constitutional due process and Arizona long-arm jurisdiction principles"
+    },
+    {
+      "claim": "Request for jurisdictional discovery by TB4HR to further support jurisdictional arguments",
+      "legal_basis": "Procedural discovery rules allowing limited jurisdictional discovery"
+    },
+    {
+      "claim": "Declaratory judgment regarding ownership and control of the CV Timeline domain name",
+      "legal_basis": "Federal Declaratory Judgment Act and related domain/contract principles"
+    },
+    {
+      "claim": "Cyberpiracy related to the CV Timeline domain name",
+      "legal_basis": "Anticybersquatting Consumer Protection Act (ACPA) and related federal law"
+    },
+    {
+      "claim": "Misappropriation of trade secrets concerning CV Timeline and related business information",
+      "legal_basis": "Trade secret law (likely federal DTSA and/or state trade secrets statute)"
+    },
+    {
+      "claim": "Tortious interference with prospective economic advantage based on alleged disruption of TB4HR\u2019s future business relationships",
+      "legal_basis": "State tort law for interference with prospective economic advantage"
+    },
+    {
+      "claim": "Counterclaims generally asserting rights to the CV Timeline product, brand, and domain",
+      "legal_basis": "State and federal unfair competition, contract, and related business tort principles"
+    },
+    {
+      "claim": "Breach of contract by former employees regarding obligations owed to Appdiff after acquisition of PinkLion and during their separation from the company.",
+      "legal_basis": "State contract law governing enforcement of employment, acquisition, or related agreements."
+    },
+    {
+      "claim": "Deceptive trade practices by misrepresenting themselves as still affiliated with Appdiff or its acquired company PinkLion and potentially misleading customers or the market.",
+      "legal_basis": "State deceptive trade practices or unfair competition statutes and common law."
+    },
+    {
+      "claim": "Misuse or threatened misuse of Appdiff\u2019s confidential or proprietary company information, including disputed accounts and assets associated with PinkLion after its acquisition.",
+      "legal_basis": "State trade secret, confidentiality, and contract principles related to protection of proprietary business information."
+    },
+    {
+      "claim": "Request for a protective order governing the handling and exchange of confidential information during discovery.",
+      "legal_basis": "Federal civil procedure rules allowing protective orders to safeguard confidential and sensitive information in discovery (e.g., Fed. R. Civ. P. 26(c))."
+    },
+    {
+      "claim": "Enforcement of subpoenas to Savvysherpa LLC and United Healthcare Service for documents to be used in an AAA arbitration against former employee Yinglong Guo, including materials about AI/ML research and development, alleged trade secret use, and non\u2011compete breaches.",
+      "legal_basis": "Federal Rule of Civil Procedure 45 (subpoena enforcement); relevance to underlying arbitration claims for breach of non\u2011compete agreement and misappropriation of trade secrets; need for discovery from non\u2011parties to prove arbitration claims."
+    },
+    {
+      "claim": "Direct copyright infringement for using plaintiffs\u2019 copyrighted works to train Google\u2019s generative AI models without authorization.",
+      "legal_basis": "17 U.S.C. \u00a7 106 (exclusive rights of copyright owners) and related provisions of the Copyright Act."
+    },
+    {
+      "claim": "Vicarious copyright infringement against Alphabet for Google\u2019s alleged infringing use of plaintiffs\u2019 works in training generative AI models.",
+      "legal_basis": "Vicarious liability doctrine under the Copyright Act, requiring right and ability to supervise the infringing activity and a direct financial benefit."
+    },
+    {
+      "claim": "Contributory copyright infringement against Alphabet for facilitating Google\u2019s alleged infringing training of generative AI models on plaintiffs\u2019 works.",
+      "legal_basis": "Contributory infringement doctrine under the Copyright Act, requiring knowledge of infringing activity and material contribution to it."
+    },
+    {
+      "claim": "Copyright infringement based on alleged copying of Lottery Tracking System (LTS) software to create a competing product.",
+      "legal_basis": "Federal copyright law (17 U.S.C. \u00a7\u00a7 101 et seq.)."
+    },
+    {
+      "claim": "Unfair competition and false designation of origin related to similar branding and marketing of competing lottery tracking software.",
+      "legal_basis": "Lanham Act, 15 U.S.C. \u00a7 1125(a)."
+    },
+    {
+      "claim": "State law unfair competition and related business torts arising from copying and marketing of competing software.",
+      "legal_basis": "State unfair competition and related state law doctrines (exact statutes unspecified)."
+    },
+    {
+      "claim": "Other state law violations connected to misappropriation and use of plaintiff\u2019s software and branding.",
+      "legal_basis": "Various state statutes and common law causes of action (unspecified)."
+    },
+    {
+      "claim": "Trademark-related claims concerning confusion between Lambda Labs\u2019 marks and Lambda School\u2019s marks, including how AI and ML products and services are branded and marketed.",
+      "legal_basis": "Federal and/or state trademark infringement and related unfair competition laws (exact statutes not specified in summary)."
+    },
+    {
+      "claim": "Discovery-related request that Lambda Labs provide more detailed and complete interrogatory responses about its AI and ML products and services, associated trademarks, and trade and customer information.",
+      "legal_basis": "Federal Rules of Civil Procedure governing discovery, including Rules 26 and 33 (interrogatories and scope of discovery)."
+    },
+    {
+      "claim": "Violation of the Telephone Consumer Protection Act by sending unauthorized marketing text messages using an Automatic Telephone Dialing System without prior express consent.",
+      "legal_basis": "Telephone Consumer Protection Act (TCPA), 47 U.S.C. \u00a7 227(b) (prohibiting calls or texts to cell phones using an automatic telephone dialing system without prior express consent)."
+    },
+    {
+      "claim": "Copyright infringement based on alleged unauthorized use of his contributions and ideas in Artificial Intelligence (AI).",
+      "legal_basis": "Federal copyright law protecting original works of authorship"
+    },
+    {
+      "claim": "Copyright infringement based on alleged unauthorized use of his contributions and ideas in Information Security.",
+      "legal_basis": "Federal copyright law protecting original works of authorship"
+    },
+    {
+      "claim": "Copyright infringement based on alleged unauthorized use of his contributions and ideas in Legacy Information Systems (LIS).",
+      "legal_basis": "Federal copyright law protecting original works of authorship"
+    },
+    {
+      "claim": "General claims that the United States misappropriated or exploited his scientific and technical ideas without permission or compensation.",
+      "legal_basis": "Treated as copyright-based claims; subject to the idea\u2013expression dichotomy under copyright law"
+    },
+    {
+      "claim": "Breach of contract by OmniMD in its dealings with Wired Informatics regarding the Invenio software and related services.",
+      "legal_basis": "Contract law \u2013 alleged failure to perform obligations under the software development and licensing agreement between Wired and OmniMD."
+    },
+    {
+      "claim": "Fraud by Wired in connection with the Invenio software\u2019s capabilities and performance as an artificial intelligence engine (OmniMD\u2019s counterclaim).",
+      "legal_basis": "Common-law fraud, requiring particularized pleading under Federal Rule of Civil Procedure 9(b)."
+    },
+    {
+      "claim": "Breach of implied warranties by Wired relating to the Invenio software, including its quality, fitness for OmniMD\u2019s intended AI use, and merchantability (OmniMD\u2019s counterclaim).",
+      "legal_basis": "Implied warranty of merchantability and implied warranty of fitness for a particular purpose under applicable commercial and UCC-based principles, subject to contractual warranty disclaimers."
+    },
+    {
+      "claim": "Patent infringement of U.S. Patent No. 7,394,392 relating to expert-system-based screening of equipment operators for impairments and controlling equipment operation based on those screenings.",
+      "legal_basis": "35 U.S.C. \u00a7 271 (patent infringement) asserting rights in a patent allegedly covering AI-style expert systems for operator impairment screening."
+    },
+    {
+      "claim": "Video game companies deliberately designed games with addictive features that trap minors and young adults in prolonged gameplay, causing or contributing to addiction and related harms.",
+      "legal_basis": "Products liability and negligence theories based on allegedly defective, unreasonably dangerous, and negligently designed products; possibly consumer protection and failure-to-warn claims (as implied by products liability framing)."
+    },
+    {
+      "claim": "Artificial intelligence mechanisms, feedback loops, reward systems, and pay-to-win options were intentionally incorporated into the games to enhance addictiveness and exploit users, especially minors and young adults.",
+      "legal_basis": "Products liability and negligence, including design defect and possibly unfair or deceptive practices under consumer protection statutes, premised on intentional use of AI and algorithmic features to promote addictive behavior."
+    },
+    {
+      "claim": "The various lawsuits concerning video game addiction share common factual questions such that they should be centralized into a single multidistrict litigation for coordinated pretrial proceedings.",
+      "legal_basis": "28 U.S.C. \u00a7 1407, which allows centralization of civil actions involving one or more common questions of fact when it would serve the convenience of parties and witnesses and promote the just and efficient conduct of the litigation."
+    },
+    {
+      "claim": "Copyright infringement based on Anthropic\u2019s use of plaintiffs\u2019 copyrighted songs to train its AI tool without authorization.",
+      "legal_basis": "Copyright Act (17 U.S.C.), including exclusive rights to reproduce and prepare derivative works; asserted via federal copyright infringement claims."
+    },
+    {
+      "claim": "Claim for monetary damages for alleged unauthorized use of musical works in AI training, including potential actual or statutory damages.",
+      "legal_basis": "Damages provisions of the Copyright Act (17 U.S.C. \u00a7\u00a7 504 et seq.) and Federal Rule of Civil Procedure 26(a)(1)(A)(iii) governing disclosure of a computation of each category of damages."
+    },
+    {
+      "claim": "Non-party Appen Butler Hill Inc. sought to keep under seal a Statement of Work and related submissions describing its services and pricing for work performed for Google in connection with Google Assistant.",
+      "legal_basis": "Protective sealing of confidential business and financial information; \u201cgood cause\u201d standard for sealing materials only tangentially related to the merits of the case under Ninth Circuit precedent and local rules."
+    },
+    {
+      "claim": "Defendants seek broad discovery into plaintiffs\u2019 use and knowledge of AI tools and related documents, including references to third-party AI tools such as ChatGPT and others.",
+      "legal_basis": "Federal civil discovery rules requiring production of nonprivileged, relevant, and proportional information (Fed. R. Civ. P. 26(b)(1))."
+    },
+    {
+      "claim": "Defendants seek discovery of documents and communications concerning licensing agreements for AI training data, including plaintiffs\u2019 licensing practices and negotiations.",
+      "legal_basis": "Federal civil discovery rules on relevance and proportionality to defenses, including fair use and market harm (Fed. R. Civ. P. 26(b)(1))."
+    },
+    {
+      "claim": "Defendants seek information about where plaintiffs\u2019 works are available online to support their fair use and market impact defenses.",
+      "legal_basis": "Relevance to fair use factors and market impact under U.S. copyright law, obtained through discovery under Fed. R. Civ. P. 26."
+    },
+    {
+      "claim": "Misappropriation and threatened misappropriation of trade secrets and proprietary technology information Knowles accessed during employment.",
+      "legal_basis": "Trade secret and proprietary information law; contractual and equitable protection of confidential business information."
+    },
+    {
+      "claim": "Breach or threatened breach of confidentiality and non-disclosure obligations regarding Next IT\u2019s proprietary technology and software applications.",
+      "legal_basis": "Confidentiality and non-disclosure duties arising from employment relationship and agreements; equitable injunctive relief standards."
+    },
+    {
+      "claim": "Unfair competition and risk of competitive use of similar software and technology by Knowles after leaving Next IT.",
+      "legal_basis": "Unfair competition principles and enforceability of reasonable restrictive covenants to protect trade secrets and goodwill."
+    },
+    {
+      "claim": "Risk of interference with Next IT\u2019s workforce through solicitation or recruitment of its current employees.",
+      "legal_basis": "Contract and common-law protection against improper employee raiding; enforceability of non-solicitation covenants."
+    },
+    {
+      "claim": "Potential reputational harm through disparaging or defamatory statements between the parties.",
+      "legal_basis": "Defamation and business disparagement principles; contractual non-disparagement undertakings."
+    },
+    {
+      "claim": "Request for writ of mandamus compelling provision of copyright and patent submission forms for his artificial intelligence research and related works.",
+      "legal_basis": "Mandamus relief under federal law; access to copyright and patent application processes."
+    },
+    {
+      "claim": "Motion(s) for relief from judgment to reopen the dismissed case so he could pursue copyright and patent-related relief for his AI research.",
+      "legal_basis": "Federal Rule of Civil Procedure 60(b), including alleged mistake, newly discovered evidence, or other exceptional circumstances justifying relief from final judgment."
+    },
+    {
+      "claim": "Request for mandamus relief compelling provision of copyright and patent (and possibly trademark) forms so he could protect his published research on artificial intelligence and a \u201cFractal.\u201d",
+      "legal_basis": "Petition for writ of mandamus; access to copyright and patent processes; implied constitutional right of access to courts and to seek intellectual property protection."
+    },
+    {
+      "claim": "Request to be relieved from the requirement to pay the full district court filing fee despite being subject to the \u201c3-strike\u201d rule, based on his IP-related claims about AI research and a Fractal.",
+      "legal_basis": "28 U.S.C. \u00a7 1915(g) (PLRA 3-strike rule) and equitable arguments that his circumstances warranted exception to the fee requirement."
+    },
+    {
+      "claim": "Motion for relief from judgment under Federal Rule of Civil Procedure 60(b), arguing that the prior dismissal and fee ruling were erroneous and should be set aside so he could pursue his mandamus/IP claims.",
+      "legal_basis": "Fed. R. Civ. P. 60(b) (relief from judgment for mistake, newly discovered evidence, fraud, or other exceptional circumstances)."
+    },
+    {
+      "claim": "Unnamed entities, allegedly connected to or associated with Global Semiconductor Alliance, are using Robinson\u2019s patented Fiber-Optic Connected Logic (FOCL) technology without authorization to run various AI programs, constituting patent infringement or unauthorized use of patented technology.",
+      "legal_basis": "Implied patent infringement / unauthorized use of patented technology under U.S. patent law (though not adequately pleaded)."
+    },
+    {
+      "claim": "Patent infringement",
+      "legal_basis": "Federal patent law; infringement of an exclusively licensed patent by unauthorized use, including by the original patent owner"
+    },
+    {
+      "claim": "Civil conspiracy to breach the license agreement",
+      "legal_basis": "State civil conspiracy law requiring an underlying tort, premised on alleged conspiracy to breach the patent license agreement"
+    },
+    {
+      "claim": "Copyright infringement based on use of copyrighted works to train LLMs such as GPT-4 without consent or authorization.",
+      "legal_basis": "Federal copyright law (unauthorized reproduction and use of copyrighted works)."
+    },
+    {
+      "claim": "Related copyright-adjacent and statutory claims arising from alleged misuse of copyrighted materials in AI training (e.g., derivative works, distribution, or similar theories).",
+      "legal_basis": "Related federal and possibly state copyright and statutory causes of action associated with training and operation of AI models."
+    },
+    {
+      "claim": "Procedural request/opposition regarding whether the multiple copyright actions should be centralized in a single district for pretrial purposes.",
+      "legal_basis": "28 U.S.C. \u00a7 1407 (multidistrict litigation centralization standard: common questions of fact, convenience, and efficiency)."
+    },
+    {
+      "claim": "Defendants engaged in antitrust violations by misusing artificial intelligence products to create and maintain monopolies and otherwise restrain trade.",
+      "legal_basis": "Federal antitrust law (e.g., Sherman Act and related antitrust principles requiring harm to competition)."
+    },
+    {
+      "claim": "Defendants\u2019 collective conduct as high-tech and oil companies constituted numerous unspecified antitrust activities that harmed the plaintiff.",
+      "legal_basis": "General federal antitrust law requiring antitrust injury and harm to competition."
+    },
+    {
+      "claim": "The federal government infringed his intellectual property related to scientific work on Information Security, Artificial Intelligence, and Legacy Information Systems.",
+      "legal_basis": "Copyright infringement under federal copyright law (seeking protection for his scientific work)."
+    },
+    {
+      "claim": "Request for summary judgment in his favor on the alleged copyright infringement.",
+      "legal_basis": "Motion for summary judgment under the Rules of the Court of Federal Claims."
+    },
+    {
+      "claim": "Fraudulent access and use of CCC\u2019s proprietary CCC ONE software and data for Tractable\u2019s benefit.",
+      "legal_basis": "Fraud and unauthorized access to proprietary software and data under contract and common law theories (including misrepresentation and improper use of confidential systems)."
+    },
+    {
+      "claim": "Tractable\u2019s attempt to enforce an arbitration provision based on access obtained through fraud did not bind CCC to arbitrate disputes with Tractable.",
+      "legal_basis": "Contract law principles governing formation and enforceability of arbitration agreements under the Federal Arbitration Act and state contract law (lack of mutual assent, fraud, and absence of a valid agreement between CCC and Tractable)."
+    },
+    {
+      "claim": "Misappropriation of trade secrets by Google Ventures and Alphabet Inc. based on alleged misuse of confidential information shared in a meeting without an NDA to enhance Google\u2019s AI capabilities.",
+      "legal_basis": "Defend Trade Secrets Act of 2016 (DTSA) and analogous trade secret principles supporting request for preliminary injunction."
+    },
+    {
+      "claim": "Request for preliminary injunctive relief to stop Google Ventures and Alphabet Inc. from using or benefiting from the alleged trade secrets related to AI capabilities.",
+      "legal_basis": "Federal standard for preliminary injunctions (likelihood of success on the merits, irreparable harm, balance of equities, and public interest) applied in the context of DTSA trade secret claims."
+    },
+    {
+      "claim": "Meta\u2019s AI technology intercepted his electronic communications between 2015 and 2021 in violation of the Stored Communications Act.",
+      "legal_basis": "Stored Communications Act (SCA), 18 U.S.C. \u00a7\u00a7 2701 et seq."
+    },
+    {
+      "claim": "Meta unlawfully intercepted his electronic communications using AI technology in violation of the Wiretap Act.",
+      "legal_basis": "Wiretap Act, 18 U.S.C. \u00a7\u00a7 2510 et seq."
+    },
+    {
+      "claim": "Meta\u2019s interception and misuse of his electronic communications violated his rights under the Florida Constitution.",
+      "legal_basis": "Florida Constitution (state constitutional privacy and related protections)."
+    },
+    {
+      "claim": "Defamation based on online statements criticizing Spider Labs\u2019 AI technology and business practices.",
+      "legal_basis": "State defamation law; standards for unmasking anonymous online speakers consistent with First Amendment protections."
+    },
+    {
+      "claim": "Request for subpoena to GoDaddy to disclose John Doe\u2019s identity for purposes of pursuing defamation claims.",
+      "legal_basis": "Procedural rules for third\u2011party subpoenas; balancing against First Amendment right to anonymous speech."
+    },
+    {
+      "claim": "Copyright infringement based on defendants\u2019 use of a baby face mask in films allegedly copying plaintiffs\u2019 \u201cKing Cake Baby\u201d artwork.",
+      "legal_basis": "Federal copyright law, including 17 U.S.C. \u00a7 101 et seq., requiring proof of ownership and substantial similarity between protected expression and accused work."
+    },
+    {
+      "claim": "Use of expert testimony, including AI-based facial recognition analysis, to demonstrate substantial similarity between the King Cake Baby image and the movie mask.",
+      "legal_basis": "Federal Rules of Evidence 702 and Daubert standards governing admissibility of expert testimony in copyright substantial similarity analysis."
+    },
+    {
+      "claim": "Patent infringement based on Meta\u2019s augmented and virtual reality systems allegedly practicing Mullen\u2019s patented wireless telephone functionality.",
+      "legal_basis": "Federal patent infringement under 35 U.S.C. \u00a7 271 relating to wireless telephone\u2013related patent claims (Count II)."
+    },
+    {
+      "claim": "Patent infringement based on Meta\u2019s use of artificial intelligence features in its AR/VR systems allegedly covered by Mullen\u2019s AI-related patent claims.",
+      "legal_basis": "Federal patent infringement under 35 U.S.C. \u00a7 271 relating to AI-focused patent claims (Count VII)."
+    },
+    {
+      "claim": "Patent infringement based on Meta\u2019s AR/VR products allegedly using patented \u201clandscape characteristics\u201d in virtual playfields and environments.",
+      "legal_basis": "Federal patent infringement under 35 U.S.C. \u00a7 271 relating to patents covering landscape characteristics and virtual playfields (remaining counts other than II and VII)."
+    },
+    {
+      "claim": "Patent infringement based on Meta\u2019s AR/VR systems allegedly infringing additional asserted patents beyond those specifically tied to AI and wireless telephones.",
+      "legal_basis": "Federal patent infringement under 35 U.S.C. \u00a7 271 for the remainder of the twelve asserted patents not dismissed."
+    },
+    {
+      "claim": "Challenge to denial of copyright registration for AI-generated artwork listing the AI as sole author.",
+      "legal_basis": "Copyright Act of 1976; administrative review of U.S. Copyright Office refusal to register; argument that the Act permits non-human authorship or ownership via human claimant."
+    },
+    {
+      "claim": "Assertion that the U.S. Copyright Office\u2019s human-authorship requirement is inconsistent with the Copyright Act and unlawfully excludes AI-generated works.",
+      "legal_basis": "Statutory interpretation of the Copyright Act of 1976; challenge to agency\u2019s longstanding human-authorship policy as contrary to law."
+    },
+    {
+      "claim": "Patent infringement based on Meta\u2019s AR/VR technologies allegedly practicing Mullen\u2019s patented inventions (general infringement claims proceeding under Counts I, III, IV, V, and IX).",
+      "legal_basis": "Federal patent law, 35 U.S.C. \u00a7 271 (direct and/or indirect infringement of asserted patents)."
+    },
+    {
+      "claim": "Patent infringement alleging Meta\u2019s accused AR/VR products qualify as \u201cwireless telephones\u201d and infringe a patent directed to wireless telephone technology (Count II).",
+      "legal_basis": "Federal patent law, 35 U.S.C. \u00a7 271, based on a patent whose claims require a \u201cwireless telephone.\u201d"
+    },
+    {
+      "claim": "Patent infringement alleging Meta\u2019s AR/VR products use artificial intelligence in a manner covered by Mullen\u2019s AI-related patent (Count VII).",
+      "legal_basis": "Federal patent law, 35 U.S.C. \u00a7 271, based on a patent with essential claim elements involving artificial intelligence functionality."
+    },
+    {
+      "claim": "Infringement of U.S. Patent No. 7,394,392 relating to an expert system for safety screening of equipment operators by Mercedes-Benz USA and Daimler AG.",
+      "legal_basis": "Federal patent infringement under 35 U.S.C. \u00a7 271 based on alleged use of systems falling within the construed term \u201cexpert system(s)\u201d in the \u2019392 patent."
+    },
+    {
+      "claim": "Copyright infringement based on alleged unauthorized copying, uploading, and commercial exploitation of AIC\u2019s television review capsules on YouTube.",
+      "legal_basis": "Copyright Act of 1976, 17 U.S.C. \u00a7 101 et seq."
+    },
+    {
+      "claim": "Copyright infringement claim asserted against Friger Entertainment, LLC for alleged involvement in the same unauthorized use and monetization of AIC\u2019s review capsules on YouTube.",
+      "legal_basis": "Copyright Act of 1976, 17 U.S.C. \u00a7 101 et seq."
+    }
+  ]
+}
