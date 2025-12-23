@@ -2,6 +2,7 @@ import json
 
 # Privacy and Data Protection
 # IP Law
+# Consumer Protection
 NAME = 'Privacy and Data Protection'
 
 def filter_privacy_cases(input_file, output_file):
