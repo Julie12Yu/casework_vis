@@ -3,7 +3,7 @@ import os
 from openai import OpenAI
 
 CASE_TYPE = "privacy"
-CASE_TYPE_TITLE = "Privacy and Data Protection"
+CASE_TYPE_TITLE = "Consumer Protection"
 
 def extract_case_structure(case_data):
     with open("../otherkey.txt") as f:
