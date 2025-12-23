@@ -3281,37 +3281,34 @@
     ]
   },
   {
-    "type": "object",
-    "properties": {
-      "case_id": "2024-06-25_USCOURTS-ilsd-3_23-cv-03303_Phoenix Insurance Company et al v. Ackercamps.com LLC et al.pdf",
-      "case_name": "Phoenix Insurance Company et al. v. Ackercamps.com LLC et al.",
-      "ai_relevance": "The ESI protocol expressly includes documents and data created by AI-based applications, addressing how such electronically stored information must be preserved, searched, processed, and produced in discovery.",
-      "ai_presence": "The summary states that the protocol governs \u201cthe management of ESI, including documents created by AI-based and other applications, highlighting the technical and legal considerations for handling such data.\u201d AI is mentioned in the context of electronically stored information that may be generated or maintained by AI-based software, which must be preserved and produced under the court-approved ESI protocol.",
-      "parties": {
-        "plaintiff_name": "The Phoenix Insurance Company",
-        "plaintiff_description": "Insurance company and related affiliates",
-        "defendant_name": "Ackercamps.com LLC et al.",
-        "defendant_description": "Business entities opposing insurer plaintiffs"
+    "case_id": "2024-06-25_USCOURTS-ilsd-3_23-cv-03303_Phoenix Insurance Company et al v. Ackercamps.com LLC et al.pdf",
+    "case_name": "Phoenix Insurance Company et al. v. Ackercamps.com LLC et al.",
+    "ai_relevance": "The ESI protocol expressly includes documents and data created by AI-based applications, addressing how such electronically stored information must be preserved, searched, processed, and produced in discovery.",
+    "ai_presence": "The summary states that the protocol governs \u201cthe management of ESI, including documents created by AI-based and other applications, highlighting the technical and legal considerations for handling such data.\u201d AI is mentioned in the context of electronically stored information that may be generated or maintained by AI-based software, which must be preserved and produced under the court-approved ESI protocol.",
+    "parties": {
+      "plaintiff_name": "The Phoenix Insurance Company",
+      "plaintiff_description": "Insurance company and related affiliates",
+      "defendant_name": "Ackercamps.com LLC et al.",
+      "defendant_description": "Business entities opposing insurer plaintiffs"
+    },
+    "claims": [
+      {
+        "claim": "Request for a court-approved protocol governing the preservation, search, processing, and production of electronically stored information (ESI) and hard-copy documents between the parties.",
+        "legal_basis": "Federal Rule of Civil Procedure 34 and related discovery rules governing production of documents and ESI; parties\u2019 stipulation submitted for court approval.",
+        "outcome": "Granted. The court approved the stipulated ESI and document production protocol and entered it as an order binding on all parties."
       },
-      "claims": [
-        {
-          "claim": "Request for a court-approved protocol governing the preservation, search, processing, and production of electronically stored information (ESI) and hard-copy documents between the parties.",
-          "legal_basis": "Federal Rule of Civil Procedure 34 and related discovery rules governing production of documents and ESI; parties\u2019 stipulation submitted for court approval.",
-          "outcome": "Granted. The court approved the stipulated ESI and document production protocol and entered it as an order binding on all parties."
-        },
-        {
-          "claim": "Request to address and standardize treatment of metadata, confidentiality, privilege, deduplication, and parent-child relationships in ESI and document production.",
-          "legal_basis": "Federal discovery rules, including Rule 26(b) and Rule 34, and the parties\u2019 stipulated ESI protocol submitted for court approval.",
-          "outcome": "Granted. The court\u2019s order adopts the stipulated protocol, which sets detailed rules for metadata fields, confidentiality designations, privilege logging, deduplication, and maintenance of parent-child relationships."
-        }
-      ],
-      "defenses": [
-        {
-          "defense": "Agreement to a stipulated ESI and document protocol rather than opposing discovery procedures, thereby resolving any dispute over the mechanics of ESI and document production by consent.",
-          "legal_basis": "Parties\u2019 stipulation under the Federal Rules of Civil Procedure allowing agreed discovery protocols to be submitted for court approval."
-        }
-      ]
-    }
+      {
+        "claim": "Request to address and standardize treatment of metadata, confidentiality, privilege, deduplication, and parent-child relationships in ESI and document production.",
+        "legal_basis": "Federal discovery rules, including Rule 26(b) and Rule 34, and the parties\u2019 stipulated ESI protocol submitted for court approval.",
+        "outcome": "Granted. The court\u2019s order adopts the stipulated protocol, which sets detailed rules for metadata fields, confidentiality designations, privilege logging, deduplication, and maintenance of parent-child relationships."
+      }
+    ],
+    "defenses": [
+      {
+        "defense": "Agreement to a stipulated ESI and document protocol rather than opposing discovery procedures, thereby resolving any dispute over the mechanics of ESI and document production by consent.",
+        "legal_basis": "Parties\u2019 stipulation under the Federal Rules of Civil Procedure allowing agreed discovery protocols to be submitted for court approval."
+      }
+    ]
   },
   {
     "case_id": "2022-08-05_USCOURTS-ca13-21-02347_Thaler v. Vidal.pdf",
