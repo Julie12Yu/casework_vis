@@ -13,50 +13,51 @@ breakdown.py
 
 ```
 schema = {
-    "name": "case_extraction",
-    "schema": {
-        "type": "object",
-        "properties": {
-            "case_id": {"type": "string"},
-            "case_name": {"type": "string"},
-            "ai_relevance": {"type": "string"},
-            "parties": {
-                "type": "object",
-                "properties": {
-                    "plaintiff_name": {"type": "string"},
-                    "plaintiff_description": {"type": "string"},
-                    "defendant_name": {"type": "string"},
-                    "defendant_description": {"type": "string"}
+        "name": "case_extraction",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "case_id": {"type": "string"},
+                "case_name": {"type": "string"},
+                "ai_relevance": {"type": "string"},
+                "ai_presence": {"type": "string"},
+                "parties": {
+                    "type": "object",
+                    "properties": {
+                        "plaintiff_name": {"type": "string"},
+                        "plaintiff_description": {"type": "string"},
+                        "defendant_name": {"type": "string"},
+                        "defendant_description": {"type": "string"}
+                    },
+                    "required": ["plaintiff_name", "plaintiff_description", "defendant_type", "defendant_description"]
                 },
-                "required": ["plaintiff_name", "plaintiff_description", "defendant_type", "defendant_description"]
-            },
-            "claims": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "claim": {"type": "string"},
-                        "legal_basis": {"type": "string"},
-                        "outcome": {"type": "string"}
-                    },
-                    "required": ["claim", "legal_basis", "outcome"]
+                "claims": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "claim": {"type": "string"},
+                            "legal_basis": {"type": "string"},
+                            "outcome": {"type": "string"}
+                        },
+                        "required": ["claim", "legal_basis", "outcome"]
+                    }
+                },
+                "defenses": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "defense": {"type": "string"},
+                            "legal_basis": {"type": "string"}
+                        },
+                        "required": ["defense", "legal_basis"]
+                    }
                 }
             },
-            "defenses": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "defense": {"type": "string"},
-                        "legal_basis": {"type": "string"}
-                    },
-                    "required": ["defense", "legal_basis"]
-                }
-            }
-        },
-        "required": ["case_id", "case_name", "ai_relevance", "parties", "claims", "defenses"]
+            "required": ["case_id", "case_name", "ai_relevance", "parties", "claims", "defenses"]
+        }
     }
-}
 ```
 
 ```
@@ -74,7 +75,9 @@ prompt = f"""
     - Be specific about outcomes
     - For plaintiff_name / defendant_name: Find the name of the party and assign it to this category. In 5 words or less.
     - For plaintiff_description / defendant_description: Describe the party (e.g., “individual”, “corporation”, “business”, “government agency”, “class-action group”). In 10 words or less.
-    - For ai_relevance: If artificial intelligence, machine learning, automated systems, algorithmic technologies, or other AI/ML-related technologies are involved in, impact, or led to the dispute, return exactly "NOT RELATED". Otherwise, describe how they play a role."""
+    - For ai_relevance: If artificial intelligence, machine learning, automated systems, algorithmic technologies, or other AI/ML-related technologies are involved in, impact, or led to the dispute, return exactly "NOT RELATED". Otherwise, describe how they play a role.
+    - For ai_presence: Read through the entire case text, extract the text describing where AI is mentioned..
+"""
 ```
 
 gather_args.py

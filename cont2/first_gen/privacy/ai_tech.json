@@ -1,0 +1,582 @@
+{
+  "summary": {
+    "total_cases": 106,
+    "associated_technologies": {
+      "individual employee alleging privacy and discrimination violations employer corporation and individual managerial employees": 1,
+      "plaintiff disclosed using ai to draft filings; court noted but it did not affect venue decision. pro se individual and his minor child state government and related agencies, officials": 1,
+      "ai bots": 8,
+      "websites allegedly used ai-generated content to fabricate litigation documents and statements. payment-processing company and its individual founder internet service provider and anonymous website operators": 1,
+      "face recognition": 23,
+      "dispute involves ai-focused startup alleging anticompetitive conduct in ai-related markets. ai-focused startup business entity corporate defendants in technology and law-enforcement markets": 1,
+      "algorithims": 7,
+      "social media platform company e-commerce delivery and event apps companies": 1,
+      "both parties\u2019 software products use ai-driven analytics and data insights, but dispute centers on trademark use of \u201cwex,\u201d not ai behavior itself. corporation providing payment and data services software technology corporation offering software, including workforce experience software": 1,
+      "enterprise ai": 14,
+      "federal government and 20 state attorneys general technology corporation and smartphone manufacturer": 1,
+      "cybersecurity": 2,
+      "putative class of google users alleging privacy violations technology corporation operating google services and platforms": 1,
+      "medical ai": 2,
+      "defendant uses ai matchmaking algorithim, platform to connect real estate buyers with homes, relevant to disputed branding and services. texas real estate business asserting trademark rights real estate company using ai-based home search platform": 1,
+      "trademark rights over name of ai research and product company artificial intelligence research and product corporation competing business led by individual guy ravine": 1,
+      "individual consumers affected by data breach mortgage loan servicing corporation, alaska-based": 1,
+      "individual employee alleging racial discrimination healthcare system and former employer": 1,
+      "defendant allegedly used ai in hiring decisions, but ai not central to ruling. individual former employee and job applicant corporate employer/technology company": 1,
+      "federal government and state plaintiffs in antitrust action technology corporation and antitrust defendant": 1,
+      "dispute over competing ai systems for detecting dental disease from x\u2011rays. dental artificial intelligence software company competing dental artificial intelligence software company": 1,
+      "individual job applicant alleging racial discrimination texas state government health and human services agency": 1,
+      "plaintiff alleged 5g enables ai-based secretive data collection and control. pro se individual plaintiff alleging 5g conspiracy harms. telecom company and multiple alleged conspirator defendants": 1,
+      "dispute involves ai-powered finance and accounting solutions marketplace operations and data. ai-powered finance and accounting solutions marketplace business. finance solution company of a previous employee, and the employee": 1,
+      "quintus": 9,
+      "securities fraud class-action shareholder group public corporation and related defendants": 1,
+      "dispute involves alleged misuse of ai-related inventions and technologies. pro se individual prisoner litigant federal government intellectual property agency": 1,
+      "alleged misstatements about company\u2019s artificial intelligence technology in securities filings. investor and proposed securities class representative public corporation and related defendants": 1,
+      "transcription ai": 1,
+      "party\u2019s filings appeared to rely on ai, causing fake citations. individual car dealer/borrower in credit dispute business entity providing line of credit financing": 1,
+      "ai trade secrets": 1,
+      "plaintiff alleged google misrepresented itself as an artificial intelligence research company, but ai was only tangential to the consumer-protection claim. individual consumer and google plus user large technology corporation providing online services": 1,
+      "platform marketed as ai-powered forex trading system; alleged fraudulent ai representations induced investments. group of investors alleging forex fraud scheme online forex platform and uk payment company": 1,
+      "plaintiff alleged ai-driven wireless torture and spoofing operations by defendants. individual pro se plaintiff alleging government and corporate conspiracy federal agencies and pharmaceutical companies as institutional defendants": 1,
+      "generative ai": 6,
+      "petitioner alleged ai intervention in his criminal cases; court found claims meritless and unsupported. pretrial detainee and habeas petitioner county detention facility and custodial authority": 1,
+      "plaintiff alleges implanted chip and ai used to cause psychological and physical harm. individual pro se plaintiff alleging implanted chip harms federal officials and related government defendants": 1,
+      "dispute arises from failed funding of ai solutions company augustus intelligence, inc. litigation trustee for augustus and certain investors individual alleged investor and contract counterparty": 1,
+      "plaintiff alleged sexual assault committed by artificial intelligence system. individual state pretrial detainee bringing ftca claims federal government sued under federal tort claims act": 1,
+      "court expressly barred use of ai tools to draft any filings. individual pro se plaintiff alleging discrimination corporate employer and related business entities": 1,
+      "plaintiff challenges risks and development of advanced ai systems by government and tech companies. individual pro se litigant raising ai-related fears federal government and private ai/technology corporations": 1,
+      "plaintiff used ai to draft filings that contained fake legal citations, leading court to strike her summary judgment responses. individual passenger and pro se litigant commercial airline and additional associated defendants": 1,
+      "trademark dispute between ai-focused companies over use of the \u201cplayground ai\u201d brand. artificial intelligence technology company offering ai services ai-focused corporation and its individual founder/executive": 1
+    }
+  },
+  "cases": [
+    {
+      "case_id": "2025-09-30_USCOURTS-njd-2_20-cv-12364_KERTESZ v. COLONY TIRE CORPORATION et al.pdf",
+      "case_name": "Kertesz v. Colony Tire Corporation et al.",
+      "associated_technology": "individual employee alleging privacy and discrimination violations employer corporation and individual managerial employees"
+    },
+    {
+      "case_id": "2025-01-15_USCOURTS-kywd-3_25-cv-00033_Fouts v. Commonwealth of Kentucky_ et al.pdf",
+      "case_name": "Fouts v. Commonwealth of Kentucky, et al.",
+      "associated_technology": "plaintiff disclosed using ai to draft filings; court noted but it did not affect venue decision. pro se individual and his minor child state government and related agencies, officials"
+    },
+    {
+      "case_id": "2025-08-11_USCOURTS-cand-3_25-cv-00990_Taylor v. ConverseNow Technologies_ Inc..pdf",
+      "case_name": "Taylor v. ConverseNow Technologies, Inc.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2025-09-09_USCOURTS-cand-4_25-cv-06724_Shift4 Payments_ LLC et al v. JaredIsaacmanCourtCase.com et al.pdf",
+      "case_name": "Shift4 Payments, LLC et al. v. JaredIsaacmanCourtCase.com et al.",
+      "associated_technology": "websites allegedly used ai-generated content to fabricate litigation documents and statements. payment-processing company and its individual founder internet service provider and anonymous website operators"
+    },
+    {
+      "case_id": "2022-07-28_USCOURTS-ilnd-1_20-cv-04699_In Re_ TikTok_ Inc._ Consumer Privacy Litigation.pdf",
+      "case_name": "In re TikTok, Inc. Consumer Privacy Litigation",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2025-03-07_USCOURTS-azd-2_24-cv-01869_GovernmentGPT Incorporated et al v. Axon Enterprise Incorporated et al.pdf",
+      "case_name": "GovernmentGPT Incorporated et al. v. Axon Enterprise Incorporated et al.",
+      "associated_technology": "dispute involves ai-focused startup alleging anticompetitive conduct in ai-related markets. ai-focused startup business entity corporate defendants in technology and law-enforcement markets"
+    },
+    {
+      "case_id": "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf",
+      "case_name": "Frasco v. Flo Health, Inc., Meta Platforms, Inc., and Google LLC",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2025-07-14_USCOURTS-cand-3_25-cv-03995_Fizz Social Corp. v. Maplebear Inc. d_b_a Instacart et al.pdf",
+      "case_name": "Fizz Social Corp. v. Maplebear Inc. d/b/a Instacart et al.",
+      "associated_technology": "social media platform company e-commerce delivery and event apps companies"
+    },
+    {
+      "case_id": "2024-07-09_USCOURTS-med-2_24-cv-00121_WEX INC v. HP INC et al.pdf",
+      "case_name": "WEX Inc. v. HP Inc. et al.",
+      "associated_technology": "both parties\u2019 software products use ai-driven analytics and data insights, but dispute centers on trademark use of \u201cwex,\u201d not ai behavior itself. corporation providing payment and data services software technology corporation offering software, including workforce experience software"
+    },
+    {
+      "case_id": "2022-05-16_USCOURTS-ilnd-1_20-cv-02335_G _a minor_ et al v. Salesforce.com_ Inc..pdf",
+      "case_name": "G.G., a minor, et al. v. Salesforce.com, Inc.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2025-06-30_USCOURTS-njd-2_24-cv-04055_UNITED STATES OF AMERICA et al v. APPLE INC..pdf",
+      "case_name": "United States of America et al. v. Apple Inc.",
+      "associated_technology": "federal government and 20 state attorneys general technology corporation and smartphone manufacturer"
+    },
+    {
+      "case_id": "2023-06-15_USCOURTS-ca7-22-02313_Citizens Insurance Company of America v. Wynndalco Enterprises_ LLC_ et al.pdf",
+      "case_name": "Citizens Insurance Company of America v. Wynndalco Enterprises, LLC, et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-12-16_USCOURTS-txed-4_21-cv-00307_Celeste v. Intrusion Inc. et al.pdf",
+      "case_name": "Celeste v. Intrusion Inc. et al.",
+      "associated_technology": "cybersecurity"
+    },
+    {
+      "case_id": "2025-08-06_USCOURTS-cand-3_20-cv-04688_Rodriguez et al v. Google LLC et al.pdf",
+      "case_name": "Rodriguez et al. v. Google LLC et al.",
+      "associated_technology": "putative class of google users alleging privacy violations technology corporation operating google services and platforms"
+    },
+    {
+      "case_id": "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf",
+      "case_name": "Matt Dinerstein v. Google LLC et al.",
+      "associated_technology": "medical ai"
+    },
+    {
+      "case_id": "2023-09-06_USCOURTS-ca5-22-50405_Rex Real Est I v. Rex Real Est.pdf",
+      "case_name": "Rex Real Estate I, L.P. v. Rex Real Estate Exchange, Inc.",
+      "associated_technology": "defendant uses ai matchmaking algorithim, platform to connect real estate buyers with homes, relevant to disputed branding and services. texas real estate business asserting trademark rights real estate company using ai-based home search platform"
+    },
+    {
+      "case_id": "2022-12-16_USCOURTS-txed-4_21-cv-00374_Neely et al v. Intrusion Inc. et al.pdf",
+      "case_name": "Neely et al. v. Intrusion Inc. et al.",
+      "associated_technology": "cybersecurity"
+    },
+    {
+      "case_id": "2025-07-21_USCOURTS-cand-4_23-cv-03918_OpenAI_ Inc. v. Open Artificial Intelligence_ Inc. et al.pdf",
+      "case_name": "OpenAI, Inc. v. Open Artificial Intelligence, Inc. et al.",
+      "associated_technology": "trademark rights over name of ai research and product company artificial intelligence research and product corporation competing business led by individual guy ravine"
+    },
+    {
+      "case_id": "2025-03-06_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+      "case_name": "Moomaw et al v. Geosnapshot Pty Ltd et al",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2025-03-20_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+      "case_name": "Moomaw et al. v. GeoSnapShot Pty Ltd et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2024-08-02_USCOURTS-cand-3_22-cv-07197_La Canada Ventures_ Inc. v. MDalgorithms_ Inc..pdf",
+      "case_name": "La Canada Ventures, Inc. v. MDalgorithms, Inc.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2021-11-12_USCOURTS-cand-3_21-cv-03355_Schmitt et al v. SN Servicing Corporation_ an Alaska Corporation.pdf",
+      "case_name": "Schmitt et al. v. SN Servicing Corporation",
+      "associated_technology": "individual consumers affected by data breach mortgage loan servicing corporation, alaska-based"
+    },
+    {
+      "case_id": "2025-01-30_USCOURTS-mnd-0_23-cv-02789_Pettit v. Allina Health System.pdf",
+      "case_name": "Pettit v. Allina Health System",
+      "associated_technology": "individual employee alleging racial discrimination healthcare system and former employer"
+    },
+    {
+      "case_id": "2024-03-07_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+      "case_name": "Moomaw et al. v. GeoSnapShot Pty Ltd et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2025-08-06_USCOURTS-azd-2_23-cv-02083_Lenk v. Monolithic Power Systems Incorporated.pdf",
+      "case_name": "Lenk v. Monolithic Power Systems Incorporated",
+      "associated_technology": "defendant allegedly used ai in hiring decisions, but ai not central to ruling. individual former employee and job applicant corporate employer/technology company"
+    },
+    {
+      "case_id": "2025-01-27_USCOURTS-dcd-1_20-cv-03010_UNITED STATES OF AMERICA et al v. GOOGLE LLC.pdf",
+      "case_name": "United States of America et al. v. Google LLC (Apple Motion to Intervene)",
+      "associated_technology": "federal government and state plaintiffs in antitrust action technology corporation and antitrust defendant"
+    },
+    {
+      "case_id": "2025-01-08_USCOURTS-caed-2_24-cv-01327_Tate v. Chemed Corp._ et al.pdf",
+      "case_name": "Tate v. VITAS Healthcare Corporation (re Invoca conversation intelligence software)",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2024-12-23_USCOURTS-rid-1_24-cv-00166_Impulse Communications_ Inc. v. Uplift Games_ LLC et al.pdf",
+      "case_name": "Impulse Communications, Inc. v. Uplift Games, LLC et al.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2023-07-07_USCOURTS-ilnd-1_21-cv-06925_Dzananovic v. Bumble_ Inc. et al.pdf",
+      "case_name": "Dzananovic v. Bumble Inc. et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2024-07-19_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf",
+      "case_name": "Overjet, Inc. v. Videa Health, Inc.",
+      "associated_technology": "dispute over competing ai systems for detecting dental disease from x\u2011rays. dental artificial intelligence software company competing dental artificial intelligence software company"
+    },
+    {
+      "case_id": "2021-06-14_USCOURTS-txsd-4_20-cv-03315_Omoyosi v. Texas Health and Human Services Commission.pdf",
+      "case_name": "Omoyosi v. Texas Health and Human Services Commission",
+      "associated_technology": "individual job applicant alleging racial discrimination texas state government health and human services agency"
+    },
+    {
+      "case_id": "2022-01-27_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+      "case_name": "In re Clearview AI Inc. Consumer Privacy Litigation (Macy\u2019s Retail Holdings, LLC)",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-03-30_USCOURTS-ilnd-1_20-cv-03873_Citizens Insurance Company Of America v. Wynndalco Enterprises_ LLC et al.pdf",
+      "case_name": "Citizens Insurance Company of America v. Wynndalco Enterprises, LLC et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2025-01-17_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf",
+      "case_name": "Lewis v. Maverick Transportation LLC et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2023-08-10_USCOURTS-ctd-3_22-cv-01065_Flynn et al v. Verizon Wireless et al.pdf",
+      "case_name": "Flynn et al. v. Verizon Wireless et al.",
+      "associated_technology": "plaintiff alleged 5g enables ai-based secretive data collection and control. pro se individual plaintiff alleging 5g conspiracy harms. telecom company and multiple alleged conspirator defendants"
+    },
+    {
+      "case_id": "2023-07-19_USCOURTS-ilnd-1_23-cv-04430_Admiin Inc. v. Kohan et al.pdf",
+      "case_name": "Admiin Inc. d/b/a Paro Inc. v. Luke Kohan and FirmKey Solutions LLC",
+      "associated_technology": "dispute involves ai-powered finance and accounting solutions marketplace operations and data. ai-powered finance and accounting solutions marketplace business. finance solution company of a previous employee, and the employee"
+    },
+    {
+      "case_id": "2024-06-27_USCOURTS-cand-5_23-cv-05096_Tibbs et al v. Arlo Technologies_ Inc..pdf",
+      "case_name": "Tibbs et al. v. Arlo Technologies, Inc.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+      "case_name": "In re Clearview AI, Inc. Consumer Privacy Litigation",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2024-07-05_USCOURTS-casd-3_23-cv-01082_Jones v. Peloton Interactive_ Inc..pdf",
+      "case_name": "Jones v. Peloton Interactive, Inc.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04263_Werner_ et al v. Quintus Corporation_ et al.pdf",
+      "case_name": "Werner et al. v. Quintus Corporation et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04294_Tuopshug v. Quintus Corporation_ et al.pdf",
+      "case_name": "Tuopshug v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04346_Khalil v. Quintus Corporation_ et al.pdf",
+      "case_name": "Khalil v. Quintus Corporation, et al.",
+      "associated_technology": "securities fraud class-action shareholder group public corporation and related defendants"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04528_Yu v. Quintus Corporation_ et al.pdf",
+      "case_name": "Yu v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04650_Magnan v. Quintus Corporation_ et al.pdf",
+      "case_name": "Magnan v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_01-cv-00096_Rubel v. Quintus Corporation_ et al.pdf",
+      "case_name": "Rubel v. Quintus Corporation, et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_01-cv-00270_Micnaud v. Quintus Corporation_ et al.pdf",
+      "case_name": "Micnaud v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04308_Alves v. Quintus Corporation_ et al.pdf",
+      "case_name": "Alves v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04313_Kaplowitz v. Quintus Corporation_ et al.pdf",
+      "case_name": "Kaplowitz v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04392_Miller_ et al v. Quintus Corporation_ et al.pdf",
+      "case_name": "Miller et al. v. Quintus Corporation et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2021-05-18_USCOURTS-ksd-5_21-cv-04021_Jones v. Patents and Trademarks Commissioner.pdf",
+      "case_name": "Jones v. Patents and Trademarks Commissioner",
+      "associated_technology": "dispute involves alleged misuse of ai-related inventions and technologies. pro se individual prisoner litigant federal government intellectual property agency"
+    },
+    {
+      "case_id": "2024-10-30_USCOURTS-njd-2_24-cv-00971_D_AGOSTINO v. INNODATA INC. et al.pdf",
+      "case_name": "D\u2019Agostino v. Innodata Inc. et al.",
+      "associated_technology": "alleged misstatements about company\u2019s artificial intelligence technology in securities filings. investor and proposed securities class representative public corporation and related defendants"
+    },
+    {
+      "case_id": "2024-09-16_USCOURTS-txwd-1_23-cv-00545_Gray v. Experian Information Solutions_ Inc..pdf",
+      "case_name": "Gray v. Experian Information Solutions, Inc.",
+      "associated_technology": "transcription ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04276_Civic v. Quintus Corporation_ et al.pdf",
+      "case_name": "Civic v. Quintus Corporation, et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04504_Tan v. Quintus Corporation_ et al.pdf",
+      "case_name": "Tan v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2015-03-11_USCOURTS-mied-2_13-cv-14026_Odish v. Morgenthaler Ventures et al.pdf",
+      "case_name": "Odish v. Morgenthaler Ventures et al.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04274_Lemieux_ et al v. Quintus Corporation_ et al.pdf",
+      "case_name": "Lemieux et al. v. Quintus Corporation et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04390_Zanowiak_ et al v. Quintus Corporation_ et al.pdf",
+      "case_name": "Zanowiak et al. v. Quintus Corporation et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_01-cv-00262_Anderson v. Quintus Corporation_ et al.pdf",
+      "case_name": "Anderson v. Quintus Corporation, et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04343_O_Neil v. Quintus Corporation_ et al.pdf",
+      "case_name": "O\u2019Neil v. Quintus Corporation, et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04678_Dutt v. Quintus Corporation_ et al.pdf",
+      "case_name": "Dutt v. Quintus Corporation, et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_01-cv-00093_Rost v. Quintus Corporation_ et al.pdf",
+      "case_name": "Rost v. Quintus Corporation, et al.",
+      "associated_technology": "quintus"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04300_Fershteyn_ et al v. Quintus Corporation_ et al.pdf",
+      "case_name": "Fershteyn et al. v. Quintus Corporation et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04381_Tick v. Quintus Corporation_ et al.pdf",
+      "case_name": "Tick v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04771_Klapper_ et al v. Quintus Corporation_ et al.pdf",
+      "case_name": "Klapper et al. v. Quintus Corporation et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2016-04-06_USCOURTS-moed-4_15-md-02669_IN RE_ ASHLEY MADISON CUSTOMER DATA SECURITY BREACH LITIGATION.pdf",
+      "case_name": "In re Ashley Madison Customer Data Security Breach Litigation",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_00-cv-04264_Weiss v. Quintus Corporation_ et al.pdf",
+      "case_name": "Weiss v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2006-12-05_USCOURTS-cand-3_01-cv-00932_Berdakina v. Quintus Corporation_ et al.pdf",
+      "case_name": "Berdakina v. Quintus Corporation, et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2025-09-17_USCOURTS-insd-1_24-cv-01210_TSUPKO v. KINETIC ADVANTAGE LLC.pdf",
+      "case_name": "TSUPKO v. KINETIC ADVANTAGE LLC",
+      "associated_technology": "party\u2019s filings appeared to rely on ai, causing fake citations. individual car dealer/borrower in credit dispute business entity providing line of credit financing"
+    },
+    {
+      "case_id": "2019-03-26_USCOURTS-cand-5_18-cv-04327_Lamont v. Conner et al.pdf",
+      "case_name": "Lamont v. Conner et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2022-03-23_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+      "case_name": "In re Clearview AI, Inc. Consumer Privacy Litigation",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2020-04-14_USCOURTS-ksd-5_20-cv-03072_Jones v. Google LLC_ Inc..pdf",
+      "case_name": "Jones v. Google LLC, Inc.",
+      "associated_technology": "plaintiff alleged google misrepresented itself as an artificial intelligence research company, but ai was only tangential to the consumer-protection claim. individual consumer and google plus user large technology corporation providing online services"
+    },
+    {
+      "case_id": "2022-01-03_USCOURTS-ilnd-1_20-cv-06485_Naughton v. Amazon.com_ Inc. et al.pdf",
+      "case_name": "Naughton v. Amazon.com, Inc. et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-07-25_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+      "case_name": "In re Clearview AI, Inc. Consumer Privacy Litigation",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-01-26_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf",
+      "case_name": "Gutierrez v. Wemagine.AI LLP",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-05-26_USCOURTS-flsd-1_21-cv-23472_Birmingham et al v. Rofx.net et al.pdf",
+      "case_name": "Birmingham et al. v. RoFx.net et al.",
+      "associated_technology": "platform marketed as ai-powered forex trading system; alleged fraudulent ai representations induced investments. group of investors alleging forex fraud scheme online forex platform and uk payment company"
+    },
+    {
+      "case_id": "2025-07-25_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf",
+      "case_name": "Lewis v. Maverick Transportation LLC et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-11-18_USCOURTS-cand-3_19-cv-05602_Risher v. Adecco Inc. et al.pdf",
+      "case_name": "Risher v. Adecco Inc. et al.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2022-03-18_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+      "case_name": "In re Clearview AI, Inc. Consumer Privacy Litigation",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-10-07_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf",
+      "case_name": "Gutierrez v. Wemagine.AI LLP",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2022-09-26_USCOURTS-ilnd-1_21-cv-04409_Trio v. Turing Video_ Inc..pdf",
+      "case_name": "Trio v. Turing Video, Inc.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2021-05-17_USCOURTS-moed-4_21-cv-00275_Silva v. U.S. Army et al.pdf",
+      "case_name": "Silva v. U.S. Army et al.",
+      "associated_technology": "plaintiff alleged ai-driven wireless torture and spoofing operations by defendants. individual pro se plaintiff alleging government and corporate conspiracy federal agencies and pharmaceutical companies as institutional defendants"
+    },
+    {
+      "case_id": "2025-04-07_USCOURTS-ca5-24-60452_Phi Theta Kappa v. Honor Society.pdf",
+      "case_name": "Phi Theta Kappa Honor Society v. HonorSociety.org",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2020-12-07_USCOURTS-cand-5_20-mc-80141_In re Rule 45 Subpoenas Issued to Google LLC and LinkedIn Corporation Dated July 23_ 2020.pdf",
+      "case_name": "In re Rule 45 Subpoenas Issued to Google LLC and LinkedIn Corporation Dated July 23, 2020",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2020-12-21_USCOURTS-mied-2_17-cv-10657_Cahoo et al v. SAS Analytics Inc. et al.pdf",
+      "case_name": "Cahoo et al. v. SAS Analytics Inc. et al.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2021-03-15_USCOURTS-ksd-5_20-cv-03056_Jones v. Douglas County Jail.pdf",
+      "case_name": "Jones v. Douglas County Jail",
+      "associated_technology": "petitioner alleged ai intervention in his criminal cases; court found claims meritless and unsupported. pretrial detainee and habeas petitioner county detention facility and custodial authority"
+    },
+    {
+      "case_id": "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf",
+      "case_name": "Clark v. Microsoft Corporation",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2024-04-18_USCOURTS-ca10-22-01402_Underwood_ et al v. Bank of America Corporation.pdf",
+      "case_name": "Underwood et al. v. Bank of America Corporation",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2025-05-19_USCOURTS-cand-3_23-cv-04597_Gjovik v. Apple Inc..pdf",
+      "case_name": "Gjovik v. Apple Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2024-01-04_USCOURTS-mnd-0_23-cv-03804_Dopp v. Wray et al.pdf",
+      "case_name": "Dopp v. Wray et al.",
+      "associated_technology": "plaintiff alleges implanted chip and ai used to cause psychological and physical harm. individual pro se plaintiff alleging implanted chip harms federal officials and related government defendants"
+    },
+    {
+      "case_id": "2021-03-16_USCOURTS-ilnd-1_20-cv-01937_Stein v. Clarifai_ Inc..pdf",
+      "case_name": "Stein v. Clarifai, Inc.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2025-06-05_USCOURTS-ned-8_23-cv-00477_Goins v. Father Flanagan_s Boys_ Home.pdf",
+      "case_name": "Goins v. Father Flanagan's Boys' Home",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-03-26_USCOURTS-deb-1_23-ap-50370_Ryniker et al v. Washington et al.pdf",
+      "case_name": "Ryniker et al. v. Washington et al.",
+      "associated_technology": "dispute arises from failed funding of ai solutions company augustus intelligence, inc. litigation trustee for augustus and certain investors individual alleged investor and contract counterparty"
+    },
+    {
+      "case_id": "2020-10-23_USCOURTS-ilnd-1_20-cv-03843_Thornley et al v. Clearview AI_ Inc..pdf",
+      "case_name": "Thornley et al. v. Clearview AI, Inc.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2024-04-24_USCOURTS-ca10-23-08088_Hodge v. United States.pdf",
+      "case_name": "Hodge v. United States",
+      "associated_technology": "plaintiff alleged sexual assault committed by artificial intelligence system. individual state pretrial detainee bringing ftca claims federal government sued under federal tort claims act"
+    },
+    {
+      "case_id": "2024-01-17_USCOURTS-ohsd-3_23-cv-00028_McComb v. Best Buy Inc. et al.pdf",
+      "case_name": "McComb v. Best Buy Inc. et al.",
+      "associated_technology": "court expressly barred use of ai tools to draft any filings. individual pro se plaintiff alleging discrimination corporate employer and related business entities"
+    },
+    {
+      "case_id": "2024-11-14_USCOURTS-cand-3_20-cv-08331_In re Pinterest Derivative Litigation.pdf",
+      "case_name": "In re Pinterest Derivative Litigation",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2020-03-05_USCOURTS-mnd-0_20-cv-00445_Virtual Radiologic Corporation v. Rabern.pdf",
+      "case_name": "Virtual Radiologic Corporation v. Rabern",
+      "associated_technology": "medical ai"
+    },
+    {
+      "case_id": "2021-09-17_USCOURTS-cand-4_17-cv-02758_Long_ M.D._ et al v. Dorset.pdf",
+      "case_name": "Long, M.D., et al. v. Facebook, Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-08-26_USCOURTS-dcd-1_25-cv-01567_CATALDO v. UNITED STATES OF AMERICA et al.pdf",
+      "case_name": "CATALDO v. UNITED STATES OF AMERICA et al.",
+      "associated_technology": "plaintiff challenges risks and development of advanced ai systems by government and tech companies. individual pro se litigant raising ai-related fears federal government and private ai/technology corporations"
+    },
+    {
+      "case_id": "2024-02-26_USCOURTS-ilnd-1_22-cv-01284_Deyerler v. HireVue Inc..pdf",
+      "case_name": "Deyerler v. HireVue Inc.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2025-10-08_USCOURTS-nmd-1_23-cv-00899_Lipe v. Albuquerque Public Schools et al.pdf",
+      "case_name": "Lipe v. Albuquerque Public Schools et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-09-08_USCOURTS-mnd-0_23-cv-03514_Estate of Gene B. Lokken_ The et al v. UnitedHealth Group_ Inc. et al.pdf",
+      "case_name": "Estate of Gene B. Lokken, et al. v. UnitedHealth Group, Inc., et al.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2017-03-06_USCOURTS-ded-1_16-cv-01307_Zaletel v. Prisma Labs_ Inc..pdf",
+      "case_name": "Zaletel v. Prisma Labs, Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-09-08_USCOURTS-cod-1_23-cv-01766_Berg v. United Airlines et al.pdf",
+      "case_name": "Berg v. United Airlines et al.",
+      "associated_technology": "plaintiff used ai to draft filings that contained fake legal citations, leading court to strike her summary judgment responses. individual passenger and pro se litigant commercial airline and additional associated defendants"
+    },
+    {
+      "case_id": "2024-12-09_USCOURTS-cand-3_24-cv-03553_Ryan v. X Corp.pdf",
+      "case_name": "Ryan v. X Corp.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2024-03-14_USCOURTS-cand-5_23-cv-05181_Playground AI LLC v. Mighty Computing_ Inc. et al.pdf",
+      "case_name": "Playground AI LLC v. Mighty Computing, Inc., et al.",
+      "associated_technology": "trademark dispute between ai-focused companies over use of the \u201cplayground ai\u201d brand. artificial intelligence technology company offering ai services ai-focused corporation and its individual founder/executive"
+    }
+  ]
+}

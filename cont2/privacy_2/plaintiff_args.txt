@@ -1,0 +1,1280 @@
+{
+  "plaintiff_args": [
+    {
+      "claim": "Invasion of privacy by public disclosure of private facts based on dissemination of plaintiff\u2019s medical conditions within the company, including at least one specific email communication.",
+      "legal_basis": "New Jersey common law invasion of privacy (public disclosure of private facts)."
+    },
+    {
+      "claim": "Failure to accommodate plaintiff\u2019s disability and health conditions in the workplace.",
+      "legal_basis": "New Jersey Law Against Discrimination (NJLAD), disability discrimination and failure-to-accommodate provisions."
+    },
+    {
+      "claim": "Disability discrimination and related adverse treatment because of plaintiff\u2019s medical conditions.",
+      "legal_basis": "New Jersey Law Against Discrimination (NJLAD)."
+    },
+    {
+      "claim": "Aiding and abetting unlawful discrimination by individual defendants Charles and/or Scott Creighton in connection with plaintiff\u2019s disability and requested accommodations.",
+      "legal_basis": "NJLAD aiding-and-abetting liability for individual employees/supervisors."
+    },
+    {
+      "claim": "Statutory and constitutional violations related to missed Social Security checks affecting plaintiff and his minor child.",
+      "legal_basis": "Alleged violations of federal Social Security statutes and constitutional rights (likely Due Process/Equal Protection)."
+    },
+    {
+      "claim": "Statutory and constitutional violations arising from hazardous living conditions allegedly not properly addressed by Kentucky and/or federal authorities.",
+      "legal_basis": "Alleged violations of housing, safety, or related statutes and constitutional protections (e.g., substantive due process)."
+    },
+    {
+      "claim": "Improper or unlawful actions by Child Protective Services in investigating or handling matters involving plaintiff\u2019s minor child.",
+      "legal_basis": "Alleged violations of child welfare statutes and constitutional rights (family integrity, due process)."
+    },
+    {
+      "claim": "General statutory and constitutional violations by Kentucky and federal agencies connected to events occurring in Kentucky.",
+      "legal_basis": "Unspecified federal and state statutory provisions and constitutional rights allegedly infringed by agency conduct."
+    },
+    {
+      "claim": "Violation of California Invasion of Privacy Act for unlawful wiretapping by intercepting customer phone calls placed to restaurants using AI assistants without consent.",
+      "legal_basis": "California Penal Code \u00a7 631 (CIPA wiretapping provision)."
+    },
+    {
+      "claim": "Violation of California Invasion of Privacy Act for recording confidential telephone communications between customers and restaurants without all-party consent.",
+      "legal_basis": "California Penal Code \u00a7 632 (CIPA confidential communication recording provision)."
+    },
+    {
+      "claim": "Class action claim on behalf of similarly situated consumers whose calls to restaurants were intercepted and recorded by ConverseNow\u2019s AI system without notice or consent.",
+      "legal_basis": "California Invasion of Privacy Act (CIPA), California Penal Code \u00a7\u00a7 631 and 632, asserted on a class-wide basis under Federal Rule of Civil Procedure 23."
+    },
+    {
+      "claim": "Cybersquatting under the Anticybersquatting Consumer Protection Act (ACPA) based on domains using Jared Isaacman\u2019s personal name.",
+      "legal_basis": "Anticybersquatting Consumer Protection Act, 15 U.S.C. \u00a7 1125(d)."
+    },
+    {
+      "claim": "Claims related to false and fabricated online content about a fictitious lawsuit involving Shift4 and Isaacman (e.g., defamation / false statements via hosted websites).",
+      "legal_basis": "Likely state-law defamation and related torts (not fully specified in summary)."
+    },
+    {
+      "claim": "TikTok unlawfully collected and used users\u2019 biometric identifiers and biometric information without informed consent.",
+      "legal_basis": "State biometric privacy statutes (e.g., Illinois Biometric Information Privacy Act) and related state privacy laws."
+    },
+    {
+      "claim": "TikTok collected, stored, and shared users\u2019 personal data, including location and device information, without adequate disclosure or consent.",
+      "legal_basis": "Federal and state privacy and consumer protection laws, including unfair and deceptive practices statutes."
+    },
+    {
+      "claim": "TikTok transmitted or allowed access to users\u2019 data to third parties (including possibly foreign entities) without proper authorization or notice.",
+      "legal_basis": "State privacy and consumer protection laws, and common-law privacy theories (such as intrusion upon seclusion or misuse of personal data)."
+    },
+    {
+      "claim": "TikTok failed to adequately disclose its data collection and AI-driven processing practices, rendering its representations to users misleading or deceptive.",
+      "legal_basis": "State consumer protection and unfair or deceptive acts and practices (UDAP) statutes."
+    },
+    {
+      "claim": "TikTok\u2019s data practices violated users\u2019 rights to privacy by collecting and retaining data longer or more extensively than necessary.",
+      "legal_basis": "State privacy statutes and common-law privacy doctrines concerning unreasonable data collection and retention."
+    },
+    {
+      "claim": "Federal antitrust violations based on allegedly illegal acquisitions and anticompetitive conduct involving Axon\u2019s acquisition-related activities and Microsoft\u2019s exclusive cloud service agreement with Axon.",
+      "legal_basis": "Sherman Act and Clayton Act (federal antitrust statutes)."
+    },
+    {
+      "claim": "Antitrust claim that Safariland\u2019s sale of a subsidiary to Axon unlawfully reduced competition in relevant markets affecting GovGPT.",
+      "legal_basis": "Sherman Act and Clayton Act (federal antitrust statutes)."
+    },
+    {
+      "claim": "False advertising claim alleging that defendants made misleading statements about their products or services in a way that harmed GovGPT competitively.",
+      "legal_basis": "Federal false advertising law (likely Lanham Act \u00a7 43(a))."
+    },
+    {
+      "claim": "Unlawful sharing of sensitive menstrual and pregnancy data with Meta and Google despite privacy assurances.",
+      "legal_basis": "Privacy violations under federal and state law, including California privacy statutes and common-law privacy torts."
+    },
+    {
+      "claim": "Breach of contract by Flo Health for failing to honor its privacy commitments and terms promising not to share sensitive health data without consent.",
+      "legal_basis": "Breach of contract under applicable state contract law based on Flo\u2019s privacy policy and terms of service."
+    },
+    {
+      "claim": "Invasion of privacy by improperly disclosing users\u2019 sensitive health information to third parties for commercial gain.",
+      "legal_basis": "Common-law invasion of privacy and California constitutional/privacy doctrines, including intrusion upon seclusion and related privacy protections."
+    },
+    {
+      "claim": "Violation of California\u2019s Invasion of Privacy Act (CIPA) by Meta and Google through receipt and use of sensitive app data transmitted via SDKs without valid consent.",
+      "legal_basis": "California Invasion of Privacy Act and related California privacy statutes governing interception and use of communications and data."
+    },
+    {
+      "claim": "Unenforceability of Flo\u2019s class action waiver in its terms of service as unconscionable.",
+      "legal_basis": "State contract law doctrines of procedural and substantive unconscionability regarding arbitration and class action waivers."
+    },
+    {
+      "claim": "Lack of informed or implied consent for the sharing of sensitive health data with Meta and Google.",
+      "legal_basis": "Consent requirements under privacy statutes and common-law privacy and contract principles, including implied consent standards."
+    },
+    {
+      "claim": "Trademark infringement based on defendants\u2019 use of the FIZZ mark in the name \u201cFizz by Instacart\u201d for a group ordering app.",
+      "legal_basis": "Federal and/or state trademark infringement law requiring likelihood of consumer confusion."
+    },
+    {
+      "claim": "Unfair competition and related trademark-based claims arising from alleged consumer confusion between FSC\u2019s FIZZ social media platform and defendants\u2019 Fizz by Instacart app.",
+      "legal_basis": "Unfair competition principles tied to trademark law and consumer confusion standards."
+    },
+    {
+      "claim": "Trademark infringement based on HP\u2019s use of the mark \u201cWEX\u201d for its Workforce Experience Platform software, allegedly causing consumer confusion with WEX Inc.\u2019s existing WEX trademarks.",
+      "legal_basis": "Federal and/or state trademark infringement and likelihood of confusion under trademark law (e.g., Lanham Act)."
+    },
+    {
+      "claim": "Salesforce knowingly benefited from participation in a sex-trafficking venture involving Backpage that led to G.G.\u2019s trafficking and victimization.",
+      "legal_basis": "Trafficking Victims Protection Act, 18 U.S.C. \u00a7 1595 (beneficiary liability for participation in a sex-trafficking venture)"
+    },
+    {
+      "claim": "Salesforce\u2019s provision of CRM software and related services to Backpage constituted knowing assistance that facilitated Backpage\u2019s sex-trafficking operations, including those involving G.G.",
+      "legal_basis": "Trafficking Victims Protection Act, 18 U.S.C. \u00a7 1595 (knowing assistance, support, or facilitation of a sex-trafficking venture)"
+    },
+    {
+      "claim": "Apple unlawfully maintained monopoly power in the smartphone and performance smartphone markets through restrictive policies and exclusionary conduct.",
+      "legal_basis": "Federal antitrust law, including Section 2 of the Sherman Act, and parallel state antitrust statutes regarding monopolization and maintenance of monopoly power."
+    },
+    {
+      "claim": "Apple used control over software application interfaces and related technologies to engage in anticompetitive conduct that foreclosed competition from rival apps and services.",
+      "legal_basis": "Federal and state antitrust laws prohibiting exclusionary conduct and maintenance of monopoly power."
+    },
+    {
+      "claim": "Apple\u2019s restrictions on super apps unlawfully limited competition by preventing apps that could reduce user dependence on iPhones and facilitate switching to rival platforms.",
+      "legal_basis": "Federal and state antitrust laws concerning exclusionary practices and maintenance of monopoly power."
+    },
+    {
+      "claim": "Apple\u2019s restrictions on cloud streaming apps impeded competing services and preserved Apple\u2019s dominance in performance smartphones and related app ecosystems.",
+      "legal_basis": "Federal and state antitrust laws addressing exclusionary conduct and foreclosure of competition."
+    },
+    {
+      "claim": "Apple\u2019s control over text messaging functionality (e.g., interoperability limitations) was used to disadvantage rival smartphones and reinforce user lock-in to Apple\u2019s ecosystem.",
+      "legal_basis": "Federal and state antitrust laws prohibiting exclusionary conduct used to maintain monopoly power."
+    },
+    {
+      "claim": "Apple\u2019s practices regarding smartwatch interoperability limited the ability of non-Apple smartwatches to compete, thereby reinforcing Apple\u2019s smartphone monopoly.",
+      "legal_basis": "Federal and state antitrust laws concerning exclusionary conduct and tying/foreclosure theories."
+    },
+    {
+      "claim": "Apple\u2019s restrictions and control over digital wallets and related payment technologies foreclosed competition and helped maintain its smartphone monopoly.",
+      "legal_basis": "Federal and state antitrust laws addressing exclusionary conduct in adjacent markets used to maintain monopoly power."
+    },
+    {
+      "claim": "Apple unlawfully attempted to maintain and extend its monopoly power in the smartphone and performance smartphone markets through the cumulative effect of its restrictive policies.",
+      "legal_basis": "Federal and state antitrust provisions on attempted monopolization and maintenance of monopoly power."
+    },
+    {
+      "claim": "Plaintiffs have standing to challenge Apple\u2019s conduct because it caused antitrust injury in the defined smartphone and performance smartphone markets.",
+      "legal_basis": "Article III standing requirements and antitrust standing doctrines under federal law and analogous state provisions."
+    },
+    {
+      "claim": "The smartphone and performance smartphone markets are properly defined relevant markets for antitrust analysis, with Apple possessing monopoly power in those markets.",
+      "legal_basis": "Federal and state antitrust law requirements for relevant market definition and monopoly power."
+    },
+    {
+      "claim": "Declaratory judgment that Citizens has no duty to defend or indemnify Wynndalco for underlying lawsuits alleging BIPA violations and related common-law claims.",
+      "legal_basis": "Insurance contract interpretation; application of policy\u2019s \u201cviolation-of-statutes\u201d exclusion and related coverage provisions under Illinois law."
+    },
+    {
+      "claim": "Underlying plaintiffs\u2019 claims (against Wynndalco) for violations of the Illinois Biometric Information Privacy Act (BIPA) based on collection, use, and dissemination of biometric identifiers via Clearview AI\u2019s facial-recognition technology without proper notice, consent, or data-handling safeguards.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (740 ILCS 14/1 et seq.), including provisions governing collection, storage, use, and disclosure of biometric identifiers and biometric information."
+    },
+    {
+      "claim": "Underlying plaintiffs\u2019 related common-law privacy and similar claims (such as intrusion upon seclusion, unjust enrichment, or analogous privacy torts) arising from the alleged misuse of biometric data through Clearview AI\u2019s facial-recognition system.",
+      "legal_basis": "State common-law privacy and related doctrines (e.g., intrusion upon seclusion, unjust enrichment, or similar claims recognized under Illinois law)."
+    },
+    {
+      "claim": "Intrusion Inc. made false and misleading statements about the capabilities and performance of its AI-based cybersecurity product, Intrusion Shield, to the market.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act and Rule 10b-5 (fraud on the market)."
+    },
+    {
+      "claim": "Intrusion Inc. and its executives artificially inflated the company\u2019s stock price by overstating Intrusion Shield\u2019s effectiveness in blocking cyber threats using AI tools.",
+      "legal_basis": "Federal securities fraud provisions and related provisions on material misstatements and omissions in connection with the purchase or sale of securities."
+    },
+    {
+      "claim": "Class members who purchased Intrusion Inc. securities during the class period suffered economic loss when the truth about Intrusion Shield\u2019s actual performance emerged and the stock price declined.",
+      "legal_basis": "Loss causation and damages elements under federal securities fraud statutes and rules."
+    },
+    {
+      "claim": "Google collected users\u2019 data despite Web & App Activity (WAA) being switched off, contrary to users\u2019 choices and expectations.",
+      "legal_basis": "California privacy and data usage laws (e.g., state privacy and consumer protection statutes, intrusion upon seclusion)."
+    },
+    {
+      "claim": "Google failed to obtain valid consent and misled users about data collection when WAA was off, by not accurately setting consumer expectations in its disclosures.",
+      "legal_basis": "California consumer protection and privacy laws, including misrepresentation and unfair business practices theories."
+    },
+    {
+      "claim": "Google\u2019s data collection and use when WAA was off was knowing, highly offensive, and warrants punitive damages.",
+      "legal_basis": "California privacy tort standards for highly offensive conduct and statutory bases for punitive damages."
+    },
+    {
+      "claim": "Improper disclosure and misuse of medical records in violation of privacy rights",
+      "legal_basis": "Article III standing premised on alleged invasion of privacy; state-law privacy theories tied to disclosure of protected health information and inadequate de-identification under HIPAA-related standards"
+    },
+    {
+      "claim": "Breach of contract based on hospital\u2019s patient agreements regarding confidentiality of medical information",
+      "legal_basis": "State contract law; alleged promises in admission or consent forms that medical records would remain confidential and not be shared with third parties like Google in the manner alleged"
+    },
+    {
+      "claim": "Breach of the implied covenant of good faith and fair dealing related to confidentiality obligations",
+      "legal_basis": "State contract law doctrine that parties must act in good faith in performing confidentiality and data-handling promises in patient agreements"
+    },
+    {
+      "claim": "Unjust enrichment arising from Google and the University allegedly benefiting from his medical data without proper authorization or compensation",
+      "legal_basis": "State unjust enrichment / restitution principles based on alleged wrongful retention and use of value derived from plaintiff\u2019s medical information"
+    },
+    {
+      "claim": "Consumer fraud and deceptive practices based on representations about privacy and data use",
+      "legal_basis": "State consumer-fraud / deceptive trade practices statute (e.g., Illinois Consumer Fraud and Deceptive Business Practices Act), alleging misleading statements about confidentiality and de-identification of medical records"
+    },
+    {
+      "claim": "Inadequate de-identification of medical records enabling potential re-identification by Google",
+      "legal_basis": "State privacy and contract theories, referencing HIPAA de-identification standards and alleging that inclusion of dates and other fields made re-identification possible"
+    },
+    {
+      "claim": "Increased risk of future harm from potential data re-identification and misuse",
+      "legal_basis": "Article III standing theory based on risk-of-future-harm doctrine in privacy and data-breach cases"
+    },
+    {
+      "claim": "Loss of control over personal medical information as a dignitary or informational injury",
+      "legal_basis": "Article III standing theory grounded in intangible privacy and autonomy interests recognized in some informational-injury cases"
+    },
+    {
+      "claim": "Trademark infringement of federally registered \"Rex\" trademarks under Section 32(1) of the Lanham Act.",
+      "legal_basis": "Lanham Act \u00a7 32(1), 15 U.S.C. \u00a7 1114(1) \u2013 infringement of registered trademarks."
+    },
+    {
+      "claim": "Trademark infringement and unfair competition based on unregistered \"Rex\" marks, including use of the name \"Rex\" in real estate services, under Section 43(a) of the Lanham Act.",
+      "legal_basis": "Lanham Act \u00a7 43(a), 15 U.S.C. \u00a7 1125(a) \u2013 infringement of unregistered marks and false designation of origin."
+    },
+    {
+      "claim": "Claim that defendant\u2019s use of \"Rex\" causes likelihood of consumer confusion between the parties\u2019 real estate services.",
+      "legal_basis": "Lanham Act \u00a7 43(a) likelihood-of-confusion standard; federal unfair competition principles."
+    },
+    {
+      "claim": "Intrusion Inc. made false and misleading statements about the capabilities and performance of its cybersecurity product Intrusion Shield, including its purported use of artificial intelligence, which artificially inflated the company\u2019s stock price and caused investor losses when the truth emerged.",
+      "legal_basis": "Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (securities fraud based on material misstatements and omissions)."
+    },
+    {
+      "claim": "Certain individual officers and/or directors of Intrusion Inc. are liable as \u201ccontrol persons\u201d for the company\u2019s alleged securities law violations related to misrepresentations about Intrusion Shield and its AI capabilities.",
+      "legal_basis": "Section 20(a) of the Securities Exchange Act of 1934 (control person liability)."
+    },
+    {
+      "claim": "Violation of the Illinois Biometric Information Privacy Act (BIPA) by collecting, capturing, and using plaintiffs\u2019 facial geometry biometrics through an AI-driven photo platform without informed written consent, notice, or a publicly available retention and destruction policy.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq."
+    },
+    {
+      "claim": "Improper disclosure and dissemination of plaintiffs\u2019 biometric identifiers and biometric information to third parties via the online photo platform without consent or statutory safeguards.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(d)."
+    },
+    {
+      "claim": "Failure to develop, publicly disclose, and comply with a written policy establishing a retention schedule and guidelines for permanent destruction of biometric identifiers and information collected from Illinois residents.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(a)."
+    },
+    {
+      "claim": "Violation of the Illinois Biometric Information Privacy Act (BIPA) by collecting, storing, and using plaintiffs\u2019 biometric identifiers and information from event photos without informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq."
+    },
+    {
+      "claim": "Class-action relief on behalf of similarly situated individuals whose biometric data was allegedly captured and used by GeoSnapShot without proper consent or disclosures.",
+      "legal_basis": "Federal Rule of Civil Procedure 23 and BIPA\u2019s private right of action."
+    },
+    {
+      "claim": "Trademark infringement based on defendant\u2019s use of the \"MDacne\" mark allegedly infringing plaintiff\u2019s trademarks and causing consumer confusion.",
+      "legal_basis": "Federal trademark law (Lanham Act) and related trademark infringement doctrines."
+    },
+    {
+      "claim": "False advertising regarding MDalgorithms\u2019 representations about its products and services, including those associated with the \"MDacne\" mark.",
+      "legal_basis": "Federal and California false advertising laws, including the Lanham Act and California state law."
+    },
+    {
+      "claim": "Trademark cancellation related to the \"MDacne\" mark, premised on alleged infringement and false advertising.",
+      "legal_basis": "Trademark cancellation provisions under federal trademark law tied to validity of the \"MDacne\" mark."
+    },
+    {
+      "claim": "Negligence in failing to reasonably safeguard customers\u2019 personal and financial information and in delaying notification of the data breach.",
+      "legal_basis": "Common law negligence under California law (duty to use reasonable care to protect personal information and timely notify of breach)."
+    },
+    {
+      "claim": "Violation of California Unfair Competition Law under the \u201cunfair\u201d prong, based on inadequate data security practices and delayed breach notification harming consumers.",
+      "legal_basis": "California Business & Professions Code \u00a7 17200 et seq. \u2013 \u201cunfair\u201d business practices."
+    },
+    {
+      "claim": "Violation of California Unfair Competition Law under the \u201cunlawful\u201d prong, based on alleged violations of FTC guidelines and other data security standards.",
+      "legal_basis": "California Business & Professions Code \u00a7 17200 et seq. \u2013 \u201cunlawful\u201d business practices, predicated on unspecified FTC guidelines and regulations."
+    },
+    {
+      "claim": "Invasion of privacy by public disclosure/misappropriation of personal and financial information through the data breach.",
+      "legal_basis": "California constitutional and common law right to privacy requiring an egregious breach of social norms."
+    },
+    {
+      "claim": "Racial discrimination in employment by Allina Health System against Ms. Pettit.",
+      "legal_basis": "Federal and/or state anti-discrimination laws (e.g., Title VII or analogous state law) as invoked in the complaint."
+    },
+    {
+      "claim": "Sanctions request by Allina for factually unsupported allegations and improper litigation conduct by Pettit\u2019s counsel.",
+      "legal_basis": "Federal Rule of Civil Procedure 11 (Rule 11 sanctions)."
+    },
+    {
+      "claim": "Recovery of costs and fees related to motion to compel discovery due to counsel\u2019s failure to comply with discovery obligations.",
+      "legal_basis": "Federal Rules of Civil Procedure governing discovery and sanctions for failure to comply (including Rule 37)."
+    },
+    {
+      "claim": "Violation of the Illinois Biometric Information Privacy Act (BIPA) by collecting, storing, and using Illinois residents\u2019 facial biometric identifiers and information without required notice, consent, or safeguards via GeoSnapShot\u2019s event-photo platform.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq."
+    },
+    {
+      "claim": "Employment discrimination in hiring, including age discrimination and other protected-class bias, for failing to rehire plaintiff.",
+      "legal_basis": "Federal and/or state anti-discrimination laws (e.g., Title VII, ADEA or analogous statutes)."
+    },
+    {
+      "claim": "Retaliation for plaintiff\u2019s prior lawsuits and protected activity, allegedly causing Monolithic not to rehire him.",
+      "legal_basis": "Federal and/or state anti-retaliation provisions (e.g., Title VII retaliation, related statutes)."
+    },
+    {
+      "claim": "Claims previously litigated in earlier actions, reasserted in the First Amended Complaint.",
+      "legal_basis": "Same underlying discrimination/retaliation statutes as prior suits, but now barred by claim and/or issue preclusion."
+    },
+    {
+      "claim": "Request for default judgment against Monolithic Power Systems, Inc.",
+      "legal_basis": "Procedural request under Federal Rules of Civil Procedure for default judgment based on alleged failure to respond or defend."
+    },
+    {
+      "claim": "Motion to amend complaint to add BlackRock as an additional defendant for alleged involvement in discriminatory hiring decisions.",
+      "legal_basis": "Federal Rule of Civil Procedure 15(a) (leave to amend) and underlying anti-discrimination/retaliation statutes as to proposed new defendant."
+    },
+    {
+      "claim": "Motion to suppress evidence obtained from Facebook account searches related to a shooting incident.",
+      "legal_basis": "Fourth Amendment prohibition on unreasonable searches and seizures; warrant overbreadth and lack of particularity requirements."
+    },
+    {
+      "claim": "Government plaintiffs allege that Google unlawfully maintained monopolies in general search services and search advertising in violation of federal antitrust law (substantive case background).",
+      "legal_basis": "Sherman Act \u00a7 2 (monopolization and maintenance of monopoly power)."
+    },
+    {
+      "claim": "Apple Inc. seeks to intervene as a defendant in the remedial phase to protect its contractual rights and interests in its agreements with Google that may be affected by proposed antitrust remedies.",
+      "legal_basis": "Federal Rule of Civil Procedure 24(a) (intervention of right) and 24(b) (permissive intervention)."
+    },
+    {
+      "claim": "Unlawful wiretapping and eavesdropping by recording and analyzing telephone calls without consent using Invoca\u2019s software.",
+      "legal_basis": "California Invasion of Privacy Act (CIPA), Cal. Penal Code \u00a7 631(a)."
+    },
+    {
+      "claim": "Aiding and abetting unlawful interception of communications by enabling and benefiting from Invoca\u2019s third-party recording and analysis of calls.",
+      "legal_basis": "California Invasion of Privacy Act (CIPA), Cal. Penal Code \u00a7 631(a), aiding-and-abetting theory."
+    },
+    {
+      "claim": "Federal trademark infringement based on defendants\u2019 use of the ADOPT ME / ADOPT ME! name and related branding for a virtual pet game.",
+      "legal_basis": "Lanham Act \u00a7 32 (15 U.S.C. \u00a7 1114) \u2013 registered trademark infringement."
+    },
+    {
+      "claim": "Federal unfair competition and false designation of origin arising from defendants\u2019 use of allegedly confusingly similar marks and branding.",
+      "legal_basis": "Lanham Act \u00a7 43(a) (15 U.S.C. \u00a7 1125(a))."
+    },
+    {
+      "claim": "Anticybersquatting based on defendants\u2019 registration and use of nearly identical or confusingly similar domain names incorporating the ADOPT ME mark.",
+      "legal_basis": "Anticybersquatting Consumer Protection Act (ACPA), 15 U.S.C. \u00a7 1125(d)."
+    },
+    {
+      "claim": "Rhode Island common-law unfair competition based on alleged passing off and confusion between plaintiff\u2019s ADOPT ME brand and defendants\u2019 Roblox-based ADOPT ME! game and related domains.",
+      "legal_basis": "Rhode Island common-law unfair competition and passing off principles."
+    },
+    {
+      "claim": "Trademark dilution and harm to brand value from defendants\u2019 use of a confusingly similar name and branding for a highly popular international game.",
+      "legal_basis": "Trademark dilution under federal and/or state law (implied from trademark and unfair competition framework)."
+    },
+    {
+      "claim": "Related state-law trademark infringement and deceptive trade practices arising from defendants\u2019 use of the ADOPT ME name and similar branding in commerce.",
+      "legal_basis": "State trademark and unfair competition statutes (likely Rhode Island statutory claims, in addition to common law)."
+    },
+    {
+      "claim": "Bumble\u2019s dating app used facial recognition in its photo verification feature to collect, capture, or otherwise obtain users\u2019 biometric identifiers and information (face geometry) without first obtaining informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(b) \u2013 collection, capture, or obtainment of biometric identifiers/information without proper notice and written release."
+    },
+    {
+      "claim": "Bumble failed to provide a publicly available, written policy establishing a retention schedule and guidelines for permanently destroying biometric identifiers and information collected through the photo verification feature.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(a) \u2013 duty to develop and make public a written retention and destruction policy for biometric data."
+    },
+    {
+      "claim": "Bumble disclosed or otherwise made available users\u2019 biometric identifiers or information obtained via facial recognition to third parties without consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(d) \u2013 prohibition on disclosure or dissemination of biometric data without consent or statutory authorization."
+    },
+    {
+      "claim": "Bumble profited from, or otherwise derived revenue from, users\u2019 biometric identifiers or information collected through the facial recognition photo verification feature.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(c) \u2013 prohibition on selling, leasing, trading, or otherwise profiting from biometric identifiers or information."
+    },
+    {
+      "claim": "Class action claim on behalf of similarly situated Illinois users whose biometric data was allegedly collected, stored, used, or disclosed via Bumble\u2019s facial recognition photo verification feature without compliance with BIPA requirements.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA) class action provisions and Federal Rule of Civil Procedure 23 for class certification (prospective)."
+    },
+    {
+      "claim": "Copyright infringement based on Videa\u2019s alleged copying of Overjet\u2019s color schemes, shapes, and shades used to annotate dental X-rays produced by its AI software.",
+      "legal_basis": "Federal copyright law (17 U.S.C. \u00a7 101 et seq.)."
+    },
+    {
+      "claim": "False advertising by Videa regarding the nature and capabilities of its dental AI technology and results, allegedly misleading customers and the market.",
+      "legal_basis": "Lanham Act \u00a7 43(a), 15 U.S.C. \u00a7 1125(a)."
+    },
+    {
+      "claim": "Request for preliminary injunction to stop Videa from using the challenged X-ray annotation designs and from engaging in alleged false advertising during the litigation.",
+      "legal_basis": "Equitable relief standard for preliminary injunction (likelihood of success, irreparable harm, balance of hardships, public interest)."
+    },
+    {
+      "claim": "Failure to hire plaintiff for multiple positions because of his race.",
+      "legal_basis": "Title VII of the Civil Rights Act of 1964 (race discrimination in employment)."
+    },
+    {
+      "claim": "Challenge to Texas Health & Human Services Commission\u2019s handling and policies regarding the COVID-19 pandemic, including requests to change or improve its response.",
+      "legal_basis": "Constitutional and statutory claims framed as requests for injunctive and declaratory relief (non-Title VII)."
+    },
+    {
+      "claim": "Requests for various forms of injunctive relief compelling changes to defendant\u2019s COVID-19 policies and practices.",
+      "legal_basis": "Equitable and injunctive relief theories ancillary to constitutional/statutory claims against a state agency."
+    },
+    {
+      "claim": "Additional or expanded claims proposed in a further amended complaint, including broader challenges to defendant\u2019s conduct and additional theories of liability.",
+      "legal_basis": "Proposed amendments under Federal Rule of Civil Procedure 15 to add or expand federal claims against a state agency and its officials."
+    },
+    {
+      "claim": "Violation of Illinois Biometric Information Privacy Act (BIPA) \u2013 unlawful collection, capture, or obtaining of biometric identifiers and information via Clearview AI without informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(b) and related provisions."
+    },
+    {
+      "claim": "Violation of Illinois Biometric Information Privacy Act (BIPA) \u2013 unlawful disclosure, dissemination, or profiting from biometric identifiers and information through use of Clearview AI\u2019s database.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(c)\u2013(d)."
+    },
+    {
+      "claim": "Violation of California consumer protection and privacy laws arising from Macy\u2019s alleged use of Clearview AI to collect and use Californians\u2019 biometric data without consent.",
+      "legal_basis": "California Unfair Competition Law (UCL), Cal. Bus. & Prof. Code \u00a7 17200 et seq., and related California statutory/privacy provisions as pled in the complaint."
+    },
+    {
+      "claim": "Violation of New York statutory and common law privacy protections based on unauthorized collection and use of biometric identifiers through Clearview AI.",
+      "legal_basis": "New York consumer protection and privacy statutes and New York common law as pled, including unjust enrichment theories."
+    },
+    {
+      "claim": "Unjust enrichment based on Macy\u2019s alleged benefit from using Clearview AI\u2019s facial recognition database built from plaintiffs\u2019 biometric data without compensation or consent.",
+      "legal_basis": "Common law unjust enrichment under various states\u2019 laws, including New York."
+    },
+    {
+      "claim": "Violation of other state consumer protection and privacy statutes (outside Illinois, California, and New York) based on Macy\u2019s alleged use of Clearview AI to obtain and use biometric data without consent.",
+      "legal_basis": "Various state consumer protection and privacy statutes as incorporated in the multi-state class allegations."
+    },
+    {
+      "claim": "Request for declaratory judgment that Citizens has no duty to defend Wynndalco in two underlying BIPA class actions.",
+      "legal_basis": "Insurance contract interpretation; statutory violation exclusion clause in commercial general liability policy; declaratory judgment statute."
+    },
+    {
+      "claim": "Request for declaratory judgment that Citizens has no duty to indemnify Wynndalco for liability arising from the BIPA class actions.",
+      "legal_basis": "Insurance contract interpretation; same statutory violation exclusion and related policy provisions governing indemnity obligations."
+    },
+    {
+      "claim": "Violation of the Illinois Biometric Information Privacy Act (BIPA) by collecting, capturing, and using drivers\u2019 biometric identifiers and/or biometric information through Lytx\u2019s DriveCam MV+AI system without informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq."
+    },
+    {
+      "claim": "Failure to provide required written disclosures and retention schedule regarding collection, storage, and destruction of biometric identifiers and information associated with the MV+AI distracted driving monitoring.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(a)\u2013(b)."
+    },
+    {
+      "claim": "Unlawful dissemination or disclosure of biometric identifiers or information obtained via the DriveCam MV+AI system to third parties without consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(d)."
+    },
+    {
+      "claim": "Defendants conspired to install and operate 5G networks in Connecticut to control the population and cause physical and other harms.",
+      "legal_basis": "Federal civil conspiracy and constitutional/rights-based claims (implied), seeking relief for alleged harmful 5G deployment."
+    },
+    {
+      "claim": "Defendants used 5G networks, including AI-driven secretive data collection, to surveil and manipulate the public, violating plaintiff\u2019s rights.",
+      "legal_basis": "Implied constitutional/privacy and civil rights theories based on surveillance and data collection via 5G and AI."
+    },
+    {
+      "claim": "Breach of non-compete agreement by former employee Kohan through work at competing company FirmKey Solutions LLC.",
+      "legal_basis": "Contract law; enforcement of restrictive covenant/non-compete agreement under applicable state law."
+    },
+    {
+      "claim": "Threatened or potential misappropriation of trade secrets by Kohan and FirmKey under the doctrine of inevitable disclosure.",
+      "legal_basis": "Trade secret law (likely Defend Trade Secrets Act and/or state trade secret statute) based on alleged risk of misappropriation and inevitable disclosure."
+    },
+    {
+      "claim": "Request for temporary restraining order to prevent Kohan and FirmKey from competing and using Paro\u2019s confidential information and trade secrets.",
+      "legal_basis": "Equitable relief standards for temporary restraining orders, including likelihood of success on the merits, irreparable harm, balance of harms, and public interest."
+    },
+    {
+      "claim": "Arlo\u2019s capture and use of plaintiffs\u2019 biometric data without consent and proper policies caused concrete privacy and informational injuries sufficient for Article III standing.",
+      "legal_basis": "Article III of the U.S. Constitution; standing doctrine as applied to BIPA violations (informational and privacy harms)."
+    },
+    {
+      "claim": "Violation of the Illinois Biometric Information Privacy Act (BIPA) for collecting, capturing, and obtaining biometric identifiers and information without informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq., including Sections 15(b) and related provisions."
+    },
+    {
+      "claim": "Violation of BIPA for failing to develop, publicly disclose, and comply with a written retention schedule and guidelines for permanent destruction of biometric identifiers and information.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(a)."
+    },
+    {
+      "claim": "Violation of BIPA for disclosing, redisclosing, or otherwise disseminating biometric identifiers and information without consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(d)."
+    },
+    {
+      "claim": "Violation of BIPA for profiting from or otherwise deriving a benefit from individuals\u2019 biometric identifiers and information.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(c)."
+    },
+    {
+      "claim": "Intrusion upon seclusion and related privacy torts based on surreptitious collection and use of facial biometric data.",
+      "legal_basis": "Common law privacy and intrusion upon seclusion under various state laws (including Illinois and other states represented in the putative classes)."
+    },
+    {
+      "claim": "Violation of other state privacy and consumer protection statutes arising from unauthorized collection, use, and sale of biometric and personal data.",
+      "legal_basis": "Various state privacy and consumer protection laws (outside Illinois), as pleaded in the multi-state class action complaint."
+    },
+    {
+      "claim": "Unjust enrichment under New York law based on Clearview\u2019s alleged wrongful profits from individuals\u2019 biometric data.",
+      "legal_basis": "New York common law unjust enrichment."
+    },
+    {
+      "claim": "Unjust enrichment and restitution under other states\u2019 laws for profiting from individuals\u2019 biometric identifiers and personal data without consent.",
+      "legal_basis": "Common law unjust enrichment and restitution under various non-New York state laws."
+    },
+    {
+      "claim": "Violation of California Invasion of Privacy Act (CIPA) Section 631(a) based on interception and recording of website chat communications through Drift\u2019s embedded software without users\u2019 consent, allegedly for Drift\u2019s own purposes including improving its AI technologies.",
+      "legal_basis": "California Invasion of Privacy Act, Cal. Penal Code \u00a7 631(a)"
+    },
+    {
+      "claim": "Quintus and related defendants overstated the company\u2019s financial condition in its IPO registration statement and subsequent financial statements, misleading investors about the company\u2019s true financial health.",
+      "legal_basis": "Federal securities fraud under the Securities Act and/or Securities Exchange Act for material misstatements and omissions in offering and public filings."
+    },
+    {
+      "claim": "Class members who purchased Quintus stock suffered financial losses when the truth about Quintus\u2019s financial condition emerged and the company filed for bankruptcy, causing the stock price to collapse.",
+      "legal_basis": "Damages claim under federal securities laws based on loss causation and reliance on allegedly false and misleading statements."
+    },
+    {
+      "claim": "Quintus Corporation and related defendants made misleading and false financial statements in connection with its IPO and subsequent financial reports, overstating revenues and concealing the company\u2019s true financial condition.",
+      "legal_basis": "Federal securities fraud laws, including alleged violations of Section 10(b) of the Securities Exchange Act and Rule 10b-5, and related provisions governing misleading statements in connection with the purchase or sale of securities."
+    },
+    {
+      "claim": "Defendants\u2019 misrepresentations and omissions artificially inflated Quintus\u2019s stock price, causing investors to purchase securities at prices distorted by fraud and to suffer losses when the truth emerged and the company\u2019s financial condition deteriorated, culminating in bankruptcy.",
+      "legal_basis": "Federal securities laws governing market manipulation and liability for material misstatements and omissions in public disclosures and financial reporting."
+    },
+    {
+      "claim": "Securities fraud based on overstated and misleading financial statements that inflated Quintus\u2019s stock price before its collapse and bankruptcy.",
+      "legal_basis": "Federal securities laws (including Rule 10b-5 and related provisions) and Federal Rule of Civil Procedure 23 for class treatment."
+    },
+    {
+      "claim": "Request for court approval of a class-wide plan of allocation of the settlement fund among injured Quintus investors.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) requirements for fairness, reasonableness, and adequacy of class settlements and allocation plans."
+    },
+    {
+      "claim": "Application for award of attorney fees and reimbursement of litigation expenses from the settlement fund.",
+      "legal_basis": "Court\u2019s equitable authority in class actions under Rule 23(h) and applicable securities class action fee standards."
+    },
+    {
+      "claim": "Defendants made false and misleading statements in Quintus\u2019s financial documents and public securities filings, inflating the company\u2019s performance and prospects.",
+      "legal_basis": "Federal securities fraud under Section 10(b) of the Securities Exchange Act and Rule 10b-5, and related provisions governing misstatements and omissions in connection with the purchase or sale of securities."
+    },
+    {
+      "claim": "Defendants\u2019 misrepresentations and omissions in securities offerings caused investors to purchase Quintus securities at artificially inflated prices and suffer losses when the truth emerged.",
+      "legal_basis": "Federal securities laws governing registration statements and prospectuses for securities offerings, including Sections 11 and 12 of the Securities Act (and parallel Exchange Act provisions) as typically invoked in consolidated securities class actions."
+    },
+    {
+      "claim": "Class members sought recovery of damages, interest, and costs for losses caused by the alleged securities fraud.",
+      "legal_basis": "Remedial and damages provisions of the federal securities laws and Federal Rule of Civil Procedure 23 governing class actions."
+    },
+    {
+      "claim": "Securities fraud based on overstated revenues and misleading financial statements causing investor losses.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act and Rule 10b-5 (implied from securities fraud class action context)."
+    },
+    {
+      "claim": "Class claims for damages on behalf of all investors who purchased Quintus securities during the class period at artificially inflated prices.",
+      "legal_basis": "Federal securities class action provisions under the Securities Exchange Act and Rule 23 of the Federal Rules of Civil Procedure."
+    },
+    {
+      "claim": "Application for attorney fees and reimbursement of litigation expenses from the settlement fund.",
+      "legal_basis": "Court\u2019s equitable authority in class actions and standards for awarding reasonable attorney fees and costs in common fund securities settlements."
+    },
+    {
+      "claim": "Securities fraud based on false and misleading statements in financial reports that inflated Quintus\u2019s stock price.",
+      "legal_basis": "Federal securities laws governing misrepresentations and omissions in connection with the purchase or sale of securities (e.g., Section 10(b) and Rule 10b-5)."
+    },
+    {
+      "claim": "Claim for a fair allocation plan of the settlement fund among class members who suffered losses.",
+      "legal_basis": "Federal Rule of Civil Procedure 23 requirements that class settlements and distribution plans be fair, reasonable, and adequate."
+    },
+    {
+      "claim": "Application for attorney fees and reimbursement of litigation expenses from the settlement fund.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(h) and common fund doctrine for awarding reasonable attorney fees and costs in class actions."
+    },
+    {
+      "claim": "Securities fraud based on overstating revenues and issuing misleading financial statements in connection with Quintus\u2019s IPO and subsequent public filings, harming investors who purchased Quintus securities between 1999 and 2000.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5, and related provisions governing misrepresentations in IPO and public disclosures."
+    },
+    {
+      "claim": "Securities fraud based on false and misleading statements about Quintus\u2019s financial status and business prospects in connection with its initial public offering and subsequent financial filings.",
+      "legal_basis": "Securities Act of 1933 and Securities Exchange Act of 1934 (including Rule 10b-5\u2013type misrepresentation theories)."
+    },
+    {
+      "claim": "Class action claims seeking court approval of a settlement and plan of allocation of settlement funds among class members who purchased Quintus stock during the class period.",
+      "legal_basis": "Federal Rules of Civil Procedure governing class actions (Rule 23) and standards requiring that class settlements be fair, reasonable, and adequate."
+    },
+    {
+      "claim": "Application for attorneys\u2019 fees and reimbursement of litigation expenses arising from prosecution of the complex securities class action.",
+      "legal_basis": "Court\u2019s equitable authority in class actions and applicable fee-shifting/percentage-of-fund doctrines in securities class settlements."
+    },
+    {
+      "claim": "Securities fraud based on false and misleading financial statements in connection with Quintus\u2019s IPO and other financial disclosures, which overstated revenues and misrepresented the company\u2019s financial condition, causing investor losses when the truth emerged and the stock price collapsed.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5, and related provisions governing false or misleading statements in connection with the purchase or sale of securities."
+    },
+    {
+      "claim": "USPTO failed to provide him with necessary forms to apply for patents on his intellectual property related to artificial intelligence, including \u201cFractal mathematics\u201d and other technologies.",
+      "legal_basis": "Implied claim of wrongful denial of access to patent application process / potential due process or statutory rights under patent laws (not clearly articulated)."
+    },
+    {
+      "claim": "Google wrongfully used his artificial intelligence-related intellectual property, including \u201cFractal mathematics\u201d and other technologies, without authorization or compensation.",
+      "legal_basis": "Implied claim of patent or intellectual property infringement or misappropriation (not clearly articulated or supported)."
+    },
+    {
+      "claim": "Securities fraud based on false or misleading statements about Innodata\u2019s AI technology and related business prospects, causing investor losses.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5, and related provisions under the PSLRA (Private Securities Litigation Reform Act)."
+    },
+    {
+      "claim": "Motion by Francis Grondin for appointment as lead plaintiff and for approval of his selection of lead and local counsel in the securities class action.",
+      "legal_basis": "Private Securities Litigation Reform Act (PSLRA), 15 U.S.C. \u00a7 78u-4, governing appointment of lead plaintiff in securities class actions; Federal Rule of Civil Procedure 23 adequacy and typicality requirements."
+    },
+    {
+      "claim": "Competing motion by Curtis Gardner seeking appointment as lead plaintiff and approval of his selected counsel.",
+      "legal_basis": "Private Securities Litigation Reform Act (PSLRA), 15 U.S.C. \u00a7 78u-4, and Federal Rule of Civil Procedure 23."
+    },
+    {
+      "claim": "Experian inaccurately reported Gray\u2019s credit history on his consumer credit report.",
+      "legal_basis": "Fair Credit Reporting Act (FCRA), 15 U.S.C. \u00a7 1681e(b) \u2013 duty to follow reasonable procedures to assure maximum possible accuracy of consumer reports."
+    },
+    {
+      "claim": "Experian failed to conduct reasonable reinvestigations and correct inaccuracies after Gray\u2019s multiple disputes of his credit information.",
+      "legal_basis": "Fair Credit Reporting Act (FCRA), 15 U.S.C. \u00a7 1681i \u2013 duty to conduct reasonable reinvestigation of disputed information."
+    },
+    {
+      "claim": "Experian\u2019s alleged inaccurate reporting and failure to correct errors caused Gray damages, including credit denials and emotional distress.",
+      "legal_basis": "Fair Credit Reporting Act (FCRA) damages provisions, 15 U.S.C. \u00a7\u00a7 1681n, 1681o \u2013 willful or negligent noncompliance causing actual damages."
+    },
+    {
+      "claim": "Securities fraud based on overstated revenue and misleading financial statements following Quintus\u2019s 1999 IPO, causing investor losses when the truth emerged and the stock price collapsed.",
+      "legal_basis": "Federal securities laws governing misrepresentations and omissions in connection with the purchase or sale of securities (securities fraud class action)."
+    },
+    {
+      "claim": "Securities fraud based on overstating revenues, which artificially inflated Quintus\u2019s stock price and caused investor losses when the truth emerged.",
+      "legal_basis": "Federal securities laws governing misrepresentations and omissions in connection with the purchase or sale of securities (e.g., Section 10(b) and Rule 10b-5)."
+    },
+    {
+      "claim": "Request for court approval of a negotiated class action settlement as fair, reasonable, and adequate for the securities fraud class.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for approval of class action settlements."
+    },
+    {
+      "claim": "Plaintiffs claim an ownership interest in Cognitive Code, the company that developed the SILVIA AI program, and seek recognition and protection of that ownership stake.",
+      "legal_basis": "State-law ownership and business association claims (e.g., contract, equity, or related corporate/partnership theories)."
+    },
+    {
+      "claim": "Plaintiffs allege that defendants, as investors and advisors associated with Cognitive Code, wrongfully diminished the value of SILVIA, the AI program, thereby harming plaintiffs\u2019 economic interests.",
+      "legal_basis": "State-law business tort and fiduciary-type theories (e.g., breach of fiduciary duty, interference with business expectancy, or related wrongful conduct)."
+    },
+    {
+      "claim": "Securities fraud based on overstating corporate revenue, misleading investors, and inflating stock price.",
+      "legal_basis": "Federal securities laws governing misrepresentations and omissions in connection with the purchase or sale of securities (e.g., Section 10(b) and Rule 10b-5, and related provisions)."
+    },
+    {
+      "claim": "Request for approval of class action settlement and plan of allocation for investor recovery.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) standards for fairness, reasonableness, and adequacy of class settlements."
+    },
+    {
+      "claim": "Application for attorney fees and reimbursement of litigation expenses from the settlement fund.",
+      "legal_basis": "Court\u2019s equitable authority in class actions and Rule 23(h) governing attorney\u2019s fees and costs in class actions."
+    },
+    {
+      "claim": "Securities fraud based on false and misleading financial statements and disclosures that inflated Quintus Corporation\u2019s stock price, causing losses when the truth emerged and the stock collapsed.",
+      "legal_basis": "Federal securities laws governing misrepresentations and omissions in connection with the purchase or sale of securities (e.g., Section 10(b) and Rule 10b-5; class action under PSLRA)."
+    },
+    {
+      "claim": "Class action claim for damages on behalf of all similarly situated Quintus shareholders who purchased stock during the class period and were harmed by the alleged fraud and subsequent stock price decline.",
+      "legal_basis": "Federal class action procedure under Rule 23 for securities fraud claims, including requirements of adequacy, typicality, commonality, and predominance."
+    },
+    {
+      "claim": "Request for court approval of a plan of allocation to distribute the settlement fund among class members based on their trading history and recognized losses.",
+      "legal_basis": "Court\u2019s equitable authority in class actions under Rule 23(e) to approve a fair, reasonable, and adequate allocation plan consistent with securities damages principles."
+    },
+    {
+      "claim": "Application for attorney fees and reimbursement of litigation expenses incurred in prosecuting the securities fraud class action on a contingent basis.",
+      "legal_basis": "Common fund doctrine and Rule 23(h), allowing reasonable attorney fees and expenses to be paid from the settlement fund in class actions."
+    },
+    {
+      "claim": "Securities fraud based on false and misleading statements about Quintus\u2019s financial condition in connection with its initial public offering (IPO).",
+      "legal_basis": "Section 11 and Section 12(a)(2) of the Securities Act of 1933; Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5; related federal securities laws."
+    },
+    {
+      "claim": "Securities fraud based on false and misleading statements about Quintus\u2019s financial condition in connection with a corporate merger.",
+      "legal_basis": "Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5; possibly Section 14(a) and related provisions governing proxy/merger disclosures."
+    },
+    {
+      "claim": "Class claims for damages for losses suffered when Quintus\u2019s stock price declined after the alleged fraud was revealed.",
+      "legal_basis": "Federal securities fraud remedies for out-of-pocket damages under the Securities Act of 1933 and Securities Exchange Act of 1934."
+    },
+    {
+      "claim": "Defendants made false and misleading statements about Quintus Corporation\u2019s financial condition and results, inflating the price of Quintus common stock and causing investor losses when the truth emerged.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 (securities fraud), and related provisions for class action securities claims."
+    },
+    {
+      "claim": "Defendants are liable to the class of Quintus common stock purchasers for damages resulting from the alleged securities fraud during the class period.",
+      "legal_basis": "Federal securities laws governing issuer and officer/director liability for material misstatements and omissions in connection with the purchase or sale of securities."
+    },
+    {
+      "claim": "Class counsel sought an award of attorneys\u2019 fees and reimbursement of litigation expenses from the settlement fund for work performed and costs incurred in prosecuting the action.",
+      "legal_basis": "Court\u2019s equitable authority in class actions under Federal Rule of Civil Procedure 23(h) and common fund doctrine for awarding reasonable attorneys\u2019 fees and expenses."
+    },
+    {
+      "claim": "Securities fraud based on inflated revenues and misleading financial statements that misrepresented Quintus\u2019s true financial condition, harming shareholders who purchased Quintus stock at artificially inflated prices.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5, and related class action provisions under Federal Rule of Civil Procedure 23."
+    },
+    {
+      "claim": "Class action claim seeking court approval of a global settlement, plan of allocation, and award of attorney fees and expenses for representing the shareholder class.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) governing settlement of class actions and applicable case law on fairness, reasonableness, and adequacy of class settlements and fee awards."
+    },
+    {
+      "claim": "Quintus and related defendants made false and misleading statements overstating the company\u2019s financial condition, inflating its stock price and causing investor losses when the truth emerged and the company went bankrupt.",
+      "legal_basis": "Federal securities fraud under Section 10(b) of the Securities Exchange Act and Rule 10b-5, and related securities laws for misrepresentation and omission of material facts."
+    },
+    {
+      "claim": "Class counsel sought an award of attorney fees and reimbursement of litigation expenses incurred in prosecuting the securities fraud class action.",
+      "legal_basis": "Court\u2019s equitable authority and applicable class action and securities fee-shifting principles allowing reasonable attorney fees and costs from the common settlement fund."
+    },
+    {
+      "claim": "Securities fraud based on misrepresentations and omissions in Quintus\u2019s financial statements leading up to its bankruptcy, causing investors to purchase or hold Quintus securities at artificially inflated prices.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5, and related class action provisions under Federal Rule of Civil Procedure 23."
+    },
+    {
+      "claim": "Class action claim seeking court approval of a plan of allocation to distribute the $10.1 million settlement fund among class members based on their recognized losses from purchasing Quintus securities.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(e) governing approval of class action settlements and equitable principles for allocation of settlement funds among class members."
+    },
+    {
+      "claim": "Application for attorney fees and reimbursement of litigation expenses from the settlement fund for class counsel\u2019s work in prosecuting the securities fraud class action.",
+      "legal_basis": "Federal Rule of Civil Procedure 23(h) and common fund doctrine allowing reasonable attorney fees and expenses to be paid from a class settlement fund."
+    },
+    {
+      "claim": "Securities fraud based on false and misleading statements about Quintus\u2019s financial condition and revenues, including in connection with its IPO, which allegedly inflated the price of Quintus stock purchased by the class between November 15, 1999, and November 15, 2000.",
+      "legal_basis": "Federal securities laws, including anti-fraud provisions (e.g., Section 10(b) of the Securities Exchange Act and Rule 10b-5, and/or Securities Act provisions related to IPO disclosures)."
+    },
+    {
+      "claim": "Defendants made false and misleading statements in registration statements related to Quintus\u2019s IPO, causing investor losses.",
+      "legal_basis": "Securities Act of 1933 (misstatements/omissions in registration statements)."
+    },
+    {
+      "claim": "Defendants issued false and misleading financial reports after the IPO, inflating Quintus\u2019s financial condition and stock price.",
+      "legal_basis": "Securities Exchange Act of 1934 (securities fraud based on false financial statements)."
+    },
+    {
+      "claim": "Defendants\u2019 overall course of conduct constituted securities fraud, leading to substantial shareholder losses when the truth emerged and the company went bankrupt.",
+      "legal_basis": "Sections of the Securities Act of 1933 and Securities Exchange Act of 1934 governing securities fraud and material misrepresentations."
+    },
+    {
+      "claim": "Defendant failed to adequately secure plaintiffs\u2019 personal and financial information, leading to a data breach exposing sensitive data of Ashley Madison users.",
+      "legal_basis": "Data security negligence, breach of duty to safeguard customer information, privacy and consumer protection theories (class action)."
+    },
+    {
+      "claim": "Defendant used AI bots to mimic real users on the Ashley Madison website, misleading customers about the authenticity of interactions on the platform.",
+      "legal_basis": "Deceptive or unfair business practices, misrepresentation, and consumer protection law violations within the class action framework."
+    },
+    {
+      "claim": "Named plaintiffs sought permission to proceed under pseudonyms while serving as class representatives in the litigation to avoid embarrassment, stigma, and potential harm from public disclosure of their Ashley Madison usage.",
+      "legal_basis": "Procedural request under federal rules and court\u2019s inherent authority to allow pseudonymous litigation in exceptional circumstances, balanced against public access and class action transparency requirements."
+    },
+    {
+      "claim": "Securities fraud based on misleading and overstated financial statements and revenues, which allegedly inflated Quintus Corporation\u2019s stock price and harmed investors when the truth emerged and the company went bankrupt.",
+      "legal_basis": "Federal securities laws, including Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5, and related class action provisions for misrepresentation in connection with the purchase or sale of securities."
+    },
+    {
+      "claim": "Class action claims for damages and other relief on behalf of all similarly situated purchasers of Quintus securities during the class period, based on the alleged misrepresentations and omissions in Quintus\u2019s public financial disclosures.",
+      "legal_basis": "Federal class action procedures under Federal Rule of Civil Procedure 23, combined with substantive federal securities fraud provisions."
+    },
+    {
+      "claim": "Request for attorney\u2019s fees and reimbursement of litigation expenses incurred in prosecuting the securities fraud class action and negotiating the settlement.",
+      "legal_basis": "Court\u2019s equitable authority and applicable standards for awarding reasonable attorney\u2019s fees and costs in common-fund class actions under federal law and Rule 23."
+    },
+    {
+      "claim": "Quintus made false and misleading financial statements that misrepresented its financial condition and performance, causing artificial inflation of its stock price and losses to shareholders when the truth emerged.",
+      "legal_basis": "Federal securities fraud under Section 10(b) of the Securities Exchange Act and Rule 10b-5, and related securities laws governing material misstatements and omissions to investors."
+    },
+    {
+      "claim": "Quintus engaged in financial misreporting related to its AI-driven business dealings and growth, misleading investors about the nature and success of its operations.",
+      "legal_basis": "Federal securities laws prohibiting material misrepresentations and omissions in connection with the purchase or sale of securities, including Section 10(b) and Rule 10b-5."
+    },
+    {
+      "claim": "Claims arising from a dispute over a line of credit for a car dealership, including challenges to Kinetic Advantage\u2019s actions in connection with the credit facility (likely contract and related statutory or common-law claims).",
+      "legal_basis": "Contract and related state-law claims concerning the line of credit (exact causes of action not specified in the summary)."
+    },
+    {
+      "claim": "Misappropriation of trade secrets relating to software product designs and innovative AI solutions by the Conner Defendants, Straggas, and Google Ventures.",
+      "legal_basis": "Defend Trade Secrets Act (DTSA), 18 U.S.C. \u00a7 1836 et seq."
+    },
+    {
+      "claim": "Unauthorized disclosure and use of plaintiff\u2019s confidential and proprietary software and AI-related ideas by Google Ventures through its activities and investments.",
+      "legal_basis": "Defend Trade Secrets Act (DTSA), 18 U.S.C. \u00a7 1836 et seq. (as part of the same DTSA cause of action)."
+    },
+    {
+      "claim": "Violation of privacy rights under the California Constitution by creating and using a facial recognition database from scraped online images without consent.",
+      "legal_basis": "California Constitution, right to privacy (Article I, Section 1) and related state constitutional privacy doctrines."
+    },
+    {
+      "claim": "Violation of free speech rights under the California Constitution through the collection, storage, and use of facial images and biometric data without consent.",
+      "legal_basis": "California Constitution, free speech protections (Article I, Section 2) as applied to compelled or unauthorized use of individuals\u2019 images and identities."
+    },
+    {
+      "claim": "Consumer privacy and data misuse claims arising from scraping, storing, and deploying facial images and biometric identifiers in Clearview\u2019s database.",
+      "legal_basis": "California constitutional privacy provisions and California consumer privacy principles (as framed in the complaint) related to unauthorized collection and use of personal data."
+    },
+    {
+      "claim": "Claims against municipal defendants for their use and deployment of Clearview\u2019s facial recognition database in ways that allegedly infringed plaintiffs\u2019 privacy and free speech rights.",
+      "legal_basis": "California Constitution privacy and free speech provisions, applied to governmental entities\u2019 use of Clearview\u2019s technology."
+    },
+    {
+      "claim": "Google wrongfully deprived plaintiff of access to his Google Plus web address and various Google services when it shut down Google Plus in 2019, violating his consumer rights.",
+      "legal_basis": "Kansas Consumer Protection Act (KCPA) \u2013 alleged deceptive or unconscionable acts in connection with a consumer transaction."
+    },
+    {
+      "claim": "Google misrepresented itself (including its status, such as being an artificial intelligence research company) in a way that deceived plaintiff as a consumer.",
+      "legal_basis": "Kansas Consumer Protection Act (KCPA) \u2013 deceptive acts or practices based on alleged misrepresentations."
+    },
+    {
+      "claim": "Amazon collected employees\u2019 biometric identifiers and biometric information, including facial geometry, through facial scans during wellness checks without obtaining informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(b) \u2013 collection without written notice and release."
+    },
+    {
+      "claim": "Amazon possessed and stored employees\u2019 biometric data (facial geometry) without a publicly available written retention schedule or guidelines for permanent destruction of the data.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(a) \u2013 lack of retention schedule and destruction guidelines."
+    },
+    {
+      "claim": "Amazon disclosed or otherwise disseminated employees\u2019 biometric identifiers and information, including facial geometry data from facial scans, to third parties without consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(d) \u2013 disclosure or dissemination without consent."
+    },
+    {
+      "claim": "Amazon profited from or otherwise derived a benefit from employees\u2019 biometric data collected via facial recognition systems without their consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(c) \u2013 prohibition on selling, leasing, trading, or profiting from biometric data."
+    },
+    {
+      "claim": "Class action claim on behalf of similarly situated Amazon employees subjected to the same biometric data collection practices without BIPA-compliant notice, consent, or policies.",
+      "legal_basis": "Federal Rule of Civil Procedure 23; underlying violations of BIPA \u00a7\u00a715(a)\u2013(d)."
+    },
+    {
+      "claim": "Clearview collected, captured, or obtained plaintiffs\u2019 biometric identifiers and biometric information (facial geometry) without informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA) \u00a7 15(b)."
+    },
+    {
+      "claim": "Clearview failed to develop and make publicly available a written retention schedule and guidelines for permanently destroying biometric identifiers and information.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA) \u00a7 15(a)."
+    },
+    {
+      "claim": "Clearview disclosed, disseminated, or otherwise profited from plaintiffs\u2019 biometric identifiers and information without consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA) \u00a7 15(c) and/or \u00a7 15(d)."
+    },
+    {
+      "claim": "Clearview\u2019s conduct caused concrete privacy and informational injuries sufficient for Article III standing.",
+      "legal_basis": "Article III of the U.S. Constitution; BIPA as substantive privacy right."
+    },
+    {
+      "claim": "Violation of Illinois Biometric Information Privacy Act (BIPA) \u00a7 15(b) for collecting or capturing biometric identifiers and biometric information (facial geometry) through the Voila AI Artist app without providing written notice and obtaining informed written consent.",
+      "legal_basis": "740 ILCS 14/15(b) \u2013 Illinois Biometric Information Privacy Act, informed consent and notice requirements for collection of biometric identifiers/information."
+    },
+    {
+      "claim": "Violation of Illinois Biometric Information Privacy Act (BIPA) \u00a7 15(a) for failing to develop, publicly disclose, and comply with a written policy establishing a retention schedule and guidelines for permanent destruction of biometric identifiers and information collected via the Voila AI Artist app.",
+      "legal_basis": "740 ILCS 14/15(a) \u2013 Illinois Biometric Information Privacy Act, retention schedule and destruction policy requirements."
+    },
+    {
+      "claim": "Violation of Illinois Biometric Information Privacy Act (BIPA) \u00a7 15(d) for disclosing, redisclosing, or otherwise disseminating users\u2019 biometric identifiers and information obtained through the Voila AI Artist app without consent.",
+      "legal_basis": "740 ILCS 14/15(d) \u2013 Illinois Biometric Information Privacy Act, restrictions on disclosure and dissemination of biometric data."
+    },
+    {
+      "claim": "Class action claim on behalf of a putative class of Illinois residents whose biometric identifiers and information were allegedly collected, stored, or disseminated through the Voila AI Artist app in violation of BIPA.",
+      "legal_basis": "Federal Rule of Civil Procedure 23; underlying substantive basis in 740 ILCS 14 (BIPA)."
+    },
+    {
+      "claim": "EPS participated in or facilitated RoFx.net\u2019s fraudulent investment scheme targeting plaintiffs.",
+      "legal_basis": "Civil fraud and conspiracy to commit fraud under applicable state and federal law (including aiding and abetting liability)."
+    },
+    {
+      "claim": "EPS was part of a conspiracy with RoFx.net and others to defraud investors, including those in Florida.",
+      "legal_basis": "Civil conspiracy to commit fraud, premised on underlying fraud claims."
+    },
+    {
+      "claim": "EPS conducted business in Florida or purposefully directed activities at Florida sufficient to subject it to personal jurisdiction there.",
+      "legal_basis": "Personal jurisdiction under Florida\u2019s long-arm statute and Due Process (minimum contacts / purposeful availment)."
+    },
+    {
+      "claim": "Defendants collected, captured, or otherwise obtained drivers\u2019 biometric identifiers and/or biometric information through Lytx\u2019s AI-enabled DriveCam systems without first obtaining informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(b) \u2013 informed written consent requirement for collection of biometric identifiers/information."
+    },
+    {
+      "claim": "Defendants failed to provide drivers with a written, publicly available retention schedule and guidelines for permanently destroying biometric identifiers and information collected via the DriveCam systems.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(a) \u2013 written retention schedule and destruction policy requirement."
+    },
+    {
+      "claim": "Defendants disclosed or otherwise disseminated drivers\u2019 biometric identifiers and/or biometric information obtained through the AI-enabled DriveCam systems without proper consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(d) \u2013 prohibition on disclosure or dissemination of biometric data without consent or statutory authorization."
+    },
+    {
+      "claim": "Defendants profited from, or otherwise derived a benefit from, drivers\u2019 biometric identifiers and/or biometric information collected via the DriveCam systems without complying with BIPA\u2019s requirements.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(c) \u2013 prohibition on selling, leasing, trading, or otherwise profiting from biometric identifiers or information."
+    },
+    {
+      "claim": "Civil rights violations based on alleged exploitation of her identity using artificial intelligence, including creating an online gaming account in her name and selling her identity on the dark web.",
+      "legal_basis": "42 U.S.C. \u00a7 1983 (federal civil rights statute requiring deprivation of rights under color of state law)."
+    },
+    {
+      "claim": "General civil rights complaint arising from alleged misuse of her identity and technology-related exploitation by private individuals.",
+      "legal_basis": "42 U.S.C. \u00a7 1983; federal question jurisdiction; potentially overlapping with state-court proceedings."
+    },
+    {
+      "claim": "Defendants violated the TCPA by sending unsolicited text messages using an AI chatbot without prior express consent, constituting prohibited calls using an artificial or prerecorded voice.",
+      "legal_basis": "Telephone Consumer Protection Act, 47 U.S.C. \u00a7 227(b)(1)(A) (prohibition on calls to cell phones using an artificial or prerecorded voice without consent)."
+    },
+    {
+      "claim": "Defendants violated the TCPA by using an automatic telephone dialing system (autodialer) to send unsolicited text messages to plaintiff and the putative class.",
+      "legal_basis": "Telephone Consumer Protection Act, 47 U.S.C. \u00a7 227(b)(1)(A) (prohibition on calls to cell phones using an automatic telephone dialing system without consent), as interpreted by prior case law before Facebook, Inc. v. Duguid."
+    },
+    {
+      "claim": "Clearview AI unlawfully collected and used plaintiffs\u2019 biometric identifiers and biometric information by scraping facial images from the internet and creating a facial-recognition database without required notice and written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(b) and related provisions"
+    },
+    {
+      "claim": "Clearview AI unlawfully profited from plaintiffs\u2019 biometric identifiers and information by selling or licensing access to its facial-recognition database for commercial use.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(c)"
+    },
+    {
+      "claim": "Macy\u2019s violated BIPA by using Clearview AI\u2019s facial-recognition database to identify individuals in its surveillance footage without providing BIPA-compliant notice and obtaining written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), primarily 740 ILCS 14/15(b)"
+    },
+    {
+      "claim": "Macy\u2019s violated BIPA by using or benefiting from biometric identifiers and information obtained through Clearview AI\u2019s database for a commercial purpose or profit.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(c)"
+    },
+    {
+      "claim": "Plaintiffs have Article III standing because the alleged BIPA violations caused concrete informational and privacy harms to their biometric data rights.",
+      "legal_basis": "Article III of the U.S. Constitution; BIPA as the source of substantive privacy rights; precedent interpreting concrete injury in privacy and informational-injury cases"
+    },
+    {
+      "claim": "Violation of the Illinois Biometric Information Privacy Act (BIPA) by collecting, storing, and disclosing users\u2019 biometric identifiers and information via the Voila AI Artist app without informed written consent, without a publicly available retention schedule, and without proper disclosures.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq."
+    },
+    {
+      "claim": "Turing Video collected, captured, and obtained plaintiff\u2019s and class members\u2019 biometric identifiers and information via the Turing Shield facial geometry scans without providing the written notice required by BIPA.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(b) \u2013 informed written consent and notice requirements for collection of biometric identifiers/information."
+    },
+    {
+      "claim": "Turing Video disclosed, disseminated, or otherwise made available plaintiff\u2019s and class members\u2019 biometric identifiers and information to third parties without consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(d) \u2013 prohibition on disclosure or dissemination of biometric data without consent or statutory authorization."
+    },
+    {
+      "claim": "Turing Video failed to develop, publicly disclose, and comply with a written policy establishing a retention schedule and guidelines for permanent destruction of biometric identifiers and information collected through Turing Shield.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(a) \u2013 requirement to maintain and publish a biometric data retention and destruction policy."
+    },
+    {
+      "claim": "Turing Video unlawfully profited from or otherwise derived a benefit from plaintiff\u2019s and class members\u2019 biometric identifiers and information collected through Turing Shield without their consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA), 740 ILCS 14/15(c) \u2013 prohibition on selling, leasing, trading, or otherwise profiting from biometric identifiers or information."
+    },
+    {
+      "claim": "Turing Video\u2019s collection, storage, and dissemination of biometric data without proper consent and safeguards caused concrete privacy and informational injuries to plaintiff and the putative class, supporting standing and entitlement to statutory damages and injunctive relief.",
+      "legal_basis": "Illinois Biometric Information Privacy Act (BIPA) generally; Article III standing principles under federal law for statutory privacy violations."
+    },
+    {
+      "claim": "Cleveland State University\u2019s practice of conducting pre-exam room scans of students\u2019 homes via webcam is an unconstitutional search.",
+      "legal_basis": "Fourth Amendment protection against unreasonable searches and seizures, applied through 42 U.S.C. \u00a7 1983."
+    },
+    {
+      "claim": "Federal agencies and pharmaceutical companies conspired to provide fake or fraudulent drugs to plaintiff.",
+      "legal_basis": "Unclear; construed as tort and possibly constitutional or statutory claims against federal actors and private companies."
+    },
+    {
+      "claim": "Defendants subjected plaintiff to wireless torture using advanced, AI-driven technology and spoofing operations.",
+      "legal_basis": "Unclear; construed as constitutional and tort claims, possibly Bivens-type or civil rights theories against federal agencies and private entities."
+    },
+    {
+      "claim": "Broad conspiracy among multiple federal agencies and pharmaceutical companies to harm plaintiff through fake drugs and technological harassment.",
+      "legal_basis": "General conspiracy theories without specific statutory or common-law grounding identified by the court."
+    },
+    {
+      "claim": "HonorSociety.org disseminated misleading and false information about Phi Theta Kappa online, including content generated in part by generative artificial intelligence, to divert or confuse potential members and harm PTK\u2019s reputation and business.",
+      "legal_basis": "Unfair competition and false or misleading statements under trademark and/or unfair competition law; request for preliminary injunctive relief to stop deceptive practices."
+    },
+    {
+      "claim": "HonorSociety.org\u2019s misleading online statements, including AI-generated content, constituted actionable false advertising or deceptive practices harming PTK\u2019s goodwill and causing irreparable harm.",
+      "legal_basis": "False advertising and deceptive trade practices principles, asserted as grounds for equitable relief (preliminary injunction)."
+    },
+    {
+      "claim": "Creation and use of an AI system to illegally intercept plaintiff\u2019s electronic communications and facial recognition profile, violating his civil rights.",
+      "legal_basis": "Federal civil rights claim (likely 42 U.S.C. \u00a7 1983 or Bivens-type theory; possibly federal electronic privacy statutes)."
+    },
+    {
+      "claim": "Defendant developed and used an AI machine to illegally intercept plaintiff\u2019s electronic communications and facial recognition data, violating his civil rights and privacy.",
+      "legal_basis": "Federal civil rights claims (likely 42 U.S.C. \u00a7 1983 or Bivens-type theory) and federal privacy/electronic communications interception theories (e.g., ECPA/Wiretap Act), as alleged by plaintiff."
+    },
+    {
+      "claim": "Defamation based on John Doe\u2019s anonymous online statements criticizing Spider Labs and questioning the effectiveness and truthfulness of its claimed AI-based ad fraud detection technology.",
+      "legal_basis": "State defamation law; Spider Labs argued Doe\u2019s statements were false factual assertions that harmed its reputation and business."
+    },
+    {
+      "claim": "Request to enforce Rule 45 subpoenas to Google LLC and LinkedIn Corporation to compel disclosure of John Doe\u2019s identity for use in a defamation lawsuit.",
+      "legal_basis": "Federal Rule of Civil Procedure 45; standards governing unmasking anonymous speakers consistent with the First Amendment (requiring a prima facie showing of the underlying claim)."
+    },
+    {
+      "claim": "Procedural due process violation arising from automated MiDAS fraud determinations without adequate notice or opportunity to be heard.",
+      "legal_basis": "U.S. Constitution, Fourteenth Amendment Due Process Clause (procedural due process)."
+    },
+    {
+      "claim": "His pretrial detention and criminal proceedings were unlawful due to delays in competency evaluations and trial proceedings.",
+      "legal_basis": "Federal habeas corpus under 28 U.S.C. \u00a7 2241; alleged violations of Sixth Amendment speedy trial rights and Fourteenth Amendment due process rights (framed through delay in competency evaluation and trial)."
+    },
+    {
+      "claim": "State court and jail officials violated his constitutional rights through delays and mishandling of competency evaluations.",
+      "legal_basis": "Sixth Amendment right to a speedy trial; Fourteenth Amendment due process; asserted through \u00a7 2241 habeas petition."
+    },
+    {
+      "claim": "Conditions and experiences in Douglas County Jail violated his rights while he was a pretrial detainee.",
+      "legal_basis": "Eighth Amendment (by analogy) and Fourteenth Amendment due process protections for pretrial detainees, asserted via federal habeas corpus."
+    },
+    {
+      "claim": "Artificial intelligence (AI) intervention improperly impacted or influenced his criminal cases and proceedings.",
+      "legal_basis": "Implied due process and fair trial rights under the Fourteenth and Sixth Amendments, asserted within the habeas petition."
+    },
+    {
+      "claim": "Violation of BIPA \u00a7 15(a) for possessing and controlling biometric identifiers and information without required publicly available retention and destruction policies.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(a)"
+    },
+    {
+      "claim": "Violation of BIPA \u00a7 15(b) for collecting or otherwise obtaining biometric identifiers and information without informed written consent and required disclosures.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(b)"
+    },
+    {
+      "claim": "Violation of BIPA \u00a7 15(c) for profiting from or otherwise benefiting from biometric identifiers and information.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(c)"
+    },
+    {
+      "claim": "Violation of BIPA \u00a7 15(d) for disclosing or disseminating biometric identifiers and information without consent or statutory authorization.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(d)"
+    },
+    {
+      "claim": "Trademark infringement of unregistered service mark \u201cE.R.I.C.A.\u201d by BofA\u2019s use of \u201cERICA\u201d for its virtual financial assistant.",
+      "legal_basis": "Lanham Act trademark infringement based on prior unregistered mark and likelihood of confusion."
+    },
+    {
+      "claim": "Related trademark and unfair competition claims premised on alleged ownership and prior use of the \u201cE.R.I.C.A.\u201d mark for virtual assistant services.",
+      "legal_basis": "Lanham Act and parallel state-law unfair competition principles requiring a valid, protectable mark through use in commerce."
+    },
+    {
+      "claim": "Motions to strike Apple\u2019s affirmative defenses as insufficient, conclusory, or improper under the Federal Rules of Civil Procedure.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(f) (motion to strike insufficient defenses) and related pleading standards under Rules 8 and 9."
+    },
+    {
+      "claim": "Motion for a more definite statement regarding Apple\u2019s responses and affirmative defenses, arguing that Apple\u2019s pleadings were too vague or ambiguous to allow a proper response.",
+      "legal_basis": "Federal Rule of Civil Procedure 12(e) (motion for a more definite statement)."
+    },
+    {
+      "claim": "Implicit challenge to the reliability of Apple\u2019s defenses based on alleged inaccuracies and lack of factual support, raised in conjunction with the motions to strike and for a more definite statement.",
+      "legal_basis": "General federal pleading standards under Rule 8(b) and 8(c), and the requirement that affirmative defenses provide fair notice."
+    },
+    {
+      "claim": "Defendants implanted a chip in plaintiff\u2019s body and used artificial intelligence and radio frequencies to inflict psychological and physical harm on him.",
+      "legal_basis": "Civil rights and constitutional violations (implied), but not plausibly pleaded; court treats as delusional and frivolous under 28 U.S.C. \u00a7 1915(e)(2)(B)."
+    },
+    {
+      "claim": "Defendants\u2019 alleged use of AI and radio-frequency technology to control or manipulate plaintiff violated his legal rights and entitles him to relief from the court.",
+      "legal_basis": "Unspecified federal civil rights or constitutional claims; evaluated under in forma pauperis screening standard for failure to state a claim and frivolousness."
+    },
+    {
+      "claim": "Plaintiff sought to proceed without prepaying court fees (in forma pauperis) to pursue his claims about the implanted chip and AI-related harms.",
+      "legal_basis": "Application to proceed in forma pauperis under 28 U.S.C. \u00a7 1915."
+    },
+    {
+      "claim": "Violation of the Illinois Biometric Information Privacy Act (BIPA) for collecting, using, and storing biometric identifiers and information from plaintiff\u2019s OKCupid photographs without informed written consent or required disclosures.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq."
+    },
+    {
+      "claim": "Unjust enrichment based on Clarifai\u2019s alleged improper benefit from using plaintiff\u2019s and class members\u2019 photographs and biometric data to develop and profit from its facial recognition technology.",
+      "legal_basis": "Illinois common law of unjust enrichment."
+    },
+    {
+      "claim": "Sex discrimination in employment, including termination, by his employer.",
+      "legal_basis": "Federal employment discrimination law (likely Title VII of the Civil Rights Act)."
+    },
+    {
+      "claim": "Retaliation for filing discrimination charges against the employer.",
+      "legal_basis": "Federal anti-retaliation provisions under employment discrimination statutes (likely Title VII)."
+    },
+    {
+      "claim": "Breach of contract based on a $50 million Seed Agreement investment that Washington allegedly promised but never funded.",
+      "legal_basis": "State-law breach of contract under the Seed Agreement between Augustus Intelligence, Inc. and Kevin Washington."
+    },
+    {
+      "claim": "Assigned Investor Claims brought by the Litigation Trustee on behalf of certain investors against Washington related to the failed $50 million investment and associated conduct.",
+      "legal_basis": "State-law claims assigned by third-party investors to the Litigation Trustee (e.g., contract and related investor claims)."
+    },
+    {
+      "claim": "Violation of the Illinois Biometric Information Privacy Act (BIPA) by profiting from plaintiffs\u2019 biometric identifiers and information without consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq., including provisions restricting the sale, lease, trade, or profit from biometric identifiers or information without informed written consent and required disclosures."
+    },
+    {
+      "claim": "Claim under the Federal Tort Claims Act for sexual assault allegedly committed by artificial intelligence while Hodge was a state pretrial detainee.",
+      "legal_basis": "Federal Tort Claims Act (FTCA), 28 U.S.C. \u00a7\u00a7 1346(b), 2671\u20132680 (tort liability of the United States for acts of federal employees)."
+    },
+    {
+      "claim": "Claim that he was denied access to legal materials while in jail, asserted as part of his FTCA complaint against the United States.",
+      "legal_basis": "Federal Tort Claims Act (FTCA) framed tort theory; implicitly touches on constitutional right-of-access-to-courts concepts but pled as FTCA claim against the United States."
+    },
+    {
+      "claim": "Racial discrimination by employer in connection with his treatment/employment or services.",
+      "legal_basis": "Federal and/or state anti-discrimination laws (e.g., Title VII or analogous state law) as referenced generally in the complaint."
+    },
+    {
+      "claim": "Disability discrimination by employer in connection with his treatment/employment or services.",
+      "legal_basis": "Federal and/or state disability discrimination laws (e.g., ADA or analogous state law) as referenced generally in the complaint."
+    },
+    {
+      "claim": "Derivative claim that Pinterest\u2019s directors and officers allowed or engaged in race and sex discrimination within the company, harming the corporation and its shareholders.",
+      "legal_basis": "State corporate law fiduciary duty principles underlying shareholder derivative actions; anti-discrimination norms under federal and state law as background."
+    },
+    {
+      "claim": "Request for court approval of attorney\u2019s fees for plaintiffs\u2019 counsel for monitoring Pinterest\u2019s compliance with the settlement\u2019s diversity and inclusion reforms.",
+      "legal_basis": "Derivative litigation fee-shifting and common-benefit doctrine; court\u2019s authority to award reasonable attorney\u2019s fees for conferring a substantial benefit on the corporation."
+    },
+    {
+      "claim": "Breach of non-compete agreement by joining competitor Nines, Inc.",
+      "legal_basis": "Contract law; enforcement of restrictive covenant under Minnesota law"
+    },
+    {
+      "claim": "Breach of non-solicitation agreement by allegedly soliciting vRad customers or employees for Nines, Inc.",
+      "legal_basis": "Contract law; enforcement of non-solicitation covenant under Minnesota law"
+    },
+    {
+      "claim": "Breach of confidentiality obligations by misrepresenting Nines\u2019 business activities and use of vRad confidential information",
+      "legal_basis": "Contract law; confidentiality and non-disclosure provisions in employment/settlement agreements"
+    },
+    {
+      "claim": "Misappropriation of trade secrets through alleged use or disclosure of vRad trade secrets at Nines, Inc.",
+      "legal_basis": "Trade secret law (likely Defend Trade Secrets Act and/or Minnesota Uniform Trade Secrets Act)"
+    },
+    {
+      "claim": "Fraud or misrepresentation regarding the nature of Nines\u2019 business to induce modification of restrictive covenants",
+      "legal_basis": "Common-law fraud/misrepresentation under Minnesota law"
+    },
+    {
+      "claim": "Contributory copyright infringement based on allegedly infringing posts on plaintiffs\u2019 Facebook page after it was hacked.",
+      "legal_basis": "Federal copyright law, contributory infringement doctrine; limitations and safe harbor under the Digital Millennium Copyright Act (DMCA)."
+    },
+    {
+      "claim": "General challenge to the development and deployment of advanced AI systems by the federal government and technology corporations, based on fears of potential future harms.",
+      "legal_basis": "Not clearly stated; no specific statutory, constitutional, or common-law cause of action identified; treated under 28 U.S.C. \u00a7 1915 screening standards."
+    },
+    {
+      "claim": "Implicit request to halt or regulate advanced AI projects operated by entities such as OpenAI and Google due to perceived existential or societal risks.",
+      "legal_basis": "Not articulated in legal terms; no concrete injury, standing theory, or enforceable right alleged; evaluated only in context of in forma pauperis screening."
+    },
+    {
+      "claim": "Application to proceed in forma pauperis to avoid paying filing fees for the lawsuit challenging advanced AI systems.",
+      "legal_basis": "28 U.S.C. \u00a7 1915(a) (request to proceed without prepayment of fees)."
+    },
+    {
+      "claim": "Defendants used artificial intelligence and other technologies to harass the plaintiff.",
+      "legal_basis": "42 U.S.C. \u00a7 1983 civil rights claim (alleged constitutional violations via technological harassment)."
+    },
+    {
+      "claim": "Defendants used artificial intelligence and other technologies to exploit and sell the plaintiff\u2019s identity online.",
+      "legal_basis": "42 U.S.C. \u00a7 1983 civil rights claim; implied privacy and identity-related constitutional or statutory violations."
+    },
+    {
+      "claim": "General civil rights violations arising from state court-related matters (challenging or intertwined with ongoing or completed state proceedings).",
+      "legal_basis": "42 U.S.C. \u00a7 1983; implicit challenge to state court actions barred by Younger abstention and Rooker-Feldman."
+    },
+    {
+      "claim": "Violation of BIPA \u00a7 15(a) by failing to develop, publicly disclose, and comply with a written policy for retention and destruction of biometric identifiers and information collected from Illinois job applicants via AI interview software.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(a)."
+    },
+    {
+      "claim": "Violation of BIPA \u00a7 15(b) by collecting, capturing, or otherwise obtaining plaintiffs\u2019 biometric identifiers and information (e.g., facial geometry) through AI-powered interview software without providing required written notice and obtaining informed written consent.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(b)."
+    },
+    {
+      "claim": "Violation of BIPA \u00a7 15(d) by disclosing, redisclosing, or otherwise disseminating plaintiffs\u2019 biometric identifiers and information obtained through the AI interview system without their consent or other statutory authorization.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(d)."
+    },
+    {
+      "claim": "Violation of BIPA \u00a7 15(c) by profiting from, or otherwise deriving profit from, plaintiffs\u2019 biometric identifiers and information collected via the AI-powered interview platform.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/15(c)."
+    },
+    {
+      "claim": "Class action claim seeking statutory damages, injunctive relief, and other remedies for all similarly situated Illinois residents whose biometric data was collected and used by HireVue\u2019s AI interview software in violation of BIPA.",
+      "legal_basis": "Illinois Biometric Information Privacy Act, 740 ILCS 14/1 et seq.; class action under Federal Rule of Civil Procedure 23."
+    },
+    {
+      "claim": "Request by Albuquerque Public Schools for a 10-day extension of time to provide supplemental discovery responses.",
+      "legal_basis": "Federal civil procedure standard for extensions of time upon a showing of good cause (e.g., Fed. R. Civ. P. 6(b)) and discovery obligations under the Federal Rules of Civil Procedure."
+    },
+    {
+      "claim": "Plaintiff\u2019s opposition to the extension, asserting that delays in discovery and the requested extension would cause prejudice to the plaintiff.",
+      "legal_basis": "General principles of prejudice and fairness in discovery under the Federal Rules of Civil Procedure, arguing against modification of deadlines absent good cause."
+    },
+    {
+      "claim": "Implicit concern/issue regarding whether plaintiff\u2019s counsel\u2019s use of generative AI to draft legal documents met professional and ethical standards for filings submitted to the court.",
+      "legal_basis": "Attorney professional responsibility and duty of competence, candor to the tribunal, and reasonable inquiry into factual and legal contentions under applicable rules of professional conduct and Rule 11-type obligations."
+    },
+    {
+      "claim": "Improper denial of medical coverage to plaintiffs and putative class members through use of the nH Predict AI tool instead of promised human medical director review.",
+      "legal_basis": "Breach of insurance contracts and plan terms governing coverage determinations."
+    },
+    {
+      "claim": "Class-wide relief for all similarly situated insureds whose coverage decisions were allegedly made or influenced by nH Predict rather than individualized human review.",
+      "legal_basis": "Class-action claims under contract and related insurance law theories, seeking certification under Federal Rule of Civil Procedure 23."
+    },
+    {
+      "claim": "Request to proceed with unified discovery on both named plaintiffs\u2019 merits and class issues, rather than staged or bifurcated discovery.",
+      "legal_basis": "Federal Rules of Civil Procedure 1 and 26; case-management discretion of the court to structure discovery efficiently and fairly."
+    },
+    {
+      "claim": "Trademark infringement based on reverse confusion between plaintiff\u2019s registered PRIZMIA mark and defendant\u2019s PRISMA mark for mobile photo applications.",
+      "legal_basis": "Lanham Act trademark infringement and reverse confusion doctrine."
+    },
+    {
+      "claim": "Request for preliminary injunctive relief to stop Prisma Labs from using the PRISMA mark in connection with its app during the litigation.",
+      "legal_basis": "Equitable remedy under federal trademark law requiring likelihood of success and irreparable harm."
+    },
+    {
+      "claim": "Substantive civil claims against United Airlines and others (underlying merits not addressed in this order).",
+      "legal_basis": "Not specified in the provided summary; underlying complaint\u2019s causes of action are not described."
+    },
+    {
+      "claim": "Plaintiff\u2019s attempt to amend her complaint at this late stage of litigation.",
+      "legal_basis": "Federal Rules of Civil Procedure 15 and 16 (amendment of pleadings and good cause standard), and local procedural rules governing motions to amend."
+    },
+    {
+      "claim": "Plaintiff\u2019s responses in opposition to United Airlines\u2019 motion for summary judgment, including AI-generated briefing with fake citations.",
+      "legal_basis": "Federal Rules of Civil Procedure 56 and local rules governing summary judgment briefing, timeliness, and proper citation to legal authority and the record."
+    },
+    {
+      "claim": "Promissory fraud based on alleged promises that his accounts would not be suspended or would remain available if he complied with platform rules.",
+      "legal_basis": "State-law promissory fraud; challenged in light of X Corp.\u2019s Terms of Service allowing suspension and limiting liability."
+    },
+    {
+      "claim": "Promissory estoppel based on alleged assurances that he could continue using his accounts and that X would not arbitrarily suspend them.",
+      "legal_basis": "State-law promissory estoppel; alleged reliance on X Corp.\u2019s representations regarding continued account access."
+    },
+    {
+      "claim": "Unjust enrichment for retaining benefits (such as data, engagement, or payments) while suspending his accounts.",
+      "legal_basis": "State-law unjust enrichment; also implicating X Corp.\u2019s role as an interactive computer service under the Communications Decency Act."
+    },
+    {
+      "claim": "Unfair business practices based on allegedly deceptive or unfair suspension practices, including use of an AI system to target and suspend his accounts without proper notice.",
+      "legal_basis": "State-law unfair business practices statute (unfair competition/consumer protection), premised on X Corp.\u2019s account suspension decisions and alleged AI-driven targeting."
+    },
+    {
+      "claim": "Trademark infringement against Mighty Computing, Inc. and Suhail Doshi related to use of the \"Playground AI\" mark.",
+      "legal_basis": "Federal and/or state trademark law imposing liability for unauthorized use of a protected mark, including personal liability for corporate officers who direct or participate in infringement."
+    },
+    {
+      "claim": "Cybersquatting against Mighty Computing, Inc. and Suhail Doshi based on domain name use incorporating the \"Playground AI\" mark.",
+      "legal_basis": "Anticybersquatting Consumer Protection Act (ACPA) and related trademark principles allowing liability for bad-faith registration or use of confusingly similar domain names, including for corporate officers personally involved."
+    },
+    {
+      "claim": "Motion to permit depositions to be recorded by videographer Casey Stark using Zoom AI Companion for real-time voice recognition transcription, with resulting transcripts to be treated as official deposition transcripts.",
+      "legal_basis": "Federal Rules of Civil Procedure governing depositions and recording methods; request for court authorization to deviate from traditional certified stenographic transcription and to approve AI-assisted transcription as compliant."
+    }
+  ]
+}

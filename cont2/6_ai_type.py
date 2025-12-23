@@ -184,6 +184,7 @@ def analyze_description(cases):
     for case in cases:
         parties = case.get("parties", {})
 
+        ai_presence = case.get("ai_presence", "")
         ai_relevance = case.get("ai_relevance", "")
         plaintiff_desc = parties.get("plaintiff_description", "")
         defendant_desc = parties.get("defendant_description", "")
@@ -192,6 +193,7 @@ def analyze_description(cases):
         if ai_relevance == "NOT RELATED":
             ai_relevance = ""
         combined_text = " ".join([
+            ai_presence,
             ai_relevance,
             plaintiff_desc,
             defendant_desc

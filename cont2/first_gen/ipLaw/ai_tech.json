@@ -1,0 +1,720 @@
+{
+  "summary": {
+    "total_cases": 133,
+    "associated_technologies": {
+      "generative ai": 32,
+      "computer vision ai": 3,
+      "dispute involves software and ai products branded with the sage mark. related corporate software companies asserting sage trademark rights. chinese technology company offering software and ai products": 1,
+      "dispute concerns contracts for anaconda\u2019s ai technology software and related use. corporate entities linked to alibaba using anaconda ai software software company providing ai and data science tools": 1,
+      "ai trade secrets": 13,
+      "algorithims": 14,
+      "canadian online content creator business social media and online advertising corporation": 1,
+      "ai bots": 9,
+      "individual consumer alleging data breach harm large social media technology corporation": 1,
+      "limited liability company business entity individual alleged bourbon-monitoring technology inventor": 1,
+      "religious organization operating a church commercial banks and financial institutions": 1,
+      "face recognition": 4,
+      "software company providing data transformation tools software company, maker of cosort product": 1,
+      "autonomous/vehicle ai": 4,
+      "foreign engineering and consulting company foreign corporate defendants in materials and energy sectors": 1,
+      "dispute involves alleged misuse and funding of machine-learning software development work. technology company providing software and analytics services consulting services business entity": 1,
+      "medical ai": 3,
+      "corporate defense and technology contractor business entities and executives operating consortium": 1,
+      "ai patent / ip": 12,
+      "dispute over squeeze-out of minority shareholders in ai company torch minority shareholder entities in ai company torch majority shareholder entities controlling torch merger": 1,
+      "individual operating marketing saas business corporation providing marketing software-as-a-service platform": 1,
+      "individual based in massachusetts individual and corporation based in japan": 1,
+      "transcription ai": 2,
+      "corporation owning financial software trademarks corporate defendants accused of trademark infringement": 1,
+      "cybersecurity": 1,
+      "individual cruise ship worker alleging personal injury cruise line company operating passenger vessels": 1,
+      "individual screenwriter and composer alleging infringement film producer and production company defendants": 1,
+      "construction-related company alleging contract rights financial institution providing construction loan financing": 1,
+      "indirectly referenced: sperm donor\u2019s profile said he pursued a ph.d. in artificial intelligence, but ai did not cause or shape the legal dispute. individual consumers using artificial insemination services corporate providers of human semen and related services": 1,
+      "dispute centers on performance of invenio ai natural language processing software. business providing ai software and related services business customer licensing ai medical software": 1,
+      "case concerns esi protocol including documents created by ai applications. insurance companies bringing civil litigation claims. business entities defending against insurance-related claims": 1,
+      "individual online gaming customer international online gaming business entities": 1,
+      "dispute involves startup developing ai technology and related business interference. artificial intelligence technology startup company corporation alleging contractual interference counterclaim": 1,
+      "dispute involves promotion of unauthorized ai tools to other dealers. individual mattress dealer under mba agreement mattress retail franchisor / dealer network business": 1,
+      "enterprise ai": 2,
+      "dispute over competing dental ai systems for analyzing x\u2011rays and detecting disease. dental ai technology company and software developer competing dental ai software and technology company": 1,
+      "individual software/business collaborator business entity marketing cv timeline product": 1,
+      "dispute over ownership and use of ai-company (pinklion) accounts and information after acquisition by ai-focused tech firm appdiff. technology corporation in artificial intelligence industry former employees/affiliates of acquired ai company": 1,
+      "the individual software developer who created the lottery tracking system (lts). competing business and associated individuals": 1,
+      "trademark discovery dispute about ai and machine learning products and services. corporation offering ai and machine learning products/services. corporation operating education services, including coding and ai": 1,
+      "plaintiff claimed u.s. misused his ai-related scientific contributions and ideas. individual pro se claimant, alleging ip violations federal government, alleged user of plaintiff\u2019s ideas": 1,
+      "plaintiff alleges defendants misuse ai products to maintain monopolies. individual prisoner bringing pro se antitrust lawsuit multiple high-tech and oil corporations": 1,
+      "dispute over alleged misuse of ai-related scientific work and concepts. individual researcher and author federal government of the united states": 1,
+      "plaintiff alleges meta\u2019s ai intercepted and misused his communications. individual federal prisoner and pro se litigant social media and technology corporation": 1,
+      "dispute concerns allegedly defamatory statements about spider labs\u2019 ai technology. corporation offering ai-related technology and services anonymous individual online speaker": 1,
+      "corporation producing copyrighted tv review capsules individual youtube user and related entertainment company": 1
+    }
+  },
+  "cases": [
+    {
+      "case_id": "2024-08-12_USCOURTS-cand-3_23-cv-00201_Andersen et al v. Stability AI Ltd. et al.pdf",
+      "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2023-10-30_USCOURTS-cand-3_23-cv-00201_Andersen et al v. Stability AI Ltd. et al.pdf",
+      "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-03-19_USCOURTS-cand-3_23-cv-00201_Andersen et al v. Stability AI Ltd. et al.pdf",
+      "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2024-02-12_USCOURTS-cand-3_23-cv-03223_Tremblay et al v. OpenAI_ Inc. et al.pdf",
+      "case_name": "Tremblay et al. v. OpenAI, Inc. et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2019-11-21_USCOURTS-cand-3_19-cv-03132_UAB _Planner5D_ v. Meta Platforms_ Inc. et al.pdf",
+      "case_name": "UAB Planner5D v. Meta Platforms, Inc. (Facebook) et al.",
+      "associated_technology": "computer vision ai"
+    },
+    {
+      "case_id": "2025-06-25_USCOURTS-cand-3_23-cv-03417_Kadrey et al v. Meta Platforms_ Inc..pdf",
+      "case_name": "Kadrey et al. v. Meta Platforms, Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-07-30_USCOURTS-cand-5_23-cv-04534_Sage Global Services Limited et al v. 4th Paradigm _Beijing_ Technology Co._ Ltd..pdf",
+      "case_name": "Sage Global Services Limited et al. v. 4th Paradigm (Beijing) Technology Co., Ltd.",
+      "associated_technology": "dispute involves software and ai products branded with the sage mark. related corporate software companies asserting sage trademark rights. chinese technology company offering software and ai products"
+    },
+    {
+      "case_id": "2024-12-06_USCOURTS-cand-3_23-cv-03417_Kadrey et al v. Meta Platforms_ Inc..pdf",
+      "case_name": "Kadrey et al. v. Meta Platforms, Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-08-19_USCOURTS-ded-1_24-cv-01092_Hangzhou Jicai Procurement Co._ Ltd et al v. Anaconda_ Inc..pdf",
+      "case_name": "Hangzhou Jicai Procurement Co., Ltd. et al. v. Anaconda, Inc.",
+      "associated_technology": "dispute concerns contracts for anaconda\u2019s ai technology software and related use. corporate entities linked to alibaba using anaconda ai software software company providing ai and data science tools"
+    },
+    {
+      "case_id": "2025-01-08_USCOURTS-cand-4_24-cv-01454_Nazemian et al v. NVIDIA Corporation.pdf",
+      "case_name": "Nazemian et al. v. NVIDIA Corporation (consolidated with Dubus v. NVIDIA Inc.)",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2025-07-15_USCOURTS-ded-1_25-cv-00201_Aon Re_ Inc. v. Zesty.ai_ Inc..pdf",
+      "case_name": "Aon Re, Inc. v. Zesty.ai, Inc.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2022-09-21_USCOURTS-cand-3_22-cv-02366_Shared Partnership v. Meta Platforms_ Inc..pdf",
+      "case_name": "Shared Partnership v. Meta Platforms, Inc.",
+      "associated_technology": "canadian online content creator business social media and online advertising corporation"
+    },
+    {
+      "case_id": "2022-12-06_USCOURTS-cand-3_20-cv-08570_Klein et al v. Meta Platforms_ Inc..pdf",
+      "case_name": "Klein et al. v. Meta Platforms, Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2024-12-20_USCOURTS-mad-1_22-cv-10723_In Re Cerence Stockholder Derivative Litigation.pdf",
+      "case_name": "In re Cerence Stockholder Derivative Litigation",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2025-10-22_USCOURTS-cand-4_25-cv-09081_Pete v. Facebook Data Breach __Transferred to ND_CA__.pdf",
+      "case_name": "Pete v. Meta Platforms, Inc. (Facebook Data Breach)",
+      "associated_technology": "individual consumer alleging data breach harm large social media technology corporation"
+    },
+    {
+      "case_id": "2025-10-20_USCOURTS-mad-3_23-cv-13196_Demand Dogs_ LLC v. Blair.pdf",
+      "case_name": "Demand Dogs, LLC v. Blair",
+      "associated_technology": "limited liability company business entity individual alleged bourbon-monitoring technology inventor"
+    },
+    {
+      "case_id": "2025-05-16_USCOURTS-cand-3_23-cv-00770_Mobley v. Workday_ Inc..pdf",
+      "case_name": "Mobley v. Workday, Inc.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2025-07-14_USCOURTS-cand-3_23-cv-00201_Andersen et al v. Stability AI Ltd. et al.pdf",
+      "case_name": "Andersen et al. v. Stability AI Ltd. et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-08-21_USCOURTS-cand-4_24-cv-01454_Nazemian et al v. NVIDIA Corporation.pdf",
+      "case_name": "Nazemian et al. v. NVIDIA Corporation",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2022-04-26_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
+      "case_name": "Thomson Reuters Enterprise Centre GmbH et al. v. ROSS Intelligence Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-02-11_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
+      "case_name": "Thomson Reuters Enterprise Centre GmbH et al. v. ROSS Intelligence Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2024-09-27_USCOURTS-ded-1_20-cv-00613_Thomson Reuters Enterprise Centre GmbH et al v. ROSS Intelligence Inc..pdf",
+      "case_name": "Thomson Reuters Enterprise Centre GmbH et al. v. ROSS Intelligence Inc.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2024-09-10_USCOURTS-pawd-2_23-cv-01798_ELKIN VALLEY BAPTIST CHURCH v. PNC FINANCIAL SERVICES GROUP_ INC_ et al.pdf",
+      "case_name": "ELKIN VALLEY BAPTIST CHURCH v. PNC FINANCIAL SERVICES GROUP, INC., et al.",
+      "associated_technology": "religious organization operating a church commercial banks and financial institutions"
+    },
+    {
+      "case_id": "2022-09-30_USCOURTS-cand-5_19-cv-04749_Divino Group LLC et al v. Google LLC et al.pdf",
+      "case_name": "Divino Group LLC et al. v. Google LLC et al.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2025-03-06_USCOURTS-cand-3_24-cv-07919_Brightex Bio-Photonics_ LLC v. L_Oreal USA_ Inc..pdf",
+      "case_name": "Brightex Bio-Photonics, LLC v. L'Oreal USA, Inc.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2024-09-30_USCOURTS-ded-1_19-cv-01410_VB Assets_ LLC v. Amazon.com Services LLC.pdf",
+      "case_name": "VB Assets, LLC v. Amazon.com Services LLC",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2025-06-23_USCOURTS-cand-3_24-cv-05417_Bartz et al v. Anthropic PBC.pdf",
+      "case_name": "Bartz et al v. Anthropic PBC",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2021-09-30_USCOURTS-nynd-1_18-cv-00549_Rensselaer Polytechnic Institute et al. v. Amazon.com_ Inc..pdf",
+      "case_name": "Rensselaer Polytechnic Institute et al. v. Amazon.com, Inc.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2011-08-18_USCOURTS-njd-2_04-cv-03623_SYNCSORT INCORPORATED v. INNOVATIVE ROUTINES INTERNATIONAL INC",
+      "case_name": "Syncsort Incorporated v. Innovative Routines International Inc.",
+      "associated_technology": "software company providing data transformation tools software company, maker of cosort product"
+    },
+    {
+      "case_id": "2019-04-01_USCOURTS-cand-5_18-cv-07233_WeRide Corp. et al v. Huang et al.pdf",
+      "case_name": "WeRide Corp. et al. v. Kun Huang et al.",
+      "associated_technology": "autonomous/vehicle ai"
+    },
+    {
+      "case_id": "2024-05-20_USCOURTS-ded-1_23-cv-00802_Staton Techiya_ LLC v. Harman International Industries_ Incorporated et al.pdf",
+      "case_name": "Staton Techiya, LLC v. Harman International Industries, Inc., et al.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2025-08-22_USCOURTS-idd-2_24-cv-00632_Chenco Engineering _ Consulting GMBH v. Do-Fluoride New Materials Co. LTD et al.pdf",
+      "case_name": "Chenco Engineering & Consulting GMBH v. Do-Fluoride New Materials Co. LTD et al.",
+      "associated_technology": "foreign engineering and consulting company foreign corporate defendants in materials and energy sectors"
+    },
+    {
+      "case_id": "2022-11-22_USCOURTS-txwd-6_21-cv-00968_Parus Holdings Inc. v. Apple Inc..pdf",
+      "case_name": "Parus Holdings Inc. v. Apple Inc.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2023-08-03_USCOURTS-tnwd-2_22-cv-02838_Pritchard v. Thompson et al.pdf",
+      "case_name": "Pritchard v. Thompson et al.",
+      "associated_technology": "computer vision ai"
+    },
+    {
+      "case_id": "2024-06-24_USCOURTS-tnmd-3_23-cv-01092_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
+      "case_name": "Concord Music Group, Inc. et al. v. Anthropic PBC",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2023-03-15_USCOURTS-mad-1_20-cv-12236_Findability Sciences_ Inc. v. Soft10_ Inc..pdf",
+      "case_name": "Findability Sciences, Inc. v. Soft10, Inc.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2020-10-19_USCOURTS-ded-1_19-cv-00524_VoterLabs_ Inc. v. Ethos Group Consulting Services_ LLC.pdf",
+      "case_name": "VoterLabs, Inc. v. Ethos Group Consulting Services, LLC",
+      "associated_technology": "dispute involves alleged misuse and funding of machine-learning software development work. technology company providing software and analytics services consulting services business entity"
+    },
+    {
+      "case_id": "2022-06-29_USCOURTS-mad-1_22-cv-10656_Nuance Communications_ Inc. v. Kovalenko.pdf",
+      "case_name": "Nuance Communications, Inc. v. Kovalenko",
+      "associated_technology": "medical ai"
+    },
+    {
+      "case_id": "2025-09-02_USCOURTS-dcd-1_20-cv-03010_UNITED STATES OF AMERICA et al v. GOOGLE LLC.pdf",
+      "case_name": "United States of America et al. v. Google LLC",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2022-06-28_USCOURTS-alnd-5_21-cv-01680_Quantum Research International Inc v. SPG Institute Inc et al.pdf",
+      "case_name": "Quantum Research International Inc. v. SPG Institute Inc., SP Global, et al.",
+      "associated_technology": "corporate defense and technology contractor business entities and executives operating consortium"
+    },
+    {
+      "case_id": "2024-09-30_USCOURTS-cand-3_21-cv-08812_In re Meta Platforms_ Inc._ Securities Litigation.pdf",
+      "case_name": "In re Meta Platforms, Inc. Securities Litigation",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2022-09-20_USCOURTS-mad-1_21-cv-11477_INTEGRATED TECHNOLOGY SOLUTIONS LLC v. iRacing.com Motorsport Simulations_ LLC.pdf",
+      "case_name": "Integrated Technology Solutions, LLC v. iRacing.com Motorsport Simulations, LLC",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2022-06-17_USCOURTS-ksd-6_21-cv-01270_Andes Capital Financing LLC et al v. Crossed Keys LLC et al.pdf",
+      "case_name": "Andes Capital Financing LLC et al v. Crossed Keys LLC et al",
+      "associated_technology": "dispute over squeeze-out of minority shareholders in ai company torch minority shareholder entities in ai company torch majority shareholder entities controlling torch merger"
+    },
+    {
+      "case_id": "2021-02-23_USCOURTS-mdd-1_20-cv-00335_Trugreen Limited Partnership v. Allegis Global Solutions_ Inc..pdf",
+      "case_name": "TruGreen Limited Partnership v. Allegis Global Solutions, Inc.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2025-07-25_USCOURTS-pamd-3_25-cv-01284_Deleman v. HighLevel_ Inc..pdf",
+      "case_name": "Deleman v. HighLevel, Inc.",
+      "associated_technology": "individual operating marketing saas business corporation providing marketing software-as-a-service platform"
+    },
+    {
+      "case_id": "2023-05-23_USCOURTS-utd-2_20-cv-00894_A. v. United Healthcare Insurance et al.pdf",
+      "case_name": "A. v. United Healthcare Insurance et al.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2024-02-12_USCOURTS-cand-3_23-cv-03416_Silverman et al v. OpenAI_ Inc. et al.pdf",
+      "case_name": "Silverman et al. v. OpenAI, Inc. et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2019-06-18_USCOURTS-mad-1_18-cv-12336_Conning v. Halpern et al.pdf",
+      "case_name": "Andrew Scott Conning v. Jack Halpern and CJK Dictionary Institute, Inc.",
+      "associated_technology": "individual based in massachusetts individual and corporation based in japan"
+    },
+    {
+      "case_id": "2024-03-29_USCOURTS-mad-1_23-cv-11097_Bulwer v. EchoNous_ Inc..pdf",
+      "case_name": "Bulwer v. EchoNous, Inc.",
+      "associated_technology": "medical ai"
+    },
+    {
+      "case_id": "2023-04-03_USCOURTS-mad-1_22-cv-11708_Groma_ LLC v. BuildRE_ LLC et al.pdf",
+      "case_name": "Groma, LLC v. BuildRE, LLC et al.",
+      "associated_technology": "autonomous/vehicle ai"
+    },
+    {
+      "case_id": "2017-08-29_USCOURTS-cand-3_17-cv-03049_Purepredictive_ Inc. v. H20.AI_ Inc..pdf",
+      "case_name": "PurePredictive, Inc. v. H2O.AI, Inc.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2024-10-23_USCOURTS-mdd-1_23-cv-01822_Battle v. Microsoft Corporation.pdf",
+      "case_name": "Jeffery Battle v. Microsoft Corporation",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2025-03-25_USCOURTS-cand-5_24-cv-03811_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
+      "case_name": "Concord Music Group, Inc. et al. v. Anthropic PBC",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2014-11-17_USCOURTS-mied-2_13-cv-14026_Odish v. Morgenthaler Ventures et al.pdf",
+      "case_name": "Odish v. Morgenthaler Ventures et al.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2021-05-14_USCOURTS-cand-5_20-cv-07173_Prevail Legal_ Inc. v. Gordon et al.pdf",
+      "case_name": "Prevail Legal, Inc. v. Gordon et al.",
+      "associated_technology": "transcription ai"
+    },
+    {
+      "case_id": "2024-08-14_USCOURTS-ded-1_24-cv-00084_Samsara Inc. v. Motive Technologies Inc..pdf",
+      "case_name": "Samsara Inc. v. Motive Technologies, Inc.",
+      "associated_technology": "autonomous/vehicle ai"
+    },
+    {
+      "case_id": "2016-02-29_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
+      "case_name": "Loop AI Labs Inc. v. Gatti et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2020-05-15_USCOURTS-azd-2_19-cv-04685_Modulus Financial Engineering Incorporated v. Modulus Data USA Incorporated et al.pdf",
+      "case_name": "Modulus Financial Engineering Incorporated v. Modulus Data USA Incorporated et al.",
+      "associated_technology": "corporation owning financial software trademarks corporate defendants accused of trademark infringement"
+    },
+    {
+      "case_id": "2020-06-25_USCOURTS-mad-1_19-cv-12551_Singular Computing LLC v. Google LLC.pdf",
+      "case_name": "Singular Computing LLC v. Google LLC",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2021-06-08_USCOURTS-cand-3_20-cv-09148_People.ai_ Inc. v. SetSail Technologies_ Inc..pdf",
+      "case_name": "People.ai, Inc. v. SetSail Technologies, Inc.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2021-09-01_USCOURTS-casd-3_20-cv-00862_Lin et al v. Suavei_ Inc. et al.pdf",
+      "case_name": "Lin et al. v. Suavei, Inc. et al.",
+      "associated_technology": "cybersecurity"
+    },
+    {
+      "case_id": "2025-03-31_USCOURTS-flsd-0_24-cv-60715_Anderson v. MSC Cruises_ S.A..pdf",
+      "case_name": "Anderson v. MSC Cruises S.A.",
+      "associated_technology": "individual cruise ship worker alleging personal injury cruise line company operating passenger vessels"
+    },
+    {
+      "case_id": "2025-03-26_USCOURTS-cand-5_24-cv-03811_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
+      "case_name": "Concord Music Group, Inc. et al. v. Anthropic PBC",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2023-08-18_USCOURTS-dcd-1_22-cv-01564_THALER v. PERLMUTTER et al.pdf",
+      "case_name": "Thaler v. Perlmutter et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2016-06-30_USCOURTS-nmd-1_14-cv-00965_Clark v. Dashner et al.pdf",
+      "case_name": "Clark v. Dashner et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2011-04-04_USCOURTS-cand-5_05-cv-03534_Goldberg v. Cameron et al.pdf",
+      "case_name": "Goldberg v. Cameron et al.",
+      "associated_technology": "individual screenwriter and composer alleging infringement film producer and production company defendants"
+    },
+    {
+      "case_id": "2024-08-14_USCOURTS-cand-3_24-cv-06049_Samsara Inc. v. Motive Technologies Inc..pdf",
+      "case_name": "Samsara Inc. v. Motive Technologies Inc.",
+      "associated_technology": "autonomous/vehicle ai"
+    },
+    {
+      "case_id": "2025-01-23_USCOURTS-ksd-6_24-cv-01055_Pathways Management Services_ LLC et al v. Northstar Hospital et al.pdf",
+      "case_name": "Pathways Management Services, LLC et al. v. NorthStar Hospital et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-07-29_USCOURTS-tned-3_24-cv-00329_Axis Dynamics et al v. Knox County Tennessee et al.pdf",
+      "case_name": "Axis Dynamics et al v. Knox County Tennessee et al",
+      "associated_technology": "construction-related company alleging contract rights financial institution providing construction loan financing"
+    },
+    {
+      "case_id": "2024-01-25_USCOURTS-nyed-2_20-cv-06370_Meehan v. VIPKid et al.pdf",
+      "case_name": "Meehan v. VIPKid et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2016-02-24_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
+      "case_name": "Loop AI Labs, Inc. v. Gatti et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2017-05-01_USCOURTS-ca13-16-01999_EMC Corporation v. Clouding Corp..pdf",
+      "case_name": "EMC Corporation v. Clouding Corp.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2025-01-08_USCOURTS-cand-4_24-cv-02655_Dubus et al v. NVIDIA Corporation.pdf",
+      "case_name": "Dubus et al v. NVIDIA Corporation (consolidated with Nazemian v. NVIDIA Inc.)",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2023-08-29_USCOURTS-nyed-2_20-cv-06370_Meehan v. VIPKid et al.pdf",
+      "case_name": "Meehan v. VIPKid et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2015-09-18_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
+      "case_name": "Loop AI Labs Inc. v. Gatti et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2016-07-19_USCOURTS-cand-3_16-cv-02935_Doe 1 et al v. Xytex Corporation et al.pdf",
+      "case_name": "Doe 1 et al. v. Xytex Corporation et al.",
+      "associated_technology": "indirectly referenced: sperm donor\u2019s profile said he pursued a ph.d. in artificial intelligence, but ai did not cause or shape the legal dispute. individual consumers using artificial insemination services corporate providers of human semen and related services"
+    },
+    {
+      "case_id": "2011-06-03_USCOURTS-cand-4_11-cv-00420_Autonomy_ Inc v. Adiscov_ L.L.C..pdf",
+      "case_name": "Autonomy, Inc. v. Adiscov, L.L.C.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2015-09-08_USCOURTS-cand-4_14-cv-01650_Blue Spike_ LLC v. Google Inc..pdf",
+      "case_name": "Blue Spike, LLC v. Google Inc.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2022-03-03_USCOURTS-mad-1_19-cv-10019_Wired Infomatics_ LLC v. OmniMD.pdf",
+      "case_name": "Wired Informatics, LLC v. OmniMD, Inc.",
+      "associated_technology": "dispute centers on performance of invenio ai natural language processing software. business providing ai software and related services business customer licensing ai medical software"
+    },
+    {
+      "case_id": "2015-12-21_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
+      "case_name": "Loop AI Labs Inc. v. Gatti et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2015-09-21_USCOURTS-txed-2_14-cv-00906_Gonzalez v. InfoStream Group Inc..pdf",
+      "case_name": "Gonzalez v. InfoStream Group Inc.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2024-06-25_USCOURTS-ilsd-3_23-cv-03303_Phoenix Insurance Company et al v. Ackercamps.com LLC et al.pdf",
+      "case_name": "Phoenix Insurance Company et al. v. Ackercamps.com LLC et al.",
+      "associated_technology": "case concerns esi protocol including documents created by ai applications. insurance companies bringing civil litigation claims. business entities defending against insurance-related claims"
+    },
+    {
+      "case_id": "2022-08-05_USCOURTS-ca13-21-02347_Thaler v. Vidal.pdf",
+      "case_name": "Thaler v. Vidal",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2024-07-25_USCOURTS-kyed-3_23-cv-00053_Woods v. Morris Mohawk Gaming Group et al.pdf",
+      "case_name": "Woods v. Morris Mohawk Gaming Group et al.",
+      "associated_technology": "individual online gaming customer international online gaming business entities"
+    },
+    {
+      "case_id": "2019-12-16_USCOURTS-mad-1_19-cv-11438_Nuance Communications Inc. v. Omilia Natural Language Solutions_ Ltd..pdf",
+      "case_name": "Nuance Communications Inc. v. Omilia Natural Language Solutions, Ltd.",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2024-06-17_USCOURTS-cand-5_22-cv-03699_Forrest v. Meta Platforms_ Inc..pdf",
+      "case_name": "Forrest v. Meta Platforms, Inc.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2025-11-11_USCOURTS-cand-3_25-mc-80299_In Re Application of X AI LLC for Subpoena to OpenAI_ Inc._ OpenAI Global_ LLC and OpenAI Opco_ LLC.pdf",
+      "case_name": "In re Application of X.AI LLC for Subpoena to OpenAI, Inc., OpenAI Global, LLC, and OpenAI OpCo, LLC",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2016-07-06_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
+      "case_name": "Loop AI Labs Inc. v. Gatti et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2015-09-02_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
+      "case_name": "Loop AI Labs Inc. v. Gatti et al.",
+      "associated_technology": "dispute involves startup developing ai technology and related business interference. artificial intelligence technology startup company corporation alleging contractual interference counterclaim"
+    },
+    {
+      "case_id": "2025-04-18_USCOURTS-cand-3_23-cv-03698_X Corp. v. Bright Data Ltd..pdf",
+      "case_name": "X Corp., Inc. v. Bright Data Ltd.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-08-12_USCOURTS-txwd-1_25-cv-00855_De Los Santos v. Mattress By Appointment LLC.pdf",
+      "case_name": "De Los Santos v. Mattress By Appointment LLC",
+      "associated_technology": "dispute involves promotion of unauthorized ai tools to other dealers. individual mattress dealer under mba agreement mattress retail franchisor / dealer network business"
+    },
+    {
+      "case_id": "2021-05-03_USCOURTS-ohsd-1_21-cv-00131_Concentrix CVG Corporation et al v. Daoust et al.pdf",
+      "case_name": "Concentrix CVG Corporation et al. v. Stephan J. Daoust et al.",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2017-12-01_USCOURTS-txed-2_16-cv-00980_Intellectual Ventures II LLC v. FedEx Corporation et al.pdf",
+      "case_name": "Intellectual Ventures II LLC v. FedEx Corporation et al.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2025-06-25_USCOURTS-cand-3_24-cv-01451_In Re Mosaic LLM Litigation.pdf",
+      "case_name": "In re Mosaic LLM Litigation",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2016-03-10_USCOURTS-cand-4_15-cv-00798_Loop AI Labs_ Inc. v. Gatti et al.pdf",
+      "case_name": "Loop AI Labs Inc. v. Gatti et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2023-09-05_USCOURTS-txnd-3_22-cv-01699_Synergy Advisory Services LLC v. ClearPrism LLC.pdf",
+      "case_name": "Synergy Advisory Services, LLC v. ClearPrism, LLC",
+      "associated_technology": "enterprise ai"
+    },
+    {
+      "case_id": "2018-10-11_USCOURTS-cand-5_18-cv-01959_Usens_ Inc. v. Chi.pdf",
+      "case_name": "uSens, Inc. v. Shi Chi",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2023-09-06_USCOURTS-tnwd-2_22-cv-02838_Pritchard v. Thompson et al.pdf",
+      "case_name": "Pritchard v. Thompson et al.",
+      "associated_technology": "computer vision ai"
+    },
+    {
+      "case_id": "2025-05-23_USCOURTS-cand-5_24-cv-03811_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
+      "case_name": "Concord Music Group, Inc. et al. v. Anthropic PBC",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-02-14_USCOURTS-ord-3_25-cv-00051_Shita v. Taylor.pdf",
+      "case_name": "Shita v. Taylor",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-03-28_USCOURTS-mad-1_24-cv-10446_Overjet_ Inc. v. VideaHealth_ Inc..pdf",
+      "case_name": "Overjet, Inc. v. VideaHealth, Inc.",
+      "associated_technology": "dispute over competing dental ai systems for analyzing x\u2011rays and detecting disease. dental ai technology company and software developer competing dental ai software and technology company"
+    },
+    {
+      "case_id": "2022-03-11_USCOURTS-azd-2_21-cv-00093_Yammine v. Toolbox for HR Spolka z Ograniczona Odpowiedzialnoscia Spolka Komandytowa.pdf",
+      "case_name": "Yammine v. Toolbox for HR Spolka z Ograniczona Odpowiedzialnoscia Spolka Komandytowa",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2022-03-14_USCOURTS-azd-2_21-cv-00093_Yammine v. Toolbox for HR Spolka z Ograniczona Odpowiedzialnoscia Spolka Komandytowa.pdf",
+      "case_name": "Yammine v. Toolbox for HR Spolka z Ograniczona Odpowiedzialnoscia Spolka Komandytowa",
+      "associated_technology": "individual software/business collaborator business entity marketing cv timeline product"
+    },
+    {
+      "case_id": "2020-08-12_USCOURTS-mnd-0_20-cv-01558_Appdiff_ Inc. v. Bonine et al.pdf",
+      "case_name": "Appdiff, Inc. v. Bonine et al.",
+      "associated_technology": "dispute over ownership and use of ai-company (pinklion) accounts and information after acquisition by ai-focused tech firm appdiff. technology corporation in artificial intelligence industry former employees/affiliates of acquired ai company"
+    },
+    {
+      "case_id": "2025-07-01_USCOURTS-mnd-0_25-cv-00213_Fiorito v. Metropolitan Council et al.pdf",
+      "case_name": "Fiorito v. Metropolitan Council et al.",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2019-03-08_USCOURTS-mnd-0_18-mc-00094_Neo Ivy Capital Management LLC et al v. Savvysherpa LLC et al.pdf",
+      "case_name": "Neo Ivy Capital Management LLC et al. v. Savvysherpa LLC et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2025-09-11_USCOURTS-cand-5_23-cv-03440_In re Google Generative AI Copyright Litigation.pdf",
+      "case_name": "In re Google Generative AI Copyright Litigation",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2015-12-03_USCOURTS-gamd-5_15-cv-00115_ABBASI v. BHALODWALA et al.pdf",
+      "case_name": "ABBASI v. BHALODWALA et al.",
+      "associated_technology": "the individual software developer who created the lottery tracking system (lts). competing business and associated individuals"
+    },
+    {
+      "case_id": "2021-02-17_USCOURTS-cand-4_19-cv-04060_Lambda Labs_ Inc. v. Lambda_ Inc..pdf",
+      "case_name": "Lambda Labs, Inc. v. Lambda, Inc.",
+      "associated_technology": "trademark discovery dispute about ai and machine learning products and services. corporation offering ai and machine learning products/services. corporation operating education services, including coding and ai"
+    },
+    {
+      "case_id": "2020-07-30_USCOURTS-mad-1_19-cv-12235_Mantha v. Quotewizard.com_ LLC.pdf",
+      "case_name": "Mantha v. QuoteWizard.com, LLC",
+      "associated_technology": "transcription ai"
+    },
+    {
+      "case_id": "2023-04-05_USCOURTS-ca13-23-01230_Aljindi v. US.pdf",
+      "case_name": "Aljindi v. United States",
+      "associated_technology": "plaintiff claimed u.s. misused his ai-related scientific contributions and ideas. individual pro se claimant, alleging ip violations federal government, alleged user of plaintiff\u2019s ideas"
+    },
+    {
+      "case_id": "2019-07-30_USCOURTS-mad-1_19-cv-10019_Wired Infomatics_ LLC v. OmniMD.pdf",
+      "case_name": "Wired Informatics, LLC v. OmniMD Inc.",
+      "associated_technology": "medical ai"
+    },
+    {
+      "case_id": "2015-01-29_USCOURTS-ilnd-1_13-cv-04417_Vehicle Intelligence and Safety LLC v. Mercedes-Benz USA_ LLC et al.pdf",
+      "case_name": "Vehicle Intelligence and Safety LLC v. Mercedes-Benz USA, LLC and Daimler AG",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2024-06-05_USCOURTS-jpml-1_24-F-03109_IN RE_ Video Game Addiction Products Liability Litigation.pdf",
+      "case_name": "In re Video Game Addiction Products Liability Litigation",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2025-09-16_USCOURTS-cand-5_24-cv-03811_Concord Music Group_ Inc. et al v. Anthropic PBC.pdf",
+      "case_name": "Concord Music Group, Inc. et al. v. Anthropic PBC",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2022-08-26_USCOURTS-cand-5_19-cv-04286_In re Google Assistant Privacy Litigation.pdf",
+      "case_name": "In re Google Assistant Privacy Litigation",
+      "associated_technology": "ai bots"
+    },
+    {
+      "case_id": "2025-11-04_USCOURTS-cand-3_24-cv-01451_In Re Mosaic LLM Litigation.pdf",
+      "case_name": "In re Mosaic LLM Litigation",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2006-02-14_USCOURTS-waed-2_05-cv-00380_Next It Corporation v. Roy et al.pdf",
+      "case_name": "Next IT Corporation v. Joshua Knowles (and others)",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2024-09-12_USCOURTS-mied-2_24-cv-11786_Robinson v. Global Semiconductor Alliance.pdf",
+      "case_name": "Robinson v. Global Semiconductor Alliance",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2016-03-30_USCOURTS-paed-2_15-cv-05387_DUCKWEED_ USA_ INC. et al v. BEHRENS et al.pdf",
+      "case_name": "Duckweed USA, Inc. et al. v. Behrens et al.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2025-04-03_USCOURTS-jpml-1_24-F-03143_IN RE_ OpenAI_ Inc._ Copyright Infringement Litigation.pdf",
+      "case_name": "In re OpenAI Inc. Copyright Infringement Litigation",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2019-11-27_USCOURTS-cand-4_19-cv-04433_Demos v. Google et al.pdf",
+      "case_name": "Demos v. Google et al.",
+      "associated_technology": "plaintiff alleges defendants misuse ai products to maintain monopolies. individual prisoner bringing pro se antitrust lawsuit multiple high-tech and oil corporations"
+    },
+    {
+      "case_id": "2022-11-28_USCOURTS-cofc-1_21-cv-01295_ALJINDI v. USA.pdf",
+      "case_name": "Aljindi v. United States",
+      "associated_technology": "dispute over alleged misuse of ai-related scientific work and concepts. individual researcher and author federal government of the united states"
+    },
+    {
+      "case_id": "2019-05-07_USCOURTS-ilnd-1_18-cv-07246_CCC Intelligent Solutions Inc v. Tractable Inc..pdf",
+      "case_name": "CCC Information Services Inc. v. Tractable Inc.",
+      "associated_technology": "algorithims"
+    },
+    {
+      "case_id": "2019-05-07_USCOURTS-cand-5_18-cv-04327_Lamont v. Conner et al.pdf",
+      "case_name": "Lamont v. Conner et al.",
+      "associated_technology": "ai trade secrets"
+    },
+    {
+      "case_id": "2025-07-01_USCOURTS-cand-5_24-cv-04257_Kemp v. Meta Platforms Inc..pdf",
+      "case_name": "Kemp v. Meta Platforms Inc.",
+      "associated_technology": "plaintiff alleges meta\u2019s ai intercepted and misused his communications. individual federal prisoner and pro se litigant social media and technology corporation"
+    },
+    {
+      "case_id": "2020-11-30_USCOURTS-azd-2_20-mc-00039_Spider Labs Limited v. Doe.pdf",
+      "case_name": "Spider Labs Limited v. Doe",
+      "associated_technology": "dispute concerns allegedly defamatory statements about spider labs\u2019 ai technology. corporation offering ai-related technology and services anonymous individual online speaker"
+    },
+    {
+      "case_id": "2020-10-21_USCOURTS-laed-2_19-cv-01304_Bertuccelli et al v. Universal City Studios LLC et al.pdf",
+      "case_name": "Bertuccelli et al. v. Universal City Studios LLC et al.",
+      "associated_technology": "face recognition"
+    },
+    {
+      "case_id": "2024-11-14_USCOURTS-txwd-1_24-cv-00354_Mullen Industries LLC v. Meta Platforms_ Inc..pdf",
+      "case_name": "Mullen Industries LLC v. Meta Platforms, Inc.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2025-03-18_USCOURTS-caDC-23-05233_Stephen Thaler v. Shira Perlmutter_ et al.pdf",
+      "case_name": "Thaler v. Perlmutter",
+      "associated_technology": "generative ai"
+    },
+    {
+      "case_id": "2025-01-29_USCOURTS-txwd-1_24-cv-00354_Mullen Industries LLC v. Meta Platforms_ Inc..pdf",
+      "case_name": "Mullen Industries LLC v. Meta Platforms, Inc.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2014-09-18_USCOURTS-ilnd-1_13-cv-04417_Vehicle Intelligence and Safety LLC v. Mercedes-Benz USA_ LLC et al.pdf",
+      "case_name": "Vehicle Intelligence and Safety LLC v. Mercedes-Benz USA, LLC et al.",
+      "associated_technology": "ai patent / ip"
+    },
+    {
+      "case_id": "2021-03-29_USCOURTS-prd-3_19-cv-01690_Mech-Tech College_ LLC et al v. Friger-Salgueiro et al.pdf",
+      "case_name": "Artificial Intelligence, Corp. v. Osvaldo Oscar Friger Salgueiro et al.",
+      "associated_technology": "corporation producing copyrighted tv review capsules individual youtube user and related entertainment company"
+    }
+  ]
+}
