@@ -117,4 +117,4 @@ def process_cases(input_file, output_file):
     print(f"Results written to {output_file}")
 
 if __name__ == "__main__":
-    process_cases(f"{CASE_TYPE}_2/{CASE_TYPE_TITLE}.json", f"{CASE_TYPE}_2/cases_breakdown.json")
+    process_cases(f"{CASE_TYPE}/{CASE_TYPE_TITLE}.json", f"{CASE_TYPE}/cases_breakdown.json")
