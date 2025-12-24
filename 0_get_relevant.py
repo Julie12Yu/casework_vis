@@ -13,7 +13,13 @@ def filter_privacy_cases(input_file, output_file):
     for case in cases:
         if isinstance(case, dict):
             if case.get('legal_category_name') != UNRELATED and case.get('legal_category_name') != AILEGAL :
-                filtered_cases.append(case)
+                filtered_case = {
+                    "name": case.get("name"),
+                    "summary": case.get("summary"),
+                    "full_text": case.get("full_text"),
+                    "legal_category_name": case.get("legal_category_name")
+                }
+                filtered_cases.append(filtered_case)
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(filtered_cases, f, indent=2, ensure_ascii=False)
