@@ -16,7 +16,6 @@ def filter_privacy_cases(input_file, output_file):
                 filtered_case = {
                     "name": case.get("name"),
                     "summary": case.get("summary"),
-                    "full_text": case.get("full_text"),
                     "legal_category_name": case.get("legal_category_name")
                 }
                 filtered_cases.append(filtered_case)
