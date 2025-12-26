@@ -106,4 +106,4 @@ def process_cases(input_file, output_file):
 
 if __name__ == "__main__":
     for case_type in CASE_TYPES:
-        process_cases(f"{case_type}/{case_type}.json", f"{case_type}/cases_breakdown.json")
+        process_cases(f"labeled_data/{case_type}/{case_type}.json", f"labeled_data/{case_type}/cases_breakdown.json")
