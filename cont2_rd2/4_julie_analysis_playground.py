@@ -12,8 +12,6 @@ rake = Rake()
 CURR_CATEGORY = "government entity"
 
 INPUT_PATH = f"raw_data/base_raw/relevant_cases_breakdown.json"
-OUTPUT_PATH = f"raw_data/specific_all_analysis.json"
-OUTPUT_PATH_2 = f"raw_data/specific_cases_analyzed.json"
 
 def normalize_text(text):
     if not text:
