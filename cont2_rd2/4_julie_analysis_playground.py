@@ -387,11 +387,14 @@ def analyze_actors(cases):
     plaintiff_types = Counter()
     defendant_types = Counter()
     tech_types = Counter()
+
+    # refactor TODO: make this into a map
     total_ip = 0
     total_antitrust = 0
     total_consumerprotection = 0
     total_tort = 0
     total_privacy = 0
+
     plaintiff_total_ip = 0
     plaintiff_total_antitrust = 0
     plaintiff_total_consumerprotection = 0
@@ -408,13 +411,6 @@ def analyze_actors(cases):
         text = extract_ai_tech_type(raw_tech_used)
         
         tech_types[text] += 1 
-
-        p_entity_type = (
-            plaintiff.get("entity_type", "") if isinstance(plaintiff, dict) else plaintiff
-        )
-        d_entity_type = (
-            defendant.get("entity_type", "") if isinstance(defendant, dict) else defendant
-        )
 
         plaintiff_raw_type = extract_party_type(plaintiff.get("entity_type", ""))
 
@@ -478,7 +474,6 @@ def main():
     print("\n📘 ACTOR-ONLY CASE ANALYSIS")
     print("=" * 70)
 
-    # txt -> json -> use it
     with open(INPUT_PATH, "r") as f:
         cases = json.load(f)
     
