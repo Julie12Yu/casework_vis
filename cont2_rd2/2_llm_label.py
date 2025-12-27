@@ -2,7 +2,7 @@ import json
 import os
 from openai import OpenAI
 
-CASE_TYPES = {"privacy", "ip", "antitrust", "justice", "tort", "consumer"}
+CASE_TYPES = {"privacy"}
 
 def extract_case_structure(case_data):
     with open("../otherkey.txt") as f:

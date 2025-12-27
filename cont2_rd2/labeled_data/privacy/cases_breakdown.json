@@ -1,0 +1,542 @@
+[
+  {
+    "case_id": "2025-08-11_USCOURTS-cand-3_25-cv-00990_Taylor v. ConverseNow Technologies_ Inc..pdf",
+    "core_ai_system": "ConverseNow Technologies provides AI-powered virtual assistants that answer and process restaurant phone orders. When customers call participating restaurants, their calls are routed to ConverseNow\u2019s automated system, which uses artificial intelligence to interact with callers, capture order and payment information, and record and analyze the conversations. The company allegedly stores and uses these intercepted call recordings and transcripts to train, improve, and enhance its AI software without informing or obtaining consent from callers.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Eliza Taylor, an individual consumer and putative class representative who placed phone orders to restaurants and alleges her and other customers\u2019 calls were intercepted, recorded, and used without consent by an AI call-handling system.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "ConverseNow Technologies, Inc., a technology company that provides AI-driven voice assistants for restaurants to handle and process customer phone orders, including recording and analyzing calls to improve its AI products."
+  },
+  {
+    "case_id": "2022-07-28_USCOURTS-ilnd-1_20-cv-04699_In Re_ TikTok_ Inc._ Consumer Privacy Litigation.pdf",
+    "core_ai_system": "TikTok\u2019s recommendation and content-personalization technology, which uses machine learning algorithms to analyze user behavior, video interactions, and biometric data (such as face geometry) to suggest and curate content. The AI/ML systems process and infer personal and biometric information from uploaded videos and user activity, and are central to the alleged unauthorized collection, use, and sharing of that data.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "A nationwide class of TikTok users (and a subclass of Illinois users) alleging that TikTok and its parent company unlawfully collected, used, and shared their personal and biometric data without proper notice or consent.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "TikTok Inc. and its parent company ByteDance Ltd., operators of the TikTok video-sharing platform whose AI-driven data collection and recommendation systems allegedly captured and misused users\u2019 personal and biometric information in violation of federal and state privacy and consumer protection laws."
+  },
+  {
+    "case_id": "2025-05-19_USCOURTS-cand-3_21-cv-00757_Frasco v. Flo Health_ Inc..pdf",
+    "core_ai_system": "The case centers on the Flo Period and Ovulation Tracker mobile application, which integrated automated software development kits (SDKs) from Meta Platforms and Google. These SDKs and associated tracking/analytics tools functioned as AI-driven and algorithmic data collection and profiling systems that automatically captured, processed, and transmitted users\u2019 sensitive menstrual and pregnancy data and app usage information to Meta and Google for advertising, analytics, and other commercial purposes. The alleged AI/automated systems include Meta\u2019s and Google\u2019s tracking, targeting, and analytics technologies embedded in the app, which used algorithms to process health-related data without users\u2019 informed consent, despite Flo\u2019s privacy assurances.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Users of the Flo Period and Ovulation Tracker app, represented by named plaintiff Frasco, bringing a putative nationwide class and California subclass asserting privacy, contract, and related claims over the sharing of sensitive health data.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Flo Health, Inc., the developer and operator of the Flo Period and Ovulation Tracker app, along with Meta Platforms and Google, alleged to have received and used Flo users\u2019 sensitive health and usage data via embedded SDKs and tracking technologies."
+  },
+  {
+    "case_id": "2023-06-15_USCOURTS-ca7-22-02313_Citizens Insurance Company of America v. Wynndalco Enterprises_ LLC_ et al.pdf",
+    "core_ai_system": "Clearview AI\u2019s facial-recognition system, which uses artificial intelligence to scrape images from the internet, create a biometric database, and identify individuals by comparing uploaded photos to that database. The alleged Biometric Information Privacy Act (BIPA) violations arise from Clearview AI\u2019s automated collection, storage, and use of biometric identifiers (faceprints) through this AI-driven facial recognition technology.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort"
+    ],
+    "plaintiff_name": "Citizens Insurance Company of America, the insurer seeking a declaratory judgment that its commercial general liability policy does not cover or require it to defend Wynndalco against underlying BIPA and related privacy lawsuits involving Clearview AI\u2019s facial recognition technology.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort"
+    ],
+    "defendant_name": "Wynndalco Enterprises, LLC, an Illinois-based technology reseller/distributor that allegedly facilitated the deployment or sale of Clearview AI\u2019s facial recognition software and is being sued in underlying actions for purported violations of Illinois\u2019 Biometric Information Privacy Act (BIPA) and related common-law privacy claims, and that seeks insurance coverage and a defense from Citizens Insurance for those suits."
+  },
+  {
+    "case_id": "2023-07-11_USCOURTS-ca7-20-03134_Matt Dinerstein v. Google_ LLC_ et al.pdf",
+    "core_ai_system": "A research collaboration between Google and the University of Chicago to develop software that uses artificial intelligence to analyze anonymized patient medical records in order to predict patients\u2019 future healthcare needs.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Matt Dinerstein, a patient of the University of Chicago Medical Center whose medical records were included in the data shared with Google and who brought a putative class-action lawsuit alleging privacy violations, breach of contract, and consumer fraud.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Google LLC and the University of Chicago/its medical center, which collaborated to use anonymized patient data to develop AI-driven predictive healthcare software and were accused of mishandling and improperly sharing patient medical information."
+  },
+  {
+    "case_id": "2025-03-06_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+    "core_ai_system": "An AI-driven online photo platform operated by GeoSnapShot Pty Ltd that uses facial recognition and facial geometry analysis to extract biometric identifiers from event photographs. The system processes uploaded event photos, scans faces in the images, generates facial geometry templates (biometric data), and enables individuals to search for and retrieve photos of themselves, thereby collecting and using facial biometrics of Illinois residents without alleged BIPA-compliant consent or disclosures.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Illinois residents, including Moomaw and similarly situated individuals, who attended events such as Tough Mudder in Illinois and whose facial geometry biometric data was allegedly collected, stored, and used without proper consent in violation of the Illinois Biometric Information Privacy Act (BIPA).",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "GeoSnapShot Pty Ltd, an Australian company that operates an AI-enabled online event photography and facial recognition platform used to identify individuals in event photos and sell or distribute those images, including to and involving residents of Illinois."
+  },
+  {
+    "case_id": "2025-03-20_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+    "core_ai_system": "GeoSnapShot\u2019s AI-powered facial recognition and image-matching system that scans and analyzes event photographs to identify participants\u2019 faces and link images to individuals so the photos can be organized and sold to them online. The system collects and processes biometric identifiers (facial geometry) without obtaining the written consent and disclosures required under the Illinois Biometric Information Privacy Act (BIPA).",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Adam Moomaw, Regan Moomaw, and Sarah Gustafson, on behalf of themselves and a putative class of Illinois residents whose biometric data (facial geometry) was collected and used in connection with Tough Mudder event photographs",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "GeoSnapShot PTY LTD, an online photography and technology company that uses AI-based facial recognition to match and sell event photos of participants, alleged to have collected and used biometric data without proper consent and then sought to compel arbitration based on Tough Mudder liability waivers"
+  },
+  {
+    "case_id": "2024-03-07_USCOURTS-ilsd-3_23-cv-01321_Moomaw et al v. Geosnapshot Pty Ltd et al.pdf",
+    "core_ai_system": "GeoSnapShot\u2019s online photo platform uses artificial intelligence-based facial recognition: users upload a \u201cselfie,\u201d from which the system extracts and analyzes facial geometry (facial biometric identifiers) and compares that biometric template against event photographs (such as Tough Mudder race photos) to locate and return images of the user. The alleged BIPA violations arise from this AI-driven collection and processing of facial biometrics of Illinois residents.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Adam and Regan Moomaw, on behalf of themselves and a putative class of individuals whose facial biometric data was collected and processed through GeoSnapShot\u2019s event-photography platform at an Illinois Tough Mudder event.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "GeoSnapShot Pty Ltd, an Australian company operating the GeoSnapShot AI-powered event photography and facial-recognition platform, and GeoSnapShot, Inc., its U.S. subsidiary allegedly involved in providing and operating the same platform for events including those in Illinois."
+  },
+  {
+    "case_id": "2025-01-08_USCOURTS-caed-2_24-cv-01327_Tate v. Chemed Corp._ et al.pdf",
+    "core_ai_system": "Invoca\u2019s AI-powered \u201cconversation intelligence\u201d software used by VITAS Healthcare Corporation. The system automatically records inbound and outbound phone calls, uses artificial intelligence and automated analytics to transcribe, analyze, and categorize the content of those calls, and stores the resulting call data. It can use the collected data for its own purposes beyond merely providing a recording service, including ongoing machine-learning\u2013driven analysis of caller behavior and call content, all allegedly without obtaining consent from all parties to the calls.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Charmaine Tate, an individual caller alleging her telephone conversations with VITAS Healthcare were unlawfully recorded and analyzed without proper consent under the California Invasion of Privacy Act.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "VITAS Healthcare Corporation (a healthcare services company that used Invoca\u2019s AI conversation intelligence software on its phone lines) and Invoca, Inc. (the third-party provider of the AI-powered call recording and analytics platform)."
+  },
+  {
+    "case_id": "2023-07-07_USCOURTS-ilnd-1_21-cv-06925_Dzananovic v. Bumble_ Inc. et al.pdf",
+    "core_ai_system": "Bumble\u2019s dating application uses an automated facial recognition system in its photo verification feature. The technology analyzes users\u2019 uploaded photos, compares facial geometry to verify identity, and in doing so allegedly collects, stores, and processes biometric identifiers and biometric information (facial geometry data) without obtaining informed consent, in violation of Illinois\u2019s Biometric Information Privacy Act (BIPA).",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Dario Dzananovic, an Illinois-based user of the Bumble dating application bringing a putative class action on behalf of similarly situated Illinois users alleging unlawful collection and use of their biometric data.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Bumble, Inc. and related Bumble entities that develop, operate, and market the Bumble dating application, including its photo verification feature that allegedly uses facial recognition technology to collect and process users\u2019 biometric data."
+  },
+  {
+    "case_id": "2022-01-27_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+    "core_ai_system": "Clearview AI\u2019s facial recognition system and associated database, which uses artificial intelligence to scrape billions of images from the internet (e.g., social media, websites), extract biometric identifiers (faceprints), and match faces from surveillance footage against this database to identify individuals.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection",
+      "Tort"
+    ],
+    "plaintiff_name": "Putative class of consumers and individuals whose biometric data (faceprints) were allegedly collected, stored, and used without consent through Clearview AI\u2019s database and Macy\u2019s use of that database.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Macy\u2019s Retail Holdings, LLC, a national retail company alleged to have used the Clearview AI facial recognition database to identify individuals from its surveillance footage without obtaining required biometric consent and in violation of Illinois, California, and New York laws."
+  },
+  {
+    "case_id": "2022-03-30_USCOURTS-ilnd-1_20-cv-03873_Citizens Insurance Company Of America v. Wynndalco Enterprises_ LLC et al.pdf",
+    "core_ai_system": "An AI-based facial recognition system and database created by Clearview AI, which scraped images from the internet and used automated facial recognition algorithms to build a searchable biometric database that could be accessed and used to identify individuals from their facial images.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection"
+    ],
+    "plaintiff_name": "Citizens Insurance Company of America, an insurance carrier seeking a declaratory judgment that its commercial general liability policy does not require it to defend its insured against class-action lawsuits alleging violations of the Illinois Biometric Information Privacy Act (BIPA) arising from use of an AI facial recognition database.",
+    "defendant_labels": [
+      "Privacy and Data Protection"
+    ],
+    "defendant_name": "Wynndalco Enterprises, LLC and related insured parties, a business accused in underlying class actions of violating the Illinois Biometric Information Privacy Act by selling or providing access to Clearview AI\u2019s facial recognition database, and here seeking insurance coverage and a defense from Citizens for those BIPA lawsuits."
+  },
+  {
+    "case_id": "2025-01-17_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf",
+    "core_ai_system": "Lytx, Inc.\u2019s DriveCam system using machine vision and artificial intelligence (MV+AI) to analyze in-cab video, detect and predict distracted driving behaviors, and in doing so allegedly collect, process, and store drivers\u2019 biometric information without proper consent under the Illinois Biometric Information Privacy Act (BIPA).",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Joshua Lewis, Nathaniel Timmons, and James Cavanaugh, on behalf of themselves and a putative class of similarly situated drivers whose biometric data was allegedly collected and used via Lytx\u2019s AI-enabled DriveCam system without proper consent.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Lytx, Inc., the provider of the DriveCam machine vision and AI technology used to monitor and predict distracted driving behaviors, along with associated transportation company defendants (including Maverick Transportation LLC) that deployed the system in their vehicles and allegedly enabled the collection and use of drivers\u2019 biometric data in violation of BIPA."
+  },
+  {
+    "case_id": "2024-06-27_USCOURTS-cand-5_23-cv-05096_Tibbs et al v. Arlo Technologies_ Inc..pdf",
+    "core_ai_system": "Arlo\u2019s home security camera ecosystem, which uses AI-powered features such as facial recognition and other automated biometric analysis tools to capture, process, and store individuals\u2019 biometric identifiers (including facial geometry) from video recordings of people approaching or delivering to homes.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Delivery drivers in Illinois, acting as putative class representatives, who allege that Arlo\u2019s AI-enabled security systems captured and stored their biometric data without informed consent or compliant retention and destruction policies under the Illinois Biometric Information Privacy Act (BIPA).",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Arlo Technologies, Inc., a technology company that designs and sells internet-connected home security cameras and related services that use AI-driven facial recognition and other biometric processing features to identify and manage individuals captured by its systems."
+  },
+  {
+    "case_id": "2022-02-14_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+    "core_ai_system": "Clearview AI\u2019s facial recognition system that uses artificial intelligence algorithms to scrape images from the internet (including social media and other websites), extract and analyze individuals\u2019 facial geometry as biometric identifiers, create a searchable biometric database, and allow users (such as law enforcement and private entities) to upload a photo and receive likely identity matches from the database.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Putative class of individuals whose biometric information (facial geometry/faceprints) was allegedly collected, analyzed, stored, and sold without consent by Clearview AI and related defendants under the Illinois Biometric Information Privacy Act and various state privacy and consumer protection laws.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Clearview AI, Inc. and related corporate and individual defendants that developed, operated, and marketed the Clearview AI facial recognition and biometric data-scraping platform to law enforcement agencies and private customers."
+  },
+  {
+    "case_id": "2024-07-05_USCOURTS-casd-3_23-cv-01082_Jones v. Peloton Interactive_ Inc..pdf",
+    "core_ai_system": "Peloton\u2019s website used an embedded chat software provided by Drift. Plaintiffs allege that Drift intercepted and recorded users\u2019 chat communications and used those data to enhance and train its artificial intelligence technologies that power the chat system and related analytics.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "A consumer website user (Jones) representing a putative class of Peloton website visitors who used the online chat feature and claim their communications were intercepted and recorded without consent.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Peloton Interactive, Inc., an online fitness and exercise equipment company that operates a website with a chat feature allegedly integrated with Drift\u2019s software, which is claimed to have intercepted and used user chat data to improve its AI systems."
+  },
+  {
+    "case_id": "2016-04-06_USCOURTS-moed-4_15-md-02669_IN RE_ ASHLEY MADISON CUSTOMER DATA SECURITY BREACH LITIGATION.pdf",
+    "core_ai_system": "Automated chat \u2018bots\u2019 deployed on the Ashley Madison website to mimic real users and interact with customers. Plaintiffs allege Avid Dating Life, Inc. used these AI-like automated profiles to simulate human activity and induce users to engage and spend money on the site.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Users and customers of the Ashley Madison website bringing a putative class action after a data breach exposed their personal and financial information, and alleging misuse of automated bot accounts on the platform.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Avid Dating Life, Inc., the operator of the Ashley Madison online dating website, accused of failing to secure user data and of using automated bot profiles to deceive customers."
+  },
+  {
+    "case_id": "2022-03-23_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+    "core_ai_system": "Clearview AI\u2019s facial recognition system, which builds a searchable biometric database by automatically scraping billions of images from public websites and social media, extracting facial vectors, and allowing users (including law enforcement and municipalities) to upload a photo to identify individuals and obtain associated information without their consent.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Justice and Equity",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Consumers and social media users in California and other jurisdictions bringing a putative class action alleging that Clearview AI\u2019s creation and use of a facial recognition database from scraped online images, and the participating municipal entities\u2019 use of that database, violated their privacy, data protection, and constitutional rights.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Justice and Equity",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Clearview AI, Inc., the company that developed and operates the facial recognition database built from scraped online images, along with various nondiverse municipal defendants (e.g., cities, police departments, or other local government entities) alleged to have used Clearview\u2019s facial recognition service to identify individuals, thereby participating in the alleged privacy and constitutional violations."
+  },
+  {
+    "case_id": "2022-12-20_USCOURTS-ohnd-1_21-cv-00500_Ogletree v. Cleveland State University.pdf",
+    "core_ai_system": "Cleveland State University used an online remote exam proctoring system that incorporated AI-enabled proctoring tools to monitor students during tests. The system facilitated virtual room scans via students\u2019 webcams before exams to check for potential cheating or unauthorized materials, although the specific room scan itself was not AI-driven but part of the broader AI-assisted proctoring platform.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection"
+    ],
+    "plaintiff_name": "Aaron Ogletree, a student at Cleveland State University challenging the university\u2019s remote exam proctoring room-scan practice as an unconstitutional search under the Fourth Amendment.",
+    "defendant_labels": [
+      "Privacy and Data Protection"
+    ],
+    "defendant_name": "Cleveland State University, a public university that implemented remote exam proctoring, including virtual room scans using an online proctoring system."
+  },
+  {
+    "case_id": "2022-01-03_USCOURTS-ilnd-1_20-cv-06485_Naughton v. Amazon.com_ Inc. et al.pdf",
+    "core_ai_system": "Amazon\u2019s employee wellness check system that allegedly used automated facial recognition technology to scan and analyze employees\u2019 facial geometry (biometric identifiers) during wellness checks. The system collected, processed, and stored facial geometry data\u2014an AI-driven biometric identification/verification tool\u2014without obtaining written informed consent, without providing a retention schedule, and with potential disclosure to third parties.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort"
+    ],
+    "plaintiff_name": "William Naughton, an Amazon employee bringing a putative class action on behalf of similarly situated workers subjected to biometric facial scans during workplace wellness checks in Illinois.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort"
+    ],
+    "defendant_name": "Amazon.com, Inc. and related Amazon entities alleged to have implemented and operated the facial recognition\u2013based wellness check system that collected, possessed, and potentially disclosed employees\u2019 biometric data in violation of the Illinois Biometric Information Privacy Act (BIPA)."
+  },
+  {
+    "case_id": "2022-07-25_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+    "core_ai_system": "Clearview AI\u2019s facial recognition system that scraped over three billion images from the public internet and used AI-based facial recognition algorithms to scan faces and extract biometric identifiers (faceprints) from those images, then stored and provided them as a searchable facial recognition database to paying clients, including private entities and government agencies.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Consumers and individuals in a putative class action who allege their facial images and biometric identifiers were collected, scanned, and used without consent in violation of the Illinois Biometric Information Privacy Act (BIPA) and related consumer privacy rights.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Clearview AI, Inc. and associated individuals (including Thomas Mulcaire), a company that built and sold an AI-powered facial recognition database by scraping billions of images from the internet and extracting biometric identifiers, allegedly without notice or consent."
+  },
+  {
+    "case_id": "2022-01-26_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf",
+    "core_ai_system": "The core system is Wemagine.AI LLP\u2019s mobile application, \u201cVoila AI Artist,\u201d which uses artificial intelligence-based image processing to transform user-uploaded photos (including faces) into stylized images (such as cartoons). In doing so, the app allegedly scans, collects, and stores users\u2019 facial geometry and other biometric identifiers, triggering obligations under the Illinois Biometric Information Privacy Act (BIPA).",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Ricardo Gutierrez, an Illinois resident and putative class representative alleging violations of the Illinois Biometric Information Privacy Act based on the collection and storage of facial geometry and biometric data through the Voila AI Artist app.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Wemagine.AI LLP, a Canadian technology company that develops and operates the \u201cVoila AI Artist\u201d mobile application, which uses AI to process user photos and allegedly collects and stores biometric data without BIPA-compliant consent."
+  },
+  {
+    "case_id": "2025-07-25_USCOURTS-ilsd-3_22-cv-00046_Lewis v. Maverick Transportation LLC et al.pdf",
+    "core_ai_system": "Lytx DriveCam in-vehicle camera system that uses machine vision and artificial intelligence to monitor drivers, analyze facial and behavioral cues, and predict distracted driving behaviors by collecting, processing, and storing drivers\u2019 biometric data (including facial/biometric identifiers) without consent.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Drivers and vehicle operators (including Lewis) who operated vehicles equipped with Lytx DriveCam systems and whose biometric data was allegedly collected and stored without consent, serving as class representatives in a BIPA class action.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Maverick Transportation LLC, a trucking/transportation company that deployed Lytx DriveCam systems in its vehicles, and Lytx, Inc., the technology provider that designed and operated the AI- and machine-vision-enabled DriveCam system alleged to have collected and stored drivers\u2019 biometric data in violation of Illinois\u2019 Biometric Information Privacy Act (BIPA)."
+  },
+  {
+    "case_id": "2025-08-07_USCOURTS-nmd-2_25-cv-00646_Spilsbury v. Demchok et al.pdf",
+    "core_ai_system": "Plaintiff alleges defendants \"exploited her using artificial intelligence\" by creating an account in her name on an online gaming platform and selling her identity on the dark web. The filings do not identify a specific AI product or vendor; AI is described generally as technology used to facilitate identity exploitation and online account creation/sale.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Justice and Equity"
+    ],
+    "plaintiff_name": "Lindsay Spilsbury, an individual civil-rights plaintiff alleging misuse of her identity and civil rights violations involving artificial intelligence and online platforms.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort"
+    ],
+    "defendant_name": "Carice Demchok, Seth Demchok, and Vera Demchok, individuals alleged to have exploited plaintiff using AI by creating an online gaming account in her name and selling her identity on the dark web."
+  },
+  {
+    "case_id": "2022-11-18_USCOURTS-cand-3_19-cv-05602_Risher v. Adecco Inc. et al.pdf",
+    "core_ai_system": "An AI-operated recruiting chatbot named Mya, used by the defendants (a staffing/job placement agency and related company) to send automated, conversational text messages to potential job candidates. The system interacts via SMS using automated, human-like responses to screen and communicate with applicants.",
+    "plaintiff_labels": [
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Clarence Risher, an individual job seeker and putative class representative alleging receipt of unsolicited, automated recruitment text messages in violation of the Telephone Consumer Protection Act (TCPA).",
+    "defendant_labels": [
+      "Consumer Protection"
+    ],
+    "defendant_name": "Adecco Inc. and Locutus Inc., staffing/job placement and related companies that used the AI chatbot Mya to send automated recruitment text messages to consumers."
+  },
+  {
+    "case_id": "2022-03-18_USCOURTS-ilnd-1_21-cv-00135_In Re_ Clearview AI_ Inc._ Consumer Privacy Litigation.pdf",
+    "core_ai_system": "Clearview AI\u2019s facial recognition system, which uses AI algorithms to scan and scrape billions of facial images from across the internet (e.g., social media, websites), extract biometric identifiers (faceprints), and create a searchable biometric database that allows users (such as Macy\u2019s) to upload images from surveillance footage and automatically identify individuals by matching their faces against the database.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Consumers and individuals whose facial images and biometric identifiers were allegedly collected, stored, and used without consent, bringing a putative class action under the Illinois Biometric Information Privacy Act (BIPA).",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Clearview AI, Inc., the developer and operator of the facial recognition biometric database, and Macy\u2019s, Inc., a retail company alleged to have used Clearview\u2019s database to identify individuals in surveillance footage without obtaining BIPA-compliant consent."
+  },
+  {
+    "case_id": "2022-10-07_USCOURTS-ilnd-1_21-cv-05702_Gutierrez v. Wemagine.AI LLP.pdf",
+    "core_ai_system": "Voila AI Artist mobile application, an AI-powered image-processing app that uses automated algorithms to transform users\u2019 photos (including facial images) into stylized outputs (e.g., cartoon-like images). The alleged BIPA violations arise from the app\u2019s collection, storage, and disclosure of biometric identifiers and information derived from users\u2019 facial images without informed consent.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Ricardo Gutierrez and Shannon Ross, individual Illinois residents bringing a putative class action on behalf of themselves and similarly situated users of the Voila AI Artist app in Illinois, alleging violations of the Illinois Biometric Information Privacy Act (BIPA).",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Wemagine.AI LLP, the developer and operator of the Voila AI Artist mobile application, an AI-based photo-editing platform that processes users\u2019 facial images and allegedly collects, stores, and discloses biometric data without complying with Illinois BIPA requirements."
+  },
+  {
+    "case_id": "2022-09-26_USCOURTS-ilnd-1_21-cv-04409_Trio v. Turing Video_ Inc..pdf",
+    "core_ai_system": "The core AI system is the Turing Shield, an AI-integrated kiosk used for workplace entry screening. It uses automated facial recognition-like technology to scan users\u2019 facial geometry and perform temperature screenings, capturing and processing biometric identifiers (facial geometry) and storing that biometric data as part of a COVID-19 screening and access-control system.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Sandra Trio, an individual employee who used the Turing Shield kiosk at her workplace, bringing the action individually and on behalf of a putative class of similarly situated individuals whose biometric data was collected.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Turing Video, Inc., the technology company that designed, marketed, and operated the Turing Shield AI-enabled temperature and facial-scanning kiosk used by employers to screen workers and visitors."
+  },
+  {
+    "case_id": "2022-08-22_USCOURTS-ohnd-1_21-cv-00500_Ogletree v. Cleveland State University.pdf",
+    "core_ai_system": "No AI or automated decision-making system is described in the case. The dispute concerns Cleveland State University\u2019s practice of conducting live webcam room scans of students\u2019 homes before remote examinations, not the use of AI or algorithms.",
+    "plaintiff_labels": [
+      "Unrelated"
+    ],
+    "plaintiff_name": "Aaron M. Ogletree, a student challenging Cleveland State University\u2019s remote exam room-scan policy as an unconstitutional search under the Fourth Amendment.",
+    "defendant_labels": [
+      "Unrelated"
+    ],
+    "defendant_name": "Cleveland State University, a public university that required students to perform webcam room scans before remote examinations to check for impermissible aids."
+  },
+  {
+    "case_id": "2020-07-30_USCOURTS-mad-1_19-cv-12235_Mantha v. Quotewizard.com_ LLC.pdf",
+    "core_ai_system": "An AI-driven automated texting platform provided by Drips LLC that QuoteWizard used to send text messages. The system uses artificial intelligence to conduct automated, conversational-style outreach to consumers\u2019 phones, functioning as an Automatic Telephone Dialing System (ATDS) to send and manage large volumes of text messages without human intervention.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Joseph Mantha, an individual consumer who received allegedly unauthorized, automated text messages and brought a Telephone Consumer Protection Act (TCPA) claim.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "QuoteWizard.com, LLC, an online insurance lead-generation and marketing company that allegedly used an AI-driven automated texting service (Drips LLC) to send unsolicited text messages without prior consent, in violation of the TCPA."
+  },
+  {
+    "case_id": "2023-08-21_USCOURTS-ilnd-1_23-cv-00695_Clark v. Microsoft Corporation.pdf",
+    "core_ai_system": "Brainshark\u2019s AI-driven video coaching and sales training software, which uses Microsoft Azure cloud infrastructure and Azure Cognitive Services (including facial analysis capabilities) to analyze users\u2019 video recordings and facial expressions, allegedly collecting and processing biometric data such as facial geometry.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection",
+      "Tort"
+    ],
+    "plaintiff_name": "Cody Clark, an individual Illinois user of Brainshark\u2019s AI-based video coaching platform, bringing a putative class action on behalf of similarly situated Illinois residents whose biometric data was allegedly collected and processed.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Microsoft Corporation, a major technology company that provides the Azure cloud platform and Azure Cognitive Services allegedly used by Brainshark to store, process, and analyze users\u2019 facial data in violation of the Illinois Biometric Information Privacy Act (BIPA)."
+  },
+  {
+    "case_id": "2021-03-16_USCOURTS-ilnd-1_20-cv-01937_Stein v. Clarifai_ Inc..pdf",
+    "core_ai_system": "Clarifai\u2019s facial recognition and computer vision AI system that analyzes user-uploaded photographs (including images taken from OKCupid) to extract and process biometric identifiers and information (such as facial geometry) in order to develop and improve facial recognition models and demographic prediction models sold to customers.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Jordan Stein, an individual Illinois resident and OKCupid user, suing on behalf of herself and a putative class of similarly situated individuals whose photographs and biometric data were allegedly used without consent.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Clarifai, Inc., a technology company providing AI-based facial recognition and computer vision products and demographic models that allegedly used images from OKCupid to develop its biometric recognition systems."
+  },
+  {
+    "case_id": "2022-08-26_USCOURTS-cand-5_19-cv-04286_In re Google Assistant Privacy Litigation.pdf",
+    "core_ai_system": "Google Assistant and related artificial intelligence products and services that are enhanced using Appen Butler Hill Inc.\u2019s data annotation, evaluation, and related AI training tools and services. The sealed documents (Statement of Work and related submissions) describe proprietary methods and pricing for Appen\u2019s services used to improve Google\u2019s AI-driven voice assistant.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Consumer plaintiffs in a putative class action alleging privacy-related and consumer-protection harms arising from the operation and data practices of Google Assistant.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Google LLC and related Google entities operating the Google Assistant platform; the order at issue concerns non-party Appen Butler Hill Inc., a vendor providing AI training and data services to Google, whose proprietary documents were sealed."
+  },
+  {
+    "case_id": "2020-10-23_USCOURTS-ilnd-1_20-cv-03843_Thornley et al v. Clearview AI_ Inc..pdf",
+    "core_ai_system": "Clearview AI\u2019s facial recognition system, which uses artificial intelligence to scrape images from social media and other public websites, extract biometric identifiers (such as facial geometry), and build a searchable database that allows users to identify individuals from photographs.",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Melissa Thornley and a putative class of Illinois residents alleging violations of the Illinois Biometric Information Privacy Act (BIPA) based on Clearview AI\u2019s collection, use, and sale of their biometric data without consent.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Consumer Protection"
+    ],
+    "defendant_name": "Clearview AI, Inc., a technology company that developed and commercialized an AI-driven facial recognition application and database built from scraped online images, alleged to have profited from Illinois residents\u2019 biometric information without complying with BIPA."
+  },
+  {
+    "case_id": "2025-09-15_USCOURTS-nmd-2_25-cv-00646_Spilsbury v. Demchok et al.pdf",
+    "core_ai_system": "Plaintiff alleges that defendants \"used artificial intelligence and other technologies\" to harass her and to sell or exploit her identity online. The complaint does not identify a specific AI product or vendor, but generally claims that AI tools and related technologies were deployed to target, monitor, and commercially misuse her personal identity.",
+    "plaintiff_labels": [
+      "Tort",
+      "Justice and Equity"
+    ],
+    "plaintiff_name": "Lindsay Spilsbury, an individual pro se plaintiff alleging civil rights violations and harassment through the use of artificial intelligence and other technologies, including claims that her identity was sold or exploited online.",
+    "defendant_labels": [
+      "Tort",
+      "Justice and Equity"
+    ],
+    "defendant_name": "Demchok and other unnamed or et al. defendants, alleged by plaintiff to have used artificial intelligence and related technologies to harass her and to sell or exploit her identity online; the court ultimately dismissed the federal action for lack of jurisdiction under Younger and Rooker-Feldman and for failure to comply with a court order."
+  },
+  {
+    "case_id": "2024-02-26_USCOURTS-ilnd-1_22-cv-01284_Deyerler v. HireVue Inc..pdf",
+    "core_ai_system": "HireVue\u2019s AI-powered video interviewing and assessment software platform used by employers in hiring. The system records applicants\u2019 video interviews and uses automated, algorithmic analysis of facial geometry, expressions, voice, and other behavioral data to evaluate candidates and generate scores or assessments for hiring decisions. Plaintiffs allege this AI system captures, analyzes, and stores biometric identifiers and biometric information (such as face geometry) without complying with Illinois\u2019 Biometric Information Privacy Act (BIPA).",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Justice and Equity",
+      "Consumer Protection"
+    ],
+    "plaintiff_name": "Six Illinois job applicants and putative class representatives who participated in video job interviews using HireVue\u2019s AI-powered interviewing platform and allege their biometric data was collected, analyzed, and used in violation of the Illinois Biometric Information Privacy Act (BIPA).",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Justice and Equity",
+      "Consumer Protection"
+    ],
+    "defendant_name": "HireVue, Inc., a technology company that provides AI-driven video interviewing and candidate assessment software to employers, enabling automated analysis of applicants\u2019 facial geometry, expressions, and other data during job interviews."
+  },
+  {
+    "case_id": "2017-03-06_USCOURTS-ded-1_16-cv-01307_Zaletel v. Prisma Labs_ Inc..pdf",
+    "core_ai_system": "The defendant, Prisma Labs, Inc., developed and marketed a mobile photo-editing application called \u201cPrisma\u201d that uses artificial intelligence and machine-learning-based image processing to transform user photos into stylized artwork. The app applies AI-driven filters and neural-network-style algorithms to convert ordinary photographs into images that resemble various artistic styles.",
+    "plaintiff_labels": [
+      "IP Law"
+    ],
+    "plaintiff_name": "Michael Zaletel, operating under the business name i4software, owner and registrant of the \u201cPrizmia\u201d trademark for a photo-related mobile application.",
+    "defendant_labels": [
+      "IP Law"
+    ],
+    "defendant_name": "Prisma Labs, Inc., developer and publisher of the \u201cPrisma\u201d mobile application that uses artificial intelligence to transform photos into artwork, accused of infringing the \u201cPrizmia\u201d trademark through its use of the \u201cPrisma\u201d mark."
+  },
+  {
+    "case_id": "2025-07-01_USCOURTS-cand-5_24-cv-04257_Kemp v. Meta Platforms Inc..pdf",
+    "core_ai_system": "Meta Platforms Inc.\u2019s AI technology allegedly used to intercept, analyze, and monetize the plaintiff\u2019s electronic communications between 2015 and 2021 (e.g., AI-driven systems for processing user messages and serving targeted advertising).",
+    "plaintiff_labels": [
+      "Privacy and Data Protection",
+      "Tort"
+    ],
+    "plaintiff_name": "Bobby M. Kemp, a federal prisoner alleging that Meta\u2019s AI systems intercepted and misused his electronic communications in violation of federal and state law.",
+    "defendant_labels": [
+      "Privacy and Data Protection",
+      "Tort"
+    ],
+    "defendant_name": "Meta Platforms Inc., operator of social media and messaging platforms that allegedly used AI-driven systems to intercept, store, and exploit users\u2019 electronic communications; the court dismissed all claims with prejudice as barred by res judicata based on a prior, final judgment involving the same parties and transactional facts."
+  }
+]
