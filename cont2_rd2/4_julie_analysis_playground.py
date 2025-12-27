@@ -12,8 +12,8 @@ rake = Rake()
 NAME = "privacy"
 
 INPUT_PATH = f"raw_data/base_raw/relevant_cases_breakdown.json"
-OUTPUT_PATH = f"raw_data/relevant_all_analysis.json"
-OUTPUT_PATH_2 = f"raw_data/relevant_cases_analyzed.json"
+OUTPUT_PATH = f"raw_data/specific_all_analysis.json"
+OUTPUT_PATH_2 = f"raw_data/specific_cases_analyzed.json"
 
 def normalize_text(text):
     if not text:
@@ -391,14 +391,14 @@ def analyze_actors(cases):
     plaintiff_categories = Counter()
     defendant_categories = Counter()
     tech_types = Counter()
+    total_ip = 0
+    total_antitrust = 0
+    total_consumerprotection = 0
 
     simplified_output = []
 
     for case in cases:
         case_name = case.get("case_id", "")
-
-    #        categories = case.get("categories", [])  # ngl idk what to do with this
-    # i think will be changed soon
 
         plaintiff = case.get("plaintiff", "")
         defendant = case.get("defendant", "")
@@ -424,18 +424,28 @@ def analyze_actors(cases):
         plaintiff_types[plaintiff_raw_type] += 1
         defendant_types[defendant_raw_type] += 1
 
-        # ---- Store per-case result ----
-        simplified_output.append({
-            "title": case_name,
-            "plaintiff_raw": p_entity_type,
-            "plaintiff_category": plaintiff_raw_type,
-            "defendant_raw": d_entity_type,
-            "defendant_category": defendant_raw_type,
-            "tech_raw": raw_tech_used,
-            "tech_category": text,
-            "plaintiff_arg_labels": plaintiff_arg_labels,
-            "defendant_arg_labels": defendant_arg_labels,
-        })
+        if plaintiff_raw_type == "corporation(s)":
+            # ---- Store per-case result ----
+            simplified_output.append({
+                "title": case_name,
+                "plaintiff_raw": p_entity_type,
+                "plaintiff_category": plaintiff_raw_type,
+                "defendant_raw": d_entity_type,
+                "defendant_category": defendant_raw_type,
+                "tech_raw": raw_tech_used,
+                "tech_category": text,
+                "plaintiff_arg_labels": plaintiff_arg_labels,
+                "defendant_arg_labels": defendant_arg_labels,
+            })
+
+            if "IP Law" in plaintiff_arg_labels or "IP Law" in defendant_arg_labels:
+                total_ip += 1
+
+            if "Antitrust" in plaintiff_arg_labels or "Antitrust" in defendant_arg_labels:
+                total_antitrust += 1
+
+            if "Consumer Protection" in plaintiff_arg_labels or "Consumer Protection" in defendant_arg_labels:
+                total_consumerprotection += 1
 
     final_data = {
         "total_cases": len(cases),
@@ -447,6 +457,10 @@ def analyze_actors(cases):
     cases_new = {
         "cases": simplified_output
     }
+
+    print(f"TOTAL IP LAW CASES (either side contains): {total_ip}")
+    print(f"TOTAL ANTITRUST CASES (either side contains): {total_antitrust}")
+    print(f"TOTAL consumer protection CASES (either side contains): {total_consumerprotection}")
 
     return final_data, cases_new
 
