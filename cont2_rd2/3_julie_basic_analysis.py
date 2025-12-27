@@ -53,14 +53,14 @@ def extract_party_type(description):
             "software creator", "software engineer", "data scientist", "ai researcher",
             "inventor", "researcher"
         ]):
-            return "stem professional"
+            return "individual"
 
         # ART CREATIVES
         if any(k in search_text for k in [
             "author", "director", "editor", "illustrator", "composer", "songwriter", "artist", 
             "poet", "musician", "writer", "filmmaker", "designer", "photographer", "content creator"
         ]):
-            return "creative professional"
+            return "individual"
 
         # PLATFORMS (e.g., social media, marketplaces, they function different legally from companies)
         if any(k in search_text for k in [
@@ -258,21 +258,31 @@ def extract_ai_tech_type(description):
         ]):
             return "ai hiring & screening"
 
-        # ALGORITHIM / ANALYTICAL AI / ML Systems
+        # --- DECISION / RISK / ELIGIBILITY SYSTEMS (decision) ---
         if any(k in t for k in [
-            "algorithm", "algorithms", "algorithmic", "algorithmic decision-making", "predictive", "predict",
-            "ai system to target", "ai system to predict", "machine-learning models", "ml workloads",
-            "ai applicant-screening system", "hiring software", "age discrimination", "disparate impact",
-            "property risk", "ml-based crm", "data analytics", "sound processing", "recruitment software",
-            "automated repair estimates", "vehicle damage assessment", "ai-powered ad tools",
-            "ai-enabled host websites", "ai-based ad fraud", "ad fraud detection", "invalid traffic detection",
-            "predictive fraud modeling", "benefit-decision models",
-            "underwriting", "credit scoring", "loan decisioning", "mortgage system",
-            "pricing optimization", "ad optimization", "energy optimization",
-            "fraud detection", "eligibility determination", "decision model",
-            "trading model", "forex trading", "high-frequency trading", "risk scoring", "AI-driven government program"
+            "risk scoring", "risk assessment", "risk model",
+            "underwriting", "credit scoring", "loan decisioning",
+            "mortgage system", "eligibility determination",
+            "benefit-decision models", "pricing optimization",
+            "fraud detection", "predictive fraud modeling",
+            "decision model", "ai-driven government program",
+            "trading model", "forex trading", "high-frequency trading"
         ]):
-            return "algorithims"
+            return "decision"
+
+        # --- GENERIC ALGORITHMIC / ANALYTICAL AI (fallback) ---
+        if any(k in t for k in [
+            "algorithm", "algorithms", "algorithmic", "algorithmic decision-making",
+            "predictive", "predict", "machine-learning models", "ml workloads",
+            "data analytics", "sound processing", "ml-based crm",
+            "recruitment software", "hiring software",
+            "age discrimination", "disparate impact",
+            "property risk", "automated repair estimates",
+            "vehicle damage assessment", "ai-based ad fraud",
+            "ad fraud detection", "invalid traffic detection",
+            "energy optimization"
+        ]):
+            return "algorithms"
 
         # AUTONOMOUS / VEHICLE AI
         if any(k in t for k in [
