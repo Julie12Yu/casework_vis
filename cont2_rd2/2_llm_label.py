@@ -2,8 +2,6 @@ import json
 import os
 from openai import OpenAI
 
-CASE_TYPES = {"privacy"}
-
 def extract_case_structure(case_data):
     with open("../otherkey.txt") as f:
         key = f.read().strip()
@@ -22,16 +20,30 @@ def extract_case_structure(case_data):
                         "type": "string"
                     }
                 }, 
-                "plaintiff_name": {"type": "string"},
+                "plaintiff": {
+                    "type": "object",
+                    "properties": {
+                        "name": {"type": "string"},
+                        "entity_type": {"type": "string"}
+                    },
+                    "required": ["name", "entity_type"]
+                },
                 "defendant_labels": {
                     "type": "array", 
                     "items": {
                         "type": "string"
                     }
                 }, 
-                "defendant_name": {"type": "string"},
+                "defendant": {
+                    "type": "object",
+                    "properties": {
+                        "name": {"type": "string"},
+                        "entity_type": {"type": "string"}
+                    },
+                    "required": ["name", "entity_type"]
+                },
             },
-            "required": ["case_id", "core_ai_system", "plaintiff_labels", "plaintiff_name", "defendant_labels", "defendant_name"]
+            "required": ["case_id", "core_ai_system", "plaintiff_labels", "plaintiff", "defendant_labels", "defendant"]
         }
     }
 
@@ -47,7 +59,11 @@ def extract_case_structure(case_data):
         """
 
     prompt = f"""
-        Extract information from this court case.
+        You are extracting structured information from a legal case.
+
+        Read the ENTIRE case and return ONLY valid JSON that follows the schema exactly.
+        Do NOT include explanations, markdown, or any fields not listed in the schema.
+        If information is missing, use an empty string "" or empty array [] — do NOT guess.
 
         CASE NAME: {case_data['name']}
         SUMMARY: {case_data['summary']}
@@ -60,7 +76,7 @@ def extract_case_structure(case_data):
         - For core_ai_system: Read through the entire case text, extract the text describing where AI is mentioned, and the AI technology used.
         - Given the label descriptions, write the label into the JSON if the litigant used an argument that fits the description of the label.
         - Be specific about outcomes
-        - For plaintiff_name / defendant_name: Describe the party.
+        - For plaintiff / defendant: Describe the party, not just the literal name.
         """
     
     response = client.chat.completions.create(
@@ -105,5 +121,4 @@ def process_cases(input_file, output_file):
     print(f"Results written to {output_file}")
 
 if __name__ == "__main__":
-    for case_type in CASE_TYPES:
-        process_cases(f"labeled_data/{case_type}/{case_type}.json", f"labeled_data/{case_type}/cases_breakdown.json")
+    process_cases(f"raw_data/relevant_cases.json", f"raw_data/relevant_cases_breakdown.json")

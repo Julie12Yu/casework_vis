@@ -1,0 +1,34 @@
+{
+  "total_cases": 38,
+  "plaintiff_types": {
+    "class-action": 27,
+    "corporation(s)": 5,
+    "healthcare provider": 1,
+    "individual": 3,
+    "platform(s)": 1,
+    "creative professional": 1
+  },
+  "defendant_types": {
+    "corporation(s)": 21,
+    "platform(s)": 8,
+    "stem professional": 4,
+    "class-action": 1,
+    "creative professional": 1,
+    "individual": 2,
+    "cleveland state university, a public university that required students to perform webcam room scans before remote examinations to check for impermissible aids": 1
+  },
+  "tech_types": {
+    "ai bots": 3,
+    "face recognition": 23,
+    "algorithims": 3,
+    "Invoca\u2019s AI-powered \u201cconversation intelligence\u201d software used by VITAS Healthcare Corporation. The system automatically records inbound and outbound phone calls, uses artificial intelligence and automated analytics to transcribe, analyze, and categorize the content of those calls, and stores the resulting call data. It can use the collected data for its own purposes beyond merely providing a recording service, including ongoing machine-learning\u2013driven analysis of caller behavior and call content, all allegedly without obtaining consent from all parties to the calls.": 1,
+    "Peloton\u2019s website used an embedded chat software provided by Drift. Plaintiffs allege that Drift intercepted and recorded users\u2019 chat communications and used those data to enhance and train its artificial intelligence technologies that power the chat system and related analytics.": 1,
+    "Automated chat \u2018bots\u2019 deployed on the Ashley Madison website to mimic real users and interact with customers. Plaintiffs allege Avid Dating Life, Inc. used these AI-like automated profiles to simulate human activity and induce users to engage and spend money on the site.": 1,
+    "Cleveland State University used an online remote exam proctoring system that incorporated AI-enabled proctoring tools to monitor students during tests. The system facilitated virtual room scans via students\u2019 webcams before exams to check for potential cheating or unauthorized materials, although the specific room scan itself was not AI-driven but part of the broader AI-assisted proctoring platform.": 1,
+    "Plaintiff alleges defendants \"exploited her using artificial intelligence\" by creating an account in her name on an online gaming platform and selling her identity on the dark web. The filings do not identify a specific AI product or vendor; AI is described generally as technology used to facilitate identity exploitation and online account creation/sale.": 1,
+    "transcription ai": 1,
+    "Plaintiff alleges that defendants \"used artificial intelligence and other technologies\" to harass her and to sell or exploit her identity online. The complaint does not identify a specific AI product or vendor, but generally claims that AI tools and related technologies were deployed to target, monitor, and commercially misuse her personal identity.": 1,
+    "generative ai": 1,
+    "Meta Platforms Inc.\u2019s AI technology allegedly used to intercept, analyze, and monetize the plaintiff\u2019s electronic communications between 2015 and 2021 (e.g., AI-driven systems for processing user messages and serving targeted advertising).": 1
+  }
+}
