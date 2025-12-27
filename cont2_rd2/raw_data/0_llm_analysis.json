@@ -1,0 +1,22 @@
+{
+  "total_cases": 161,
+  "plaintiff_types": {
+    "individual": 103,
+    "company": 50,
+    "government": 8
+  },
+  "defendant_types": {
+    "company": 60,
+    "individual": 60,
+    "government": 41
+  },
+  "tech_types": {
+    "Stable Diffusion": 3,
+    "GitHub Copilot": 1,
+    "generative ai": 2,
+    "Llama": 1,
+    "null": 148,
+    "Clearview": 4,
+    "Copilot": 2
+  }
+}
