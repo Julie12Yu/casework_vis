@@ -9,7 +9,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-NAME = "privacy"
+CURR_CATEGORY = "government entity"
 
 INPUT_PATH = f"raw_data/base_raw/relevant_cases_breakdown.json"
 OUTPUT_PATH = f"raw_data/specific_all_analysis.json"
@@ -388,18 +388,19 @@ def extract_ai_tech_type(description):
 def analyze_actors(cases):
     plaintiff_types = Counter()
     defendant_types = Counter()
-    plaintiff_categories = Counter()
-    defendant_categories = Counter()
     tech_types = Counter()
     total_ip = 0
     total_antitrust = 0
     total_consumerprotection = 0
-
-    simplified_output = []
+    total_tort = 0
+    total_privacy = 0
+    plaintiff_total_ip = 0
+    plaintiff_total_antitrust = 0
+    plaintiff_total_consumerprotection = 0
+    plaintiff_total_tort = 0
+    plaintiff_total_privacy = 0
 
     for case in cases:
-        case_name = case.get("case_id", "")
-
         plaintiff = case.get("plaintiff", "")
         defendant = case.get("defendant", "")
         raw_tech_used = case.get("core_ai_system", "")
@@ -424,45 +425,55 @@ def analyze_actors(cases):
         plaintiff_types[plaintiff_raw_type] += 1
         defendant_types[defendant_raw_type] += 1
 
-        if plaintiff_raw_type == "corporation(s)":
-            # ---- Store per-case result ----
-            simplified_output.append({
-                "title": case_name,
-                "plaintiff_raw": p_entity_type,
-                "plaintiff_category": plaintiff_raw_type,
-                "defendant_raw": d_entity_type,
-                "defendant_category": defendant_raw_type,
-                "tech_raw": raw_tech_used,
-                "tech_category": text,
-                "plaintiff_arg_labels": plaintiff_arg_labels,
-                "defendant_arg_labels": defendant_arg_labels,
-            })
-
-            if "IP Law" in plaintiff_arg_labels or "IP Law" in defendant_arg_labels:
+        if defendant_raw_type == CURR_CATEGORY:
+            if "IP Law" in defendant_arg_labels:
                 total_ip += 1
 
-            if "Antitrust" in plaintiff_arg_labels or "Antitrust" in defendant_arg_labels:
+            if "Antitrust" in defendant_arg_labels:
                 total_antitrust += 1
 
-            if "Consumer Protection" in plaintiff_arg_labels or "Consumer Protection" in defendant_arg_labels:
+            if "Consumer Protection" in defendant_arg_labels:
                 total_consumerprotection += 1
 
-    final_data = {
-        "total_cases": len(cases),
-        "plaintiff_types": dict(plaintiff_types),
-        "defendant_types": dict(defendant_types),
-        "tech_types": dict(tech_types)
-    }
+            if "Tort" in defendant_arg_labels:
+                total_tort += 1
 
-    cases_new = {
-        "cases": simplified_output
-    }
+            if "Privacy and Data Protection" in defendant_arg_labels:
+                total_privacy += 1
 
+        if plaintiff_raw_type == CURR_CATEGORY:
+
+            if "IP Law" in plaintiff_arg_labels:
+                plaintiff_total_ip += 1
+
+            if "Antitrust" in plaintiff_arg_labels:
+                plaintiff_total_antitrust += 1
+
+            if "Consumer Protection" in plaintiff_arg_labels:
+                plaintiff_total_consumerprotection += 1
+
+            if "Tort" in plaintiff_arg_labels:
+                plaintiff_total_tort += 1
+
+            if "Privacy and Data Protection" in plaintiff_arg_labels:
+                plaintiff_total_privacy += 1
+
+    print("=" * 70)
+    print("PLAINTIFF NUMBERS\n")
+    print(f"TOTAL IP LAW CASES (either side contains): {plaintiff_total_ip}")
+    print(f"TOTAL ANTITRUST CASES (either side contains): {plaintiff_total_antitrust}")
+    print(f"TOTAL consumer protection CASES (either side contains): {plaintiff_total_consumerprotection}")
+    print(f"TOTAL tort CASES (either side contains): {plaintiff_total_tort}")
+    print(f"TOTAL PRIVACY CASES (either side contains): {plaintiff_total_privacy}")
+
+    print("=" * 70)
+    print("DEFENDANT NUMBERS\n")
     print(f"TOTAL IP LAW CASES (either side contains): {total_ip}")
     print(f"TOTAL ANTITRUST CASES (either side contains): {total_antitrust}")
     print(f"TOTAL consumer protection CASES (either side contains): {total_consumerprotection}")
+    print(f"TOTAL tort CASES (either side contains): {total_tort}")
+    print(f"TOTAL PRIVACY CASES (either side contains): {total_privacy}")
 
-    return final_data, cases_new
 
 
 def main():
@@ -476,14 +487,7 @@ def main():
 
     print(f"✓ Loaded {len(cases)} cases")
 
-    final_data, cases_new = analyze_actors(cases)
-
-    # Save output
-    with open(OUTPUT_PATH, "w") as f:
-        json.dump(final_data, f, indent=2)
-
-    with open(OUTPUT_PATH_2, "w") as f:
-        json.dump(cases_new, f, indent=2)
+    analyze_actors(cases)
 
     print(f"✓ Completed successfully.")
 
