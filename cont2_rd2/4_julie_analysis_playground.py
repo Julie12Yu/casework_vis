@@ -9,7 +9,7 @@ from rake_nltk import Rake
 nlp = spacy.load("en_core_web_sm")
 rake = Rake()
 
-CURR_CATEGORY = "government entity"
+CURR_CATEGORY = "individual"
 
 INPUT_PATH = f"raw_data/base_raw/relevant_cases_breakdown.json"
 
