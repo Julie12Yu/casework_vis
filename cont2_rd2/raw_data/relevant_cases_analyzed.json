@@ -208,7 +208,7 @@
       "defendant_raw": "Technology company providing AI-driven property risk analytics accused of infringing Aon\u2019s machine-learning risk assessment patents.",
       "defendant_category": "corporation(s)",
       "tech_raw": "Patented machine-learning system that uses two independently trained classifiers to analyze aerial photographs of properties\u2014each classifier evaluating different property features\u2014to assess and quantify property risk for insurance and related applications.",
-      "tech_category": "algorithms",
+      "tech_category": "ai patent / ip",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -338,7 +338,7 @@
       "defendant_raw": "Technology company providing AI-driven hiring and applicant screening software",
       "defendant_category": "corporation(s)",
       "tech_raw": "Workday, Inc.\u2019s AI-based applicant recommendation and screening system used in hiring processes, which allegedly relies on automated algorithms to evaluate job applications and recommend or filter candidates, and is claimed to cause disparate impact against applicants over forty (as well as by race and disability).",
-      "tech_category": "algorithms",
+      "tech_category": "Workday, Inc.\u2019s AI-based applicant recommendation and screening system used in hiring processes, which allegedly relies on automated algorithms to evaluate job applications and recommend or filter candidates, and is claimed to cause disparate impact against applicants over forty (as well as by race and disability).",
       "plaintiff_arg_labels": [
         "Justice and Equity"
       ],
@@ -414,7 +414,7 @@
       "defendant_raw": "technology company",
       "defendant_category": "corporation(s)",
       "tech_raw": "Meta\u2019s automated, artificial-intelligence-based systems used to review and reject advertisements on its platform, including ad review algorithms that evaluate and block ads such as those placed by the plaintiff.",
-      "tech_category": "algorithms",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "Consumer Protection"
       ],
@@ -587,7 +587,7 @@
       "defendant_raw": "corporations",
       "defendant_category": "corporation(s)",
       "tech_raw": "Automated data collection and sharing systems embedded in the Flo Period and Ovulation Tracker mobile app, including software development kits (SDKs) that algorithmically processed and transmitted users\u2019 menstrual and pregnancy data to Meta Platforms and Google for analytics and advertising purposes.",
-      "tech_category": "algorithms",
+      "tech_category": "Automated data collection and sharing systems embedded in the Flo Period and Ovulation Tracker mobile app, including software development kits (SDKs) that algorithmically processed and transmitted users\u2019 menstrual and pregnancy data to Meta Platforms and Google for analytics and advertising purposes.",
       "plaintiff_arg_labels": [
         "Privacy and Data Protection",
         "Consumer Protection"
@@ -604,7 +604,7 @@
       "defendant_raw": "Corporations",
       "defendant_category": "corporation(s)",
       "tech_raw": "YouTube\u2019s automated, algorithmic content moderation and recommendation systems used to restrict, demonetize, and distribute user-uploaded videos.",
-      "tech_category": "platform moderation",
+      "tech_category": "recommendation",
       "plaintiff_arg_labels": [
         "Justice and Equity",
         "Consumer Protection",
@@ -709,7 +709,7 @@
       "defendant_raw": "public technology-enabled real estate company and associated executives/underwriters accused of making misleading statements about its algorithm and business model in securities offerings",
       "defendant_category": "individual",
       "tech_raw": "Opendoor Technologies\u2019 proprietary home-pricing and forecasting algorithm used in its iBuying business model to estimate current and future home values and automate purchase and sale decisions.",
-      "tech_category": "algorithms",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "Consumer Protection"
       ],
@@ -741,7 +741,7 @@
       "defendant_raw": "Former employees and competing autonomous vehicle technology companies allegedly using misappropriated trade secrets",
       "defendant_category": "corporation(s)",
       "tech_raw": "Autonomous vehicle software and related technology for self-driving cars developed by WeRide Corp., including proprietary algorithms and code used to operate autonomous driving systems.",
-      "tech_category": "algorithms",
+      "tech_category": "autonomous/vehicle ai",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -788,7 +788,7 @@
       "defendant_raw": "consumer audio electronics manufacturers and technology companies accused of infringing ear-worn technology patents",
       "defendant_category": "corporation(s)",
       "tech_raw": "Ear-worn audio technology that performs intelligent data processing for sound processing and personalized sound management, incorporating AI-based processing as part of the patented inventions.",
-      "tech_category": "algorithms",
+      "tech_category": "ai patent / ip",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -897,7 +897,7 @@
       "defendant_raw": "technology company and healthcare provider/research institution",
       "defendant_category": "corporation(s)",
       "tech_raw": "AI-based software developed in a research collaboration between Google and the University of Chicago to analyze anonymized patient medical data and predict healthcare needs.",
-      "tech_category": "algorithms",
+      "tech_category": "AI-based software developed in a research collaboration between Google and the University of Chicago to analyze anonymized patient medical data and predict healthcare needs.",
       "plaintiff_arg_labels": [
         "Privacy and Data Protection",
         "Tort",
@@ -916,7 +916,7 @@
       "defendant_raw": "Technology-driven real estate company using an AI-powered platform to connect buyers with homes",
       "defendant_category": "platform(s)",
       "tech_raw": "Defendant Rex Real Estate Exchange, Inc. operates an online real estate platform that uses artificial intelligence to connect home buyers with properties, automating aspects of matching buyers to homes.",
-      "tech_category": "Defendant Rex Real Estate Exchange, Inc. operates an online real estate platform that uses artificial intelligence to connect home buyers with properties, automating aspects of matching buyers to homes.",
+      "tech_category": "recommendation",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -1117,7 +1117,7 @@
       "defendant_raw": "insurance company",
       "defendant_category": "corporation(s)",
       "tech_raw": "AI-enhanced predictive weather modeling system that combines 3-D storm simulations with radar and observational data to reconstruct and analyze storm events.",
-      "tech_category": "algorithms",
+      "tech_category": "AI-enhanced predictive weather modeling system that combines 3-D storm simulations with radar and observational data to reconstruct and analyze storm events.",
       "plaintiff_arg_labels": [
         "Unrelated"
       ],
@@ -1162,7 +1162,7 @@
       "defendant_raw": "corporate provider of AI-based customized skincare and acne treatment products",
       "defendant_category": "corporation(s)",
       "tech_raw": "Defendant MDalgorithms, Inc. uses an AI-driven system that analyzes users\u2019 skin conditions and customizes skincare and acne treatment products based on that analysis. The court noted that this AI technology was used to personalize skincare but did not contribute to consumer confusion between the parties\u2019 products.",
-      "tech_category": "algorithms",
+      "tech_category": "recommendation",
       "plaintiff_arg_labels": [
         "IP Law",
         "Consumer Protection"
@@ -1251,7 +1251,7 @@
       "defendant_raw": "Software company providing the Dr. Mo AI-related software",
       "defendant_category": "corporation(s)",
       "tech_raw": "\"Dr. Mo\" predictive analytics / AI-related software licensed by Soft10, Inc. and used and sublicensed by Findability Sciences, Inc.",
-      "tech_category": "algorithms",
+      "tech_category": "\"Dr. Mo\" predictive analytics / AI-related software licensed by Soft10, Inc. and used and sublicensed by Findability Sciences, Inc.",
       "plaintiff_arg_labels": [
         "IP Law",
         "Consumer Protection"
@@ -1358,7 +1358,7 @@
       "defendant_raw": "Technology company and its corporate officers",
       "defendant_category": "corporation(s)",
       "tech_raw": "Meta Platforms, Inc.\u2019s automated, algorithmic content moderation and recommendation systems on Facebook and Instagram, including the cross-check system and algorithms used to moderate and surface content and their alleged impact on young users\u2019 mental health.",
-      "tech_category": "platform moderation",
+      "tech_category": "recommendation",
       "plaintiff_arg_labels": [
         "Tort",
         "Justice and Equity",
@@ -1467,7 +1467,7 @@
       "defendant_raw": "technology companies",
       "defendant_category": "corporation(s)",
       "tech_raw": "TikTok\u2019s data-driven recommendation and content-distribution platform, which collects and processes user data and may employ algorithmic and AI-based systems for personalization and data usage.",
-      "tech_category": "algorithms",
+      "tech_category": "recommendation",
       "plaintiff_arg_labels": [
         "Privacy and Data Protection",
         "Consumer Protection"
@@ -1608,7 +1608,7 @@
       "defendant_raw": "technology company providing machine learning and predictive analytics software accused of patent infringement",
       "defendant_category": "corporation(s)",
       "tech_raw": "An automated predictive analytics system that uses artificial intelligence and machine learning to automate the creation of predictive models, described in U.S. Patent No. 8,880,446 as an automated predictive analytics factory implemented on a generic computer.",
-      "tech_category": "algorithms",
+      "tech_category": "ai patent / ip",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -1764,7 +1764,7 @@
       "defendant_raw": "Technology company providing software products for sales or CRM-related analytics",
       "defendant_category": "corporation(s)",
       "tech_raw": "Software products involving data analytics and CRM systems that use machine learning to analyze and manage customer relationship data.",
-      "tech_category": "algorithms",
+      "tech_category": "enterprise ai",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -2123,7 +2123,7 @@
       "defendant_raw": "technology company specializing in GPUs and AI/ML hardware and software",
       "defendant_category": "corporation(s)",
       "tech_raw": "NVIDIA\u2019s proprietary technology related to artificial intelligence and machine learning, including non-public machine learning models, algorithm specifications, and associated source code used in its products and services.",
-      "tech_category": "algorithms",
+      "tech_category": "NVIDIA\u2019s proprietary technology related to artificial intelligence and machine learning, including non-public machine learning models, algorithm specifications, and associated source code used in its products and services.",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -2138,7 +2138,7 @@
       "defendant_raw": "corporation",
       "defendant_category": "corporation(s)",
       "tech_raw": "Lytx\u2019s DriveCam system using machine vision and artificial intelligence (MV+AI) to monitor drivers and predict distracted driving behaviors by analyzing video and related data.",
-      "tech_category": "algorithms",
+      "tech_category": "Lytx\u2019s DriveCam system using machine vision and artificial intelligence (MV+AI) to monitor drivers and predict distracted driving behaviors by analyzing video and related data.",
       "plaintiff_arg_labels": [
         "Privacy and Data Protection"
       ],
@@ -2170,7 +2170,7 @@
       "defendant_raw": "Former employee and his new competing finance/accounting services company",
       "defendant_category": "corporation(s)",
       "tech_raw": "Paro operates an AI-powered finance and accounting solutions marketplace that uses artificial intelligence to match businesses with finance and accounting professionals and to support related financial services.",
-      "tech_category": "Paro operates an AI-powered finance and accounting solutions marketplace that uses artificial intelligence to match businesses with finance and accounting professionals and to support related financial services.",
+      "tech_category": "recommendation",
       "plaintiff_arg_labels": [
         "Unrelated"
       ],
@@ -2540,7 +2540,7 @@
       "defendant_raw": "Individual investment manager and his investment advisory/asset management firm alleged to have operated a Ponzi scheme using purported AI-based high-frequency trading models",
       "defendant_category": "individual",
       "tech_raw": "Defendants represented to investors that they used \"artificial intelligence-based high-frequency trading models\" to trade securities and generate returns, though the SEC alleges these AI-based trading models were part of a fraudulent Ponzi scheme solicitation.",
-      "tech_category": "decision",
+      "tech_category": "Defendants represented to investors that they used \"artificial intelligence-based high-frequency trading models\" to trade securities and generate returns, though the SEC alleges these AI-based trading models were part of a fraudulent Ponzi scheme solicitation.",
       "plaintiff_arg_labels": [
         "Consumer Protection"
       ],
@@ -2555,7 +2555,7 @@
       "defendant_raw": "Technology and data services company accused of misrepresenting its AI technology in connection with publicly traded securities",
       "defendant_category": "corporation(s)",
       "tech_raw": "Content-annotation and data-labeling automation using machine-learning pipelines",
-      "tech_category": "Content-annotation and data-labeling automation using machine-learning pipelines",
+      "tech_category": "recommendation",
       "plaintiff_arg_labels": [
         "Consumer Protection"
       ],
@@ -2677,7 +2677,7 @@
       "defendant_raw": "Federal government agencies responsible for airport security and passenger screening technologies",
       "defendant_category": "government entity",
       "tech_raw": "Transportation Security Administration\u2019s Advanced Imaging Technology (AIT) scanners using Automatic Target Recognition (ATR) software to algorithmically detect anomalies on passengers\u2019 bodies during airport security screening.",
-      "tech_category": "algorithms",
+      "tech_category": "Transportation Security Administration\u2019s Advanced Imaging Technology (AIT) scanners using Automatic Target Recognition (ATR) software to algorithmically detect anomalies on passengers\u2019 bodies during airport security screening.",
       "plaintiff_arg_labels": [
         "Justice and Equity"
       ],
@@ -2913,7 +2913,7 @@
       "defendant_raw": "Technology company operating Facebook and related automated advertising systems",
       "defendant_category": "corporation(s)",
       "tech_raw": "Meta\u2019s automated, algorithmic advertising tools on Facebook, including systems powered by artificial intelligence that help create, target, and distribute ads and dynamically generate or place scam advertisements using Dr. Forrest\u2019s likeness.",
-      "tech_category": "algorithms",
+      "tech_category": "Meta\u2019s automated, algorithmic advertising tools on Facebook, including systems powered by artificial intelligence that help create, target, and distribute ads and dynamically generate or place scam advertisements using Dr. Forrest\u2019s likeness.",
       "plaintiff_arg_labels": [
         "Tort",
         "Consumer Protection"
@@ -2990,7 +2990,7 @@
       "defendant_raw": "",
       "defendant_category": "",
       "tech_raw": "Artificial intelligence technology developed by Loop AI Labs Inc., including its AI-based methods, algorithms, and related trade secret technology for AI applications.",
-      "tech_category": "algorithms",
+      "tech_category": "Artificial intelligence technology developed by Loop AI Labs Inc., including its AI-based methods, algorithms, and related trade secret technology for AI applications.",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -3135,7 +3135,7 @@
       "defendant_raw": "Federal government and military procurement authority",
       "defendant_category": "individual",
       "tech_raw": "AI/ML (artificial intelligence and machine learning) technologies and solutions proposed by PredictiveIQ LLC under the Air Force Small Business Innovation Research (SBIR) Program\u2019s Commercial Solutions Opening (CSO), involving fast-evolving AI/ML capabilities for defense-related applications.",
-      "tech_category": "algorithms",
+      "tech_category": "AI/ML (artificial intelligence and machine learning) technologies and solutions proposed by PredictiveIQ LLC under the Air Force Small Business Innovation Research (SBIR) Program\u2019s Commercial Solutions Opening (CSO), involving fast-evolving AI/ML capabilities for defense-related applications.",
       "plaintiff_arg_labels": [],
       "defendant_arg_labels": []
     },
@@ -3240,7 +3240,7 @@
       "defendant_raw": "technology-driven real estate company using AI and data-based tools to match home buyers with properties",
       "defendant_category": "corporation(s)",
       "tech_raw": "Rex Real Estate Exchange, Inc. used an AI- and data-based technology platform to match home buyers with properties.",
-      "tech_category": "Rex Real Estate Exchange, Inc. used an AI- and data-based technology platform to match home buyers with properties.",
+      "tech_category": "recommendation",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -3404,7 +3404,7 @@
       "defendant_raw": "Polish software company providing AI-driven recruitment and talent identification services",
       "defendant_category": "corporation(s)",
       "tech_raw": "Recruitment software developed by Toolbox for HR that uses artificial intelligence to identify technology professionals who are likely to change jobs, supporting the \"CV Timeline\" domain and related services.",
-      "tech_category": "algorithms",
+      "tech_category": "Recruitment software developed by Toolbox for HR that uses artificial intelligence to identify technology professionals who are likely to change jobs, supporting the \"CV Timeline\" domain and related services.",
       "plaintiff_arg_labels": [
         "IP Law"
       ],
@@ -3419,7 +3419,7 @@
       "defendant_raw": "business entity",
       "defendant_category": "corporation(s)",
       "tech_raw": "hiring decision assisting ai",
-      "tech_category": "ai hiring & screening",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "Unrelated"
       ],
@@ -3464,7 +3464,7 @@
       "defendant_raw": "Corporate employer and related corporate entities involved in hiring practices",
       "defendant_category": "corporation(s)",
       "tech_raw": "HireVue video-interview technology that uses artificial intelligence to analyze applicants\u2019 video responses and generate employability scores, allegedly functioning as a lie detector test during CVS\u2019s hiring process.",
-      "tech_category": "ai hiring & screening",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "Tort",
         "Justice and Equity",
@@ -3498,7 +3498,7 @@
       "defendant_raw": "technology company developing AI-driven investment analysis software",
       "defendant_category": "corporation(s)",
       "tech_raw": "A software platform developed by the defendants that employs artificial intelligence to evaluate investment opportunities, including mergers and acquisitions.",
-      "tech_category": "A software platform developed by the defendants that employs artificial intelligence to evaluate investment opportunities, including mergers and acquisitions.",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "Consumer Protection"
       ],
@@ -3938,7 +3938,7 @@
       "defendant_raw": "corporation",
       "defendant_category": "corporation(s)",
       "tech_raw": "Claims-review predictive model scoring medical necessity",
-      "tech_category": "algorithms",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "Tort",
         "Consumer Protection"
@@ -3954,7 +3954,7 @@
       "defendant_raw": "corporation",
       "defendant_category": "corporation(s)",
       "tech_raw": "Claims-review predictive model scoring medical necessity",
-      "tech_category": "algorithms",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "Tort",
         "Consumer Protection"
@@ -4067,7 +4067,7 @@
       "defendant_raw": "Health insurance and healthcare management corporations that allegedly used an AI tool to make coverage decisions",
       "defendant_category": "corporation(s)",
       "tech_raw": "An AI-driven coverage determination tool called nH Predict, allegedly used in place of human medical directors to make or guide medical coverage decisions under insurance agreements.",
-      "tech_category": "algorithms",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "Tort",
         "Consumer Protection"
@@ -4145,7 +4145,7 @@
       "defendant_raw": "Technology company that develops and offers an AI-based image analysis system for generating vehicle damage and repair cost estimates from photos.",
       "defendant_category": "corporation(s)",
       "tech_raw": "Tractable\u2019s artificial intelligence system that analyzes photographs of vehicle damage to generate real-time repair cost estimates, in contrast to CCC\u2019s CCC ONE software, which requires physical inspection by human appraisers.",
-      "tech_category": "Tractable\u2019s artificial intelligence system that analyzes photographs of vehicle damage to generate real-time repair cost estimates, in contrast to CCC\u2019s CCC ONE software, which requires physical inspection by human appraisers.",
+      "tech_category": "decision",
       "plaintiff_arg_labels": [
         "IP Law",
         "Consumer Protection"
@@ -4209,7 +4209,7 @@
       "defendant_raw": "Recruiting and legal search firm and related corporate defendants",
       "defendant_category": "corporation(s)",
       "tech_raw": "Alleged algorithmic hiring and resume-screening tools used in recruitment that purportedly discriminated against women with employment gaps.",
-      "tech_category": "algorithms",
+      "tech_category": "Alleged algorithmic hiring and resume-screening tools used in recruitment that purportedly discriminated against women with employment gaps.",
       "plaintiff_arg_labels": [
         "Justice and Equity"
       ],

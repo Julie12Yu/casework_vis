@@ -249,7 +249,7 @@ def extract_ai_tech_type(description):
             "harassment detection", "abusive content classifier",
             "child safety classifier", "csam detection", "ai moderation"
         ]):
-            return "platform moderation"
+            return "recommendation"
         
         # AI hiring & employment screening
         if any(k in t for k in [
@@ -257,33 +257,89 @@ def extract_ai_tech_type(description):
             "interview analytics", "resume screening", "talent screening",
             "hiring ai"
         ]):
-            return "ai hiring & screening"
-
-        # --- DECISION / RISK / ELIGIBILITY SYSTEMS (decision) ---
-        if any(k in t for k in [
-            "risk scoring", "risk assessment", "risk model",
-            "underwriting", "credit scoring", "loan decisioning",
-            "mortgage system", "eligibility determination",
-            "benefit-decision models", "pricing optimization",
-            "fraud detection", "predictive fraud modeling",
-            "decision model", "ai-driven government program",
-            "trading model", "forex trading", "high-frequency trading"
-        ]):
             return "decision"
 
-        # --- GENERIC ALGORITHMIC / ANALYTICAL AI (fallback) ---
-        if any(k in t for k in [
-            "algorithm", "algorithms", "algorithmic", "algorithmic decision-making",
-            "predictive", "predict", "machine-learning models", "ml workloads",
-            "data analytics", "sound processing", "ml-based crm",
-            "recruitment software", "hiring software",
-            "age discrimination", "disparate impact",
-            "property risk", "automated repair estimates",
-            "vehicle damage assessment", "ai-based ad fraud",
-            "ad fraud detection", "invalid traffic detection",
-            "energy optimization"
-        ]):
-            return "algorithms"
+        # --- DECISION / RISK / ELIGIBILITY SYSTEMS ---
+        decision_keywords = [
+            # financial / risk / insurance / claims
+            "risk scoring", "risk assessment", "risk model",
+            "underwriting", "credit scoring", "loan decision",
+            "loan approval", "claims adjudication", "claims review",
+            "claims denial", "medical necessity", "coverage determination",
+            "prior authorization", "insurance pricing", "actuarial model",
+            "home-pricing algorithm", "forecasting algorithm",
+            # fraud / pricing / allocation / blocking
+            "fraud detection", "fraud scoring", "predictive fraud",
+            "pricing optimization", "dynamic pricing",
+            "ad pricing", "ad distribution control",
+            "ad review", "ad rejection", "content blocking",
+            "automated moderation", "enforcement decision",
+            # resources / eligibility / government
+            "eligibility determination", "benefits eligibility",
+            "automated eligibility", "automated adjudication",
+            "visa revocation", "catch and revoke",
+            # trading / investment
+            "algorithmic trading", "trading strategy",
+            "forex trading", "automated trading",
+            "evaluate investment opportunities",
+            # healthcare / scoring / prediction tied to access
+            "coverage decision", "coverage tool", "utilization management",
+            "predictive model scoring medical necessity",
+            # safety / risk classification
+            "driver monitoring", "distracted driving prediction",
+            # damage / repair cost decisions
+            "repair cost estimate", "vehicle damage estimate",
+            # employment / screening decisions
+            "resume screening", "hiring screening", "hiring decision",
+            # content approvals that determine access, not ranking
+            "review and reject advertisements",
+            # catch-all
+            "decision engine", "decision model", "allocation system",
+            "resource allocation"
+        ]
+
+        if any(k in t for k in decision_keywords):
+            return "decision"
+
+        # --- RECOMMENDATION / RANKING / TARGETING / PERSONALIZATION ---
+        recommendation_keywords = [
+            "recommendation system", "recommendation engine",
+            "ranking system", "algorithmic ranking",
+            "content ranking", "feed ranking",
+            "news feed", "video feed", "for you page",
+            "personalization", "personalized results",
+            "suggested content", "suggested videos",
+            "content recommendation", "search ranking",
+            "auto-recommend", "auto-suggest", "curation system",
+            "product recommendations", "similar items", "users also liked",
+            "playlist generation",
+            # matching platforms
+            "match home buyers", "match buyers", "matching buyers",
+            "match businesses with", "matching professionals",
+            # targeted ads / distribution choices (not approvals)
+            "ad targeting", "optimize ad delivery",
+            "ad distribution optimization",
+            # ecommerce optimization / choosing products
+            "select profitable products", "product selection algorithm",
+            "inventory recommendation",
+            # engagement optimization
+            "optimize engagement", "optimize gameplay", "reinforce gameplay",
+            "optimize user experience",
+            # personalization in consumer services
+            "customizes skincare", "personalized skincare",
+            "personalized education", "personalized tutoring",
+            # diversity / representation controls
+            "ensure diverse content representation",
+            # content discovery tools
+            "discover content", "content discovery",
+            # real estate discovery platforms
+            "connect home buyers with properties",
+            # data labeling / annotation guidance
+            "content-annotation", "data-labeling automation"
+        ]
+
+        if any(k in t for k in recommendation_keywords):
+            return "recommendation"
 
         # AUTONOMOUS / VEHICLE AI
         if any(k in t for k in [
